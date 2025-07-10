@@ -5,8 +5,8 @@ const path = require('path');
 const base64 = require('js-base64');
 
 // Configuration
-const API_KEY = process.env.API_KEY ;
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN ;
+const API_KEY = process.env.API_KEY;
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const CRIMES_API_URL = `https://api.torn.com/v2/faction/crimes?offset=0&sort=DESC&comment=AutoTurtle&key=${API_KEY}`;
 const MEMBERS_API_URL = `https://api.torn.com/v2/faction/35840/members?striptags=true&comment=AutoTurtle&key=${API_KEY}`;
 
@@ -76,38 +76,94 @@ async function fetchData() {
   };
 }
 
-// Status Reducer
-function reduceStatus(description, details, reviveSetting) {
-  let status = '';
-  const countryMatch = description.match(/(?:In|Traveling to|Returning to Torn from|Hiding out in) (.+)/i);
-  const country = countryMatch ? countryMatch[1] : null;
+function capitalizeWords(str) {
+  return str.replace(/\b\w/g, char => char.toUpperCase());
+}
 
-  if (description.includes('Traveling to')) {
-    status = `[${country}] - Going`;
-  } else if (description.includes('Returning to Torn from')) {
-    status = `[${country}] - Returning`;
-  } else if (description.includes('Hiding out in')) {
-    status = `[${country}] - Hiding out`;
-  } else if (description.includes('In') && country) {
-    status = `[${country}] - Idle`;
-  } else if (description.includes('In a') || description.includes('In Hospital')) {
-    status = `[Hospital]`;
-    if (details) {
-      if (details.includes('Mugged')) status += ' Mugged';
-      else if (details.includes('Attacked')) status += ' Attacked';
-      else if (details.includes('Hospitalized')) status += ' Hospitalized';
-      else if (details.includes('Lost to')) status += ' Lost';
-      else status += ' Event';
+
+function reduceStatus(description, details, reviveSetting, state) {
+  let status = '';
+  const descLower = (description || '').toLowerCase();
+
+  const countryAliases = {
+    mexican: 'Mexico',
+    cayman: 'Cayman Islands',
+    caymanian: 'Cayman Islands',
+    canadian: 'Canada',
+    hawaiian: 'Hawaii',
+    british: 'United Kingdom',
+    uk: 'United Kingdom',
+    argentinian: 'Argentina',
+    argentine: 'Argentina',
+    swiss: 'Switzerland',
+    japanese: 'Japan',
+    chinese: 'China',
+    emirati: 'United Arab Emirates',
+    uae: 'United Arab Emirates',
+    southafrican: 'South Africa',
+    sa: 'South Africa'
+  };
+
+  // 🏥 Hospital-specific country extraction
+  let country = null;
+  if (descLower.includes('hospital')) {
+    // Try to extract country before "hospital"
+    const hospitalCountryMatch = description.match(/in (a |an )?([a-z\s]+) hospital/i);
+    if (hospitalCountryMatch) {
+      const raw = hospitalCountryMatch[2].trim().toLowerCase().replace(/\s+/g, '');
+      country = countryAliases[raw] || capitalizeWords(hospitalCountryMatch[2].trim());
     }
-  } else if (description.includes('In Jail')) {
-    status = 'Jail';
-  } else if (description.includes('Federal Jail')) {
-    status = 'Fedded';
-  } else if (description === 'Okay') {
-    status = 'Available';
+    if (!country) {
+      country = 'Hospital'; // fallback if no country found
+    }
+  } else {
+    // Otherwise try to extract country normally
+    for (const [alias, name] of Object.entries(countryAliases)) {
+      if (descLower.includes(alias)) {
+        country = name;
+        break;
+      }
+    }
+    if (!country) {
+      const match = description.match(/(?:Traveling to|Returning to Torn from|Hiding out in|In) ([a-z\s]+)/i);
+      if (match) {
+        const raw = match[1].trim().toLowerCase().replace(/\s+/g, '');
+        country = countryAliases[raw] || capitalizeWords(match[1].trim());
+      }
+    }
   }
 
-  if (description.toLowerCase().includes('hospital')) {
+  // 🧠 Use state to determine main activity type
+  switch (state) {
+    case 'Traveling':
+      status = `[${country || 'Traveling'}] - Going`;
+      break;
+    case 'Abroad':
+      status = `[${country || 'Abroad'}] - Idle`;
+      break;
+    case 'Hospital':
+      status = `[${country || 'Hospital'}]`;
+      if (details) {
+        if (details.includes('Mugged')) status += ' Mugged';
+        else if (details.includes('Attacked')) status += ' Attacked';
+        else if (details.includes('Hospitalized')) status += ' Hospitalized';
+        else if (details.includes('Lost to')) status += ' Lost';
+        else status += ' Event';
+      }
+      break;
+    case 'Jail':
+      status = 'Jail';
+      break;
+    case 'Okay':
+      status = 'Available';
+      break;
+    default:
+      if (descLower.includes('federal jail')) status = 'Fedded';
+      else status = 'Unknown';
+  }
+
+  // ➕ Add revive tag if hospitalized
+  if (state === 'Hospital') {
     if (reviveSetting === 'Everyone') status += ' - Revives: ALL';
     else if (reviveSetting === 'No one') status += ' - Revives: OFF';
     else status += ' - Revives: Partial';
@@ -115,6 +171,13 @@ function reduceStatus(description, details, reviveSetting) {
 
   return status;
 }
+
+
+
+
+
+
+
 
 // Update JSON DB
 function updateDatabase(db, members, crimes) {
@@ -131,7 +194,13 @@ function updateDatabase(db, members, crimes) {
       const member = members.find(m => m.id === userId);
       if (!member) return;
 
-      const reducedStatus = reduceStatus(member.status.description, member.status.details, member.revive_setting);
+      const reducedStatus = reduceStatus(
+  member.status.description,
+  member.status.details,
+  member.revive_setting,
+  member.status.state
+);
+
 
       if (!newDB[userId]) {
         newDB[userId] = {
