@@ -236,6 +236,10 @@ function updateDatabase(db, members, crimes) {
 // Main Function
 (async function run() {
   try {
+    const delay = Math.floor(Math.random() * 60 * 1000);
+    console.log(`Waiting ${delay / 1000} seconds before starting...`);
+    await new Promise(res => setTimeout(res, delay));
+
     const { crimes, members } = await fetchData();
     const { content: db, sha } = await getGithubFile();
     const updated = updateDatabase(db, members, crimes);
@@ -244,3 +248,4 @@ function updateDatabase(db, members, crimes) {
     console.error('Error running script:', e);
   }
 })();
+
