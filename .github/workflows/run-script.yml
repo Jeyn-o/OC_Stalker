@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Run your script
-        run: node pc-stalker.js
+        run: node oc-stalker.js
         env:
           API_KEY: ${{ secrets.TORN_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
