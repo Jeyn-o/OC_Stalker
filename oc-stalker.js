@@ -240,6 +240,8 @@ function updateDatabase(db, members, crimes) {
     console.log(`Waiting ${delay / 1000} seconds before starting...`);
     await new Promise(res => setTimeout(res, delay));
 
+    console.log(`Ran script at ${new Date()}`);
+
     const { crimes, members } = await fetchData();
     const { content: db, sha } = await getGithubFile();
     const updated = updateDatabase(db, members, crimes);
