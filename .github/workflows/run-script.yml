@@ -2,7 +2,7 @@ name: Run OC Tracker
 
 on:
   schedule:
-    - cron: "*/5 * * * *"  # Every 5 minutes
+    - cron: "*/10 * * * *"  # Every 5 minutes
   workflow_dispatch:      # Lets you manually trigger it from GitHub
 
 jobs:
