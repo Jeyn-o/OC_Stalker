@@ -70,7 +70,7 @@ async function uploadToGithub(path, content, sha) {
 
   const result = await res.json();
   if (result.commit) {
-    console.log(`✅ Uploaded ${path} successfully.`);
+    (`✅ Uploaded ${path} successfully.`);
   } else {
     console.error(`❌ Failed to upload ${path}:`, result);
   }
@@ -91,7 +91,7 @@ async function loadDb(fileKey) {
 }
 
 async function saveDb(fileKey, data) {
-  console.log(`🔍 saveDb called with key: "${fileKey}"`);
+  (`🔍 saveDb called with key: "${fileKey}"`);
   const filePath = local_testing ? LOCAL_PATHS[fileKey] : GITHUB_PATHS[fileKey];
 
   if (!filePath) {
@@ -100,7 +100,7 @@ async function saveDb(fileKey, data) {
 
   if (local_testing) {
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-    console.log(`💾 Saved ${fileKey} locally to ${filePath}`);
+    (`💾 Saved ${fileKey} locally to ${filePath}`);
   } else {
     const { sha } = await getGithubFile(filePath);
     await uploadToGithub(filePath, data, sha);
@@ -379,7 +379,7 @@ function updateNaughtyList(naughtyDb, crimesDb, userDb) {
       for (const [uid, acts] of Object.entries(userTimelines)) {
         const act = acts.find(a => a.start <= t && (!a.end || a.end >= t));
         const status = act?.status;
-console.log(`status: ${status}`);
+//console.log(`status: ${status}`);
         const isAvailable = status === 'Available';
 
 
