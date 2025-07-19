@@ -40,19 +40,19 @@ function capitalizeWords(str) {
   return str.replace(/\b\w/g, char => char.toUpperCase());
 }
 
-function isCrimeFinished(status) {
-  return status.toLowerCase() !== 'recruiting' && status.toLowerCase() !== 'planning';
-}
-
 // === GitHub Functions ===
 async function getGithubFile(path) {
   const res = await fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}?ref=${BRANCH}`, { headers: HEADERS });
+  if (!res.ok) {
+    throw new Error(`Failed to fetch GitHub file ${path}: ${res.status} ${res.statusText}`);
+  }
   const data = await res.json();
   return {
     sha: data.sha,
     content: JSON.parse(Buffer.from(data.content, 'base64').toString())
   };
 }
+
 
 async function uploadToGithub(path, content, sha) {
   const body = {
@@ -70,11 +70,12 @@ async function uploadToGithub(path, content, sha) {
 
   const result = await res.json();
   if (result.commit) {
-    (`✅ Uploaded ${path} successfully.`);
+    console.log(`✅ Uploaded ${path} successfully.`);
   } else {
     console.error(`❌ Failed to upload ${path}:`, result);
   }
 }
+
 
 // === FILE I/O Wrappers (Local vs GitHub) ===
 
@@ -91,7 +92,7 @@ async function loadDb(fileKey) {
 }
 
 async function saveDb(fileKey, data) {
-  (`🔍 saveDb called with key: "${fileKey}"`);
+  console.log(`🔍 saveDb called with key: "${fileKey}"`);
   const filePath = local_testing ? LOCAL_PATHS[fileKey] : GITHUB_PATHS[fileKey];
 
   if (!filePath) {
@@ -100,12 +101,14 @@ async function saveDb(fileKey, data) {
 
   if (local_testing) {
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-    (`💾 Saved ${fileKey} locally to ${filePath}`);
+    console.log(`💾 Saved ${fileKey} locally to ${filePath}`);
   } else {
     const { sha } = await getGithubFile(filePath);
     await uploadToGithub(filePath, data, sha);
+    console.log(`💾 Saved ${fileKey} to GitHub`);
   }
 }
+
 
 
 // Wrappers to call saveDb with the correct keys
