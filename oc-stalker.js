@@ -55,10 +55,19 @@ async function getGithubFile(path) {
 
 
 async function uploadToGithub(path, content, sha) {
+  const current = await getGithubFile(path);
+  const newContentStr = JSON.stringify(content, null, 2);
+  const currentContentStr = JSON.stringify(current.content, null, 2);
+
+  if (newContentStr === currentContentStr) {
+    console.log(`🟡 No changes detected in ${path}, skipping upload.`);
+    return;
+  }
+
   const body = {
     message: `Update ${path} at ${new Date().toISOString()}`,
-    content: Buffer.from(JSON.stringify(content, null, 2)).toString('base64'),
-    sha,
+    content: Buffer.from(newContentStr).toString('base64'),
+    sha: current.sha,
     branch: BRANCH
   };
 
@@ -75,6 +84,7 @@ async function uploadToGithub(path, content, sha) {
     console.error(`❌ Failed to upload ${path}:`, result);
   }
 }
+
 
 
 // === FILE I/O Wrappers (Local vs GitHub) ===
