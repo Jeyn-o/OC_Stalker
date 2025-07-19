@@ -447,7 +447,7 @@ function updateNaughtyList(naughtyDb, crimesDb, userDb) {
     console.log(`🚀 Running at ${new Date().toISOString()}`);
 
     const { members, crimes } = await fetchData();
-	//console.log(`🕵️ Fetched ${crimes.length} crimes.`);
+    console.log(`🕵️ Fetched ${crimes.length} crimes.`);
 //console.log(crimes.map(c => `${c.id}:${c.status} ready_at=${c.ready_at}, executed_at=${c.executed_at}`));
 
     const membersById = Object.fromEntries(members.map(m => [m.id, m]));
