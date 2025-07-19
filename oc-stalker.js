@@ -364,7 +364,7 @@ function updateNaughtyList(naughtyDb, crimesDb, userDb) {
       const currentStatus = acts.find(act => act.start <= start && (!act.end || act.end >= start));
       if (currentStatus && currentStatus.status !== 'Available') {
 		slackers.add(uid);
-		console.log(`currentStatus: ${currentStatus}`);
+		//console.log(`currentStatus: ${currentStatus}`);
 	  }
 
     }
