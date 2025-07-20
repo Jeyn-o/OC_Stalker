@@ -2394,10 +2394,25 @@
   "699546": {
     "name": "Best of the Lot",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1753134886,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 3760809,
+        "user_name": "RandomName1",
+        "checkpoint_pass_rate": 81
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1753048839,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3760809,
+        "user_name": "RandomName1",
+        "checkpoint_pass_rate": 81
+      }
+    ]
   },
   "699547": {
     "name": "Stage Fright",
