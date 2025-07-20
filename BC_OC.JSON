@@ -275,9 +275,9 @@
   },
   "675839": {
     "name": "Best of the Lot",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1753012016,
-    "executed_at": null,
+    "executed_at": 1753012024,
     "slots": {
       "P1": {
         "user_id": 2291737,
@@ -1397,13 +1397,18 @@
   "690182": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1753086066,
+    "ready_at": 1753172466,
     "executed_at": null,
     "slots": {
       "P3": {
         "user_id": 2250222,
         "user_name": "Ronskip",
         "checkpoint_pass_rate": 70
+      },
+      "P1": {
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 74
       }
     },
     "action_log": [
@@ -1414,6 +1419,14 @@
         "user_id": 2250222,
         "user_name": "Ronskip",
         "checkpoint_pass_rate": 70
+      },
+      {
+        "timestamp": 1753012231,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 74
       }
     ]
   },
