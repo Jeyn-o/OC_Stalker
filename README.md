@@ -1,4 +1,4 @@
-OC Stalker periodically fetches data about faction members and faction crimes through the use of 2 API v2 calls with minimal access.
+OC Stalker periodically fetches data about faction members and faction crimes through the use of 2 API v2 calls with minimal access.<br>
 Member actions are updated every 10 minutes, crime data every 30 minutes.
 Data is currently being stored indefinitely, although a later version will purge old records automatically.
 The data is publicly accessibly through this GitHub repository, free for anyone to view the raw code.
