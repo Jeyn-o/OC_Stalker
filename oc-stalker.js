@@ -499,7 +499,7 @@ function updateNaughtyList(naughtyDb, crimesDb, userDb) {
       const updatedNaughty = updateNaughtyList(naughtyDb, updatedCrimes, updatedUsers);
       await saveDb('naughtyDb', updatedNaughty);
     } else {
-      console.log("⏩ Skipping crimes and naughty updates — less than 1 hour since last update.");
+      console.log("⏩ Skipping crimes and naughty updates — less than 30 minutes since last update.");
     }
 
   } catch (err) {
