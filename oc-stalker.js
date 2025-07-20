@@ -85,6 +85,21 @@ async function uploadToGithub(path, content, sha) {
   }
 }
 
+// === Time Helper from GitHub Commit ===
+async function getLastCrimeUpdateTimeFromGitHub() {
+  const res = await fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/commits?path=${GITHUB_PATHS.crimesDb}&per_page=1`, {
+    headers: HEADERS
+  });
+
+  if (!res.ok) {
+    console.warn(`⚠️ Could not fetch last commit time for ${GITHUB_PATHS.crimesDb}, assuming update is needed.`);
+    return 0;
+  }
+
+  const commits = await res.json();
+  const lastCommitTime = commits[0]?.commit?.committer?.date;
+  return lastCommitTime ? Math.floor(new Date(lastCommitTime).getTime() / 1000) : 0;
+}
 
 
 // === FILE I/O Wrappers (Local vs GitHub) ===
@@ -461,22 +476,31 @@ function updateNaughtyList(naughtyDb, crimesDb, userDb) {
 
     const { members, crimes } = await fetchData();
     console.log(`🕵️ Fetched ${crimes.length} crimes.`);
-//console.log(crimes.map(c => `${c.id}:${c.status} ready_at=${c.ready_at}, executed_at=${c.executed_at}`));
 
     const membersById = Object.fromEntries(members.map(m => [m.id, m]));
 
     const userDb = await loadDb('userDb');
-    const updatedUsers = updateActivityDatabase(userDb, members);  // <--- fixed this line
+    const updatedUsers = updateActivityDatabase(userDb, members);
     await saveDb('userDb', updatedUsers);
 
-    const crimeDb = await loadDb('crimesDb');
-    const updatedCrimes = updateCrimesDatabase(crimeDb, crimes, membersById);
-    await saveDb('crimesDb', updatedCrimes);
+    // 🔄 Only update BC_OC and BC_naughty once per half hour
+    const now = getUnixTime();
+    const lastCrimeUpdate = await getLastCrimeUpdateTimeFromGitHub();
+    const oneHour = 3600;
 
-    const naughtyDb = await loadDb('naughtyDb');
-    const updatedNaughty = updateNaughtyList(naughtyDb, updatedCrimes, updatedUsers);
+    if (now - lastCrimeUpdate >= (oneHour/2)) { //half hour
+      console.log("🕐 It's time to update crimes and naughty list.");
 
-    await saveDb('naughtyDb', updatedNaughty);
+      const crimeDb = await loadDb('crimesDb');
+      const updatedCrimes = updateCrimesDatabase(crimeDb, crimes, membersById);
+      await saveDb('crimesDb', updatedCrimes);
+
+      const naughtyDb = await loadDb('naughtyDb');
+      const updatedNaughty = updateNaughtyList(naughtyDb, updatedCrimes, updatedUsers);
+      await saveDb('naughtyDb', updatedNaughty);
+    } else {
+      console.log("⏩ Skipping crimes and naughty updates — less than 1 hour since last update.");
+    }
 
   } catch (err) {
     console.error('❌ Script error:', err);
