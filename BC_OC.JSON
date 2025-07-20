@@ -1374,13 +1374,18 @@
   "690171": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1753096582,
+    "ready_at": 1753182982,
     "executed_at": null,
     "slots": {
       "P2": {
         "user_id": 1766417,
         "user_name": "gajeela09",
         "checkpoint_pass_rate": 69
+      },
+      "P6": {
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 70
       }
     },
     "action_log": [
@@ -1391,6 +1396,14 @@
         "user_id": 1766417,
         "user_name": "gajeela09",
         "checkpoint_pass_rate": 69
+      },
+      {
+        "timestamp": 1753051229,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 70
       }
     ]
   },
@@ -2097,9 +2110,9 @@
   },
   "693822": {
     "name": "Leave No Trace",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1753050345,
-    "executed_at": null,
+    "executed_at": 1753050366,
     "slots": {
       "P1": {
         "user_id": 3449771,
@@ -2350,10 +2363,25 @@
   "699527": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1753137562,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 78
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1753051229,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 78
+      }
+    ]
   },
   "699528": {
     "name": "Honey Trap",
@@ -2394,13 +2422,18 @@
   "699546": {
     "name": "Best of the Lot",
     "status": "Recruiting",
-    "ready_at": 1753134886,
+    "ready_at": 1753221286,
     "executed_at": null,
     "slots": {
       "P1": {
         "user_id": 3760809,
         "user_name": "RandomName1",
         "checkpoint_pass_rate": 81
+      },
+      "P2": {
+        "user_id": 3161450,
+        "user_name": "Rubadubb",
+        "checkpoint_pass_rate": 86
       }
     },
     "action_log": [
@@ -2411,6 +2444,14 @@
         "user_id": 3760809,
         "user_name": "RandomName1",
         "checkpoint_pass_rate": 81
+      },
+      {
+        "timestamp": 1753051229,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3161450,
+        "user_name": "Rubadubb",
+        "checkpoint_pass_rate": 86
       }
     ]
   },
