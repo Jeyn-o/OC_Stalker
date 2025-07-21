@@ -1993,9 +1993,9 @@
   },
   "692101": {
     "name": "Leave No Trace",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1753127192,
-    "executed_at": null,
+    "executed_at": 1753127225,
     "slots": {
       "P1": {
         "user_id": 3018158,
@@ -2421,8 +2421,8 @@
   },
   "696488": {
     "name": "No Reserve",
-    "status": "Recruiting",
-    "ready_at": 1753281266,
+    "status": "Planning",
+    "ready_at": 1753367666,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -2434,6 +2434,11 @@
         "user_id": 3160215,
         "user_name": "Anri_of_Astora",
         "checkpoint_pass_rate": 82
+      },
+      "P1": {
+        "user_id": 3018158,
+        "user_name": "Stevan01",
+        "checkpoint_pass_rate": 69
       }
     },
     "action_log": [
@@ -2452,6 +2457,14 @@
         "user_id": 3160215,
         "user_name": "Anri_of_Astora",
         "checkpoint_pass_rate": 82
+      },
+      {
+        "timestamp": 1753127423,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3018158,
+        "user_name": "Stevan01",
+        "checkpoint_pass_rate": 69
       }
     ]
   },
@@ -2727,10 +2740,25 @@
   "699549": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1753213421,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3052975,
+        "user_name": "Pantas",
+        "checkpoint_pass_rate": 85
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1753127423,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3052975,
+        "user_name": "Pantas",
+        "checkpoint_pass_rate": 85
+      }
+    ]
   },
   "700893": {
     "name": "Counter Offer",
