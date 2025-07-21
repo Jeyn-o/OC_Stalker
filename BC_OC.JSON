@@ -955,9 +955,9 @@
   },
   "686974": {
     "name": "Stage Fright",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1753086881,
-    "executed_at": null,
+    "executed_at": 1753086905,
     "slots": {
       "P1": {
         "user_id": 3431519,
@@ -2578,14 +2578,24 @@
   },
   "700903": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1753146635,
+    "status": "Planning",
+    "ready_at": 1753319435,
     "executed_at": null,
     "slots": {
       "P3": {
         "user_id": 2680449,
         "user_name": "BattlePrincess",
         "checkpoint_pass_rate": 67
+      },
+      "P1": {
+        "user_id": 3301215,
+        "user_name": "Semykreen",
+        "checkpoint_pass_rate": 66
+      },
+      "P2": {
+        "user_id": 2154655,
+        "user_name": "Khana",
+        "checkpoint_pass_rate": 68
       }
     },
     "action_log": [
@@ -2596,6 +2606,22 @@
         "user_id": 2680449,
         "user_name": "BattlePrincess",
         "checkpoint_pass_rate": 67
+      },
+      {
+        "timestamp": 1753087226,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3301215,
+        "user_name": "Semykreen",
+        "checkpoint_pass_rate": 66
+      },
+      {
+        "timestamp": 1753087226,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2154655,
+        "user_name": "Khana",
+        "checkpoint_pass_rate": 68
       }
     ]
   },
