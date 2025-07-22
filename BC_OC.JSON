@@ -3001,7 +3001,7 @@
   "700918": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1753368689,
+    "ready_at": 1753282289,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -3013,11 +3013,6 @@
         "user_id": 3193353,
         "user_name": "xyicah",
         "checkpoint_pass_rate": 67
-      },
-      "P6": {
-        "user_id": 2163292,
-        "user_name": "Mihawk",
-        "checkpoint_pass_rate": 63
       }
     },
     "action_log": [
@@ -3040,6 +3035,14 @@
       {
         "timestamp": 1753140025,
         "action": "joined",
+        "slot": "P6",
+        "user_id": 2163292,
+        "user_name": "Mihawk",
+        "checkpoint_pass_rate": 63
+      },
+      {
+        "timestamp": 1753166424,
+        "action": "left",
         "slot": "P6",
         "user_id": 2163292,
         "user_name": "Mihawk",
@@ -3134,5 +3137,13 @@
         "checkpoint_pass_rate": 66
       }
     ]
+  },
+  "704782": {
+    "name": "Break the Bank",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
   }
 }
