@@ -2570,9 +2570,9 @@
   },
   "696488": {
     "name": "No Reserve",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1753367666,
-    "executed_at": null,
+    "executed_at": 1753369624,
     "slots": {
       "P3": {
         "user_id": 3292894,
@@ -2620,18 +2620,13 @@
   "698413": {
     "name": "Mob Mentality",
     "status": "Recruiting",
-    "ready_at": 1753532879,
+    "ready_at": 1753455960,
     "executed_at": null,
     "slots": {
       "P1": {
         "user_id": 3867718,
         "user_name": "NuckyT513",
         "checkpoint_pass_rate": 39
-      },
-      "P2": {
-        "user_id": 2659592,
-        "user_name": "HanXeng",
-        "checkpoint_pass_rate": 78
       },
       "P3": {
         "user_id": 3786871,
@@ -2663,6 +2658,14 @@
         "user_id": 3786871,
         "user_name": "XAN5",
         "checkpoint_pass_rate": 77
+      },
+      {
+        "timestamp": 1753370436,
+        "action": "left",
+        "slot": "P2",
+        "user_id": 2659592,
+        "user_name": "HanXeng",
+        "checkpoint_pass_rate": 78
       }
     ]
   },
@@ -3657,8 +3660,8 @@
   },
   "706459": {
     "name": "Leave No Trace",
-    "status": "Recruiting",
-    "ready_at": 1753503402,
+    "status": "Planning",
+    "ready_at": 1753589802,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -3670,6 +3673,11 @@
         "user_id": 2368458,
         "user_name": "FatFlash",
         "checkpoint_pass_rate": 81
+      },
+      "P2": {
+        "user_id": 3292894,
+        "user_name": "VEGABABY",
+        "checkpoint_pass_rate": 79
       }
     },
     "action_log": [
@@ -3688,6 +3696,14 @@
         "user_id": 2368458,
         "user_name": "FatFlash",
         "checkpoint_pass_rate": 81
+      },
+      {
+        "timestamp": 1753370436,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3292894,
+        "user_name": "VEGABABY",
+        "checkpoint_pass_rate": 79
       }
     ]
   },
@@ -3839,10 +3855,25 @@
   "707824": {
     "name": "Best of the Lot",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1753455978,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 2659592,
+        "user_name": "HanXeng",
+        "checkpoint_pass_rate": 62
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1753370436,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2659592,
+        "user_name": "HanXeng",
+        "checkpoint_pass_rate": 62
+      }
+    ]
   },
   "707825": {
     "name": "Snow Blind",
@@ -3907,6 +3938,14 @@
     ]
   },
   "709071": {
+    "name": "Bidding War",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "710681": {
     "name": "Bidding War",
     "status": "Recruiting",
     "ready_at": null,
