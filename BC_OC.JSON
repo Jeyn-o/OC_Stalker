@@ -2521,9 +2521,9 @@
   },
   "696487": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1753412560,
-    "executed_at": null,
+    "executed_at": 1753414265,
     "slots": {
       "P2": {
         "user_id": 2730718,
@@ -4078,9 +4078,24 @@
   "710681": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1753501162,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 2680449,
+        "user_name": "BattlePrincess",
+        "checkpoint_pass_rate": 71
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1753414826,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2680449,
+        "user_name": "BattlePrincess",
+        "checkpoint_pass_rate": 71
+      }
+    ]
   }
 }
