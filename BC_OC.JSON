@@ -1373,9 +1373,9 @@
   },
   "690171": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1753528582,
-    "executed_at": null,
+    "executed_at": 1753528624,
     "slots": {
       "P2": {
         "user_id": 1766417,
@@ -1461,9 +1461,9 @@
   },
   "690182": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1753518066,
-    "executed_at": null,
+    "executed_at": 1753534924,
     "slots": {
       "P3": {
         "user_id": 2250222,
@@ -3217,9 +3217,9 @@
   },
   "700902": {
     "name": "Counter Offer",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1753525071,
-    "executed_at": null,
+    "executed_at": 1753525084,
     "slots": {
       "P2": {
         "user_id": 3447443,
@@ -3341,8 +3341,8 @@
   },
   "700917": {
     "name": "Blast from the Past",
-    "status": "Recruiting",
-    "ready_at": 1753671280,
+    "status": "Planning",
+    "ready_at": 1753757680,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -3369,6 +3369,11 @@
         "user_id": 2937449,
         "user_name": "Piraterer",
         "checkpoint_pass_rate": 66
+      },
+      "P5": {
+        "user_id": 2679269,
+        "user_name": "TsanMan",
+        "checkpoint_pass_rate": 72
       }
     },
     "action_log": [
@@ -3411,6 +3416,14 @@
         "user_id": 2937449,
         "user_name": "Piraterer",
         "checkpoint_pass_rate": 66
+      },
+      {
+        "timestamp": 1753555825,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2679269,
+        "user_name": "TsanMan",
+        "checkpoint_pass_rate": 72
       }
     ]
   },
@@ -3624,8 +3637,8 @@
   },
   "704782": {
     "name": "Break the Bank",
-    "status": "Recruiting",
-    "ready_at": 1753622540,
+    "status": "Planning",
+    "ready_at": 1753708940,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -3652,6 +3665,11 @@
         "user_id": 2427687,
         "user_name": "Jubjub82180",
         "checkpoint_pass_rate": 61
+      },
+      "P3": {
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 59
       }
     },
     "action_log": [
@@ -3694,6 +3712,14 @@
         "user_id": 2427687,
         "user_name": "Jubjub82180",
         "checkpoint_pass_rate": 61
+      },
+      {
+        "timestamp": 1753555825,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 59
       }
     ]
   },
@@ -3798,16 +3824,44 @@
   "706461": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1753710998,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 3114278,
+        "user_name": "Tooger_",
+        "checkpoint_pass_rate": 74
+      },
+      "P5": {
+        "user_id": 2778055,
+        "user_name": "MrPorkenstien",
+        "checkpoint_pass_rate": 77
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1753555825,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3114278,
+        "user_name": "Tooger_",
+        "checkpoint_pass_rate": 74
+      },
+      {
+        "timestamp": 1753555825,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2778055,
+        "user_name": "MrPorkenstien",
+        "checkpoint_pass_rate": 77
+      }
+    ]
   },
   "706462": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1753525562,
-    "executed_at": null,
+    "executed_at": 1753525565,
     "slots": {
       "P3": {
         "user_id": 2677851,
@@ -3854,8 +3908,8 @@
   },
   "707821": {
     "name": "Counter Offer",
-    "status": "Recruiting",
-    "ready_at": 1753637039,
+    "status": "Planning",
+    "ready_at": 1753896239,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -3867,6 +3921,21 @@
         "user_id": 3018158,
         "user_name": "Stevan01",
         "checkpoint_pass_rate": 79
+      },
+      "P1": {
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 79
+      },
+      "P3": {
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 72
+      },
+      "P4": {
+        "user_id": 3447443,
+        "user_name": "Jordanw1",
+        "checkpoint_pass_rate": 70
       }
     },
     "action_log": [
@@ -3885,13 +3954,37 @@
         "user_id": 3018158,
         "user_name": "Stevan01",
         "checkpoint_pass_rate": 79
+      },
+      {
+        "timestamp": 1753555825,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 79
+      },
+      {
+        "timestamp": 1753555825,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 72
+      },
+      {
+        "timestamp": 1753555825,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3447443,
+        "user_name": "Jordanw1",
+        "checkpoint_pass_rate": 70
       }
     ]
   },
   "707822": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1753528789,
+    "status": "Planning",
+    "ready_at": 1753615189,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -3902,6 +3995,11 @@
       "P3": {
         "user_id": 3160215,
         "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 66
+      },
+      "P1": {
+        "user_id": 3301215,
+        "user_name": "Semykreen",
         "checkpoint_pass_rate": 66
       }
     },
@@ -3937,6 +4035,14 @@
         "user_id": 3018158,
         "user_name": "Stevan01",
         "checkpoint_pass_rate": 60
+      },
+      {
+        "timestamp": 1753555825,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3301215,
+        "user_name": "Semykreen",
+        "checkpoint_pass_rate": 66
       }
     ]
   },
@@ -3954,7 +4060,7 @@
       "P2": {
         "user_id": 3868734,
         "user_name": "3rdyyy",
-        "checkpoint_pass_rate": 50
+        "checkpoint_pass_rate": 52
       }
     },
     "action_log": [
@@ -4136,8 +4242,8 @@
   },
   "708847": {
     "name": "Stage Fright",
-    "status": "Recruiting",
-    "ready_at": 1753751547,
+    "status": "Planning",
+    "ready_at": 1753837947,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -4164,6 +4270,11 @@
         "user_id": 3575675,
         "user_name": "highfishM",
         "checkpoint_pass_rate": 81
+      },
+      "P4": {
+        "user_id": 182040,
+        "user_name": "Excaliber_13",
+        "checkpoint_pass_rate": 85
       }
     },
     "action_log": [
@@ -4206,6 +4317,14 @@
         "user_id": 3575675,
         "user_name": "highfishM",
         "checkpoint_pass_rate": 81
+      },
+      {
+        "timestamp": 1753555825,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 182040,
+        "user_name": "Excaliber_13",
+        "checkpoint_pass_rate": 85
       }
     ]
   },
@@ -4219,8 +4338,8 @@
   },
   "710681": {
     "name": "Bidding War",
-    "status": "Recruiting",
-    "ready_at": 1753760362,
+    "status": "Planning",
+    "ready_at": 1753933162,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -4242,6 +4361,16 @@
         "user_id": 2583853,
         "user_name": "frkn",
         "checkpoint_pass_rate": 67
+      },
+      "P2": {
+        "user_id": 2250222,
+        "user_name": "Ronskip",
+        "checkpoint_pass_rate": 73
+      },
+      "P6": {
+        "user_id": 2154655,
+        "user_name": "Khana",
+        "checkpoint_pass_rate": 69
       }
     },
     "action_log": [
@@ -4276,6 +4405,22 @@
         "user_id": 2583853,
         "user_name": "frkn",
         "checkpoint_pass_rate": 67
+      },
+      {
+        "timestamp": 1753555825,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2250222,
+        "user_name": "Ronskip",
+        "checkpoint_pass_rate": 73
+      },
+      {
+        "timestamp": 1753555825,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 2154655,
+        "user_name": "Khana",
+        "checkpoint_pass_rate": 69
       }
     ]
   },
@@ -4306,9 +4451,76 @@
   "713972": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1753965490,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 70
+      },
+      "P2": {
+        "user_id": 1766417,
+        "user_name": "gajeela09",
+        "checkpoint_pass_rate": 70
+      },
+      "P4": {
+        "user_id": 2671608,
+        "user_name": "AlfieG",
+        "checkpoint_pass_rate": 73
+      },
+      "P5": {
+        "user_id": 2740246,
+        "user_name": "Bub92278",
+        "checkpoint_pass_rate": 77
+      },
+      "P6": {
+        "user_id": 446596,
+        "user_name": "Bucki",
+        "checkpoint_pass_rate": 72
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1753555825,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 70
+      },
+      {
+        "timestamp": 1753555825,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 1766417,
+        "user_name": "gajeela09",
+        "checkpoint_pass_rate": 70
+      },
+      {
+        "timestamp": 1753555825,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2671608,
+        "user_name": "AlfieG",
+        "checkpoint_pass_rate": 73
+      },
+      {
+        "timestamp": 1753555825,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2740246,
+        "user_name": "Bub92278",
+        "checkpoint_pass_rate": 77
+      },
+      {
+        "timestamp": 1753555825,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 446596,
+        "user_name": "Bucki",
+        "checkpoint_pass_rate": 72
+      }
+    ]
   }
 }
