@@ -2901,9 +2901,9 @@
   },
   "699547": {
     "name": "Stage Fright",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1753608354,
-    "executed_at": null,
+    "executed_at": 1753608364,
     "slots": {
       "P5": {
         "user_id": 3431519,
@@ -4247,8 +4247,8 @@
   },
   "708846": {
     "name": "Gaslight the Way",
-    "status": "Recruiting",
-    "ready_at": 1753735096,
+    "status": "Planning",
+    "ready_at": 1753821496,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -4275,6 +4275,11 @@
         "user_id": 517163,
         "user_name": "poik9",
         "checkpoint_pass_rate": 85
+      },
+      "P6": {
+        "user_id": 3666945,
+        "user_name": "Over9K",
+        "checkpoint_pass_rate": 81
       }
     },
     "action_log": [
@@ -4317,6 +4322,14 @@
         "user_id": 517163,
         "user_name": "poik9",
         "checkpoint_pass_rate": 85
+      },
+      {
+        "timestamp": 1753610436,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3666945,
+        "user_name": "Over9K",
+        "checkpoint_pass_rate": 81
       }
     ]
   },
@@ -4530,7 +4543,7 @@
   "713970": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1753940371,
+    "ready_at": 1754026771,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -4552,6 +4565,11 @@
         "user_id": 1166445,
         "user_name": "Top",
         "checkpoint_pass_rate": 66
+      },
+      "P2": {
+        "user_id": 2408196,
+        "user_name": "iam3vaj",
+        "checkpoint_pass_rate": 63
       }
     },
     "action_log": [
@@ -4586,6 +4604,14 @@
         "user_id": 1166445,
         "user_name": "Top",
         "checkpoint_pass_rate": 66
+      },
+      {
+        "timestamp": 1753610436,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2408196,
+        "user_name": "iam3vaj",
+        "checkpoint_pass_rate": 63
       }
     ]
   },
@@ -4759,10 +4785,25 @@
   "716461": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1753695947,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P5": {
+        "user_id": 3431519,
+        "user_name": "kirabaz",
+        "checkpoint_pass_rate": 79
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1753610436,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3431519,
+        "user_name": "kirabaz",
+        "checkpoint_pass_rate": 79
+      }
+    ]
   },
   "716462": {
     "name": "Market Forces",
