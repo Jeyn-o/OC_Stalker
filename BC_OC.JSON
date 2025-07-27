@@ -4626,13 +4626,18 @@
   "712672": {
     "name": "Pet Project",
     "status": "Recruiting",
-    "ready_at": 1753677407,
+    "ready_at": 1753763807,
     "executed_at": null,
     "slots": {
       "P1": {
         "user_id": 3851236,
         "user_name": "Psyden",
         "checkpoint_pass_rate": 72
+      },
+      "P2": {
+        "user_id": 3760809,
+        "user_name": "RandomName1",
+        "checkpoint_pass_rate": 84
       }
     },
     "action_log": [
@@ -4643,6 +4648,14 @@
         "user_id": 3851236,
         "user_name": "Psyden",
         "checkpoint_pass_rate": 72
+      },
+      {
+        "timestamp": 1753634424,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3760809,
+        "user_name": "RandomName1",
+        "checkpoint_pass_rate": 84
       }
     ]
   },
