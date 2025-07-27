@@ -2619,9 +2619,9 @@
   },
   "698413": {
     "name": "Mob Mentality",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1753628760,
-    "executed_at": null,
+    "executed_at": 1753628764,
     "slots": {
       "P1": {
         "user_id": 3867718,
@@ -3496,9 +3496,9 @@
   },
   "700918": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1753627889,
-    "executed_at": null,
+    "executed_at": 1753627924,
     "slots": {
       "P1": {
         "user_id": 2541399,
@@ -4635,8 +4635,8 @@
   },
   "713970": {
     "name": "Break the Bank",
-    "status": "Recruiting",
-    "ready_at": 1754026771,
+    "status": "Planning",
+    "ready_at": 1754113171,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -4663,6 +4663,11 @@
         "user_id": 2408196,
         "user_name": "iam3vaj",
         "checkpoint_pass_rate": 63
+      },
+      "P3": {
+        "user_id": 2302062,
+        "user_name": "BoozHound",
+        "checkpoint_pass_rate": 57
       }
     },
     "action_log": [
@@ -4705,19 +4710,42 @@
         "user_id": 2408196,
         "user_name": "iam3vaj",
         "checkpoint_pass_rate": 63
+      },
+      {
+        "timestamp": 1753630224,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2302062,
+        "user_name": "BoozHound",
+        "checkpoint_pass_rate": 57
       }
     ]
   },
   "713971": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1753642827,
+    "ready_at": 1753902027,
     "executed_at": null,
     "slots": {
       "P6": {
         "user_id": 2802632,
         "user_name": "Hoboblue",
         "checkpoint_pass_rate": 70
+      },
+      "P1": {
+        "user_id": 1291244,
+        "user_name": "Namunation",
+        "checkpoint_pass_rate": 68
+      },
+      "P2": {
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 67
+      },
+      "P4": {
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 75
       }
     },
     "action_log": [
@@ -4728,6 +4756,30 @@
         "user_id": 2802632,
         "user_name": "Hoboblue",
         "checkpoint_pass_rate": 70
+      },
+      {
+        "timestamp": 1753630224,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 1291244,
+        "user_name": "Namunation",
+        "checkpoint_pass_rate": 68
+      },
+      {
+        "timestamp": 1753630224,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 67
+      },
+      {
+        "timestamp": 1753630224,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 75
       }
     ]
   },
