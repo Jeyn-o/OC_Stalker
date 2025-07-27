@@ -3577,9 +3577,9 @@
   },
   "700919": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1753594570,
-    "executed_at": null,
+    "executed_at": 1753594625,
     "slots": {
       "P2": {
         "user_id": 2621654,
@@ -4530,10 +4530,25 @@
   "713970": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1753681171,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P6": {
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 63
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1753594821,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 63
+      }
+    ]
   },
   "713971": {
     "name": "Blast from the Past",
