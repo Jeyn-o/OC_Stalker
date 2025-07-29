@@ -5337,13 +5337,18 @@
   "717834": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1753846061,
+    "ready_at": 1753932461,
     "executed_at": null,
     "slots": {
       "P5": {
         "user_id": 2069227,
         "user_name": "GOTOYOURHOME",
         "checkpoint_pass_rate": 60
+      },
+      "P4": {
+        "user_id": 2315415,
+        "user_name": "Litri",
+        "checkpoint_pass_rate": 63
       }
     },
     "action_log": [
@@ -5354,13 +5359,21 @@
         "user_id": 2069227,
         "user_name": "GOTOYOURHOME",
         "checkpoint_pass_rate": 60
+      },
+      {
+        "timestamp": 1753767618,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2315415,
+        "user_name": "Litri",
+        "checkpoint_pass_rate": 63
       }
     ]
   },
   "718828": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1753837457,
+    "status": "Planning",
+    "ready_at": 1753923857,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -5372,6 +5385,11 @@
         "user_id": 2302062,
         "user_name": "BoozHound",
         "checkpoint_pass_rate": 80
+      },
+      "P1": {
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 75
       }
     },
     "action_log": [
@@ -5390,6 +5408,14 @@
         "user_id": 2302062,
         "user_name": "BoozHound",
         "checkpoint_pass_rate": 80
+      },
+      {
+        "timestamp": 1753767618,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 75
       }
     ]
   },
