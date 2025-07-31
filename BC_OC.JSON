@@ -5545,7 +5545,7 @@
   "717833": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1754142819,
+    "ready_at": 1754229219,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -5567,6 +5567,11 @@
         "user_id": 2937449,
         "user_name": "Piraterer",
         "checkpoint_pass_rate": 66
+      },
+      "P4": {
+        "user_id": 2250222,
+        "user_name": "Ronskip",
+        "checkpoint_pass_rate": 72
       }
     },
     "action_log": [
@@ -5601,6 +5606,14 @@
         "user_id": 2937449,
         "user_name": "Piraterer",
         "checkpoint_pass_rate": 66
+      },
+      {
+        "timestamp": 1753943431,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2250222,
+        "user_name": "Ronskip",
+        "checkpoint_pass_rate": 72
       }
     ]
   },
@@ -5822,10 +5835,25 @@
   "723902": {
     "name": "Mob Mentality",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1754029031,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3851236,
+        "user_name": "Psyden",
+        "checkpoint_pass_rate": 78
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1753943431,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3851236,
+        "user_name": "Psyden",
+        "checkpoint_pass_rate": 78
+      }
+    ]
   },
   "723910": {
     "name": "No Reserve",
@@ -5925,8 +5953,8 @@
   },
   "724707": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1754112671,
+    "status": "Planning",
+    "ready_at": 1754199071,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -5937,6 +5965,11 @@
       "P3": {
         "user_id": 2680449,
         "user_name": "BattlePrincess",
+        "checkpoint_pass_rate": 68
+      },
+      "P2": {
+        "user_id": 2154655,
+        "user_name": "Khana",
         "checkpoint_pass_rate": 68
       }
     },
@@ -5955,6 +5988,14 @@
         "slot": "P3",
         "user_id": 2680449,
         "user_name": "BattlePrincess",
+        "checkpoint_pass_rate": 68
+      },
+      {
+        "timestamp": 1753943431,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2154655,
+        "user_name": "Khana",
         "checkpoint_pass_rate": 68
       }
     ]
