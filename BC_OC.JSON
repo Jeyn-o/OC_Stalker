@@ -4727,9 +4727,9 @@
   },
   "710681": {
     "name": "Bidding War",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1753933162,
-    "executed_at": null,
+    "executed_at": 1753933205,
     "slots": {
       "P3": {
         "user_id": 2680449,
@@ -5301,13 +5301,18 @@
   "716459": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1753993570,
+    "ready_at": 1754079970,
     "executed_at": null,
     "slots": {
       "P2": {
         "user_id": 3052975,
         "user_name": "Pantas",
         "checkpoint_pass_rate": 82
+      },
+      "P5": {
+        "user_id": 3643062,
+        "user_name": "K3llogg",
+        "checkpoint_pass_rate": 72
       }
     },
     "action_log": [
@@ -5318,6 +5323,14 @@
         "user_id": 3052975,
         "user_name": "Pantas",
         "checkpoint_pass_rate": 82
+      },
+      {
+        "timestamp": 1753933822,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3643062,
+        "user_name": "K3llogg",
+        "checkpoint_pass_rate": 72
       }
     ]
   },
