@@ -2705,9 +2705,9 @@
   },
   "699526": {
     "name": "Counter Offer",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1754022116,
-    "executed_at": null,
+    "executed_at": 1754022123,
     "slots": {
       "P2": {
         "user_id": 3343429,
@@ -5972,10 +5972,25 @@
   "723911": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1754108572,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 77
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1754022630,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 77
+      }
+    ]
   },
   "724704": {
     "name": "No Reserve",
