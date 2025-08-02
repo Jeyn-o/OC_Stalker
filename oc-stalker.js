@@ -198,25 +198,39 @@ function reduceStatus(description, details, reviveSetting, state) {
   }
 
   switch (state) {
-    case 'Traveling':
-      status = `[${country || 'Traveling'}] - Going`; break;
-    case 'Abroad':
-      status = `[${country || 'Abroad'}] - Idle`; break;
-    case 'Hospital':
-      status = `[${country || 'Hospital'}]`;
-      if (details?.includes('Mugged')) status += ' Mugged';
-      else if (details?.includes('Attacked')) status += ' Attacked';
-      else if (details?.includes('Hospitalized')) status += ' Hospitalized';
-      else if (details?.includes('Lost to')) status += ' Lost';
-      else status += ' Event';
-      break;
-    case 'Jail':
-      status = 'Jail'; break;
-    case 'Okay':
-      status = 'Available'; break;
-    default:
-      status = descLower.includes('federal jail') ? 'Fedded' : 'Unknown';
-  }
+  case 'Traveling':
+    if (details?.startsWith('Returning')) {
+      status = `[${country || 'Traveling'}] - Returning`;
+    } else {
+      status = `[${country || 'Traveling'}] - Going`;
+    }
+    break;
+
+  case 'Abroad':
+    status = `[${country || 'Abroad'}] - Idle`;
+    break;
+
+  case 'Hospital':
+    status = `[${country || 'Hospital'}]`;
+    if (details?.includes('Mugged')) status += ' Mugged';
+    else if (details?.includes('Attacked')) status += ' Attacked';
+    else if (details?.includes('Hospitalized')) status += ' Hospitalized';
+    else if (details?.includes('Lost to')) status += ' Lost';
+    else status += ' Event';
+    break;
+
+  case 'Jail':
+    status = 'Jail';
+    break;
+
+  case 'Okay':
+    status = 'Available';
+    break;
+
+  default:
+    status = descLower.includes('federal jail') ? 'Fedded' : 'Unknown';
+}
+
 
   if (state === 'Hospital') {
     if (reviveSetting === 'Everyone') status += ' - Revives: ALL';
@@ -506,3 +520,4 @@ function updateNaughtyList(naughtyDb, crimesDb, userDb) {
     console.error('❌ Script error:', err);
   }
 })();
+
