@@ -6423,9 +6423,9 @@
   },
   "724708": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1754160881,
-    "executed_at": null,
+    "executed_at": 1754160907,
     "slots": {
       "P3": {
         "user_id": 2677851,
@@ -6808,8 +6808,8 @@
   },
   "732538": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1754314823,
+    "status": "Planning",
+    "ready_at": 1754401223,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -6821,6 +6821,11 @@
         "user_id": 2163292,
         "user_name": "Mihawk",
         "checkpoint_pass_rate": 70
+      },
+      "P3": {
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 65
       }
     },
     "action_log": [
@@ -6839,16 +6844,39 @@
         "user_id": 2163292,
         "user_name": "Mihawk",
         "checkpoint_pass_rate": 70
+      },
+      {
+        "timestamp": 1754161235,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 65
       }
     ]
   },
   "733412": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1754246673,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P6": {
+        "user_id": 2647214,
+        "user_name": "Balgor",
+        "checkpoint_pass_rate": 62
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1754161235,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 2647214,
+        "user_name": "Balgor",
+        "checkpoint_pass_rate": 62
+      }
+    ]
   },
   "733413": {
     "name": "Blast from the Past",
