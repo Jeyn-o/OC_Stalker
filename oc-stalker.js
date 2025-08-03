@@ -199,7 +199,7 @@ function reduceStatus(description, details, reviveSetting, state) {
 
   switch (state) {
   case 'Traveling':
-    if (details?.startsWith('Returning')) {
+    if (description?.startsWith('Returning')) {
       status = `[${country || 'Traveling'}] - Returning`;
     } else {
       status = `[${country || 'Traveling'}] - Going`;
@@ -520,4 +520,5 @@ function updateNaughtyList(naughtyDb, crimesDb, userDb) {
     console.error('❌ Script error:', err);
   }
 })();
+
 
