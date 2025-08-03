@@ -363,6 +363,7 @@ function updateCrimesDatabase(crimesDb, crimes, membersById) {
       previous_crime_id: crime.previous_crime_id,
       expired_at: crime.expired_at,
       difficulty: crime.difficulty,
+      slot_amount: crime.slots.length,
       slots: normalizedSlots
     };
 
@@ -526,6 +527,7 @@ function updateNaughtyList(naughtyDb, crimesDb, userDb) {
     console.error('❌ Script error:', err);
   }
 })();
+
 
 
 
