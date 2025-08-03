@@ -39,6 +39,46 @@ document.querySelector('#planning').style.display="none";
 document.querySelector('#completed').style.display="none";
 document.querySelectorAll('.oc-display')[num].style.display="";
 }
+const crimes_slots = {
+	"Pet Project": 				3, //done
+	"Mob Mentality": 			4, //done
+	"Best of the Lot": 			4, //done
+	"Cash Me if You Can": 		3,
+	"Smoke and Wing Mirrors": 	4, //done
+	"Market Forces": 			5,
+	"Gaslight the Way": 		6, //done
+	"Stage Fright": 			6, //done
+	"Snow Blind": 				4, //done
+	"Counter Offer": 			5, //done
+	"No Reserve": 				3, //done
+	"Leave No Trace": 			3, //done
+	"Bidding War": 				6, //done
+	"Honey Trap": 				3, //done
+	"Blast from the Past": 		6, //done
+	"Stacking the Deck": 		4,
+	"Break the Bank": 			6, //done
+	"Ace in the Hole": 			5
+};
+const crimes_tiers = {
+	"Pet Project": 				1, 
+	"Mob Mentality": 			1, 
+	"Best of the Lot": 			2,
+	"Cash Me if You Can": 		2,
+	"Smoke and Wing Mirrors": 	3,
+	"Market Forces": 			3,
+	"Gaslight the Way": 		3,
+	"Stage Fright": 			4,
+	"Snow Blind": 				4,
+	"Counter Offer": 			5,
+	"No Reserve": 				5,
+	"Leave No Trace": 			5,
+	"Bidding War": 				6,
+	"Honey Trap": 				6,
+	"Blast from the Past": 		7,
+	"Stacking the Deck": 		8,
+	"Break the Bank": 			8,
+	"Ace in the Hole": 			9
+};
 async function populatePage() {
   for (const [id, item] of Object.entries(oc_data)) {
     let target;
@@ -62,23 +102,38 @@ async function populatePage() {
 	} else {
 		timer_msg = `Delayed: Ready since ${TCT(item.ready_at)} but executed at ${TCT(item.executed_at)}, delayed for ${formatDuration(item.ready_at, item.executed_at)}`;
 	}
+	if (item.status==="Successful") {timer_msg += ` - <b><span style="color:lime">Success</span></b>`};
+	if (item.status==="Failure") {timer_msg += ` - <b><span style="color:#ff5500">Failure</span></b>`};
 
     }
 
     let slot_msg = ``;
+	let slots_written = 0;
     for (const slot of Object.values(item.slots)) {
+	  slots_written++;
       slot_msg += `
         <div class="oc-entry-content-slot">
           <span class="cpr">${slot.checkpoint_pass_rate}</span><br>
           <a href="https://www.torn.com/profiles.php?XID=${slot.user_id}">${slot.user_name}</a>
         </div>
-      `;
+		`;
     }
+	if(item.status === "Recruiting") {
+		//populate empty slots
+		if(slots_written<crimes_slots[item.name]) {
+			for(i=0;i<(crimes_slots[item.name]-slots_written);i++) {
+				slot_msg += `
+					<div class="oc-entry-content-slot"><br>Empty</div>
+				`;
+			}
+		}
+	}
 
     const entry = document.createElement('div');
     entry.className = "oc-entry";
+	entry.id = id;
     entry.innerHTML = `
-      <div class="oc-entry-header">${item.name}</div>
+      <div class="oc-entry-header">[T${crimes_tiers[item.name]}] ${item.name} <a href=""><i>Link</i></a></div>
       <div class="oc-entry-timer">${timer_msg}</div>
       <div class="oc-entry-content">${slot_msg}</div>
     `;
@@ -145,7 +200,7 @@ function startCountdown(element, targetEpoch) {
     let diff = targetEpoch - now;
 
     if (diff <= 0) {
-      element.textContent = "Time's up!";
+      element.textContent = "Now";
       clearInterval(intervalId);
       return;
     }
@@ -179,8 +234,8 @@ body {
 
 .oc-entry {
 	background-color:#444;
-	border-radius:5%;
-	width:800px;
+	border-radius:1%;
+	width:95%;
 	height:400px;
 	padding:1% 1%;
 	margin: 2% 1%;
@@ -193,13 +248,14 @@ body {
 .oc-entry-content {
 	display:flex;
 	height:120px;
+	width:100%;
 }
 
 .oc-entry-content-slot {
 	background-color:#666;
 	border:1px solid black;
 	height:40px;
-	width:140px;
+	width:100%;
 	margin-left:1%;
 	text-align:center;
 }
@@ -212,13 +268,34 @@ a {
     transition: color .2s ease;
 }
 
+a:hover {
+    color: #a1d5ff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
 .cpr {
-	margin-left: 80%;
+	margin-left: 90%;
+}
+
+#buttons {
+	width:100%;
+}
+
+#buttons button {
+	width:31%;
+	height:40px;
+	margin: 0 1%;
+	font-size:24px;
+	background-color:#444;
+	color:#FFFFFF
 }
 </style>
 </head>
 <body>
-
+<span id="notes">Note: OCs delays have a grace period of 60 seconds. This is for technical reasons.<br>
+</span>
 <div id="buttons">
 <button onclick="toggle(0)">Recruiting</button>
 <button onclick="toggle(1)">Planning</button>
