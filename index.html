@@ -4,6 +4,57 @@
 <script>
 let oc_data;
 let activity_data;
+let display_method=2;
+function switch_display_method() {
+	if(display_method==1) {
+		display_method=2;
+		document.querySelectorAll('.timelog-simple').forEach(item => {
+			item.style.display="none";
+		});
+		document.querySelectorAll('.timelog-line').forEach(item => {
+			item.style.display="";
+		});
+	} else
+	if(display_method==2) {
+		display_method=1;
+		document.querySelectorAll('.timelog-simple').forEach(item => {
+			item.style.display="";
+		});
+		document.querySelectorAll('.timelog-line').forEach(item => {
+			item.style.display="none";
+		});
+	};
+}
+
+function filter() {
+  const filterText = document.querySelector('#filter_input').value.trim().toLowerCase();
+
+  document.querySelectorAll('.oc-display').forEach(display => {
+    display.querySelectorAll('.oc-entry').forEach(entry => {
+      const header = entry.querySelector('.oc-entry-header')?.textContent.toLowerCase() || "";
+      const timer = entry.querySelector('.oc-entry-timer')?.textContent.toLowerCase() || "";
+      const content = entry.querySelector('.oc-entry-content')?.textContent.toLowerCase() || "";
+
+      const fullText = header + " " + timer + " " + content;
+
+      if (fullText.includes(filterText)) {
+        entry.style.display = ''; // Show
+      } else {
+        entry.style.display = 'none'; // Hide
+      }
+    });
+  });
+}
+
+function reset_filter() {
+  document.querySelector('#filter_input').value = '';
+  document.querySelectorAll('.oc-display .oc-entry').forEach(entry => {
+    entry.style.display = ''; // Show all again
+  });
+}
+
+
+
 async function fetchGitHubData(url) {
   const response = await fetch(url);
   if (!response.ok) {
@@ -11,6 +62,64 @@ async function fetchGitHubData(url) {
   }
   return await response.json();
 }
+
+async function fetchLastModifiedTimestamp(path) {
+  const apiUrl = `https://api.github.com/repos/Jeyn-o/OC_Stalker/commits?path=${path}&page=1&per_page=1`;
+
+  const response = await fetch(apiUrl);
+  if (!response.ok) {
+    throw new Error(`GitHub API error: ${response.status}`);
+  }
+
+  const commits = await response.json();
+  if (commits.length === 0) return null;
+
+  const isoDate = commits[0].commit.committer.date;
+  const date = new Date(isoDate);
+
+  // Convert to London time string
+  const londonTime = date.toLocaleString('en-GB', {
+    timeZone: 'UTC',
+    hour12: false,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+  });
+
+  return londonTime;
+}
+
+function updateClockNoDST() {
+  const clockEl = document.getElementById('londonClock');
+  if (!clockEl) return;
+
+  const now = new Date();
+
+  // Use UTC (no DST)
+  const formatted = now.toLocaleString('en-GB', {
+    timeZone: 'UTC',
+    hour12: false,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+  });
+
+  clockEl.textContent = formatted;
+}
+
+
+// Initial call
+updateClockNoDST();
+
+// Update every second
+setInterval(updateClockNoDST, 1000);
+
 
 document.addEventListener('DOMContentLoaded', async function () {
   const url1 = 'https://raw.githubusercontent.com/Jeyn-o/OC_Stalker/main/BC_OC.JSON';
@@ -21,13 +130,45 @@ document.addEventListener('DOMContentLoaded', async function () {
     oc_data = ocResponse;
     console.log("Stored as oc_data:");
     console.log(oc_data);
+	
+	const ocUpdated = await fetchLastModifiedTimestamp("BC_OC.JSON");
+	console.log(`oc_data timestamp: `, ocUpdated);
 
     const activityResponse = await fetchGitHubData(url2);
     activity_data = activityResponse;
     console.log("Stored as activity_data:");
     console.log(activity_data);
+	
+	const activityUpdated = await fetchLastModifiedTimestamp("BC_cron.JSON");
+	console.log(`activity_data timestamp: `, activityUpdated);
 
-    populatePage(); // Now it's safe to call this
+	const preHtml = `
+  <pre id="updateClock" style="
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-family: monospace;
+    font-size: 14px;
+    white-space: pre;
+    z-index: 9999;
+	opacity:0.6;
+  ">
+Last OC update:
+    ${ocUpdated}
+Last activity update:
+    ${activityUpdated}
+	
+TCT:<span id="londonClock">loading...</span></pre>
+`;
+
+document.body.insertAdjacentHTML('beforeend', preHtml);
+
+	
+    populatePage();
   } catch (error) {
     console.error("Error fetching data:", error);
   }
@@ -43,9 +184,9 @@ const crimes_slots = {
 	"Pet Project": 				3, //done
 	"Mob Mentality": 			4, //done
 	"Best of the Lot": 			4, //done
-	"Cash Me if You Can": 		3,
+	"Cash Me if You Can": 		3, //done
 	"Smoke and Wing Mirrors": 	4, //done
-	"Market Forces": 			5,
+	"Market Forces": 			5, //done
 	"Gaslight the Way": 		6, //done
 	"Stage Fright": 			6, //done
 	"Snow Blind": 				4, //done
@@ -79,6 +220,10 @@ const crimes_tiers = {
 	"Break the Bank": 			8,
 	"Ace in the Hole": 			9
 };
+const crimes_chained = {
+	"Bidding War": "No Reserve"
+}
+
 async function populatePage() {
   for (const [id, item] of Object.entries(oc_data)) {
     let target;
@@ -111,11 +256,17 @@ async function populatePage() {
 	let slots_written = 0;
     for (const slot of Object.values(item.slots)) {
 	  slots_written++;
+	  if(!slot.position) {slot.position="";slot.position_number="";} else {slot.position += " #"};
       slot_msg += `
         <div class="oc-entry-content-slot">
-          <span class="cpr">${slot.checkpoint_pass_rate}</span><br>
-          <a href="https://www.torn.com/profiles.php?XID=${slot.user_id}">${slot.user_name}</a>
-        </div>
+			<div class="slot-row">
+				<span class="slot-title">${slot.position}${slot.position_number}</span>
+				<span class="cpr">${slot.checkpoint_pass_rate}</span>
+			</div>
+			<a href="https://www.torn.com/profiles.php?XID=${slot.user_id}">
+				${slot.user_name}
+			</a><br>
+		</div>
 		`;
     }
 	if(item.status === "Recruiting") {
@@ -129,13 +280,17 @@ async function populatePage() {
 		}
 	}
 
-    const entry = document.createElement('div');
+    const entry = document.createElement('div');		//enabled <a href=""> once we got link format
     entry.className = "oc-entry";
 	entry.id = id;
     entry.innerHTML = `
-      <div class="oc-entry-header">[T${crimes_tiers[item.name]}] ${item.name} <a href=""><i>Link</i></a></div>
-      <div class="oc-entry-timer">${timer_msg}</div>
+      <div class="oc-entry-header">[T${crimes_tiers[item.name]}] ${item.name} <a><i>Link</i></a></div>
+	  <div class="oc-entry-timer">${timer_msg}</div>
       <div class="oc-entry-content">${slot_msg}</div>
+	  <div class="oc-entry-timelog">
+		<div class="oc-entry-timelog-sub timelog-simple" style="display:none;"></div>
+		<div class="oc-entry-timelog-sub timelog-line"><button onclick="generate_timeline(${id})">Generate Timeline</button></div>
+	  </div>
     `;
 
     target.appendChild(entry);
@@ -157,6 +312,183 @@ async function populatePage() {
       startCountdown(countdownEl, item.ready_at);
     }
   }
+}
+
+function generate_timeline(id) {
+  const ocData = oc_data[id];
+  const BC = activity_data;
+
+  const target = document.getElementById(id);
+  const container = target.querySelector('.timelog-line');
+  container.innerHTML = '';
+
+  function shortFormat(ts) {
+    const d = new Date((ts - 3600) * 1000);
+    const parts = new Intl.DateTimeFormat('en-GB', {
+      timeZone: 'UTC',
+      day: '2-digit',
+      month: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: false
+    }).formatToParts(d);
+    const day = `${parts.find(p => p.type === 'day').value}.${parts.find(p => p.type === 'month').value}`;
+    const hour = parts.find(p => p.type === 'hour').value;
+    const minute = parts.find(p => p.type === 'minute').value;
+    return { day, time: `${hour}:${minute}`, text: `${day} ${hour}:${minute}` };
+  }
+
+  const users = new Map();
+  ocData.action_log.forEach(a => {
+    if (!users.has(a.user_id)) {
+      users.set(a.user_id, { user_name: a.user_name, joins: [], leaves: [] });
+    }
+    if (a.action === 'joined') users.get(a.user_id).joins.push(a.timestamp);
+    if (a.action === 'left') users.get(a.user_id).leaves.push(a.timestamp);
+  });
+
+  const start = Math.min(...[...users.values()].flatMap(u => u.joins));
+  const end = ocData.executed_at || ocData.ready_at || Math.floor(Date.now() / 1000);
+  const now = Math.floor(Date.now() / 1000);
+  const wouldHaveBeenReady = ocData.would_have_been_ready || ocData.ready_at || end;
+
+  const timeline = document.createElement('div');
+  timeline.className = 'oc-timeline';
+  timeline.style.cssText = 'font-size:12px; margin-top:8px;';
+  const fragment = document.createDocumentFragment();
+
+  users.forEach((u, uid) => {
+    const row = document.createElement('div');
+    row.style.cssText = 'display:flex; align-items:center; margin-bottom:4px';
+
+    const label = document.createElement('div');
+    label.textContent = u.user_name;
+    label.style.cssText = 'flex:0 0 100px; overflow:hidden; text-overflow:ellipsis';
+    row.appendChild(label);
+
+    const chart = document.createElement('div');
+    chart.style.cssText = 'position:relative; flex:1; height:16px; background:#eee; border-radius:4px';
+
+    u.joins.forEach((joinTs, i) => {
+      const leaveTs = u.leaves[i] || end;
+      const baseLeft = ((joinTs - start) / (end - start)) * 100;
+      const baseWidth = ((leaveTs - joinTs) / (end - start)) * 100;
+      const base = document.createElement('div');
+      base.style.cssText = `
+        position:absolute; top:0; left:${baseLeft}%;
+        width:${baseWidth}%; height:100%;
+        background:#ddd; border:1px solid black;
+      `;
+      chart.appendChild(base);
+
+      const activities = (BC[uid]?.activities || []).filter(a =>
+        a.start < leaveTs && (a.end || end) > joinTs
+      );
+
+      activities.forEach((a, idx) => {
+        const segStart = Math.max(a.start, joinTs);
+        const segEnd = Math.min(a.end || end, leaveTs);
+        const left = ((segStart - start) / (end - start)) * 100;
+        const width = ((segEnd - segStart) / (end - start)) * 100;
+
+        const seg = document.createElement('div');
+        seg.style.cssText = `
+          position:absolute; top:0; left:${left}%;
+          width:${width}%; height:100%; border:0.5px solid #000;
+          cursor:pointer;
+        `;
+
+        const sf = shortFormat(a.start);
+        const tf = a.end ? shortFormat(a.end) : null;
+        const fromStr = `${sf.day} ${sf.time}`;
+        const untilStr = (idx === activities.length - 1 && ocData.executed_at)
+          ? 'Executed' : (tf ? `${tf.day !== sf.day ? tf.day + ' ' : ''}${tf.time}` : 'Now');
+        const statusText = `${a.status} from ${fromStr} until ${untilStr}`;
+        seg.addEventListener('mouseenter', (e) => {
+			tooltip.innerText = statusText;
+			tooltip.style.display = 'block';
+		});
+
+		seg.addEventListener('mousemove', (e) => {
+			tooltip.style.top = `${e.pageY + 12}px`;
+			tooltip.style.left = `${e.pageX + 12}px`;
+		});
+
+		seg.addEventListener('mouseleave', () => {
+			tooltip.style.display = 'none';
+		});
+
+
+        // Color coding
+        let bg = '#999';
+        if (a.status.startsWith('[Hospital]')) bg = 'orange';
+        else if (a.status === 'Fedded') bg = '#800';
+        else if (a.status === 'Available') bg = '#6c6';
+        else if (a.status === 'Jail') bg = 'cyan';
+        else if (a.status.startsWith('[')) {
+          if (a.status.endsWith('Idle')) bg = '#3498db';
+          else if (a.status.endsWith('Going') || a.status.endsWith('Returning')) bg = '#add8e6';
+          else bg = '#003366';
+        }
+        seg.style.background = bg;
+
+        // Click-to-copy with visual feedback
+        seg.addEventListener('click', e => {
+          e.stopPropagation();
+          navigator.clipboard.writeText(`${u.user_name}: ${statusText}`).then(() => {
+            seg.style.outline = '2px solid #333';
+            const tip = document.createElement('div');
+            tip.textContent = 'Copied!';
+            tip.style.cssText = `
+              position:absolute; top:-22px; left:50%;
+              transform:translateX(-50%);
+              background:black; color:white; padding:2px 6px;
+              font-size:10px; border-radius:4px;
+              opacity:1; transition:opacity 0.4s ease;
+              z-index:999; pointer-events:none;
+            `;
+            seg.appendChild(tip);
+            setTimeout(() => tip.style.opacity = '0', 800);
+            setTimeout(() => {
+              if (tip.parentNode) tip.parentNode.removeChild(tip);
+              seg.style.outline = '';
+            }, 1300);
+          });
+        });
+
+        chart.appendChild(seg);
+      });
+    });
+
+    if (end > now) {
+      const whiteLeft = ((now - start) / (end - start)) * 100;
+      const whiteWidth = ((end - now) / (end - start)) * 100;
+      const whiteBlock = document.createElement('div');
+      whiteBlock.style.cssText = `
+        position:absolute; top:0; left:${whiteLeft}%;
+        width:${whiteWidth}%; height:100%; background:white; border:1px solid black;
+      `;
+      chart.appendChild(whiteBlock);
+    }
+
+    if (wouldHaveBeenReady && wouldHaveBeenReady !== end) {
+      const linePos = ((wouldHaveBeenReady - start) / (end - start)) * 100;
+      if (linePos >= 0 && linePos <= 100) {
+        const redLine = document.createElement('div');
+        redLine.style.cssText = `
+          position:absolute; top:0; left:${linePos}%;
+          width:2px; height:100%; background:red; z-index:10;
+        `;
+        chart.appendChild(redLine);
+      }
+    }
+
+    row.appendChild(chart);
+    fragment.appendChild(row);
+  });
+
+  timeline.appendChild(fragment);
+  container.appendChild(timeline);
 }
 
 
@@ -223,6 +555,7 @@ function startCountdown(element, targetEpoch) {
   const intervalId = setInterval(update, 1000);
   return intervalId;
 }
+
 </script>
 <style>
 body {
@@ -236,7 +569,7 @@ body {
 	background-color:#444;
 	border-radius:1%;
 	width:95%;
-	height:400px;
+	/*height:400px;*/
 	padding:1% 1%;
 	margin: 2% 1%;
 }
@@ -244,7 +577,7 @@ body {
 .oc-entry-header {
 	font-weight:bold;
 }
-
+	
 .oc-entry-content {
 	display:flex;
 	height:120px;
@@ -254,10 +587,14 @@ body {
 .oc-entry-content-slot {
 	background-color:#666;
 	border:1px solid black;
-	height:40px;
+	height:50px;
 	width:100%;
 	margin-left:1%;
 	text-align:center;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 a {
@@ -276,7 +613,25 @@ a:hover {
 }
 
 .cpr {
-	margin-left: 90%;
+	margin-right: 5%;
+	text-align:right;
+	font-weight: bold;
+}
+
+.slot-title {
+	text-align:left;
+}
+
+.slot-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 8px;
+  margin-top:7px;
+}
+
+.oc-entry-content-slot a {
+  align-self: center;
 }
 
 #buttons {
@@ -291,20 +646,58 @@ a:hover {
 	background-color:#444;
 	color:#FFFFFF
 }
+
+.oc-entry-timelog {
+}
+
+.oc-entry-timelog-sub {
+}
+
+.timelog-simple {
+}
+
+.timelog-line {
+}
+
+#custom-tooltip {
+  position: absolute;
+  padding: 8px 12px;
+  background: #222;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 6px;
+  pointer-events: none;
+  z-index: 1000;
+  max-width: 300px;
+  line-height: 1.4;
+  display: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  white-space: pre-wrap;
+}
+
+
 </style>
 </head>
 <body>
-<span id="notes">Note: OCs delays have a grace period of 60 seconds. This is for technical reasons.<br>
+<span id="notes">Note: OCs delays have a grace period of 60 seconds. This is for technical reasons.
 </span>
 <div id="buttons">
 <button onclick="toggle(0)">Recruiting</button>
 <button onclick="toggle(1)">Planning</button>
 <button onclick="toggle(2)">Completed</button>
+<br>
+<button disabled style="color:gray" onclick="switch_display_method()">Switch display method</button>
+<button onclick="filter()">Apply Filter:     <input style="width:70%;height:30px;margin-bottom:15px;padding-top:5px" type="text" id="filter_input"></input></button>
+<button onclick="reset_filter()">Reset Filter</button>
 </div>
 <div class="oc-display" id="recruiting"></div>
 <div class="oc-display" id="planning"></div>
 <div class="oc-display" id="completed"></div>
 
-
+<script>
+const tooltip = document.createElement('div');
+tooltip.id = 'custom-tooltip';
+document.body.appendChild(tooltip);
+</script>
 </body>
 </html>
