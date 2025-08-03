@@ -1,5 +1,233 @@
 <html>
-  <body>
-    Hello World!
-  </body>
+<head>
+<title> BC OC Viewer </title>
+<script>
+let oc_data;
+let activity_data;
+async function fetchGitHubData(url) {
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
+  }
+  return await response.json();
+}
+
+document.addEventListener('DOMContentLoaded', async function () {
+  const url1 = 'https://raw.githubusercontent.com/Jeyn-o/OC_Stalker/main/BC_OC.JSON';
+  const url2 = 'https://raw.githubusercontent.com/Jeyn-o/OC_Stalker/main/BC_cron.JSON';
+
+  try {
+    const ocResponse = await fetchGitHubData(url1);
+    oc_data = ocResponse;
+    console.log("Stored as oc_data:");
+    console.log(oc_data);
+
+    const activityResponse = await fetchGitHubData(url2);
+    activity_data = activityResponse;
+    console.log("Stored as activity_data:");
+    console.log(activity_data);
+
+    populatePage(); // Now it's safe to call this
+  } catch (error) {
+    console.error("Error fetching data:", error);
+  }
+});
+
+function toggle(num) {
+document.querySelector('#recruiting').style.display="none";
+document.querySelector('#planning').style.display="none";
+document.querySelector('#completed').style.display="none";
+document.querySelectorAll('.oc-display')[num].style.display="";
+}
+async function populatePage() {
+  for (const [id, item] of Object.entries(oc_data)) {
+    let target;
+    if (item.status === "Recruiting") {
+      target = document.querySelector('#recruiting');
+    } else if (item.status === "Planning") {
+      target = document.querySelector('#planning');
+    } else {
+      target = document.querySelector('#completed');
+    }
+
+    let timer_msg;
+    if (item.status === "Recruiting") {
+      timer_msg = "Recruiting";
+    } else if(item.status === "Planning") {
+      // Add countdown placeholder span here
+      timer_msg = `Ready: ${TCT(item.ready_at)} - in <span class="countdown"></span>`;
+    } else {
+      if (Math.abs(item.ready_at - item.executed_at) <= 60) {
+		timer_msg = `Executed: ${TCT(item.executed_at)}`;
+	} else {
+		timer_msg = `Delayed: Ready since ${TCT(item.ready_at)} but executed at ${TCT(item.executed_at)}, delayed for ${formatDuration(item.ready_at, item.executed_at)}`;
+	}
+
+    }
+
+    let slot_msg = ``;
+    for (const slot of Object.values(item.slots)) {
+      slot_msg += `
+        <div class="oc-entry-content-slot">
+          <span class="cpr">${slot.checkpoint_pass_rate}</span><br>
+          <a href="https://www.torn.com/profiles.php?XID=${slot.user_id}">${slot.user_name}</a>
+        </div>
+      `;
+    }
+
+    const entry = document.createElement('div');
+    entry.className = "oc-entry";
+    entry.innerHTML = `
+      <div class="oc-entry-header">${item.name}</div>
+      <div class="oc-entry-timer">${timer_msg}</div>
+      <div class="oc-entry-content">${slot_msg}</div>
+    `;
+
+    target.appendChild(entry);
+
+    // Color code the checkpoint pass rate
+    document.querySelectorAll('.cpr').forEach(item => {
+      if (Number(item.innerHTML) < 50) {
+        item.style.color = "orange";
+      } else if (Number(item.innerHTML) < 85) {
+        item.style.color = "yellow";
+      } else {
+        item.style.color = "lime";
+      }
+    });
+
+    // START COUNTDOWN ONLY IF "Planning" (i.e., if countdown span exists inside this entry)
+    const countdownEl = entry.querySelector('.countdown');
+    if (countdownEl) {
+      startCountdown(countdownEl, item.ready_at);
+    }
+  }
+}
+
+
+function TCT(unixEpoch) {
+   const date = new Date(unixEpoch * 1000);
+   const options = {
+     timeZone: 'Europe/London',
+     day: '2-digit',
+     month: '2-digit',
+     hour: '2-digit',
+     minute: '2-digit',
+     hour12: false
+   };
+   const formatter = new Intl.DateTimeFormat('en-GB', options);
+   const parts = formatter.formatToParts(date);
+   const day = parts.find(p => p.type === 'day').value;
+   const month = parts.find(p => p.type === 'month').value;
+   const hour = parts.find(p => p.type === 'hour').value;
+   const minute = parts.find(p => p.type === 'minute').value;
+   return `${day}.${month} - ${hour}:${minute}`;
+}
+
+function formatDuration(startEpoch, endEpoch) {
+  const seconds = endEpoch - startEpoch;
+  const days = Math.floor(seconds / 86400);
+  const hours = Math.floor((seconds % 86400) / 3600);
+  const minutes = Math.floor((seconds % 3600) / 60);
+  const secs = seconds % 60;
+
+  let result = '';
+  if (days > 0) result += `${days}d `;
+  if (hours > 0 || days > 0) result += `${hours}h `;
+  if (minutes > 0 || hours > 0 || days > 0) result += `${minutes}m `;
+  result += `${secs}s`;
+
+  return result.trim();
+}
+function startCountdown(element, targetEpoch) {
+  function update() {
+    const now = Math.floor(Date.now() / 1000);
+    let diff = targetEpoch - now;
+
+    if (diff <= 0) {
+      element.textContent = "Time's up!";
+      clearInterval(intervalId);
+      return;
+    }
+
+    const days = Math.floor(diff / 86400);
+    diff %= 86400;
+    const hours = Math.floor(diff / 3600);
+    diff %= 3600;
+    const minutes = Math.floor(diff / 60);
+    const seconds = diff % 60;
+
+    element.textContent = 
+      (days > 0 ? days + "d " : "") + 
+      String(hours).padStart(2, "0") + ":" + 
+      String(minutes).padStart(2, "0") + ":" + 
+      String(seconds).padStart(2, "0");
+  }
+
+  update(); // initial call immediately
+  const intervalId = setInterval(update, 1000);
+  return intervalId;
+}
+</script>
+<style>
+body {
+	background-color:#182028;
+	color: #FFFFFF;
+    text-shadow: 0 0 2px #000000;
+	font-family:arial;
+}
+
+.oc-entry {
+	background-color:#444;
+	border-radius:5%;
+	width:800px;
+	height:400px;
+	padding:1% 1%;
+	margin: 2% 1%;
+}
+
+.oc-entry-header {
+	font-weight:bold;
+}
+
+.oc-entry-content {
+	display:flex;
+	height:120px;
+}
+
+.oc-entry-content-slot {
+	background-color:#666;
+	border:1px solid black;
+	height:40px;
+	width:140px;
+	margin-left:1%;
+	text-align:center;
+}
+
+a {
+    color: #069;
+    color: #74c0fc;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+.cpr {
+	margin-left: 80%;
+}
+</style>
+</head>
+<body>
+
+<div id="buttons">
+<button onclick="toggle(0)">Recruiting</button>
+<button onclick="toggle(1)">Planning</button>
+<button onclick="toggle(2)">Completed</button>
+</div>
+<div class="oc-display" id="recruiting"></div>
+<div class="oc-display" id="planning"></div>
+<div class="oc-display" id="completed"></div>
+
+
+</body>
 </html>
