@@ -351,7 +351,7 @@ function updateCrimesDatabase(crimesDb, crimes, membersById) {
         checkpoint_pass_rate: slotObj.checkpoint_pass_rate,
 	position: slotObj.position,
 	position_number: slotObj.position_number,
-	item_available: slotObj.item_requirement.is_available
+	item_available: slotObj.item_requirement?.is_available
       };
     });
 
@@ -527,6 +527,7 @@ function updateNaughtyList(naughtyDb, crimesDb, userDb) {
     console.error('❌ Script error:', err);
   }
 })();
+
 
 
 
