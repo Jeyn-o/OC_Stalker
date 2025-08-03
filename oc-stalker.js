@@ -508,8 +508,8 @@ function updateNaughtyList(naughtyDb, crimesDb, userDb) {
     const lastCrimeUpdate = await getLastCrimeUpdateTimeFromGitHub();
     const oneHour = 3600;
 
-    if (now - lastCrimeUpdate >= (oneHour/2)) { //half hour
-      console.log("🕐 It's time to update crimes and naughty list.");
+    //if (now - lastCrimeUpdate >= (oneHour/2)) { //half hour
+    //  console.log("🕐 It's time to update crimes and naughty list.");
 
       const crimeDb = await loadDb('crimesDb');
       const updatedCrimes = updateCrimesDatabase(crimeDb, crimes, membersById);
@@ -518,14 +518,15 @@ function updateNaughtyList(naughtyDb, crimesDb, userDb) {
       const naughtyDb = await loadDb('naughtyDb');
       const updatedNaughty = updateNaughtyList(naughtyDb, updatedCrimes, updatedUsers);
       await saveDb('naughtyDb', updatedNaughty);
-    } else {
-      console.log("⏩ Skipping crimes and naughty updates — less than 30 minutes since last update.");
-    }
+    //} else {
+    //  console.log("⏩ Skipping crimes and naughty updates — less than 30 minutes since last update.");
+    //}
 
   } catch (err) {
     console.error('❌ Script error:', err);
   }
 })();
+
 
 
 
