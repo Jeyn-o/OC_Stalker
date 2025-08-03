@@ -274,6 +274,34 @@ const crimes_chained = {
 	"Bidding War": "No Reserve"
 }
 
+function sortAllSections() {
+  // Sort Recruiting (oldest to newest by ready_at)
+  sortEntries('#recruiting', (a, b) =>
+    Number(a.dataset.readyAt) - Number(b.dataset.readyAt)
+  );
+
+  // Sort Planning (most delayed to least, then oldest)
+  sortEntries('#planning', (a, b) => {
+    const delayA = Date.now()/1000 - Number(a.dataset.readyAt);
+    const delayB = Date.now()/1000 - Number(b.dataset.readyAt);
+    if (delayB !== delayA) return delayB - delayA;
+    return Number(a.dataset.readyAt) - Number(b.dataset.readyAt);
+  });
+
+  // Sort Completed (newest to oldest by executed_at)
+  sortEntries('#completed', (a, b) =>
+    Number(b.dataset.executedAt) - Number(a.dataset.executedAt)
+  );
+}
+
+function sortEntries(containerSelector, sortFn) {
+  const container = document.querySelector(containerSelector);
+  const entries = Array.from(container.querySelectorAll('.oc-entry'));
+
+  entries.sort(sortFn).forEach(entry => container.appendChild(entry));
+}
+
+
 async function populatePage() {
   for (const [id, item] of Object.entries(oc_data)) {
     let target;
@@ -290,7 +318,12 @@ async function populatePage() {
       timer_msg = "Recruiting";
     } else if(item.status === "Planning") {
       // Add countdown placeholder span here
-      timer_msg = `Ready: ${TCT(item.ready_at)} - in <span class="countdown"></span>`;
+	  if(item.ready_at<(Date.now() / 1000)) {
+		//delayed
+		timer_msg = `<span color="orange">Ready: ${TCT(item.ready_at)} - delayed</span>`;
+	  } else {
+		timer_msg = `Ready: ${TCT(item.ready_at)} - in <span class="countdown"></span>`;
+	  }
     } else {
       if (Math.abs(item.ready_at - item.executed_at) <= 60) {
 		timer_msg = `Executed: ${TCT(item.executed_at)}`;
@@ -335,6 +368,11 @@ async function populatePage() {
 	if(item.name in crimes_chained) {prevLink = ` - <a>Chain OC: ${item?.previous_crime_id ?? "N/A"}</a>`;};
     entry.className = "oc-entry";
 	entry.id = id;
+	entry.dataset.readyAt = item.ready_at;
+	entry.dataset.executedAt = item.executed_at ?? 0;
+	entry.dataset.status = item.status;
+
+
     entry.innerHTML = `
       <div class="oc-entry-header">[T${crimes_tiers[item.name]}] ${item.name} - <a><i>Link</i></a> ${prevLink}</div>
 	  <div class="oc-entry-timer">${timer_msg}</div>
@@ -364,6 +402,7 @@ async function populatePage() {
       startCountdown(countdownEl, item.ready_at);
     }
   }
+  sortAllSections();
 }
 
 function generate_timeline(id) {
