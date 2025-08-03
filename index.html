@@ -5,6 +5,7 @@
 let oc_data;
 let activity_data;
 let display_method=2;
+let viewmode;
 function switch_display_method() {
 	if(display_method==1) {
 		display_method=2;
@@ -26,8 +27,14 @@ function switch_display_method() {
 	};
 }
 
-function filter() {
-  const filterText = document.querySelector('#filter_input').value.trim().toLowerCase();
+function filter(i) {
+	reset_filter();
+	let filterText;
+	if(i ==null) {
+		filterText = document.querySelector('#filter_input').value.trim().toLowerCase();
+	} else {
+		filterText = i.trim().toLowerCase();
+	}
 
   document.querySelectorAll('.oc-display').forEach(display => {
     display.querySelectorAll('.oc-entry').forEach(entry => {
@@ -46,14 +53,59 @@ function filter() {
   });
 }
 
+function filter_mobile() {
+	reset_filter();
+	const filterText = prompt("Enter word to filter by:").trim().toLowerCase();;
+	if (filterText !== null) {
+		document.querySelectorAll('.oc-display').forEach(display => {
+			display.querySelectorAll('.oc-entry').forEach(entry => {
+				const header = entry.querySelector('.oc-entry-header')?.textContent.toLowerCase() || "";
+				const timer = entry.querySelector('.oc-entry-timer')?.textContent.toLowerCase() || "";
+				const content = entry.querySelector('.oc-entry-content')?.textContent.toLowerCase() || "";
+
+				const fullText = header + " " + timer + " " + content;
+
+				if (fullText.includes(filterText)) {
+					entry.style.display = ''; // Show
+				} else {
+					entry.style.display = 'none'; // Hide
+				}
+			});
+		});
+		document.getElementById('filter_button_mobile').innerText ="Filtering for: "+filterText;
+	} else {
+		reset_filter();
+	}
+}
+
+
 function reset_filter() {
+document.getElementById('filter_input').placeholder = "";
   document.querySelector('#filter_input').value = '';
   document.querySelectorAll('.oc-display .oc-entry').forEach(entry => {
     entry.style.display = ''; // Show all again
   });
+  if(viewmode=="other") {document.getElementById('filter_button_mobile').innerText ="Enter Filter"};
+  document.querySelector('#recruiting').style.display="none";
+document.querySelector('#planning').style.display="none";
+document.querySelector('#completed').style.display="none";
 }
 
-
+function adjust_environment() {
+	function isDesktop() {
+		return !/Mobi|Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent);
+	}
+	if(isDesktop()) {
+		viewmode="desktop";
+	} else {
+		viewmode="other";
+		document.getElementById("updateClock").style.marginTop = "10%"; //test this
+		document.getElementById("updateClock").style.opacity = "0.4";
+		document.getElementById("filter_button_desktop").style.display = "none";
+		document.getElementById("filter_button_mobile").style.display = "";
+		document.getElementById('filter_input').style.display ="none";
+	}
+}
 
 async function fetchGitHubData(url) {
   const response = await fetch(url);
@@ -132,7 +184,6 @@ document.addEventListener('DOMContentLoaded', async function () {
     console.log(oc_data);
 	
 	const ocUpdated = await fetchLastModifiedTimestamp("BC_OC.JSON");
-	console.log(`oc_data timestamp: `, ocUpdated);
 
     const activityResponse = await fetchGitHubData(url2);
     activity_data = activityResponse;
@@ -140,7 +191,6 @@ document.addEventListener('DOMContentLoaded', async function () {
     console.log(activity_data);
 	
 	const activityUpdated = await fetchLastModifiedTimestamp("BC_cron.JSON");
-	console.log(`activity_data timestamp: `, activityUpdated);
 
 	const preHtml = `
   <pre id="updateClock" style="
@@ -167,7 +217,7 @@ TCT:<span id="londonClock">loading...</span></pre>
 
 document.body.insertAdjacentHTML('beforeend', preHtml);
 
-	
+	adjust_environment();
     populatePage();
   } catch (error) {
     console.error("Error fetching data:", error);
@@ -281,10 +331,12 @@ async function populatePage() {
 	}
 
     const entry = document.createElement('div');		//enabled <a href=""> once we got link format
+	let prevLink ="";
+	if(item.name in crimes_chained) {prevLink = ` - <a>Chain OC: ${item?.previous_crime_id ?? "N/A"}</a>`;};
     entry.className = "oc-entry";
 	entry.id = id;
     entry.innerHTML = `
-      <div class="oc-entry-header">[T${crimes_tiers[item.name]}] ${item.name} <a><i>Link</i></a></div>
+      <div class="oc-entry-header">[T${crimes_tiers[item.name]}] ${item.name} - <a><i>Link</i></a> ${prevLink}</div>
 	  <div class="oc-entry-timer">${timer_msg}</div>
       <div class="oc-entry-content">${slot_msg}</div>
 	  <div class="oc-entry-timelog">
@@ -299,7 +351,7 @@ async function populatePage() {
     document.querySelectorAll('.cpr').forEach(item => {
       if (Number(item.innerHTML) < 50) {
         item.style.color = "orange";
-      } else if (Number(item.innerHTML) < 85) {
+      } else if (Number(item.innerHTML) < 75) {
         item.style.color = "yellow";
       } else {
         item.style.color = "lime";
@@ -433,6 +485,7 @@ function generate_timeline(id) {
         seg.style.background = bg;
 
         // Click-to-copy with visual feedback
+		if(viewmode=="desktop") { //start desktop check
         seg.addEventListener('click', e => {
           e.stopPropagation();
           navigator.clipboard.writeText(`${u.user_name}: ${statusText}`).then(() => {
@@ -455,6 +508,7 @@ function generate_timeline(id) {
             }, 1300);
           });
         });
+		} //end desktop check
 
         chart.appendChild(seg);
       });
@@ -647,6 +701,15 @@ a:hover {
 	color:#FFFFFF
 }
 
+#buttons input {
+    width: 31%;
+    height: 40px;
+    margin: 0 1%;
+    font-size: 24px;
+    background-color: #FFFFFF;
+    color: #444;
+}
+
 .oc-entry-timelog {
 }
 
@@ -687,8 +750,10 @@ a:hover {
 <button onclick="toggle(2)">Completed</button>
 <br>
 <button disabled style="color:gray" onclick="switch_display_method()">Switch display method</button>
-<button onclick="filter()">Apply Filter:     <input style="width:70%;height:30px;margin-bottom:15px;padding-top:5px" type="text" id="filter_input"></input></button>
+<button style="display:none" onclick="filter()" id="filter_button_desktop" >Apply Filter:</button><input type="text" id="filter_input" placeholder="Enter filter"></input>
+<button style="display:none" onclick="filter_mobile()" id="filter_button_mobile">Enter Filter</button>
 <button onclick="reset_filter()">Reset Filter</button>
+<br>
 </div>
 <div class="oc-display" id="recruiting"></div>
 <div class="oc-display" id="planning"></div>
@@ -698,6 +763,19 @@ a:hover {
 const tooltip = document.createElement('div');
 tooltip.id = 'custom-tooltip';
 document.body.appendChild(tooltip);
+
+document.getElementById("filter_input").addEventListener("keydown", function(event) {
+	const input = document.getElementById('filter_input');
+	const val = input.value.trim();
+
+	if (event.key === "Enter" && val !== "") {
+		event.preventDefault();
+		filter(val); // Your filter function
+		input.placeholder = val;
+		input.value = val; // Optional: clear input after
+	}
+});
+
 </script>
 </body>
 </html>
