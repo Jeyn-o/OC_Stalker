@@ -348,7 +348,10 @@ function updateCrimesDatabase(crimesDb, crimes, membersById) {
       normalizedSlots[slotObj.position_id] = {
         user_id: slotObj.user.id,
         user_name: membersById[slotObj.user.id]?.name || 'Unknown',
-        checkpoint_pass_rate: slotObj.checkpoint_pass_rate
+        checkpoint_pass_rate: slotObj.checkpoint_pass_rate,
+	position: slotObj.position,
+	position_number: slotObj.position_number,
+	item_available: slotObj.item_requirement.is_available
       };
     });
 
@@ -357,6 +360,9 @@ function updateCrimesDatabase(crimesDb, crimes, membersById) {
       status: crime.status,
       ready_at: crime.ready_at,
       executed_at: crime.executed_at,
+      previous_crime_id: crime.previous_crime_id,
+      expired_at: crime.expired_at,
+      difficulty: crime.difficulty,
       slots: normalizedSlots
     };
 
@@ -520,5 +526,6 @@ function updateNaughtyList(naughtyDb, crimesDb, userDb) {
     console.error('❌ Script error:', err);
   }
 })();
+
 
 
