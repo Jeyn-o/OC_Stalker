@@ -1,0 +1,822 @@
+<html>
+<head>
+<link rel="icon" type="image/png" sizes="64x64" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAGXRFWHRTb2Z0d2FyZQBwYWludC5uZXQgNC4wLjEwJUjwAAABGUlEQVR4nO3SQQ0AMAgEsPD/69wuQkJEBNPSA43sjWyfHCAwAAwAAMAAAADCzQO+z6f/KXquw2VIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwN0R8S3xu0bHXuT7WWjrfD0AYq19sBW90xvDhv3zQZrW1v0GR/iR/vgbqM+CBZ9PQ9fprnjkMT45/DloLzC/Nfv62MNge6tjKw6GZfMn6pjXbVaC05EDOdF87yeQMdJkHKNrwn2hJtu4Fr9C4LtZQFbYy+9mxU8A8RklAZwAAAAASUVORK5CYII=">
+
+<title> BC OC Viewer </title>
+<script>
+let oc_data;
+let activity_data;
+let display_method=2;
+let viewmode;
+function switch_display_method() {
+	if(display_method==1) {
+		display_method=2;
+		document.querySelectorAll('.timelog-simple').forEach(item => {
+			item.style.display="none";
+		});
+		document.querySelectorAll('.timelog-line').forEach(item => {
+			item.style.display="";
+		});
+	} else
+	if(display_method==2) {
+		display_method=1;
+		document.querySelectorAll('.timelog-simple').forEach(item => {
+			item.style.display="";
+		});
+		document.querySelectorAll('.timelog-line').forEach(item => {
+			item.style.display="none";
+		});
+	};
+}
+
+function filter(i) {
+	reset_filter();
+	let filterText;
+	if(i ==null) {
+		filterText = document.querySelector('#filter_input').value.trim().toLowerCase();
+	} else {
+		filterText = i.trim().toLowerCase();
+	}
+
+  document.querySelectorAll('.oc-display').forEach(display => {
+    display.querySelectorAll('.oc-entry').forEach(entry => {
+      const header = entry.querySelector('.oc-entry-header')?.textContent.toLowerCase() || "";
+      const timer = entry.querySelector('.oc-entry-timer')?.textContent.toLowerCase() || "";
+      const content = entry.querySelector('.oc-entry-content')?.textContent.toLowerCase() || "";
+
+      const fullText = header + " " + timer + " " + content;
+
+      if (fullText.includes(filterText)) {
+        entry.style.display = ''; // Show
+      } else {
+        entry.style.display = 'none'; // Hide
+      }
+    });
+  });
+}
+
+function filter_mobile() {
+	reset_filter();
+	const filterText = prompt("Enter word to filter by:").trim().toLowerCase();;
+	if (filterText !== null) {
+		document.querySelectorAll('.oc-display').forEach(display => {
+			display.querySelectorAll('.oc-entry').forEach(entry => {
+				const header = entry.querySelector('.oc-entry-header')?.textContent.toLowerCase() || "";
+				const timer = entry.querySelector('.oc-entry-timer')?.textContent.toLowerCase() || "";
+				const content = entry.querySelector('.oc-entry-content')?.textContent.toLowerCase() || "";
+
+				const fullText = header + " " + timer + " " + content;
+
+				if (fullText.includes(filterText)) {
+					entry.style.display = ''; // Show
+				} else {
+					entry.style.display = 'none'; // Hide
+				}
+			});
+		});
+		document.getElementById('filter_button_mobile').innerText ="Filtering for: "+filterText;
+	} else {
+		reset_filter();
+	}
+}
+
+
+function reset_filter() {
+document.getElementById('filter_input').placeholder = "";
+  document.querySelector('#filter_input').value = '';
+  document.querySelectorAll('.oc-display .oc-entry').forEach(entry => {
+    entry.style.display = ''; // Show all again
+  });
+  if(viewmode=="other") {document.getElementById('filter_button_mobile').innerText ="Enter Filter"};
+  document.querySelector('#recruiting').style.display="none";
+document.querySelector('#planning').style.display="none";
+document.querySelector('#completed').style.display="none";
+}
+
+function adjust_environment() {
+	function isDesktop() {
+		return !/Mobi|Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent);
+	}
+	if(isDesktop()) {
+		viewmode="desktop";
+	} else {
+		viewmode="other";
+		document.getElementById("updateClock").style.marginTop = "10%"; //test this
+		document.getElementById("updateClock").style.opacity = "0.4";
+		document.getElementById("filter_button_desktop").style.display = "none";
+		document.getElementById("filter_button_mobile").style.display = "";
+		document.getElementById('filter_input').style.display ="none";
+	}
+}
+
+async function fetchGitHubData(url) {
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
+  }
+  return await response.json();
+}
+
+async function fetchLastModifiedTimestamp(path) {
+  const apiUrl = `https://api.github.com/repos/Jeyn-o/OC_Stalker/commits?path=${path}&page=1&per_page=1`;
+
+  const response = await fetch(apiUrl);
+  if (!response.ok) {
+    throw new Error(`GitHub API error: ${response.status}`);
+  }
+
+  const commits = await response.json();
+  if (commits.length === 0) return null;
+
+  const isoDate = commits[0].commit.committer.date;
+  const date = new Date(isoDate);
+
+  // Convert to London time string
+  const londonTime = date.toLocaleString('en-GB', {
+    timeZone: 'UTC',
+    hour12: false,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+  });
+
+  return londonTime;
+}
+
+function updateClockNoDST() {
+  const clockEl = document.getElementById('londonClock');
+  if (!clockEl) return;
+
+  const now = new Date();
+
+  // Use UTC (no DST)
+  const formatted = now.toLocaleString('en-GB', {
+    timeZone: 'UTC',
+    hour12: false,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+  });
+
+  clockEl.textContent = formatted;
+}
+
+
+// Initial call
+updateClockNoDST();
+
+// Update every second
+setInterval(updateClockNoDST, 1000);
+
+
+document.addEventListener('DOMContentLoaded', async function () {
+  const url1 = 'https://raw.githubusercontent.com/Jeyn-o/OC_Stalker/main/BC_OC.JSON';
+  const url2 = 'https://raw.githubusercontent.com/Jeyn-o/OC_Stalker/main/BC_cron.JSON';
+
+  try {
+    const ocResponse = await fetchGitHubData(url1);
+    oc_data = ocResponse;
+    console.log("Stored as oc_data:");
+    console.log(oc_data);
+	
+	const ocUpdated = await fetchLastModifiedTimestamp("BC_OC.JSON");
+
+    const activityResponse = await fetchGitHubData(url2);
+    activity_data = activityResponse;
+    console.log("Stored as activity_data:");
+    console.log(activity_data);
+	
+	const activityUpdated = await fetchLastModifiedTimestamp("BC_cron.JSON");
+
+	const preHtml = `
+  <pre id="updateClock" style="
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-family: monospace;
+    font-size: 14px;
+    white-space: pre;
+    z-index: 9999;
+	opacity:0.6;
+  ">
+Last OC update:
+    ${ocUpdated}
+Last activity update:
+    ${activityUpdated}
+	
+TCT:<span id="londonClock">loading...</span></pre>
+`;
+
+document.body.insertAdjacentHTML('beforeend', preHtml);
+
+	adjust_environment();
+    populatePage();
+  } catch (error) {
+    console.error("Error fetching data:", error);
+  }
+});
+
+function toggle(num) {
+document.querySelector('#recruiting').style.display="none";
+document.querySelector('#planning').style.display="none";
+document.querySelector('#completed').style.display="none";
+document.querySelectorAll('.oc-display')[num].style.display="";
+}
+const crimes_slots = {
+	"Pet Project": 				3, //done
+	"Mob Mentality": 			4, //done
+	"Best of the Lot": 			4, //done
+	"Cash Me if You Can": 		3, //done
+	"Smoke and Wing Mirrors": 	4, //done
+	"Market Forces": 			5, //done
+	"Gaslight the Way": 		6, //done
+	"Stage Fright": 			6, //done
+	"Snow Blind": 				4, //done
+	"Counter Offer": 			5, //done
+	"No Reserve": 				3, //done
+	"Leave No Trace": 			3, //done
+	"Bidding War": 				6, //done
+	"Honey Trap": 				3, //done
+	"Blast from the Past": 		6, //done
+	"Stacking the Deck": 		4,
+	"Break the Bank": 			6, //done
+	"Ace in the Hole": 			5
+};
+const crimes_tiers = {
+	"Pet Project": 				1, 
+	"Mob Mentality": 			1, 
+	"Best of the Lot": 			2,
+	"Cash Me if You Can": 		2,
+	"Smoke and Wing Mirrors": 	3,
+	"Market Forces": 			3,
+	"Gaslight the Way": 		3,
+	"Stage Fright": 			4,
+	"Snow Blind": 				4,
+	"Counter Offer": 			5,
+	"No Reserve": 				5,
+	"Leave No Trace": 			5,
+	"Bidding War": 				6,
+	"Honey Trap": 				6,
+	"Blast from the Past": 		7,
+	"Stacking the Deck": 		8,
+	"Break the Bank": 			8,
+	"Ace in the Hole": 			9
+};
+const crimes_chained = {
+	"Bidding War": "No Reserve"
+}
+
+function sortAllSections() {
+  // Sort Recruiting (oldest to newest by ready_at)
+  sortEntries('#recruiting', (a, b) =>
+    Number(a.dataset.readyAt) - Number(b.dataset.readyAt)
+  );
+
+  // Sort Planning (most delayed to least, then oldest)
+  sortEntries('#planning', (a, b) => {
+    const delayA = Date.now()/1000 - Number(a.dataset.readyAt);
+    const delayB = Date.now()/1000 - Number(b.dataset.readyAt);
+    if (delayB !== delayA) return delayB - delayA;
+    return Number(a.dataset.readyAt) - Number(b.dataset.readyAt);
+  });
+
+  // Sort Completed (newest to oldest by executed_at)
+  sortEntries('#completed', (a, b) =>
+    Number(b.dataset.executedAt) - Number(a.dataset.executedAt)
+  );
+}
+
+function sortEntries(containerSelector, sortFn) {
+  const container = document.querySelector(containerSelector);
+  const entries = Array.from(container.querySelectorAll('.oc-entry'));
+
+  entries.sort(sortFn).forEach(entry => container.appendChild(entry));
+}
+
+
+async function populatePage() {
+  for (const [id, item] of Object.entries(oc_data)) {
+    let target;
+    if (item.status === "Recruiting") {
+      target = document.querySelector('#recruiting');
+    } else if (item.status === "Planning") {
+      target = document.querySelector('#planning');
+    } else {
+      target = document.querySelector('#completed');
+    }
+
+    let timer_msg;
+    if (item.status === "Recruiting") {
+      timer_msg = "Recruiting";
+    } else if(item.status === "Planning") {
+      // Add countdown placeholder span here
+	  if(item.ready_at<(Date.now() / 1000)) {
+		//delayed
+		timer_msg = `<span color="orange">Ready: ${TCT(item.ready_at)} - delayed</span>`;
+	  } else {
+		timer_msg = `Ready: ${TCT(item.ready_at)} - in <span class="countdown"></span>`;
+	  }
+    } else {
+      if (Math.abs(item.ready_at - item.executed_at) <= 60) {
+		timer_msg = `Executed: ${TCT(item.executed_at)}`;
+	} else {
+		timer_msg = `Delayed: Ready since ${TCT(item.ready_at)} but executed at ${TCT(item.executed_at)}, delayed for ${formatDuration(item.ready_at, item.executed_at)}`;
+	}
+	if (item.status==="Successful") {timer_msg += ` - <b><span style="color:lime">Success</span></b>`};
+	if (item.status==="Failure") {timer_msg += ` - <b><span style="color:#ff5500">Failure</span></b>`};
+
+    }
+
+    let slot_msg = ``;
+	let slots_written = 0;
+    for (const slot of Object.values(item.slots)) {
+	  slots_written++;
+	  if(!slot.position) {slot.position="";slot.position_number="";} else {slot.position += " #"};
+      slot_msg += `
+        <div class="oc-entry-content-slot">
+			<div class="slot-row">
+				<span class="slot-title">${slot.position}${slot.position_number}</span>
+				<span class="cpr">${slot.checkpoint_pass_rate}</span>
+			</div>
+			<a href="https://www.torn.com/profiles.php?XID=${slot.user_id}">
+				${slot.user_name}
+			</a><br>
+		</div>
+		`;
+    }
+	if(item.status === "Recruiting") {
+		//populate empty slots
+		if(slots_written<crimes_slots[item.name]) {
+			for(i=0;i<(crimes_slots[item.name]-slots_written);i++) {
+				slot_msg += `
+					<div class="oc-entry-content-slot"><br>Empty</div>
+				`;
+			}
+		}
+	}
+
+    const entry = document.createElement('div');		//enabled <a href=""> once we got link format
+	let prevLink ="";
+	if(item.name in crimes_chained) {prevLink = ` - <a>Chain OC: ${item?.previous_crime_id ?? "N/A"}</a>`;};
+    entry.className = "oc-entry";
+	entry.id = id;
+	entry.dataset.readyAt = item.ready_at;
+	entry.dataset.executedAt = item.executed_at ?? 0;
+	entry.dataset.status = item.status;
+
+
+    entry.innerHTML = `
+      <div class="oc-entry-header">[T${crimes_tiers[item.name]}] ${item.name} - <a><i>Link</i></a> ${prevLink}</div>
+	  <div class="oc-entry-timer">${timer_msg}</div>
+      <div class="oc-entry-content">${slot_msg}</div>
+	  <div class="oc-entry-timelog">
+		<div class="oc-entry-timelog-sub timelog-simple" style="display:none;"></div>
+		<div class="oc-entry-timelog-sub timelog-line"><button onclick="generate_timeline(${id})">Generate Timeline</button></div>
+	  </div>
+    `;
+
+    target.appendChild(entry);
+
+    // Color code the checkpoint pass rate
+    document.querySelectorAll('.cpr').forEach(item => {
+      if (Number(item.innerHTML) < 50) {
+        item.style.color = "orange";
+      } else if (Number(item.innerHTML) < 75) {
+        item.style.color = "yellow";
+      } else {
+        item.style.color = "lime";
+      }
+    });
+
+    // START COUNTDOWN ONLY IF "Planning" (i.e., if countdown span exists inside this entry)
+    const countdownEl = entry.querySelector('.countdown');
+    if (countdownEl) {
+      startCountdown(countdownEl, item.ready_at);
+    }
+  }
+  sortAllSections();
+}
+
+function generate_timeline(id) {
+  const ocData = oc_data[id];
+  const BC = activity_data;
+
+  const target = document.getElementById(id);
+  const container = target.querySelector('.timelog-line');
+  container.innerHTML = '';
+
+  function shortFormat(ts) {
+    const d = new Date((ts - 3600) * 1000);
+    const parts = new Intl.DateTimeFormat('en-GB', {
+      timeZone: 'UTC',
+      day: '2-digit',
+      month: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: false
+    }).formatToParts(d);
+    const day = `${parts.find(p => p.type === 'day').value}.${parts.find(p => p.type === 'month').value}`;
+    const hour = parts.find(p => p.type === 'hour').value;
+    const minute = parts.find(p => p.type === 'minute').value;
+    return { day, time: `${hour}:${minute}`, text: `${day} ${hour}:${minute}` };
+  }
+
+  const users = new Map();
+  ocData.action_log.forEach(a => {
+    if (!users.has(a.user_id)) {
+      users.set(a.user_id, { user_name: a.user_name, joins: [], leaves: [] });
+    }
+    if (a.action === 'joined') users.get(a.user_id).joins.push(a.timestamp);
+    if (a.action === 'left') users.get(a.user_id).leaves.push(a.timestamp);
+  });
+
+  const start = Math.min(...[...users.values()].flatMap(u => u.joins));
+  const end = ocData.executed_at || ocData.ready_at || Math.floor(Date.now() / 1000);
+  const now = Math.floor(Date.now() / 1000);
+  const wouldHaveBeenReady = ocData.would_have_been_ready || ocData.ready_at || end;
+
+  const timeline = document.createElement('div');
+  timeline.className = 'oc-timeline';
+  timeline.style.cssText = 'font-size:12px; margin-top:8px;';
+  const fragment = document.createDocumentFragment();
+
+  users.forEach((u, uid) => {
+    const row = document.createElement('div');
+    row.style.cssText = 'display:flex; align-items:center; margin-bottom:4px';
+
+    const label = document.createElement('div');
+    label.textContent = u.user_name;
+    label.style.cssText = 'flex:0 0 100px; overflow:hidden; text-overflow:ellipsis';
+    row.appendChild(label);
+
+    const chart = document.createElement('div');
+    chart.style.cssText = 'position:relative; flex:1; height:16px; background:#eee; border-radius:4px';
+
+    u.joins.forEach((joinTs, i) => {
+      const leaveTs = u.leaves[i] || end;
+      const baseLeft = ((joinTs - start) / (end - start)) * 100;
+      const baseWidth = ((leaveTs - joinTs) / (end - start)) * 100;
+      const base = document.createElement('div');
+      base.style.cssText = `
+        position:absolute; top:0; left:${baseLeft}%;
+        width:${baseWidth}%; height:100%;
+        background:#ddd; border:1px solid black;
+      `;
+      chart.appendChild(base);
+
+      const activities = (BC[uid]?.activities || []).filter(a =>
+        a.start < leaveTs && (a.end || end) > joinTs
+      );
+
+      activities.forEach((a, idx) => {
+        const segStart = Math.max(a.start, joinTs);
+        const segEnd = Math.min(a.end || end, leaveTs);
+        const left = ((segStart - start) / (end - start)) * 100;
+        const width = ((segEnd - segStart) / (end - start)) * 100;
+
+        const seg = document.createElement('div');
+        seg.style.cssText = `
+          position:absolute; top:0; left:${left}%;
+          width:${width}%; height:100%; border:0.5px solid #000;
+          cursor:pointer;
+        `;
+
+        const sf = shortFormat(a.start);
+        const tf = a.end ? shortFormat(a.end) : null;
+        const fromStr = `${sf.day} ${sf.time}`;
+        const untilStr = (idx === activities.length - 1 && ocData.executed_at)
+          ? 'Executed' : (tf ? `${tf.day !== sf.day ? tf.day + ' ' : ''}${tf.time}` : 'Now');
+        const statusText = `${a.status} from ${fromStr} until ${untilStr}`;
+        seg.addEventListener('mouseenter', (e) => {
+			tooltip.innerText = statusText;
+			tooltip.style.display = 'block';
+		});
+
+		seg.addEventListener('mousemove', (e) => {
+			tooltip.style.top = `${e.pageY + 12}px`;
+			tooltip.style.left = `${e.pageX + 12}px`;
+		});
+
+		seg.addEventListener('mouseleave', () => {
+			tooltip.style.display = 'none';
+		});
+
+
+        // Color coding
+        let bg = '#999';
+        if (a.status.startsWith('[Hospital]')) bg = 'orange';
+        else if (a.status === 'Fedded') bg = '#800';
+        else if (a.status === 'Available') bg = '#6c6';
+        else if (a.status === 'Jail') bg = 'cyan';
+        else if (a.status.startsWith('[')) {
+          if (a.status.endsWith('Idle')) bg = '#3498db';
+          else if (a.status.endsWith('Going') || a.status.endsWith('Returning')) bg = '#add8e6';
+          else bg = '#003366';
+        }
+        seg.style.background = bg;
+
+        // Click-to-copy with visual feedback
+		if(viewmode=="desktop") { //start desktop check
+        seg.addEventListener('click', e => {
+          e.stopPropagation();
+          navigator.clipboard.writeText(`${u.user_name}: ${statusText}`).then(() => {
+            seg.style.outline = '2px solid #333';
+            const tip = document.createElement('div');
+            tip.textContent = 'Copied!';
+            tip.style.cssText = `
+              position:absolute; top:-22px; left:50%;
+              transform:translateX(-50%);
+              background:black; color:white; padding:2px 6px;
+              font-size:10px; border-radius:4px;
+              opacity:1; transition:opacity 0.4s ease;
+              z-index:999; pointer-events:none;
+            `;
+            seg.appendChild(tip);
+            setTimeout(() => tip.style.opacity = '0', 800);
+            setTimeout(() => {
+              if (tip.parentNode) tip.parentNode.removeChild(tip);
+              seg.style.outline = '';
+            }, 1300);
+          });
+        });
+		} //end desktop check
+
+        chart.appendChild(seg);
+      });
+    });
+
+    if (end > now) {
+      const whiteLeft = ((now - start) / (end - start)) * 100;
+      const whiteWidth = ((end - now) / (end - start)) * 100;
+      const whiteBlock = document.createElement('div');
+      whiteBlock.style.cssText = `
+        position:absolute; top:0; left:${whiteLeft}%;
+        width:${whiteWidth}%; height:100%; background:white; border:1px solid black;
+      `;
+      chart.appendChild(whiteBlock);
+    }
+
+    if (wouldHaveBeenReady && wouldHaveBeenReady !== end) {
+      const linePos = ((wouldHaveBeenReady - start) / (end - start)) * 100;
+      if (linePos >= 0 && linePos <= 100) {
+        const redLine = document.createElement('div');
+        redLine.style.cssText = `
+          position:absolute; top:0; left:${linePos}%;
+          width:2px; height:100%; background:red; z-index:10;
+        `;
+        chart.appendChild(redLine);
+      }
+    }
+
+    row.appendChild(chart);
+    fragment.appendChild(row);
+  });
+
+  timeline.appendChild(fragment);
+  container.appendChild(timeline);
+}
+
+
+function TCT(unixEpoch) {
+   const date = new Date(unixEpoch * 1000);
+   const options = {
+     timeZone: 'Europe/London',
+     day: '2-digit',
+     month: '2-digit',
+     hour: '2-digit',
+     minute: '2-digit',
+     hour12: false
+   };
+   const formatter = new Intl.DateTimeFormat('en-GB', options);
+   const parts = formatter.formatToParts(date);
+   const day = parts.find(p => p.type === 'day').value;
+   const month = parts.find(p => p.type === 'month').value;
+   const hour = parts.find(p => p.type === 'hour').value;
+   const minute = parts.find(p => p.type === 'minute').value;
+   return `${day}.${month} - ${hour}:${minute}`;
+}
+
+function formatDuration(startEpoch, endEpoch) {
+  const seconds = endEpoch - startEpoch;
+  const days = Math.floor(seconds / 86400);
+  const hours = Math.floor((seconds % 86400) / 3600);
+  const minutes = Math.floor((seconds % 3600) / 60);
+  const secs = seconds % 60;
+
+  let result = '';
+  if (days > 0) result += `${days}d `;
+  if (hours > 0 || days > 0) result += `${hours}h `;
+  if (minutes > 0 || hours > 0 || days > 0) result += `${minutes}m `;
+  result += `${secs}s`;
+
+  return result.trim();
+}
+function startCountdown(element, targetEpoch) {
+  function update() {
+    const now = Math.floor(Date.now() / 1000);
+    let diff = targetEpoch - now;
+
+    if (diff <= 0) {
+      element.textContent = "Now";
+      clearInterval(intervalId);
+      return;
+    }
+
+    const days = Math.floor(diff / 86400);
+    diff %= 86400;
+    const hours = Math.floor(diff / 3600);
+    diff %= 3600;
+    const minutes = Math.floor(diff / 60);
+    const seconds = diff % 60;
+
+    element.textContent = 
+      (days > 0 ? days + "d " : "") + 
+      String(hours).padStart(2, "0") + ":" + 
+      String(minutes).padStart(2, "0") + ":" + 
+      String(seconds).padStart(2, "0");
+  }
+
+  update(); // initial call immediately
+  const intervalId = setInterval(update, 1000);
+  return intervalId;
+}
+
+</script>
+<style>
+body {
+	background-color:#182028;
+	color: #FFFFFF;
+    text-shadow: 0 0 2px #000000;
+	font-family:arial;
+}
+
+.oc-entry {
+	background-color:#444;
+	border-radius:1%;
+	width:95%;
+	/*height:400px;*/
+	padding:1% 1%;
+	margin: 2% 1%;
+}
+
+.oc-entry-header {
+	font-weight:bold;
+}
+	
+.oc-entry-content {
+	display:flex;
+	height:120px;
+	width:100%;
+}
+
+.oc-entry-content-slot {
+	background-color:#666;
+	border:1px solid black;
+	height:50px;
+	width:100%;
+	margin-left:1%;
+	text-align:center;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+a {
+    color: #069;
+    color: #74c0fc;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+a:hover {
+    color: #a1d5ff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+.cpr {
+	margin-right: 5%;
+	text-align:right;
+	font-weight: bold;
+}
+
+.slot-title {
+	text-align:left;
+}
+
+.slot-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 8px;
+  margin-top:7px;
+}
+
+.oc-entry-content-slot a {
+  align-self: center;
+}
+
+#buttons {
+	width:100%;
+}
+
+#buttons button {
+	width:31%;
+	height:40px;
+	margin: 0 1%;
+	font-size:24px;
+	background-color:#444;
+	color:#FFFFFF
+}
+
+#buttons input {
+    width: 31%;
+    height: 40px;
+    margin: 0 1%;
+    font-size: 24px;
+    background-color: #FFFFFF;
+    color: #444;
+}
+
+.oc-entry-timelog {
+}
+
+.oc-entry-timelog-sub {
+}
+
+.timelog-simple {
+}
+
+.timelog-line {
+}
+
+#custom-tooltip {
+  position: absolute;
+  padding: 8px 12px;
+  background: #222;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 6px;
+  pointer-events: none;
+  z-index: 1000;
+  max-width: 300px;
+  line-height: 1.4;
+  display: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  white-space: pre-wrap;
+}
+
+
+</style>
+</head>
+<body>
+<span id="notes">Note: OCs delays have a grace period of 60 seconds. This is for technical reasons.
+</span>
+<div id="buttons">
+<button onclick="toggle(0)">Recruiting</button>
+<button onclick="toggle(1)">Planning</button>
+<button onclick="toggle(2)">Completed</button>
+<br>
+<button disabled style="color:gray" onclick="switch_display_method()">Switch display method</button>
+<button style="display:none" onclick="filter()" id="filter_button_desktop" >Apply Filter:</button><input type="text" id="filter_input" placeholder="Enter filter"></input>
+<button style="display:none" onclick="filter_mobile()" id="filter_button_mobile">Enter Filter</button>
+<button onclick="reset_filter()">Reset Filter</button>
+<br>
+</div>
+<div class="oc-display" id="recruiting"></div>
+<div class="oc-display" id="planning"></div>
+<div class="oc-display" id="completed"></div>
+
+<script>
+const tooltip = document.createElement('div');
+tooltip.id = 'custom-tooltip';
+document.body.appendChild(tooltip);
+
+document.getElementById("filter_input").addEventListener("keydown", function(event) {
+	const input = document.getElementById('filter_input');
+	const val = input.value.trim();
+
+	if (event.key === "Enter" && val !== "") {
+		event.preventDefault();
+		filter(val); // Your filter function
+		input.placeholder = val;
+		input.value = val; // Optional: clear input after
+	}
+});
+
+</script>
+</body>
+</html>
