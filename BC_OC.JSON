@@ -7918,7 +7918,7 @@
   "737585": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": 1754418053,
+    "ready_at": 1754504453,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -7928,6 +7928,13 @@
         "position": "Enforcer",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 2302062,
+        "user_name": "BoozHound",
+        "checkpoint_pass_rate": 80,
+        "position": "Muscle",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -7941,6 +7948,16 @@
         "position": "Enforcer",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1754333431,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2302062,
+        "user_name": "BoozHound",
+        "checkpoint_pass_rate": 80,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   },
