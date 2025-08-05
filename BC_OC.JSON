@@ -7767,10 +7767,31 @@
   "734127": {
     "name": "Cash Me if You Can",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1754456250,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 3715291,
+        "user_name": "micheloni",
+        "checkpoint_pass_rate": 80,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": false
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1754370034,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3715291,
+        "user_name": "micheloni",
+        "checkpoint_pass_rate": 80,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": false
+      }
+    ]
   },
   "734128": {
     "name": "Mob Mentality",
@@ -7942,7 +7963,7 @@
   "736729": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1754545032,
+    "ready_at": 1754631432,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -7966,6 +7987,14 @@
         "user_name": "Jordanw1",
         "checkpoint_pass_rate": 72,
         "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P5": {
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 72,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
@@ -8001,6 +8030,17 @@
         "user_name": "Jordanw1",
         "checkpoint_pass_rate": 72,
         "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1754370034,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 72,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
