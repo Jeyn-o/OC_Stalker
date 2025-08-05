@@ -7476,7 +7476,7 @@
         "checkpoint_pass_rate": 68,
         "position": "Muscle",
         "position_number": 2,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -8336,7 +8336,7 @@
   "737586": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": 1754513084,
+    "ready_at": 1754599484,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -8345,6 +8345,14 @@
         "checkpoint_pass_rate": 76,
         "position": "Techie",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 3342314,
+        "user_name": "Krytical",
+        "checkpoint_pass_rate": 66,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -8357,6 +8365,17 @@
         "checkpoint_pass_rate": 76,
         "position": "Techie",
         "position_number": 1
+      },
+      {
+        "timestamp": 1754433627,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3342314,
+        "user_name": "Krytical",
+        "checkpoint_pass_rate": 66,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -8423,6 +8442,30 @@
   },
   "742126": {
     "name": "Snow Blind",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "742127": {
+    "name": "Smoke and Wing Mirrors",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "742128": {
+    "name": "Mob Mentality",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "742129": {
+    "name": "Best of the Lot",
     "status": "Recruiting",
     "ready_at": null,
     "executed_at": null,
