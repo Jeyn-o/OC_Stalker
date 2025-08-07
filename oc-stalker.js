@@ -533,7 +533,7 @@ function updateNaughtyList(naughtyDb, crimesDb, userDb) {
 		const prunedUsers = pruneOldActivities(updatedUsers);
 		await saveDb('userDb', prunedUsers);
 	  //end prune
-    await saveDb('userDb', updatedUsers);
+    //await saveDb('userDb', updatedUsers); without prune
 
     // 🔄 Only update BC_OC and BC_naughty once per half hour
     const now = getUnixTime();
