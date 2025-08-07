@@ -527,13 +527,13 @@ function updateNaughtyList(naughtyDb, crimesDb, userDb) {
     const membersById = Object.fromEntries(members.map(m => [m.id, m]));
 
     const userDb = await loadDb('userDb');
-    const updatedUsers = updateActivityDatabase(userDb, members);
 	  //insert prune
 		const updatedUsers = updateActivityDatabase(userDb, members);
 		const prunedUsers = pruneOldActivities(updatedUsers);
 		await saveDb('userDb', prunedUsers);
 	  //end prune
-    //await saveDb('userDb', updatedUsers); without prune
+	//const updatedUsers = updateActivityDatabase(userDb, members); //without prune
+    //await saveDb('userDb', updatedUsers); //without prune
 
     // 🔄 Only update BC_OC and BC_naughty once per half hour
     const now = getUnixTime();
