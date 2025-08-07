@@ -15,6 +15,11 @@ const GITHUB_OWNER = 'Jeyn-O';
 const GITHUB_REPO = 'OC_Stalker';
 const BRANCH = 'main';
 
+const DAYS_TO_KEEP = 21;
+const SECONDS_IN_DAY = 86400;
+const CUTOFF_TIMESTAMP = getUnixTime() - (DAYS_TO_KEEP * SECONDS_IN_DAY);
+
+
 const LOCAL_PATHS = {
   userDb: path.join(__dirname, 'local-oc-data.json'),
   crimesDb: path.join(__dirname, 'local-crimes-data.json'),
@@ -373,6 +378,27 @@ function updateCrimesDatabase(crimesDb, crimes, membersById) {
   return updatedDb;
 }
 
+// === PRUNE OLD ENTRIES ===
+function pruneOldActivities(db, cutoff = CUTOFF_TIMESTAMP) {
+  const prunedDb = {};
+
+  for (const [userId, userData] of Object.entries(db)) {
+    const prunedActivities = (userData.activities || []).filter(
+      entry => entry.start >= cutoff
+    );
+
+    if (prunedActivities.length > 0) {
+      prunedDb[userId] = {
+        ...userData,
+        activities: prunedActivities
+      };
+    }
+  }
+
+  return prunedDb;
+}
+
+
 // === NAUGHTY LIST ===
 function isCrimeFinished(status) {
   return !['planning', 'recruiting'].includes(status.toLowerCase());
@@ -502,6 +528,11 @@ function updateNaughtyList(naughtyDb, crimesDb, userDb) {
 
     const userDb = await loadDb('userDb');
     const updatedUsers = updateActivityDatabase(userDb, members);
+	  //insert prune
+		const updatedUsers = updateActivityDatabase(userDb, members);
+		const prunedUsers = pruneOldActivities(updatedUsers);
+		await saveDb('userDb', prunedUsers);
+	  //end prune
     await saveDb('userDb', updatedUsers);
 
     // 🔄 Only update BC_OC and BC_naughty once per half hour
