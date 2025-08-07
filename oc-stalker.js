@@ -15,11 +15,6 @@ const GITHUB_OWNER = 'Jeyn-O';
 const GITHUB_REPO = 'OC_Stalker';
 const BRANCH = 'main';
 
-const DAYS_TO_KEEP = 21;
-const SECONDS_IN_DAY = 86400;
-const CUTOFF_TIMESTAMP = getUnixTime() - (DAYS_TO_KEEP * SECONDS_IN_DAY);
-
-
 const LOCAL_PATHS = {
   userDb: path.join(__dirname, 'local-oc-data.json'),
   crimesDb: path.join(__dirname, 'local-crimes-data.json'),
@@ -44,6 +39,12 @@ const getUnixTime = () => Math.floor(Date.now() / 1000);
 function capitalizeWords(str) {
   return str.replace(/\b\w/g, char => char.toUpperCase());
 }
+
+const DAYS_TO_KEEP = 21;
+const SECONDS_IN_DAY = 86400;
+const CUTOFF_TIMESTAMP = getUnixTime() - (DAYS_TO_KEEP * SECONDS_IN_DAY);
+
+
 
 // === GitHub Functions ===
 async function getGithubFile(path) {
