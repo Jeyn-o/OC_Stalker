@@ -6861,9 +6861,9 @@
   },
   "729257": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1754594025,
-    "executed_at": null,
+    "executed_at": 1754594044,
     "slots": {
       "P1": {
         "user_id": 2801440,
@@ -8630,7 +8630,7 @@
   "741640": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": 1754770909,
+    "ready_at": 1754857309,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -8656,6 +8656,14 @@
         "position": "Robber",
         "position_number": 3,
         "item_available": true
+      },
+      "P5": {
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 76,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -8691,6 +8699,17 @@
         "position": "Robber",
         "position_number": 3,
         "item_available": true
+      },
+      {
+        "timestamp": 1754598636,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 76,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -8979,8 +8998,8 @@
   },
   "744467": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1754718229,
+    "status": "Planning",
+    "ready_at": 1754804629,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -8997,6 +9016,14 @@
         "checkpoint_pass_rate": 70,
         "position": "Muscle",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 2302062,
+        "user_name": "BoozHound",
+        "checkpoint_pass_rate": 80,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": true
       }
     },
     "action_log": [
@@ -9020,6 +9047,17 @@
         "checkpoint_pass_rate": 70,
         "position": "Muscle",
         "position_number": 1
+      },
+      {
+        "timestamp": 1754598636,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2302062,
+        "user_name": "BoozHound",
+        "checkpoint_pass_rate": 80,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": true
       }
     ]
   },
@@ -9034,10 +9072,67 @@
   "744470": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1754854691,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 76,
+        "position": "Picklock",
+        "position_number": 1
+      },
+      "P2": {
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 71,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
+      },
+      "P3": {
+        "user_id": 1291244,
+        "user_name": "Namunation",
+        "checkpoint_pass_rate": 67,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1754598636,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 76,
+        "position": "Picklock",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1754598636,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 71,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1754598636,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 1291244,
+        "user_name": "Namunation",
+        "checkpoint_pass_rate": 67,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "745407": {
     "name": "Bidding War",
