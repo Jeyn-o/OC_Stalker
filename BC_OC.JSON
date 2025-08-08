@@ -8196,9 +8196,9 @@
   },
   "736726": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1754660872,
-    "executed_at": null,
+    "executed_at": 1754660885,
     "slots": {
       "P3": {
         "user_id": 2677851,
@@ -9532,8 +9532,8 @@
   },
   "747276": {
     "name": "No Reserve",
-    "status": "Recruiting",
-    "ready_at": 1754781680,
+    "status": "Planning",
+    "ready_at": 1754868080,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -9549,6 +9549,14 @@
         "user_name": "JuanPaulo",
         "checkpoint_pass_rate": 77,
         "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 3292894,
+        "user_name": "VEGABABY",
+        "checkpoint_pass_rate": 77,
+        "position": "Car Thief",
         "position_number": 1,
         "item_available": true
       }
@@ -9573,6 +9581,17 @@
         "user_name": "JuanPaulo",
         "checkpoint_pass_rate": 77,
         "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1754661031,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3292894,
+        "user_name": "VEGABABY",
+        "checkpoint_pass_rate": 77,
+        "position": "Car Thief",
         "position_number": 1,
         "item_available": true
       }
