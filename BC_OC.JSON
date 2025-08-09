@@ -9984,9 +9984,17 @@
   "747287": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1754773190,
+    "ready_at": 1754848840,
     "executed_at": null,
-    "slots": {},
+    "slots": {
+      "P2": {
+        "user_id": 3589360,
+        "user_name": "PyroSpunk",
+        "checkpoint_pass_rate": 70,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    },
     "action_log": [
       {
         "timestamp": 1754686844,
@@ -10009,6 +10017,16 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1754763028,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3589360,
+        "user_name": "PyroSpunk",
+        "checkpoint_pass_rate": 70,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   },
@@ -10212,7 +10230,7 @@
   "748318": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1754892023,
+    "ready_at": 1754978423,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -10228,6 +10246,14 @@
         "user_name": "shrigma",
         "checkpoint_pass_rate": 76,
         "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P5": {
+        "user_id": 3018158,
+        "user_name": "Stevan01",
+        "checkpoint_pass_rate": 79,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
@@ -10252,6 +10278,17 @@
         "user_name": "shrigma",
         "checkpoint_pass_rate": 76,
         "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1754763028,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3018158,
+        "user_name": "Stevan01",
+        "checkpoint_pass_rate": 79,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
