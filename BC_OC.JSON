@@ -7668,9 +7668,9 @@
   },
   "733412": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1754717931,
-    "executed_at": null,
+    "executed_at": 1754717944,
     "slots": {
       "P6": {
         "user_id": 2647214,
@@ -8459,9 +8459,9 @@
   },
   "736729": {
     "name": "Counter Offer",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1754717832,
-    "executed_at": null,
+    "executed_at": 1754717885,
     "slots": {
       "P2": {
         "user_id": 3540076,
@@ -9508,7 +9508,7 @@
   "744469": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1754770377,
+    "ready_at": 1754856777,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -9517,6 +9517,14 @@
         "checkpoint_pass_rate": 65,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      "P5": {
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 63,
+        "position": "Muscle",
+        "position_number": 3,
         "item_available": true
       }
     },
@@ -9530,6 +9538,17 @@
         "checkpoint_pass_rate": 65,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1754718028,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 63,
+        "position": "Muscle",
+        "position_number": 3,
         "item_available": true
       }
     ]
