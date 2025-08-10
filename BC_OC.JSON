@@ -9344,8 +9344,8 @@
   },
   "742128": {
     "name": "Mob Mentality",
-    "status": "Recruiting",
-    "ready_at": 1754874118,
+    "status": "Planning",
+    "ready_at": 1754960518,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -9370,6 +9370,13 @@
         "position": "Looter",
         "position_number": 3,
         "item_available": true
+      },
+      "P4": {
+        "user_id": 3052975,
+        "user_name": "Pantas",
+        "checkpoint_pass_rate": 92,
+        "position": "Looter",
+        "position_number": 4
       }
     },
     "action_log": [
@@ -9404,6 +9411,16 @@
         "position": "Looter",
         "position_number": 3,
         "item_available": true
+      },
+      {
+        "timestamp": 1754806823,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3052975,
+        "user_name": "Pantas",
+        "checkpoint_pass_rate": 92,
+        "position": "Looter",
+        "position_number": 4
       }
     ]
   },
@@ -10060,7 +10077,7 @@
   "747287": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1755108040,
+    "ready_at": 1755194440,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -10090,6 +10107,14 @@
         "checkpoint_pass_rate": 88,
         "position": "Enforcer",
         "position_number": 1
+      },
+      "P5": {
+        "user_id": 3625719,
+        "user_name": "Raie",
+        "checkpoint_pass_rate": 83,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -10154,6 +10179,17 @@
         "checkpoint_pass_rate": 88,
         "position": "Enforcer",
         "position_number": 1
+      },
+      {
+        "timestamp": 1754806823,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3625719,
+        "user_name": "Raie",
+        "checkpoint_pass_rate": 83,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
