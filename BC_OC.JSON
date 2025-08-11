@@ -10797,8 +10797,8 @@
   },
   "754985": {
     "name": "Leave No Trace",
-    "status": "Recruiting",
-    "ready_at": 1755045923,
+    "status": "Planning",
+    "ready_at": 1755132323,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -10816,6 +10816,13 @@
         "position": "Negotiator",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 79,
+        "position": "Techie",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -10840,6 +10847,16 @@
         "position": "Negotiator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1754892037,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 79,
+        "position": "Techie",
+        "position_number": 1
       }
     ]
   }
