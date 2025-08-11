@@ -8941,20 +8941,22 @@
     "status": "Recruiting",
     "ready_at": 1754893407,
     "executed_at": null,
-    "slots": {
-      "P1": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1754807428,
+        "action": "joined",
+        "slot": "P1",
         "user_id": 3343429,
         "user_name": "Znowhite",
         "checkpoint_pass_rate": 65,
         "position": "Robber",
         "position_number": 1,
         "item_available": true
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1754807428,
-        "action": "joined",
+        "timestamp": 1754890230,
+        "action": "left",
         "slot": "P1",
         "user_id": 3343429,
         "user_name": "Znowhite",
@@ -10796,7 +10798,7 @@
   "754985": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": 1754959523,
+    "ready_at": 1755045923,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -10804,6 +10806,14 @@
         "user_name": "VEGABABY",
         "checkpoint_pass_rate": 82,
         "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 77,
+        "position": "Negotiator",
         "position_number": 1,
         "item_available": true
       }
@@ -10817,6 +10827,17 @@
         "user_name": "VEGABABY",
         "checkpoint_pass_rate": 82,
         "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1754890230,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 77,
+        "position": "Negotiator",
         "position_number": 1,
         "item_available": true
       }
