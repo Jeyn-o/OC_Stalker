@@ -9149,9 +9149,9 @@
   },
   "742125": {
     "name": "Stage Fright",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1754984021,
-    "executed_at": null,
+    "executed_at": 1754984044,
     "slots": {
       "P5": {
         "user_id": 3643062,
@@ -11246,7 +11246,7 @@
   "755734": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1755103364,
+    "ready_at": 1755189764,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -11263,6 +11263,13 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3656242,
+        "user_name": "jonasgrind",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -11286,13 +11293,23 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1754984421,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3656242,
+        "user_name": "jonasgrind",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   },
   "755735": {
     "name": "Leave No Trace",
-    "status": "Recruiting",
-    "ready_at": 1755103437,
+    "status": "Planning",
+    "ready_at": 1755189837,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -11307,6 +11324,14 @@
         "user_name": "FatFlash",
         "checkpoint_pass_rate": 81,
         "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 64,
+        "position": "Negotiator",
         "position_number": 1,
         "item_available": true
       }
@@ -11330,6 +11355,17 @@
         "user_name": "FatFlash",
         "checkpoint_pass_rate": 81,
         "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1754984421,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 64,
+        "position": "Negotiator",
         "position_number": 1,
         "item_available": true
       }
