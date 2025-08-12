@@ -9427,9 +9427,9 @@
   },
   "742128": {
     "name": "Mob Mentality",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1754960518,
-    "executed_at": null,
+    "executed_at": 1754960524,
     "slots": {
       "P1": {
         "user_id": 3889435,
@@ -10670,7 +10670,7 @@
   "750608": {
     "name": "Mob Mentality",
     "status": "Recruiting",
-    "ready_at": 1755021415,
+    "ready_at": 1755107815,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -10680,6 +10680,13 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3889435,
+        "user_name": "chairwoman",
+        "checkpoint_pass_rate": 72,
+        "position": "Looter",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -10693,6 +10700,16 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1754961022,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3889435,
+        "user_name": "chairwoman",
+        "checkpoint_pass_rate": 72,
+        "position": "Looter",
+        "position_number": 2
       }
     ]
   },
