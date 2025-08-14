@@ -12264,7 +12264,7 @@
   "763739": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": 1755251451,
+    "ready_at": 1755337851,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -12274,6 +12274,14 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 3342314,
+        "user_name": "Krytical",
+        "checkpoint_pass_rate": 73,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -12287,6 +12295,17 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1755174025,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3342314,
+        "user_name": "Krytical",
+        "checkpoint_pass_rate": 73,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   }
