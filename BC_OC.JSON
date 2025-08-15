@@ -12412,8 +12412,8 @@
   },
   "761083": {
     "name": "Cash Me if You Can",
-    "status": "Recruiting",
-    "ready_at": 1755361721,
+    "status": "Planning",
+    "ready_at": 1755448121,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -12430,6 +12430,14 @@
         "position": "Thief",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 2291737,
+        "user_name": "Special-Needs",
+        "checkpoint_pass_rate": 91,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": false
       }
     },
     "action_log": [
@@ -12453,6 +12461,17 @@
         "position": "Thief",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1755291642,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2291737,
+        "user_name": "Special-Needs",
+        "checkpoint_pass_rate": 91,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": false
       }
     ]
   },
