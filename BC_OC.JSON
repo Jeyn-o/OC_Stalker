@@ -10001,9 +10001,9 @@
   },
   "745407": {
     "name": "Bidding War",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1755249752,
-    "executed_at": null,
+    "executed_at": 1755249784,
     "slots": {
       "P1": {
         "user_id": 2163292,
@@ -12008,8 +12008,8 @@
   },
   "760128": {
     "name": "Blast from the Past",
-    "status": "Recruiting",
-    "ready_at": 1755505707,
+    "status": "Planning",
+    "ready_at": 1755678507,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -12042,6 +12042,21 @@
         "position": "Bomber",
         "position_number": 1,
         "item_available": true
+      },
+      "P5": {
+        "user_id": 2541399,
+        "user_name": "Theurgy",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P6": {
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 67,
+        "position": "Picklock",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -12087,6 +12102,27 @@
         "position": "Bomber",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1755250231,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2541399,
+        "user_name": "Theurgy",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1755250231,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 67,
+        "position": "Picklock",
+        "position_number": 2
       }
     ]
   },
