@@ -12618,9 +12618,9 @@
   },
   "761089": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1755337755,
-    "executed_at": null,
+    "executed_at": 1755337806,
     "slots": {
       "P3": {
         "user_id": 2414438,
@@ -12847,7 +12847,7 @@
   "765266": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1755298364,
+    "ready_at": 1755423829,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -12856,6 +12856,13 @@
         "checkpoint_pass_rate": 85,
         "position": "Looter",
         "position_number": 3
+      },
+      "P2": {
+        "user_id": 3649289,
+        "user_name": "Th3_Fighter",
+        "checkpoint_pass_rate": 84,
+        "position": "Looter",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -12868,6 +12875,16 @@
         "checkpoint_pass_rate": 85,
         "position": "Looter",
         "position_number": 3
+      },
+      {
+        "timestamp": 1755337826,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3649289,
+        "user_name": "Th3_Fighter",
+        "checkpoint_pass_rate": 84,
+        "position": "Looter",
+        "position_number": 1
       }
     ]
   },
