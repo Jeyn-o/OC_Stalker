@@ -12862,7 +12862,7 @@
   "763738": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": 1755503849,
+    "ready_at": 1755590249,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -12871,6 +12871,14 @@
         "checkpoint_pass_rate": 65,
         "position": "Enforcer",
         "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2730718,
+        "user_name": "Haungpeary",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -12906,6 +12914,17 @@
         "checkpoint_pass_rate": 65,
         "position": "Enforcer",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1755450043,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2730718,
+        "user_name": "Haungpeary",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     ]
@@ -13310,10 +13329,29 @@
   "766201": {
     "name": "Cash Me if You Can",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1755536317,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3703949,
+        "user_name": "Downtowndave20",
+        "checkpoint_pass_rate": 78,
+        "position": "Lookout",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1755450043,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3703949,
+        "user_name": "Downtowndave20",
+        "checkpoint_pass_rate": 78,
+        "position": "Lookout",
+        "position_number": 1
+      }
+    ]
   },
   "766202": {
     "name": "Break the Bank",
@@ -13483,10 +13521,31 @@
   "770313": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1755536157,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 76,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": false
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1755450043,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 76,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": false
+      }
+    ]
   },
   "770314": {
     "name": "Gaslight the Way",
