@@ -12623,9 +12623,9 @@
   },
   "760130": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1755720931,
-    "executed_at": null,
+    "executed_at": 1755720964,
     "slots": {
       "P6": {
         "user_id": 2419133,
@@ -13362,10 +13362,31 @@
   "765270": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1755807422,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 64,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1755721230,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 64,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
+      }
+    ]
   },
   "765271": {
     "name": "Stage Fright",
@@ -14679,7 +14700,7 @@
   "776743": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1755720916,
+    "ready_at": 1755807580,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -14689,6 +14710,13 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": false
+      },
+      "P2": {
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 73,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -14702,6 +14730,16 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1755721230,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 73,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     ]
   },
