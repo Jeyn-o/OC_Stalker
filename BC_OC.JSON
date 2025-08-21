@@ -13364,16 +13364,7 @@
     "status": "Recruiting",
     "ready_at": 1755849834,
     "executed_at": null,
-    "slots": {
-      "P4": {
-        "user_id": 2315415,
-        "user_name": "Litri",
-        "checkpoint_pass_rate": 63,
-        "position": "Thief",
-        "position_number": 1,
-        "item_available": true
-      }
-    },
+    "slots": {},
     "action_log": [
       {
         "timestamp": 1755721230,
@@ -13407,6 +13398,17 @@
         "position": "Muscle",
         "position_number": 2,
         "item_available": false
+      },
+      {
+        "timestamp": 1755785433,
+        "action": "left",
+        "slot": "P4",
+        "user_id": 2315415,
+        "user_name": "Litri",
+        "checkpoint_pass_rate": 63,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -15031,7 +15033,7 @@
   "778442": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1755936273,
+    "ready_at": 1756022673,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -15048,6 +15050,14 @@
         "checkpoint_pass_rate": 67,
         "position": "Cat Burglar",
         "position_number": 1
+      },
+      "P4": {
+        "user_id": 2315415,
+        "user_name": "Litri",
+        "checkpoint_pass_rate": 69,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -15071,6 +15081,17 @@
         "checkpoint_pass_rate": 67,
         "position": "Cat Burglar",
         "position_number": 1
+      },
+      {
+        "timestamp": 1755785433,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2315415,
+        "user_name": "Litri",
+        "checkpoint_pass_rate": 69,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
