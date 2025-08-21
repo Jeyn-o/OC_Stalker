@@ -14078,16 +14078,9 @@
   "770314": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1755919805,
+    "ready_at": 1755838436,
     "executed_at": null,
     "slots": {
-      "P2": {
-        "user_id": 3643062,
-        "user_name": "K3llogg",
-        "checkpoint_pass_rate": 85,
-        "position": "Looter",
-        "position_number": 1
-      },
       "P6": {
         "user_id": 3155624,
         "user_name": "Brando72",
@@ -14154,6 +14147,16 @@
         "position": "Imitator",
         "position_number": 2,
         "item_available": true
+      },
+      {
+        "timestamp": 1755750639,
+        "action": "left",
+        "slot": "P2",
+        "user_id": 3643062,
+        "user_name": "K3llogg",
+        "checkpoint_pass_rate": 85,
+        "position": "Looter",
+        "position_number": 1
       }
     ]
   },
@@ -14659,19 +14662,21 @@
     "status": "Recruiting",
     "ready_at": 1755799636,
     "executed_at": null,
-    "slots": {
-      "P3": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1755713438,
+        "action": "joined",
+        "slot": "P3",
         "user_id": 3759168,
         "user_name": "AIshen",
         "checkpoint_pass_rate": 61,
         "position": "Lookout",
         "position_number": 1
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1755713438,
-        "action": "joined",
+        "timestamp": 1755750639,
+        "action": "left",
         "slot": "P3",
         "user_id": 3759168,
         "user_name": "AIshen",
@@ -14684,10 +14689,31 @@
   "776740": {
     "name": "Mob Mentality",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1755836881,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 3759168,
+        "user_name": "AIshen",
+        "checkpoint_pass_rate": 81,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": false
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1755750639,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3759168,
+        "user_name": "AIshen",
+        "checkpoint_pass_rate": 81,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": false
+      }
+    ]
   },
   "776742": {
     "name": "Counter Offer",
@@ -15142,10 +15168,29 @@
   "781146": {
     "name": "Snow Blind",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1755836785,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3643062,
+        "user_name": "K3llogg",
+        "checkpoint_pass_rate": 65,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1755750639,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3643062,
+        "user_name": "K3llogg",
+        "checkpoint_pass_rate": 65,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    ]
   },
   "781147": {
     "name": "Smoke and Wing Mirrors",
