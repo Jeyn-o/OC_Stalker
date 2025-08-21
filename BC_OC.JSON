@@ -13414,9 +13414,9 @@
   },
   "765271": {
     "name": "Stage Fright",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1755762612,
-    "executed_at": null,
+    "executed_at": 1755789425,
     "slots": {
       "P5": {
         "user_id": 3575675,
@@ -14722,8 +14722,8 @@
   },
   "776742": {
     "name": "Counter Offer",
-    "status": "Recruiting",
-    "ready_at": 1755932815,
+    "status": "Planning",
+    "ready_at": 1756019215,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -14757,6 +14757,14 @@
         "position": "Robber",
         "position_number": 1,
         "item_available": false
+      },
+      "P2": {
+        "user_id": 3476243,
+        "user_name": "BadalaKingkong",
+        "checkpoint_pass_rate": 78,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -14803,6 +14811,17 @@
         "position": "Robber",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1755789637,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3476243,
+        "user_name": "BadalaKingkong",
+        "checkpoint_pass_rate": 78,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
