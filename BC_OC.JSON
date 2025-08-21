@@ -13362,17 +13362,9 @@
   "765270": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1755893822,
+    "ready_at": 1755849834,
     "executed_at": null,
     "slots": {
-      "P3": {
-        "user_id": 2069227,
-        "user_name": "GOTOYOURHOME",
-        "checkpoint_pass_rate": 64,
-        "position": "Muscle",
-        "position_number": 2,
-        "item_available": false
-      },
       "P4": {
         "user_id": 2315415,
         "user_name": "Litri",
@@ -13404,6 +13396,17 @@
         "position": "Thief",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1755763829,
+        "action": "left",
+        "slot": "P3",
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 64,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
       }
     ]
   },
@@ -15028,10 +15031,31 @@
   "778442": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1755849873,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 69,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1755763829,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 69,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "778443": {
     "name": "Blast from the Past",
