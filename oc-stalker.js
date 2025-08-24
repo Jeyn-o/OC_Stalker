@@ -40,7 +40,7 @@ function capitalizeWords(str) {
   return str.replace(/\b\w/g, char => char.toUpperCase());
 }
 
-const DAYS_TO_KEEP = 21;
+const DAYS_TO_KEEP = 14;
 const SECONDS_IN_DAY = 86400;
 const CUTOFF_TIMESTAMP = getUnixTime() - (DAYS_TO_KEEP * SECONDS_IN_DAY);
 
