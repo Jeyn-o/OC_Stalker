@@ -16675,7 +16675,7 @@
   "789099": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1756390603,
+    "ready_at": 1756477003,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -16699,6 +16699,14 @@
         "checkpoint_pass_rate": 73,
         "position": "Picklock",
         "position_number": 2
+      },
+      "P2": {
+        "user_id": 446596,
+        "user_name": "Bucki",
+        "checkpoint_pass_rate": 74,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -16754,6 +16762,17 @@
         "checkpoint_pass_rate": 73,
         "position": "Picklock",
         "position_number": 2
+      },
+      {
+        "timestamp": 1756141834,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 446596,
+        "user_name": "Bucki",
+        "checkpoint_pass_rate": 74,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -16927,8 +16946,8 @@
   },
   "790321": {
     "name": "Best of the Lot",
-    "status": "Recruiting",
-    "ready_at": 1756379601,
+    "status": "Planning",
+    "ready_at": 1756466001,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -16952,6 +16971,13 @@
         "user_name": "Drasher",
         "checkpoint_pass_rate": 83,
         "position": "Muscle",
+        "position_number": 1
+      },
+      "P2": {
+        "user_id": 2291737,
+        "user_name": "Special-Needs",
+        "checkpoint_pass_rate": 92,
+        "position": "Car Thief",
         "position_number": 1
       }
     },
@@ -16986,6 +17012,16 @@
         "user_name": "Drasher",
         "checkpoint_pass_rate": 83,
         "position": "Muscle",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1756141834,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2291737,
+        "user_name": "Special-Needs",
+        "checkpoint_pass_rate": 92,
+        "position": "Car Thief",
         "position_number": 1
       }
     ]
