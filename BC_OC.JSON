@@ -16676,7 +16676,7 @@
         "checkpoint_pass_rate": 71,
         "position": "Hacker",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P4": {
         "user_id": 3442152,
@@ -17557,9 +17557,28 @@
   "795678": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1756275473,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3018158,
+        "user_name": "Stevan01",
+        "checkpoint_pass_rate": 86,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1756189232,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3018158,
+        "user_name": "Stevan01",
+        "checkpoint_pass_rate": 86,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    ]
   }
 }
