@@ -14770,9 +14770,9 @@
   },
   "776739": {
     "name": "Cash Me if You Can",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1756220781,
-    "executed_at": null,
+    "executed_at": 1756220825,
     "slots": {
       "P1": {
         "user_id": 2659592,
@@ -16401,8 +16401,8 @@
   },
   "784586": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1756386075,
+    "status": "Planning",
+    "ready_at": 1756472475,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -16419,6 +16419,14 @@
         "checkpoint_pass_rate": 67,
         "position": "Muscle",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 2583853,
+        "user_name": "frkn",
+        "checkpoint_pass_rate": 75,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": true
       }
     },
     "action_log": [
@@ -16442,6 +16450,17 @@
         "checkpoint_pass_rate": 67,
         "position": "Muscle",
         "position_number": 1
+      },
+      {
+        "timestamp": 1756221031,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2583853,
+        "user_name": "frkn",
+        "checkpoint_pass_rate": 75,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": true
       }
     ]
   },
