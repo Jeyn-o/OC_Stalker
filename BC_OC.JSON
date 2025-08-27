@@ -16150,7 +16150,7 @@
   "784576": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1756311975,
+    "ready_at": 1756415091,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -16159,6 +16159,13 @@
         "checkpoint_pass_rate": 72,
         "position": "Looter",
         "position_number": 1
+      },
+      "P4": {
+        "user_id": 3052975,
+        "user_name": "Pantas",
+        "checkpoint_pass_rate": 85,
+        "position": "Looter",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -16171,6 +16178,16 @@
         "checkpoint_pass_rate": 72,
         "position": "Looter",
         "position_number": 1
+      },
+      {
+        "timestamp": 1756329032,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3052975,
+        "user_name": "Pantas",
+        "checkpoint_pass_rate": 85,
+        "position": "Looter",
+        "position_number": 2
       }
     ]
   },
@@ -17899,8 +17916,8 @@
   },
   "795676": {
     "name": "Cash Me if You Can",
-    "status": "Planning",
-    "ready_at": 1756482422,
+    "status": "Recruiting",
+    "ready_at": 1756396022,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -17917,14 +17934,6 @@
         "position": "Thief",
         "position_number": 1,
         "item_available": true
-      },
-      "P2": {
-        "user_id": 3052975,
-        "user_name": "Pantas",
-        "checkpoint_pass_rate": 86,
-        "position": "Thief",
-        "position_number": 2,
-        "item_available": false
       }
     },
     "action_log": [
@@ -17952,6 +17961,17 @@
       {
         "timestamp": 1756282240,
         "action": "joined",
+        "slot": "P2",
+        "user_id": 3052975,
+        "user_name": "Pantas",
+        "checkpoint_pass_rate": 86,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": false
+      },
+      {
+        "timestamp": 1756329032,
+        "action": "left",
         "slot": "P2",
         "user_id": 3052975,
         "user_name": "Pantas",
