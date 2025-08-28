@@ -15819,9 +15819,9 @@
   },
   "781149": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1756376606,
-    "executed_at": null,
+    "executed_at": 1756376643,
     "slots": {
       "P1": {
         "user_id": 3193353,
@@ -18463,7 +18463,7 @@
   "799806": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1756404472,
+    "ready_at": 1756490872,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -18472,6 +18472,13 @@
         "checkpoint_pass_rate": 73,
         "position": "Picklock",
         "position_number": 1
+      },
+      "P6": {
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 69,
+        "position": "Picklock",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -18484,6 +18491,16 @@
         "checkpoint_pass_rate": 73,
         "position": "Picklock",
         "position_number": 1
+      },
+      {
+        "timestamp": 1756377041,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 69,
+        "position": "Picklock",
+        "position_number": 2
       }
     ]
   },
