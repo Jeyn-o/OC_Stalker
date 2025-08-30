@@ -17567,9 +17567,9 @@
   },
   "790323": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1756558070,
-    "executed_at": null,
+    "executed_at": 1756558085,
     "slots": {
       "P4": {
         "user_id": 2408196,
@@ -19443,7 +19443,7 @@
   "804500": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1756776422,
+    "ready_at": 1756862822,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -19467,6 +19467,13 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 3575675,
+        "user_name": "highfishM",
+        "checkpoint_pass_rate": 80,
+        "position": "Enforcer",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -19500,6 +19507,16 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1756558234,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3575675,
+        "user_name": "highfishM",
+        "checkpoint_pass_rate": 80,
+        "position": "Enforcer",
+        "position_number": 1
       }
     ]
   },
