@@ -18371,8 +18371,8 @@
   },
   "798372": {
     "name": "No Reserve",
-    "status": "Recruiting",
-    "ready_at": 1756679550,
+    "status": "Planning",
+    "ready_at": 1756765950,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -18388,6 +18388,14 @@
         "user_name": "Excaliber_13",
         "checkpoint_pass_rate": 72,
         "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 69,
+        "position": "Car Thief",
         "position_number": 1,
         "item_available": true
       }
@@ -18412,6 +18420,17 @@
         "user_name": "Excaliber_13",
         "checkpoint_pass_rate": 72,
         "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1756536634,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 69,
+        "position": "Car Thief",
         "position_number": 1,
         "item_available": true
       }
@@ -18962,10 +18981,31 @@
   "802979": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1756622477,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3625719,
+        "user_name": "Raie",
+        "checkpoint_pass_rate": 64,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1756536634,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3625719,
+        "user_name": "Raie",
+        "checkpoint_pass_rate": 64,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "802982": {
     "name": "Leave No Trace",
