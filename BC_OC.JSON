@@ -16330,9 +16330,9 @@
   },
   "784578": {
     "name": "Market Forces",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1756545640,
-    "executed_at": null,
+    "executed_at": 1756545664,
     "slots": {
       "P3": {
         "user_id": 3589360,
@@ -19345,7 +19345,7 @@
   "804500": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1756690022,
+    "ready_at": 1756776422,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -19361,6 +19361,14 @@
         "checkpoint_pass_rate": 77,
         "position": "Muscle",
         "position_number": 2
+      },
+      "P5": {
+        "user_id": 3331202,
+        "user_name": "Imtheman357",
+        "checkpoint_pass_rate": 65,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -19383,6 +19391,17 @@
         "checkpoint_pass_rate": 77,
         "position": "Muscle",
         "position_number": 2
+      },
+      {
+        "timestamp": 1756546241,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3331202,
+        "user_name": "Imtheman357",
+        "checkpoint_pass_rate": 65,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
