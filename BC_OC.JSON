@@ -16149,8 +16149,8 @@
   },
   "784576": {
     "name": "Gaslight the Way",
-    "status": "Recruiting",
-    "ready_at": 1756674291,
+    "status": "Planning",
+    "ready_at": 1756760691,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -16189,6 +16189,14 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 3689230,
+        "user_name": "quicsilver25",
+        "checkpoint_pass_rate": 72,
+        "position": "Imitator",
+        "position_number": 2,
+        "item_available": false
       }
     },
     "action_log": [
@@ -16243,6 +16251,17 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1756549841,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3689230,
+        "user_name": "quicsilver25",
+        "checkpoint_pass_rate": 72,
+        "position": "Imitator",
+        "position_number": 2,
+        "item_available": false
       }
     ]
   },
@@ -19424,9 +19443,30 @@
   "805609": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1756635991,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 3301215,
+        "user_name": "Semykreen",
+        "checkpoint_pass_rate": 69,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1756549841,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3301215,
+        "user_name": "Semykreen",
+        "checkpoint_pass_rate": 69,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   }
 }
