@@ -20136,10 +20136,29 @@
   "808101": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1756847650,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 3760809,
+        "user_name": "RandomName1",
+        "checkpoint_pass_rate": 78,
+        "position": "Looter",
+        "position_number": 2
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1756761632,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3760809,
+        "user_name": "RandomName1",
+        "checkpoint_pass_rate": 78,
+        "position": "Looter",
+        "position_number": 2
+      }
+    ]
   },
   "808918": {
     "name": "Blast from the Past",
@@ -20264,7 +20283,7 @@
   "808923": {
     "name": "Snow Blind",
     "status": "Recruiting",
-    "ready_at": 1756831708,
+    "ready_at": 1756918108,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -20280,6 +20299,13 @@
         "checkpoint_pass_rate": 72,
         "position": "Muscle",
         "position_number": 2
+      },
+      "P1": {
+        "user_id": 3052975,
+        "user_name": "Pantas",
+        "checkpoint_pass_rate": 72,
+        "position": "Hustler",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -20302,6 +20328,16 @@
         "checkpoint_pass_rate": 72,
         "position": "Muscle",
         "position_number": 2
+      },
+      {
+        "timestamp": 1756761632,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3052975,
+        "user_name": "Pantas",
+        "checkpoint_pass_rate": 72,
+        "position": "Hustler",
+        "position_number": 1
       }
     ]
   },
