@@ -19116,9 +19116,9 @@
   },
   "802979": {
     "name": "No Reserve",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1756795277,
-    "executed_at": null,
+    "executed_at": 1756795325,
     "slots": {
       "P3": {
         "user_id": 3625719,
@@ -19205,8 +19205,8 @@
   },
   "802982": {
     "name": "Leave No Trace",
-    "status": "Recruiting",
-    "ready_at": 1756761556,
+    "status": "Planning",
+    "ready_at": 1756881735,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -19223,6 +19223,14 @@
         "checkpoint_pass_rate": 77,
         "position": "Techie",
         "position_number": 1
+      },
+      "P2": {
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 76,
+        "position": "Negotiator",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -19268,6 +19276,17 @@
         "position": "Negotiator",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1756795832,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 76,
+        "position": "Negotiator",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -20641,7 +20660,7 @@
   "813559": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": 1756853043,
+    "ready_at": 1756939443,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -20651,6 +20670,13 @@
         "position": "Enforcer",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3069081,
+        "user_name": "Thornking",
+        "checkpoint_pass_rate": 30,
+        "position": "Muscle",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -20664,6 +20690,16 @@
         "position": "Enforcer",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1756795832,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3069081,
+        "user_name": "Thornking",
+        "checkpoint_pass_rate": 30,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   },
