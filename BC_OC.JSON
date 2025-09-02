@@ -19205,8 +19205,8 @@
   },
   "802982": {
     "name": "Leave No Trace",
-    "status": "Planning",
-    "ready_at": 1756847956,
+    "status": "Recruiting",
+    "ready_at": 1756761556,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -19223,14 +19223,6 @@
         "checkpoint_pass_rate": 77,
         "position": "Techie",
         "position_number": 1
-      },
-      "P2": {
-        "user_id": 3069081,
-        "user_name": "Thornking",
-        "checkpoint_pass_rate": 27,
-        "position": "Negotiator",
-        "position_number": 1,
-        "item_available": false
       }
     },
     "action_log": [
@@ -19258,6 +19250,17 @@
       {
         "timestamp": 1756705837,
         "action": "joined",
+        "slot": "P2",
+        "user_id": 3069081,
+        "user_name": "Thornking",
+        "checkpoint_pass_rate": 27,
+        "position": "Negotiator",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1756791636,
+        "action": "left",
         "slot": "P2",
         "user_id": 3069081,
         "user_name": "Thornking",
@@ -20674,6 +20677,14 @@
   },
   "813728": {
     "name": "Bidding War",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "814498": {
+    "name": "Stage Fright",
     "status": "Recruiting",
     "ready_at": null,
     "executed_at": null,
