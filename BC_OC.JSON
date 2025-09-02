@@ -20046,9 +20046,9 @@
   },
   "805609": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1756808791,
-    "executed_at": null,
+    "executed_at": 1756808825,
     "slots": {
       "P1": {
         "user_id": 3301215,
@@ -20677,7 +20677,7 @@
   "813559": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": 1756939443,
+    "ready_at": 1756853043,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -20687,13 +20687,6 @@
         "position": "Enforcer",
         "position_number": 1,
         "item_available": true
-      },
-      "P2": {
-        "user_id": 3069081,
-        "user_name": "Thornking",
-        "checkpoint_pass_rate": 30,
-        "position": "Muscle",
-        "position_number": 1
       }
     },
     "action_log": [
@@ -20717,16 +20710,47 @@
         "checkpoint_pass_rate": 30,
         "position": "Muscle",
         "position_number": 1
+      },
+      {
+        "timestamp": 1756809044,
+        "action": "left",
+        "slot": "P2",
+        "user_id": 3069081,
+        "user_name": "Thornking",
+        "checkpoint_pass_rate": 30,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   },
   "813560": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1756895420,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 72,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1756809044,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 72,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "813728": {
     "name": "Bidding War",
