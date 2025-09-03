@@ -608,12 +608,11 @@ function updateNamesDatabase(existingNamesDb, members) {
 
 ///////////////////////////////////
 //Render shenaningans
-const { setTimeout } = require('timers/promises');
 
 // Ping function with timeout
 async function pingWithTimeout(url, timeoutMs = 10000) {
   const controller = new AbortController();
-  const timeoutId = setTimeout(timeoutMs).then(() => controller.abort());
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
 
   try {
     const response = await fetch(url, { signal: controller.signal });
@@ -624,6 +623,8 @@ async function pingWithTimeout(url, timeoutMs = 10000) {
     } else {
       console.error(`Ping failed:`, err.message);
     }
+  } finally {
+    clearTimeout(timeout); // Always clean up
   }
 }
 //////////////////////////////////////
