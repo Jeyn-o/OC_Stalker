@@ -606,11 +606,37 @@ function updateNamesDatabase(existingNamesDb, members) {
   return updated;
 }
 
+///////////////////////////////////
+//Render shenaningans
+const { setTimeout } = require('timers/promises');
 
+// Ping function with timeout
+async function pingWithTimeout(url, timeoutMs = 10000) {
+  const controller = new AbortController();
+  const timeoutId = setTimeout(timeoutMs).then(() => controller.abort());
+
+  try {
+    const response = await fetch(url, { signal: controller.signal });
+    console.log(`Ping sent to ${url}, status: ${response.status}`);
+  } catch (err) {
+    if (err.name === 'AbortError') {
+      console.error(`Ping to ${url} timed out after ${timeoutMs}ms`);
+    } else {
+      console.error(`Ping failed:`, err.message);
+    }
+  }
+}
+//////////////////////////////////////
 
 
 // === MAIN FUNCTION ===
 (async function run() {
+
+//////////////////////////////////////
+//DISCORD SHENANIGANS
+pingWithTimeout('https://turtlebot-d89u.onrender.com/');
+
+	
   try {
     const delay = Math.floor(Math.random() * 5000);
     console.log(`⏳ Delay: ${delay / 1000}s`);
