@@ -6,6 +6,9 @@
 <script>
 let oc_data;
 let activity_data;
+let names_data;
+let cpr_data;
+const dynamicArrays = {};
 let display_method=2;
 let viewmode;
 function switch_display_method() {
@@ -27,6 +30,18 @@ function switch_display_method() {
 			item.style.display="none";
 		});
 	};
+}
+
+function switch_oc_cpr(a) {
+		if(a==1) {
+		//make oc invis
+		document.getElementById("cpr_content").style.display="";
+		document.querySelector('#recruiting').style.display="none";
+		document.querySelector('#planning').style.display="none";
+		document.querySelector('#completed').style.display="none";
+		} else {
+		document.getElementById("cpr_content").style.display="none"
+		};
 }
 
 function filter(i) {
@@ -174,10 +189,15 @@ updateClockNoDST();
 // Update every second
 setInterval(updateClockNoDST, 1000);
 
+function createArray(name) {
+  dynamicArrays[name] = [];
+}
 
 document.addEventListener('DOMContentLoaded', async function () {
   const url1 = 'https://raw.githubusercontent.com/Jeyn-o/OC_Stalker/main/BC_OC.JSON';
   const url2 = 'https://raw.githubusercontent.com/Jeyn-o/OC_Stalker/main/BC_cron.JSON';
+  const url3 = 'https://raw.githubusercontent.com/Jeyn-o/OC_Stalker/main/BC_names.JSON';
+  const url4 = 'https://raw.githubusercontent.com/Jeyn-o/OC_Stalker/main/BC_CPR.JSON';
 
   try {
     const ocResponse = await fetchGitHubData(url1);
@@ -194,6 +214,19 @@ document.addEventListener('DOMContentLoaded', async function () {
 	
 	const activityUpdated = await fetchLastModifiedTimestamp("BC_cron.JSON");
 
+	//CPR page
+	const namesResponse = await fetchGitHubData(url3);
+	names_data = namesResponse;
+	console.log("Stored as names_data:");
+	console.log(names_data);
+	
+	const cprResponse = await fetchGitHubData(url4);
+	cpr_data = cprResponse;
+	console.log("Stored as cpr_data:");
+	console.log(cpr_data);
+	//End CPR page
+	
+	
 	const preHtml = `
   <pre id="updateClock" style="
     position: fixed;
@@ -227,6 +260,7 @@ document.body.insertAdjacentHTML('beforeend', preHtml);
 });
 
 function toggle(num) {
+switch_oc_cpr();
 document.querySelector('#recruiting').style.display="none";
 document.querySelector('#planning').style.display="none";
 document.querySelector('#completed').style.display="none";
@@ -303,6 +337,10 @@ function sortEntries(containerSelector, sortFn) {
   entries.sort(sortFn).forEach(entry => container.appendChild(entry));
 }
 
+function getName(id) {
+	const arr = names_data[id];
+	return arr ? arr[arr.length - 1] : undefined;
+};
 
 async function populatePage() {
   for (const [id, item] of Object.entries(oc_data)) {
@@ -405,6 +443,105 @@ async function populatePage() {
     }
   }
   sortAllSections();
+  //CPR page
+  const cpr_data_target = document.getElementById("cpr_content");
+  
+	//SORTING METHOD. REVERT IF BUGGED.
+	const sortedCrimes = Object.entries(cpr_data).sort((a, b) => {
+		const tierA = crimes_tiers[a[0]];
+		const tierB = crimes_tiers[b[0]];
+		return tierB - tierA; // descending order
+	});
+	const sortedCprData = Object.fromEntries(sortedCrimes);
+	//END SORTING METHOD. ORIGINAL METHOD COMMENTED OUT BELOW.
+	
+  //Object.keys(cpr_data).forEach(crime => {
+    Object.keys(sortedCprData).forEach(crime => {
+	const roles = Object.keys(cpr_data[crime])
+	const rolesamount = roles.length/2;
+	let rolesheader=[];
+	let rolesheaderhtml ="";
+	let slotshtml="";
+	createArray(crime);
+	for(i=0;i<rolesamount*2;i++) {
+		if(i % 2 === 0) {
+			//On every CPR container
+			rolesheader.push(roles[i]);
+		}
+	};
+	for(o=0;o<rolesheader.length;o++) {
+		rolesheaderhtml += `<th colspan="2">${rolesheader[o]}</th>`;
+		//console.log(`Crime: ${crime}, role: ${rolesheader[o]}`);
+		//console.log(cpr_data[crime][rolesheader[o]]); //Object containing ID:CPR 's
+		const crimeCPRentriesLength = Object.keys(cpr_data[crime][rolesheader[o]]).length; //how many user CPR entries about this crime
+		dynamicArrays[crime][rolesheader[o]] = [];
+		Object.entries(cpr_data[crime][rolesheader[o]]).forEach(([key, value]) => {
+			//console.log(`Crime: ${crime}, Role: ${rolesheader[o]}, Name: ${getName(key)}, CPR: ${value}`);
+			dynamicArrays[crime][rolesheader[o]].push([getName(key),value]); //Name + Value
+			//dynamicArrays[crime][rolesheader[o]].push([value,getName(key)]); //value + name
+			dynamicArrays[crime][rolesheader[o]].sort((a, b) => b[1] - a[1]);
+		});
+		
+	};
+	const crimesheader = `<th colspan="${roles.length}">[T${crimes_tiers[crime]}] ${crime}</th>`;
+	let cprbodyhtml="";
+	var facnameslength = Object.keys(names_data).length;
+	for(b=0;b<facnameslength;b++) {
+		cprbodyhtml+=`<tr>`;
+		for(c=0;c<rolesheader.length;c++) {
+			if (dynamicArrays[crime][rolesheader[c]][b] === undefined) {
+				break; // exits the loop early
+			}
+			var name = dynamicArrays[crime][rolesheader[c]][b][0];
+			var cpr = dynamicArrays[crime][rolesheader[c]][b][1];
+			cprbodyhtml+= `
+				<td>  ${name}</td><td class="cpr">${cpr}</td>
+			`;
+		};
+		cprbodyhtml+=`</tr>`;
+	};
+  
+  
+	const entry = document.createElement("div");
+	entry.className="oc-entry";
+	entry.innerHTML=`<table>
+	<thead>
+	<tr>
+	  ${crimesheader}
+	</tr>
+	<tr>
+	  ${rolesheaderhtml}
+	</tr>
+	</thead>
+	<tbody>
+	  ${cprbodyhtml}
+	</tbody>
+	</table>
+	<br><br>
+	`;
+	
+	//CLEAN EMPTY ROWS
+	entry.querySelectorAll("tr").forEach(row => {
+		const isEmpty = [...row.cells].every(cell => cell.textContent.trim() === "");
+		if (isEmpty) {
+			row.remove();
+		}
+	});
+	//END CLEAN
+	
+	cpr_data_target.appendChild(entry);
+	document.querySelectorAll('.cpr').forEach(item => {
+      if (Number(item.innerHTML) < 50) {
+        item.style.color = "orange";
+      } else if (Number(item.innerHTML) < 75) {
+        item.style.color = "yellow";
+      } else {
+        item.style.color = "lime";
+      }
+    });
+  });
+  console.log("Finished CPR database:");
+  console.log(dynamicArrays);
 }
 
 function generate_timeline(id) {
@@ -653,6 +790,10 @@ function startCountdown(element, targetEpoch) {
 
 </script>
 <style>
+#cpr_content table {width: 100%;border:2px solid #323232}
+#cpr_content table th {border:1px solid #323232}
+#cpr_content table td {border:1px solid #323232;padding-left:5px;padding-right:5px;}
+
 body {
 	background-color:#182028;
 	color: #FFFFFF;
@@ -790,7 +931,8 @@ a:hover {
 <button onclick="toggle(1)">Planning</button>
 <button onclick="toggle(2)">Completed</button>
 <br>
-<button disabled style="color:gray" onclick="switch_display_method()">Switch display method</button>
+<!--<button disabled style="color:gray" onclick="switch_display_method()">Switch display method</button>-->
+<button onclick="switch_oc_cpr(1);">CPR</button>
 <button style="display:none" onclick="filter()" id="filter_button_desktop" >Apply Filter:</button><input type="text" id="filter_input" placeholder="Enter filter"></input>
 <button style="display:none" onclick="filter_mobile()" id="filter_button_mobile">Enter Filter</button>
 <button onclick="reset_filter()">Reset Filter</button>
@@ -799,6 +941,8 @@ a:hover {
 <div class="oc-display" id="recruiting"></div>
 <div class="oc-display" id="planning"></div>
 <div class="oc-display" id="completed"></div>
+
+<div class="cpr-display" id="cpr_content"></div>
 
 <script>
 const tooltip = document.createElement('div');
