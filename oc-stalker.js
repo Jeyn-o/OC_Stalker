@@ -25,7 +25,9 @@ const LOCAL_PATHS = {
 const GITHUB_PATHS = {
   userDb: 'BC_cron.JSON',
   crimesDb: 'BC_OC.JSON',
-  naughtyDb: 'BC_naughty.JSON'
+  naughtyDb: 'BC_naughty.JSON',
+  CprDb: 'BC_CPR.JSON',
+  NamesDb: 'BC_names.JSON'
 };
 
 const HEADERS = {
@@ -544,7 +546,65 @@ function updateNaughtyList(naughtyDb, crimesDb, userDb) {
 }
 
 
+function updateCprDatabase(existingCprDb, crimes, validStatuses = ['Planning', 'Successful', 'Failure']) {
+  const updatedCprDb = { ...existingCprDb };
+  const now = getUnixTime();
 
+  for (const crime of crimes) {
+    if (!validStatuses.includes(crime.status)) continue;
+
+    const crimeName = crime.name;
+    if (!crimeName) continue;
+
+    if (!updatedCprDb[crimeName]) {
+      updatedCprDb[crimeName] = {};
+    }
+
+    for (const slot of crime.slots || []) {
+      const userId = slot.user?.id;
+      const cpr = slot.checkpoint_pass_rate;
+      const role = slot.position;
+
+      if (!userId || typeof cpr !== 'number' || !role) continue;
+
+      if (!updatedCprDb[crimeName][role]) {
+        updatedCprDb[crimeName][role] = {};
+      }
+
+      if (!updatedCprDb[crimeName][`${role}_log`]) {
+        updatedCprDb[crimeName][`${role}_log`] = {};
+      }
+
+      // Update CPR if different or new
+      const currentCpr = updatedCprDb[crimeName][role][userId];
+      if (currentCpr !== cpr) {
+        updatedCprDb[crimeName][role][userId] = cpr;
+      }
+
+      // Always update timestamp
+      updatedCprDb[crimeName][`${role}_log`][userId] = now;
+    }
+  }
+
+  return updatedCprDb;
+}
+
+function updateNamesDatabase(existingNamesDb, members) {
+  const updated = { ...existingNamesDb };
+
+  for (const member of members) {
+    const { id, name } = member;
+    if (!id || !name) continue;
+
+    if (!updated[id]) {
+      updated[id] = [name];
+    } else if (!updated[id].includes(name)) {
+      updated[id].push(name);
+    }
+  }
+
+  return updated;
+}
 
 
 
@@ -564,6 +624,16 @@ function updateNaughtyList(naughtyDb, crimesDb, userDb) {
     const membersById = Object.fromEntries(members.map(m => [m.id, m]));
 
     const userDb = await loadDb('userDb');
+	
+	// 🧠 Update CPR and Names databases
+    const cprDb = await loadDb('CprDb');
+    const updatedCpr = updateCprDatabase(cprDb, crimes);
+    await saveDb('CprDb', updatedCpr);
+
+    const namesDb = await loadDb('NamesDb');
+    const updatedNames = updateNamesDatabase(namesDb, members);
+    await saveDb('NamesDb', updatedNames);
+	//end CPR and names
 	  //insert prune
 		const updatedUsers = updateActivityDatabase(userDb, members);
 		const prunedUsers = pruneOldActivities(updatedUsers);
