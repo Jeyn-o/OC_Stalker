@@ -20926,8 +20926,8 @@
   },
   "813554": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1757032031,
+    "status": "Planning",
+    "ready_at": 1757118431,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -20944,6 +20944,14 @@
         "checkpoint_pass_rate": 66,
         "position": "Muscle",
         "position_number": 1
+      },
+      "P1": {
+        "user_id": 2611425,
+        "user_name": "NeshoNeko",
+        "checkpoint_pass_rate": 69,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -20967,13 +20975,24 @@
         "checkpoint_pass_rate": 66,
         "position": "Muscle",
         "position_number": 1
+      },
+      {
+        "timestamp": 1756933840,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2611425,
+        "user_name": "NeshoNeko",
+        "checkpoint_pass_rate": 69,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
   "813555": {
     "name": "No Reserve",
-    "status": "Recruiting",
-    "ready_at": 1757055923,
+    "status": "Planning",
+    "ready_at": 1757142323,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -20991,6 +21010,14 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 2778055,
+        "user_name": "MrPorkenstien",
+        "checkpoint_pass_rate": 76,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -21015,6 +21042,17 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1756933840,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2778055,
+        "user_name": "MrPorkenstien",
+        "checkpoint_pass_rate": 76,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
