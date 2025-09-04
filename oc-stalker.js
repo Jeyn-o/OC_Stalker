@@ -592,9 +592,13 @@ function updateCprDatabase(existingCprDb, crimes, validStatuses = ['Planning', '
 function updateNamesDatabase(existingNamesDb, members) {
   const updated = { ...existingNamesDb };
 
+  const currentIds = new Set();
+  
   for (const member of members) {
     const { id, name } = member;
     if (!id || !name) continue;
+
+    currentIds.add(id);
 
     if (!updated[id]) {
       updated[id] = [name];
@@ -603,8 +607,18 @@ function updateNamesDatabase(existingNamesDb, members) {
     }
   }
 
+  // Add "Former Member" to IDs not in the current members
+  for (const id in existingNamesDb) {
+    if (!currentIds.has(id)) {
+      if (!updated[id].includes("Former Member")) {
+        updated[id].push("Former Member");
+      }
+    }
+  }
+
   return updated;
 }
+
 
 ///////////////////////////////////
 //Render shenaningans
