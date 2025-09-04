@@ -21746,10 +21746,29 @@
   "817596": {
     "name": "Market Forces",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1757095908,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3052975,
+        "user_name": "Pantas",
+        "checkpoint_pass_rate": 85,
+        "position": "Lookout",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1757010038,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3052975,
+        "user_name": "Pantas",
+        "checkpoint_pass_rate": 85,
+        "position": "Lookout",
+        "position_number": 1
+      }
+    ]
   },
   "817597": {
     "name": "Smoke and Wing Mirrors",
@@ -21762,7 +21781,7 @@
   "817598": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1757228260,
+    "ready_at": 1757141860,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -21778,13 +21797,6 @@
         "checkpoint_pass_rate": 86,
         "position": "Muscle",
         "position_number": 1
-      },
-      "P3": {
-        "user_id": 3052975,
-        "user_name": "Pantas",
-        "checkpoint_pass_rate": 82,
-        "position": "Muscle",
-        "position_number": 2
       }
     },
     "action_log": [
@@ -21811,6 +21823,16 @@
       {
         "timestamp": 1757009438,
         "action": "joined",
+        "slot": "P3",
+        "user_id": 3052975,
+        "user_name": "Pantas",
+        "checkpoint_pass_rate": 82,
+        "position": "Muscle",
+        "position_number": 2
+      },
+      {
+        "timestamp": 1757010038,
+        "action": "left",
         "slot": "P3",
         "user_id": 3052975,
         "user_name": "Pantas",
