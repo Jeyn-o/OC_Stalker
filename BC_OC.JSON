@@ -19477,9 +19477,9 @@
   },
   "802988": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1756974225,
-    "executed_at": null,
+    "executed_at": 1756974243,
     "slots": {
       "P4": {
         "user_id": 2647214,
@@ -20039,7 +20039,7 @@
   "804504": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1756975379,
+    "ready_at": 1757061779,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -20048,6 +20048,14 @@
         "checkpoint_pass_rate": 67,
         "position": "Thief",
         "position_number": 2,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 2647214,
+        "user_name": "Balgor",
+        "checkpoint_pass_rate": 63,
+        "position": "Thief",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -20061,6 +20069,17 @@
         "checkpoint_pass_rate": 67,
         "position": "Thief",
         "position_number": 2,
+        "item_available": true
+      },
+      {
+        "timestamp": 1756974655,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2647214,
+        "user_name": "Balgor",
+        "checkpoint_pass_rate": 63,
+        "position": "Thief",
+        "position_number": 1,
         "item_available": true
       }
     ]
