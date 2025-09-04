@@ -589,25 +589,27 @@ function updateCprDatabase(existingCprDb, crimes, validStatuses = ['Planning', '
   return updatedCprDb;
 }
 
-function updateNamesDatabase(existingNamesDb, members) {
+function updateNamesDatabase(existingNamesDb, membersList) {
   const updated = { ...existingNamesDb };
 
+  // Track current member IDs (as strings to match object keys)
   const currentIds = new Set();
-  
-  for (const member of members) {
+
+  for (const member of membersList) {
     const { id, name } = member;
-    if (!id || !name) continue;
+    if (id == null || !name) continue;
 
-    currentIds.add(id);
+    const stringId = String(id);
+    currentIds.add(stringId);
 
-    if (!updated[id]) {
-      updated[id] = [name];
-    } else if (!updated[id].includes(name)) {
-      updated[id].push(name);
+    if (!updated[stringId]) {
+      updated[stringId] = [name];
+    } else if (!updated[stringId].includes(name)) {
+      updated[stringId].push(name);
     }
   }
 
-  // Add "Former Member" to IDs not in the current members
+  // Check for former members
   for (const id in existingNamesDb) {
     if (!currentIds.has(id)) {
       if (!updated[id].includes("Former Member")) {
@@ -618,6 +620,7 @@ function updateNamesDatabase(existingNamesDb, members) {
 
   return updated;
 }
+
 
 
 ///////////////////////////////////
