@@ -21341,9 +21341,9 @@
   },
   "813560": {
     "name": "No Reserve",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1757068220,
-    "executed_at": null,
+    "executed_at": 1757068266,
     "slots": {
       "P3": {
         "user_id": 3348136,
@@ -21783,8 +21783,8 @@
   },
   "817598": {
     "name": "Stage Fright",
-    "status": "Recruiting",
-    "ready_at": 1757401060,
+    "status": "Planning",
+    "ready_at": 1757487460,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -21822,6 +21822,13 @@
         "checkpoint_pass_rate": 84,
         "position": "Muscle",
         "position_number": 2
+      },
+      "P6": {
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 87,
+        "position": "Sniper",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -21895,6 +21902,16 @@
         "checkpoint_pass_rate": 84,
         "position": "Muscle",
         "position_number": 2
+      },
+      {
+        "timestamp": 1757068841,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 87,
+        "position": "Sniper",
+        "position_number": 1
       }
     ]
   },
@@ -21924,6 +21941,35 @@
   },
   "822690": {
     "name": "Counter Offer",
+    "status": "Recruiting",
+    "ready_at": 1757155068,
+    "executed_at": null,
+    "slots": {
+      "P2": {
+        "user_id": 3342314,
+        "user_name": "Krytical",
+        "checkpoint_pass_rate": 81,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1757068841,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3342314,
+        "user_name": "Krytical",
+        "checkpoint_pass_rate": 81,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
+  },
+  "823145": {
+    "name": "Bidding War",
     "status": "Recruiting",
     "ready_at": null,
     "executed_at": null,
