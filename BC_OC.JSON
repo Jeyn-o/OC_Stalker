@@ -22181,7 +22181,7 @@
   "822690": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1757327868,
+    "ready_at": 1757414268,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -22207,6 +22207,14 @@
         "position": "Picklock",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 2778055,
+        "user_name": "MrPorkenstien",
+        "checkpoint_pass_rate": 81,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -22242,6 +22250,17 @@
         "position": "Picklock",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1757143239,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2778055,
+        "user_name": "MrPorkenstien",
+        "checkpoint_pass_rate": 81,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -22435,10 +22454,29 @@
   "825442": {
     "name": "Snow Blind",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1757229182,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 3018158,
+        "user_name": "Stevan01",
+        "checkpoint_pass_rate": 86,
+        "position": "Hustler",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1757143239,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3018158,
+        "user_name": "Stevan01",
+        "checkpoint_pass_rate": 86,
+        "position": "Hustler",
+        "position_number": 1
+      }
+    ]
   },
   "825485": {
     "name": "Bidding War",
