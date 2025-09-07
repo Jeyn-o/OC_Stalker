@@ -20371,9 +20371,9 @@
   },
   "808101": {
     "name": "Gaslight the Way",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1757279650,
-    "executed_at": null,
+    "executed_at": 1757279705,
     "slots": {
       "P4": {
         "user_id": 3760809,
@@ -20395,7 +20395,7 @@
         "checkpoint_pass_rate": 73,
         "position": "Imitator",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P2": {
         "user_id": 3837249,
@@ -22913,7 +22913,7 @@
   "826838": {
     "name": "Pet Project",
     "status": "Recruiting",
-    "ready_at": 1757270899,
+    "ready_at": 1757366287,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -22921,6 +22921,14 @@
         "user_name": "Thornking",
         "checkpoint_pass_rate": 87,
         "position": "Kidnapper",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 3837249,
+        "user_name": "Cerbb",
+        "checkpoint_pass_rate": 85,
+        "position": "Picklock",
         "position_number": 1,
         "item_available": true
       }
@@ -22934,6 +22942,17 @@
         "user_name": "Thornking",
         "checkpoint_pass_rate": 87,
         "position": "Kidnapper",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1757280041,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3837249,
+        "user_name": "Cerbb",
+        "checkpoint_pass_rate": 85,
+        "position": "Picklock",
         "position_number": 1,
         "item_available": true
       }
