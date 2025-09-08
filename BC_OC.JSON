@@ -20943,9 +20943,9 @@
   },
   "813551": {
     "name": "Pet Project",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1757278788,
-    "executed_at": null,
+    "executed_at": 1757296925,
     "slots": {
       "P2": {
         "user_id": 3627853,
@@ -21920,7 +21920,7 @@
   "817597": {
     "name": "Smoke and Wing Mirrors",
     "status": "Recruiting",
-    "ready_at": 1757317352,
+    "ready_at": 1757403752,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -21936,6 +21936,14 @@
         "checkpoint_pass_rate": 76,
         "position": "Hustler",
         "position_number": 2
+      },
+      "P1": {
+        "user_id": 3627853,
+        "user_name": "lonewanderer024",
+        "checkpoint_pass_rate": 69,
+        "position": "Car Thief",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -21958,6 +21966,17 @@
         "checkpoint_pass_rate": 76,
         "position": "Hustler",
         "position_number": 2
+      },
+      {
+        "timestamp": 1757297434,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3627853,
+        "user_name": "lonewanderer024",
+        "checkpoint_pass_rate": 69,
+        "position": "Car Thief",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -23219,7 +23238,7 @@
   "828152": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1757455440,
+    "ready_at": 1757541840,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -23235,6 +23254,13 @@
         "checkpoint_pass_rate": 79,
         "position": "Looter",
         "position_number": 2
+      },
+      "P6": {
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 71,
+        "position": "Looter",
+        "position_number": 3
       }
     },
     "action_log": [
@@ -23257,6 +23283,16 @@
         "checkpoint_pass_rate": 79,
         "position": "Looter",
         "position_number": 2
+      },
+      {
+        "timestamp": 1757297434,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 71,
+        "position": "Looter",
+        "position_number": 3
       }
     ]
   },
