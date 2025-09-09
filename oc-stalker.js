@@ -318,10 +318,26 @@ function updateActivityDatabase(db, members) {
     );
 
     if (!newDB[userId]) {
-      newDB[userId] = {
+      /*newDB[userId] = {
         name: member.name,
         activities: [{ status: reducedStatus, start: timestamp, end: null }]
-      };
+      };*/
+		const firstActivity = {
+          status: reducedStatus,
+          start: timestamp,
+          end: null
+        };
+        if (
+          reducedStatus.endsWith('Going') ||
+          reducedStatus.endsWith('Returning')
+        ) {
+          firstActivity.travel_type = member.status.travel_type;
+        }
+        newDB[userId] = {
+          name: member.name,
+          activities: [firstActivity]
+        };
+
     } else {
       const activities = newDB[userId].activities;
       const last = activities[activities.length - 1];
