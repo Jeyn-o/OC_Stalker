@@ -1,4 +1,4 @@
-// API Version
+	// API Version
 // === CONFIGURATION ===
 const local_testing = false;
 
@@ -330,7 +330,19 @@ function updateActivityDatabase(db, members) {
         last.end = null; // ongoing
       } else {
         last.end = timestamp;
-        activities.push({ status: reducedStatus, start: timestamp, end: null });
+        const newActivity = { //include new aircraft type check
+          status: reducedStatus,
+          start: timestamp,
+          end: null
+        };
+        if (
+          reducedStatus.endsWith('Going') ||
+          reducedStatus.endsWith('Returning')
+        ) {
+          newActivity.travel_type = member.status.travel_type;
+        }
+        activities.push(newActivity);
+
       }
     }
   });
