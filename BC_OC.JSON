@@ -21692,9 +21692,9 @@
   },
   "816417": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1757448654,
-    "executed_at": null,
+    "executed_at": 1757448664,
     "slots": {
       "P2": {
         "user_id": 2583853,
@@ -23181,7 +23181,7 @@
   "827694": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": 1757591936,
+    "ready_at": 1757678336,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -23213,6 +23213,14 @@
         "checkpoint_pass_rate": 71,
         "position": "Robber",
         "position_number": 3,
+        "item_available": true
+      },
+      "P5": {
+        "user_id": 1291244,
+        "user_name": "Namunation",
+        "checkpoint_pass_rate": 77,
+        "position": "Bomber",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -23281,6 +23289,17 @@
         "position": "Bomber",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1757449244,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 1291244,
+        "user_name": "Namunation",
+        "checkpoint_pass_rate": 77,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -23671,7 +23690,7 @@
   "828154": {
     "name": "Market Forces",
     "status": "Recruiting",
-    "ready_at": 1757595717,
+    "ready_at": 1757682117,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -23694,6 +23713,14 @@
         "checkpoint_pass_rate": 82,
         "position": "Muscle",
         "position_number": 1
+      },
+      "P4": {
+        "user_id": 3589360,
+        "user_name": "PyroSpunk",
+        "checkpoint_pass_rate": 79,
+        "position": "Arsonist",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -23726,6 +23753,17 @@
         "checkpoint_pass_rate": 82,
         "position": "Muscle",
         "position_number": 1
+      },
+      {
+        "timestamp": 1757449244,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3589360,
+        "user_name": "PyroSpunk",
+        "checkpoint_pass_rate": 79,
+        "position": "Arsonist",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -23858,9 +23896,30 @@
   "832187": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1757535184,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 2671530,
+        "user_name": "windyswag",
+        "checkpoint_pass_rate": 75,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1757449244,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2671530,
+        "user_name": "windyswag",
+        "checkpoint_pass_rate": 75,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   }
 }
