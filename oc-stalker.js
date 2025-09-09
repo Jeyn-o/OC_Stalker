@@ -318,26 +318,24 @@ function updateActivityDatabase(db, members) {
     );
 
     if (!newDB[userId]) {
-  const firstActivity = {
-    status: reducedStatus,
-    start: timestamp,
-    end: null
-  };
+      const firstActivity = {
+        status: reducedStatus,
+        start: timestamp,
+        end: null
+      };
 
-  // Normalize travel_type if applicable
-  if (
-    (reducedStatus.endsWith('Going') || reducedStatus.endsWith('Returning')) &&
-    member.status?.travel_type
-  ) {
-    firstActivity.travel_type = member.status.travel_type;
-  }
+      // Normalize travel_type if applicable
+      if (
+        (reducedStatus.endsWith('Going') || reducedStatus.endsWith('Returning')) &&
+        member.status?.travel_type
+      ) {
+        firstActivity.travel_type = member.status.travel_type;
+      }
 
-  newDB[userId] = {
-    name: member.name,
-    activities: [firstActivity]
-  };
-}
-
+      newDB[userId] = {
+        name: member.name,
+        activities: [firstActivity]
+      };
 
     } else {
       const activities = newDB[userId].activities;
@@ -347,29 +345,29 @@ function updateActivityDatabase(db, members) {
         last.end = null; // ongoing
       } else {
         last.end = timestamp;
+
         const newActivity = {
-  status: reducedStatus,
-  start: timestamp,
-  end: null
-};
+          status: reducedStatus,
+          start: timestamp,
+          end: null
+        };
 
-// Normalize travel_type if applicable
-if (
-  (reducedStatus.endsWith('Going') || reducedStatus.endsWith('Returning')) &&
-  member.status?.travel_type
-) {
-  newActivity.travel_type = member.status.travel_type;
-}
+        // Normalize travel_type if applicable
+        if (
+          (reducedStatus.endsWith('Going') || reducedStatus.endsWith('Returning')) &&
+          member.status?.travel_type
+        ) {
+          newActivity.travel_type = member.status.travel_type;
+        }
 
-activities.push(newActivity);
-
-
+        activities.push(newActivity);
       }
     }
   });
 
   return newDB;
 }
+
 
 // === CRIME SLOT/ACTION TRACKING ===
 function updateCrimeSlotsAndActions(existing = {}, incoming, timestamp) {
