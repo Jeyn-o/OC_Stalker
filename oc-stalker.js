@@ -347,18 +347,22 @@ function updateActivityDatabase(db, members) {
         last.end = null; // ongoing
       } else {
         last.end = timestamp;
-        const newActivity = { //include new aircraft type check
-          status: reducedStatus,
-          start: timestamp,
-          end: null
-        };
-        if (
-          reducedStatus.endsWith('Going') ||
-          reducedStatus.endsWith('Returning')
-        ) {
-          newActivity.travel_type = member.status.travel_type;
-        }
-        activities.push(newActivity);
+        const newActivity = {
+  status: reducedStatus,
+  start: timestamp,
+  end: null
+};
+
+// Normalize travel_type if applicable
+if (
+  (reducedStatus.endsWith('Going') || reducedStatus.endsWith('Returning')) &&
+  member.status?.travel_type
+) {
+  newActivity.travel_type = member.status.travel_type;
+}
+
+activities.push(newActivity);
+
 
       }
     }
