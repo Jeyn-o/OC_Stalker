@@ -890,11 +890,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756307430,
-        "end": 1756314045
-      },
-      {
         "status": "Available",
         "start": 1756314045,
         "end": 1756369849
@@ -1484,6 +1479,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1757509844,
+        "end": 1757517040,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1757517040,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4499,6 +4500,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1757506240,
+        "end": 1757517040,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1757517040,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7035,16 +7042,6 @@
       {
         "status": "Available",
         "start": 1757371234,
-        "end": null
-      }
-    ]
-  },
-  "2541399": {
-    "name": "Theurgy",
-    "activities": [
-      {
-        "status": "Available",
-        "start": 1756307430,
         "end": null
       }
     ]
@@ -17882,7 +17879,13 @@
       {
         "status": "[China] - Idle",
         "start": 1757516465,
-        "end": null
+        "end": 1757517040
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1757517040,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -21984,7 +21987,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1757514661,
-        "end": null
+        "end": 1757517040
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1757517040,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26454,11 +26463,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756307430,
-        "end": 1756311629
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1756311629,
         "end": 1756324226
@@ -28743,11 +28747,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756307430,
-        "end": 1756308642
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1756308642,
         "end": 1756309230
@@ -29933,6 +29932,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1757515248,
+        "end": 1757517040,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1757517040,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30469,8 +30474,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1757514039,
-        "end": null,
+        "end": 1757517040,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1757517040,
+        "end": null
       }
     ]
   },
@@ -33843,11 +33853,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1756307430,
-        "end": 1756308642
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1756308642,
