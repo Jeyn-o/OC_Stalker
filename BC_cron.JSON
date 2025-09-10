@@ -2524,11 +2524,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756296042,
-        "end": 1756299031
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1756299031,
         "end": 1756311032
@@ -4489,6 +4484,11 @@
       {
         "status": "Available",
         "start": 1757467240,
+        "end": 1757505662
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1757505662,
         "end": null
       }
     ]
@@ -9632,11 +9632,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1756296042,
-        "end": 1756303245
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1756303245,
         "end": 1756303832
@@ -10317,7 +10312,13 @@
       {
         "status": "Available",
         "start": 1757505046,
-        "end": null
+        "end": 1757505662
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1757505662,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17874,6 +17875,12 @@
       {
         "status": "[China] - Returning",
         "start": 1757502641,
+        "end": 1757505662,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1757505662,
         "end": null,
         "travel_type": "standard"
       }
@@ -19407,6 +19414,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1757504455,
+        "end": 1757505662,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1757505662,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -20036,11 +20049,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756296042,
-        "end": 1756296634
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1756296634,
@@ -22844,11 +22852,6 @@
     "name": "Jordanw1",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756296042,
-        "end": 1756302629
-      },
-      {
         "status": "Available",
         "start": 1756302629,
         "end": 1756303832
@@ -23786,11 +23789,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1756296042,
-        "end": 1756306229
-      },
       {
         "status": "Available",
         "start": 1756306229,
@@ -24809,8 +24807,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1757499044,
-        "end": null,
+        "end": 1757505662,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757505662,
+        "end": null
       }
     ]
   },
@@ -27246,7 +27249,13 @@
       {
         "status": "Available",
         "start": 1757481637,
-        "end": null
+        "end": 1757505662
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1757505662,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27313,11 +27322,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1756296042,
-        "end": 1756305636
-      },
       {
         "status": "Available",
         "start": 1756305636,
@@ -36302,11 +36306,6 @@
   "3868734": {
     "name": "3rdyyy",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1756296042,
-        "end": 1756297225
-      },
       {
         "status": "[China] Hospitalized - Revives: OFF",
         "start": 1756297225,
