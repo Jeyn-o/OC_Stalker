@@ -2953,6 +2953,11 @@
       {
         "status": "Available",
         "start": 1757488844,
+        "end": 1757491252
+      },
+      {
+        "status": "[Hospital] Lost - Revives: OFF",
+        "start": 1757491252,
         "end": null
       }
     ]
@@ -3195,11 +3200,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756281038,
-        "end": 1756283441
-      },
       {
         "status": "[China] - Going",
         "start": 1756283441,
@@ -7348,11 +7348,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1756281641,
-        "end": 1756289430
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1756289430,
         "end": 1756296634
@@ -10706,7 +10701,13 @@
       {
         "status": "Available",
         "start": 1757316032,
-        "end": null
+        "end": 1757491252
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1757491252,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13039,11 +13040,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1756281641,
-        "end": 1756292440
-      },
-      {
         "status": "Available",
         "start": 1756292440,
         "end": 1756313432
@@ -15237,11 +15233,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1756281038,
-        "end": 1756282829
-      },
       {
         "status": "Available",
         "start": 1756282829,
@@ -23731,24 +23722,19 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757485243,
-        "end": null,
+        "end": 1757491252,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1757491252,
+        "end": null
       }
     ]
   },
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756281038,
-        "end": 1756281641
-      },
-      {
-        "status": "[Mexico] - Going",
-        "start": 1756281641,
-        "end": 1756282829
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1756282829,
@@ -26848,11 +26834,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1756281038,
-        "end": 1756288221
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1756288221,
         "end": 1756290030
@@ -27288,11 +27269,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756281038,
-        "end": 1756283441
-      },
       {
         "status": "[China] - Going",
         "start": 1756283441,
@@ -31135,11 +31111,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1756281641,
-        "end": 1756295432
-      },
       {
         "status": "[United Arab Emirates] Mugged - Revives: Partial",
         "start": 1756295432,
@@ -36130,8 +36101,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1757484059,
-        "end": null,
+        "end": 1757491252,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757491252,
+        "end": null
       }
     ]
   },
