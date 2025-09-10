@@ -2047,7 +2047,13 @@
       {
         "status": "Available",
         "start": 1757444463,
-        "end": null
+        "end": 1757493641
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1757493641,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2467,8 +2473,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757487050,
-        "end": null,
+        "end": 1757493641,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1757493641,
+        "end": null
       }
     ]
   },
@@ -2958,6 +2969,11 @@
       {
         "status": "Available",
         "start": 1757492443,
+        "end": 1757493641
+      },
+      {
+        "status": "[Hospital] Lost - Revives: OFF",
+        "start": 1757493641,
         "end": null
       }
     ]
@@ -7052,11 +7068,6 @@
   "2611425": {
     "name": "NeshoNeko",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756284024,
-        "end": 1756290632
-      },
       {
         "status": "Available",
         "start": 1756290632,
@@ -12420,11 +12431,6 @@
   "3069081": {
     "name": "Thornking",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1756284024,
-        "end": 1756296634
-      },
       {
         "status": "Available",
         "start": 1756296634,
@@ -20506,11 +20512,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756284024,
-        "end": 1756290632
-      },
-      {
         "status": "Available",
         "start": 1756290632,
         "end": 1756309230
@@ -23740,11 +23741,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756284024,
-        "end": 1756284634
-      },
-      {
         "status": "[China] - Going",
         "start": 1756284634,
         "end": 1756295432
@@ -26735,6 +26731,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1757449853,
+        "end": 1757493641
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: ALL",
+        "start": 1757493641,
         "end": null
       }
     ]
@@ -28642,6 +28643,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757487050,
+        "end": 1757493641,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757493641,
         "end": null,
         "travel_type": "airstrip"
       }
