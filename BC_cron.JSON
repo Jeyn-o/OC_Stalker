@@ -7362,11 +7362,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1756289430,
-        "end": 1756296634
-      },
-      {
         "status": "Available",
         "start": 1756296634,
         "end": 1756371036
@@ -10590,11 +10585,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1756289430,
-        "end": 1756290632
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1756290632,
         "end": 1756297840
@@ -12874,6 +12864,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1757486438,
+        "end": 1757499044,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1757499044,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -17866,7 +17862,13 @@
       {
         "status": "Available",
         "start": 1757485865,
-        "end": null
+        "end": 1757499044
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1757499044,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -24759,7 +24761,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1757497838,
-        "end": null
+        "end": 1757499044
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1757499044,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
