@@ -2054,7 +2054,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757500256,
-        "end": null
+        "end": 1757500841
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757500841,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8270,11 +8276,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1756291229,
-        "end": 1756297840
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1756297840,
         "end": 1756305057
@@ -9612,11 +9613,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1756291229,
-        "end": 1756293039
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1756293039,
@@ -13678,6 +13674,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1757493064,
+        "end": 1757500841
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: Partial",
+        "start": 1757500841,
         "end": null
       }
     ]
@@ -21886,8 +21887,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1757499643,
-        "end": null,
+        "end": 1757500841,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] Attacked - Revives: ALL",
+        "start": 1757500841,
+        "end": null
       }
     ]
   },
@@ -28645,7 +28651,13 @@
       {
         "status": "Available",
         "start": 1757500256,
-        "end": null
+        "end": 1757500841
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1757500841,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32275,11 +32287,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756291229,
-        "end": 1756297840
-      },
       {
         "status": "Available",
         "start": 1756297840,
