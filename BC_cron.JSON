@@ -9631,11 +9631,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1756293039,
-        "end": 1756294241
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1756294241,
         "end": 1756296042
@@ -13696,6 +13691,11 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: Partial",
         "start": 1757500841,
+        "end": 1757503237
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1757503237,
         "end": null
       }
     ]
@@ -19414,8 +19414,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1757496045,
-        "end": null,
+        "end": 1757503237,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757503237,
+        "end": null
       }
     ]
   },
@@ -26400,6 +26405,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757486438,
+        "end": 1757503237
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1757503237,
         "end": null
       }
     ]
@@ -26407,11 +26417,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1756293039,
-        "end": 1756294836
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1756294836,
@@ -27319,11 +27324,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1756293039,
-        "end": 1756293633
-      },
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1756293633,
@@ -30432,11 +30432,6 @@
   "3693919": {
     "name": "Mythofhs",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1756293039,
-        "end": 1756294836
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1756294836,
@@ -36335,7 +36330,13 @@
       {
         "status": "Available",
         "start": 1757319040,
-        "end": null
+        "end": 1757503237
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1757503237,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
