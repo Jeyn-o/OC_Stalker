@@ -879,7 +879,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1757531449,
-        "end": null
+        "end": 1757532044
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1757532044,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4725,11 +4731,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1756322434,
-        "end": 1756327229
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1756327229,
@@ -11106,8 +11107,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757525455,
-        "end": null,
+        "end": 1757532044,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1757532044,
+        "end": null
       }
     ]
   },
@@ -11759,8 +11765,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1757520633,
-        "end": null,
+        "end": 1757532044,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1757532044,
+        "end": null
       }
     ]
   },
@@ -20184,6 +20195,11 @@
       {
         "status": "Available",
         "start": 1757531449,
+        "end": 1757532044
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1757532044,
         "end": null
       }
     ]
