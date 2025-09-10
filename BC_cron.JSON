@@ -5607,7 +5607,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1757492443,
-        "end": null
+        "end": 1757527837
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1757527837,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -14662,7 +14668,13 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1757527257,
-        "end": null
+        "end": 1757527837
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1757527837,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23178,11 +23190,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1756318229,
-        "end": 1756324845
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1756324845,
         "end": 1756331430
@@ -28110,11 +28117,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[Japan] Lost - Revives: ALL",
-        "start": 1756318229,
-        "end": 1756319439
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1756319439,
@@ -35360,8 +35362,13 @@
       {
         "status": "[China] - Returning",
         "start": 1757517651,
-        "end": null,
+        "end": 1757527837,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757527837,
+        "end": null
       }
     ]
   },
