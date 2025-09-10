@@ -896,8 +896,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1757542848,
-        "end": null,
+        "end": 1757548247,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1757548247,
+        "end": null
       }
     ]
   },
@@ -5635,7 +5640,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757542848,
-        "end": null
+        "end": 1757548247
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757548247,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -10375,8 +10386,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1757536263,
-        "end": null,
+        "end": 1757548247,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1757548247,
+        "end": null
       }
     ]
   },
@@ -16080,18 +16096,19 @@
       {
         "status": "[Japan] - Idle",
         "start": 1757547642,
-        "end": null
+        "end": 1757548247
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1757548247,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1756338633,
-        "end": 1756342843
-      },
       {
         "status": "Available",
         "start": 1756342843,
@@ -30675,6 +30692,11 @@
       {
         "status": "Available",
         "start": 1757526639,
+        "end": 1757548247
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1757548247,
         "end": null
       }
     ]
@@ -33984,6 +34006,11 @@
       {
         "status": "Available",
         "start": 1757525455,
+        "end": 1757548247
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1757548247,
         "end": null
       }
     ]
@@ -33991,11 +34018,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1756338633,
-        "end": 1756351225
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1756351225,
@@ -34789,11 +34811,6 @@
   "3798806": {
     "name": "Drasher",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1756338633,
-        "end": 1756350046
-      },
       {
         "status": "Available",
         "start": 1756350046,
@@ -36313,7 +36330,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1757534462,
-        "end": null
+        "end": 1757548247
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1757548247,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36360,11 +36383,6 @@
   "3851236": {
     "name": "Psyden",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756338633,
-        "end": 1756393245
-      },
       {
         "status": "[China] - Going",
         "start": 1756393245,
