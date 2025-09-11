@@ -2142,8 +2142,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1757598649,
-        "end": null,
+        "end": 1757600442,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1757600442,
+        "end": null
       }
     ]
   },
@@ -6827,8 +6832,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1757593249,
-        "end": null,
+        "end": 1757600442,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1757600442,
+        "end": null
       }
     ]
   },
@@ -8237,7 +8247,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1757593249,
-        "end": null
+        "end": 1757600442
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1757600442,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20909,11 +20925,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756390832,
-        "end": 1756392043
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1756392043,
@@ -35193,11 +35204,6 @@
   "3798806": {
     "name": "Drasher",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756390832,
-        "end": 1756445449
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1756445449,
