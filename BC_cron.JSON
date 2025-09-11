@@ -1725,11 +1725,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1756392634,
-        "end": 1756399230
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1756399230,
         "end": 1756405842
@@ -9267,11 +9262,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1756392043,
-        "end": 1756398639
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1756398639,
         "end": 1756405842
@@ -14962,8 +14952,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757595661,
-        "end": null,
+        "end": 1757602249,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1757602249,
+        "end": null
       }
     ]
   },
@@ -16288,11 +16283,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1756392634,
-        "end": 1756395631
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1756395631,
@@ -20970,11 +20960,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1756392043,
-        "end": 1756393245
-      },
-      {
         "status": "[Cayman Islands] - Idle",
         "start": 1756393245,
         "end": 1756393828
@@ -24257,11 +24242,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756392043,
-        "end": 1756395035
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1756395035,
@@ -29313,11 +29293,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1756392634,
-        "end": 1756399829
-      },
-      {
         "status": "Available",
         "start": 1756399829,
         "end": 1756405235
@@ -33050,11 +33025,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756392043,
-        "end": 1756397432
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1756397432,
         "end": 1756404045
@@ -36771,6 +36741,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1757590260,
+        "end": 1757602249,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1757602249,
         "end": null,
         "travel_type": "airstrip"
       }
