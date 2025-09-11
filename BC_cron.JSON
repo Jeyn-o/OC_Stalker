@@ -4176,8 +4176,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1757574665,
-        "end": null,
+        "end": 1757581847,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757581847,
+        "end": null
       }
     ]
   },
@@ -7273,7 +7278,13 @@
       {
         "status": "[China] - Idle",
         "start": 1757562041,
-        "end": null
+        "end": 1757581847
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1757581847,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12630,11 +12641,6 @@
   "3069081": {
     "name": "Thornking",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1756372236,
-        "end": 1756384840
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1756384840,
@@ -22358,6 +22364,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1757580642,
+        "end": 1757581847,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1757581847,
         "end": null,
         "travel_type": "airstrip"
       }
