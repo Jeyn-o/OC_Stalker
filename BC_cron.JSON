@@ -4774,11 +4774,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756360850,
-        "end": 1756406435
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1756406435,
         "end": 1756411828
@@ -15393,11 +15388,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1756360850,
-        "end": 1756368048
-      },
-      {
         "status": "Available",
         "start": 1756368048,
         "end": 1756398026
@@ -18516,8 +18506,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1757560844,
-        "end": null,
+        "end": 1757570467,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1757570467,
+        "end": null
       }
     ]
   },
@@ -20804,11 +20799,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1756360850,
-        "end": 1756362029
-      },
       {
         "status": "Available",
         "start": 1756362029,
@@ -24084,7 +24074,13 @@
       {
         "status": "Available",
         "start": 1757545846,
-        "end": null
+        "end": 1757570467
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1757570467,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25709,6 +25705,11 @@
       {
         "status": "[China] - Idle",
         "start": 1757569244,
+        "end": 1757570467
+      },
+      {
+        "status": "[China] Mugged - Revives: OFF",
+        "start": 1757570467,
         "end": null
       }
     ]
@@ -35679,11 +35680,6 @@
     "name": "Cerbb",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756360850,
-        "end": 1756362640
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1756362640,
         "end": 1756370437
@@ -36787,11 +36783,6 @@
   "3868734": {
     "name": "3rdyyy",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1756360850,
-        "end": 1756379427
-      },
       {
         "status": "[China] Mugged - Revives: OFF",
         "start": 1756379427,
@@ -38066,8 +38057,13 @@
       {
         "status": "[China] - Going",
         "start": 1757560241,
-        "end": null,
+        "end": 1757570467,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1757570467,
+        "end": null
       }
     ]
   }
