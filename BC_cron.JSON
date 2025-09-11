@@ -2628,11 +2628,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1756388427,
-        "end": 1756389644
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1756389644,
         "end": 1756401630
@@ -6723,7 +6718,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1757577040,
-        "end": null
+        "end": 1757598050
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1757598050,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -7333,11 +7334,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1756388427,
-        "end": 1756395035
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1756395035,
@@ -8454,8 +8450,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1757586046,
-        "end": null,
+        "end": 1757598050,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757598050,
+        "end": null
       }
     ]
   },
@@ -18156,7 +18157,13 @@
       {
         "status": "[China] - Idle",
         "start": 1757595043,
-        "end": null
+        "end": 1757598050
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1757598050,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -23463,11 +23470,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1756388427,
-        "end": 1756389035
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1756389035,
         "end": 1756396236
@@ -25236,8 +25238,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1757596249,
-        "end": null,
+        "end": 1757598050,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757598050,
+        "end": null
       }
     ]
   },
@@ -30481,6 +30488,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1757591451,
+        "end": 1757598050,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1757598050,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -32961,11 +32974,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1756388427,
-        "end": 1756390229
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1756390229,
