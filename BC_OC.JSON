@@ -22246,7 +22246,7 @@
   "822688": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1757773342,
+    "ready_at": 1757859742,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -22279,6 +22279,14 @@
         "checkpoint_pass_rate": 60,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2408196,
+        "user_name": "iam3vaj",
+        "checkpoint_pass_rate": 64,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -22325,6 +22333,17 @@
         "checkpoint_pass_rate": 60,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1757618446,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2408196,
+        "user_name": "iam3vaj",
+        "checkpoint_pass_rate": 64,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     ]
@@ -24699,7 +24718,7 @@
   "839337": {
     "name": "Snow Blind",
     "status": "Recruiting",
-    "ready_at": 1757755432,
+    "ready_at": 1757841832,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -24716,6 +24735,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P4": {
+        "user_id": 517163,
+        "user_name": "poik9",
+        "checkpoint_pass_rate": 81,
+        "position": "Muscle",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -24739,6 +24765,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1757618446,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 517163,
+        "user_name": "poik9",
+        "checkpoint_pass_rate": 81,
+        "position": "Muscle",
+        "position_number": 2
       }
     ]
   },
@@ -24806,5 +24842,29 @@
         "item_available": true
       }
     ]
+  },
+  "841024": {
+    "name": "Clinical Precision",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "841025": {
+    "name": "Blast from the Past",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "841026": {
+    "name": "Counter Offer",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
   }
 }
