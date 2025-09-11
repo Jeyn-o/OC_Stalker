@@ -581,6 +581,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1757598649,
+        "end": 1757611253,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1757611253,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -2636,11 +2642,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756401630,
-        "end": 1756402237
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1756402237,
@@ -7543,7 +7544,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1757601650,
-        "end": null
+        "end": 1757611253
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1757611253,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14993,7 +15000,13 @@
       {
         "status": "Available",
         "start": 1757609443,
-        "end": null
+        "end": 1757611253
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1757611253,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16313,11 +16326,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756401630,
-        "end": 1756402237
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1756402237,
@@ -18233,8 +18241,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1757609443,
-        "end": null,
+        "end": 1757611253,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1757611253,
+        "end": null
       }
     ]
   },
@@ -20495,6 +20508,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1757608847,
+        "end": 1757611253
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1757611253,
         "end": null
       }
     ]
@@ -24235,7 +24253,13 @@
       {
         "status": "Available",
         "start": 1757610064,
-        "end": null
+        "end": 1757611253
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1757611253,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25871,8 +25895,13 @@
       {
         "status": "[China] - Returning",
         "start": 1757601650,
-        "end": null,
+        "end": 1757611253,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757611253,
+        "end": null
       }
     ]
   },
@@ -26919,8 +26948,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757604652,
-        "end": null,
+        "end": 1757611253,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757611253,
+        "end": null
       }
     ]
   },
@@ -34509,18 +34543,19 @@
       {
         "status": "Available",
         "start": 1757608252,
-        "end": null
+        "end": 1757611253
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1757611253,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1756401630,
-        "end": 1756407648
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1756407648,
