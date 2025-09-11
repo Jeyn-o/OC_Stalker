@@ -8993,6 +8993,11 @@
       {
         "status": "Available",
         "start": 1757143237,
+        "end": 1757620857
+      },
+      {
+        "status": "Jail",
+        "start": 1757620857,
         "end": null
       }
     ]
@@ -9777,8 +9782,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1757614248,
-        "end": null,
+        "end": 1757620857,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757620857,
+        "end": null
       }
     ]
   },
@@ -11237,11 +11247,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1756411248,
-        "end": 1756413045
-      },
-      {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1756413045,
         "end": 1756415433
@@ -12682,11 +12687,6 @@
     "name": "Thornking",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1756411248,
-        "end": 1756423845
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1756423845,
         "end": 1756467048
@@ -13309,11 +13309,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1756411248,
-        "end": 1756417830
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1756417830,
@@ -14951,7 +14946,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757617840,
-        "end": null
+        "end": 1757620857
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757620857,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30553,6 +30554,12 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1757619065,
+        "end": 1757620857,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1757620857,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31151,6 +31158,11 @@
       {
         "status": "[Canada] - Idle",
         "start": 1757610064,
+        "end": 1757620857
+      },
+      {
+        "status": "[Canada] Mugged - Revives: ALL",
+        "start": 1757620857,
         "end": null
       }
     ]
@@ -38257,7 +38269,13 @@
       {
         "status": "Available",
         "start": 1757619065,
-        "end": null
+        "end": 1757620857
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1757620857,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   }
