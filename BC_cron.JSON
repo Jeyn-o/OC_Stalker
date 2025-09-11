@@ -585,6 +585,12 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1757586046,
+        "end": 1757598649,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1757598649,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -2135,6 +2141,12 @@
       {
         "status": "[Canada] - Returning",
         "start": 1757597450,
+        "end": 1757598649,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1757598649,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4190,8 +4202,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1757590845,
-        "end": null,
+        "end": 1757598649,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757598649,
+        "end": null
       }
     ]
   },
@@ -10503,11 +10520,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1756389035,
-        "end": 1756391440
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1756391440,
         "end": 1756404045
@@ -12662,7 +12674,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1757597450,
-        "end": null
+        "end": 1757598649
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1757598649,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20431,11 +20449,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1756389035,
-        "end": 1756399829
-      },
-      {
         "status": "Available",
         "start": 1756399829,
         "end": 1756444239
@@ -22406,8 +22419,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1757597450,
-        "end": null,
+        "end": 1757598649,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757598649,
+        "end": null
       }
     ]
   },
@@ -23469,11 +23487,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756389035,
-        "end": 1756396236
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1756396236,
@@ -25251,11 +25264,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1756389035,
-        "end": 1756399230
-      },
       {
         "status": "[China] - Idle",
         "start": 1756399230,
@@ -29237,7 +29245,13 @@
       {
         "status": "Available",
         "start": 1757597450,
-        "end": null
+        "end": 1757598649
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1757598649,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31095,7 +31109,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1757593865,
-        "end": null
+        "end": 1757598649
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1757598649,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -34419,11 +34439,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1756389035,
-        "end": 1756401630
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1756401630,
@@ -38186,7 +38201,13 @@
       {
         "status": "Available",
         "start": 1757580642,
-        "end": null
+        "end": 1757598649
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1757598649,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   }
