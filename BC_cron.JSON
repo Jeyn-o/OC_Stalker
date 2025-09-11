@@ -2148,7 +2148,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1757600442,
-        "end": null
+        "end": 1757601049
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1757601049,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4198,7 +4204,13 @@
       {
         "status": "Available",
         "start": 1757598649,
-        "end": null
+        "end": 1757601049
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1757601049,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8950,7 +8962,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757599846,
-        "end": null
+        "end": 1757601049
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757601049,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10532,11 +10550,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1756391440,
-        "end": 1756404045
-      },
-      {
         "status": "Available",
         "start": 1756404045,
         "end": 1756465835
@@ -10761,8 +10774,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1757595661,
-        "end": null,
+        "end": 1757601049,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1757601049,
+        "end": null
       }
     ]
   },
@@ -14177,11 +14195,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756391440,
-        "end": 1756398026
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1756398026,
@@ -18182,8 +18195,13 @@
       {
         "status": "[China] - Returning",
         "start": 1757598050,
-        "end": null,
+        "end": 1757601049,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1757601049,
+        "end": null
       }
     ]
   },
@@ -20443,6 +20461,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1757597450,
+        "end": 1757601049
+      },
+      {
+        "status": "Available",
+        "start": 1757601049,
         "end": null
       }
     ]
@@ -20918,7 +20941,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757599846,
-        "end": null
+        "end": 1757601049
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757601049,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26895,11 +26924,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756391440,
-        "end": 1756409435
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1756409435,
