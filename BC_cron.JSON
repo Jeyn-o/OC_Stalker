@@ -5627,8 +5627,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757629848,
-        "end": null,
+        "end": 1757634648,
         "travel_type": "private"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1757634648,
+        "end": null
       }
     ]
   },
@@ -10948,11 +10953,6 @@
     "name": "BiberBart",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756425027,
-        "end": 1756479027
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1756479027,
         "end": 1756479648
@@ -11897,7 +11897,13 @@
       {
         "status": "Available",
         "start": 1757623847,
-        "end": null
+        "end": 1757634648
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1757634648,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15457,8 +15463,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1757622666,
-        "end": null,
+        "end": 1757634648,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1757634648,
+        "end": null
       }
     ]
   },
@@ -28525,11 +28536,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756425027,
-        "end": 1756446632
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1756446632,
         "end": 1756456249
@@ -33054,11 +33060,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1756425027,
-        "end": 1756434647
-      },
-      {
         "status": "[China] - Idle",
         "start": 1756434647,
         "end": 1756447249
@@ -34494,6 +34495,11 @@
       {
         "status": "Available",
         "start": 1757614248,
+        "end": 1757634648
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1757634648,
         "end": null
       }
     ]
@@ -35962,7 +35968,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1757634052,
-        "end": null
+        "end": 1757634648
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1757634648,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
