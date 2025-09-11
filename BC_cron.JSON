@@ -1535,6 +1535,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757568049,
+        "end": 1757574665,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757574665,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -3084,6 +3090,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1757562041,
+        "end": 1757574665,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1757574665,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4156,7 +4168,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1757574053,
-        "end": null
+        "end": 1757574665
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1757574665,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11187,11 +11205,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1756365034,
-        "end": 1756376434
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1756376434,
         "end": 1756377039
@@ -14045,8 +14058,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757568049,
-        "end": null,
+        "end": 1757574665,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1757574665,
+        "end": null
       }
     ]
   },
@@ -14822,11 +14840,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1756365034,
-        "end": 1756365634
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1756365634,
@@ -19666,6 +19679,12 @@
       {
         "status": "[China] - Returning",
         "start": 1757564444,
+        "end": 1757574665,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1757574665,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -26757,11 +26776,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1756365034,
-        "end": 1756377039
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1756377039,
         "end": 1756378849
@@ -27637,8 +27651,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1757567448,
-        "end": null,
+        "end": 1757574665,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757574665,
+        "end": null
       }
     ]
   },
@@ -28370,11 +28389,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1756365034,
-        "end": 1756366240
-      },
       {
         "status": "Available",
         "start": 1756366240,
@@ -34245,11 +34259,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1756365034,
-        "end": 1756365634
-      },
-      {
         "status": "[South Africa] Mugged - Revives: ALL",
         "start": 1756365634,
         "end": 1756368048
@@ -37061,11 +37070,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756365034,
-        "end": 1756390229
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1756390229,
