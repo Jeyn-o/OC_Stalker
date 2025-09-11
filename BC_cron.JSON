@@ -14197,7 +14197,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757589644,
-        "end": null
+        "end": 1757605246
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757605246,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16299,11 +16305,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1756395631,
-        "end": 1756398639
-      },
-      {
         "status": "Available",
         "start": 1756398639,
         "end": 1756399230
@@ -18221,8 +18222,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1757602861,
-        "end": null,
+        "end": 1757605246,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1757605246,
+        "end": null
       }
     ]
   },
@@ -29318,6 +29324,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757598649,
+        "end": 1757605246,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757605246,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30577,18 +30589,19 @@
       {
         "status": "Available",
         "start": 1757604652,
-        "end": null
+        "end": 1757605246
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1757605246,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1756395631,
-        "end": 1756397432
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1756397432,
