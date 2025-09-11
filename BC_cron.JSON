@@ -12661,11 +12661,6 @@
     "name": "Thornking",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1756423845,
-        "end": 1756467048
-      },
-      {
         "status": "[South Africa] Mugged - Revives: ALL",
         "start": 1756467048,
         "end": 1756467627
@@ -18123,7 +18118,13 @@
       {
         "status": "[China] - Idle",
         "start": 1757630450,
-        "end": null
+        "end": 1757633453
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1757633453,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -28445,8 +28446,13 @@
       {
         "status": "[China] - Going",
         "start": 1757623847,
-        "end": null,
+        "end": 1757633453,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1757633453,
+        "end": null
       }
     ]
   },
@@ -29237,8 +29243,13 @@
       {
         "status": "[China] - Returning",
         "start": 1757623244,
-        "end": null,
+        "end": 1757633453,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757633453,
+        "end": null
       }
     ]
   },
@@ -33034,7 +33045,13 @@
       {
         "status": "Available",
         "start": 1757626852,
-        "end": null
+        "end": 1757633453
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1757633453,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37254,11 +37271,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Cayman Islands] Mugged - Revives: OFF",
-        "start": 1756423845,
-        "end": 1756426231
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1756426231,
