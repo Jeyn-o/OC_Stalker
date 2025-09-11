@@ -10948,11 +10948,6 @@
     "name": "BiberBart",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1756379427,
-        "end": 1756380036
-      },
-      {
         "status": "[China] Lost - Revives: ALL",
         "start": 1756380036,
         "end": 1756381228
@@ -18132,6 +18127,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1757586659,
+        "end": 1757589041,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1757589041,
         "end": null,
         "travel_type": "standard"
       }
@@ -19728,6 +19729,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1757587839,
+        "end": 1757589041
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: ALL",
+        "start": 1757589041,
         "end": null
       }
     ]
@@ -20873,11 +20879,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1756379427,
-        "end": 1756380641
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1756380641,
@@ -24194,8 +24195,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1757587245,
-        "end": null,
+        "end": 1757589041,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757589041,
+        "end": null
       }
     ]
   },
@@ -25811,7 +25817,13 @@
       {
         "status": "Available",
         "start": 1757585453,
-        "end": null
+        "end": 1757589041
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1757589041,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31035,11 +31047,6 @@
     "name": "Mythofhs",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1756379427,
-        "end": 1756380641
-      },
-      {
         "status": "[Cayman Islands] - Idle",
         "start": 1756380641,
         "end": 1756381228
@@ -34368,7 +34375,13 @@
       {
         "status": "Available",
         "start": 1757583054,
-        "end": null
+        "end": 1757589041
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1757589041,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36869,11 +36882,6 @@
   "3868734": {
     "name": "3rdyyy",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: OFF",
-        "start": 1756379427,
-        "end": 1756381228
-      },
       {
         "status": "[China] - Idle",
         "start": 1756381228,
