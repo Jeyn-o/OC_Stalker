@@ -928,7 +928,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1757665248,
-        "end": null
+        "end": 1757679641
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1757679641,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2125,8 +2131,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1757677844,
-        "end": null,
+        "end": 1757679641,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1757679641,
+        "end": null
       }
     ]
   },
@@ -3269,11 +3280,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1756470035,
-        "end": 1756480834
-      },
       {
         "status": "Available",
         "start": 1756480834,
@@ -10709,6 +10715,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1757672445,
+        "end": 1757679641,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1757679641,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -11825,8 +11837,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1757668826,
-        "end": null,
+        "end": 1757679641,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1757679641,
+        "end": null
       }
     ]
   },
@@ -11898,11 +11915,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1756470035,
-        "end": 1756482629
-      },
       {
         "status": "Available",
         "start": 1756482629,
@@ -14860,11 +14872,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1756470035,
-        "end": 1756476048
-      },
-      {
         "status": "Available",
         "start": 1756476048,
         "end": 1756494631
@@ -16155,11 +16162,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1756470035,
-        "end": 1756473024
-      },
       {
         "status": "[Argentina] Mugged - Revives: ALL",
         "start": 1756473024,
@@ -18557,11 +18559,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1756470035,
-        "end": 1756471841
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1756471841,
         "end": 1756473024
@@ -20494,6 +20491,11 @@
       {
         "status": "Available",
         "start": 1757654452,
+        "end": 1757679641
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1757679641,
         "end": null
       }
     ]
@@ -24245,11 +24247,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1756470035,
-        "end": 1756471233
-      },
-      {
         "status": "Available",
         "start": 1756471233,
         "end": 1756471841
@@ -25282,18 +25279,19 @@
       {
         "status": "Available",
         "start": 1757673639,
-        "end": null
+        "end": 1757679641
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1757679641,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1756470035,
-        "end": 1756480834
-      },
       {
         "status": "[China] - Idle",
         "start": 1756480834,
@@ -31236,8 +31234,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1757671252,
-        "end": null,
+        "end": 1757679641,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1757679641,
+        "end": null
       }
     ]
   },
