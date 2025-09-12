@@ -14871,6 +14871,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1757649048,
+        "end": 1757649657
+      },
+      {
+        "status": "Available",
+        "start": 1757649657,
         "end": null
       }
     ]
@@ -22396,7 +22401,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1757649048,
-        "end": null
+        "end": 1757649657
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1757649657,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36947,8 +36958,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1757642460,
-        "end": null,
+        "end": 1757649657,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757649657,
+        "end": null
       }
     ]
   },
