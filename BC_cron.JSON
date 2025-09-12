@@ -2149,8 +2149,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1757685657,
-        "end": null,
+        "end": 1757687462,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757687462,
+        "end": null
       }
     ]
   },
@@ -10744,8 +10749,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1757679641,
-        "end": null,
+        "end": 1757687462,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757687462,
+        "end": null
       }
     ]
   },
@@ -14131,7 +14141,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757686849,
-        "end": null
+        "end": 1757687462
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757687462,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25360,7 +25376,13 @@
       {
         "status": "Available",
         "start": 1757685657,
-        "end": null
+        "end": 1757687462
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1757687462,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26337,6 +26359,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1757685657,
+        "end": 1757687462
+      },
+      {
+        "status": "Available",
+        "start": 1757687462,
         "end": null
       }
     ]
@@ -33288,11 +33315,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1756477847,
-        "end": 1756485037
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1756485037,
         "end": 1756492242
@@ -34802,11 +34824,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1756477847,
-        "end": 1756478427
-      },
       {
         "status": "Available",
         "start": 1756478427,
@@ -36339,11 +36356,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756477847,
-        "end": 1756484432
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1756484432,
