@@ -1717,7 +1717,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1757671843,
-        "end": null
+        "end": 1757680844
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1757680844,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4602,7 +4608,13 @@
       {
         "status": "Available",
         "start": 1757632851,
-        "end": null
+        "end": 1757680844
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1757680844,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5684,11 +5696,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756471233,
-        "end": 1756477231
-      },
       {
         "status": "[China] - Going",
         "start": 1756477231,
@@ -18103,8 +18110,13 @@
       {
         "status": "[China] - Going",
         "start": 1757677236,
-        "end": null,
+        "end": 1757680844,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1757680844,
+        "end": null
       }
     ]
   },
@@ -19720,6 +19732,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1757679039,
+        "end": 1757680844,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1757680844,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -20988,11 +21006,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1756471233,
-        "end": 1756472445
-      },
       {
         "status": "Available",
         "start": 1756472445,
@@ -24247,11 +24260,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756471233,
-        "end": 1756471841
-      },
       {
         "status": "[China] - Going",
         "start": 1756471841,
@@ -27810,7 +27818,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1757674854,
-        "end": null
+        "end": 1757680844
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1757680844,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34669,8 +34683,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1757680254,
-        "end": null,
+        "end": 1757680844,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1757680844,
+        "end": null
       }
     ]
   },
