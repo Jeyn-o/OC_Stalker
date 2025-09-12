@@ -23788,7 +23788,7 @@
         "checkpoint_pass_rate": 67,
         "position": "Engineer",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P4": {
         "user_id": 2080816,
@@ -23796,7 +23796,7 @@
         "checkpoint_pass_rate": 65,
         "position": "Bomber",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -23907,7 +23907,7 @@
         "checkpoint_pass_rate": 84,
         "position": "Imitator",
         "position_number": 3,
-        "item_available": false
+        "item_available": true
       },
       "P1": {
         "user_id": 3593371,
@@ -24755,20 +24755,22 @@
     "status": "Recruiting",
     "ready_at": 1757744311,
     "executed_at": null,
-    "slots": {
-      "P3": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1757658047,
+        "action": "joined",
+        "slot": "P3",
         "user_id": 3759168,
         "user_name": "AIshen",
         "checkpoint_pass_rate": 62,
         "position": "Imitator",
         "position_number": 2,
         "item_available": false
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1757658047,
-        "action": "joined",
+        "timestamp": 1757658669,
+        "action": "left",
         "slot": "P3",
         "user_id": 3759168,
         "user_name": "AIshen",
@@ -25179,6 +25181,49 @@
         "position": "Enforcer",
         "position_number": 1,
         "item_available": true
+      }
+    ]
+  },
+  "842334": {
+    "name": "Pet Project",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "842336": {
+    "name": "Pet Project",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "842337": {
+    "name": "Best of the Lot",
+    "status": "Recruiting",
+    "ready_at": 1757744602,
+    "executed_at": null,
+    "slots": {
+      "P3": {
+        "user_id": 3759168,
+        "user_name": "AIshen",
+        "checkpoint_pass_rate": 81,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1757658669,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3759168,
+        "user_name": "AIshen",
+        "checkpoint_pass_rate": 81,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   }
