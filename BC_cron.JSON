@@ -10462,7 +10462,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1757634052,
-        "end": null
+        "end": 1757647884
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1757647884,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15421,8 +15427,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1757635312,
-        "end": null,
+        "end": 1757647884,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757647884,
+        "end": null
       }
     ]
   },
@@ -20417,6 +20428,11 @@
       {
         "status": "Available",
         "start": 1757647247,
+        "end": 1757647884
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1757647884,
         "end": null
       }
     ]
@@ -20905,11 +20921,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1756438244,
-        "end": 1756443650
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1756443650,
