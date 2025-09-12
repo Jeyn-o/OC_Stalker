@@ -921,8 +921,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1757654452,
-        "end": null,
+        "end": 1757665248,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1757665248,
+        "end": null
       }
     ]
   },
@@ -5694,11 +5699,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1756455635,
-        "end": 1756465835
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1756465835,
         "end": 1756471233
@@ -8299,11 +8299,6 @@
     "name": "ExiledAstronaut",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1756455635,
-        "end": 1756462836
-      },
-      {
         "status": "Available",
         "start": 1756462836,
         "end": 1756507227
@@ -9780,11 +9775,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1756455635,
-        "end": 1756462836
-      },
       {
         "status": "Available",
         "start": 1756462836,
@@ -13268,11 +13258,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1756455635,
-        "end": 1756467048
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1756467048,
         "end": 1756468849
@@ -15471,7 +15456,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1757664649,
-        "end": null
+        "end": 1757665248
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1757665248,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24256,8 +24247,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757658667,
-        "end": null,
+        "end": 1757665248,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757665248,
+        "end": null
       }
     ]
   },
@@ -26286,11 +26282,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1756455635,
-        "end": 1756461656
-      },
-      {
         "status": "[Switzerland] Mugged - Revives: ALL",
         "start": 1756461656,
         "end": 1756463447
@@ -27384,11 +27375,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1756455635,
-        "end": 1756459235
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1756459235,
@@ -34658,6 +34644,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1757664058,
+        "end": 1757665248,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1757665248,
         "end": null,
         "travel_type": "airstrip"
       }
