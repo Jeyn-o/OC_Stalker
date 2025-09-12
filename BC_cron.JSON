@@ -584,7 +584,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1757636443,
-        "end": null
+        "end": 1757637061
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1757637061,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6643,8 +6649,13 @@
       {
         "status": "[China] - Returning",
         "start": 1757632250,
-        "end": null,
+        "end": 1757637061,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1757637061,
+        "end": null
       }
     ]
   },
@@ -18132,18 +18143,19 @@
       {
         "status": "Available",
         "start": 1757636443,
-        "end": null
+        "end": 1757637061
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1757637061,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756427444,
-        "end": 1756433434
-      },
       {
         "status": "[Japan] - Going",
         "start": 1756433434,
@@ -31158,6 +31170,11 @@
       {
         "status": "[Canada] Mugged - Revives: ALL",
         "start": 1757635312,
+        "end": 1757637061
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1757637061,
         "end": null
       }
     ]
@@ -36003,6 +36020,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1757636443,
+        "end": 1757637061
+      },
+      {
+        "status": "Available",
+        "start": 1757637061,
         "end": null
       }
     ]
