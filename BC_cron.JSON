@@ -936,11 +936,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1756468230,
-        "end": 1756474831
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1756474831,
         "end": 1756487433
@@ -2124,6 +2119,12 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1757670021,
+        "end": 1757677844,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1757677844,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -3268,11 +3269,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1756468230,
-        "end": 1756469435
-      },
       {
         "status": "[China] Lost - Revives: OFF",
         "start": 1756469435,
@@ -8406,11 +8402,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756468230,
-        "end": 1756474831
-      },
       {
         "status": "Available",
         "start": 1756474831,
@@ -15414,8 +15405,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1757665248,
-        "end": null,
+        "end": 1757677844,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757677844,
+        "end": null
       }
     ]
   },
@@ -20155,7 +20151,13 @@
       {
         "status": "[China] Mugged - Revives: OFF",
         "start": 1757674854,
-        "end": null
+        "end": 1757677844
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1757677844,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -22430,8 +22432,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1757676657,
-        "end": null,
+        "end": 1757677844,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757677844,
+        "end": null
       }
     ]
   },
@@ -36181,11 +36188,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1756468230,
-        "end": 1756477847
-      },
       {
         "status": "Available",
         "start": 1756477847,
