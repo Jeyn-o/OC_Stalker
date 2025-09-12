@@ -2246,6 +2246,11 @@
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1757713843,
+        "end": 1757715646
+      },
+      {
+        "status": "Available",
+        "start": 1757715646,
         "end": null
       }
     ]
@@ -8997,11 +9002,6 @@
     "name": "TsanMan",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: Partial",
-        "start": 1756506035,
-        "end": 1756506642
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1756506642,
         "end": 1756507829
@@ -15461,8 +15461,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1757707847,
-        "end": null,
+        "end": 1757715646,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1757715646,
+        "end": null
       }
     ]
   },
@@ -16178,7 +16183,13 @@
       {
         "status": "Available",
         "start": 1757685657,
-        "end": null
+        "end": 1757715646
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1757715646,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18591,11 +18602,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756506035,
-        "end": 1756508445
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1756508445,
@@ -23333,6 +23339,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757709055,
+        "end": 1757715646,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757715646,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34801,8 +34813,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757709055,
-        "end": null,
+        "end": 1757715646,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1757715646,
+        "end": null
       }
     ]
   },
