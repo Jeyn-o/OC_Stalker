@@ -3269,11 +3269,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1756441846,
-        "end": 1756452034
-      },
-      {
         "status": "Available",
         "start": 1756452034,
         "end": 1756458050
@@ -18546,6 +18541,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1757644853,
+        "end": 1757651463,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1757651463,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -19685,8 +19686,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1757640049,
-        "end": null,
+        "end": 1757651463,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757651463,
+        "end": null
       }
     ]
   },
@@ -23315,6 +23321,11 @@
       {
         "status": "Available",
         "start": 1757650840,
+        "end": 1757651463
+      },
+      {
+        "status": "[Hospital] Event - Revives: Partial",
+        "start": 1757651463,
         "end": null
       }
     ]
@@ -25233,8 +25244,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1757640049,
-        "end": null,
+        "end": 1757651463,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757651463,
+        "end": null
       }
     ]
   },
@@ -32640,8 +32656,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1757640049,
-        "end": null,
+        "end": 1757651463,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1757651463,
+        "end": null
       }
     ]
   },
@@ -35243,6 +35264,11 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1757649048,
+        "end": 1757651463
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1757651463,
         "end": null
       }
     ]
@@ -38428,7 +38454,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1757650244,
-        "end": null
+        "end": 1757651463
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1757651463,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   }
