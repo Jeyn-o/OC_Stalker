@@ -13911,7 +13911,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757652639,
-        "end": null
+        "end": 1757659250
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757659250,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18559,8 +18565,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1757651463,
-        "end": null,
+        "end": 1757659250,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757659250,
+        "end": null
       }
     ]
   },
@@ -20959,11 +20970,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1756449632,
-        "end": 1756450228
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1756450228,
@@ -38511,6 +38517,11 @@
       {
         "status": "Available",
         "start": 1757658667,
+        "end": 1757659250
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1757659250,
         "end": null
       }
     ]
