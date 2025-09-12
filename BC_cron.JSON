@@ -2171,11 +2171,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[Japan] Mugged - Revives: Partial",
-        "start": 1756437032,
-        "end": 1756439432
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1756439432,
         "end": 1756457429
@@ -8882,8 +8877,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757640049,
-        "end": null,
+        "end": 1757646653,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757646653,
+        "end": null
       }
     ]
   },
@@ -11872,8 +11872,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1757634648,
-        "end": null,
+        "end": 1757646653,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1757646653,
+        "end": null
       }
     ]
   },
@@ -14114,11 +14119,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756437032,
-        "end": 1756443650
-      },
-      {
         "status": "Available",
         "start": 1756443650,
         "end": 1756471841
@@ -15435,11 +15435,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756437032,
-        "end": 1756437628
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1756437628,
         "end": 1756445449
@@ -16178,11 +16173,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1756437032,
-        "end": 1756442435
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1756442435,
@@ -20427,6 +20417,11 @@
       {
         "status": "Available",
         "start": 1757645443,
+        "end": 1757646653
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1757646653,
         "end": null
       }
     ]
@@ -20915,11 +20910,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1756437032,
-        "end": 1756438244
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1756438244,
@@ -30559,7 +30549,13 @@
       {
         "status": "Available",
         "start": 1757646062,
-        "end": null
+        "end": 1757646653
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1757646653,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38381,6 +38377,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1757644853,
+        "end": 1757646653,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1757646653,
         "end": null,
         "travel_type": "airstrip"
       }
