@@ -20962,11 +20962,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1756446632,
-        "end": 1756448432
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1756448432,
         "end": 1756449632
@@ -22441,7 +22436,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1757655644,
-        "end": null
+        "end": 1757656246
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1757656246,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28538,8 +28539,13 @@
       {
         "status": "[China] - Returning",
         "start": 1757646062,
-        "end": null,
+        "end": 1757656246,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757656246,
+        "end": null
       }
     ]
   },
@@ -28611,11 +28617,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1756446632,
-        "end": 1756456249
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1756456249,
