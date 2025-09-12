@@ -2552,7 +2552,13 @@
       {
         "status": "Available",
         "start": 1757588456,
-        "end": null
+        "end": 1757650244
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1757650244,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9156,11 +9162,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1756440631,
-        "end": 1756452650
-      },
       {
         "status": "Available",
         "start": 1756452650,
@@ -22406,8 +22407,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1757649657,
-        "end": null,
+        "end": 1757650244,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757650244,
+        "end": null
       }
     ]
   },
@@ -24202,11 +24208,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756440052,
-        "end": 1756444239
-      },
       {
         "status": "[Japan] - Going",
         "start": 1756444239,
@@ -27873,11 +27874,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756440631,
-        "end": 1756503633
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1756503633,
         "end": 1756515650
@@ -29288,11 +29284,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1756440052,
-        "end": 1756441230
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1756441230,
@@ -34587,6 +34578,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757643652,
+        "end": 1757650244,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757650244,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -38430,8 +38427,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1757648446,
-        "end": null,
+        "end": 1757650244,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1757650244,
+        "end": null
       }
     ]
   }
