@@ -13114,7 +13114,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1757662848,
-        "end": null
+        "end": 1757703039
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1757703039,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14920,6 +14926,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757695841,
+        "end": 1757703039,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757703039,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34803,8 +34815,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1757701250,
-        "end": null,
+        "end": 1757703039,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757703039,
+        "end": null
       }
     ]
   },
