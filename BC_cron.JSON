@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1756492242,
-        "end": 1756493434
-      },
-      {
         "status": "Available",
         "start": 1756493434,
         "end": 1756517449
@@ -4834,11 +4829,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1756492242,
-        "end": 1756500031
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1756500031,
         "end": 1756504850
@@ -6703,7 +6693,13 @@
       {
         "status": "[China] - Idle",
         "start": 1757699431,
-        "end": null
+        "end": 1757701853
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1757701853,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -18158,7 +18154,13 @@
       {
         "status": "[China] - Idle",
         "start": 1757698840,
-        "end": null
+        "end": 1757701853
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1757701853,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -18628,11 +18630,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1756492242,
-        "end": 1756498837
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1756498837,
@@ -20569,6 +20566,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1757700645,
+        "end": 1757701853
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1757701853,
         "end": null
       }
     ]
@@ -23358,6 +23360,11 @@
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1757651463,
+        "end": 1757701853
+      },
+      {
+        "status": "Available",
+        "start": 1757701853,
         "end": null
       }
     ]
@@ -24279,11 +24286,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756492242,
-        "end": 1756552835
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1756552835,
@@ -29362,6 +29364,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757695248,
+        "end": 1757701853,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757701853,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31354,11 +31362,6 @@
     "name": "Mythofhs",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756492242,
-        "end": 1756506642
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1756506642,
         "end": 1756513845
@@ -33284,11 +33287,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756492242,
-        "end": 1756497644
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1756497644,
@@ -38692,8 +38690,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1757700065,
-        "end": null,
+        "end": 1757701853,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757701853,
+        "end": null
       }
     ]
   }
