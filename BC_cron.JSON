@@ -2144,7 +2144,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1757679641,
-        "end": null
+        "end": 1757685657
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1757685657,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6633,7 +6639,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1757684437,
-        "end": null
+        "end": 1757685657
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1757685657,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -7663,11 +7675,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1756475437,
-        "end": 1756485637
-      },
       {
         "status": "Available",
         "start": 1756485637,
@@ -9164,11 +9171,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1756475437,
-        "end": 1756487433
-      },
-      {
         "status": "Available",
         "start": 1756487433,
         "end": 1756507227
@@ -10455,11 +10457,6 @@
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1756476048,
-        "end": 1756483244
-      },
       {
         "status": "Available",
         "start": 1756483244,
@@ -14892,11 +14889,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756476048,
-        "end": 1756494631
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1756494631,
         "end": 1756507227
@@ -16174,19 +16166,19 @@
       {
         "status": "[Japan] - Returning",
         "start": 1757676043,
-        "end": null,
+        "end": 1757685657,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757685657,
+        "end": null
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1756475437,
-        "end": 1756478427
-      },
       {
         "status": "Available",
         "start": 1756478427,
@@ -19746,11 +19738,6 @@
     "name": "Imtheman357",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1756476048,
-        "end": 1756491030
-      },
-      {
         "status": "[China] - Idle",
         "start": 1756491030,
         "end": 1756492834
@@ -20524,6 +20511,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1757682061,
+        "end": 1757685657
+      },
+      {
+        "status": "Available",
+        "start": 1757685657,
         "end": null
       }
     ]
@@ -23522,11 +23514,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756475437,
-        "end": 1756535446
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1756535446,
         "end": 1756543234
@@ -25328,8 +25315,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1757683835,
-        "end": null,
+        "end": 1757685657,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757685657,
+        "end": null
       }
     ]
   },
@@ -26301,6 +26293,11 @@
       {
         "status": "Available",
         "start": 1757654452,
+        "end": 1757685657
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1757685657,
         "end": null
       }
     ]
@@ -26308,11 +26305,6 @@
   "3542414": {
     "name": "awesomemcsexy",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1756475437,
-        "end": 1756481444
-      },
       {
         "status": "[Switzerland] Mugged - Revives: ALL",
         "start": 1756481444,
@@ -28612,11 +28604,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1756475437,
-        "end": 1756485037
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1756485037,
         "end": 1756494631
@@ -29347,11 +29334,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756475437,
-        "end": 1756486229
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1756486229,
@@ -34727,8 +34709,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1757684437,
-        "end": null,
+        "end": 1757685657,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757685657,
+        "end": null
       }
     ]
   },
