@@ -3087,8 +3087,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1757676043,
-        "end": null,
+        "end": 1757689264,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757689264,
+        "end": null
       }
     ]
   },
@@ -3309,7 +3314,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1757688047,
-        "end": null
+        "end": 1757689264
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1757689264,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -5703,11 +5714,6 @@
     "name": "Crispyfoot",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1756479648,
-        "end": 1756482629
-      },
-      {
         "status": "Available",
         "start": 1756482629,
         "end": 1756680634
@@ -6788,11 +6794,6 @@
     "name": "Jeyno",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1756479648,
-        "end": 1756483832
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1756483832,
         "end": 1756495842
@@ -7141,16 +7142,6 @@
       {
         "status": "Available",
         "start": 1757517651,
-        "end": null
-      }
-    ]
-  },
-  "2583853": {
-    "name": "frkn",
-    "activities": [
-      {
-        "status": "Available",
-        "start": 1756479648,
         "end": null
       }
     ]
@@ -9770,7 +9761,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1757688648,
-        "end": null
+        "end": 1757689264
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1757689264,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9792,11 +9789,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756479648,
-        "end": 1756503045
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1756503045,
@@ -10959,11 +10951,6 @@
   "2943860": {
     "name": "BiberBart",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1756479648,
-        "end": 1756480834
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1756480834,
@@ -13280,11 +13267,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756479648,
-        "end": 1756484432
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1756484432,
         "end": 1756491030
@@ -14927,7 +14909,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757688648,
-        "end": null
+        "end": 1757689264
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757689264,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18618,11 +18606,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756479648,
-        "end": 1756486229
-      },
       {
         "status": "Available",
         "start": 1756486229,
@@ -22643,11 +22626,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1756479648,
-        "end": 1756481444
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1756481444,
         "end": 1756482629
@@ -24303,6 +24281,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757682646,
+        "end": 1757689264,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757689264,
         "end": null,
         "travel_type": "airstrip"
       }
