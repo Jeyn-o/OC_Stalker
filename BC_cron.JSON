@@ -4202,11 +4202,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1756491030,
-        "end": 1756494631
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1756494631,
         "end": 1756507227
@@ -5760,11 +5755,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756491030,
-        "end": 1756493434
-      },
       {
         "status": "[China] - Going",
         "start": 1756493434,
@@ -13285,11 +13275,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1756491030,
-        "end": 1756495233
-      },
-      {
         "status": "[United Kingdom] Mugged - Revives: Partial",
         "start": 1756495233,
         "end": 1756497644
@@ -18643,11 +18628,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1756491030,
-        "end": 1756492242
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1756492242,
         "end": 1756498837
@@ -19800,11 +19780,6 @@
     "name": "Imtheman357",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1756491030,
-        "end": 1756492834
-      },
-      {
         "status": "[China] - Returning",
         "start": 1756492834,
         "end": 1756506642
@@ -20588,6 +20563,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1757698248,
+        "end": 1757700645
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1757700645,
         "end": null
       }
     ]
@@ -23389,11 +23369,6 @@
   "3447443": {
     "name": "Jordanw1",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1756491030,
-        "end": 1756491629
-      },
       {
         "status": "Available",
         "start": 1756491629,
@@ -27306,7 +27281,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1757699431,
-        "end": null
+        "end": 1757700645
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1757700645,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30695,8 +30676,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1757699431,
-        "end": null,
+        "end": 1757700645,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757700645,
+        "end": null
       }
     ]
   },
