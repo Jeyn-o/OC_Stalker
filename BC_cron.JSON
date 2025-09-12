@@ -3821,11 +3821,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1756443650,
-        "end": 1756451429
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1756451429,
         "end": 1756458631
@@ -4118,7 +4113,13 @@
       {
         "status": "Available",
         "start": 1757616052,
-        "end": null
+        "end": 1757653259
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1757653259,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8919,6 +8920,11 @@
       {
         "status": "Available",
         "start": 1757325655,
+        "end": 1757653259
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1757653259,
         "end": null
       }
     ]
@@ -14102,11 +14108,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756443650,
-        "end": 1756471841
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1756471841,
         "end": 1756478427
@@ -18096,6 +18097,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1757649048,
+        "end": 1757653259
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: ALL",
+        "start": 1757653259,
         "end": null
       }
     ]
@@ -20443,6 +20449,11 @@
       {
         "status": "Available",
         "start": 1757649048,
+        "end": 1757653259
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1757653259,
         "end": null
       }
     ]
@@ -20937,11 +20948,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1756443650,
-        "end": 1756444829
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1756444829,
@@ -27829,8 +27835,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1757646062,
-        "end": null,
+        "end": 1757653259,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757653259,
+        "end": null
       }
     ]
   },
@@ -29304,11 +29315,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1756443650,
-        "end": 1756453830
-      },
-      {
         "status": "[China] - Idle",
         "start": 1756453830,
         "end": 1756465835
@@ -30579,6 +30585,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757646653,
+        "end": 1757653259,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757653259,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -38462,8 +38474,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1757651463,
-        "end": null,
+        "end": 1757653259,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757653259,
+        "end": null
       }
     ]
   }
