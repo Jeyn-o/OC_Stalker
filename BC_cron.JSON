@@ -18128,11 +18128,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1756433434,
-        "end": 1756442435
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1756442435,
         "end": 1756452034
@@ -23294,8 +23289,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757636443,
-        "end": null,
+        "end": 1757643040,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1757643040,
+        "end": null
       }
     ]
   },
@@ -38337,6 +38337,11 @@
       {
         "status": "Available",
         "start": 1757642460,
+        "end": 1757643040
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1757643040,
         "end": null
       }
     ]
