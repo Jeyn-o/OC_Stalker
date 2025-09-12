@@ -4811,11 +4811,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1756486229,
-        "end": 1756486844
-      },
-      {
         "status": "Available",
         "start": 1756486844,
         "end": 1756487433
@@ -14148,11 +14143,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1756486229,
-        "end": 1756492834
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1756492834,
         "end": 1756499442
@@ -14920,7 +14910,13 @@
       {
         "status": "Available",
         "start": 1757695248,
-        "end": null
+        "end": 1757695841
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1757695841,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18152,7 +18148,13 @@
       {
         "status": "Available",
         "start": 1757694048,
-        "end": null
+        "end": 1757695841
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1757695841,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -18612,11 +18614,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756486229,
-        "end": 1756489834
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1756489834,
@@ -21032,8 +21029,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1757683835,
-        "end": null,
+        "end": 1757695841,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757695841,
+        "end": null
       }
     ]
   },
@@ -22492,11 +22494,6 @@
   "3431519": {
     "name": "kirabaz",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756486229,
-        "end": 1756488032
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1756488032,
@@ -24275,8 +24272,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757689264,
-        "end": null,
+        "end": 1757695841,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757695841,
+        "end": null
       }
     ]
   },
@@ -25349,11 +25351,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1756486229,
-        "end": 1756486844
-      },
       {
         "status": "[China] - Returning",
         "start": 1756486844,
@@ -26939,11 +26936,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1756486229,
-        "end": 1756492834
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1756492834,
@@ -29371,11 +29363,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1756486229,
-        "end": 1756487433
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1756487433,
@@ -34776,18 +34763,19 @@
       {
         "status": "Available",
         "start": 1757685657,
-        "end": null
+        "end": 1757695841
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1757695841,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1756486229,
-        "end": 1756499442
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1756499442,
@@ -38639,8 +38627,13 @@
       {
         "status": "[China] - Returning",
         "start": 1757685030,
-        "end": null,
+        "end": 1757695841,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757695841,
+        "end": null
       }
     ]
   }
