@@ -3119,11 +3119,6 @@
     "name": "smyles",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1756488646,
-        "end": 1756494631
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1756494631,
         "end": 1756500031
@@ -18160,8 +18155,13 @@
       {
         "status": "[China] - Going",
         "start": 1757695841,
-        "end": null,
+        "end": 1757698840,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1757698840,
+        "end": null
       }
     ]
   },
@@ -27923,6 +27923,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1757686244,
+        "end": 1757698840,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1757698840,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30677,8 +30683,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1757697043,
-        "end": null,
+        "end": 1757698840,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1757698840,
+        "end": null
       }
     ]
   },
@@ -38667,6 +38678,12 @@
       {
         "status": "[China] - Going",
         "start": 1757698248,
+        "end": 1757698840,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1757698840,
         "end": null,
         "travel_type": "airstrip"
       }
