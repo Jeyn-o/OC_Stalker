@@ -935,11 +935,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756459846,
-        "end": 1756464633
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1756464633,
         "end": 1756468230
@@ -1728,11 +1723,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756459846,
-        "end": 1756461656
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1756461656,
         "end": 1756463447
@@ -2142,6 +2132,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1757662848,
+        "end": 1757670021,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1757670021,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35225,7 +35221,13 @@
       {
         "status": "Available",
         "start": 1757636443,
-        "end": null
+        "end": 1757670021
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1757670021,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
