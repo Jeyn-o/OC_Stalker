@@ -2172,7 +2172,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757694048,
-        "end": null
+        "end": 1757694646
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757694646,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25328,6 +25334,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757687462,
+        "end": 1757694646,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757694646,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -28622,11 +28634,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1756485037,
-        "end": 1756494631
-      },
-      {
         "status": "Available",
         "start": 1756494631,
         "end": 1756537834
@@ -31315,8 +31322,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1757686849,
-        "end": null,
+        "end": 1757694646,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1757694646,
+        "end": null
       }
     ]
   },
@@ -33254,11 +33266,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1756485037,
-        "end": 1756492242
-      },
       {
         "status": "Available",
         "start": 1756492242,
@@ -35295,8 +35302,13 @@
       {
         "status": "[China] - Returning",
         "start": 1757684437,
-        "end": null,
+        "end": 1757694646,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757694646,
+        "end": null
       }
     ]
   },
