@@ -3270,11 +3270,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[China] Lost - Revives: OFF",
-        "start": 1756469435,
-        "end": 1756470035
-      },
-      {
         "status": "[China] - Returning",
         "start": 1756470035,
         "end": 1756480834
@@ -8183,6 +8178,11 @@
       {
         "status": "[Japan] - Idle",
         "start": 1757672445,
+        "end": 1757679039
+      },
+      {
+        "status": "[Japan] Mugged - Revives: ALL",
+        "start": 1757679039,
         "end": null
       }
     ]
@@ -10886,6 +10886,11 @@
       {
         "status": "Available",
         "start": 1757674241,
+        "end": 1757679039
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1757679039,
         "end": null
       }
     ]
@@ -12585,6 +12590,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1757671843,
+        "end": 1757679039,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1757679039,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -18546,11 +18557,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756469435,
-        "end": 1756470035
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1756470035,
         "end": 1756471841
@@ -19706,7 +19712,13 @@
       {
         "status": "Available",
         "start": 1757678461,
-        "end": null
+        "end": 1757679039
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1757679039,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24232,11 +24244,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1756469435,
-        "end": 1756470035
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1756470035,
@@ -34640,7 +34647,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1757678461,
-        "end": null
+        "end": 1757679039
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1757679039,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
