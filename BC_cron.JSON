@@ -2699,6 +2699,11 @@
       {
         "status": "Available",
         "start": 1757748676,
+        "end": 1757754636
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: Partial",
+        "start": 1757754636,
         "end": null
       }
     ]
@@ -3154,6 +3159,11 @@
       {
         "status": "Available",
         "start": 1757714456,
+        "end": 1757754636
+      },
+      {
+        "status": "[Hospital] Lost - Revives: OFF",
+        "start": 1757754636,
         "end": null
       }
     ]
@@ -3398,11 +3408,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756545029,
-        "end": 1756546239
-      },
       {
         "status": "[China] - Going",
         "start": 1756546239,
@@ -6711,8 +6716,13 @@
       {
         "status": "[China] - Going",
         "start": 1757750469,
-        "end": null,
+        "end": 1757754636,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1757754636,
+        "end": null
       }
     ]
   },
@@ -7726,11 +7736,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756545029,
-        "end": 1756554025
-      },
       {
         "status": "[China] - Going",
         "start": 1756554025,
@@ -20450,11 +20455,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756545029,
-        "end": 1756616445
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1756616445,
         "end": 1756623645
@@ -20942,11 +20942,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1756545029,
-        "end": 1756545626
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1756545626,
