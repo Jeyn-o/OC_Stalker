@@ -6638,6 +6638,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1757779260,
+        "end": 1757782860,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1757782860,
         "end": null,
         "travel_type": "standard"
       }
@@ -11612,7 +11618,13 @@
       {
         "status": "Available",
         "start": 1757759466,
-        "end": null
+        "end": 1757782860
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1757782860,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13816,11 +13828,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756573244,
-        "end": 1756580445
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1756580445,
@@ -20796,11 +20803,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756573244,
-        "end": 1756602631
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1756602631,
         "end": 1756604432
@@ -25042,8 +25044,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1757781066,
-        "end": null,
+        "end": 1757782860,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757782860,
+        "end": null
       }
     ]
   },
@@ -31575,11 +31582,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1756573244,
-        "end": 1756573830
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1756573830,
         "end": 1756583436
@@ -36962,11 +36964,6 @@
     "name": "Psyden",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1756573244,
-        "end": 1756580445
-      },
-      {
         "status": "Available",
         "start": 1756580445,
         "end": 1756725029
@@ -38336,7 +38333,13 @@
       {
         "status": "Available",
         "start": 1757745063,
-        "end": null
+        "end": 1757782860
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1757782860,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   }
