@@ -13659,7 +13659,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757796047,
-        "end": null
+        "end": 1757800843
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757800843,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17834,6 +17840,11 @@
       {
         "status": "Jail",
         "start": 1757791848,
+        "end": 1757800843
+      },
+      {
+        "status": "Available",
+        "start": 1757800843,
         "end": null
       }
     ]
@@ -26027,8 +26038,13 @@
       {
         "status": "[China] - Returning",
         "start": 1757790652,
-        "end": null,
+        "end": 1757800843,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757800843,
+        "end": null
       }
     ]
   },
