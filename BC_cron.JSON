@@ -2691,6 +2691,11 @@
       {
         "status": "[South Africa] Mugged - Revives: Partial",
         "start": 1757727061,
+        "end": 1757728239
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1757728239,
         "end": null
       }
     ]
@@ -7728,7 +7733,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1757727642,
-        "end": null
+        "end": 1757728239
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1757728239,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18061,7 +18072,13 @@
       {
         "status": "Available",
         "start": 1757726438,
-        "end": null
+        "end": 1757728239
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1757728239,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -22422,7 +22439,13 @@
       {
         "status": "Available",
         "start": 1757724662,
-        "end": null
+        "end": 1757728239
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1757728239,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27826,11 +27849,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1756518041,
-        "end": 1756530047
-      },
-      {
         "status": "Available",
         "start": 1756530047,
         "end": 1756662635
@@ -32764,8 +32782,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1757727061,
-        "end": null,
+        "end": 1757728239,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757728239,
+        "end": null
       }
     ]
   },
@@ -38605,8 +38628,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1757721041,
-        "end": null,
+        "end": 1757728239,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757728239,
+        "end": null
       }
     ]
   }
