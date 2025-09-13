@@ -1773,11 +1773,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1756536632,
-        "end": 1756537834
-      },
-      {
         "status": "Available",
         "start": 1756537834,
         "end": 1756558232
@@ -4721,11 +4716,6 @@
     "name": "Ronskip",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1756536632,
-        "end": 1756543836
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1756543836,
         "end": 1756552236
@@ -6720,6 +6710,11 @@
       {
         "status": "Available",
         "start": 1757717442,
+        "end": 1757746244
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1757746244,
         "end": null
       }
     ]
@@ -12538,7 +12533,13 @@
       {
         "status": "Available",
         "start": 1757745644,
-        "end": null
+        "end": 1757746244
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1757746244,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12982,6 +12983,11 @@
       {
         "status": "Available",
         "start": 1757714456,
+        "end": 1757746244
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1757746244,
         "end": null
       }
     ]
@@ -19614,8 +19620,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1757734271,
-        "end": null,
+        "end": 1757746244,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757746244,
+        "end": null
       }
     ]
   },
@@ -33199,11 +33210,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756536632,
-        "end": 1756539630
-      },
       {
         "status": "[Canada] - Going",
         "start": 1756539630,
