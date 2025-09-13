@@ -13654,8 +13654,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757789448,
-        "end": null,
+        "end": 1757796047,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1757796047,
+        "end": null
       }
     ]
   },
@@ -15912,6 +15917,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1757787042,
+        "end": 1757796047,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1757796047,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -20338,6 +20349,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1757795454,
+        "end": 1757796047
+      },
+      {
+        "status": "Available",
+        "start": 1757796047,
         "end": null
       }
     ]
@@ -26054,11 +26070,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[Switzerland] Mugged - Revives: ALL",
-        "start": 1756586432,
-        "end": 1756588830
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1756588830,
         "end": 1756618242
@@ -26615,6 +26626,11 @@
       {
         "status": "[Canada] Attacked - Revives: ALL",
         "start": 1757794849,
+        "end": 1757796047
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1757796047,
         "end": null
       }
     ]
@@ -38360,8 +38376,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757789448,
-        "end": null,
+        "end": 1757796047,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757796047,
+        "end": null
       }
     ]
   }
