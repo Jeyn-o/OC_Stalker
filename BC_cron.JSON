@@ -594,8 +594,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1757724662,
-        "end": null,
+        "end": 1757736643,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1757736643,
+        "end": null
       }
     ]
   },
@@ -2696,7 +2701,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1757728239,
-        "end": null
+        "end": 1757736643
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1757736643,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13859,6 +13870,11 @@
       {
         "status": "[Hospital] Lost - Revives: Partial",
         "start": 1757735447,
+        "end": 1757736643
+      },
+      {
+        "status": "Available",
+        "start": 1757736643,
         "end": null
       }
     ]
@@ -14077,11 +14093,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756527033,
-        "end": 1756559429
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1756559429,
@@ -16142,11 +16153,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1756527033,
-        "end": 1756530047
-      },
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1756530047,
@@ -22593,11 +22599,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1756527033,
-        "end": 1756532435
-      },
       {
         "status": "Available",
         "start": 1756532435,
@@ -36322,6 +36323,11 @@
       {
         "status": "Available",
         "start": 1757736061,
+        "end": 1757736643
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1757736643,
         "end": null
       }
     ]
