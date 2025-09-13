@@ -3361,6 +3361,11 @@
       {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1757731239,
+        "end": 1757732469
+      },
+      {
+        "status": "Available",
+        "start": 1757732469,
         "end": null
       }
     ]
@@ -4725,7 +4730,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1757731239,
-        "end": null
+        "end": 1757732469
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1757732469,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11904,11 +11915,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756522847,
-        "end": 1756523434
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1756523434,
         "end": 1756536032
@@ -12582,6 +12588,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1757720447,
+        "end": 1757732469,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1757732469,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -16136,11 +16148,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1756522847,
-        "end": 1756527033
-      },
-      {
         "status": "[China] - Idle",
         "start": 1756527033,
         "end": 1756530047
@@ -18083,6 +18090,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1757728239,
+        "end": 1757732469,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1757732469,
         "end": null,
         "travel_type": "standard"
       }
@@ -22461,19 +22474,19 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1757731239,
-        "end": null,
+        "end": 1757732469,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757732469,
+        "end": null
       }
     ]
   },
   "3431519": {
     "name": "kirabaz",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756522847,
-        "end": 1756606236
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1756606236,
@@ -33287,11 +33300,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1756522847,
-        "end": 1756530047
-      },
       {
         "status": "Available",
         "start": 1756530047,
