@@ -6801,11 +6801,6 @@
     "name": "Caross",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1756555834,
-        "end": 1756563029
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1756563029,
         "end": 1756570831
@@ -10862,6 +10857,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1757764863,
+        "end": 1757765447
+      },
+      {
+        "status": "Available",
+        "start": 1757765447,
         "end": null
       }
     ]
@@ -15307,8 +15307,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1757752254,
-        "end": null,
+        "end": 1757765447,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757765447,
+        "end": null
       }
     ]
   },
@@ -20934,7 +20939,13 @@
       {
         "status": "Available",
         "start": 1757764243,
-        "end": null
+        "end": 1757765447
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1757765447,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34708,8 +34719,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1757763643,
-        "end": null,
+        "end": 1757765447,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757765447,
+        "end": null
       }
     ]
   },
