@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1756542032,
-        "end": 1756554635
-      },
-      {
         "status": "Available",
         "start": 1756554635,
         "end": 1756555248
@@ -15339,8 +15334,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1757739052,
-        "end": null,
+        "end": 1757751646,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1757751646,
+        "end": null
       }
     ]
   },
@@ -18021,6 +18021,11 @@
       {
         "status": "Available",
         "start": 1757697043,
+        "end": 1757751646
+      },
+      {
+        "status": "Jail",
+        "start": 1757751646,
         "end": null
       }
     ]
@@ -22537,11 +22542,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1756542032,
-        "end": 1756554025
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1756554025,
@@ -34721,7 +34721,13 @@
       {
         "status": "Available",
         "start": 1757751060,
-        "end": null
+        "end": 1757751646
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1757751646,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
