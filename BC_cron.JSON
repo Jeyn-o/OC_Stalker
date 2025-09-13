@@ -3356,6 +3356,11 @@
       {
         "status": "Available",
         "start": 1757730041,
+        "end": 1757731239
+      },
+      {
+        "status": "[Hospital] Lost - Revives: OFF",
+        "start": 1757731239,
         "end": null
       }
     ]
@@ -4714,8 +4719,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1757721746,
-        "end": null,
+        "end": 1757731239,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1757731239,
+        "end": null
       }
     ]
   },
@@ -5807,11 +5817,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1756521629,
-        "end": 1756525830
-      },
       {
         "status": "Available",
         "start": 1756525830,
@@ -13837,6 +13842,11 @@
       {
         "status": "[Hospital] Lost - Revives: Partial",
         "start": 1757730041,
+        "end": 1757731239
+      },
+      {
+        "status": "Available",
+        "start": 1757731239,
         "end": null
       }
     ]
@@ -22446,18 +22456,19 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1757729444,
-        "end": null
+        "end": 1757731239
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1757731239,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3431519": {
     "name": "kirabaz",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1756521629,
-        "end": 1756522847
-      },
       {
         "status": "Available",
         "start": 1756522847,
