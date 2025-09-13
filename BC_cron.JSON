@@ -11772,6 +11772,11 @@
       {
         "status": "Available",
         "start": 1757752847,
+        "end": 1757757661
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1757757661,
         "end": null
       }
     ]
@@ -11844,11 +11849,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756548042,
-        "end": 1756550433
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1756550433,
@@ -16052,11 +16052,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756548042,
-        "end": 1756554635
-      },
       {
         "status": "[China] - Going",
         "start": 1756554635,
@@ -20910,6 +20905,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757751060,
+        "end": 1757757661,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757757661,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -24156,8 +24157,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1757750469,
-        "end": null,
+        "end": 1757757661,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757757661,
+        "end": null
       }
     ]
   },
@@ -34692,7 +34698,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1757756452,
-        "end": null
+        "end": 1757757661
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1757757661,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
