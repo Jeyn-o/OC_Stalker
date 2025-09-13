@@ -4811,11 +4811,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1756589441,
-        "end": 1756590630
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1756590630,
         "end": 1756591246
@@ -5654,8 +5649,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1757790047,
-        "end": null,
+        "end": 1757799047,
         "travel_type": "private"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1757799047,
+        "end": null
       }
     ]
   },
@@ -5732,11 +5732,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1756589441,
-        "end": 1756593632
-      },
       {
         "status": "[China] - Idle",
         "start": 1756593632,
@@ -12416,7 +12411,13 @@
       {
         "status": "Available",
         "start": 1757774450,
-        "end": null
+        "end": 1757799047
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1757799047,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17865,11 +17866,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1756589441,
-        "end": 1756596641
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1756596641,
         "end": 1756597231
@@ -19933,11 +19929,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: OFF",
-        "start": 1756589441,
-        "end": 1756590031
-      },
       {
         "status": "Available",
         "start": 1756590031,
@@ -23137,7 +23128,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757796639,
-        "end": null
+        "end": 1757799047
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757799047,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31085,11 +31082,6 @@
     "name": "Mythofhs",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756589441,
-        "end": 1756590630
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1756590630,
         "end": 1756597824
@@ -36860,8 +36852,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1757791848,
-        "end": null,
+        "end": 1757799047,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1757799047,
+        "end": null
       }
     ]
   },
