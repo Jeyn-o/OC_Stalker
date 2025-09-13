@@ -983,11 +983,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756539042,
-        "end": 1756545626
-      },
-      {
         "status": "Available",
         "start": 1756545626,
         "end": 1756560034
@@ -2692,8 +2687,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1757736643,
-        "end": null,
+        "end": 1757748676,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757748676,
+        "end": null
       }
     ]
   },
@@ -12984,6 +12984,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1757746244,
+        "end": 1757748676
+      },
+      {
+        "status": "Available",
+        "start": 1757748676,
         "end": null
       }
     ]
@@ -22400,7 +22405,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1757746863,
-        "end": null
+        "end": 1757748676
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1757748676,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
