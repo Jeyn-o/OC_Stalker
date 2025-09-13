@@ -4169,6 +4169,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1757786464,
+        "end": 1757787042,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1757787042,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4659,7 +4665,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1757785243,
-        "end": null
+        "end": 1757787042
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1757787042,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4786,11 +4798,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1756577435,
-        "end": 1756578644
-      },
       {
         "status": "Available",
         "start": 1756578644,
@@ -8331,6 +8338,11 @@
       {
         "status": "Available",
         "start": 1757759466,
+        "end": 1757787042
+      },
+      {
+        "status": "[Hospital] Lost - Revives: Partial",
+        "start": 1757787042,
         "end": null
       }
     ]
@@ -15852,7 +15864,13 @@
       {
         "status": "Available",
         "start": 1757786464,
-        "end": null
+        "end": 1757787042
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1757787042,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19886,6 +19904,11 @@
       {
         "status": "Available",
         "start": 1757786464,
+        "end": 1757787042
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1757787042,
         "end": null
       }
     ]
