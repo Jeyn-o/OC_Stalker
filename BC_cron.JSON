@@ -4816,6 +4816,11 @@
       {
         "status": "Jail",
         "start": 1757791848,
+        "end": 1757836858
+      },
+      {
+        "status": "Available",
+        "start": 1757836858,
         "end": null
       }
     ]
@@ -11821,7 +11826,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1757810437,
-        "end": null
+        "end": 1757836858
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1757836858,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12510,8 +12521,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1757824848,
-        "end": null,
+        "end": 1757836858,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1757836858,
+        "end": null
       }
     ]
   },
@@ -13979,8 +13995,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757832045,
-        "end": null,
+        "end": 1757836858,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757836858,
+        "end": null
       }
     ]
   },
@@ -20021,6 +20042,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1757787042,
+        "end": 1757836858
+      },
+      {
+        "status": "Available",
+        "start": 1757836858,
         "end": null
       }
     ]
@@ -22421,6 +22447,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1757836247,
+        "end": 1757836858,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1757836858,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25217,7 +25249,13 @@
       {
         "status": "Available",
         "start": 1757826064,
-        "end": null
+        "end": 1757836858
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1757836858,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26748,7 +26786,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1757834452,
-        "end": null
+        "end": 1757836858
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1757836858,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30643,7 +30687,13 @@
       {
         "status": "[China] - Idle",
         "start": 1757833257,
-        "end": null
+        "end": 1757836858
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1757836858,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
