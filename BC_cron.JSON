@@ -6696,11 +6696,6 @@
     "name": "FatFlash",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1756627834,
-        "end": 1756629037
-      },
-      {
         "status": "Available",
         "start": 1756629037,
         "end": null
@@ -8979,11 +8974,6 @@
     "name": "Haungpeary",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756627834,
-        "end": 1756859447
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1756859447,
         "end": 1756866033
@@ -9736,11 +9726,6 @@
   "2778055": {
     "name": "MrPorkenstien",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1756627834,
-        "end": 1756637430
-      },
       {
         "status": "Available",
         "start": 1756637430,
@@ -11050,11 +11035,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1756627251,
-        "end": 1756638628
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1756638628,
         "end": 1756639833
@@ -11840,16 +11820,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1756627251,
-        "end": 1756627834
-      },
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1756627834,
-        "end": 1756640434
-      },
-      {
         "status": "Available",
         "start": 1756640434,
         "end": 1756641037
@@ -12527,7 +12497,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1757836858,
-        "end": null
+        "end": 1757837444
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1757837444,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20987,11 +20963,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756627251,
-        "end": 1756629037
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1756629037,
@@ -34747,8 +34718,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757830841,
-        "end": null,
+        "end": 1757837444,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757837444,
+        "end": null
       }
     ]
   },
@@ -37049,7 +37025,13 @@
       {
         "status": "Available",
         "start": 1757833847,
-        "end": null
+        "end": 1757837444
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1757837444,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
