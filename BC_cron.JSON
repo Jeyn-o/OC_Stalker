@@ -3194,7 +3194,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1757843448,
-        "end": null
+        "end": 1757844062
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1757844062,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3911,6 +3917,11 @@
       {
         "status": "Jail",
         "start": 1757791848,
+        "end": 1757844062
+      },
+      {
+        "status": "Available",
+        "start": 1757844062,
         "end": null
       }
     ]
@@ -19632,11 +19643,6 @@
     "name": "Imtheman357",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1756634445,
-        "end": 1756648843
-      },
-      {
         "status": "[China] - Returning",
         "start": 1756648843,
         "end": 1756663236
@@ -22448,7 +22454,13 @@
       {
         "status": "Available",
         "start": 1757838052,
-        "end": null
+        "end": 1757844062
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1757844062,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35302,8 +35314,13 @@
       {
         "status": "[China] - Going",
         "start": 1757834452,
-        "end": null,
+        "end": 1757844062,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1757844062,
+        "end": null
       }
     ]
   },
@@ -37079,6 +37096,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757837444,
+        "end": 1757844062,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757844062,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37289,11 +37312,6 @@
   "3868734": {
     "name": "3rdyyy",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1756634445,
-        "end": 1756642234
-      },
       {
         "status": "[China] Mugged - Revives: OFF",
         "start": 1756642234,
