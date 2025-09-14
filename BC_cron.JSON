@@ -4203,11 +4203,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1756675834,
-        "end": 1756682434
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1756682434,
         "end": 1756689629
@@ -14092,7 +14087,13 @@
       {
         "status": "Available",
         "start": 1757881851,
-        "end": null
+        "end": 1757885462
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1757885462,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18118,7 +18119,13 @@
       {
         "status": "[China] - Idle",
         "start": 1757884240,
-        "end": null
+        "end": 1757885462
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1757885462,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -23420,7 +23427,13 @@
       {
         "status": "[China] - Idle",
         "start": 1757883050,
-        "end": null
+        "end": 1757885462
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1757885462,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27291,8 +27304,13 @@
       {
         "status": "[China] - Going",
         "start": 1757874664,
-        "end": null,
+        "end": 1757885462,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1757885462,
+        "end": null
       }
     ]
   },
