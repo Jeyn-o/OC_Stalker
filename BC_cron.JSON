@@ -4873,11 +4873,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756667433,
-        "end": 1756673433
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1756673433,
         "end": 1756674631
@@ -10909,11 +10904,6 @@
     "name": "BiberBart",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1756667433,
-        "end": 1756668639
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1756668639,
         "end": 1756675234
@@ -14095,7 +14085,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757874041,
-        "end": null
+        "end": 1757877055
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757877055,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27372,8 +27368,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757867469,
-        "end": null,
+        "end": 1757877055,
         "travel_type": "standard"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1757877055,
+        "end": null
       }
     ]
   },
