@@ -6707,6 +6707,16 @@
       }
     ]
   },
+  "2368458": {
+    "name": "FatFlash",
+    "activities": [
+      {
+        "status": "Available",
+        "start": 1757839242,
+        "end": null
+      }
+    ]
+  },
   "2389431": {
     "name": "LSEdmond",
     "activities": [
@@ -7300,7 +7310,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757832653,
-        "end": null
+        "end": 1757839242
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757839242,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13742,8 +13758,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1757827868,
-        "end": null,
+        "end": 1757839242,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1757839242,
+        "end": null
       }
     ]
   },
@@ -17951,8 +17972,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1757835045,
-        "end": null,
+        "end": 1757839242,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1757839242,
+        "end": null
       }
     ]
   },
@@ -34758,7 +34784,13 @@
       {
         "status": "Available",
         "start": 1757837444,
-        "end": null
+        "end": 1757839242
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1757839242,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36268,11 +36300,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756629630,
-        "end": 1756630238
-      },
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1756630238,
