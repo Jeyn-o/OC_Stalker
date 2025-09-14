@@ -3191,11 +3191,6 @@
     "name": "smyles",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1756607450,
-        "end": 1756612867
-      },
-      {
         "status": "Available",
         "start": 1756612867,
         "end": 1756746635
@@ -3427,11 +3422,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1756607450,
-        "end": 1756620052
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1756620052,
@@ -8203,6 +8193,11 @@
       {
         "status": "[Japan] Mugged - Revives: ALL",
         "start": 1757814652,
+        "end": 1757817064
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1757817064,
         "end": null
       }
     ]
@@ -15978,8 +15973,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1757807449,
-        "end": null,
+        "end": 1757817064,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1757817064,
+        "end": null
       }
     ]
   },
@@ -20945,11 +20945,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756607450,
-        "end": 1756611631
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1756611631,
         "end": 1756612867
@@ -23229,7 +23224,13 @@
       {
         "status": "Available",
         "start": 1757805645,
-        "end": null
+        "end": 1757817064
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1757817064,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26108,8 +26109,13 @@
       {
         "status": "[China] - Going",
         "start": 1757807449,
-        "end": null,
+        "end": 1757817064,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1757817064,
+        "end": null
       }
     ]
   },
@@ -34610,6 +34616,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757815262,
+        "end": 1757817064
+      },
+      {
+        "status": "[United Kingdom] Hospitalized - Revives: OFF",
+        "start": 1757817064,
         "end": null
       }
     ]
@@ -38433,7 +38444,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1757815262,
-        "end": null
+        "end": 1757817064
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1757817064,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   }
