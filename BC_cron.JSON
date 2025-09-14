@@ -621,6 +621,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1757841649,
+        "end": 1757851848
+      },
+      {
+        "status": "[South Africa] Lost - Revives: OFF",
+        "start": 1757851848,
         "end": null
       }
     ]
@@ -4818,8 +4823,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1757844640,
-        "end": null,
+        "end": 1757851848,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1757851848,
+        "end": null
       }
     ]
   },
@@ -8522,11 +8532,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756642234,
-        "end": 1756649436
-      },
-      {
         "status": "Available",
         "start": 1756649436,
         "end": 1756693230
@@ -9798,7 +9803,13 @@
       {
         "status": "Available",
         "start": 1757827237,
-        "end": null
+        "end": 1757851848
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1757851848,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18045,7 +18056,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1757851269,
-        "end": null
+        "end": 1757851848
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1757851848,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -21080,8 +21097,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757845262,
-        "end": null,
+        "end": 1757851848,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757851848,
+        "end": null
       }
     ]
   },
@@ -22644,11 +22666,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1756642234,
-        "end": 1756651835
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1756651835,
@@ -32828,6 +32845,11 @@
       {
         "status": "Available",
         "start": 1757840463,
+        "end": 1757851848
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1757851848,
         "end": null
       }
     ]
@@ -33335,11 +33357,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1756642234,
-        "end": 1756649436
-      },
       {
         "status": "Available",
         "start": 1756649436,
@@ -37440,11 +37457,6 @@
   "3868734": {
     "name": "3rdyyy",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: OFF",
-        "start": 1756642234,
-        "end": 1756644046
-      },
       {
         "status": "[China] - Idle",
         "start": 1756644046,
