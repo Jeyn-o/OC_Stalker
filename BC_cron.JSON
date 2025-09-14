@@ -608,8 +608,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1757802646,
-        "end": null,
+        "end": 1757815262,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1757815262,
+        "end": null
       }
     ]
   },
@@ -8391,11 +8396,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1756605646,
-        "end": 1756612231
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1756612231,
@@ -25157,6 +25157,12 @@
       {
         "status": "[China] - Going",
         "start": 1757805051,
+        "end": 1757815262,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1757815262,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -27678,6 +27684,11 @@
       {
         "status": "Available",
         "start": 1757711439,
+        "end": 1757815262
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1757815262,
         "end": null
       }
     ]
@@ -28351,11 +28362,6 @@
   "3649289": {
     "name": "Th3_Fighter",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1756605646,
-        "end": 1756606830
-      },
       {
         "status": "Available",
         "start": 1756606830,
@@ -34589,8 +34595,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757808643,
-        "end": null,
+        "end": 1757815262,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1757815262,
+        "end": null
       }
     ]
   },
@@ -38407,8 +38418,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1757808063,
-        "end": null,
+        "end": 1757815262,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1757815262,
+        "end": null
       }
     ]
   }
