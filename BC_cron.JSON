@@ -1021,6 +1021,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1757886647,
+        "end": 1757892046,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1757892046,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4209,11 +4215,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756682434,
-        "end": 1756689629
-      },
-      {
         "status": "Available",
         "start": 1756689629,
         "end": 1756729844
@@ -4864,11 +4865,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756682434,
-        "end": 1756687234
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1756687234,
@@ -22587,11 +22583,6 @@
     "name": "kirabaz",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756682434,
-        "end": 1756867829
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1756867829,
         "end": 1756869633
@@ -30990,7 +30981,13 @@
       {
         "status": "Available",
         "start": 1757884240,
-        "end": null
+        "end": 1757892046
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1757892046,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32962,8 +32959,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1757890871,
-        "end": null,
+        "end": 1757892046,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757892046,
+        "end": null
       }
     ]
   },
