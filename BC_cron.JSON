@@ -18600,11 +18600,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1756654831,
-        "end": 1756656038
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1756656038,
         "end": 1756657837
@@ -26909,8 +26904,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1757863248,
-        "end": null,
+        "end": 1757864450,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1757864450,
+        "end": null
       }
     ]
   },
@@ -27351,11 +27351,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1756654831,
-        "end": 1756662035
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1756662035,
@@ -31542,11 +31537,6 @@
     "name": "Mythofhs",
     "activities": [
       {
-        "status": "[United Arab Emirates] Mugged - Revives: ALL",
-        "start": 1756654831,
-        "end": 1756657232
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1756657232,
         "end": 1756657837
@@ -34943,7 +34933,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1757861446,
-        "end": null
+        "end": 1757864450
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1757864450,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38673,7 +38669,13 @@
       {
         "status": "[China] - Idle",
         "start": 1757862656,
-        "end": null
+        "end": 1757864450
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1757864450,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   }
