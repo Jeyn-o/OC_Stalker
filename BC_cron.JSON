@@ -1632,6 +1632,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1757824848,
+        "end": 1757832653,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1757832653,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7265,8 +7271,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757825442,
-        "end": null,
+        "end": 1757832653,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1757832653,
+        "end": null
       }
     ]
   },
@@ -10832,11 +10843,6 @@
   "2943860": {
     "name": "BiberBart",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1756623031,
-        "end": 1756624234
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1756624234,
@@ -15274,11 +15280,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756623031,
-        "end": 1756663236
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1756663236,
         "end": 1756671037
@@ -17931,6 +17932,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1757820664,
+        "end": 1757832653
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: ALL",
+        "start": 1757832653,
         "end": null
       }
     ]
@@ -20949,11 +20955,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1756623031,
-        "end": 1756624234
-      },
-      {
         "status": "[Cayman Islands] - Idle",
         "start": 1756624234,
         "end": 1756625444
@@ -23262,8 +23263,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1757824848,
-        "end": null,
+        "end": 1757832653,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757832653,
+        "end": null
       }
     ]
   },
@@ -26732,7 +26738,13 @@
       {
         "status": "Available",
         "start": 1757807449,
-        "end": null
+        "end": 1757832653
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1757832653,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31809,11 +31821,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756623031,
-        "end": 1756648843
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1756648843,
         "end": 1756650035
@@ -36175,11 +36182,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1756623031,
-        "end": 1756623645
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1756623645,
