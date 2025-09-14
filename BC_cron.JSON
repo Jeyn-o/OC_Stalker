@@ -13727,7 +13727,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757814652,
-        "end": null
+        "end": 1757817644
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757817644,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13943,6 +13949,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757812241,
+        "end": 1757817644,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757817644,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15253,11 +15265,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1756608032,
-        "end": 1756615234
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1756615234,
@@ -25708,7 +25715,13 @@
       {
         "status": "Available",
         "start": 1757795454,
-        "end": null
+        "end": 1757817644
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1757817644,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30527,8 +30540,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1757812241,
-        "end": null,
+        "end": 1757817644,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757817644,
+        "end": null
       }
     ]
   },
@@ -35509,11 +35527,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1756608032,
-        "end": 1756609244
-      },
       {
         "status": "Available",
         "start": 1756609244,
