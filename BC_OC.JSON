@@ -24614,7 +24614,7 @@
   "835640": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1758104678,
+    "ready_at": 1758191078,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -24646,6 +24646,14 @@
         "user_name": "Balgor",
         "checkpoint_pass_rate": 63,
         "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 2052875,
+        "user_name": "firefly50",
+        "checkpoint_pass_rate": 63,
+        "position": "Muscle",
         "position_number": 1,
         "item_available": true
       }
@@ -24692,6 +24700,17 @@
         "user_name": "Balgor",
         "checkpoint_pass_rate": 63,
         "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1757869849,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2052875,
+        "user_name": "firefly50",
+        "checkpoint_pass_rate": 63,
+        "position": "Muscle",
         "position_number": 1,
         "item_available": true
       }
@@ -25836,7 +25855,7 @@
   "844115": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1758228755,
+    "ready_at": 1758142355,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -25866,14 +25885,6 @@
         "user_name": "Murder_Hobo",
         "checkpoint_pass_rate": 70,
         "position": "Hacker",
-        "position_number": 1,
-        "item_available": true
-      },
-      "P3": {
-        "user_id": 2052875,
-        "user_name": "firefly50",
-        "checkpoint_pass_rate": 77,
-        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
@@ -25924,6 +25935,17 @@
       {
         "timestamp": 1757869272,
         "action": "joined",
+        "slot": "P3",
+        "user_id": 2052875,
+        "user_name": "firefly50",
+        "checkpoint_pass_rate": 77,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1757869849,
+        "action": "left",
         "slot": "P3",
         "user_id": 2052875,
         "user_name": "firefly50",
