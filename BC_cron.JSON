@@ -614,6 +614,12 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1757815845,
+        "end": 1757829046,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1757829046,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -6662,8 +6668,13 @@
       {
         "status": "[China] - Returning",
         "start": 1757824848,
-        "end": null,
+        "end": 1757829046,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1757829046,
+        "end": null
       }
     ]
   },
@@ -13100,11 +13111,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756619425,
-        "end": 1756687234
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1756687234,
@@ -20962,6 +20968,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757822464,
+        "end": 1757829046,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757829046,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22424,6 +22436,11 @@
       {
         "status": "[Mexico] Attacked - Revives: ALL",
         "start": 1757827868,
+        "end": 1757829046
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1757829046,
         "end": null
       }
     ]
@@ -31825,11 +31842,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1756619425,
-        "end": 1756621232
-      },
-      {
         "status": "[Cayman Islands] - Idle",
         "start": 1756621232,
         "end": 1756621841
@@ -32640,7 +32652,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1757827868,
-        "end": null
+        "end": 1757829046
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1757829046,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34690,6 +34708,11 @@
       {
         "status": "[United Kingdom] Hospitalized - Revives: OFF",
         "start": 1757817064,
+        "end": 1757829046
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1757829046,
         "end": null
       }
     ]
