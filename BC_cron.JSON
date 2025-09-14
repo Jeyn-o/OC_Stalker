@@ -18089,7 +18089,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1757877652,
-        "end": null
+        "end": 1757878843
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1757878843,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -22662,11 +22668,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756669232,
-        "end": 1756693230
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1756693230,
@@ -31593,11 +31594,6 @@
     "name": "Mythofhs",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756669232,
-        "end": 1756669839
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1756669839,
         "end": 1756679442
@@ -32906,8 +32902,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1757877652,
-        "end": null,
+        "end": 1757878843,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757878843,
+        "end": null
       }
     ]
   },
