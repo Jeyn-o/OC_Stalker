@@ -22245,9 +22245,9 @@
   },
   "822688": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1757946142,
-    "executed_at": null,
+    "executed_at": 1757946184,
     "slots": {
       "P5": {
         "user_id": 1166445,
@@ -24613,8 +24613,8 @@
   },
   "835640": {
     "name": "Break the Bank",
-    "status": "Recruiting",
-    "ready_at": 1758191078,
+    "status": "Planning",
+    "ready_at": 1758277478,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -24655,6 +24655,14 @@
         "checkpoint_pass_rate": 67,
         "position": "Muscle",
         "position_number": 3,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2740246,
+        "user_name": "Bub92278",
+        "checkpoint_pass_rate": 61,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -24734,6 +24742,17 @@
         "checkpoint_pass_rate": 67,
         "position": "Muscle",
         "position_number": 3,
+        "item_available": true
+      },
+      {
+        "timestamp": 1757946664,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2740246,
+        "user_name": "Bub92278",
+        "checkpoint_pass_rate": 61,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     ]
@@ -26397,10 +26416,31 @@
   "849358": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1758033005,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P6": {
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 66,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1757946664,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 66,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": true
+      }
+    ]
   },
   "849365": {
     "name": "Gaslight the Way",
@@ -26451,9 +26491,28 @@
   "849366": {
     "name": "Snow Blind",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1758032613,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 2943860,
+        "user_name": "BiberBart",
+        "checkpoint_pass_rate": 65,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1757946664,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2943860,
+        "user_name": "BiberBart",
+        "checkpoint_pass_rate": 65,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    ]
   }
 }
