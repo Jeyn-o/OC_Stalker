@@ -4860,11 +4860,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1756744240,
-        "end": 1756744833
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1756744833,
         "end": 1756745432
@@ -6644,7 +6639,13 @@
       {
         "status": "[China] - Idle",
         "start": 1757953253,
-        "end": null
+        "end": 1757953857
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1757953857,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -8390,11 +8391,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756744240,
-        "end": 1756766433
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1756766433,
@@ -10381,8 +10377,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757947244,
-        "end": null,
+        "end": 1757953857,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757953857,
+        "end": null
       }
     ]
   },
@@ -10613,6 +10614,11 @@
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1757951446,
+        "end": 1757953857
+      },
+      {
+        "status": "Available",
+        "start": 1757953857,
         "end": null
       }
     ]
@@ -12916,11 +12922,6 @@
   "3114278": {
     "name": "Tooger_",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1756744240,
-        "end": 1756747840
-      },
       {
         "status": "[United Arab Emirates] Mugged - Revives: Partial",
         "start": 1756747840,
@@ -23428,11 +23429,6 @@
     "name": "Jordanw1",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1756744240,
-        "end": 1756746047
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1756746047,
         "end": 1756752032
@@ -29537,6 +29533,12 @@
       {
         "status": "[China] - Returning",
         "start": 1757943645,
+        "end": 1757953857,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1757953857,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35921,11 +35923,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1756744240,
-        "end": 1756746635
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1756746635,
