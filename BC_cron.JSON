@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1756699247,
-        "end": 1756712434
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1756712434,
         "end": 1756723235
@@ -14882,8 +14877,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757902248,
-        "end": null,
+        "end": 1757908867,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757908867,
+        "end": null
       }
     ]
   },
@@ -29594,11 +29594,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1756699247,
-        "end": 1756700435
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1756700435,
         "end": 1756701629
@@ -33004,7 +32999,13 @@
       {
         "status": "Available",
         "start": 1757901048,
-        "end": null
+        "end": 1757908867
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1757908867,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35110,7 +35111,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1757903469,
-        "end": null
+        "end": 1757908867
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1757908867,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
