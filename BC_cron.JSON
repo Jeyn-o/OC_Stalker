@@ -1660,11 +1660,6 @@
     "name": "poik9",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756726247,
-        "end": 1756733444
-      },
-      {
         "status": "Available",
         "start": 1756733444,
         "end": 1756839039
@@ -1808,11 +1803,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1756726247,
-        "end": 1756728050
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1756728050,
@@ -2697,7 +2687,13 @@
       {
         "status": "Available",
         "start": 1757932260,
-        "end": null
+        "end": 1757935862
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1757935862,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11878,8 +11874,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1757929842,
-        "end": null,
+        "end": 1757935862,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757935862,
+        "end": null
       }
     ]
   },
@@ -18089,8 +18090,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1757931641,
-        "end": null,
+        "end": 1757935862,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1757935862,
+        "end": null
       }
     ]
   },
@@ -20552,11 +20558,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756726247,
-        "end": 1756731643
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1756731643,
         "end": 1756738230
@@ -22561,8 +22562,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1757935242,
-        "end": null,
+        "end": 1757935862,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1757935862,
+        "end": null
       }
     ]
   },
@@ -25969,6 +25975,11 @@
       {
         "status": "Available",
         "start": 1757934070,
+        "end": 1757935862
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1757935862,
         "end": null
       }
     ]
@@ -32936,6 +32947,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1757928666,
+        "end": 1757935862
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1757935862,
         "end": null
       }
     ]
@@ -35028,6 +35044,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1757934070,
+        "end": 1757935862,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1757935862,
         "end": null,
         "travel_type": "airstrip"
       }
