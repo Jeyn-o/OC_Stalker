@@ -9785,6 +9785,11 @@
       {
         "status": "Jail",
         "start": 1757914267,
+        "end": 1757914842
+      },
+      {
+        "status": "Available",
+        "start": 1757914842,
         "end": null
       }
     ]
@@ -10491,6 +10496,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1757907650,
+        "end": 1757914842,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1757914842,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -13042,11 +13053,6 @@
     "name": "Tooger_",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1756705232,
-        "end": 1756708243
-      },
-      {
         "status": "[United Arab Emirates] Mugged - Revives: Partial",
         "start": 1756708243,
         "end": 1756710047
@@ -13829,7 +13835,13 @@
       {
         "status": "Available",
         "start": 1757904054,
-        "end": null
+        "end": 1757914842
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1757914842,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21233,11 +21245,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1756705232,
-        "end": 1756706444
-      },
-      {
         "status": "Available",
         "start": 1756706444,
         "end": 1756707635
@@ -25499,7 +25506,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1757913654,
-        "end": null
+        "end": 1757914842
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1757914842,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38850,6 +38863,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1757913654,
+        "end": 1757914842,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1757914842,
         "end": null,
         "travel_type": "airstrip"
       }
