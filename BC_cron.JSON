@@ -624,6 +624,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1757893245,
+        "end": 1757905845,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1757905845,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -8910,8 +8916,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757899250,
-        "end": null,
+        "end": 1757905845,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1757905845,
+        "end": null
       }
     ]
   },
@@ -14111,11 +14122,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756696229,
-        "end": 1756734636
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1756734636,
@@ -24337,11 +24343,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756696229,
-        "end": 1756702840
-      },
       {
         "status": "Available",
         "start": 1756702840,
@@ -36051,11 +36052,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1756696229,
-        "end": 1756696829
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1756696829,
         "end": 1756698634
@@ -36685,11 +36681,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1756696229,
-        "end": 1756703427
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1756703427,
@@ -38839,6 +38830,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1757904646,
+        "end": 1757905845,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1757905845,
         "end": null,
         "travel_type": "airstrip"
       }
