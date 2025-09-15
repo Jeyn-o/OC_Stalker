@@ -3414,11 +3414,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1756700435,
-        "end": 1756713032
-      },
-      {
         "status": "Available",
         "start": 1756713032,
         "end": 1756716029
@@ -8231,8 +8226,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1757900451,
-        "end": null,
+        "end": 1757910045,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757910045,
+        "end": null
       }
     ]
   },
@@ -11733,8 +11733,13 @@
       {
         "status": "[China] - Going",
         "start": 1757899875,
-        "end": null,
+        "end": 1757910045,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1757910045,
+        "end": null
       }
     ]
   },
@@ -18110,7 +18115,13 @@
       {
         "status": "Available",
         "start": 1757904054,
-        "end": null
+        "end": 1757910045
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1757910045,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -19746,11 +19757,6 @@
   "3331202": {
     "name": "Imtheman357",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1756700435,
-        "end": 1756709427
-      },
       {
         "status": "[Japan] Mugged - Revives: OFF",
         "start": 1756709427,
@@ -23438,8 +23444,13 @@
       {
         "status": "[China] - Going",
         "start": 1757899875,
-        "end": null,
+        "end": 1757910045,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1757910045,
+        "end": null
       }
     ]
   },
@@ -29579,11 +29590,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1756700435,
-        "end": 1756701629
-      },
-      {
         "status": "Available",
         "start": 1756701629,
         "end": 1756720847
@@ -31006,6 +31012,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1757904646,
+        "end": 1757910045,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1757910045,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35626,11 +35638,6 @@
   "3792175": {
     "name": "Danin327",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1756700435,
-        "end": 1756702234
-      },
       {
         "status": "[China] - Idle",
         "start": 1756702234,
