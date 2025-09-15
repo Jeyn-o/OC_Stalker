@@ -8253,7 +8253,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1757891449,
-        "end": null
+        "end": 1757900451
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1757900451,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18137,7 +18143,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1757899875,
-        "end": null
+        "end": 1757900451
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1757900451,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -28734,8 +28746,13 @@
       {
         "status": "[China] - Going",
         "start": 1757890249,
-        "end": null,
+        "end": 1757900451,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1757900451,
+        "end": null
       }
     ]
   },
@@ -36024,11 +36041,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756690834,
-        "end": 1756694432
-      },
       {
         "status": "[Canada] - Going",
         "start": 1756694432,
