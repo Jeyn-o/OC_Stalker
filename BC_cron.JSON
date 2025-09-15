@@ -5595,7 +5595,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757955049,
-        "end": null
+        "end": 1757956842
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757956842,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -9635,6 +9641,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1757949643,
+        "end": 1757956842,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1757956842,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -18566,11 +18578,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1756747232,
-        "end": 1756759233
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1756759233,
@@ -28757,11 +28764,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1756747232,
-        "end": 1756753834
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1756753834,
         "end": 1756754427
@@ -35574,8 +35576,13 @@
       {
         "status": "[China] - Going",
         "start": 1757947244,
-        "end": null,
+        "end": 1757956842,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1757956842,
+        "end": null
       }
     ]
   },
