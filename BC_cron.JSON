@@ -3402,11 +3402,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1756687831,
-        "end": 1756700435
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1756700435,
         "end": 1756713032
@@ -11856,11 +11851,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756687831,
-        "end": 1756689031
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1756689031,
         "end": 1756701043
@@ -13761,7 +13751,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757889066,
-        "end": null
+        "end": 1757897449
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1757897449,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14109,11 +14105,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1756687831,
-        "end": 1756690244
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1756690244,
@@ -27334,8 +27325,13 @@
       {
         "status": "[China] - Returning",
         "start": 1757887267,
-        "end": null,
+        "end": 1757897449,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757897449,
+        "end": null
       }
     ]
   },
@@ -31016,8 +31012,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1757892046,
-        "end": null,
+        "end": 1757897449,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1757897449,
+        "end": null
       }
     ]
   },
@@ -36605,8 +36606,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1757895653,
-        "end": null,
+        "end": 1757897449,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1757897449,
+        "end": null
       }
     ]
   },
