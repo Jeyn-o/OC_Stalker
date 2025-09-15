@@ -6657,8 +6657,13 @@
       {
         "status": "[China] - Going",
         "start": 1757890871,
-        "end": null,
+        "end": 1757895047,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1757895047,
+        "end": null
       }
     ]
   },
@@ -9746,6 +9751,11 @@
       {
         "status": "Available",
         "start": 1757871058,
+        "end": 1757895047
+      },
+      {
+        "status": "Jail",
+        "start": 1757895047,
         "end": null
       }
     ]
@@ -14877,18 +14887,19 @@
       {
         "status": "Available",
         "start": 1757883050,
-        "end": null
+        "end": 1757895047
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1757895047,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1756685429,
-        "end": 1756698028
-      },
       {
         "status": "Available",
         "start": 1756698028,
@@ -20584,6 +20595,11 @@
       {
         "status": "Available",
         "start": 1757863248,
+        "end": 1757895047
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1757895047,
         "end": null
       }
     ]
@@ -23403,8 +23419,13 @@
       {
         "status": "[China] - Returning",
         "start": 1757885462,
-        "end": null,
+        "end": 1757895047,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757895047,
+        "end": null
       }
     ]
   },
@@ -26352,7 +26373,13 @@
       {
         "status": "Available",
         "start": 1757886647,
-        "end": null
+        "end": 1757895047
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1757895047,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29533,11 +29560,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1756685429,
-        "end": 1756692047
-      },
-      {
         "status": "Available",
         "start": 1756692047,
         "end": 1756693843
@@ -32126,11 +32148,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1756685429,
-        "end": 1756687234
-      },
       {
         "status": "Available",
         "start": 1756687234,
@@ -37526,11 +37543,6 @@
   "3868734": {
     "name": "3rdyyy",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1756685429,
-        "end": 1756694432
-      },
       {
         "status": "[China] Mugged - Revives: OFF",
         "start": 1756694432,
