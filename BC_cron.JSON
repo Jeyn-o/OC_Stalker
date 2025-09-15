@@ -3209,11 +3209,6 @@
     "name": "smyles",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1756753834,
-        "end": 1756761032
-      },
-      {
         "status": "Available",
         "start": 1756761032,
         "end": 1756833633
@@ -4697,8 +4692,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1757951446,
-        "end": null,
+        "end": 1757963443,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757963443,
+        "end": null
       }
     ]
   },
@@ -6645,7 +6645,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1757962248,
-        "end": null
+        "end": 1757963443
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1757963443,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -14047,7 +14053,13 @@
       {
         "status": "Available",
         "start": 1757947244,
-        "end": null
+        "end": 1757963443
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1757963443,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27379,6 +27391,11 @@
       {
         "status": "[South Africa] Mugged - Revives: ALL",
         "start": 1757960443,
+        "end": 1757963443
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1757963443,
         "end": null
       }
     ]
@@ -28836,11 +28853,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1756753834,
-        "end": 1756754427
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1756754427,
@@ -38654,7 +38666,13 @@
       {
         "status": "Available",
         "start": 1757962248,
-        "end": null
+        "end": 1757963443
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1757963443,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   }
