@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1756838437,
-        "end": 1756850444
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1756850444,
         "end": 1756851035
@@ -4837,8 +4832,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1758040851,
-        "end": null,
+        "end": 1758048051,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758048051,
+        "end": null
       }
     ]
   },
@@ -5639,8 +5639,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1758040254,
-        "end": null,
+        "end": 1758048051,
         "travel_type": "private"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1758048051,
+        "end": null
       }
     ]
   },
@@ -6703,8 +6708,13 @@
       {
         "status": "[China] - Going",
         "start": 1758043870,
-        "end": null,
+        "end": 1758048051,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758048051,
+        "end": null
       }
     ]
   },
@@ -13090,11 +13100,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756838437,
-        "end": 1756852834
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1756852834,
         "end": 1756859447
@@ -16234,11 +16239,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1756838437,
-        "end": 1756842634
-      },
       {
         "status": "[China] - Returning",
         "start": 1756842634,
@@ -35299,6 +35299,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1758047462,
+        "end": 1758048051
+      },
+      {
+        "status": "Available",
+        "start": 1758048051,
         "end": null
       }
     ]
