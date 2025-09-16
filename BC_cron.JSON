@@ -3447,11 +3447,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756825244,
-        "end": 1756862437
-      },
-      {
         "status": "[China] - Going",
         "start": 1756862437,
         "end": 1756872627
@@ -6686,7 +6681,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758029449,
-        "end": null
+        "end": 1758034854
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758034854,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -8431,8 +8432,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758022268,
-        "end": null,
+        "end": 1758034854,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1758034854,
+        "end": null
       }
     ]
   },
@@ -33282,11 +33288,6 @@
   "3707169": {
     "name": "LichKean",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1756825244,
-        "end": 1756831831
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1756831831,
