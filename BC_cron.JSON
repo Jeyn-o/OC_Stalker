@@ -11933,11 +11933,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1756774231,
-        "end": 1756786830
-      },
-      {
         "status": "Available",
         "start": 1756786830,
         "end": 1756787444
@@ -24428,11 +24423,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1756774231,
-        "end": 1756774856
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1756774856,
         "end": 1756781435
@@ -25521,6 +25511,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1757976642,
+        "end": 1757983844,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1757983844,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -26580,6 +26576,11 @@
       {
         "status": "[China] - Idle",
         "start": 1757983244,
+        "end": 1757983844
+      },
+      {
+        "status": "[China] Lost - Revives: ALL",
+        "start": 1757983844,
         "end": null
       }
     ]
@@ -27525,8 +27526,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1757971868,
-        "end": null,
+        "end": 1757983844,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757983844,
+        "end": null
       }
     ]
   },
@@ -28151,7 +28157,13 @@
       {
         "status": "Available",
         "start": 1757978447,
-        "end": null
+        "end": 1757983844
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1757983844,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32311,11 +32323,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1756774231,
-        "end": 1756776031
-      },
-      {
         "status": "Available",
         "start": 1756776031,
         "end": 1756776650
@@ -35188,8 +35195,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1757976642,
-        "end": null,
+        "end": 1757983844,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1757983844,
+        "end": null
       }
     ]
   },
