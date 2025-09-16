@@ -2753,6 +2753,11 @@
       {
         "status": "[Japan] - Idle",
         "start": 1758040851,
+        "end": 1758041453
+      },
+      {
+        "status": "[Japan] Mugged - Revives: Partial",
+        "start": 1758041453,
         "end": null
       }
     ]
@@ -7101,7 +7106,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758038464,
-        "end": null
+        "end": 1758041453
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758041453,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13104,11 +13115,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756831831,
-        "end": 1756838437
-      },
-      {
         "status": "Available",
         "start": 1756838437,
         "end": 1756852834
@@ -15037,8 +15043,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758034250,
-        "end": null,
+        "end": 1758041453,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758041453,
+        "end": null
       }
     ]
   },
@@ -18289,7 +18300,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758040851,
-        "end": null
+        "end": 1758041453
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758041453,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -21349,8 +21366,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758034250,
-        "end": null,
+        "end": 1758041453,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758041453,
+        "end": null
       }
     ]
   },
@@ -24617,11 +24639,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1756831831,
-        "end": 1756832452
-      },
       {
         "status": "[Japan] Lost - Revives: ALL",
         "start": 1756832452,
@@ -30021,7 +30038,13 @@
       {
         "status": "Available",
         "start": 1758040851,
-        "end": null
+        "end": 1758041453
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758041453,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31504,7 +31527,13 @@
       {
         "status": "Available",
         "start": 1758039648,
-        "end": null
+        "end": 1758041453
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1758041453,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33297,11 +33326,6 @@
   "3707169": {
     "name": "LichKean",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1756831831,
-        "end": 1756833030
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1756833030,
