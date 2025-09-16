@@ -26645,12 +26645,13 @@
         "position": "Picklock",
         "position_number": 1
       },
-      "P6": {
+      "P4": {
         "user_id": 2250222,
         "user_name": "Ronskip",
-        "checkpoint_pass_rate": 74,
-        "position": "Picklock",
-        "position_number": 2
+        "checkpoint_pass_rate": 73,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -26695,6 +26696,27 @@
         "checkpoint_pass_rate": 74,
         "position": "Picklock",
         "position_number": 2
+      },
+      {
+        "timestamp": 1758024649,
+        "action": "left",
+        "slot": "P6",
+        "user_id": 2250222,
+        "user_name": "Ronskip",
+        "checkpoint_pass_rate": 74,
+        "position": "Picklock",
+        "position_number": 2
+      },
+      {
+        "timestamp": 1758024649,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2250222,
+        "user_name": "Ronskip",
+        "checkpoint_pass_rate": 73,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
