@@ -4797,8 +4797,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1758030646,
-        "end": null,
+        "end": 1758037848,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1758037848,
+        "end": null
       }
     ]
   },
@@ -4860,11 +4865,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1756828229,
-        "end": 1756837234
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1756837234,
@@ -11108,7 +11108,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758026454,
-        "end": null
+        "end": 1758037848
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758037848,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16181,11 +16187,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Argentina] Mugged - Revives: ALL",
-        "start": 1756828229,
-        "end": 1756830644
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1756830644,
         "end": 1756831226
@@ -18225,6 +18226,12 @@
       {
         "status": "[China] - Returning",
         "start": 1758034250,
+        "end": 1758037848,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758037848,
         "end": null,
         "travel_type": "standard"
       }
@@ -22979,11 +22986,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1756828229,
-        "end": 1756840239
-      },
-      {
         "status": "Available",
         "start": 1756840239,
         "end": 1756858234
@@ -27310,6 +27312,11 @@
       {
         "status": "[China] - Idle",
         "start": 1758019850,
+        "end": 1758037848
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1758037848,
         "end": null
       }
     ]
@@ -29962,11 +29969,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756828229,
-        "end": 1756829416
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1756829416,
