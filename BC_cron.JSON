@@ -6637,7 +6637,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758004262,
-        "end": null
+        "end": 1758013264
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758013264,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -7480,6 +7486,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1758006069,
+        "end": 1758013264,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1758013264,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -13672,8 +13684,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1758001842,
-        "end": null,
+        "end": 1758013264,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1758013264,
+        "end": null
       }
     ]
   },
@@ -22772,6 +22789,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1758012041,
+        "end": 1758013264,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758013264,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -23688,11 +23711,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756803639,
-        "end": 1756810236
-      },
       {
         "status": "Available",
         "start": 1756810236,
@@ -33596,11 +33614,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1756803639,
-        "end": 1756805445
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1756805445,
