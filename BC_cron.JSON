@@ -1113,11 +1113,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756807832,
-        "end": 1756809634
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1756809634,
         "end": 1756815033
@@ -2713,8 +2708,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1758007244,
-        "end": null,
+        "end": 1758017464,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758017464,
+        "end": null
       }
     ]
   },
@@ -8262,11 +8262,6 @@
   "2675301": {
     "name": "ExiledAstronaut",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756807832,
-        "end": 1756917637
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1756917637,
@@ -18234,11 +18229,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1756807832,
-        "end": 1756815033
-      },
-      {
         "status": "Available",
         "start": 1756815033,
         "end": 1756865442
@@ -22807,7 +22797,13 @@
       {
         "status": "Available",
         "start": 1758014451,
-        "end": null
+        "end": 1758017464
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1758017464,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29033,7 +29029,13 @@
       {
         "status": "Available",
         "start": 1758001842,
-        "end": null
+        "end": 1758017464
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758017464,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33622,11 +33624,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756807832,
-        "end": 1756826434
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1756826434,
         "end": 1756833030
@@ -35195,8 +35192,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1758015647,
-        "end": null,
+        "end": 1758017464,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1758017464,
+        "end": null
       }
     ]
   },
