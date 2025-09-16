@@ -638,11 +638,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1756853435,
-        "end": 1756858834
-      },
-      {
         "status": "Available",
         "start": 1756858834,
         "end": 1756861835
@@ -2819,11 +2814,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756853435,
-        "end": 1756868444
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1756868444,
@@ -12073,11 +12063,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1756853435,
-        "end": 1756855234
-      },
-      {
         "status": "Available",
         "start": 1756855234,
         "end": 1756856435
@@ -15059,11 +15044,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1756853435,
-        "end": 1756860634
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1756860634,
@@ -18331,7 +18311,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758061861,
-        "end": null
+        "end": 1758063049
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758063049,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -29196,8 +29182,13 @@
       {
         "status": "[China] - Going",
         "start": 1758052856,
-        "end": null,
+        "end": 1758063049,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758063049,
+        "end": null
       }
     ]
   },
@@ -30046,11 +30037,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1756853435,
-        "end": 1756854636
-      },
       {
         "status": "Available",
         "start": 1756854636,
@@ -37561,11 +37547,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1756853435,
-        "end": 1756855866
-      },
-      {
         "status": "Available",
         "start": 1756855866,
         "end": 1756858834
@@ -38730,6 +38711,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758057047,
+        "end": 1758063049,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758063049,
         "end": null,
         "travel_type": "airstrip"
       }
