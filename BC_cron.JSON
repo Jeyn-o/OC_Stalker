@@ -1821,11 +1821,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1756798834,
-        "end": 1756804837
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1756804837,
         "end": 1756812037
@@ -3429,11 +3424,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756798834,
-        "end": 1756799437
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1756799437,
@@ -7315,11 +7305,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756798834,
-        "end": 1756801233
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1756801233,
         "end": 1756810236
@@ -10389,8 +10374,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1758001243,
-        "end": null,
+        "end": 1758008448,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758008448,
+        "end": null
       }
     ]
   },
@@ -14092,8 +14082,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758003647,
-        "end": null,
+        "end": 1758008448,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758008448,
+        "end": null
       }
     ]
   },
@@ -19795,18 +19790,19 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1757989864,
-        "end": null
+        "end": 1758008448
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758008448,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3331202": {
     "name": "Imtheman357",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1756798834,
-        "end": 1756800039
-      },
       {
         "status": "[China] Mugged - Revives: OFF",
         "start": 1756800039,
@@ -22758,8 +22754,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1758007244,
-        "end": null,
+        "end": 1758008448,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758008448,
+        "end": null
       }
     ]
   },
@@ -24418,6 +24419,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1758001243,
+        "end": 1758008448,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1758008448,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -27528,7 +27535,13 @@
       {
         "status": "Available",
         "start": 1757983844,
-        "end": null
+        "end": 1758008448
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1758008448,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28180,8 +28193,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1758001243,
-        "end": null,
+        "end": 1758008448,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1758008448,
+        "end": null
       }
     ]
   },
@@ -31276,11 +31294,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1756798834,
-        "end": 1756808435
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1756808435,
         "end": 1756814453
@@ -33557,11 +33570,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756798834,
-        "end": 1756799437
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1756799437,
@@ -36544,11 +36552,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1756798834,
-        "end": 1756800039
-      },
       {
         "status": "Available",
         "start": 1756800039,
