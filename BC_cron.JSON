@@ -7322,11 +7322,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1756791633,
-        "end": 1756798834
-      },
-      {
         "status": "Available",
         "start": 1756798834,
         "end": 1756801233
@@ -10388,7 +10383,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1758000667,
-        "end": null
+        "end": 1758001243
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1758001243,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24378,7 +24379,13 @@
       {
         "status": "Available",
         "start": 1757965844,
-        "end": null
+        "end": 1758001243
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1758001243,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28139,7 +28146,13 @@
       {
         "status": "Available",
         "start": 1757998248,
-        "end": null
+        "end": 1758001243
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1758001243,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31221,11 +31234,6 @@
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1756791633,
-        "end": 1756794034
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1756794034,
@@ -35937,11 +35945,6 @@
     "name": "Drasher",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1756791633,
-        "end": 1756804837
-      },
-      {
         "status": "Available",
         "start": 1756804837,
         "end": 1757028043
@@ -38649,8 +38652,13 @@
       {
         "status": "[China] - Returning",
         "start": 1757991668,
-        "end": null,
+        "end": 1758001243,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758001243,
+        "end": null
       }
     ]
   }
