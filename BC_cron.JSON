@@ -7322,11 +7322,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1756810236,
-        "end": 1756811440
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1756811440,
         "end": 1756821037
@@ -7499,8 +7494,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1758013264,
-        "end": null,
+        "end": 1758019850,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758019850,
+        "end": null
       }
     ]
   },
@@ -11036,18 +11036,19 @@
       {
         "status": "Available",
         "start": 1758018653,
-        "end": null
+        "end": 1758019850
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758019850,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756810236,
-        "end": 1756811440
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1756811440,
@@ -18716,11 +18717,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1756810236,
-        "end": 1756822237
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1756822237,
         "end": 1756834837
@@ -22820,8 +22816,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1758018653,
-        "end": null,
+        "end": 1758019850,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758019850,
+        "end": null
       }
     ]
   },
@@ -23731,11 +23732,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756810236,
-        "end": 1756810844
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1756810844,
@@ -27241,6 +27237,11 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1758018048,
+        "end": 1758019850
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758019850,
         "end": null
       }
     ]
@@ -28388,11 +28389,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756810236,
-        "end": 1756823448
-      },
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1756823448,
@@ -29886,6 +29882,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758012644,
+        "end": 1758019850,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758019850,
         "end": null,
         "travel_type": "airstrip"
       }
