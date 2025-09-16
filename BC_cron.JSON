@@ -4879,11 +4879,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1756777232,
-        "end": 1756778444
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1756778444,
         "end": 1756787444
@@ -8442,11 +8437,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756777232,
-        "end": 1756783844
-      },
       {
         "status": "Available",
         "start": 1756783844,
@@ -13742,7 +13732,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1757970645,
-        "end": null
+        "end": 1757986847
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1757986847,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18162,8 +18158,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1757984464,
-        "end": null,
+        "end": 1757986847,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1757986847,
+        "end": null
       }
     ]
   },
@@ -22764,7 +22765,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1757986264,
-        "end": null
+        "end": 1757986847
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1757986847,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36624,8 +36631,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1757985649,
-        "end": null,
+        "end": 1757986847,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1757986847,
+        "end": null
       }
     ]
   },
@@ -37365,7 +37377,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1757979646,
-        "end": null
+        "end": 1757986847
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1757986847,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
