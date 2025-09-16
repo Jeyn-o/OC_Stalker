@@ -1817,11 +1817,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1756828849,
-        "end": 1756835435
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1756835435,
         "end": 1756839039
@@ -2774,11 +2769,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1756828849,
-        "end": 1756841447
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1756841447,
@@ -7066,8 +7056,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758025871,
-        "end": null,
+        "end": 1758038464,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1758038464,
+        "end": null
       }
     ]
   },
@@ -10476,8 +10471,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758031853,
-        "end": null,
+        "end": 1758038464,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758038464,
+        "end": null
       }
     ]
   },
@@ -11866,8 +11866,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758027047,
-        "end": null,
+        "end": 1758038464,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758038464,
+        "end": null
       }
     ]
   },
@@ -25634,7 +25639,13 @@
       {
         "status": "Available",
         "start": 1758030646,
-        "end": null
+        "end": 1758038464
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758038464,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32448,11 +32459,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1756828849,
-        "end": 1756834837
-      },
-      {
         "status": "Available",
         "start": 1756834837,
         "end": 1756835435
@@ -33240,7 +33246,13 @@
       {
         "status": "Available",
         "start": 1758031853,
-        "end": null
+        "end": 1758038464
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1758038464,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35278,6 +35290,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758031853,
+        "end": 1758038464,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758038464,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -38730,6 +38748,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758031853,
+        "end": 1758038464,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758038464,
         "end": null,
         "travel_type": "airstrip"
       }
