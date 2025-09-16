@@ -3400,8 +3400,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1757978447,
-        "end": null,
+        "end": 1757985649,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1757985649,
+        "end": null
       }
     ]
   },
@@ -8225,8 +8230,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1757973665,
-        "end": null,
+        "end": 1757985649,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1757985649,
+        "end": null
       }
     ]
   },
@@ -8901,8 +8911,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1757979062,
-        "end": null,
+        "end": 1757985649,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1757985649,
+        "end": null
       }
     ]
   },
@@ -14119,11 +14134,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1756776031,
-        "end": 1756776650
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1756776650,
         "end": 1756783234
@@ -15423,11 +15433,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Switzerland] Mugged - Revives: OFF",
-        "start": 1756776031,
-        "end": 1756778444
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1756778444,
@@ -18215,6 +18220,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1757973665,
+        "end": 1757985649
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: Partial",
+        "start": 1757985649,
         "end": null
       }
     ]
@@ -29771,11 +29781,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756776031,
-        "end": 1756780246
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1756780246,
         "end": 1756787444
@@ -32313,11 +32318,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756776031,
-        "end": 1756776650
-      },
       {
         "status": "[Canada] - Going",
         "start": 1756776650,
@@ -36616,7 +36616,13 @@
       {
         "status": "Available",
         "start": 1757984464,
-        "end": null
+        "end": 1757985649
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1757985649,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
