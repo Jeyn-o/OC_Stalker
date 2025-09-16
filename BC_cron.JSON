@@ -2283,7 +2283,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1758051646,
-        "end": null
+        "end": 1758058265
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758058265,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11010,8 +11016,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1758051059,
-        "end": null,
+        "end": 1758058265,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1758058265,
+        "end": null
       }
     ]
   },
@@ -18347,6 +18358,12 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1758055847,
+        "end": 1758058265,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758058265,
         "end": null,
         "travel_type": "standard"
       }
@@ -26825,11 +26842,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1756848648,
-        "end": 1756854047
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1756854047,
         "end": 1756861255
@@ -28542,6 +28554,11 @@
       {
         "status": "Available",
         "start": 1757891449,
+        "end": 1758058265
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1758058265,
         "end": null
       }
     ]
@@ -30061,11 +30078,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1756848648,
-        "end": 1756849833
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1756849833,
@@ -36710,11 +36722,6 @@
     "name": "Cerbb",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1756848648,
-        "end": 1756852834
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1756852834,
         "end": 1756864848
@@ -37609,11 +37616,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1756848039,
-        "end": 1756849833
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1756849833,
