@@ -8974,6 +8974,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758070861,
+        "end": 1758077442,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758077442,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14971,8 +14977,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758070861,
-        "end": null,
+        "end": 1758077442,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758077442,
+        "end": null
       }
     ]
   },
@@ -16175,11 +16186,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756867829,
-        "end": 1756868444
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1756868444,
@@ -18262,7 +18268,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1758075043,
-        "end": null
+        "end": 1758077442
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758077442,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -22926,6 +22938,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1758076259,
+        "end": 1758077442,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758077442,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22934,11 +22952,6 @@
   "3431519": {
     "name": "kirabaz",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1756867829,
-        "end": 1756869633
-      },
       {
         "status": "Available",
         "start": 1756869633,
@@ -23009,11 +23022,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1756867829,
-        "end": 1756885235
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1756885235,
@@ -30010,11 +30018,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1756867829,
-        "end": 1756869633
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1756869633,
@@ -38632,7 +38635,13 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1758076848,
-        "end": null
+        "end": 1758077442
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1758077442,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   }
