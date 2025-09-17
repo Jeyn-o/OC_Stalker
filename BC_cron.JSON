@@ -4730,6 +4730,12 @@
       {
         "status": "[China] - Going",
         "start": 1758136871,
+        "end": 1758146460,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758146460,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -9291,11 +9297,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1756936246,
-        "end": 1756936859
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1756936859,
         "end": 1756944636
@@ -12707,7 +12708,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758145845,
-        "end": null
+        "end": 1758146460
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758146460,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14222,11 +14229,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1756936246,
-        "end": 1756942841
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1756942841,
@@ -18290,7 +18292,13 @@
       {
         "status": "Available",
         "start": 1758144654,
-        "end": null
+        "end": 1758146460
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758146460,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -27357,8 +27365,13 @@
       {
         "status": "[China] - Going",
         "start": 1758136250,
-        "end": null,
+        "end": 1758146460,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758146460,
+        "end": null
       }
     ]
   },
@@ -33140,11 +33153,6 @@
   "3707169": {
     "name": "LichKean",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1756936246,
-        "end": 1756942841
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1756942841,
