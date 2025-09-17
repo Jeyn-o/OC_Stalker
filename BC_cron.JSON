@@ -3187,19 +3187,19 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758099662,
-        "end": null,
+        "end": 1758111649,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1758111649,
+        "end": null
       }
     ]
   },
   "1946159": {
     "name": "smyles",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1756902033,
-        "end": 1756904451
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1756904451,
@@ -3829,7 +3829,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1758110463,
-        "end": null
+        "end": 1758111649
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1758111649,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7089,6 +7095,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758099662,
+        "end": 1758111649,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758111649,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7791,11 +7803,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1756902033,
-        "end": 1756908641
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1756908641,
@@ -10482,8 +10489,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758101459,
-        "end": null,
+        "end": 1758111649,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758111649,
+        "end": null
       }
     ]
   },
@@ -14134,6 +14146,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758106862,
+        "end": 1758111649,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758111649,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -21223,8 +21241,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758105059,
-        "end": null,
+        "end": 1758111649,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758111649,
+        "end": null
       }
     ]
   },
@@ -24547,11 +24570,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1756902033,
-        "end": 1756902646
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1756902646,
         "end": 1756904451
@@ -27815,11 +27833,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1756902033,
-        "end": 1756913458
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1756913458,
@@ -33549,11 +33562,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1756902033,
-        "end": 1756903236
-      },
       {
         "status": "Available",
         "start": 1756903236,
