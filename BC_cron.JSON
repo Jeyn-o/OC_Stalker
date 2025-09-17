@@ -9040,6 +9040,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1758075043,
+        "end": 1758075646
+      },
+      {
+        "status": "Available",
+        "start": 1758075646,
         "end": null
       }
     ]
@@ -9087,11 +9092,6 @@
   "2730718": {
     "name": "Haungpeary",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1756866033,
-        "end": 1756927843
-      },
       {
         "status": "[Argentina] Mugged - Revives: ALL",
         "start": 1756927843,
@@ -10510,7 +10510,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758064844,
-        "end": null
+        "end": 1758075646
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758075646,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13749,6 +13755,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758069059,
+        "end": 1758075646,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758075646,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -16179,11 +16191,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1756866033,
-        "end": 1756866645
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1756866645,
         "end": 1756867232
@@ -18371,11 +18378,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1756865442,
-        "end": 1756874440
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1756874440,
@@ -24632,11 +24634,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756866033,
-        "end": 1756867232
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1756867232,
         "end": 1756868444
@@ -28419,8 +28416,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1758068448,
-        "end": null,
+        "end": 1758075646,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758075646,
+        "end": null
       }
     ]
   },
@@ -30033,16 +30035,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1756865442,
-        "end": 1756866033
-      },
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1756866033,
-        "end": 1756867232
-      },
-      {
         "status": "Available",
         "start": 1756867232,
         "end": 1756867829
@@ -31476,11 +31468,6 @@
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1756865442,
-        "end": 1756867232
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1756867232,
@@ -33656,11 +33643,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1756865442,
-        "end": 1756867232
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1756867232,
