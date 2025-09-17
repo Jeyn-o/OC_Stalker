@@ -4943,11 +4943,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756929656,
-        "end": 1756932036
-      },
-      {
         "status": "[China] - Going",
         "start": 1756932036,
         "end": 1756939238
@@ -5691,7 +5686,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758137461,
-        "end": null
+        "end": 1758139844
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1758139844,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -8344,8 +8345,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758127843,
-        "end": null,
+        "end": 1758139844,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758139844,
+        "end": null
       }
     ]
   },
@@ -9341,11 +9347,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1756929656,
-        "end": 1756936246
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1756936246,
@@ -12749,11 +12750,6 @@
     "name": "Thornking",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1756929656,
-        "end": 1756942287
-      },
-      {
         "status": "Available",
         "start": 1756942287,
         "end": 1756969848
@@ -15599,11 +15595,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1756929656,
-        "end": 1756936859
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1756936859,
@@ -19937,11 +19928,6 @@
   "3331202": {
     "name": "Imtheman357",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: OFF",
-        "start": 1756929656,
-        "end": 1756931443
-      },
       {
         "status": "[China] - Idle",
         "start": 1756931443,
@@ -32070,8 +32056,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1758138045,
-        "end": null,
+        "end": 1758139844,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1758139844,
+        "end": null
       }
     ]
   },
@@ -35195,6 +35186,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1758136871,
+        "end": 1758139844
+      },
+      {
+        "status": "Available",
+        "start": 1758139844,
         "end": null
       }
     ]
@@ -35766,8 +35762,13 @@
       {
         "status": "[China] - Going",
         "start": 1758129049,
-        "end": null,
+        "end": 1758139844,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758139844,
+        "end": null
       }
     ]
   },
@@ -38564,8 +38565,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758133249,
-        "end": null,
+        "end": 1758139844,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758139844,
+        "end": null
       }
     ]
   }
