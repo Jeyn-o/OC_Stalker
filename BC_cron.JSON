@@ -7664,6 +7664,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1758090039,
+        "end": 1758097246,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1758097246,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -10932,11 +10938,6 @@
     "name": "BiberBart",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756887637,
-        "end": 1756894239
-      },
-      {
         "status": "Available",
         "start": 1756894239,
         "end": 1757051436
@@ -11974,11 +11975,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1756887637,
-        "end": 1756900231
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1756900231,
@@ -13722,11 +13718,6 @@
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756887637,
-        "end": 1756911655
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1756911655,
@@ -15494,11 +15485,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1756887637,
-        "end": 1756895454
-      },
       {
         "status": "[Switzerland] Mugged - Revives: OFF",
         "start": 1756895454,
@@ -21257,8 +21243,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758090039,
-        "end": null,
+        "end": 1758097246,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758097246,
+        "end": null
       }
     ]
   },
@@ -28378,7 +28369,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1758088243,
-        "end": null
+        "end": 1758097246
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1758097246,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28497,11 +28494,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1756887637,
-        "end": 1756897837
-      },
       {
         "status": "Available",
         "start": 1756897837,
@@ -31986,6 +31978,11 @@
       {
         "status": "[China] - Idle",
         "start": 1758094263,
+        "end": 1758097246
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1758097246,
         "end": null
       }
     ]
@@ -33582,11 +33579,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1756887637,
-        "end": 1756888254
-      },
       {
         "status": "Available",
         "start": 1756888254,
