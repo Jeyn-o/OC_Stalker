@@ -2762,8 +2762,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1758115278,
-        "end": null,
+        "end": 1758124254,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1758124254,
+        "end": null
       }
     ]
   },
@@ -9005,8 +9010,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758117645,
-        "end": null,
+        "end": 1758124254,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758124254,
+        "end": null
       }
     ]
   },
@@ -18818,11 +18828,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1756914635,
-        "end": 1756916436
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1756916436,
         "end": 1756917637
@@ -20709,11 +20714,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756914635,
-        "end": 1756921239
-      },
       {
         "status": "Available",
         "start": 1756921239,
@@ -27705,7 +27705,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758108650,
-        "end": null
+        "end": 1758124254
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758124254,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31380,8 +31386,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1758118240,
-        "end": null,
+        "end": 1758124254,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758124254,
+        "end": null
       }
     ]
   },
@@ -31989,11 +32000,6 @@
   "3693919": {
     "name": "Mythofhs",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1756914635,
-        "end": 1756915838
-      },
       {
         "status": "[United Arab Emirates] Lost - Revives: ALL",
         "start": 1756915838,
