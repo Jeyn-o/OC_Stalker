@@ -1064,11 +1064,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: OFF",
-        "start": 1756939238,
-        "end": 1756963277
-      },
-      {
         "status": "Available",
         "start": 1756963277,
         "end": 1756963914
@@ -4898,11 +4893,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1756939238,
-        "end": 1756945243
-      },
       {
         "status": "[China] - Returning",
         "start": 1756945243,
@@ -10492,11 +10482,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1756939238,
-        "end": 1756941640
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1756941640,
         "end": 1756953051
@@ -15015,6 +15000,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758142862,
+        "end": 1758149446,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758149446,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15023,11 +15014,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1756939238,
-        "end": 1756946441
-      },
       {
         "status": "Available",
         "start": 1756946441,
@@ -18259,8 +18245,13 @@
       {
         "status": "[China] - Going",
         "start": 1758146460,
-        "end": null,
+        "end": 1758149446,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758149446,
+        "end": null
       }
     ]
   },
@@ -18826,11 +18817,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1756939238,
-        "end": 1756945856
-      },
       {
         "status": "[China] - Going",
         "start": 1756945856,
@@ -26712,8 +26698,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758139260,
-        "end": null,
+        "end": 1758149446,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758149446,
+        "end": null
       }
     ]
   },
@@ -29139,8 +29130,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758139260,
-        "end": null,
+        "end": 1758149446,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758149446,
+        "end": null
       }
     ]
   },
@@ -29940,11 +29936,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756939238,
-        "end": 1756950657
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1756950657,
@@ -32301,11 +32292,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756939238,
-        "end": 1756941037
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1756941037,
@@ -35901,11 +35887,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1756939238,
-        "end": 1756954857
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1756954857,
         "end": 1756955435
@@ -38485,6 +38466,11 @@
       {
         "status": "Available",
         "start": 1758148843,
+        "end": 1758149446
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1758149446,
         "end": null
       }
     ]
