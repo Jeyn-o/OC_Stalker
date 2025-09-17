@@ -9035,6 +9035,11 @@
       {
         "status": "Available",
         "start": 1757806846,
+        "end": 1758075043
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1758075043,
         "end": null
       }
     ]
@@ -18269,8 +18274,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1758074459,
-        "end": null,
+        "end": 1758075043,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1758075043,
+        "end": null
       }
     ]
   },
@@ -22933,7 +22943,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1758072654,
-        "end": null
+        "end": 1758075043
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758075043,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35288,7 +35304,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1758074459,
-        "end": null
+        "end": 1758075043
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758075043,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
