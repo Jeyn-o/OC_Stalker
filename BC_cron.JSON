@@ -9763,6 +9763,11 @@
       {
         "status": "Jail",
         "start": 1758080441,
+        "end": 1758081040
+      },
+      {
+        "status": "Available",
+        "start": 1758081040,
         "end": null
       }
     ]
@@ -18813,18 +18818,19 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1758078069,
-        "end": null
+        "end": 1758081040
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1758081040,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1756870836,
-        "end": 1756882240
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1756882240,
@@ -27858,11 +27864,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1756871433,
-        "end": 1756888254
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1756888254,
         "end": 1756895454
@@ -28374,7 +28375,13 @@
       {
         "status": "Available",
         "start": 1758075646,
-        "end": null
+        "end": 1758081040
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1758081040,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35907,11 +35914,6 @@
     "name": "Sponsmonster",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1756871433,
-        "end": 1756873234
-      },
-      {
         "status": "Available",
         "start": 1756873234,
         "end": 1756916436
@@ -37465,11 +37467,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1756870836,
-        "end": 1756873234
-      },
       {
         "status": "Available",
         "start": 1756873234,
