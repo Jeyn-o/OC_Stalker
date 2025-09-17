@@ -27305,9 +27305,18 @@
   "853460": {
     "name": "Guardian Ángels",
     "status": "Recruiting",
-    "ready_at": 1758118199,
+    "ready_at": 1758203574,
     "executed_at": null,
-    "slots": {},
+    "slots": {
+      "P3": {
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 85,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
+      }
+    },
     "action_log": [
       {
         "timestamp": 1758031855,
@@ -27328,6 +27337,17 @@
         "checkpoint_pass_rate": 86,
         "position": "Enforcer",
         "position_number": 1
+      },
+      {
+        "timestamp": 1758117647,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 85,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
