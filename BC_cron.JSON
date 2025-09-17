@@ -7847,11 +7847,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1756915838,
-        "end": 1756922455
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1756922455,
         "end": 1756923640
@@ -9032,7 +9027,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758124254,
-        "end": null
+        "end": 1758125447
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758125447,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15553,6 +15554,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758113443,
+        "end": 1758125447,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758125447,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -32007,11 +32014,6 @@
     "name": "Mythofhs",
     "activities": [
       {
-        "status": "[United Arab Emirates] Lost - Revives: ALL",
-        "start": 1756915838,
-        "end": 1756916436
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1756916436,
         "end": 1756917056
@@ -33575,8 +33577,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758118848,
-        "end": null,
+        "end": 1758125447,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758125447,
+        "end": null
       }
     ]
   },
@@ -38542,6 +38549,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758118848,
+        "end": 1758125447,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758125447,
         "end": null,
         "travel_type": "airstrip"
       }
