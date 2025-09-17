@@ -1611,6 +1611,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758087059,
+        "end": 1758094263,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758094263,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7577,8 +7583,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1758087059,
-        "end": null,
+        "end": 1758094263,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758094263,
+        "end": null
       }
     ]
   },
@@ -23724,8 +23735,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758084042,
-        "end": null,
+        "end": 1758094263,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758094263,
+        "end": null
       }
     ]
   },
@@ -26746,11 +26762,6 @@
   "3542414": {
     "name": "awesomemcsexy",
     "activities": [
-      {
-        "status": "[Switzerland] Mugged - Revives: ALL",
-        "start": 1756884649,
-        "end": 1756887036
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1756887036,
@@ -31985,8 +31996,13 @@
       {
         "status": "[China] - Going",
         "start": 1758079240,
-        "end": null,
+        "end": 1758094263,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758094263,
+        "end": null
       }
     ]
   },
@@ -35220,6 +35236,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1758087059,
+        "end": 1758094263
+      },
+      {
+        "status": "Available",
+        "start": 1758094263,
         "end": null
       }
     ]
@@ -35788,7 +35809,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758085266,
-        "end": null
+        "end": 1758094263
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758094263,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
