@@ -4227,7 +4227,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1758182449,
-        "end": null
+        "end": 1758184251
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1758184251,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7734,8 +7740,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1758177638,
-        "end": null,
+        "end": 1758184251,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758184251,
+        "end": null
       }
     ]
   },
@@ -18195,7 +18206,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758168645,
-        "end": null
+        "end": 1758184251
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758184251,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -25448,18 +25465,19 @@
       {
         "status": "Available",
         "start": 1758169868,
-        "end": null
+        "end": 1758184251
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1758184251,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1756974039,
-        "end": 1756978841
-      },
       {
         "status": "[China] - Going",
         "start": 1756978841,
@@ -37185,11 +37203,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1756974039,
-        "end": 1756976458
-      },
       {
         "status": "[Switzerland] Mugged - Revives: OFF",
         "start": 1756976458,
