@@ -9110,7 +9110,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758208842,
-        "end": null
+        "end": 1758210643
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758210643,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10593,6 +10599,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758204068,
+        "end": 1758210643,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758210643,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -18206,8 +18218,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1758208842,
-        "end": null,
+        "end": 1758210643,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1758210643,
+        "end": null
       }
     ]
   },
@@ -25319,8 +25336,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758198053,
-        "end": null,
+        "end": 1758210643,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758210643,
+        "end": null
       }
     ]
   },
@@ -31111,6 +31133,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1758209470,
+        "end": 1758210643,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758210643,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -32836,7 +32864,13 @@
       {
         "status": "Available",
         "start": 1758168645,
-        "end": null
+        "end": 1758210643
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1758210643,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34846,11 +34880,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1757000444,
-        "end": 1757010657
-      },
       {
         "status": "Available",
         "start": 1757010657,
@@ -38253,7 +38282,13 @@
       {
         "status": "Available",
         "start": 1758180657,
-        "end": null
+        "end": 1758210643
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758210643,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   }
