@@ -11978,7 +11978,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758223252,
-        "end": null
+        "end": 1758237649
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1758237649,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12758,7 +12764,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758237042,
-        "end": null
+        "end": 1758237649
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758237649,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19979,11 +19991,6 @@
     "name": "Krytical",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1757027437,
-        "end": 1757028645
-      },
-      {
         "status": "Available",
         "start": 1757028645,
         "end": 1757197852
@@ -25264,8 +25271,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758225049,
-        "end": null,
+        "end": 1758237649,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758237649,
+        "end": null
       }
     ]
   },
