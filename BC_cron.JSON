@@ -3305,11 +3305,6 @@
     "name": "smyles",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1757015444,
-        "end": 1757020832
-      },
-      {
         "status": "Available",
         "start": 1757020832,
         "end": 1757273459
@@ -3950,11 +3945,6 @@
   "2154655": {
     "name": "Khana",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757015444,
-        "end": 1757103625
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1757103625,
@@ -6849,7 +6839,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758212449,
-        "end": null
+        "end": 1758225668
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758225668,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -10865,11 +10861,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757015444,
-        "end": 1757016059
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1757016059,
         "end": 1757017238
@@ -13050,6 +13041,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1758222649,
+        "end": 1758225668
+      },
+      {
+        "status": "Available",
+        "start": 1758225668,
         "end": null
       }
     ]
@@ -16096,11 +16092,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757015444,
-        "end": 1757020242
-      },
       {
         "status": "[China] - Going",
         "start": 1757020242,
@@ -21101,11 +21092,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1757015444,
-        "end": 1757017840
-      },
       {
         "status": "Available",
         "start": 1757017840,
@@ -26329,8 +26315,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758215454,
-        "end": null,
+        "end": 1758225668,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758225668,
+        "end": null
       }
     ]
   },
@@ -29612,6 +29603,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758219048,
+        "end": 1758225668,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758225668,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31745,8 +31742,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758209470,
-        "end": null,
+        "end": 1758225668,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1758225668,
+        "end": null
       }
     ]
   },
