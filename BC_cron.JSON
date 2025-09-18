@@ -2744,8 +2744,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1758166838,
-        "end": null,
+        "end": 1758176463,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1758176463,
+        "end": null
       }
     ]
   },
@@ -7447,11 +7452,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1756966282,
-        "end": 1756975836
-      },
       {
         "status": "Available",
         "start": 1756975836,
@@ -13694,11 +13694,6 @@
     "name": "JuanPaulo",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1756966282,
-        "end": 1756972852
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1756972852,
         "end": 1756973442
@@ -14969,11 +14964,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1756966282,
-        "end": 1756978841
-      },
       {
         "status": "Available",
         "start": 1756978841,
@@ -24383,7 +24373,13 @@
       {
         "status": "Available",
         "start": 1758145845,
-        "end": null
+        "end": 1758176463
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758176463,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34968,8 +34964,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1758174647,
-        "end": null,
+        "end": 1758176463,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758176463,
+        "end": null
       }
     ]
   },
@@ -38409,6 +38410,11 @@
       {
         "status": "Available",
         "start": 1758175850,
+        "end": 1758176463
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1758176463,
         "end": null
       }
     ]
