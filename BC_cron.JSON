@@ -1565,8 +1565,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1758254464,
-        "end": null,
+        "end": 1758262243,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1758262243,
+        "end": null
       }
     ]
   },
@@ -7814,6 +7819,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1758260447,
+        "end": 1758262243,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1758262243,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25829,7 +25840,13 @@
       {
         "status": "Available",
         "start": 1758095439,
-        "end": null
+        "end": 1758262243
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758262243,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33144,11 +33161,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1757052059,
-        "end": 1757052643
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1757052643,
         "end": 1757053857
@@ -35419,11 +35431,6 @@
     "name": "Sponsmonster",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1757052059,
-        "end": 1757065245
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1757065245,
         "end": 1757077846
@@ -36913,11 +36920,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1757052059,
-        "end": 1757053248
-      },
       {
         "status": "Available",
         "start": 1757053248,
