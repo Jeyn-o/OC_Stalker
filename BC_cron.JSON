@@ -2883,11 +2883,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757077262,
-        "end": 1757145046
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1757145046,
         "end": 1757146241
@@ -9472,11 +9467,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757077262,
-        "end": 1757090447
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1757090447,
         "end": 1757103051
@@ -9957,6 +9947,11 @@
       {
         "status": "Available",
         "start": 1758249058,
+        "end": 1758287449
+      },
+      {
+        "status": "Jail",
+        "start": 1758287449,
         "end": null
       }
     ]
@@ -25989,7 +25984,13 @@
       {
         "status": "Available",
         "start": 1758285651,
-        "end": null
+        "end": 1758287449
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758287449,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29697,8 +29698,13 @@
       {
         "status": "[China] - Going",
         "start": 1758277244,
-        "end": null,
+        "end": 1758287449,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758287449,
+        "end": null
       }
     ]
   },
@@ -31206,6 +31212,11 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1758285064,
+        "end": 1758287449
+      },
+      {
+        "status": "[Hawaii] Attacked - Revives: ALL",
+        "start": 1758287449,
         "end": null
       }
     ]
@@ -31798,6 +31809,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1758271250,
+        "end": 1758287449,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1758287449,
         "end": null,
         "travel_type": "standard"
       }
@@ -34817,8 +34834,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1758285651,
-        "end": null,
+        "end": 1758287449,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758287449,
+        "end": null
       }
     ]
   },
