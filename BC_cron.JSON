@@ -1067,11 +1067,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1757089249,
-        "end": 1757090447
-      },
-      {
         "status": "Available",
         "start": 1757090447,
         "end": 1757092849
@@ -2324,7 +2319,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1758294069,
-        "end": null
+        "end": 1758299467
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758299467,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4359,8 +4360,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1758297670,
-        "end": null,
+        "end": 1758299467,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758299467,
+        "end": null
       }
     ]
   },
@@ -5008,11 +5014,6 @@
   "2291737": {
     "name": "Special-Needs",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757089249,
-        "end": 1757278241
-      },
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1757278241,
@@ -11190,11 +11191,6 @@
     "name": "BiberBart",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757089855,
-        "end": 1757093465
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1757093465,
         "end": 1757100045
@@ -16315,11 +16311,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1757089855,
-        "end": 1757090447
-      },
-      {
         "status": "[China] - Returning",
         "start": 1757090447,
         "end": 1757095257
@@ -18480,8 +18471,13 @@
       {
         "status": "[China] - Going",
         "start": 1758296452,
-        "end": null,
+        "end": 1758299467,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758299467,
+        "end": null
       }
     ]
   },
@@ -19967,11 +19963,6 @@
   "3331202": {
     "name": "Imtheman357",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1757089249,
-        "end": 1757091663
-      },
       {
         "status": "[China] - Returning",
         "start": 1757091663,
@@ -27160,8 +27151,13 @@
       {
         "status": "[China] - Going",
         "start": 1758289254,
-        "end": null,
+        "end": 1758299467,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758299467,
+        "end": null
       }
     ]
   },
@@ -28247,6 +28243,16 @@
       }
     ]
   },
+  "3627947": {
+    "name": "HughJass69420",
+    "activities": [
+      {
+        "status": "Available",
+        "start": 1758299467,
+        "end": null
+      }
+    ]
+  },
   "3628419": {
     "name": "Littlegman212",
     "activities": [
@@ -28357,11 +28363,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757089249,
-        "end": 1757101841
-      },
       {
         "status": "[China] - Going",
         "start": 1757101841,
@@ -35535,11 +35536,6 @@
     "name": "Danin327",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757089249,
-        "end": 1757290832
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1757290832,
         "end": 1757292036
@@ -36845,7 +36841,13 @@
       {
         "status": "Available",
         "start": 1758250867,
-        "end": null
+        "end": 1758299467
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758299467,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
