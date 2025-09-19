@@ -640,11 +640,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: OFF",
-        "start": 1757103051,
-        "end": 1757119843
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1757119843,
         "end": 1757150440
@@ -3989,11 +3984,6 @@
     "name": "Khana",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1757103625,
-        "end": 1757105433
-      },
-      {
         "status": "Available",
         "start": 1757105433,
         "end": null
@@ -4365,11 +4355,6 @@
   "2184227": {
     "name": "SassyMcSlacker",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1757103625,
-        "end": 1757112651
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1757112651,
@@ -6956,11 +6941,6 @@
     "name": "iam3vaj",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1757103051,
-        "end": 1757110242
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1757110242,
         "end": 1757121050
@@ -8075,6 +8055,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1758312648,
+        "end": 1758313245
+      },
+      {
+        "status": "Available",
+        "start": 1758313245,
         "end": null
       }
     ]
@@ -8572,6 +8557,11 @@
       {
         "status": "Available",
         "start": 1757274641,
+        "end": 1758313245
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1758313245,
         "end": null
       }
     ]
@@ -9434,6 +9424,11 @@
       {
         "status": "[Argentina] Attacked - Revives: ALL",
         "start": 1758311445,
+        "end": 1758313245
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1758313245,
         "end": null
       }
     ]
@@ -9513,16 +9508,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1757103051,
-        "end": 1757103625
-      },
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1757103625,
-        "end": 1757116243
-      },
       {
         "status": "Available",
         "start": 1757116243,
@@ -10038,11 +10023,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1757103625,
-        "end": 1757110841
-      },
       {
         "status": "Available",
         "start": 1757110841,
@@ -13248,11 +13228,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757103625,
-        "end": 1757110242
-      },
       {
         "status": "Available",
         "start": 1757110242,
@@ -18440,7 +18415,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758309654,
-        "end": null
+        "end": 1758313245
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758313245,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -18956,11 +18937,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1757103625,
-        "end": 1757110841
-      },
       {
         "status": "Available",
         "start": 1757110841,
@@ -29780,11 +29756,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1757103051,
-        "end": 1757110242
-      },
-      {
         "status": "Available",
         "start": 1757110242,
         "end": 1757112043
@@ -31895,11 +31866,6 @@
     "name": "Mythofhs",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1757103051,
-        "end": 1757114445
-      },
-      {
         "status": "Available",
         "start": 1757114445,
         "end": 1757115641
@@ -32888,7 +32854,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1758311445,
-        "end": null
+        "end": 1758313245
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1758313245,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35494,8 +35466,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758303653,
-        "end": null,
+        "end": 1758313245,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758313245,
+        "end": null
       }
     ]
   },
