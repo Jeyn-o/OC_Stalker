@@ -648,7 +648,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1758321649,
-        "end": null
+        "end": 1758322248
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1758322248,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5785,6 +5791,11 @@
       {
         "status": "Available",
         "start": 1758315054,
+        "end": 1758322248
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1758322248,
         "end": null
       }
     ]
@@ -9465,11 +9476,6 @@
     "name": "Twitt3y",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757112043,
-        "end": 1757173243
-      },
-      {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1757173243,
         "end": 1757200239
@@ -10041,11 +10047,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1757112043,
-        "end": 1757124058
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1757124058,
@@ -19026,8 +19027,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1758321063,
-        "end": null,
+        "end": 1758322248,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1758322248,
+        "end": null
       }
     ]
   },
@@ -23671,7 +23677,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758321063,
-        "end": null
+        "end": 1758322248
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758322248,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24546,6 +24558,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1758321063,
+        "end": 1758322248
+      },
+      {
+        "status": "Available",
+        "start": 1758322248,
         "end": null
       }
     ]
@@ -28450,11 +28467,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1757112043,
-        "end": 1757122244
-      },
-      {
         "status": "Available",
         "start": 1757122244,
         "end": 1757200239
@@ -29885,11 +29897,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1757112043,
-        "end": 1757113843
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1757113843,
@@ -35019,7 +35026,13 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1758321649,
-        "end": null
+        "end": 1758322248
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1758322248,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
