@@ -1571,7 +1571,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1758262243,
-        "end": null
+        "end": 1758262840
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1758262840,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2826,11 +2832,6 @@
   "1857803": {
     "name": "4thLiner4Life",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757052643,
-        "end": 1757201451
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1757201451,
@@ -9165,8 +9166,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758256263,
-        "end": null,
+        "end": 1758262840,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758262840,
+        "end": null
       }
     ]
   },
@@ -18279,6 +18285,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758259241,
+        "end": 1758262840
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1758262840,
         "end": null
       }
     ]
@@ -24257,7 +24268,13 @@
       {
         "status": "Available",
         "start": 1758232864,
-        "end": null
+        "end": 1758262840
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758262840,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33160,11 +33177,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1757052643,
-        "end": 1757053857
-      },
       {
         "status": "Available",
         "start": 1757053857,
