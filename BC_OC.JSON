@@ -26441,9 +26441,9 @@
   },
   "847518": {
     "name": "Smoke and Wing Mirrors",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1758295674,
-    "executed_at": null,
+    "executed_at": 1758301864,
     "slots": {
       "P1": {
         "user_id": 3627853,
@@ -28320,7 +28320,7 @@
   "860741": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1758330210,
+    "ready_at": 1758416610,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -28329,6 +28329,14 @@
         "checkpoint_pass_rate": 66,
         "position": "Sniper",
         "position_number": 1
+      },
+      "P5": {
+        "user_id": 3627853,
+        "user_name": "lonewanderer024",
+        "checkpoint_pass_rate": 64,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -28341,6 +28349,17 @@
         "checkpoint_pass_rate": 66,
         "position": "Sniper",
         "position_number": 1
+      },
+      {
+        "timestamp": 1758302444,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3627853,
+        "user_name": "lonewanderer024",
+        "checkpoint_pass_rate": 64,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
