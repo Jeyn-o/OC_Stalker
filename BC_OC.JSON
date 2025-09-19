@@ -28070,8 +28070,8 @@
   },
   "859200": {
     "name": "Bidding War",
-    "status": "Recruiting",
-    "ready_at": 1758605188,
+    "status": "Planning",
+    "ready_at": 1758691588,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -28113,6 +28113,13 @@
         "position": "Bomber",
         "position_number": 2,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 65,
+        "position": "Driver",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -28170,6 +28177,16 @@
         "position": "Bomber",
         "position_number": 2,
         "item_available": true
+      },
+      {
+        "timestamp": 1758313866,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 65,
+        "position": "Driver",
+        "position_number": 1
       }
     ]
   },
@@ -28260,7 +28277,7 @@
   "860736": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1758480223,
+    "ready_at": 1758566623,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -28278,6 +28295,14 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 2778055,
+        "user_name": "MrPorkenstien",
+        "checkpoint_pass_rate": 82,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -28302,6 +28327,17 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1758313866,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2778055,
+        "user_name": "MrPorkenstien",
+        "checkpoint_pass_rate": 82,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
