@@ -6923,6 +6923,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1758323451,
+        "end": 1758324051
+      },
+      {
+        "status": "Available",
+        "start": 1758324051,
         "end": null
       }
     ]
@@ -35010,8 +35015,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1758322248,
-        "end": null,
+        "end": 1758324051,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1758324051,
+        "end": null
       }
     ]
   },
@@ -36936,6 +36946,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1758322865,
+        "end": 1758324051,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758324051,
         "end": null,
         "travel_type": "airstrip"
       }
