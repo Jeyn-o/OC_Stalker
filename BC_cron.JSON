@@ -6898,7 +6898,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758313864,
-        "end": null
+        "end": 1758314447
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758314447,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -8567,6 +8573,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1758313245,
+        "end": 1758314447
+      },
+      {
+        "status": "Available",
+        "start": 1758314447,
         "end": null
       }
     ]
@@ -9441,11 +9452,6 @@
   "2736671": {
     "name": "Twitt3y",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1757104262,
-        "end": 1757104844
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1757104844,
@@ -11162,8 +11168,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758301845,
-        "end": null,
+        "end": 1758314447,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] Lost - Revives: ALL",
+        "start": 1758314447,
+        "end": null
       }
     ]
   },
@@ -18935,7 +18946,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1758311445,
-        "end": null
+        "end": 1758314447
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1758314447,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23573,7 +23590,13 @@
       {
         "status": "Available",
         "start": 1758313864,
-        "end": null
+        "end": 1758314447
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758314447,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27621,6 +27644,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1758312065,
+        "end": 1758314447
+      },
+      {
+        "status": "Available",
+        "start": 1758314447,
         "end": null
       }
     ]
@@ -38217,8 +38245,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758304869,
-        "end": null,
+        "end": 1758314447,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758314447,
+        "end": null
       }
     ]
   }
