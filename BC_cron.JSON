@@ -18425,6 +18425,11 @@
       {
         "status": "[China] Attacked - Revives: ALL",
         "start": 1758290469,
+        "end": 1758291643
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758291643,
         "end": null
       }
     ]
@@ -21281,7 +21286,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758291045,
-        "end": null
+        "end": 1758291643
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1758291643,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32863,8 +32874,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1758284450,
-        "end": null,
+        "end": 1758291643,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1758291643,
+        "end": null
       }
     ]
   },
@@ -35466,7 +35482,13 @@
       {
         "status": "Available",
         "start": 1758290469,
-        "end": null
+        "end": 1758291643
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758291643,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
