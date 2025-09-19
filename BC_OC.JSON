@@ -27960,10 +27960,31 @@
   "858328": {
     "name": "Pet Project",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1758389333,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3841404,
+        "user_name": "Sleepy_Skyes",
+        "checkpoint_pass_rate": 82,
+        "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1758303067,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3841404,
+        "user_name": "Sleepy_Skyes",
+        "checkpoint_pass_rate": 82,
+        "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "858329": {
     "name": "Best of the Lot",
@@ -28320,7 +28341,7 @@
   "860741": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1758416610,
+    "ready_at": 1758503010,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -28337,6 +28358,13 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 79,
+        "position": "Muscle",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -28360,6 +28388,16 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1758303067,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 79,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   },
