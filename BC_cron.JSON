@@ -1595,6 +1595,11 @@
       {
         "status": "Available",
         "start": 1758288043,
+        "end": 1758288668
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1758288668,
         "end": null
       }
     ]
@@ -2305,8 +2310,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1758281462,
-        "end": null,
+        "end": 1758288668,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758288668,
+        "end": null
       }
     ]
   },
@@ -16230,11 +16240,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1757078445,
-        "end": 1757079642
-      },
-      {
         "status": "[Switzerland] Mugged - Revives: ALL",
         "start": 1757079642,
         "end": 1757082661
@@ -24419,11 +24424,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757078445,
-        "end": 1757079063
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757079063,
@@ -33246,7 +33246,13 @@
       {
         "status": "Available",
         "start": 1758204068,
-        "end": null
+        "end": 1758288668
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758288668,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36235,11 +36241,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757078445,
-        "end": 1757082661
-      },
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1757082661,
