@@ -5048,11 +5048,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1757106644,
-        "end": 1757111447
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1757111447,
         "end": 1757118655
@@ -12250,11 +12245,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1757106644,
-        "end": 1757112651
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1757112651,
         "end": 1757124648
@@ -18431,8 +18421,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758313245,
-        "end": null,
+        "end": 1758316842,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1758316842,
+        "end": null
       }
     ]
   },
@@ -18952,7 +18947,13 @@
       {
         "status": "Available",
         "start": 1758315673,
-        "end": null
+        "end": 1758316842
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1758316842,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20224,6 +20225,11 @@
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1758315054,
+        "end": 1758316842
+      },
+      {
+        "status": "Available",
+        "start": 1758316842,
         "end": null
       }
     ]
@@ -26507,7 +26513,13 @@
       {
         "status": "Available",
         "start": 1758310848,
-        "end": null
+        "end": 1758316842
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758316842,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27560,6 +27572,11 @@
       {
         "status": "Available",
         "start": 1758010250,
+        "end": 1758316842
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1758316842,
         "end": null
       }
     ]
@@ -38256,8 +38273,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1758315673,
-        "end": null,
+        "end": 1758316842,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1758316842,
+        "end": null
       }
     ]
   }
