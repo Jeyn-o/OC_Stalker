@@ -629,6 +629,12 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758232248,
+        "end": 1758244848,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1758244848,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14171,11 +14177,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757035236,
-        "end": 1757077846
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1757077846,
         "end": 1757084458
@@ -18179,8 +18180,13 @@
       {
         "status": "[China] - Going",
         "start": 1758241855,
-        "end": null,
+        "end": 1758244848,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758244848,
+        "end": null
       }
     ]
   },
