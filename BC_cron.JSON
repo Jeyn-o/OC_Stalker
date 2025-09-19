@@ -2858,11 +2858,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1757055666,
-        "end": 1757065836
-      },
-      {
         "status": "[China] - Idle",
         "start": 1757065836,
         "end": 1757067041
@@ -7596,11 +7591,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1757055666,
-        "end": 1757065836
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1757065836,
         "end": 1757074847
@@ -9957,11 +9947,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1757055666,
-        "end": 1757062865
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1757062865,
@@ -19789,7 +19774,13 @@
       {
         "status": "Available",
         "start": 1758228047,
-        "end": null
+        "end": 1758265841
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758265841,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21140,11 +21131,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757055666,
-        "end": 1757058043
-      },
       {
         "status": "[Canada] - Going",
         "start": 1757058043,
@@ -22660,8 +22646,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1758260447,
-        "end": null,
+        "end": 1758265841,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1758265841,
+        "end": null
       }
     ]
   },
@@ -23378,6 +23369,11 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1758264049,
+        "end": 1758265841
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1758265841,
         "end": null
       }
     ]
@@ -32746,11 +32742,6 @@
     "name": "LichKean",
     "activities": [
       {
-        "status": "[United Kingdom] Mugged - Revives: Partial",
-        "start": 1757055666,
-        "end": 1757057452
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1757057452,
         "end": 1757059253
@@ -34732,6 +34723,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1758264639,
+        "end": 1758265841,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758265841,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -38093,6 +38090,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1758265261,
+        "end": 1758265841
+      },
+      {
+        "status": "Available",
+        "start": 1758265841,
         "end": null
       }
     ]
