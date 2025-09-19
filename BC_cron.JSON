@@ -648,6 +648,12 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1758322248,
+        "end": 1758323451,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1758323451,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -6912,6 +6918,11 @@
       {
         "status": "Available",
         "start": 1758318647,
+        "end": 1758323451
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1758323451,
         "end": null
       }
     ]
@@ -13864,7 +13875,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758308460,
-        "end": null
+        "end": 1758323451
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1758323451,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22921,11 +22938,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[United Kingdom] Mugged - Revives: Partial",
-        "start": 1757113843,
-        "end": 1757116919
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1757116919,
         "end": 1757121050
@@ -23719,11 +23731,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757113843,
-        "end": 1757140844
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1757140844,
@@ -24552,11 +24559,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1757113843,
-        "end": 1757124058
-      },
       {
         "status": "Available",
         "start": 1757124058,
@@ -29879,11 +29881,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1757113843,
-        "end": 1757115641
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1757115641,
@@ -35791,11 +35788,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1757113843,
-        "end": 1757121050
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1757121050,
