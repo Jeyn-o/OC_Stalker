@@ -3340,6 +3340,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1758307252,
+        "end": 1758307851
+      },
+      {
+        "status": "Available",
+        "start": 1758307851,
         "end": null
       }
     ]
@@ -5796,7 +5801,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758298849,
-        "end": null
+        "end": 1758307851
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758307851,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -13249,11 +13260,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757097647,
-        "end": 1757103625
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757103625,
@@ -22838,11 +22844,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757097647,
-        "end": 1757102456
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1757102456,
         "end": 1757109051
@@ -24446,11 +24447,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1757097647,
-        "end": 1757113843
-      },
-      {
         "status": "[China] - Returning",
         "start": 1757113843,
         "end": 1757124058
@@ -26022,8 +26018,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758297670,
-        "end": null,
+        "end": 1758307851,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758307851,
+        "end": null
       }
     ]
   },
@@ -27475,11 +27476,6 @@
     "name": "PyroSpunk",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757097647,
-        "end": 1757247044
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1757247044,
         "end": 1757259053
@@ -27613,11 +27609,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1757097647,
-        "end": 1757109051
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1757109051,
@@ -31287,11 +31278,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1757097647,
-        "end": 1757116243
-      },
-      {
         "status": "Available",
         "start": 1757116243,
         "end": 1757168438
@@ -34902,6 +34888,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1758306044,
+        "end": 1758307851
+      },
+      {
+        "status": "Available",
+        "start": 1758307851,
         "end": null
       }
     ]
