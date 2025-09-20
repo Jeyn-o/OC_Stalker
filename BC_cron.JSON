@@ -11178,11 +11178,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757187054,
-        "end": 1757314858
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1757314858,
         "end": 1757316032
@@ -11547,7 +11542,13 @@
       {
         "status": "[Mexico] Lost - Revives: ALL",
         "start": 1758396049,
-        "end": null
+        "end": 1758396659
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758396659,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19353,11 +19354,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757187054,
-        "end": 1757193643
-      },
-      {
         "status": "Available",
         "start": 1757193643,
         "end": 1757194251
@@ -23227,11 +23223,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1757187054,
-        "end": 1757187637
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1757187637,
@@ -35328,6 +35319,11 @@
       {
         "status": "Available",
         "start": 1758395450,
+        "end": 1758396659
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1758396659,
         "end": null
       }
     ]
