@@ -10887,6 +10887,12 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758346264,
+        "end": 1758358253,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758358253,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15820,8 +15826,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1758346851,
-        "end": null,
+        "end": 1758358253,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1758358253,
+        "end": null
       }
     ]
   },
@@ -23861,11 +23872,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757148047,
-        "end": 1757154656
-      },
-      {
         "status": "Available",
         "start": 1757154656,
         "end": 1757165456
@@ -25727,6 +25733,11 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1758355262,
+        "end": 1758358253
+      },
+      {
+        "status": "[Cayman Islands] Mugged - Revives: ALL",
+        "start": 1758358253,
         "end": null
       }
     ]
@@ -29270,11 +29281,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1757148047,
-        "end": 1757154656
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757154656,
@@ -35164,6 +35170,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1758354647,
+        "end": 1758358253
+      },
+      {
+        "status": "Available",
+        "start": 1758358253,
         "end": null
       }
     ]
@@ -36503,6 +36514,11 @@
       {
         "status": "Available",
         "start": 1758351673,
+        "end": 1758358253
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1758358253,
         "end": null
       }
     ]
@@ -37125,7 +37141,13 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1758354051,
-        "end": null
+        "end": 1758358253
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1758358253,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
