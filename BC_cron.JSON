@@ -2952,8 +2952,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758390048,
-        "end": null,
+        "end": 1758400261,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758400261,
+        "end": null
       }
     ]
   },
@@ -5821,7 +5826,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758385872,
-        "end": null
+        "end": 1758400261
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758400261,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -11341,8 +11352,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1758393060,
-        "end": null,
+        "end": 1758400261,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1758400261,
+        "end": null
       }
     ]
   },
@@ -14081,18 +14097,19 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1758397849,
-        "end": null
+        "end": 1758400261
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758400261,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757190043,
-        "end": 1757568049
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1757568049,
@@ -14582,11 +14599,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1757190043,
-        "end": 1757197237
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757197237,
@@ -15425,11 +15437,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1757190043,
-        "end": 1757203838
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1757203838,
@@ -27551,6 +27558,11 @@
       {
         "status": "Available",
         "start": 1758360660,
+        "end": 1758400261
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1758400261,
         "end": null
       }
     ]
@@ -32370,11 +32382,6 @@
     "name": "Mythofhs",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1757190043,
-        "end": 1757199039
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1757199039,
         "end": 1757199660
@@ -32535,11 +32542,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757190649,
-        "end": 1757197237
-      },
       {
         "status": "Available",
         "start": 1757197237,
@@ -36207,11 +36209,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757190043,
-        "end": 1757200832
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1757200832,
