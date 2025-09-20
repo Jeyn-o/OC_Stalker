@@ -1745,8 +1745,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1758363658,
-        "end": null,
+        "end": 1758370837,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758370837,
+        "end": null
       }
     ]
   },
@@ -10143,6 +10148,11 @@
       {
         "status": "Available",
         "start": 1758340255,
+        "end": 1758370837
+      },
+      {
+        "status": "Jail",
+        "start": 1758370837,
         "end": null
       }
     ]
@@ -16426,7 +16436,13 @@
       {
         "status": "Available",
         "start": 1758349254,
-        "end": null
+        "end": 1758370837
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1758370837,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21609,11 +21625,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1757160644,
-        "end": 1757162439
-      },
-      {
         "status": "Available",
         "start": 1757162439,
         "end": 1757163045
@@ -24720,11 +24731,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757160644,
-        "end": 1757167253
-      },
       {
         "status": "Available",
         "start": 1757167253,
@@ -30094,18 +30100,19 @@
       {
         "status": "[China] - Idle",
         "start": 1758356446,
-        "end": null
+        "end": 1758370837
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758370837,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1757160644,
-        "end": 1757162439
-      },
       {
         "status": "Available",
         "start": 1757162439,
