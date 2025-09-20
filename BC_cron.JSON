@@ -4990,11 +4990,6 @@
     "name": "Ronskip",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757158260,
-        "end": 1757173243
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1757173243,
         "end": 1757188864
@@ -8723,6 +8718,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1758367229,
+        "end": 1758368431
+      },
+      {
+        "status": "Available",
+        "start": 1758368431,
         "end": null
       }
     ]
@@ -18608,8 +18608,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758364831,
-        "end": null,
+        "end": 1758368431,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1758368431,
+        "end": null
       }
     ]
   },
@@ -23075,8 +23080,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1758367229,
-        "end": null,
+        "end": 1758368431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758368431,
+        "end": null
       }
     ]
   },
@@ -31577,6 +31587,11 @@
       {
         "status": "Available",
         "start": 1758345051,
+        "end": 1758368431
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1758368431,
         "end": null
       }
     ]
@@ -32166,7 +32181,13 @@
       {
         "status": "Available",
         "start": 1758304241,
-        "end": null
+        "end": 1758368431
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1758368431,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -33501,11 +33522,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1757158260,
-        "end": 1757160057
-      },
       {
         "status": "Available",
         "start": 1757160057,
