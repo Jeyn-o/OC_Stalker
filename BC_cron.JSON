@@ -1634,8 +1634,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758379244,
-        "end": null,
+        "end": 1758385872,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758385872,
+        "end": null
       }
     ]
   },
@@ -5795,8 +5800,13 @@
       {
         "status": "[China] - Going",
         "start": 1758378051,
-        "end": null,
+        "end": 1758385872,
         "travel_type": "private"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758385872,
+        "end": null
       }
     ]
   },
@@ -13999,11 +14009,6 @@
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1757176256,
-        "end": 1757182838
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757182838,
@@ -24701,11 +24706,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1757176256,
-        "end": 1757183451
-      },
-      {
         "status": "Available",
         "start": 1757183451,
         "end": 1757184633
@@ -27756,6 +27756,11 @@
       {
         "status": "[South Africa] Lost - Revives: ALL",
         "start": 1758384648,
+        "end": 1758385872
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1758385872,
         "end": null
       }
     ]
@@ -28479,6 +28484,11 @@
       {
         "status": "Available",
         "start": 1758271250,
+        "end": 1758385872
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1758385872,
         "end": null
       }
     ]
@@ -30074,11 +30084,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1757176256,
-        "end": 1757178054
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1757178054,
@@ -35788,7 +35793,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1758381050,
-        "end": null
+        "end": 1758385872
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1758385872,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
