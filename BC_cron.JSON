@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1757155244,
-        "end": 1757167253
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1757167253,
         "end": 1757169635
@@ -2403,7 +2398,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758364254,
-        "end": null
+        "end": 1758365439
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758365439,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8712,6 +8713,11 @@
       {
         "status": "Available",
         "start": 1758364254,
+        "end": 1758365439
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1758365439,
         "end": null
       }
     ]
@@ -12393,11 +12399,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1757155244,
-        "end": 1757162439
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1757162439,
@@ -37164,6 +37165,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1758358253,
+        "end": 1758365439,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1758365439,
         "end": null,
         "travel_type": "airstrip"
       }
