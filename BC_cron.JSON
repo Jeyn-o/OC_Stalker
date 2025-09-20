@@ -5904,11 +5904,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1757127041,
-        "end": 1757131258
-      },
-      {
         "status": "Available",
         "start": 1757131258,
         "end": 1757172654
@@ -9595,11 +9590,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757127041,
-        "end": 1757128240
-      },
       {
         "status": "Jail",
         "start": 1757128240,
@@ -20875,6 +20865,11 @@
       {
         "status": "Available",
         "start": 1758145845,
+        "end": 1758337266
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1758337266,
         "end": null
       }
     ]
@@ -21480,11 +21475,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757127041,
-        "end": 1757129472
-      },
       {
         "status": "[Canada] - Going",
         "start": 1757129472,
@@ -25643,8 +25633,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1758336051,
-        "end": null,
+        "end": 1758337266,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1758337266,
+        "end": null
       }
     ]
   },
@@ -26673,11 +26668,6 @@
   "3542414": {
     "name": "awesomemcsexy",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1757127041,
-        "end": 1757134245
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1757134245,
@@ -28505,6 +28495,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1758336644,
+        "end": 1758337266
+      },
+      {
+        "status": "Available",
+        "start": 1758337266,
         "end": null
       }
     ]
@@ -36991,7 +36986,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1758336644,
-        "end": null
+        "end": 1758337266
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1758337266,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38437,7 +38438,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758336644,
-        "end": null
+        "end": 1758337266
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758337266,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   }
