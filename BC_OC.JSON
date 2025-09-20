@@ -27548,7 +27548,7 @@
   "853462": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": 1758413150,
+    "ready_at": 1758499550,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -27558,6 +27558,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 517163,
+        "user_name": "poik9",
+        "checkpoint_pass_rate": 73,
+        "position": "Techie",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -27571,6 +27578,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1758372646,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 517163,
+        "user_name": "poik9",
+        "checkpoint_pass_rate": 73,
+        "position": "Techie",
+        "position_number": 1
       }
     ]
   },
@@ -28297,8 +28314,8 @@
   },
   "860736": {
     "name": "Counter Offer",
-    "status": "Recruiting",
-    "ready_at": 1758653023,
+    "status": "Planning",
+    "ready_at": 1758739423,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -28330,6 +28347,14 @@
         "user_name": "xaqf",
         "checkpoint_pass_rate": 76,
         "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2289809,
+        "user_name": "Murder_Hobo",
+        "checkpoint_pass_rate": 88,
+        "position": "Hacker",
         "position_number": 1,
         "item_available": true
       }
@@ -28376,6 +28401,17 @@
         "user_name": "xaqf",
         "checkpoint_pass_rate": 76,
         "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1758372646,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2289809,
+        "user_name": "Murder_Hobo",
+        "checkpoint_pass_rate": 88,
+        "position": "Hacker",
         "position_number": 1,
         "item_available": true
       }
