@@ -703,18 +703,19 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758409264,
-        "end": null
+        "end": 1758409849
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758409849,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "442690": {
     "name": "BeardedBenny",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1757199660,
-        "end": 1757205635
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1757205635,
@@ -5091,11 +5092,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757199660,
-        "end": 1757202041
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1757202041,
         "end": 1757206859
@@ -5927,11 +5923,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1757199660,
-        "end": 1757202041
-      },
       {
         "status": "[China] - Returning",
         "start": 1757202041,
@@ -15945,6 +15936,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1758398464,
+        "end": 1758409849,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1758409849,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -18774,8 +18771,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1758409264,
-        "end": null,
+        "end": 1758409849,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1758409849,
+        "end": null
       }
     ]
   },
@@ -24886,6 +24888,11 @@
       {
         "status": "Available",
         "start": 1758394862,
+        "end": 1758409849
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1758409849,
         "end": null
       }
     ]
@@ -29573,11 +29580,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757199660,
-        "end": 1757201451
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1757201451,
         "end": 1757208039
@@ -32433,11 +32435,6 @@
   "3693919": {
     "name": "Mythofhs",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1757199660,
-        "end": 1757208655
-      },
       {
         "status": "Available",
         "start": 1757208655,
@@ -37754,11 +37751,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1757199660,
-        "end": 1757200832
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1757200832,
