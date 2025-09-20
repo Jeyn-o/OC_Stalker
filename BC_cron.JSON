@@ -1092,6 +1092,11 @@
       {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1758377454,
+        "end": 1758378665
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1758378665,
         "end": null
       }
     ]
@@ -1617,8 +1622,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758372052,
-        "end": null,
+        "end": 1758378665,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758378665,
+        "end": null
       }
     ]
   },
@@ -18609,8 +18619,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758376871,
-        "end": null,
+        "end": 1758378665,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1758378665,
+        "end": null
       }
     ]
   },
