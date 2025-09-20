@@ -3651,11 +3651,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757186441,
-        "end": 1757210455
-      },
-      {
         "status": "[China] - Going",
         "start": 1757210455,
         "end": 1757220634
@@ -4458,11 +4453,6 @@
   "2184227": {
     "name": "SassyMcSlacker",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1757186441,
-        "end": 1757191233
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1757191233,
@@ -8722,6 +8712,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1758385245,
+        "end": 1758396049
+      },
+      {
+        "status": "Available",
+        "start": 1758396049,
         "end": null
       }
     ]
@@ -11547,6 +11542,11 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1758393060,
+        "end": 1758396049
+      },
+      {
+        "status": "[Mexico] Lost - Revives: ALL",
+        "start": 1758396049,
         "end": null
       }
     ]
@@ -14064,6 +14064,11 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1758387049,
+        "end": 1758396049
+      },
+      {
+        "status": "[Mexico] Mugged - Revives: Partial",
+        "start": 1758396049,
         "end": null
       }
     ]
@@ -16515,11 +16520,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757186441,
-        "end": 1757187637
-      },
       {
         "status": "[China] - Going",
         "start": 1757187637,
@@ -21093,6 +21093,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1758394862,
+        "end": 1758396049
+      },
+      {
+        "status": "Available",
+        "start": 1758396049,
         "end": null
       }
     ]
@@ -23922,7 +23927,13 @@
       {
         "status": "Available",
         "start": 1758328845,
-        "end": null
+        "end": 1758396049
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1758396049,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25814,11 +25825,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1757186441,
-        "end": 1757196054
-      },
       {
         "status": "Available",
         "start": 1757196054,
@@ -30244,11 +30250,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1757186441,
-        "end": 1757193643
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1757193643,
         "end": 1757201451
@@ -33621,11 +33622,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1757186441,
-        "end": 1757197237
-      },
-      {
         "status": "[China] - Idle",
         "start": 1757197237,
         "end": 1757199039
@@ -36755,6 +36751,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1758394862,
+        "end": 1758396049
+      },
+      {
+        "status": "Available",
+        "start": 1758396049,
         "end": null
       }
     ]
@@ -37370,8 +37371,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758384063,
-        "end": null,
+        "end": 1758396049,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1758396049,
+        "end": null
       }
     ]
   },
