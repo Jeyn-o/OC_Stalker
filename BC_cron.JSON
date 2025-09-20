@@ -5816,11 +5816,6 @@
     "name": "Litri",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757122244,
-        "end": 1757203838
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1757203838,
         "end": 1757214634
@@ -11042,6 +11037,11 @@
       {
         "status": "[Hospital] Lost - Revives: Partial",
         "start": 1758330651,
+        "end": 1758331862
+      },
+      {
+        "status": "Available",
+        "start": 1758331862,
         "end": null
       }
     ]
@@ -28526,11 +28526,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757122244,
-        "end": 1757200239
-      },
-      {
         "status": "[China] - Going",
         "start": 1757200239,
         "end": 1757210455
@@ -35063,8 +35058,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1758330651,
-        "end": null,
+        "end": 1758331862,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1758331862,
+        "end": null
       }
     ]
   },
@@ -37230,11 +37230,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1757122244,
-        "end": 1757129472
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757129472,
