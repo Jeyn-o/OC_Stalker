@@ -3577,6 +3577,11 @@
       {
         "status": "Available",
         "start": 1758339649,
+        "end": 1758346264
+      },
+      {
+        "status": "[Hospital] Lost - Revives: OFF",
+        "start": 1758346264,
         "end": null
       }
     ]
@@ -10857,7 +10862,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758336644,
-        "end": null
+        "end": 1758346264
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758346264,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13037,8 +13048,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758333668,
-        "end": null,
+        "end": 1758346264,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758346264,
+        "end": null
       }
     ]
   },
@@ -35080,7 +35096,13 @@
       {
         "status": "[Mexico] Hospitalized - Revives: ALL",
         "start": 1758332449,
-        "end": null
+        "end": 1758346264
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758346264,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
