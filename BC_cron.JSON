@@ -7471,6 +7471,11 @@
       {
         "status": "Available",
         "start": 1758351079,
+        "end": 1758352254
+      },
+      {
+        "status": "[Hospital] Lost - Revives: OFF",
+        "start": 1758352254,
         "end": null
       }
     ]
@@ -18557,6 +18562,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758343246,
+        "end": 1758352254
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1758352254,
         "end": null
       }
     ]
@@ -26243,7 +26253,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758351079,
-        "end": null
+        "end": 1758352254
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758352254,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35104,6 +35120,11 @@
       {
         "status": "Available",
         "start": 1758351079,
+        "end": 1758352254
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1758352254,
         "end": null
       }
     ]
@@ -37054,8 +37075,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1758350448,
-        "end": null,
+        "end": 1758352254,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: Partial",
+        "start": 1758352254,
+        "end": null
       }
     ]
   },
