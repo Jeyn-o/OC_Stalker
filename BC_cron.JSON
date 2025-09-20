@@ -679,11 +679,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1757119843,
-        "end": 1757150440
-      },
-      {
         "status": "Available",
         "start": 1757150440,
         "end": 1757151060
@@ -3566,11 +3561,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1757119843,
-        "end": 1757121050
-      },
       {
         "status": "[China] - Returning",
         "start": 1757121050,
@@ -8589,7 +8579,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1758324672,
-        "end": null
+        "end": 1758329453
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758329453,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9326,6 +9322,11 @@
       {
         "status": "Available",
         "start": 1758075646,
+        "end": 1758329453
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1758329453,
         "end": null
       }
     ]
@@ -14421,11 +14422,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1757119250,
-        "end": 1757125855
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1757125855,
         "end": 1757133058
@@ -19083,7 +19079,13 @@
       {
         "status": "Available",
         "start": 1758327646,
-        "end": null
+        "end": 1758329453
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1758329453,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27828,11 +27830,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1757119250,
-        "end": 1757125855
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1757125855,
         "end": 1757133643
@@ -35053,11 +35050,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1757119843,
-        "end": 1757130643
-      },
-      {
         "status": "Available",
         "start": 1757130643,
         "end": 1757164234
@@ -38437,7 +38429,13 @@
       {
         "status": "Available",
         "start": 1758324672,
-        "end": null
+        "end": 1758329453
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758329453,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   }
