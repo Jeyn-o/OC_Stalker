@@ -13426,6 +13426,11 @@
       {
         "status": "Available",
         "start": 1758393633,
+        "end": 1758417642
+      },
+      {
+        "status": "[Hospital] Lost - Revives: Partial",
+        "start": 1758417642,
         "end": null
       }
     ]
@@ -18731,8 +18736,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1758415241,
-        "end": null,
+        "end": 1758417642,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1758417642,
+        "end": null
       }
     ]
   },
@@ -18849,7 +18859,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1758386445,
-        "end": null
+        "end": 1758417642
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1758417642,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27558,7 +27574,13 @@
       {
         "status": "Available",
         "start": 1758401445,
-        "end": null
+        "end": 1758417642
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1758417642,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30312,8 +30334,13 @@
       {
         "status": "[China] - Going",
         "start": 1758407462,
-        "end": null,
+        "end": 1758417642,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758417642,
+        "end": null
       }
     ]
   },
