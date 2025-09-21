@@ -6907,7 +6907,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758438063,
-        "end": null
+        "end": 1758441048
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758441048,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -15914,8 +15920,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758429063,
-        "end": null,
+        "end": 1758441048,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1758441048,
+        "end": null
       }
     ]
   },
@@ -33744,11 +33755,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757230854,
-        "end": 1757237451
-      },
-      {
         "status": "Available",
         "start": 1757237451,
         "end": 1757239845
@@ -35501,8 +35507,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758434468,
-        "end": null,
+        "end": 1758441048,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758441048,
+        "end": null
       }
     ]
   },
