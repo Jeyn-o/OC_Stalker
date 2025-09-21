@@ -718,11 +718,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757216434,
-        "end": 1757217040
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1757217040,
         "end": 1757230258
@@ -1639,6 +1634,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1758424847,
+        "end": 1758426045
+      },
+      {
+        "status": "Available",
+        "start": 1758426045,
         "end": null
       }
     ]
@@ -4942,8 +4942,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758414666,
-        "end": null,
+        "end": 1758426045,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758426045,
+        "end": null
       }
     ]
   },
@@ -15370,11 +15375,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757216434,
-        "end": 1757219459
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1757219459,
         "end": 1757232061
@@ -18707,8 +18707,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1758425459,
-        "end": null,
+        "end": 1758426045,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1758426045,
+        "end": null
       }
     ]
   },
@@ -24861,11 +24866,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1757216434,
-        "end": 1757225438
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1757225438,
@@ -32384,7 +32384,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758421863,
-        "end": null
+        "end": 1758426045
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1758426045,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
