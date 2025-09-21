@@ -703,6 +703,12 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758409849,
+        "end": 1758422439,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1758422439,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -5061,6 +5067,11 @@
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1758420640,
+        "end": 1758422439
+      },
+      {
+        "status": "Available",
+        "start": 1758422439,
         "end": null
       }
     ]
@@ -15366,6 +15377,11 @@
       {
         "status": "Available",
         "start": 1758406247,
+        "end": 1758422439
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1758422439,
         "end": null
       }
     ]
@@ -18715,8 +18731,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1758421863,
-        "end": null,
+        "end": 1758422439,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1758422439,
+        "end": null
       }
     ]
   },
@@ -23967,6 +23988,11 @@
       {
         "status": "Available",
         "start": 1758399648,
+        "end": 1758422439
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1758422439,
         "end": null
       }
     ]
@@ -27560,7 +27586,13 @@
       {
         "status": "Available",
         "start": 1758421863,
-        "end": null
+        "end": 1758422439
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1758422439,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
