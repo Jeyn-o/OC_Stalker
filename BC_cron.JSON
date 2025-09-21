@@ -5797,11 +5797,6 @@
     "name": "Litri",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1757203838,
-        "end": 1757214634
-      },
-      {
         "status": "Available",
         "start": 1757214634,
         "end": 1757707253
@@ -6908,8 +6903,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758409264,
-        "end": null,
+        "end": 1758413449,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1758413449,
+        "end": null
       }
     ]
   },
@@ -10133,8 +10133,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758406247,
-        "end": null,
+        "end": 1758413449,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758413449,
+        "end": null
       }
     ]
   },
@@ -10151,11 +10156,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1757203838,
-        "end": 1757215853
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1757215853,
@@ -13427,11 +13427,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757203838,
-        "end": 1757210455
-      },
-      {
         "status": "Available",
         "start": 1757210455,
         "end": 1757243435
@@ -14567,11 +14562,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757203838,
-        "end": 1757205052
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1757205052,
         "end": 1757211638
@@ -15404,11 +15394,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1757203838,
-        "end": 1757216434
-      },
       {
         "status": "Available",
         "start": 1757216434,
@@ -19397,8 +19382,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1758411647,
-        "end": null,
+        "end": 1758413449,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1758413449,
+        "end": null
       }
     ]
   },
@@ -33325,11 +33315,6 @@
     "name": "LichKean",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757203838,
-        "end": 1757231443
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1757231443,
         "end": 1757238036
@@ -36198,11 +36183,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757203838,
-        "end": 1757215233
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1757215233,
         "end": 1757217040
@@ -37461,7 +37441,13 @@
       {
         "status": "Available",
         "start": 1758412878,
-        "end": null
+        "end": 1758413449
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1758413449,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
