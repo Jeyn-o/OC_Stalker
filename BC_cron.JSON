@@ -1640,7 +1640,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758435043,
-        "end": null
+        "end": 1758436856
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758436856,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19463,7 +19469,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1758436264,
-        "end": null
+        "end": 1758436856
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1758436856,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21831,19 +21843,19 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758430246,
-        "end": null,
+        "end": 1758436856,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758436856,
+        "end": null
       }
     ]
   },
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1757227239,
-        "end": 1757229040
-      },
       {
         "status": "Available",
         "start": 1757229040,
@@ -37874,11 +37886,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757227239,
-        "end": 1757242856
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1757242856,
