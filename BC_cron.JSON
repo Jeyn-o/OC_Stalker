@@ -712,6 +712,11 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1758475871,
+        "end": 1758476442
+      },
+      {
+        "status": "[Switzerland] Lost - Revives: ALL",
+        "start": 1758476442,
         "end": null
       }
     ]
@@ -3332,6 +3337,11 @@
       {
         "status": "Available",
         "start": 1758395450,
+        "end": 1758476442
+      },
+      {
+        "status": "[Hospital] Lost - Revives: OFF",
+        "start": 1758476442,
         "end": null
       }
     ]
@@ -20439,6 +20449,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758469852,
+        "end": 1758476442,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758476442,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -36092,7 +36108,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758474065,
-        "end": null
+        "end": 1758476442
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758476442,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39011,8 +39033,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1758474646,
-        "end": null,
+        "end": 1758476442,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758476442,
+        "end": null
       }
     ]
   }
