@@ -717,11 +717,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1757205635,
-        "end": 1757211043
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1757211043,
         "end": 1757216434
@@ -13079,7 +13074,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758415241,
-        "end": null
+        "end": 1758415844
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758415844,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19410,8 +19411,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1758414047,
-        "end": null,
+        "end": 1758415844,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758415844,
+        "end": null
       }
     ]
   },
@@ -24887,11 +24893,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757205635,
-        "end": 1757216434
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1757216434,
         "end": 1757225438
@@ -29533,6 +29534,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758408041,
+        "end": 1758415844
+      },
+      {
+        "status": "[South Africa] Hospitalized - Revives: ALL",
+        "start": 1758415844,
         "end": null
       }
     ]
@@ -35393,6 +35399,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1758415241,
+        "end": 1758415844
+      },
+      {
+        "status": "Available",
+        "start": 1758415844,
         "end": null
       }
     ]
@@ -35400,11 +35411,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1757205635,
-        "end": 1757221838
-      },
       {
         "status": "[China] - Returning",
         "start": 1757221838,
@@ -36846,6 +36852,11 @@
       {
         "status": "Available",
         "start": 1758415241,
+        "end": 1758415844
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1758415844,
         "end": null
       }
     ]
