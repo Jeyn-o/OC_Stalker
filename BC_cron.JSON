@@ -16479,6 +16479,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1758480046,
+        "end": 1758489649,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1758489649,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -18739,6 +18745,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1758487251,
+        "end": 1758489649,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1758489649,
         "end": null,
         "travel_type": "standard"
       }
@@ -20418,11 +20430,6 @@
   "3331202": {
     "name": "Imtheman357",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1757280039,
-        "end": 1757280650
-      },
       {
         "status": "[China] - Returning",
         "start": 1757280650,
@@ -24053,11 +24060,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757280039,
-        "end": 1757311842
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1757311842,
         "end": 1757319040
@@ -25929,8 +25931,13 @@
       {
         "status": "[China] - Going",
         "start": 1758479465,
-        "end": null,
+        "end": 1758489649,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758489649,
+        "end": null
       }
     ]
   },
@@ -31842,7 +31849,13 @@
       {
         "status": "Available",
         "start": 1758391264,
-        "end": null
+        "end": 1758489649
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1758489649,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35369,7 +35382,13 @@
       {
         "status": "Available",
         "start": 1758484249,
-        "end": null
+        "end": 1758489649
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758489649,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36849,11 +36868,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1757280039,
-        "end": 1757280650
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1757280650,
