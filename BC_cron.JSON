@@ -10141,11 +10141,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1757215853,
-        "end": 1757224852
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1757224852,
         "end": 1757236842
@@ -16486,11 +16481,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757215853,
-        "end": 1757217040
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1757217040,
         "end": 1757222436
@@ -18712,7 +18702,13 @@
       {
         "status": "[Canada] Mugged - Revives: ALL",
         "start": 1758423668,
-        "end": null
+        "end": 1758425459
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758425459,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -27583,8 +27579,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1758423668,
-        "end": null,
+        "end": 1758425459,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758425459,
+        "end": null
       }
     ]
   },
@@ -29516,6 +29517,11 @@
       {
         "status": "[South Africa] Hospitalized - Revives: ALL",
         "start": 1758415844,
+        "end": 1758425459
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: ALL",
+        "start": 1758425459,
         "end": null
       }
     ]
@@ -33294,8 +33300,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758418845,
-        "end": null,
+        "end": 1758425459,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758425459,
+        "end": null
       }
     ]
   },
