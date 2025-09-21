@@ -5701,7 +5701,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758483640,
-        "end": null
+        "end": 1758486670
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758486670,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -11535,11 +11541,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1757277049,
-        "end": 1757289036
-      },
       {
         "status": "Available",
         "start": 1757289036,
@@ -18729,8 +18730,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758483064,
-        "end": null,
+        "end": 1758486670,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1758486670,
+        "end": null
       }
     ]
   },
@@ -36030,8 +36036,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758476442,
-        "end": null,
+        "end": 1758486670,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758486670,
+        "end": null
       }
     ]
   },
@@ -38939,6 +38950,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1758480651,
+        "end": 1758486670,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1758486670,
         "end": null,
         "travel_type": "airstrip"
       }
