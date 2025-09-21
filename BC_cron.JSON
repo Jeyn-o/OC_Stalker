@@ -13457,11 +13457,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1757254241,
-        "end": 1757260244
-      },
-      {
         "status": "[United Arab Emirates] Mugged - Revives: Partial",
         "start": 1757260244,
         "end": 1757262040
@@ -18936,11 +18931,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1757254241,
-        "end": 1757263841
-      },
-      {
         "status": "[Switzerland] Mugged - Revives: ALL",
         "start": 1757263841,
         "end": 1757265637
@@ -21309,6 +21299,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1758463269,
+        "end": 1758463852
+      },
+      {
+        "status": "Available",
+        "start": 1758463852,
         "end": null
       }
     ]
@@ -24998,7 +24993,13 @@
       {
         "status": "Available",
         "start": 1758451251,
-        "end": null
+        "end": 1758463852
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1758463852,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26562,6 +26563,11 @@
       {
         "status": "[China] - Idle",
         "start": 1758462044,
+        "end": 1758463852
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1758463852,
         "end": null
       }
     ]
@@ -33777,11 +33783,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757254241,
-        "end": 1757260850
-      },
-      {
         "status": "Available",
         "start": 1757260850,
         "end": 1757265637
@@ -36186,8 +36187,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758454262,
-        "end": null,
+        "end": 1758463852,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758463852,
+        "end": null
       }
     ]
   },
@@ -36289,6 +36295,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1758462044,
+        "end": 1758463852
+      },
+      {
+        "status": "Available",
+        "start": 1758463852,
         "end": null
       }
     ]
