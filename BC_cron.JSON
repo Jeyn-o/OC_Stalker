@@ -695,7 +695,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758435043,
-        "end": null
+        "end": 1758453052
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758453052,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13479,11 +13485,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1757243435,
-        "end": 1757254241
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1757254241,
         "end": 1757260244
@@ -21903,8 +21904,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758446447,
-        "end": null,
+        "end": 1758453052,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758453052,
+        "end": null
       }
     ]
   },
@@ -24137,11 +24143,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757243435,
-        "end": 1757252438
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1757252438,
@@ -33758,11 +33759,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1757243435,
-        "end": 1757245241
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1757245241,
         "end": 1757247044
@@ -35521,6 +35517,11 @@
       {
         "status": "Available",
         "start": 1758452470,
+        "end": 1758453052
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1758453052,
         "end": null
       }
     ]
