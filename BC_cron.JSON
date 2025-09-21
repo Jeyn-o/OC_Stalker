@@ -2928,7 +2928,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1758439246,
-        "end": null
+        "end": 1758445267
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1758445267,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3996,8 +4002,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758433241,
-        "end": null,
+        "end": 1758445267,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758445267,
+        "end": null
       }
     ]
   },
@@ -13071,8 +13082,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1758444645,
-        "end": null,
+        "end": 1758445267,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758445267,
+        "end": null
       }
     ]
   },
@@ -21216,6 +21232,11 @@
       {
         "status": "Available",
         "start": 1758411647,
+        "end": 1758445267
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1758445267,
         "end": null
       }
     ]
@@ -24981,11 +25002,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1757235650,
-        "end": 1757236842
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1757236842,
         "end": 1757238635
@@ -27709,11 +27725,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1757235650,
-        "end": 1757248258
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1757248258,
@@ -35531,6 +35542,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1758443456,
+        "end": 1758445267
+      },
+      {
+        "status": "Available",
+        "start": 1758445267,
         "end": null
       }
     ]
@@ -37646,7 +37662,13 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1758440437,
-        "end": null
+        "end": 1758445267
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1758445267,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
