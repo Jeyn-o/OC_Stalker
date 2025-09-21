@@ -12309,6 +12309,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1758442848,
+        "end": 1758454262,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1758454262,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -13100,6 +13106,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1758447064,
+        "end": 1758454262,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1758454262,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15454,11 +15466,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757244651,
-        "end": 1757276442
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1757276442,
         "end": 1757290244
@@ -15964,8 +15971,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758441669,
-        "end": null,
+        "end": 1758454262,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758454262,
+        "end": null
       }
     ]
   },
@@ -18785,6 +18797,12 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758450048,
+        "end": 1758454262,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1758454262,
         "end": null,
         "travel_type": "standard"
       }
@@ -21922,11 +21940,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1757244651,
-        "end": 1757245840
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1757245840,
@@ -33435,11 +33448,6 @@
     "name": "LichKean",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1757244651,
-        "end": 1757251242
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1757251242,
         "end": 1757262040
@@ -35530,11 +35538,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1757244651,
-        "end": 1757248840
-      },
-      {
         "status": "[China] - Returning",
         "start": 1757248840,
         "end": 1757259053
@@ -36177,7 +36180,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758453644,
-        "end": null
+        "end": 1758454262
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758454262,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
