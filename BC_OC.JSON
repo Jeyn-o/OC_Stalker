@@ -28519,9 +28519,9 @@
   },
   "860737": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1758479599,
-    "executed_at": null,
+    "executed_at": 1758479648,
     "slots": {
       "P3": {
         "user_id": 2680449,
@@ -29137,15 +29137,36 @@
   "866569": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1758566258,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 2389431,
+        "user_name": "LSEdmond",
+        "checkpoint_pass_rate": 78,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1758480048,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2389431,
+        "user_name": "LSEdmond",
+        "checkpoint_pass_rate": 78,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "866570": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": 1758526579,
+    "ready_at": 1758612979,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -29155,6 +29176,13 @@
         "position": "Muscle",
         "position_number": 2,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 2680449,
+        "user_name": "BattlePrincess",
+        "checkpoint_pass_rate": 69,
+        "position": "Muscle",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -29168,6 +29196,16 @@
         "position": "Muscle",
         "position_number": 2,
         "item_available": true
+      },
+      {
+        "timestamp": 1758480048,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2680449,
+        "user_name": "BattlePrincess",
+        "checkpoint_pass_rate": 69,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   },
