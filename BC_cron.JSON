@@ -3636,11 +3636,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1757220634,
-        "end": 1757223055
-      },
-      {
         "status": "[China] - Returning",
         "start": 1757223055,
         "end": 1757233237
@@ -12394,11 +12389,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757220634,
-        "end": 1757221259
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1757221259,
         "end": 1757223055
@@ -14596,11 +14586,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757220634,
-        "end": 1757223630
-      },
-      {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1757223630,
         "end": 1757224238
@@ -15936,11 +15921,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1757220634,
-        "end": 1757229639
-      },
       {
         "status": "Available",
         "start": 1757229639,
@@ -19465,11 +19445,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757220046,
-        "end": 1757224238
-      },
-      {
         "status": "[China] - Going",
         "start": 1757224238,
         "end": 1757234439
@@ -21829,6 +21804,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758423668,
+        "end": 1758430246,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758430246,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -21837,11 +21818,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1757220046,
-        "end": 1757221838
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1757221838,
@@ -26474,7 +26450,13 @@
       {
         "status": "Available",
         "start": 1758393060,
-        "end": null
+        "end": 1758430246
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758430246,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26965,11 +26947,6 @@
   "3542414": {
     "name": "awesomemcsexy",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1757220634,
-        "end": 1757223055
-      },
       {
         "status": "[Argentina] Mugged - Revives: ALL",
         "start": 1757223055,
@@ -35477,8 +35454,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758423668,
-        "end": null,
+        "end": 1758430246,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758430246,
+        "end": null
       }
     ]
   },
