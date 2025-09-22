@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1757341854,
-        "end": 1757354456
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1757354456,
         "end": 1757355034
@@ -5044,11 +5039,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1757341854,
-        "end": 1757343042
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1757343042,
@@ -10822,11 +10812,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1757341854,
-        "end": 1757353236
-      },
-      {
         "status": "Available",
         "start": 1757353236,
         "end": 1757415040
@@ -12233,8 +12218,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1758540051,
-        "end": null,
+        "end": 1758551470,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1758551470,
+        "end": null
       }
     ]
   },
@@ -15406,11 +15396,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757341854,
-        "end": 1757347255
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1757347255,
@@ -20416,8 +20401,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1758544270,
-        "end": null,
+        "end": 1758551470,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758551470,
+        "end": null
       }
     ]
   },
@@ -23214,7 +23204,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1758548451,
-        "end": null
+        "end": 1758551470
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758551470,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26384,8 +26380,13 @@
       {
         "status": "[China] - Going",
         "start": 1758540669,
-        "end": null,
+        "end": 1758551470,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758551470,
+        "end": null
       }
     ]
   },
@@ -29616,7 +29617,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758549695,
-        "end": null
+        "end": 1758551470
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758551470,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37787,6 +37794,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758550852,
+        "end": 1758551470
+      },
+      {
+        "status": "[South Africa] Lost - Revives: ALL",
+        "start": 1758551470,
         "end": null
       }
     ]
