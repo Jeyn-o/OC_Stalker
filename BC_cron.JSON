@@ -2863,11 +2863,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757329843,
-        "end": 1757392259
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1757392259,
         "end": 1757404858
@@ -7435,11 +7430,6 @@
     "name": "NeshoNeko",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757329843,
-        "end": 1757489458
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1757489458,
         "end": 1757496045,
@@ -7814,8 +7804,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1758532852,
-        "end": null,
+        "end": 1758539456,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1758539456,
+        "end": null
       }
     ]
   },
@@ -10016,11 +10011,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757329259,
-        "end": 1757332241
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1757332241,
         "end": 1757339442
@@ -10763,11 +10753,6 @@
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1757329843,
-        "end": 1757341239
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1757341239,
@@ -18684,7 +18669,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1758538865,
-        "end": null
+        "end": 1758539456
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1758539456,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -19411,11 +19402,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1757329259,
-        "end": 1757330436
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1757330436,
@@ -35344,6 +35330,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1758538247,
+        "end": 1758539456
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1758539456,
         "end": null
       }
     ]
