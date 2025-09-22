@@ -1565,6 +1565,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758519072,
+        "end": 1758525647,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758525647,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7563,11 +7569,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1757316032,
-        "end": 1757323238
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1757323238,
         "end": 1757331070
@@ -11079,11 +11080,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757316032,
-        "end": 1757491252
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1757491252,
@@ -20342,11 +20338,6 @@
   "3331202": {
     "name": "Imtheman357",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1757316032,
-        "end": 1757330436
-      },
       {
         "status": "[China] - Idle",
         "start": 1757330436,
@@ -32356,8 +32347,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758510068,
-        "end": null,
+        "end": 1758525647,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1758525647,
+        "end": null
       }
     ]
   },
@@ -35286,7 +35282,13 @@
       {
         "status": "Available",
         "start": 1758514844,
-        "end": null
+        "end": 1758525647
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1758525647,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
