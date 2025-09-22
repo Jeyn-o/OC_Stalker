@@ -20441,8 +20441,13 @@
       {
         "status": "[China] - Going",
         "start": 1758565871,
-        "end": null,
+        "end": 1758576050,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758576050,
+        "end": null
       }
     ]
   },
@@ -21203,6 +21208,11 @@
       {
         "status": "Available",
         "start": 1758568245,
+        "end": 1758576050
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1758576050,
         "end": null
       }
     ]
@@ -25875,11 +25885,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1757366440,
-        "end": 1757370039
-      },
       {
         "status": "[China] Mugged - Revives: OFF",
         "start": 1757370039,
@@ -31884,6 +31889,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758569472,
+        "end": 1758576050,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758576050,
         "end": null,
         "travel_type": "airstrip"
       }
