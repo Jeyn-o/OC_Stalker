@@ -3308,6 +3308,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758517260,
+        "end": 1758529863,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758529863,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -18799,8 +18805,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1758523249,
-        "end": null,
+        "end": 1758529863,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1758529863,
+        "end": null
       }
     ]
   },
@@ -21797,11 +21808,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757320245,
-        "end": 1757320840
-      },
       {
         "status": "[Canada] - Going",
         "start": 1757320840,
@@ -30311,6 +30317,11 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1758527449,
+        "end": 1758529863
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758529863,
         "end": null
       }
     ]
@@ -35290,18 +35301,19 @@
       {
         "status": "[Canada] - Idle",
         "start": 1758526850,
-        "end": null
+        "end": 1758529863
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758529863,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1757320245,
-        "end": 1757327459
-      },
       {
         "status": "[China] - Returning",
         "start": 1757327459,
@@ -35949,6 +35961,11 @@
       {
         "status": "[United Kingdom] Hospitalized - Revives: ALL",
         "start": 1758521453,
+        "end": 1758529863
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758529863,
         "end": null
       }
     ]
