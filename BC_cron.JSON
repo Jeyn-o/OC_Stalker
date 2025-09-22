@@ -7311,6 +7311,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1758550852,
+        "end": 1758552648
+      },
+      {
+        "status": "Available",
+        "start": 1758552648,
         "end": null
       }
     ]
@@ -10061,6 +10066,11 @@
       {
         "status": "Available",
         "start": 1758543649,
+        "end": 1758552648
+      },
+      {
+        "status": "Jail",
+        "start": 1758552648,
         "end": null
       }
     ]
@@ -12224,7 +12234,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758551470,
-        "end": null
+        "end": 1758552648
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1758552648,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14544,6 +14560,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758547870,
+        "end": 1758552648,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758552648,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15388,8 +15410,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758546069,
-        "end": null,
+        "end": 1758552648,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758552648,
+        "end": null
       }
     ]
   },
@@ -23200,8 +23227,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1758551470,
-        "end": null,
+        "end": 1758552648,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758552648,
+        "end": null
       }
     ]
   },
@@ -27910,7 +27942,13 @@
       {
         "status": "Available",
         "start": 1758466250,
-        "end": null
+        "end": 1758552648
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1758552648,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30391,8 +30429,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758542465,
-        "end": null,
+        "end": 1758552648,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758552648,
+        "end": null
       }
     ]
   },
@@ -37776,7 +37819,13 @@
       {
         "status": "[South Africa] Lost - Revives: ALL",
         "start": 1758551470,
-        "end": null
+        "end": 1758552648
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758552648,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38958,8 +39007,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1758545446,
-        "end": null,
+        "end": 1758552648,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1758552648,
+        "end": null
       }
     ]
   },
