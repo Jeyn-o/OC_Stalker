@@ -3380,6 +3380,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1758556250,
+        "end": 1758563450,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1758563450,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -8705,7 +8711,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1758546069,
-        "end": null
+        "end": 1758563450
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1758563450,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14571,11 +14583,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757353838,
-        "end": 1757354456
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1757354456,
         "end": 1757361039
@@ -18772,8 +18779,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1758561651,
-        "end": null,
+        "end": 1758563450,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1758563450,
+        "end": null
       }
     ]
   },
@@ -19491,11 +19503,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757353838,
-        "end": 1757361039
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1757361039,
@@ -29688,11 +29695,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1757353838,
-        "end": 1757360443
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1757360443,
         "end": 1757361039
@@ -30461,11 +30463,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1757353838,
-        "end": 1757354456
-      },
       {
         "status": "Available",
         "start": 1757354456,
@@ -33617,11 +33614,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757353838,
-        "end": 1757391642
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1757391642,
         "end": 1757392259
@@ -35395,11 +35387,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757353838,
-        "end": 1757416836
-      },
       {
         "status": "[China] - Going",
         "start": 1757416836,
@@ -37786,11 +37773,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757353838,
-        "end": 1757361039
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1757361039,
