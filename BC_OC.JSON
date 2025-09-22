@@ -29526,20 +29526,20 @@
         "position_number": 1
       },
       "P3": {
-        "user_id": 2069227,
-        "user_name": "GOTOYOURHOME",
-        "checkpoint_pass_rate": 70,
-        "position": "Assassin",
-        "position_number": 1,
-        "item_available": false
-      },
-      "P4": {
         "user_id": 2419133,
         "user_name": "Jeyno",
         "checkpoint_pass_rate": 71,
-        "position": "Cleaner",
+        "position": "Assassin",
         "position_number": 1,
         "item_available": true
+      },
+      "P4": {
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 73,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -29585,6 +29585,50 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1758546072,
+        "action": "left",
+        "slot": "P3",
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 70,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1758546072,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 71,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1758546072,
+        "action": "left",
+        "slot": "P4",
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 71,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1758546072,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 73,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
