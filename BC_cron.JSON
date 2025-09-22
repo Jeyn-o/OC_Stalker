@@ -2910,8 +2910,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758568844,
-        "end": null,
+        "end": 1758580853,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1758580853,
+        "end": null
       }
     ]
   },
@@ -6986,11 +6991,6 @@
     "name": "Jeyno",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1757371234,
-        "end": 1757379037
-      },
-      {
         "status": "Available",
         "start": 1757379037,
         "end": 1757407844
@@ -7306,11 +7306,6 @@
   "2427687": {
     "name": "Jubjub82180",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757371234,
-        "end": 1757705450
-      },
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1757705450,
@@ -16449,7 +16444,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1758580275,
-        "end": null
+        "end": 1758580853
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1758580853,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28686,6 +28687,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1758559855,
+        "end": 1758580853
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: ALL",
+        "start": 1758580853,
         "end": null
       }
     ]
