@@ -2411,6 +2411,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758554446,
+        "end": 1758561046,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758561046,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -5064,11 +5070,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1757351439,
-        "end": 1757352652
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1757352652,
@@ -15415,8 +15416,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758555069,
-        "end": null,
+        "end": 1758561046,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758561046,
+        "end": null
       }
     ]
   },
@@ -18908,7 +18914,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1758529863,
-        "end": null
+        "end": 1758561046
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1758561046,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29644,8 +29656,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758551470,
-        "end": null,
+        "end": 1758561046,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758561046,
+        "end": null
       }
     ]
   },
@@ -30451,11 +30468,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1757351439,
-        "end": 1757352652
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1757352652,
@@ -33605,11 +33617,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1757351439,
-        "end": 1757352041
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1757352041,
