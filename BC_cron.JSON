@@ -6885,7 +6885,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758585667,
-        "end": null
+        "end": 1758586244
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758586244,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -10018,6 +10024,11 @@
       {
         "status": "Available",
         "start": 1758553277,
+        "end": 1758586244
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1758586244,
         "end": null
       }
     ]
@@ -25835,7 +25846,13 @@
       {
         "status": "Available",
         "start": 1758571266,
-        "end": null
+        "end": 1758586244
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1758586244,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27559,8 +27576,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758579647,
-        "end": null,
+        "end": 1758586244,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758586244,
+        "end": null
       }
     ]
   },
@@ -33247,8 +33269,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758574873,
-        "end": null,
+        "end": 1758586244,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758586244,
+        "end": null
       }
     ]
   },
