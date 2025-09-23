@@ -1706,11 +1706,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757436037,
-        "end": 1757437840
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1757437840,
         "end": 1757444463
@@ -4407,8 +4402,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1758643850,
-        "end": null,
+        "end": 1758645649,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1758645649,
+        "end": null
       }
     ]
   },
@@ -5099,16 +5099,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1757435466,
-        "end": 1757436037
-      },
-      {
-        "status": "Available",
-        "start": 1757436037,
-        "end": 1757437840
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1757437840,
@@ -5875,11 +5865,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1757436037,
-        "end": 1757440239
-      },
       {
         "status": "Available",
         "start": 1757440239,
@@ -15956,7 +15941,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758645065,
-        "end": null
+        "end": 1758645649
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758645649,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21825,11 +21816,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1757436037,
-        "end": 1757437256
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1757437256,
         "end": 1757437840
@@ -24745,18 +24731,19 @@
       {
         "status": "Available",
         "start": 1758645065,
-        "end": null
+        "end": 1758645649
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758645649,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757435466,
-        "end": 1757442046
-      },
       {
         "status": "Available",
         "start": 1757442046,
@@ -26727,11 +26714,6 @@
   "3542414": {
     "name": "awesomemcsexy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757435466,
-        "end": 1757437840
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1757437840,
@@ -33153,7 +33135,13 @@
       {
         "status": "Available",
         "start": 1758640852,
-        "end": null
+        "end": 1758645649
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1758645649,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33441,11 +33429,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1757435466,
-        "end": 1757436656
-      },
       {
         "status": "Available",
         "start": 1757436656,
@@ -35878,11 +35861,6 @@
     "name": "Sponsmonster",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1757435466,
-        "end": 1757437840
-      },
-      {
         "status": "Available",
         "start": 1757437840,
         "end": 1757473253
@@ -37258,6 +37236,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758633651,
+        "end": 1758645649,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758645649,
         "end": null,
         "travel_type": "airstrip"
       }
