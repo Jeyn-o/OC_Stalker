@@ -1623,8 +1623,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758646241,
-        "end": null,
+        "end": 1758652841,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758652841,
+        "end": null
       }
     ]
   },
@@ -6895,7 +6900,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758645065,
-        "end": null
+        "end": 1758652841
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758652841,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -31762,6 +31773,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1758647445,
+        "end": 1758652841,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1758652841,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35056,6 +35073,11 @@
       {
         "status": "Available",
         "start": 1758652261,
+        "end": 1758652841
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1758652841,
         "end": null
       }
     ]
@@ -38691,7 +38713,13 @@
       {
         "status": "Available",
         "start": 1758652261,
-        "end": null
+        "end": 1758652841
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1758652841,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
