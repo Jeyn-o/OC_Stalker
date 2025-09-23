@@ -565,6 +565,8 @@ function updateNaughtyList(naughtyDb, crimesDb, userDb) {
     updated[now.toString()] = {
       crime_id: parseInt(crimeId),
       crime_name: crime.name || `OC ${crimeId}`,
+	  created_at: crime.created_at,
+	  planning_at: crime.planning_at,
       ready_at: crime.ready_at,
       executed_at: crime.executed_at ?? now,
       crime_participants: participants,
