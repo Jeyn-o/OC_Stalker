@@ -4983,7 +4983,13 @@
       {
         "status": "Available",
         "start": 1758655872,
-        "end": null
+        "end": 1758658246
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1758658246,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11513,11 +11519,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1757448633,
-        "end": 1757460036
-      },
-      {
         "status": "Available",
         "start": 1757460036,
         "end": 1757490047
@@ -12192,8 +12193,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1758646868,
-        "end": null,
+        "end": 1758658246,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1758658246,
+        "end": null
       }
     ]
   },
@@ -15443,11 +15449,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1757448633,
-        "end": 1757449853
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1757449853,
         "end": 1757461845
@@ -15944,19 +15945,19 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758645649,
-        "end": null,
+        "end": 1758658246,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758658246,
+        "end": null
       }
     ]
   },
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1757448633,
-        "end": 1757458235
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1757458235,
@@ -16457,11 +16458,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757448633,
-        "end": 1757449242
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1757449242,
@@ -30282,18 +30278,19 @@
       {
         "status": "[China] - Idle",
         "start": 1758657666,
-        "end": null
+        "end": 1758658246
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758658246,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1757448633,
-        "end": 1757449853
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1757449853,
@@ -31735,8 +31732,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1758652841,
-        "end": null,
+        "end": 1758658246,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758658246,
+        "end": null
       }
     ]
   },
@@ -37136,8 +37138,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758645649,
-        "end": null,
+        "end": 1758658246,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Event - Revives: Partial",
+        "start": 1758658246,
+        "end": null
       }
     ]
   },
