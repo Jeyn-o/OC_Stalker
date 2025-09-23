@@ -16483,11 +16483,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757386856,
-        "end": 1757388658
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1757388658,
         "end": 1757392259
@@ -18785,7 +18780,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758595852,
-        "end": null
+        "end": 1758596468
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758596468,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -18942,11 +18943,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1757386856,
-        "end": 1757394052
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1757394052,
@@ -32433,11 +32429,6 @@
     "name": "Mythofhs",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757386856,
-        "end": 1757418038
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1757418038,
         "end": 1757419839
@@ -33269,8 +33260,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758589849,
-        "end": null,
+        "end": 1758596468,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758596468,
+        "end": null
       }
     ]
   },
@@ -38953,8 +38949,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758589849,
-        "end": null,
+        "end": 1758596468,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758596468,
+        "end": null
       }
     ]
   },
