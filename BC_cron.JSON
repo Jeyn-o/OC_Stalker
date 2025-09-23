@@ -740,6 +740,12 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758639670,
+        "end": 1758651645,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1758651645,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4444,11 +4450,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1757441442,
-        "end": 1757442046
-      },
-      {
         "status": "Available",
         "start": 1757442046,
         "end": 1757443243
@@ -5112,11 +5113,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1757441442,
-        "end": 1757442046
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1757442046,
@@ -18764,7 +18760,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758651046,
-        "end": null
+        "end": 1758651645
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758651645,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -28826,11 +28828,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1757441442,
-        "end": 1757451652
-      },
-      {
         "status": "[China] - Idle",
         "start": 1757451652,
         "end": 1757456441
@@ -29576,11 +29573,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1757441442,
-        "end": 1757443243
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1757443243,
@@ -33427,11 +33419,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1757441442,
-        "end": 1757442650
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1757442650,
         "end": 1757443243
@@ -35078,6 +35065,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1758641463,
+        "end": 1758651645
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1758651645,
         "end": null
       }
     ]
