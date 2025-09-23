@@ -1615,7 +1615,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758634261,
-        "end": null
+        "end": 1758634846
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758634846,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6946,8 +6952,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758630050,
-        "end": null,
+        "end": 1758634846,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1758634846,
+        "end": null
       }
     ]
   },
@@ -14643,8 +14654,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758630050,
-        "end": null,
+        "end": 1758634846,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758634846,
+        "end": null
       }
     ]
   },
@@ -23906,6 +23922,11 @@
       {
         "status": "Available",
         "start": 1758634261,
+        "end": 1758634846
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1758634846,
         "end": null
       }
     ]
