@@ -3586,11 +3586,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1757392846,
-        "end": 1757393441
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1757393441,
         "end": 1757406043
@@ -9559,7 +9554,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1758599444,
-        "end": null
+        "end": 1758603043
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1758603043,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12979,8 +12980,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758590451,
-        "end": null,
+        "end": 1758603043,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758603043,
+        "end": null
       }
     ]
   },
@@ -21788,7 +21794,13 @@
       {
         "status": "Available",
         "start": 1758538247,
-        "end": null
+        "end": 1758603043
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1758603043,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28837,6 +28849,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1758601860,
+        "end": 1758603043
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1758603043,
         "end": null
       }
     ]
@@ -38866,8 +38883,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1758601254,
-        "end": null,
+        "end": 1758603043,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1758603043,
+        "end": null
       }
     ]
   },
