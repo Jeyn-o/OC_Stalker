@@ -733,6 +733,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758591644,
+        "end": 1758592255
+      },
+      {
+        "status": "[South Africa] Lost - Revives: ALL",
+        "start": 1758592255,
         "end": null
       }
     ]
@@ -26793,8 +26798,13 @@
       {
         "status": "[China] - Going",
         "start": 1758582061,
-        "end": null,
+        "end": 1758592255,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758592255,
+        "end": null
       }
     ]
   },
@@ -27528,8 +27538,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1758590451,
-        "end": null,
+        "end": 1758592255,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] Mugged - Revives: ALL",
+        "start": 1758592255,
+        "end": null
       }
     ]
   },
@@ -36093,11 +36108,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757382040,
-        "end": 1757456441
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1757456441,
