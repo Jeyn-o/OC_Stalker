@@ -2927,7 +2927,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758580853,
-        "end": null
+        "end": 1758598846
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758598846,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5726,8 +5732,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758594051,
-        "end": null,
+        "end": 1758598846,
         "travel_type": "private"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758598846,
+        "end": null
       }
     ]
   },
@@ -11069,11 +11080,6 @@
   "2920790": {
     "name": "Shimmer12",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1757388658,
-        "end": 1757390459
-      },
       {
         "status": "Available",
         "start": 1757390459,
@@ -16473,11 +16479,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1757388658,
-        "end": 1757392259
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1757392259,
@@ -23161,8 +23162,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1758591644,
-        "end": null,
+        "end": 1758598846,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1758598846,
+        "end": null
       }
     ]
   },
@@ -30404,11 +30410,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757388658,
-        "end": 1757389844
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1757389844,
@@ -38949,6 +38950,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1758597046,
+        "end": 1758598846,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758598846,
         "end": null,
         "travel_type": "airstrip"
       }
