@@ -12219,6 +12219,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1758588648,
+        "end": 1758600657,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1758600657,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -12308,11 +12314,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757391033,
-        "end": 1757400639
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1757400639,
@@ -23177,11 +23178,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1757391033,
-        "end": 1757397659
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1757397659,
         "end": 1757399458
@@ -24760,11 +24756,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1757391033,
-        "end": 1757394052
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1757394052,
@@ -28866,11 +28857,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1757391033,
-        "end": 1757401252
-      },
       {
         "status": "[China] - Idle",
         "start": 1757401252,
@@ -37701,11 +37687,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757391033,
-        "end": 1757391642
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1757391642,
         "end": 1757393441
@@ -38907,8 +38888,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1758598846,
-        "end": null,
+        "end": 1758600657,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758600657,
+        "end": null
       }
     ]
   },
