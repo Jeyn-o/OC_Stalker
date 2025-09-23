@@ -1611,8 +1611,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1758613244,
-        "end": null,
+        "end": 1758620444,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758620444,
+        "end": null
       }
     ]
   },
@@ -2444,6 +2449,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758613862,
+        "end": 1758620444,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758620444,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -3597,11 +3608,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1757410837,
-        "end": 1757421073
-      },
       {
         "status": "[China] - Idle",
         "start": 1757421073,
@@ -20426,6 +20432,12 @@
       {
         "status": "[China] - Returning",
         "start": 1758610249,
+        "end": 1758620444,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758620444,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -21202,11 +21214,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1757410837,
-        "end": 1757417447
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757417447,
@@ -29607,7 +29614,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758619862,
-        "end": null
+        "end": 1758620444
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758620444,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
