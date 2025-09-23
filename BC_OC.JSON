@@ -27570,9 +27570,9 @@
   },
   "853462": {
     "name": "Leave No Trace",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1758585950,
-    "executed_at": null,
+    "executed_at": 1758585965,
     "slots": {
       "P3": {
         "user_id": 3018158,
@@ -29679,7 +29679,7 @@
   "867436": {
     "name": "Mob Mentality",
     "status": "Recruiting",
-    "ready_at": 1758605922,
+    "ready_at": 1758692322,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -29689,6 +29689,13 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3841404,
+        "user_name": "Sleepy_Skyes",
+        "checkpoint_pass_rate": 86,
+        "position": "Looter",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -29702,6 +29709,16 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1758586246,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3841404,
+        "user_name": "Sleepy_Skyes",
+        "checkpoint_pass_rate": 86,
+        "position": "Looter",
+        "position_number": 2
       }
     ]
   },
