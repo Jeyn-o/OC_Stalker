@@ -9346,6 +9346,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758676841,
+        "end": 1758683445,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758683445,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -12192,8 +12198,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758672646,
-        "end": null,
+        "end": 1758683445,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758683445,
+        "end": null
       }
     ]
   },
@@ -21758,12 +21769,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1757473833,
-        "end": 1757475056,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1757475056,
         "end": 1757476240
@@ -26574,11 +26579,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757473833,
-        "end": 1757479835
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1757479835,
         "end": 1757486438,
@@ -28482,11 +28482,6 @@
   "3628419": {
     "name": "Littlegman212",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757473833,
-        "end": 1757604048
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1757604048,
@@ -32129,7 +32124,13 @@
       {
         "status": "Available",
         "start": 1758660644,
-        "end": null
+        "end": 1758683445
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1758683445,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -34866,6 +34867,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1758661269,
+        "end": 1758683445
+      },
+      {
+        "status": "Available",
+        "start": 1758683445,
         "end": null
       }
     ]
@@ -37287,11 +37293,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757473833,
-        "end": 1757488844
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1757488844,
