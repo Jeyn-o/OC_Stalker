@@ -28472,9 +28472,9 @@
   },
   "860736": {
     "name": "Counter Offer",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1758739423,
-    "executed_at": null,
+    "executed_at": 1758741124,
     "slots": {
       "P4": {
         "user_id": 2368458,
@@ -30288,8 +30288,8 @@
   },
   "873373": {
     "name": "Leave No Trace",
-    "status": "Recruiting",
-    "ready_at": 1758871095,
+    "status": "Planning",
+    "ready_at": 1758957495,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -30306,6 +30306,14 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": false
+      },
+      "P2": {
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 67,
+        "position": "Negotiator",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -30329,6 +30337,17 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1758741656,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 67,
+        "position": "Negotiator",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
