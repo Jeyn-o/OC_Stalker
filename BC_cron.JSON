@@ -760,17 +760,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "[Hawaii] - Idle",
-        "start": 1757531449,
-        "end": 1757532044
-      },
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1757532044,
-        "end": 1757538057,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757538057,
         "end": 1757542848
@@ -1102,12 +1091,6 @@
   "446596": {
     "name": "Bucki",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757531449,
-        "end": 1757538057,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757538057,
@@ -5626,8 +5609,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758732046,
-        "end": null,
+        "end": 1758741654,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1758741654,
+        "end": null
       }
     ]
   },
@@ -10990,6 +10978,11 @@
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1758737448,
+        "end": 1758741654
+      },
+      {
+        "status": "Available",
+        "start": 1758741654,
         "end": null
       }
     ]
@@ -11237,11 +11230,6 @@
     "name": "BiberBart",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757532044,
-        "end": 1757532643
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1757532643,
         "end": 1757539247,
@@ -11427,11 +11415,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1757532044,
-        "end": 1757545249
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1757545249,
@@ -18874,8 +18857,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1758739855,
-        "end": null,
+        "end": 1758741654,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758741654,
+        "end": null
       }
     ]
   },
@@ -20498,16 +20486,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757531449,
-        "end": 1757532044
-      },
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1757532044,
-        "end": 1757535045
-      },
       {
         "status": "Available",
         "start": 1757535045,
@@ -23499,7 +23477,13 @@
       {
         "status": "Available",
         "start": 1758637247,
-        "end": null
+        "end": 1758741654
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1758741654,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27191,6 +27175,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1758740468,
+        "end": 1758741654,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1758741654,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30064,12 +30054,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1757531449,
-        "end": 1757533247,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Going",
         "start": 1757533247,
