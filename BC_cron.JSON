@@ -3467,6 +3467,11 @@
       {
         "status": "Available",
         "start": 1758654065,
+        "end": 1758694248
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1758694248,
         "end": null
       }
     ]
@@ -5132,11 +5137,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757484059,
-        "end": 1757487050
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1757487050,
@@ -14672,7 +14672,13 @@
       {
         "status": "Available",
         "start": 1758693046,
-        "end": null
+        "end": 1758694248
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758694248,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18738,8 +18744,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758690068,
-        "end": null,
+        "end": 1758694248,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1758694248,
+        "end": null
       }
     ]
   },
@@ -18915,6 +18926,11 @@
       {
         "status": "[Cayman Islands] Attacked - Revives: Partial",
         "start": 1758692448,
+        "end": 1758694248
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1758694248,
         "end": null
       }
     ]
@@ -21834,11 +21850,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1757484059,
-        "end": 1757485243
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1757485243,
         "end": 1757486438,
@@ -24638,7 +24649,13 @@
       {
         "status": "Available",
         "start": 1758660045,
-        "end": null
+        "end": 1758694248
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758694248,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29451,6 +29468,12 @@
       {
         "status": "[China] - Going",
         "start": 1758684042,
+        "end": 1758694248,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758694248,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30262,8 +30285,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758684042,
-        "end": null,
+        "end": 1758694248,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758694248,
+        "end": null
       }
     ]
   },
@@ -36445,12 +36473,6 @@
     "name": "Cerbb",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1757484059,
-        "end": 1757491252,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757491252,
         "end": 1757506240
@@ -38623,7 +38645,13 @@
       {
         "status": "Available",
         "start": 1758689447,
-        "end": null
+        "end": 1758694248
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1758694248,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
