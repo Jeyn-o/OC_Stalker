@@ -1097,6 +1097,11 @@
       {
         "status": "Available",
         "start": 1758727252,
+        "end": 1758727868
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1758727868,
         "end": null
       }
     ]
@@ -1671,6 +1676,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758721858,
+        "end": 1758727868,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758727868,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -3022,12 +3033,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1757518256,
-        "end": 1757519444,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1757519444,
@@ -7451,11 +7456,6 @@
     "name": "Theurgy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757517651,
-        "end": 1757791848
-      },
-      {
         "status": "Jail",
         "start": 1757791848,
         "end": 1757795454
@@ -11516,11 +11516,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757517651,
-        "end": 1757520633
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1757520633,
         "end": 1757532044,
@@ -13982,7 +13977,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758723648,
-        "end": null
+        "end": 1758727868
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1758727868,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18899,6 +18900,11 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1758694248,
+        "end": 1758727868
+      },
+      {
+        "status": "[Cayman Islands] Mugged - Revives: Partial",
+        "start": 1758727868,
         "end": null
       }
     ]
@@ -19461,12 +19467,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1757518256,
-        "end": 1757520059,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1757520059,
@@ -21787,11 +21787,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757517651,
-        "end": 1757518841
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1757518841,
@@ -25524,11 +25519,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757518256,
-        "end": 1757559658
-      },
-      {
         "status": "[China] - Going",
         "start": 1757559658,
         "end": 1757569244,
@@ -28374,8 +28364,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1758720663,
-        "end": null,
+        "end": 1758727868,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758727868,
+        "end": null
       }
     ]
   },
@@ -31599,12 +31594,6 @@
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1757518256,
-        "end": 1757520633,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1757520633,
@@ -35734,12 +35723,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1757517651,
-        "end": 1757527837,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757527837,
