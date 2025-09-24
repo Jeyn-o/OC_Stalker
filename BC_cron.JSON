@@ -12999,6 +12999,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758667244,
+        "end": 1758679844,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758679844,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14612,12 +14618,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1757470237,
-        "end": 1757472047,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757472047,
@@ -20315,6 +20315,11 @@
       {
         "status": "[China] - Idle",
         "start": 1758673861,
+        "end": 1758679844
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1758679844,
         "end": null
       }
     ]
@@ -21771,17 +21776,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1757469662,
-        "end": 1757470237,
-        "travel_type": "airstrip"
-      },
-      {
-        "status": "Available",
-        "start": 1757470237,
-        "end": 1757471456
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1757471456,
         "end": 1757472636,
@@ -22996,7 +22990,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1758679267,
-        "end": null
+        "end": 1758679844
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1758679844,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30198,8 +30198,13 @@
       {
         "status": "[China] - Going",
         "start": 1758669649,
-        "end": null,
+        "end": 1758679844,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758679844,
+        "end": null
       }
     ]
   },
@@ -35699,11 +35704,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757470237,
-        "end": 1757507461
-      },
-      {
         "status": "[China] - Going",
         "start": 1757507461,
         "end": 1757517651,
@@ -36344,6 +36344,12 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1758678049,
+        "end": 1758679844,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1758679844,
         "end": null,
         "travel_type": "airstrip"
       }
