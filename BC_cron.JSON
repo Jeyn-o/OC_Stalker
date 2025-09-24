@@ -2987,11 +2987,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: OFF",
-        "start": 1757491252,
-        "end": 1757492443
-      },
-      {
         "status": "Available",
         "start": 1757492443,
         "end": 1757493641
@@ -4470,8 +4465,13 @@
       {
         "status": "[China] - Going",
         "start": 1758690651,
-        "end": null,
+        "end": 1758700867,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758700867,
+        "end": null
       }
     ]
   },
@@ -7313,6 +7313,11 @@
       {
         "status": "Available",
         "start": 1758651046,
+        "end": 1758700867
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1758700867,
         "end": null
       }
     ]
@@ -11131,12 +11136,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1757491252,
-        "end": 1757498457,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1757498457,
@@ -23738,11 +23737,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757491252,
-        "end": 1757493064
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1757493064,
         "end": 1757499643,
@@ -24623,8 +24617,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758694248,
-        "end": null,
+        "end": 1758700867,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758700867,
+        "end": null
       }
     ]
   },
@@ -27356,6 +27355,11 @@
       {
         "status": "[Cayman Islands] Mugged - Revives: ALL",
         "start": 1758699061,
+        "end": 1758700867
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1758700867,
         "end": null
       }
     ]
@@ -36442,11 +36446,6 @@
     "name": "Cerbb",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757491252,
-        "end": 1757506240
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1757506240,
         "end": 1757513440,
@@ -37113,6 +37112,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: Partial",
         "start": 1758667244,
+        "end": 1758700867
+      },
+      {
+        "status": "Available",
+        "start": 1758700867,
         "end": null
       }
     ]
