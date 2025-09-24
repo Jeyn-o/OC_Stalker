@@ -1764,12 +1764,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757527257,
-        "end": 1757534462,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757534462,
         "end": 1757577661
@@ -13256,6 +13250,11 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: Partial",
         "start": 1758734452,
+        "end": 1758736867
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1758736867,
         "end": null
       }
     ]
@@ -14609,11 +14608,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1757527257,
-        "end": 1757527837
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1757527837,
@@ -24437,8 +24431,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758724267,
-        "end": null,
+        "end": 1758736867,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758736867,
+        "end": null
       }
     ]
   },
@@ -30061,7 +30060,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758732648,
-        "end": null
+        "end": 1758736867
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758736867,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31459,6 +31464,12 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1758730853,
+        "end": 1758736867,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1758736867,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -36232,6 +36243,11 @@
       {
         "status": "Available",
         "start": 1758682252,
+        "end": 1758736867
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1758736867,
         "end": null
       }
     ]
