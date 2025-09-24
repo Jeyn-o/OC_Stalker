@@ -7964,6 +7964,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1758753070,
+        "end": 1758753653
+      },
+      {
+        "status": "Available",
+        "start": 1758753653,
         "end": null
       }
     ]
@@ -15456,8 +15461,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1758748246,
-        "end": null,
+        "end": 1758753653,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1758753653,
+        "end": null
       }
     ]
   },
@@ -23451,8 +23461,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1758748246,
-        "end": null,
+        "end": 1758753653,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758753653,
+        "end": null
       }
     ]
   },
@@ -36183,7 +36198,13 @@
       {
         "status": "Available",
         "start": 1758742262,
-        "end": null
+        "end": 1758753653
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1758753653,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
