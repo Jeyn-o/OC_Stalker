@@ -3661,12 +3661,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1757480461,
-        "end": 1757492443,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757492443,
         "end": 1757496045
@@ -7442,8 +7436,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1758682866,
-        "end": null,
+        "end": 1758690068,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1758690068,
+        "end": null
       }
     ]
   },
@@ -9359,8 +9358,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758683445,
-        "end": null,
+        "end": 1758690068,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758690068,
+        "end": null
       }
     ]
   },
@@ -13962,8 +13966,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758677463,
-        "end": null,
+        "end": 1758690068,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1758690068,
+        "end": null
       }
     ]
   },
@@ -18701,7 +18710,13 @@
       {
         "status": "Available",
         "start": 1758688843,
-        "end": null
+        "end": 1758690068
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1758690068,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -18867,6 +18882,11 @@
       {
         "status": "[Cayman Islands] Mugged - Revives: Partial",
         "start": 1758688265,
+        "end": 1758690068
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1758690068,
         "end": null
       }
     ]
@@ -37050,11 +37070,6 @@
   "3841404": {
     "name": "Sleepy_Skyes",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1757480461,
-        "end": 1757482259
-      },
       {
         "status": "Available",
         "start": 1757482259,
