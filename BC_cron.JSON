@@ -5133,12 +5133,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1757482863,
-        "end": 1757484059,
-        "travel_type": "private"
-      },
-      {
         "status": "Available",
         "start": 1757484059,
         "end": 1757487050
@@ -5703,8 +5697,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758684042,
-        "end": null,
+        "end": 1758693046,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1758693046,
+        "end": null
       }
     ]
   },
@@ -7442,7 +7441,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1758690068,
-        "end": null
+        "end": 1758693046
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1758693046,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13027,7 +13032,13 @@
       {
         "status": "Available",
         "start": 1758692448,
-        "end": null
+        "end": 1758693046
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1758693046,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14657,6 +14668,11 @@
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1758691866,
+        "end": 1758693046
+      },
+      {
+        "status": "Available",
+        "start": 1758693046,
         "end": null
       }
     ]
@@ -21819,12 +21835,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1757482863,
-        "end": 1757484059,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1757484059,
         "end": 1757485243
@@ -27353,8 +27363,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1758691255,
-        "end": null,
+        "end": 1758693046,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758693046,
+        "end": null
       }
     ]
   },
