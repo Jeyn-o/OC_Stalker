@@ -751,11 +751,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1757464260,
-        "end": 1757468439
-      },
-      {
         "status": "Available",
         "start": 1757468439,
         "end": 1757525455
@@ -1072,6 +1067,11 @@
       {
         "status": "Available",
         "start": 1758642654,
+        "end": 1758674451
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1758674451,
         "end": null
       }
     ]
@@ -8898,12 +8898,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1757464833,
-        "end": 1757470836,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1757470836,
         "end": 1757472047
@@ -14588,7 +14582,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758671450,
-        "end": null
+        "end": 1758674451
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758674451,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19424,11 +19424,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757464833,
-        "end": 1757465440
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1757465440,
         "end": 1757476858,
@@ -21792,12 +21787,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1757464260,
-        "end": 1757465440,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757465440,
         "end": 1757467860
@@ -23041,11 +23030,6 @@
   "3431519": {
     "name": "kirabaz",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757464833,
-        "end": 1757558434
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1757558434,
@@ -24659,12 +24643,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1757464833,
-        "end": 1757472047,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757472047,
@@ -31660,8 +31638,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1758668461,
-        "end": null,
+        "end": 1758674451,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758674451,
+        "end": null
       }
     ]
   },
@@ -38570,6 +38553,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1758673249,
+        "end": 1758674451,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1758674451,
         "end": null,
         "travel_type": "airstrip"
       }
