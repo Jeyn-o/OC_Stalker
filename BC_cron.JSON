@@ -742,6 +742,12 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758664246,
+        "end": 1758676841,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1758676841,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -5720,8 +5726,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758667866,
-        "end": null,
+        "end": 1758676841,
         "travel_type": "private"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1758676841,
+        "end": null
       }
     ]
   },
@@ -9352,7 +9363,13 @@
       {
         "status": "Available",
         "start": 1758633651,
-        "end": null
+        "end": 1758676841
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758676841,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14606,11 +14623,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757466643,
-        "end": 1757467240
-      },
       {
         "status": "[Canada] - Going",
         "start": 1757467240,
@@ -25636,8 +25648,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1758667866,
-        "end": null,
+        "end": 1758676841,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758676841,
+        "end": null
       }
     ]
   },
@@ -26625,11 +26642,6 @@
   "3542414": {
     "name": "awesomemcsexy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757466643,
-        "end": 1757467240
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757467240,
@@ -28717,11 +28729,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757466643,
-        "end": 1757530848
-      },
       {
         "status": "[China] - Going",
         "start": 1757530848,
@@ -33304,12 +33311,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1757466643,
-        "end": 1757478046,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1757478046,
         "end": 1757506845
@@ -35606,8 +35607,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1758669649,
-        "end": null,
+        "end": 1758676841,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758676841,
+        "end": null
       }
     ]
   },
@@ -36371,7 +36377,13 @@
       {
         "status": "Available",
         "start": 1758594669,
-        "end": null
+        "end": 1758676841
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1758676841,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
