@@ -29446,9 +29446,9 @@
   },
   "866569": {
     "name": "No Reserve",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1758739058,
-    "executed_at": null,
+    "executed_at": 1758739084,
     "slots": {
       "P2": {
         "user_id": 2389431,
@@ -30289,7 +30289,7 @@
   "873373": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": 1758784695,
+    "ready_at": 1758871095,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -30298,6 +30298,14 @@
         "checkpoint_pass_rate": 77,
         "position": "Techie",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 3540076,
+        "user_name": "Mr_jeff14574",
+        "checkpoint_pass_rate": 67,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -30310,6 +30318,17 @@
         "checkpoint_pass_rate": 77,
         "position": "Techie",
         "position_number": 1
+      },
+      {
+        "timestamp": 1758739253,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3540076,
+        "user_name": "Mr_jeff14574",
+        "checkpoint_pass_rate": 67,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -30509,6 +30528,14 @@
   },
   "875264": {
     "name": "Counter Offer",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "877668": {
+    "name": "Bidding War",
     "status": "Recruiting",
     "ready_at": null,
     "executed_at": null,
