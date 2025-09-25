@@ -1720,12 +1720,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1757577661,
-        "end": 1757583649,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1757583649,
         "end": 1757585453
@@ -11070,12 +11064,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1757577661,
-        "end": 1757578849,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1757578849,
         "end": 1757580039,
@@ -12239,12 +12227,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1757577661,
-        "end": 1757590260,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757590260,
@@ -14622,7 +14604,13 @@
       {
         "status": "Available",
         "start": 1758710448,
-        "end": null
+        "end": 1758787271
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758787271,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16479,11 +16467,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757577661,
-        "end": 1757586659
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1757586659,
@@ -18637,7 +18620,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758772872,
-        "end": null
+        "end": 1758787271
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758787271,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -21653,11 +21642,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757577661,
-        "end": 1757578250
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1757578250,
@@ -27186,6 +27170,11 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1758782447,
+        "end": 1758787271
+      },
+      {
+        "status": "[Cayman Islands] Mugged - Revives: ALL",
+        "start": 1758787271,
         "end": null
       }
     ]
@@ -36707,8 +36696,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758774672,
-        "end": null,
+        "end": 1758787271,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1758787271,
+        "end": null
       }
     ]
   },
