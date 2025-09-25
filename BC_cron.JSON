@@ -1071,12 +1071,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1757581261,
-        "end": 1757587245,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1757587245,
         "end": 1757587839
@@ -3961,7 +3955,13 @@
       {
         "status": "Available",
         "start": 1758789063,
-        "end": null
+        "end": 1758790871
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1758790871,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10104,12 +10104,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1757581261,
-        "end": 1757588456,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1757588456,
@@ -18636,8 +18630,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758787271,
-        "end": null,
+        "end": 1758790871,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1758790871,
+        "end": null
       }
     ]
   },
@@ -20938,12 +20937,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1757581261,
-        "end": 1757590845,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757590845,
@@ -25867,7 +25860,13 @@
       {
         "status": "Available",
         "start": 1758778845,
-        "end": null
+        "end": 1758790871
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758790871,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28234,7 +28233,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1758776467,
-        "end": null
+        "end": 1758790871
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1758790871,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34579,6 +34584,11 @@
       {
         "status": "Available",
         "start": 1758789063,
+        "end": 1758790871
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1758790871,
         "end": null
       }
     ]
@@ -34586,12 +34596,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1757581261,
-        "end": 1757591451,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1757591451,
