@@ -7431,6 +7431,11 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1758820854,
+        "end": 1758822655
+      },
+      {
+        "status": "[Switzerland] Mugged - Revives: ALL",
+        "start": 1758822655,
         "end": null
       }
     ]
@@ -13889,7 +13894,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758813650,
-        "end": null
+        "end": 1758822655
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758822655,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18600,8 +18611,13 @@
       {
         "status": "[China] - Going",
         "start": 1758819669,
-        "end": null,
+        "end": 1758822655,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758822655,
+        "end": null
       }
     ]
   },
@@ -20216,7 +20232,13 @@
       {
         "status": "Available",
         "start": 1758822050,
-        "end": null
+        "end": 1758822655
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758822655,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22695,12 +22717,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1757613043,
-        "end": 1757614248,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1757614248,
         "end": 1757614853
@@ -23366,8 +23382,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1758816652,
-        "end": null,
+        "end": 1758822655,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1758822655,
+        "end": null
       }
     ]
   },
@@ -29292,12 +29313,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1757612451,
-        "end": 1757622666,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1757622666,
         "end": 1757623244
@@ -32835,12 +32850,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1757612451,
-        "end": 1757614248,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757614248,
         "end": 1757634648
@@ -34536,6 +34545,11 @@
       {
         "status": "Available",
         "start": 1758816652,
+        "end": 1758822655
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1758822655,
         "end": null
       }
     ]
@@ -34543,12 +34557,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1757612451,
-        "end": 1757622666,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1757622666,
@@ -35980,11 +35988,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757613043,
-        "end": 1757635312
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1757635312,
