@@ -20890,12 +20890,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1757569244,
-        "end": 1757580039,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1757580039,
         "end": 1757581261
@@ -21596,6 +21590,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758772872,
+        "end": 1758779445,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758779445,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -23347,7 +23347,13 @@
       {
         "status": "Available",
         "start": 1758776467,
-        "end": null
+        "end": 1758779445
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1758779445,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25288,11 +25294,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1757569244,
-        "end": 1757570467
-      },
       {
         "status": "[China] Mugged - Revives: OFF",
         "start": 1757570467,
@@ -38171,8 +38172,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1758777651,
-        "end": null,
+        "end": 1758779445,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1758779445,
+        "end": null
       }
     ]
   },
