@@ -4383,7 +4383,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1758786651,
-        "end": null
+        "end": 1758793249
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1758793249,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14630,7 +14636,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758792054,
-        "end": null
+        "end": 1758793249
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758793249,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21643,6 +21655,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758786651,
+        "end": 1758793249,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758793249,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25336,8 +25354,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758783672,
-        "end": null,
+        "end": 1758793249,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758793249,
+        "end": null
       }
     ]
   },
