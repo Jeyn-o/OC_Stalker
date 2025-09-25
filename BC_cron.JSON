@@ -7843,12 +7843,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1757571645,
-        "end": 1757578849,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1757578849,
         "end": 1757586046,
@@ -11422,11 +11416,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1757571645,
-        "end": 1757572261
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1757572261,
         "end": 1757583649,
@@ -12909,8 +12898,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758769274,
-        "end": null,
+        "end": 1758781863,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758781863,
+        "end": null
       }
     ]
   },
@@ -20369,7 +20363,13 @@
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1758762675,
-        "end": null
+        "end": 1758781863
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758781863,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -22702,7 +22702,13 @@
       {
         "status": "Available",
         "start": 1758781249,
-        "end": null
+        "end": 1758781863
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1758781863,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23364,8 +23370,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1758781249,
-        "end": null,
+        "end": 1758781863,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758781863,
+        "end": null
       }
     ]
   },
