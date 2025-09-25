@@ -6823,7 +6823,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758816068,
-        "end": null
+        "end": 1758823856
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758823856,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -8152,12 +8158,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1757613662,
-        "end": 1757626852,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1757626852,
@@ -22715,6 +22715,11 @@
       {
         "status": "[Hawaii] Mugged - Revives: ALL",
         "start": 1758822050,
+        "end": 1758823856
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1758823856,
         "end": null
       }
     ]
@@ -30042,12 +30047,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1757613662,
-        "end": 1757614853,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1757614853,
         "end": 1757616651,
@@ -31286,8 +31285,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1758818450,
-        "end": null,
+        "end": 1758823856,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758823856,
+        "end": null
       }
     ]
   },
@@ -32630,12 +32634,6 @@
   "3707169": {
     "name": "LichKean",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1757613662,
-        "end": 1757620242,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757620242,
