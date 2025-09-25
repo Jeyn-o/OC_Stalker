@@ -2430,7 +2430,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758816652,
-        "end": null
+        "end": 1758820854
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758820854,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7425,8 +7431,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1758813650,
-        "end": null,
+        "end": 1758820854,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1758820854,
+        "end": null
       }
     ]
   },
@@ -24302,12 +24313,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1757610647,
-        "end": 1757622039,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757622039,
