@@ -433,6 +433,8 @@ function updateCrimesDatabase(crimesDb, crimes, membersById) {
     const newCrimeData = {
 	  name: crime.name,
       status: crime.status,
+	  created_at: crime.created_at,
+	  planning_at: crime.planning_at,
       ready_at: crime.ready_at,
       executed_at: crime.executed_at,
       previous_crime_id: crime.previous_crime_id,
