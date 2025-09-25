@@ -4934,6 +4934,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758832848,
+        "end": 1758839471,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758839471,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -5081,12 +5087,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1757629848,
-        "end": 1757634648,
-        "travel_type": "private"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757634648,
@@ -12218,12 +12218,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1757629848,
-        "end": 1757642460,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1757642460,
         "end": 1757655060,
@@ -12914,7 +12908,13 @@
       {
         "status": "Available",
         "start": 1758808866,
-        "end": null
+        "end": 1758839471
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1758839471,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20450,11 +20450,6 @@
     "name": "Krytical",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757629848,
-        "end": 1757630450
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1757630450,
         "end": 1757632250
@@ -25308,6 +25303,11 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1758837043,
+        "end": 1758839471
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758839471,
         "end": null
       }
     ]
@@ -27701,11 +27701,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] Mugged - Revives: ALL",
-        "start": 1757629848,
-        "end": 1757632250
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1757632250,
