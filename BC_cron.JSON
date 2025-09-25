@@ -2964,7 +2964,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1758808866,
-        "end": null
+        "end": 1758814856
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1758814856,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3426,8 +3432,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1758805852,
-        "end": null,
+        "end": 1758814856,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1758814856,
+        "end": null
       }
     ]
   },
@@ -4895,6 +4906,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758802847,
+        "end": 1758814856,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758814856,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -5025,6 +5042,11 @@
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1758814270,
+        "end": 1758814856
+      },
+      {
+        "status": "Available",
+        "start": 1758814856,
         "end": null
       }
     ]
@@ -7254,8 +7276,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758802256,
-        "end": null,
+        "end": 1758814856,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758814856,
+        "end": null
       }
     ]
   },
@@ -13891,12 +13918,6 @@
     "name": "JuanPaulo",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757605246,
-        "end": 1757611858,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757611858,
         "end": 1757680254
@@ -16469,11 +16490,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1757605246,
-        "end": 1757606454
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1757606454,
@@ -29272,12 +29288,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757605246,
-        "end": 1757611858,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757611858,
         "end": 1757612451
@@ -30006,12 +30016,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1757605246,
-        "end": 1757606454,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1757606454,
