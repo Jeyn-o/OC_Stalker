@@ -10089,12 +10089,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757595043,
-        "end": 1757601650,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757601650,
         "end": 1757622039
@@ -13097,6 +13091,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1758802847,
+        "end": 1758804654
+      },
+      {
+        "status": "Available",
+        "start": 1758804654,
         "end": null
       }
     ]
@@ -13925,8 +13924,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758798078,
-        "end": null,
+        "end": 1758804654,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758804654,
+        "end": null
       }
     ]
   },
@@ -14627,6 +14631,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758799256,
+        "end": 1758804654,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758804654,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -16485,11 +16495,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1757595043,
-        "end": 1757598050
-      },
       {
         "status": "[China] - Returning",
         "start": 1757598050,
@@ -28475,6 +28480,11 @@
       {
         "status": "Available",
         "start": 1758603663,
+        "end": 1758804654
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1758804654,
         "end": null
       }
     ]
