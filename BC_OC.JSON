@@ -29189,9 +29189,9 @@
   },
   "863862": {
     "name": "Market Forces",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1758759851,
-    "executed_at": null,
+    "executed_at": 1758759905,
     "slots": {
       "P4": {
         "user_id": 3877112,
@@ -29928,7 +29928,7 @@
   "867435": {
     "name": "Mob Mentality",
     "status": "Recruiting",
-    "ready_at": 1758798164,
+    "ready_at": 1758884564,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -29945,6 +29945,13 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 89,
+        "position": "Looter",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -29968,6 +29975,16 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1758760265,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 89,
+        "position": "Looter",
+        "position_number": 2
       }
     ]
   },
