@@ -26323,7 +26323,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758828661,
-        "end": null
+        "end": 1758829858
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758829858,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32633,12 +32639,6 @@
     "name": "LichKean",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757620242,
-        "end": 1757626852,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757626852,
         "end": 1757633453
@@ -36696,6 +36696,11 @@
       {
         "status": "Available",
         "start": 1758829241,
+        "end": 1758829858
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1758829858,
         "end": null
       }
     ]
