@@ -22697,6 +22697,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1758780061,
+        "end": 1758781249
+      },
+      {
+        "status": "Available",
+        "start": 1758781249,
         "end": null
       }
     ]
@@ -23354,7 +23359,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1758780653,
-        "end": null
+        "end": 1758781249
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758781249,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27106,7 +27117,13 @@
       {
         "status": "Available",
         "start": 1758766847,
-        "end": null
+        "end": 1758781249
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1758781249,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29183,7 +29200,13 @@
       {
         "status": "Available",
         "start": 1758780061,
-        "end": null
+        "end": 1758781249
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758781249,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38161,8 +38184,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1758780061,
-        "end": null,
+        "end": 1758781249,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758781249,
+        "end": null
       }
     ]
   },
