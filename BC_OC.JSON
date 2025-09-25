@@ -29999,8 +29999,8 @@
   },
   "867435": {
     "name": "Mob Mentality",
-    "status": "Recruiting",
-    "ready_at": 1758884564,
+    "status": "Planning",
+    "ready_at": 1758970964,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -30024,6 +30024,14 @@
         "checkpoint_pass_rate": 89,
         "position": "Looter",
         "position_number": 2
+      },
+      "P3": {
+        "user_id": 3760809,
+        "user_name": "RandomName1",
+        "checkpoint_pass_rate": 89,
+        "position": "Looter",
+        "position_number": 3,
+        "item_available": true
       }
     },
     "action_log": [
@@ -30057,6 +30065,17 @@
         "checkpoint_pass_rate": 89,
         "position": "Looter",
         "position_number": 2
+      },
+      {
+        "timestamp": 1758817262,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3760809,
+        "user_name": "RandomName1",
+        "checkpoint_pass_rate": 89,
+        "position": "Looter",
+        "position_number": 3,
+        "item_available": true
       }
     ]
   },
