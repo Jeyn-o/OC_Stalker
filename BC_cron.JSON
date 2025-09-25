@@ -751,6 +751,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758810058,
+        "end": 1758823265,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758823265,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -32611,8 +32617,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758816652,
-        "end": null,
+        "end": 1758823265,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758823265,
+        "end": null
       }
     ]
   },
@@ -36807,6 +36818,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1758822050,
+        "end": 1758823265
+      },
+      {
+        "status": "Available",
+        "start": 1758823265,
         "end": null
       }
     ]
