@@ -7480,7 +7480,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1758824455,
-        "end": null
+        "end": 1758835255
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1758835255,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22710,6 +22716,11 @@
       {
         "status": "Available",
         "start": 1758834646,
+        "end": 1758835255
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1758835255,
         "end": null
       }
     ]
@@ -24308,8 +24319,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758828661,
-        "end": null,
+        "end": 1758835255,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758835255,
+        "end": null
       }
     ]
   },
@@ -34533,6 +34549,11 @@
       {
         "status": "Available",
         "start": 1758833454,
+        "end": 1758835255
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1758835255,
         "end": null
       }
     ]
