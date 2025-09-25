@@ -2492,11 +2492,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1757569848,
-        "end": 1757575861
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1757575861,
         "end": 1757588456,
@@ -3446,11 +3441,6 @@
   "1946159": {
     "name": "smyles",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1757569848,
-        "end": 1757572261
-      },
       {
         "status": "Available",
         "start": 1757572261,
@@ -6807,7 +6797,13 @@
       {
         "status": "Available",
         "start": 1758759050,
-        "end": null
+        "end": 1758780061
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1758780061,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -8111,11 +8107,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1757569848,
-        "end": 1757590845
-      },
       {
         "status": "[Japan] Mugged - Revives: ALL",
         "start": 1757590845,
@@ -22701,6 +22692,11 @@
       {
         "status": "Available",
         "start": 1758777050,
+        "end": 1758780061
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1758780061,
         "end": null
       }
     ]
@@ -29192,8 +29188,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1758772872,
-        "end": null,
+        "end": 1758780061,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758780061,
+        "end": null
       }
     ]
   },
@@ -32841,12 +32842,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1757569848,
-        "end": 1757576446,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757576446,
@@ -38178,7 +38173,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1758779445,
-        "end": null
+        "end": 1758780061
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758780061,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
