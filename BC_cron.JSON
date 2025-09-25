@@ -1720,11 +1720,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757583649,
-        "end": 1757585453
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1757585453,
         "end": 1757592064,
@@ -3524,11 +3519,6 @@
     "name": "firefly50",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757583649,
-        "end": 1757685030
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1757685030,
         "end": 1757688047,
@@ -4008,12 +3998,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1757583649,
-        "end": 1757590845,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1757590845,
@@ -10795,7 +10779,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1758792054,
-        "end": null
+        "end": 1758793856
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1758793856,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11452,11 +11442,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757583649,
-        "end": 1757587839
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1757587839,
@@ -20243,8 +20228,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758783672,
-        "end": null,
+        "end": 1758793856,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758793856,
+        "end": null
       }
     ]
   },
@@ -21669,12 +21659,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1757583649,
-        "end": 1757584856,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1757584856,
@@ -23490,11 +23474,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757583649,
-        "end": 1757586046
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1757586046,
@@ -32644,8 +32623,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1758786651,
-        "end": null,
+        "end": 1758793856,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1758793856,
+        "end": null
       }
     ]
   },
