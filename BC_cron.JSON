@@ -766,12 +766,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1757602861,
-        "end": 1757608252,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757608252,
         "end": 1757654452
@@ -1714,11 +1708,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757602861,
-        "end": 1757662848
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1757662848,
@@ -4939,6 +4928,11 @@
       {
         "status": "Available",
         "start": 1757869847,
+        "end": 1758812480
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1758812480,
         "end": null
       }
     ]
@@ -11386,7 +11380,13 @@
       {
         "status": "Available",
         "start": 1758811859,
-        "end": null
+        "end": 1758812480
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1758812480,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13217,11 +13217,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757602861,
-        "end": 1757619635
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757619635,
@@ -16471,12 +16466,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1757602861,
-        "end": 1757605246,
-        "travel_type": "standard"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1757605246,
@@ -23442,12 +23431,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757602861,
-        "end": 1757610064,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757610064,
@@ -31283,8 +31266,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1758807075,
-        "end": null,
+        "end": 1758812480,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1758812480,
+        "end": null
       }
     ]
   },
