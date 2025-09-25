@@ -3628,11 +3628,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757578250,
-        "end": 1757641240
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1757641240,
         "end": 1757653850,
@@ -7867,19 +7862,19 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1758787842,
-        "end": null
+        "end": 1758788458
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1758788458,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "2647214": {
     "name": "Balgor",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1757578849,
-        "end": 1757586046,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757586046,
@@ -11081,12 +11076,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1757578849,
-        "end": 1757580039,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757580039,
         "end": 1757637642
@@ -13936,6 +13925,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: Partial",
         "start": 1758785471,
+        "end": 1758788458
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758788458,
         "end": null
       }
     ]
@@ -15472,12 +15466,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1757578250,
-        "end": 1757590845,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757590845,
@@ -21660,12 +21648,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1757578250,
-        "end": 1757579454,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1757579454,
         "end": 1757580642,
@@ -24377,7 +24359,13 @@
       {
         "status": "Available",
         "start": 1758751270,
-        "end": null
+        "end": 1758788458
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758788458,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
