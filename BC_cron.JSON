@@ -8052,12 +8052,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1757664058,
-        "end": 1757671252,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757671252,
         "end": 1757993457
@@ -16172,7 +16166,13 @@
       {
         "status": "Available",
         "start": 1758871862,
-        "end": null
+        "end": 1758873670
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1758873670,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20336,7 +20336,13 @@
       {
         "status": "Available",
         "start": 1758873053,
-        "end": null
+        "end": 1758873670
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1758873670,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21655,8 +21661,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1758873053,
-        "end": null,
+        "end": 1758873670,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758873670,
+        "end": null
       }
     ]
   },
@@ -24326,6 +24337,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1758871862,
+        "end": 1758873670,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758873670,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -32784,12 +32801,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1757664058,
-        "end": 1757665248,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1757665248,
         "end": 1757666451,
@@ -34562,6 +34573,11 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1758873053,
+        "end": 1758873670
+      },
+      {
+        "status": "[Mexico] Lost - Revives: OFF",
+        "start": 1758873670,
         "end": null
       }
     ]
