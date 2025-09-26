@@ -3528,8 +3528,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1758849043,
-        "end": null,
+        "end": 1758856241,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1758856241,
+        "end": null
       }
     ]
   },
@@ -6905,7 +6910,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758848466,
-        "end": null
+        "end": 1758856241
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758856241,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -16101,8 +16112,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758843650,
-        "end": null,
+        "end": 1758856241,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758856241,
+        "end": null
       }
     ]
   },
@@ -31295,6 +31311,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1758850264,
+        "end": 1758856241,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1758856241,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34505,6 +34527,11 @@
       {
         "status": "Available",
         "start": 1758844872,
+        "end": 1758856241
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1758856241,
         "end": null
       }
     ]
