@@ -3982,8 +3982,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758862872,
-        "end": null,
+        "end": 1758876046,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758876046,
+        "end": null
       }
     ]
   },
@@ -4403,7 +4408,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1758875461,
-        "end": null
+        "end": 1758876046
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1758876046,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8787,7 +8798,13 @@
       {
         "status": "Available",
         "start": 1758763873,
-        "end": null
+        "end": 1758876046
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1758876046,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10891,7 +10908,13 @@
       {
         "status": "Available",
         "start": 1758875461,
-        "end": null
+        "end": 1758876046
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1758876046,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11165,11 +11188,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1757665859,
-        "end": 1757667045
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1757667045,
@@ -12339,12 +12357,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1757665859,
-        "end": 1757667633,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1757667633,
         "end": 1757669450,
@@ -13395,11 +13407,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757665859,
-        "end": 1757725847
-      },
       {
         "status": "[Hospital] Lost - Revives: Partial",
         "start": 1757725847,
@@ -21689,8 +21696,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1758875461,
-        "end": null,
+        "end": 1758876046,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758876046,
+        "end": null
       }
     ]
   },
@@ -22754,8 +22766,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1758870650,
-        "end": null,
+        "end": 1758876046,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1758876046,
+        "end": null
       }
     ]
   },
@@ -24385,11 +24402,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1757665859,
-        "end": 1757666451
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1757666451,
@@ -34617,6 +34629,11 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1758875461,
+        "end": 1758876046
+      },
+      {
+        "status": "[Mexico] Lost - Revives: OFF",
+        "start": 1758876046,
         "end": null
       }
     ]
