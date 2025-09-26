@@ -2975,8 +2975,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1758877849,
-        "end": null,
+        "end": 1758885052,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1758885052,
+        "end": null
       }
     ]
   },
@@ -7396,7 +7401,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758881452,
-        "end": null
+        "end": 1758885052
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758885052,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8065,6 +8076,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1758884474,
+        "end": 1758885052,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1758885052,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -16692,11 +16709,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757675445,
-        "end": 1757677236
-      },
-      {
         "status": "[China] - Going",
         "start": 1757677236,
         "end": 1757680844,
@@ -23523,12 +23535,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757675445,
-        "end": 1757682061,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757682061,
         "end": 1757682646
@@ -24420,6 +24426,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1758883255,
+        "end": 1758885052,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758885052,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -28382,7 +28394,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1758884474,
-        "end": null
+        "end": 1758885052
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1758885052,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31398,7 +31416,13 @@
       {
         "status": "Available",
         "start": 1758861653,
-        "end": null
+        "end": 1758885052
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1758885052,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
