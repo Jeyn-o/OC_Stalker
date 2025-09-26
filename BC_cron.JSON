@@ -761,12 +761,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1757654452,
-        "end": 1757665248,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1757665248,
         "end": 1757679641
@@ -12986,7 +12980,13 @@
       {
         "status": "Available",
         "start": 1758864052,
-        "end": null
+        "end": 1758864661
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1758864661,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16114,7 +16114,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1758864052,
-        "end": null
+        "end": 1758864661
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1758864661,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20494,11 +20500,6 @@
     "name": "Krytical",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757654452,
-        "end": 1757679641
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1757679641,
         "end": 1757682061
@@ -21585,6 +21586,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758858048,
+        "end": 1758864661,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758864661,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -21593,12 +21600,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1757654452,
-        "end": 1757655644,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1757655644,
@@ -25787,11 +25788,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757654452,
-        "end": 1757685657
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1757685657,
@@ -30043,8 +30039,13 @@
       {
         "status": "[China] - Going",
         "start": 1758854447,
-        "end": null,
+        "end": 1758864661,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758864661,
+        "end": null
       }
     ]
   },
