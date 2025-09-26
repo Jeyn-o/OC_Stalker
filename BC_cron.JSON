@@ -5117,11 +5117,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757691051,
-        "end": 1757692847
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1757692847,
         "end": 1757697642,
@@ -8391,11 +8386,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757691051,
-        "end": 1757752254
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1757752254,
         "end": 1757752847
@@ -10263,7 +10253,13 @@
       {
         "status": "Available",
         "start": 1758899452,
-        "end": null
+        "end": 1758900674
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1758900674,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13116,8 +13112,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1758899452,
-        "end": null,
+        "end": 1758900674,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758900674,
+        "end": null
       }
     ]
   },
@@ -14143,6 +14144,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1758899452,
+        "end": 1758900674,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758900674,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14868,6 +14875,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1758899452,
+        "end": 1758900674,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758900674,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -16746,12 +16759,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1757691051,
-        "end": 1757694048,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1757694048,
@@ -18793,8 +18800,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758897090,
-        "end": null,
+        "end": 1758900674,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1758900674,
+        "end": null
       }
     ]
   },
@@ -27435,8 +27447,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1758899452,
-        "end": null,
+        "end": 1758900674,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758900674,
+        "end": null
       }
     ]
   },
@@ -31571,6 +31588,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1758900051,
+        "end": 1758900674,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1758900674,
         "end": null,
         "travel_type": "airstrip"
       }
