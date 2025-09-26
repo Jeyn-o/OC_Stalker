@@ -3988,6 +3988,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758850860,
+        "end": 1758862872,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758862872,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4031,12 +4037,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1757653259,
-        "end": 1757660472,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1757660472,
@@ -4410,6 +4410,11 @@
       {
         "status": "Jail",
         "start": 1758842448,
+        "end": 1758862872
+      },
+      {
+        "status": "Available",
+        "start": 1758862872,
         "end": null
       }
     ]
@@ -9402,11 +9407,6 @@
   "2679269": {
     "name": "TsanMan",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1757653259,
-        "end": 1757655060
-      },
       {
         "status": "Available",
         "start": 1757655060,
@@ -16612,11 +16612,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[South Africa] Mugged - Revives: ALL",
-        "start": 1757653259,
-        "end": 1757655060
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1757655060,
         "end": 1757671252
@@ -20487,11 +20482,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1757653259,
-        "end": 1757654452
-      },
       {
         "status": "Available",
         "start": 1757654452,
@@ -27678,11 +27668,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757653259,
-        "end": 1757663443
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1757663443,
         "end": 1757674854,
@@ -29314,6 +29299,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1758850860,
+        "end": 1758862872
+      },
+      {
+        "status": "Available",
+        "start": 1758862872,
         "end": null
       }
     ]
@@ -30045,12 +30035,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757653259,
-        "end": 1757659849,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757659849,
@@ -36754,11 +36738,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757653259,
-        "end": 1757658045
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1757658045,
         "end": 1757658667
@@ -38071,8 +38050,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1758861060,
-        "end": null,
+        "end": 1758862872,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758862872,
+        "end": null
       }
     ]
   },
