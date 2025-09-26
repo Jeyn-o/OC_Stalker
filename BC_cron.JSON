@@ -8100,8 +8100,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1758888065,
-        "end": null,
+        "end": 1758889868,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1758889868,
+        "end": null
       }
     ]
   },
@@ -10236,6 +10241,11 @@
       {
         "status": "Available",
         "start": 1758765671,
+        "end": 1758889868
+      },
+      {
+        "status": "Jail",
+        "start": 1758889868,
         "end": null
       }
     ]
@@ -11223,11 +11233,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757680254,
-        "end": 1757764863
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1757764863,
@@ -14088,12 +14093,6 @@
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1757680254,
-        "end": 1757686849,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757686849,
@@ -21688,6 +21687,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758883255,
+        "end": 1758889868,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758889868,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -24430,12 +24435,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1757680254,
-        "end": 1757681435,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757681435,
@@ -30234,12 +30233,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1757680254,
-        "end": 1757686244,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1757686244,
         "end": 1757691649,
@@ -32918,12 +32911,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1757680254,
-        "end": 1757680844,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1757680844,
         "end": 1757681435
@@ -34694,11 +34681,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1757680254,
-        "end": 1757684437
-      },
       {
         "status": "[China] - Returning",
         "start": 1757684437,
@@ -37003,7 +36985,13 @@
       {
         "status": "Available",
         "start": 1758888065,
-        "end": null
+        "end": 1758889868
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1758889868,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
