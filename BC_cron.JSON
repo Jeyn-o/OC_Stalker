@@ -746,6 +746,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758835863,
+        "end": 1758848466,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758848466,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4943,11 +4949,6 @@
     "name": "Ronskip",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1757638248,
-        "end": 1757668826
-      },
-      {
         "status": "Available",
         "start": 1757668826,
         "end": 1757844640
@@ -5751,7 +5752,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758845447,
-        "end": null
+        "end": 1758848466
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758848466,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6892,8 +6899,13 @@
       {
         "status": "[China] - Going",
         "start": 1758843650,
-        "end": null,
+        "end": 1758848466,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758848466,
+        "end": null
       }
     ]
   },
@@ -8896,11 +8908,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757638248,
-        "end": 1757640049
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757640049,
@@ -27219,8 +27226,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1758846659,
-        "end": null,
+        "end": 1758848466,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758848466,
+        "end": null
       }
     ]
   },
@@ -29380,6 +29392,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1758825064,
+        "end": 1758848466
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1758848466,
         "end": null
       }
     ]
@@ -31328,11 +31345,6 @@
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "[Canada] Attacked - Revives: ALL",
-        "start": 1757638248,
-        "end": 1757639446
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1757639446,
@@ -35258,11 +35270,6 @@
   "3792175": {
     "name": "Danin327",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1757638248,
-        "end": 1757639446
-      },
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1757639446,
