@@ -752,6 +752,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758871862,
+        "end": 1758884474,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758884474,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -8054,7 +8060,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1758883844,
-        "end": null
+        "end": 1758884474
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758884474,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11187,11 +11199,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757674241,
-        "end": 1757679039
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1757679039,
@@ -19527,17 +19534,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757674241,
-        "end": 1757674854
-      },
-      {
-        "status": "[Canada] - Going",
-        "start": 1757674854,
-        "end": 1757676657,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1757676657,
         "end": 1757678461,
@@ -20382,11 +20378,6 @@
   "3331202": {
     "name": "Imtheman357",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: OFF",
-        "start": 1757674854,
-        "end": 1757677844
-      },
       {
         "status": "[China] - Returning",
         "start": 1757677844,
@@ -21731,11 +21722,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1757674241,
-        "end": 1757676657
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1757676657,
@@ -23536,11 +23522,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757674241,
-        "end": 1757675445
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757675445,
@@ -27865,11 +27846,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1757674854,
-        "end": 1757680844
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1757680844,
         "end": 1757692244,
@@ -28400,8 +28376,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1758877231,
-        "end": null,
+        "end": 1758884474,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1758884474,
+        "end": null
       }
     ]
   },
@@ -29429,8 +29410,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758874252,
-        "end": null,
+        "end": 1758884474,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758884474,
+        "end": null
       }
     ]
   },
@@ -32891,17 +32877,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1757674241,
-        "end": 1757674854,
-        "travel_type": "airstrip"
-      },
-      {
-        "status": "Available",
-        "start": 1757674854,
-        "end": 1757677236
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1757677236,
         "end": 1757678461,
@@ -34677,6 +34652,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1758881452,
+        "end": 1758884474
+      },
+      {
+        "status": "Available",
+        "start": 1758884474,
         "end": null
       }
     ]
