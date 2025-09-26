@@ -1618,12 +1618,6 @@
     "name": "poik9",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1757680844,
-        "end": 1757688047,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757688047,
         "end": 1757752847
@@ -3426,6 +3420,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758883844,
+        "end": 1758890456,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758890456,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4422,12 +4422,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1757680844,
-        "end": 1757689842,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1757689842,
         "end": 1757699431,
@@ -4992,8 +4986,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1758882661,
-        "end": null,
+        "end": 1758890456,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1758890456,
+        "end": null
       }
     ]
   },
@@ -10246,6 +10245,11 @@
       {
         "status": "Jail",
         "start": 1758889868,
+        "end": 1758890456
+      },
+      {
+        "status": "Available",
+        "start": 1758890456,
         "end": null
       }
     ]
@@ -16693,11 +16697,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1757680844,
-        "end": 1757682646
-      },
-      {
         "status": "[China] - Returning",
         "start": 1757682646,
         "end": 1757686244,
@@ -18733,8 +18732,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1758888653,
-        "end": null,
+        "end": 1758890456,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1758890456,
+        "end": null
       }
     ]
   },
@@ -19534,12 +19538,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1757680844,
-        "end": 1757682061,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Going",
         "start": 1757682061,
@@ -20354,8 +20352,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758883255,
-        "end": null,
+        "end": 1758890456,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758890456,
+        "end": null
       }
     ]
   },
@@ -27868,12 +27871,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1757680844,
-        "end": 1757692244,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757692244,
         "end": 1757776248
@@ -31425,8 +31422,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1758885052,
-        "end": null,
+        "end": 1758890456,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1758890456,
+        "end": null
       }
     ]
   },
@@ -32910,11 +32912,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1757680844,
-        "end": 1757681435
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1757681435,
