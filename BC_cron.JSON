@@ -11081,11 +11081,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1757637642,
-        "end": 1757639446
-      },
-      {
         "status": "Available",
         "start": 1757639446,
         "end": 1757658667
@@ -15532,8 +15527,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758840654,
-        "end": null,
+        "end": 1758847842,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758847842,
+        "end": null
       }
     ]
   },
@@ -19435,6 +19435,11 @@
       {
         "status": "Available",
         "start": 1758809450,
+        "end": 1758847842
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1758847842,
         "end": null
       }
     ]
@@ -20494,11 +20499,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757637642,
-        "end": 1757640049
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1757640049,
@@ -35911,7 +35911,13 @@
       {
         "status": "Available",
         "start": 1758809450,
-        "end": null
+        "end": 1758847842
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1758847842,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
