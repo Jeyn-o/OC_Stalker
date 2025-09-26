@@ -3519,11 +3519,6 @@
     "name": "firefly50",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757716265,
-        "end": 1758113443
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1758113443,
         "end": 1758114065
@@ -5113,6 +5108,11 @@
       {
         "status": "Available",
         "start": 1758843650,
+        "end": 1758926452
+      },
+      {
+        "status": "[Hospital] Event - Revives: Partial",
+        "start": 1758926452,
         "end": null
       }
     ]
@@ -15153,11 +15153,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757716265,
-        "end": 1757718050
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1757718050,
         "end": 1757724662,
@@ -15982,12 +15977,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1757716265,
-        "end": 1757724043,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757724043,
@@ -30178,12 +30167,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1757716846,
-        "end": 1757723461,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1757723461,
         "end": 1757752847
@@ -30872,17 +30855,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1757716265,
-        "end": 1757716846
-      },
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1757716846,
-        "end": 1757724043,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757724043,
@@ -32590,7 +32562,13 @@
       {
         "status": "Available",
         "start": 1758915067,
-        "end": null
+        "end": 1758926452
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1758926452,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
