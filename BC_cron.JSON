@@ -1698,12 +1698,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1757670021,
-        "end": 1757677844,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1757677844,
         "end": 1757679641,
@@ -2429,8 +2423,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758873053,
-        "end": null,
+        "end": 1758879645,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758879645,
+        "end": null
       }
     ]
   },
@@ -21695,6 +21694,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1758878455,
+        "end": 1758879645,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758879645,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -24383,7 +24388,13 @@
       {
         "status": "Available",
         "start": 1758879067,
-        "end": null
+        "end": 1758879645
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1758879645,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31865,6 +31876,11 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1758877849,
+        "end": 1758879645
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1758879645,
         "end": null
       }
     ]
@@ -34662,12 +34678,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1757670021,
-        "end": 1757680254,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1757680254,
         "end": 1757684437
@@ -36936,7 +36946,13 @@
       {
         "status": "Available",
         "start": 1758876654,
-        "end": null
+        "end": 1758879645
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1758879645,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
