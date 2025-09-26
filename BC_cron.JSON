@@ -1696,7 +1696,13 @@
       {
         "status": "Available",
         "start": 1758403859,
-        "end": null
+        "end": 1758912654
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758912654,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5750,8 +5756,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758900051,
-        "end": null,
+        "end": 1758912654,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1758912654,
+        "end": null
       }
     ]
   },
@@ -6914,7 +6925,13 @@
       {
         "status": "Available",
         "start": 1758910854,
-        "end": null
+        "end": 1758912654
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758912654,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -8105,8 +8122,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1758903647,
-        "end": null,
+        "end": 1758912654,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758912654,
+        "end": null
       }
     ]
   },
@@ -13180,12 +13202,6 @@
     "name": "Thornking",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1757703039,
-        "end": 1757714456,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757714456,
         "end": 1757746244
@@ -14999,12 +15015,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757703039,
-        "end": 1757709649,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1757709649,
@@ -24708,6 +24718,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1758912051,
+        "end": 1758912654,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758912654,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33364,11 +33380,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757703039,
-        "end": 1757709055
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1757709055,
         "end": 1757715646,
@@ -35104,8 +35115,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1758910854,
-        "end": null,
+        "end": 1758912654,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758912654,
+        "end": null
       }
     ]
   },
