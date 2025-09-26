@@ -11099,11 +11099,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757639446,
-        "end": 1757658667
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1757658667,
         "end": 1757665859,
@@ -29408,6 +29403,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1758848466,
+        "end": 1758849647
+      },
+      {
+        "status": "Available",
+        "start": 1758849647,
         "end": null
       }
     ]
@@ -31348,19 +31348,19 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1758843650,
-        "end": null,
+        "end": 1758849647,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758849647,
+        "end": null
       }
     ]
   },
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1757639446,
-        "end": 1757648446
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1757648446,
@@ -35282,11 +35282,6 @@
     "name": "Danin327",
     "activities": [
       {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1757639446,
-        "end": 1757641845
-      },
-      {
         "status": "[China] - Idle",
         "start": 1757641845,
         "end": 1757649048
@@ -35940,7 +35935,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1758849043,
-        "end": null
+        "end": 1758849647
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758849647,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
