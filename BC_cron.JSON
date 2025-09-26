@@ -8931,11 +8931,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757646653,
-        "end": 1757814652
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1757814652,
         "end": 1757816453
@@ -11520,11 +11515,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1757646653,
-        "end": 1757649048
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1757649048,
@@ -16118,7 +16108,13 @@
       {
         "status": "Available",
         "start": 1758856241,
-        "end": null
+        "end": 1758856849
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1758856849,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20518,11 +20514,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1757646653,
-        "end": 1757647247
-      },
       {
         "status": "Available",
         "start": 1757647247,
@@ -30113,12 +30104,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1757646653,
-        "end": 1757653259,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1757653259,
         "end": 1757659849,
@@ -36617,8 +36602,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758844251,
-        "end": null,
+        "end": 1758856849,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1758856849,
+        "end": null
       }
     ]
   },
@@ -36831,12 +36821,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1757646653,
-        "end": 1757648446,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Going",
         "start": 1757648446,
