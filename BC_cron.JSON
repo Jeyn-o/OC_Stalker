@@ -11454,8 +11454,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1758903647,
-        "end": null,
+        "end": 1758913270,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758913270,
+        "end": null
       }
     ]
   },
@@ -15827,7 +15832,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758912051,
-        "end": null
+        "end": 1758913270
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758913270,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19765,12 +19776,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1757703659,
-        "end": 1757710860,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1757710860,
         "end": 1757717442,
@@ -21911,7 +21916,13 @@
       {
         "status": "Available",
         "start": 1758910854,
-        "end": null
+        "end": 1758913270
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1758913270,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33190,6 +33201,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1758912051,
+        "end": 1758913270,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758913270,
         "end": null,
         "travel_type": "airstrip"
       }
