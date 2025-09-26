@@ -747,6 +747,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758897090,
+        "end": 1758909680,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758909680,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7519,7 +7525,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758883255,
-        "end": null
+        "end": 1758909680
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758909680,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10991,8 +11003,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758902468,
-        "end": null,
+        "end": 1758909680,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758909680,
+        "end": null
       }
     ]
   },
@@ -16832,8 +16849,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1758902468,
-        "end": null,
+        "end": 1758909680,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1758909680,
+        "end": null
       }
     ]
   },
@@ -20523,8 +20545,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1758902468,
-        "end": null,
+        "end": 1758909680,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758909680,
+        "end": null
       }
     ]
   },
@@ -24634,6 +24661,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1758907899,
+        "end": 1758909680,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758909680,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -26175,8 +26208,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758899452,
-        "end": null,
+        "end": 1758909680,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758909680,
+        "end": null
       }
     ]
   },
@@ -26653,19 +26691,19 @@
       {
         "status": "[China] - Going",
         "start": 1758899452,
-        "end": null,
+        "end": 1758909680,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1758909680,
+        "end": null
       }
     ]
   },
   "3542414": {
     "name": "awesomemcsexy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757700065,
-        "end": 1757739660
-      },
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1757739660,
@@ -33268,12 +33306,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1757700065,
-        "end": 1757701250,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1757701250,
         "end": 1757703039,
@@ -35009,7 +35041,13 @@
       {
         "status": "Available",
         "start": 1758907899,
-        "end": null
+        "end": 1758909680
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1758909680,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36371,8 +36409,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1758909054,
-        "end": null,
+        "end": 1758909680,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758909680,
+        "end": null
       }
     ]
   },
@@ -37430,12 +37473,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1757700065,
-        "end": 1757701853,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757701853,
@@ -38769,6 +38806,11 @@
       {
         "status": "Available",
         "start": 1758663649,
+        "end": 1758909680
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1758909680,
         "end": null
       }
     ]
