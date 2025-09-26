@@ -2989,12 +2989,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1757676043,
-        "end": 1757689264,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757689264,
         "end": 1757713240
@@ -8832,8 +8826,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1758876046,
-        "end": null,
+        "end": 1758885651,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1758885651,
+        "end": null
       }
     ]
   },
@@ -16218,12 +16217,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1757676043,
-        "end": 1757685657,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757685657,
@@ -25432,8 +25425,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758879067,
-        "end": null,
+        "end": 1758885651,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758885651,
+        "end": null
       }
     ]
   },
@@ -36736,7 +36734,13 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1758865253,
-        "end": null
+        "end": 1758885651
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758885651,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
