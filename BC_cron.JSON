@@ -5114,12 +5114,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757705450,
-        "end": 1757710239,
-        "travel_type": "private"
-      },
-      {
         "status": "Available",
         "start": 1757710239,
         "end": 1757715045
@@ -7401,6 +7395,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1758902468,
+        "end": 1758915067,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758915067,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7409,11 +7409,6 @@
   "2427687": {
     "name": "Jubjub82180",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1757705450,
-        "end": 1757706644
-      },
       {
         "status": "Available",
         "start": 1757706644,
@@ -16920,18 +16915,19 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1758909680,
-        "end": null
+        "end": 1758915067
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1758915067,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757705450,
-        "end": 1757718641
-      },
       {
         "status": "[Japan] - Going",
         "start": 1757718641,
@@ -23021,11 +23017,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1757705450,
-        "end": 1757706644
-      },
-      {
         "status": "Available",
         "start": 1757706644,
         "end": 1757709055
@@ -26315,7 +26306,13 @@
       {
         "status": "Available",
         "start": 1758909680,
-        "end": null
+        "end": 1758915067
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758915067,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32362,8 +32359,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758898876,
-        "end": null,
+        "end": 1758915067,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1758915067,
+        "end": null
       }
     ]
   },
@@ -33244,8 +33246,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1758913270,
-        "end": null,
+        "end": 1758915067,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758915067,
+        "end": null
       }
     ]
   },
@@ -35175,6 +35182,11 @@
       {
         "status": "Available",
         "start": 1758912654,
+        "end": 1758915067
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1758915067,
         "end": null
       }
     ]
@@ -37603,8 +37615,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758904847,
-        "end": null,
+        "end": 1758915067,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758915067,
+        "end": null
       }
     ]
   },
