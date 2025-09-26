@@ -1718,7 +1718,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758922850,
-        "end": null
+        "end": 1758925875
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758925875,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2431,11 +2437,6 @@
   "1387584": {
     "name": "---GHOST---",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757715646,
-        "end": 1758393633
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: Partial",
         "start": 1758393633,
@@ -10334,6 +10335,11 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1758925251,
+        "end": 1758925875
+      },
+      {
+        "status": "[Cayman Islands] Mugged - Revives: ALL",
+        "start": 1758925875,
         "end": null
       }
     ]
@@ -11536,8 +11542,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1758924077,
-        "end": null,
+        "end": 1758925875,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758925875,
+        "end": null
       }
     ]
   },
@@ -15972,11 +15983,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1757715646,
-        "end": 1757716265
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1757716265,
         "end": 1757724043,
@@ -16547,12 +16553,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1757715646,
-        "end": 1757722844,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1757722844,
@@ -19111,8 +19111,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758922263,
-        "end": null,
+        "end": 1758925875,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1758925875,
+        "end": null
       }
     ]
   },
@@ -23164,12 +23169,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757715646,
-        "end": 1757722239,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757722239,
         "end": 1757771452
@@ -23835,8 +23834,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1758920473,
-        "end": null,
+        "end": 1758925875,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758925875,
+        "end": null
       }
     ]
   },
@@ -27964,7 +27968,13 @@
       {
         "status": "Available",
         "start": 1758925251,
-        "end": null
+        "end": 1758925875
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1758925875,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33652,11 +33662,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757715646,
-        "end": 1757730655
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1757730655,
         "end": 1757737240,
@@ -36781,8 +36786,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1758924654,
-        "end": null,
+        "end": 1758925875,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1758925875,
+        "end": null
       }
     ]
   },
