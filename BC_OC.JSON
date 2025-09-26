@@ -31350,8 +31350,8 @@
   },
   "878085": {
     "name": "Honey Trap",
-    "status": "Planning",
-    "ready_at": 1759086309,
+    "status": "Recruiting",
+    "ready_at": 1758999909,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -31367,14 +31367,6 @@
         "checkpoint_pass_rate": 68,
         "position": "Enforcer",
         "position_number": 1,
-        "item_available": true
-      },
-      "P3": {
-        "user_id": 1897963,
-        "user_name": "gypo",
-        "checkpoint_pass_rate": 60,
-        "position": "Muscle",
-        "position_number": 2,
         "item_available": true
       }
     },
@@ -31403,6 +31395,17 @@
       {
         "timestamp": 1758883259,
         "action": "joined",
+        "slot": "P3",
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 60,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": true
+      },
+      {
+        "timestamp": 1758916249,
+        "action": "left",
         "slot": "P3",
         "user_id": 1897963,
         "user_name": "gypo",
@@ -31638,5 +31641,21 @@
         "position_number": 1
       }
     ]
+  },
+  "883516": {
+    "name": "Snow Blind",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "883517": {
+    "name": "Market Forces",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
   }
 }
