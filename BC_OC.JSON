@@ -30100,9 +30100,9 @@
   },
   "867436": {
     "name": "Mob Mentality",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1758865122,
-    "executed_at": null,
+    "executed_at": 1758865144,
     "slots": {
       "P1": {
         "user_id": 2659592,
@@ -31284,7 +31284,7 @@
   "879205": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1759014733,
+    "ready_at": 1759101133,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -31302,6 +31302,13 @@
         "position": "Bomber",
         "position_number": 1,
         "item_available": true
+      },
+      "P6": {
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 70,
+        "position": "Picklock",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -31326,6 +31333,16 @@
         "position": "Bomber",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1758865254,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 70,
+        "position": "Picklock",
+        "position_number": 2
       }
     ]
   }
