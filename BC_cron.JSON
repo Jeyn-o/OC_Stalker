@@ -741,12 +741,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1757799650,
-        "end": 1757805051,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1757805051,
         "end": 1757805645
@@ -2505,8 +2499,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759003269,
-        "end": null,
+        "end": 1759009856,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759009856,
+        "end": null
       }
     ]
   },
@@ -3049,8 +3048,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759008056,
-        "end": null,
+        "end": 1759009856,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759009856,
+        "end": null
       }
     ]
   },
@@ -3520,6 +3524,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759008673,
+        "end": 1759009856,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759009856,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4612,11 +4622,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757799650,
-        "end": 1757806252
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1757806252,
         "end": 1757815845,
@@ -5309,12 +5314,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1757799650,
-        "end": 1757808063,
-        "travel_type": "private"
-      },
       {
         "status": "Available",
         "start": 1757808063,
@@ -20150,8 +20149,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759007452,
-        "end": null,
+        "end": 1759009856,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759009856,
+        "end": null
       }
     ]
   },
@@ -26348,6 +26352,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1759008056,
+        "end": 1759009856,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759009856,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33858,8 +33868,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1759000855,
-        "end": null,
+        "end": 1759009856,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1759009856,
+        "end": null
       }
     ]
   },
@@ -35287,11 +35302,6 @@
   "3707169": {
     "name": "LichKean",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757799650,
-        "end": 1757942450
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1757942450,
@@ -37995,6 +38005,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759007452,
+        "end": 1759009856
+      },
+      {
+        "status": "Available",
+        "start": 1759009856,
         "end": null
       }
     ]
@@ -38814,12 +38829,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1757799650,
-        "end": 1757806252,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757806252,
@@ -39705,7 +39714,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1759009251,
-        "end": null
+        "end": 1759009856
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759009856,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40064,11 +40079,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757799650,
-        "end": 1757808063
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1757808063,
