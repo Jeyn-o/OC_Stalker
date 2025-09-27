@@ -1628,6 +1628,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758972046,
+        "end": 1758978652,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758978652,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -17593,6 +17599,11 @@
       {
         "status": "Available",
         "start": 1758946253,
+        "end": 1758978652
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1758978652,
         "end": null
       }
     ]
@@ -19705,8 +19716,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758975056,
-        "end": null,
+        "end": 1758978652,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1758978652,
+        "end": null
       }
     ]
   },
@@ -21624,11 +21640,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: OFF",
-        "start": 1757768468,
-        "end": 1757780450
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1757780450,
@@ -36431,8 +36442,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758972046,
-        "end": null,
+        "end": 1758978652,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758978652,
+        "end": null
       }
     ]
   },
@@ -37173,7 +37189,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758972046,
-        "end": null
+        "end": 1758978652
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758978652,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37930,11 +37952,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1757768468,
-        "end": 1757775041
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1757775041,
@@ -38807,6 +38824,11 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1758976272,
+        "end": 1758978652
+      },
+      {
+        "status": "[Mexico] Mugged - Revives: ALL",
+        "start": 1758978652,
         "end": null
       }
     ]
