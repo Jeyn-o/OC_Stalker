@@ -3033,8 +3033,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1759005659,
-        "end": null,
+        "end": 1759007452,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1759007452,
+        "end": null
       }
     ]
   },
@@ -3506,11 +3511,6 @@
   "1946159": {
     "name": "smyles",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757797275,
-        "end": 1757962869
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1757962869,
@@ -12252,8 +12252,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759006254,
-        "end": null,
+        "end": 1759007452,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759007452,
+        "end": null
       }
     ]
   },
@@ -14422,8 +14427,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1758994853,
-        "end": null,
+        "end": 1759007452,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759007452,
+        "end": null
       }
     ]
   },
@@ -20113,7 +20123,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759006876,
-        "end": null
+        "end": 1759007452
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759007452,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -21072,12 +21088,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1757797275,
-        "end": 1757809848,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1757809848,
@@ -24953,7 +24963,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759006254,
-        "end": null
+        "end": 1759007452
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759007452,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35233,11 +35249,6 @@
     "name": "LichKean",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1757797275,
-        "end": 1757799650
-      },
-      {
         "status": "Available",
         "start": 1757799650,
         "end": 1757942450
@@ -37940,6 +37951,11 @@
       {
         "status": "Available",
         "start": 1758988865,
+        "end": 1759007452
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1759007452,
         "end": null
       }
     ]
@@ -39631,6 +39647,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759006254,
+        "end": 1759007452,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759007452,
         "end": null,
         "travel_type": "airstrip"
       }
