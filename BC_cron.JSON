@@ -5741,8 +5741,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1758976272,
-        "end": null,
+        "end": 1758981667,
         "travel_type": "private"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1758981667,
+        "end": null
       }
     ]
   },
@@ -14167,6 +14172,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758973251,
+        "end": 1758981667
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: Partial",
+        "start": 1758981667,
         "end": null
       }
     ]
@@ -15707,6 +15717,12 @@
       {
         "status": "[China] - Going",
         "start": 1758974463,
+        "end": 1758981667,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758981667,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -17655,6 +17671,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1758978652,
+        "end": 1758981667
+      },
+      {
+        "status": "Available",
+        "start": 1758981667,
         "end": null
       }
     ]
@@ -22012,12 +22033,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757772061,
-        "end": 1757778646,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757778646,
         "end": 1757822464
@@ -22802,12 +22817,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1757772061,
-        "end": 1757773245,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757773245,
@@ -23839,20 +23848,19 @@
       {
         "status": "[Japan] - Returning",
         "start": 1758972671,
-        "end": null,
+        "end": 1758981667,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758981667,
+        "end": null
       }
     ]
   },
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1757771452,
-        "end": 1757778051,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757778051,
@@ -24578,7 +24586,13 @@
       {
         "status": "Available",
         "start": 1758980451,
-        "end": null
+        "end": 1758981667
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1758981667,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26870,7 +26884,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1758976852,
-        "end": null
+        "end": 1758981667
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758981667,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31284,12 +31304,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757772061,
-        "end": 1757778646,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757778646,
@@ -38018,7 +38032,13 @@
       {
         "status": "[Mexico] Mugged - Revives: ALL",
         "start": 1758981050,
-        "end": null
+        "end": 1758981667
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758981667,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
