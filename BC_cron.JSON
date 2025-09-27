@@ -11460,6 +11460,12 @@
       {
         "status": "[China] - Going",
         "start": 1758972046,
+        "end": 1758982252,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758982252,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -12980,8 +12986,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1758970872,
-        "end": null,
+        "end": 1758982252,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1758982252,
+        "end": null
       }
     ]
   },
@@ -23854,7 +23865,13 @@
       {
         "status": "Available",
         "start": 1758981667,
-        "end": null
+        "end": 1758982252
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1758982252,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
