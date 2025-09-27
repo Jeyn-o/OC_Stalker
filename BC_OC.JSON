@@ -31809,25 +31809,38 @@
   "882143": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": null,
-    "executed_at": null,
-    "slots": {},
-    "action_log": []
-  },
-  "882144": {
-    "name": "Pet Project",
-    "status": "Recruiting",
-    "ready_at": 1759058780,
+    "ready_at": 1759072120,
     "executed_at": null,
     "slots": {
       "P1": {
         "user_id": 3759168,
         "user_name": "AIshen",
-        "checkpoint_pass_rate": 84,
-        "position": "Kidnapper",
+        "checkpoint_pass_rate": 69,
+        "position": "Imitator",
         "position_number": 1,
-        "item_available": true
-      },
+        "item_available": false
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1758985850,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3759168,
+        "user_name": "AIshen",
+        "checkpoint_pass_rate": 69,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": false
+      }
+    ]
+  },
+  "882144": {
+    "name": "Pet Project",
+    "status": "Recruiting",
+    "ready_at": 1759011954,
+    "executed_at": null,
+    "slots": {
       "P3": {
         "user_id": 2291737,
         "user_name": "Special-Needs",
@@ -31857,6 +31870,17 @@
         "user_name": "Special-Needs",
         "checkpoint_pass_rate": 93,
         "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1758985850,
+        "action": "left",
+        "slot": "P1",
+        "user_id": 3759168,
+        "user_name": "AIshen",
+        "checkpoint_pass_rate": 84,
+        "position": "Kidnapper",
         "position_number": 1,
         "item_available": true
       }
@@ -31978,7 +32002,7 @@
   "884645": {
     "name": "Snow Blind",
     "status": "Recruiting",
-    "ready_at": 1759069671,
+    "ready_at": 1759156071,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -31986,6 +32010,13 @@
         "user_name": "Rubadubb",
         "checkpoint_pass_rate": 71,
         "position": "Muscle",
+        "position_number": 1
+      },
+      "P1": {
+        "user_id": 3575675,
+        "user_name": "highfishM",
+        "checkpoint_pass_rate": 75,
+        "position": "Hustler",
         "position_number": 1
       }
     },
@@ -31998,6 +32029,16 @@
         "user_name": "Rubadubb",
         "checkpoint_pass_rate": 71,
         "position": "Muscle",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1758985850,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3575675,
+        "user_name": "highfishM",
+        "checkpoint_pass_rate": 75,
+        "position": "Hustler",
         "position_number": 1
       }
     ]
