@@ -721,8 +721,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759002050,
-        "end": null,
+        "end": 1759014652,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759014652,
+        "end": null
       }
     ]
   },
@@ -7149,6 +7154,12 @@
       {
         "status": "[China] - Returning",
         "start": 1759010473,
+        "end": 1759014652,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759014652,
         "end": null,
         "travel_type": "standard"
       }
@@ -7210,6 +7221,12 @@
       {
         "status": "[China] - Going",
         "start": 1759000257,
+        "end": 1759014652,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759014652,
         "end": null,
         "travel_type": "standard"
       }
@@ -8551,8 +8568,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759002653,
-        "end": null,
+        "end": 1759014652,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759014652,
+        "end": null
       }
     ]
   },
@@ -8839,12 +8861,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1757804462,
-        "end": 1757814046,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1757814046,
@@ -12325,7 +12341,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759013454,
-        "end": null
+        "end": 1759014652
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759014652,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18087,11 +18109,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1757804462,
-        "end": 1757805645
-      },
       {
         "status": "[China] - Returning",
         "start": 1757805645,
@@ -38973,6 +38990,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759014065,
+        "end": 1759014652
+      },
+      {
+        "status": "Available",
+        "start": 1759014652,
         "end": null
       }
     ]
