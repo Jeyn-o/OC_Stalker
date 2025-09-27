@@ -3918,6 +3918,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758951648,
+        "end": 1758952869
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: OFF",
+        "start": 1758952869,
         "end": null
       }
     ]
@@ -7567,7 +7572,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1758944448,
-        "end": null
+        "end": 1758952869
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1758952869,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8168,6 +8179,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1758952255,
+        "end": 1758952869,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758952869,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -27284,8 +27301,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758942652,
-        "end": null,
+        "end": 1758952869,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758952869,
+        "end": null
       }
     ]
   },
@@ -37263,7 +37285,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1758952255,
-        "end": null
+        "end": 1758952869
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1758952869,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38068,8 +38096,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1758952255,
-        "end": null,
+        "end": 1758952869,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1758952869,
+        "end": null
       }
     ]
   },
