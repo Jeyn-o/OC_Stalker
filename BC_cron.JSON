@@ -2427,8 +2427,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758960648,
-        "end": null,
+        "end": 1758966648,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758966648,
+        "end": null
       }
     ]
   },
@@ -2450,11 +2455,6 @@
   "1766417": {
     "name": "gajeela09",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757756452,
-        "end": 1757793662
-      },
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1757793662,
@@ -6925,8 +6925,13 @@
       {
         "status": "[China] - Going",
         "start": 1758961865,
-        "end": null,
+        "end": 1758966648,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1758966648,
+        "end": null
       }
     ]
   },
@@ -11252,7 +11257,13 @@
       {
         "status": "Available",
         "start": 1758966053,
-        "end": null
+        "end": 1758966648
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1758966648,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13539,11 +13550,6 @@
   "3069081": {
     "name": "Thornking",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1757756452,
-        "end": 1757758263
-      },
       {
         "status": "Available",
         "start": 1757758263,
@@ -16842,8 +16848,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1758965461,
-        "end": null,
+        "end": 1758966648,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758966648,
+        "end": null
       }
     ]
   },
@@ -19452,6 +19463,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758963672,
+        "end": 1758966648
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: ALL",
+        "start": 1758966648,
         "end": null
       }
     ]
@@ -21170,8 +21186,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758957052,
-        "end": null,
+        "end": 1758966648,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758966648,
+        "end": null
       }
     ]
   },
@@ -25409,6 +25430,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1758964854,
+        "end": 1758966648,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758966648,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29670,6 +29697,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758963672,
+        "end": 1758966648
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1758966648,
         "end": null
       }
     ]
@@ -34331,11 +34363,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1757756452,
-        "end": 1757757661
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1757757661,
