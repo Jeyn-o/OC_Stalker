@@ -31873,8 +31873,8 @@
   },
   "882144": {
     "name": "Pet Project",
-    "status": "Recruiting",
-    "ready_at": 1759098354,
+    "status": "Planning",
+    "ready_at": 1759184754,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -31892,6 +31892,14 @@
         "position": "Muscle",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 3760809,
+        "user_name": "RandomName1",
+        "checkpoint_pass_rate": 88,
+        "position": "Kidnapper",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -31938,6 +31946,17 @@
         "position": "Muscle",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1759011059,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3760809,
+        "user_name": "RandomName1",
+        "checkpoint_pass_rate": 88,
+        "position": "Kidnapper",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -32070,7 +32089,7 @@
   "884644": {
     "name": "Market Forces",
     "status": "Recruiting",
-    "ready_at": 1759085626,
+    "ready_at": 1759172026,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -32079,6 +32098,14 @@
         "checkpoint_pass_rate": 85,
         "position": "Lookout",
         "position_number": 1
+      },
+      "P4": {
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 68,
+        "position": "Arsonist",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -32091,6 +32118,17 @@
         "checkpoint_pass_rate": 85,
         "position": "Lookout",
         "position_number": 1
+      },
+      {
+        "timestamp": 1759011059,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 68,
+        "position": "Arsonist",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
