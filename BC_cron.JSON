@@ -1721,11 +1721,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1757726438,
-        "end": 1757741456
-      },
-      {
         "status": "Available",
         "start": 1757741456,
         "end": 1757807449
@@ -5765,16 +5760,6 @@
     "name": "Crispyfoot",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: OFF",
-        "start": 1757725847,
-        "end": 1757726438
-      },
-      {
-        "status": "Available",
-        "start": 1757726438,
-        "end": 1757856048
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1757856048,
         "end": 1757857846
@@ -8934,7 +8919,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758928253,
-        "end": null
+        "end": 1758936051
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758936051,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11361,7 +11352,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1758935450,
-        "end": null
+        "end": 1758936051
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1758936051,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13704,11 +13701,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: Partial",
-        "start": 1757725847,
-        "end": 1757727061
-      },
-      {
         "status": "Available",
         "start": 1757727061,
         "end": 1757730041
@@ -14413,19 +14405,19 @@
       {
         "status": "[Japan] - Returning",
         "start": 1758927055,
-        "end": null,
+        "end": 1758936051,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758936051,
+        "end": null
       }
     ]
   },
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: Partial",
-        "start": 1757726438,
-        "end": 1757727642
-      },
       {
         "status": "Available",
         "start": 1757727642,
@@ -16051,8 +16043,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758928852,
-        "end": null,
+        "end": 1758936051,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758936051,
+        "end": null
       }
     ]
   },
@@ -17121,11 +17118,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757726438,
-        "end": 1757728239
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1757728239,
@@ -28107,8 +28099,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1758934253,
-        "end": null,
+        "end": 1758936051,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758936051,
+        "end": null
       }
     ]
   },
@@ -36970,7 +36967,13 @@
       {
         "status": "[Mexico] Mugged - Revives: ALL",
         "start": 1758933650,
-        "end": null
+        "end": 1758936051
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758936051,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
