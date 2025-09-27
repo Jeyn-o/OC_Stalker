@@ -5965,12 +5965,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1757792453,
-        "end": 1757796639,
-        "travel_type": "standard"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1757796639,
         "end": 1757824848
@@ -8494,7 +8488,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759002050,
-        "end": null
+        "end": 1759002653
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759002653,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10212,12 +10212,6 @@
     "name": "Twitt3y",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1757792453,
-        "end": 1757800249,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757800249,
         "end": 1758821469
@@ -11583,7 +11577,13 @@
       {
         "status": "Available",
         "start": 1758992472,
-        "end": null
+        "end": 1759002653
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759002653,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26221,6 +26221,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1759000855,
+        "end": 1759002653,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759002653,
         "end": null,
         "travel_type": "airstrip"
       }
