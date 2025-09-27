@@ -1632,6 +1632,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758951067,
+        "end": 1758958264,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758958264,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -12639,8 +12645,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1758947460,
-        "end": null,
+        "end": 1758958264,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1758958264,
+        "end": null
       }
     ]
   },
@@ -12783,12 +12794,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1757748046,
-        "end": 1757749846,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1757749846,
@@ -16762,8 +16767,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758946855,
-        "end": null,
+        "end": 1758958264,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758958264,
+        "end": null
       }
     ]
   },
@@ -21298,11 +21308,6 @@
     "name": "Krytical",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757748046,
-        "end": 1757768468
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1757768468,
         "end": 1757780450
@@ -24139,7 +24144,13 @@
       {
         "status": "Available",
         "start": 1758955250,
-        "end": null
+        "end": 1758958264
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1758958264,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26283,7 +26294,13 @@
       {
         "status": "Available",
         "start": 1758949276,
-        "end": null
+        "end": 1758958264
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1758958264,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34140,11 +34157,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1757748046,
-        "end": 1757749236
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1757749236,
         "end": 1757751060
@@ -38194,7 +38206,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1758957645,
-        "end": null
+        "end": 1758958264
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758958264,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
