@@ -3395,11 +3395,6 @@
     "name": "smyles",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757730041,
-        "end": 1757731239
-      },
-      {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1757731239,
         "end": 1757732469
@@ -3927,7 +3922,13 @@
       {
         "status": "Available",
         "start": 1758904263,
-        "end": null
+        "end": 1758939653
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1758939653,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7754,8 +7755,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758933059,
-        "end": null,
+        "end": 1758939653,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758939653,
+        "end": null
       }
     ]
   },
@@ -8424,7 +8430,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1758939052,
-        "end": null
+        "end": 1758939653
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1758939653,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13697,11 +13709,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: Partial",
-        "start": 1757730041,
-        "end": 1757731239
-      },
       {
         "status": "Available",
         "start": 1757731239,
@@ -19180,8 +19187,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1758937846,
-        "end": null,
+        "end": 1758939653,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1758939653,
+        "end": null
       }
     ]
   },
@@ -20057,18 +20069,19 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1758939052,
-        "end": null
+        "end": 1758939653
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758939653,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1757730041,
-        "end": 1757734271
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1757734271,
@@ -23929,6 +23942,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758938466,
+        "end": 1758939653
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1758939653,
         "end": null
       }
     ]
@@ -26038,7 +26056,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1758939052,
-        "end": null
+        "end": 1758939653
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1758939653,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30266,8 +30290,13 @@
       {
         "status": "[China] - Returning",
         "start": 1758929469,
-        "end": null,
+        "end": 1758939653,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758939653,
+        "end": null
       }
     ]
   },
@@ -35568,6 +35597,11 @@
       {
         "status": "[Japan] - Idle",
         "start": 1758932451,
+        "end": 1758939653
+      },
+      {
+        "status": "[Japan] Mugged - Revives: OFF",
+        "start": 1758939653,
         "end": null
       }
     ]
