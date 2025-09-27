@@ -19193,6 +19193,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1758943251,
+        "end": 1758943858,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1758943858,
         "end": null,
         "travel_type": "standard"
       }
@@ -23953,7 +23959,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758942076,
-        "end": null
+        "end": 1758943858
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1758943858,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37080,8 +37092,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1758942076,
-        "end": null,
+        "end": 1758943858,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758943858,
+        "end": null
       }
     ]
   },
