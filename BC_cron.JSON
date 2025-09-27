@@ -1719,7 +1719,13 @@
       {
         "status": "Available",
         "start": 1758935450,
-        "end": null
+        "end": 1758955844
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1758955844,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11204,7 +11210,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758955250,
-        "end": null
+        "end": 1758955844
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758955844,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12764,11 +12776,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757745644,
-        "end": 1757746244
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1757746244,
@@ -14533,7 +14540,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1758946253,
-        "end": null
+        "end": 1758955844
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1758955844,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22382,12 +22395,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1757745644,
-        "end": 1757746863,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1757746863,
         "end": 1757748676
@@ -23417,8 +23424,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1758946253,
-        "end": null,
+        "end": 1758955844,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758955844,
+        "end": null
       }
     ]
   },
@@ -25256,6 +25268,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1758954051,
+        "end": 1758955844,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758955844,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34107,11 +34125,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757745644,
-        "end": 1757748046
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1757748046,
         "end": 1757749236
@@ -38163,11 +38176,6 @@
     "name": "Sleepy_Skyes",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757745644,
-        "end": 1757773861
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1757773861,
         "end": 1757775041
@@ -39737,6 +39745,12 @@
       {
         "status": "[Canada] - Returning",
         "start": 1758954051,
+        "end": 1758955844,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1758955844,
         "end": null,
         "travel_type": "airstrip"
       }
