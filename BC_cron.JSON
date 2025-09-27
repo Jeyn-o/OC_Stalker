@@ -3,17 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757802050,
-        "end": 1757802646
-      },
-      {
-        "status": "[South Africa] - Going",
-        "start": 1757802646,
-        "end": 1757815262,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1757815262,
         "end": 1757815845
@@ -12313,8 +12302,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759011646,
-        "end": null,
+        "end": 1759012269,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759012269,
+        "end": null
       }
     ]
   },
@@ -14104,8 +14098,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759000257,
-        "end": null,
+        "end": 1759012269,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759012269,
+        "end": null
       }
     ]
   },
@@ -16103,12 +16102,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757802050,
-        "end": 1757808643,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757808643,
         "end": 1757856048
@@ -16930,7 +16923,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759010473,
-        "end": null
+        "end": 1759012269
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759012269,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29679,8 +29678,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759010473,
-        "end": null,
+        "end": 1759012269,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759012269,
+        "end": null
       }
     ]
   },
@@ -39828,6 +39832,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759011646,
+        "end": 1759012269
+      },
+      {
+        "status": "Available",
+        "start": 1759012269,
         "end": null
       }
     ]
