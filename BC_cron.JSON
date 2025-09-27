@@ -11871,11 +11871,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757737862,
-        "end": 1757752254
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1757752254,
         "end": 1757752847
@@ -13725,6 +13720,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758945042,
+        "end": 1758948057
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: Partial",
+        "start": 1758948057,
         "end": null
       }
     ]
@@ -21486,12 +21486,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1757737862,
-        "end": 1757743843,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757743843,
@@ -36508,11 +36502,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757737862,
-        "end": 1757779260
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1757779260,
         "end": 1757781066
@@ -37157,7 +37146,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1758946855,
-        "end": null
+        "end": 1758948057
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1758948057,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
