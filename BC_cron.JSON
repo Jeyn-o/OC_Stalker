@@ -2939,8 +2939,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1758969656,
-        "end": null,
+        "end": 1758975056,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1758975056,
+        "end": null
       }
     ]
   },
@@ -10591,6 +10596,11 @@
       {
         "status": "Available",
         "start": 1758954051,
+        "end": 1758975056
+      },
+      {
+        "status": "Jail",
+        "start": 1758975056,
         "end": null
       }
     ]
@@ -11688,11 +11698,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1757764863,
-        "end": 1757765447
-      },
       {
         "status": "Available",
         "start": 1757765447,
@@ -19633,7 +19638,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1758969063,
-        "end": null
+        "end": 1758975056
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1758975056,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -26685,7 +26696,13 @@
       {
         "status": "Available",
         "start": 1758972046,
-        "end": null
+        "end": 1758975056
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1758975056,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38666,6 +38683,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1758973849,
+        "end": 1758975056,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1758975056,
         "end": null,
         "travel_type": "airstrip"
       }
