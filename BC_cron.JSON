@@ -2440,11 +2440,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1757754636,
-        "end": 1757756452
-      },
-      {
         "status": "Available",
         "start": 1757756452,
         "end": 1757793662
@@ -2927,11 +2922,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: OFF",
-        "start": 1757754636,
-        "end": 1757755857
-      },
       {
         "status": "Available",
         "start": 1757755857,
@@ -5800,11 +5790,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1757754636,
-        "end": 1757772651
-      },
       {
         "status": "[China] - Returning",
         "start": 1757772651,
@@ -9700,6 +9685,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758957052,
+        "end": 1758964251,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758964251,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -10524,11 +10515,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757754068,
-        "end": 1757797849
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1757797849,
@@ -35999,7 +35985,13 @@
       {
         "status": "Available",
         "start": 1758963672,
-        "end": null
+        "end": 1758964251
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758964251,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38632,7 +38624,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1758963045,
-        "end": null
+        "end": 1758964251
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758964251,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
