@@ -1641,11 +1641,6 @@
     "name": "poik9",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: Partial",
-        "start": 1757752847,
-        "end": 1757753446
-      },
-      {
         "status": "Available",
         "start": 1757753446,
         "end": 1757779260
@@ -7434,8 +7429,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1758961865,
-        "end": null,
+        "end": 1758963045,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758963045,
+        "end": null
       }
     ]
   },
@@ -8526,11 +8526,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757752847,
-        "end": 1757804462
-      },
       {
         "status": "[Japan] - Going",
         "start": 1757804462,
@@ -12029,11 +12024,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757752847,
-        "end": 1757757661
-      },
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1757757661,
@@ -16815,8 +16805,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1758961257,
-        "end": null,
+        "end": 1758963045,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758963045,
+        "end": null
       }
     ]
   },
@@ -23482,7 +23477,13 @@
       {
         "status": "Available",
         "start": 1758962452,
-        "end": null
+        "end": 1758963045
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1758963045,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25344,6 +25345,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1758961257,
+        "end": 1758963045,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758963045,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -26355,7 +26362,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1758960067,
-        "end": null
+        "end": 1758963045
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758963045,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30727,12 +30740,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757752847,
-        "end": 1757760046,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757760046,
@@ -38603,8 +38610,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1758961257,
-        "end": null,
+        "end": 1758963045,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1758963045,
+        "end": null
       }
     ]
   },
