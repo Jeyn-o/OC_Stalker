@@ -1028,12 +1028,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757750469,
-        "end": 1757757046,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757757046,
         "end": 1757824848
@@ -2427,7 +2421,13 @@
       {
         "status": "Available",
         "start": 1758886852,
-        "end": null
+        "end": 1758960648
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758960648,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5805,12 +5805,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1757750469,
-        "end": 1757754636,
-        "travel_type": "standard"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1757754636,
         "end": 1757772651
@@ -7416,6 +7410,12 @@
       {
         "status": "[Canada] - Returning",
         "start": 1758958845,
+        "end": 1758960648,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1758960648,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -9009,7 +9009,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1758959452,
-        "end": null
+        "end": 1758960648
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1758960648,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11733,8 +11739,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1758951067,
-        "end": null,
+        "end": 1758960648,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1758960648,
+        "end": null
       }
     ]
   },
@@ -21629,11 +21640,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757750469,
-        "end": 1757751060
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1757751060,
         "end": 1757757661,
@@ -22406,8 +22412,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758954051,
-        "end": null,
+        "end": 1758960648,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758960648,
+        "end": null
       }
     ]
   },
@@ -24226,12 +24237,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1757750469,
-        "end": 1757757661,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757757661,
@@ -26899,7 +26904,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758954672,
-        "end": null
+        "end": 1758960648
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758960648,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38247,8 +38258,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1758960067,
-        "end": null,
+        "end": 1758960648,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1758960648,
+        "end": null
       }
     ]
   },
