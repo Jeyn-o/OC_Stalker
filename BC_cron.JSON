@@ -1659,12 +1659,6 @@
     "name": "poik9",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757787641,
-        "end": 1757794244,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757794244,
         "end": 1758356446
@@ -3022,7 +3016,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1758996652,
-        "end": null
+        "end": 1758997865
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1758997865,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26184,6 +26184,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1758996077,
+        "end": 1758997865,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758997865,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31685,6 +31691,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1758996652,
+        "end": 1758997865
+      },
+      {
+        "status": "Available",
+        "start": 1758997865,
         "end": null
       }
     ]
