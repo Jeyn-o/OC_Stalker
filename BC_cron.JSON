@@ -12308,7 +12308,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759011055,
-        "end": null
+        "end": 1759011646
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759011646,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15218,7 +15224,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759011055,
-        "end": null
+        "end": 1759011646
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759011646,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16076,6 +16088,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1759010473,
+        "end": 1759011646,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759011646,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -18042,12 +18060,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1757801449,
-        "end": 1757804462,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Idle",
         "start": 1757804462,
@@ -25134,7 +25146,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759003269,
-        "end": null
+        "end": 1759011646
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759011646,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26397,8 +26415,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759009856,
-        "end": null,
+        "end": 1759011646,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759011646,
+        "end": null
       }
     ]
   },
@@ -38896,7 +38919,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1759011055,
-        "end": null
+        "end": 1759011646
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759011646,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39793,8 +39822,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759009856,
-        "end": null,
+        "end": 1759011646,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1759011646,
+        "end": null
       }
     ]
   },
