@@ -3395,11 +3395,6 @@
     "name": "smyles",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757732469,
-        "end": 1757791848
-      },
-      {
         "status": "Jail",
         "start": 1757791848,
         "end": 1757797275
@@ -4388,12 +4383,6 @@
   "2184227": {
     "name": "SassyMcSlacker",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1757732469,
-        "end": 1757741456,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757741456,
@@ -12659,12 +12648,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1757732469,
-        "end": 1757745644,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757745644,
         "end": 1757746244
@@ -17120,12 +17103,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1757732469,
-        "end": 1757736061,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1757736061,
         "end": 1757758263
@@ -19199,8 +19176,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1758942076,
-        "end": null,
+        "end": 1758942652,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1758942652,
+        "end": null
       }
     ]
   },
@@ -22228,11 +22210,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757732469,
-        "end": 1757745644
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1757745644,
@@ -27138,6 +27115,12 @@
       {
         "status": "[China] - Going",
         "start": 1758932451,
+        "end": 1758942652,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758942652,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31082,7 +31065,13 @@
       {
         "status": "[China] - Idle",
         "start": 1758933059,
-        "end": null
+        "end": 1758942652
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1758942652,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
