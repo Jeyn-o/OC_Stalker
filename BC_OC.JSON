@@ -31811,20 +31811,22 @@
     "status": "Recruiting",
     "ready_at": 1759072120,
     "executed_at": null,
-    "slots": {
-      "P1": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1758985850,
+        "action": "joined",
+        "slot": "P1",
         "user_id": 3759168,
         "user_name": "AIshen",
         "checkpoint_pass_rate": 69,
         "position": "Imitator",
         "position_number": 1,
         "item_available": false
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1758985850,
-        "action": "joined",
+        "timestamp": 1758986455,
+        "action": "left",
         "slot": "P1",
         "user_id": 3759168,
         "user_name": "AIshen",
@@ -31838,7 +31840,7 @@
   "882144": {
     "name": "Pet Project",
     "status": "Recruiting",
-    "ready_at": 1759011954,
+    "ready_at": 1759098354,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -31846,6 +31848,14 @@
         "user_name": "Special-Needs",
         "checkpoint_pass_rate": 93,
         "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 3759168,
+        "user_name": "AIshen",
+        "checkpoint_pass_rate": 85,
+        "position": "Muscle",
         "position_number": 1,
         "item_available": true
       }
@@ -31881,6 +31891,17 @@
         "user_name": "AIshen",
         "checkpoint_pass_rate": 84,
         "position": "Kidnapper",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1758986455,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3759168,
+        "user_name": "AIshen",
+        "checkpoint_pass_rate": 85,
+        "position": "Muscle",
         "position_number": 1,
         "item_available": true
       }
