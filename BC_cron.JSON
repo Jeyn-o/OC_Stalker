@@ -2990,7 +2990,13 @@
       {
         "status": "Available",
         "start": 1758983464,
-        "end": null
+        "end": 1758990669
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1758990669,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4537,7 +4543,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1758989444,
-        "end": null
+        "end": 1758990669
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758990669,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7784,7 +7796,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1758976272,
-        "end": null
+        "end": 1758990669
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1758990669,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17329,11 +17347,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757780450,
-        "end": 1757785846
-      },
-      {
         "status": "Jail",
         "start": 1757785846,
         "end": 1757786464
@@ -20871,6 +20884,11 @@
       {
         "status": "[Japan] - Idle",
         "start": 1758990054,
+        "end": 1758990669
+      },
+      {
+        "status": "[Japan] Lost - Revives: ALL",
+        "start": 1758990669,
         "end": null
       }
     ]
@@ -20878,11 +20896,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757780450,
-        "end": 1757783440
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1757783440,
@@ -21883,11 +21896,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1757780450,
-        "end": 1757784039
-      },
       {
         "status": "Available",
         "start": 1757784039,
@@ -26066,6 +26074,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1758988865,
+        "end": 1758990669,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1758990669,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35104,8 +35118,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758983464,
-        "end": null,
+        "end": 1758990669,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1758990669,
+        "end": null
       }
     ]
   },
