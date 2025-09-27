@@ -3945,6 +3945,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1758969656,
+        "end": 1758976272,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1758976272,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4442,8 +4448,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1758974463,
-        "end": null,
+        "end": 1758976272,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1758976272,
+        "end": null
       }
     ]
   },
@@ -5685,7 +5696,13 @@
       {
         "status": "Available",
         "start": 1758920473,
-        "end": null
+        "end": 1758976272
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1758976272,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -7674,8 +7691,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1758967257,
-        "end": null,
+        "end": 1758976272,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1758976272,
+        "end": null
       }
     ]
   },
@@ -17541,12 +17563,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757766656,
-        "end": 1757769047,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1757769047,
         "end": 1757774450
@@ -20565,12 +20581,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1757766044,
-        "end": 1757773245,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1757773245,
         "end": 1757780450,
@@ -22661,7 +22671,13 @@
       {
         "status": "Available",
         "start": 1758975646,
-        "end": null
+        "end": 1758976272
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1758976272,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25665,7 +25681,13 @@
       {
         "status": "Available",
         "start": 1758975646,
-        "end": null
+        "end": 1758976272
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1758976272,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38707,8 +38729,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1758975056,
-        "end": null,
+        "end": 1758976272,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1758976272,
+        "end": null
       }
     ]
   },
