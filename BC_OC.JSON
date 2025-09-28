@@ -29770,9 +29770,9 @@
   },
   "867432": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1759012260,
-    "executed_at": null,
+    "executed_at": 1759026365,
     "slots": {
       "P1": {
         "user_id": 2302062,
@@ -31697,7 +31697,7 @@
   "879205": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1759187533,
+    "ready_at": 1759273933,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -31729,6 +31729,14 @@
         "checkpoint_pass_rate": 74,
         "position": "Picklock",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 2736671,
+        "user_name": "Twitt3y",
+        "checkpoint_pass_rate": 70,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -31773,6 +31781,17 @@
         "checkpoint_pass_rate": 74,
         "position": "Picklock",
         "position_number": 1
+      },
+      {
+        "timestamp": 1759026680,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2736671,
+        "user_name": "Twitt3y",
+        "checkpoint_pass_rate": 70,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
