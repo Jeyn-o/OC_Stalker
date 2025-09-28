@@ -3676,12 +3676,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1757812851,
-        "end": 1757825442,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1757825442,
         "end": 1757826064
@@ -9412,7 +9406,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759005659,
-        "end": null
+        "end": 1759023068
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759023068,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10081,7 +10081,13 @@
       {
         "status": "Available",
         "start": 1758970872,
-        "end": null
+        "end": 1759023068
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759023068,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18110,11 +18116,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1757812851,
-        "end": 1757813465
-      },
-      {
         "status": "[China] - Returning",
         "start": 1757813465,
         "end": 1757816453,
@@ -21222,11 +21223,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[South Africa] Mugged - Revives: ALL",
-        "start": 1757812851,
-        "end": 1757814652
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1757814652,
         "end": 1757822464
@@ -22194,11 +22190,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: OFF",
-        "start": 1757812851,
-        "end": 1757818242
-      },
       {
         "status": "Available",
         "start": 1757818242,
@@ -23284,11 +23275,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1757812851,
-        "end": 1757819441
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1757819441,
@@ -29775,7 +29761,13 @@
       {
         "status": "Available",
         "start": 1759022451,
-        "end": null
+        "end": 1759023068
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759023068,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34053,6 +34045,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759021848,
+        "end": 1759023068,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759023068,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -39096,8 +39094,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759021848,
-        "end": null,
+        "end": 1759023068,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759023068,
+        "end": null
       }
     ]
   },
