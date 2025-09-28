@@ -1801,7 +1801,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1759090851,
-        "end": null
+        "end": 1759091467
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759091467,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3163,7 +3169,13 @@
       {
         "status": "Available",
         "start": 1759083654,
-        "end": null
+        "end": 1759091467
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759091467,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15757,11 +15769,6 @@
     "name": "JuanPaulo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757881851,
-        "end": 1757885462
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1757885462,
         "end": 1757890871,
@@ -17487,12 +17494,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1757881851,
-        "end": 1757888452,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1757888452,
         "end": 1757895653,
@@ -18669,12 +18670,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1757881254,
-        "end": 1757884240,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Idle",
         "start": 1757884240,
@@ -21795,11 +21790,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757881851,
-        "end": 1757920255
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1757920255,
         "end": 1757926866,
@@ -22582,8 +22572,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759089678,
-        "end": null,
+        "end": 1759091467,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759091467,
+        "end": null
       }
     ]
   },
@@ -25960,11 +25955,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757881851,
-        "end": 1757911847
-      },
-      {
         "status": "Jail",
         "start": 1757911847,
         "end": 1757915447
@@ -28399,11 +28389,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1757881254,
-        "end": 1757884240
-      },
-      {
         "status": "[China] Attacked - Revives: ALL",
         "start": 1757884240,
         "end": 1757886046
@@ -29509,6 +29494,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759084273,
+        "end": 1759091467,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759091467,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -36519,6 +36510,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759090851,
+        "end": 1759091467,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759091467,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -38565,6 +38562,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1759089052,
+        "end": 1759091467
+      },
+      {
+        "status": "Available",
+        "start": 1759091467,
         "end": null
       }
     ]
@@ -42981,7 +42983,13 @@
       {
         "status": "Available",
         "start": 1759089052,
-        "end": null
+        "end": 1759091467
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1759091467,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
