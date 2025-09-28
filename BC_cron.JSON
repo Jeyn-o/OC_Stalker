@@ -1665,8 +1665,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759076446,
-        "end": null,
+        "end": 1759083054,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759083054,
+        "end": null
       }
     ]
   },
@@ -9124,12 +9129,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1757872866,
-        "end": 1757882446,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1757882446,
         "end": 1757891449,
@@ -12783,7 +12782,13 @@
       {
         "status": "Available",
         "start": 1759056048,
-        "end": null
+        "end": 1759083054
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759083054,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18594,12 +18599,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1757872866,
-        "end": 1757874664,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1757874664,
@@ -33622,12 +33621,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1757872866,
-        "end": 1757878256,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1757878256,
         "end": 1757884240,
@@ -38464,6 +38457,11 @@
       {
         "status": "Available",
         "start": 1759081240,
+        "end": 1759083054
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1759083054,
         "end": null
       }
     ]
@@ -40194,6 +40192,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759070455,
+        "end": 1759083054,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759083054,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40202,11 +40206,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757872866,
-        "end": 1757943645
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1757943645,
