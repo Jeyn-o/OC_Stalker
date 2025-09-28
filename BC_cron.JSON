@@ -1660,7 +1660,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759075282,
-        "end": null
+        "end": 1759076446
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759076446,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9652,8 +9658,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759063849,
-        "end": null,
+        "end": 1759076446,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759076446,
+        "end": null
       }
     ]
   },
@@ -10304,8 +10315,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759069876,
-        "end": null,
+        "end": 1759076446,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759076446,
+        "end": null
       }
     ]
   },
@@ -18535,12 +18551,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1757866249,
-        "end": 1757868052,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1757868052,
         "end": 1757868652
@@ -20676,6 +20686,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759072246,
+        "end": 1759076446,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759076446,
         "end": null,
         "travel_type": "standard"
       }
@@ -28851,12 +28867,6 @@
     "name": "Mr_jeff14574",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1757866249,
-        "end": 1757876459,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Returning",
         "start": 1757876459,
         "end": 1757886647,
@@ -33572,12 +33582,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1757866249,
-        "end": 1757871647,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757871647,
         "end": 1757872866
@@ -34940,6 +34944,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759075282,
+        "end": 1759076446,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759076446,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -38392,8 +38402,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759069876,
-        "end": null,
+        "end": 1759076446,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1759076446,
+        "end": null
       }
     ]
   },
