@@ -32228,8 +32228,8 @@
   },
   "884640": {
     "name": "Clinical Precision",
-    "status": "Recruiting",
-    "ready_at": 1759310822,
+    "status": "Planning",
+    "ready_at": 1759397222,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -32254,6 +32254,14 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": false
+      },
+      "P3": {
+        "user_id": 2671608,
+        "user_name": "AlfieG",
+        "checkpoint_pass_rate": 62,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -32288,6 +32296,17 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1759067447,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2671608,
+        "user_name": "AlfieG",
+        "checkpoint_pass_rate": 62,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -32296,19 +32315,21 @@
     "status": "Recruiting",
     "ready_at": 1759153214,
     "executed_at": null,
-    "slots": {
-      "P6": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1759066855,
+        "action": "joined",
+        "slot": "P6",
         "user_id": 2671608,
         "user_name": "AlfieG",
         "checkpoint_pass_rate": 75,
         "position": "Picklock",
         "position_number": 2
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1759066855,
-        "action": "joined",
+        "timestamp": 1759067447,
+        "action": "left",
         "slot": "P6",
         "user_id": 2671608,
         "user_name": "AlfieG",
