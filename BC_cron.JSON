@@ -11984,7 +11984,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1759022451,
-        "end": null
+        "end": 1759024249
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759024249,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20250,8 +20256,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1759021273,
-        "end": null,
+        "end": 1759024249,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1759024249,
+        "end": null
       }
     ]
   },
@@ -34045,6 +34056,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759023068,
+        "end": 1759024249,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759024249,
         "end": null,
         "travel_type": "airstrip"
       }
