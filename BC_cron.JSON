@@ -3,12 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1757854869,
-        "end": 1757868052,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1757868052,
         "end": 1757880659,
@@ -728,7 +722,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759064476,
-        "end": null
+        "end": 1759065051
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759065051,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3554,8 +3554,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759052455,
-        "end": null,
+        "end": 1759065051,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759065051,
+        "end": null
       }
     ]
   },
@@ -11060,6 +11065,11 @@
       {
         "status": "Available",
         "start": 1759063849,
+        "end": 1759065051
+      },
+      {
+        "status": "Jail",
+        "start": 1759065051,
         "end": null
       }
     ]
@@ -16338,7 +16348,13 @@
       {
         "status": "Available",
         "start": 1759064476,
-        "end": null
+        "end": 1759065051
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1759065051,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20516,6 +20532,12 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759062671,
+        "end": 1759065051,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1759065051,
         "end": null,
         "travel_type": "standard"
       }
@@ -25611,7 +25633,13 @@
       {
         "status": "Available",
         "start": 1759062054,
-        "end": null
+        "end": 1759065051
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1759065051,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33343,12 +33371,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1757854869,
-        "end": 1757860262,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1757860262,
         "end": 1757866249
@@ -34706,7 +34728,13 @@
       {
         "status": "[Japan] Mugged - Revives: ALL",
         "start": 1759062671,
-        "end": null
+        "end": 1759065051
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759065051,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38136,11 +38164,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757854869,
-        "end": 1757895653
-      },
-      {
         "status": "[China] - Going",
         "start": 1757895653,
         "end": 1757905269,
@@ -39831,6 +39854,11 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759064476,
+        "end": 1759065051
+      },
+      {
+        "status": "[Mexico] Mugged - Revives: ALL",
+        "start": 1759065051,
         "end": null
       }
     ]
