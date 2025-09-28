@@ -985,12 +985,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1757824848,
-        "end": 1757832653,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1757832653,
         "end": 1757839840,
@@ -3681,11 +3675,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1757825442,
-        "end": 1757826064
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1757826064,
         "end": 1757838654,
@@ -4627,12 +4616,6 @@
   "2184227": {
     "name": "SassyMcSlacker",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1757825442,
-        "end": 1757835045,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757835045,
@@ -6025,12 +6008,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1757824848,
-        "end": 1757829046,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1757829046,
@@ -8012,12 +7989,6 @@
     "name": "NeshoNeko",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1757825442,
-        "end": 1757832653,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1757832653,
         "end": 1757839242
@@ -8925,11 +8896,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[Japan] Mugged - Revives: ALL",
-        "start": 1757824848,
-        "end": 1757826646
-      },
-      {
         "status": "[Japan] Hospitalized - Revives: ALL",
         "start": 1757826646,
         "end": 1757838052
@@ -9450,7 +9416,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1759034450,
-        "end": null
+        "end": 1759035054
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759035054,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13524,12 +13496,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1757824848,
-        "end": 1757836858,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1757836858,
@@ -24446,12 +24412,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1757824848,
-        "end": 1757832653,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757832653,
         "end": 1757869271
@@ -28222,8 +28182,13 @@
       {
         "status": "[China] - Going",
         "start": 1759025451,
-        "end": null,
+        "end": 1759035054,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759035054,
+        "end": null
       }
     ]
   },
@@ -35834,6 +35799,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759034450,
+        "end": 1759035054
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1759035054,
         "end": null
       }
     ]
@@ -38382,6 +38352,11 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1759033255,
+        "end": 1759035054
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759035054,
         "end": null
       }
     ]
