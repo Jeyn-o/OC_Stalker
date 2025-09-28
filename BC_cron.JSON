@@ -746,11 +746,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757811661,
-        "end": 1757886647
-      },
-      {
         "status": "[Hawaii] - Going",
         "start": 1757886647,
         "end": 1757892046,
@@ -13449,12 +13444,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1757811661,
-        "end": 1757824256,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757824256,
         "end": 1757824848
@@ -15262,8 +15251,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759011646,
-        "end": null,
+        "end": 1759021273,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759021273,
+        "end": null
       }
     ]
   },
@@ -20245,6 +20239,12 @@
       {
         "status": "[China] - Returning",
         "start": 1759017667,
+        "end": 1759021273,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1759021273,
         "end": null,
         "travel_type": "standard"
       }
@@ -23275,12 +23275,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1757811661,
-        "end": 1757812851,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1757812851,
         "end": 1757819441
@@ -24339,7 +24333,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759017667,
-        "end": null
+        "end": 1759021273
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759021273,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25198,8 +25198,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759011646,
-        "end": null,
+        "end": 1759021273,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759021273,
+        "end": null
       }
     ]
   },
@@ -31938,6 +31943,12 @@
       {
         "status": "[China] - Going",
         "start": 1759011055,
+        "end": 1759021273,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759021273,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -32729,11 +32740,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1757811661,
-        "end": 1757812241
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1757812241,
@@ -38177,8 +38183,13 @@
       {
         "status": "[China] - Going",
         "start": 1759011055,
-        "end": null,
+        "end": 1759021273,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759021273,
+        "end": null
       }
     ]
   },
