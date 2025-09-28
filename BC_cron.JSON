@@ -11785,6 +11785,12 @@
       {
         "status": "[China] - Going",
         "start": 1759046473,
+        "end": 1759056048,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759056048,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -12522,8 +12528,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1759048275,
-        "end": null,
+        "end": 1759056048,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759056048,
+        "end": null
       }
     ]
   },
@@ -20467,8 +20478,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759051886,
-        "end": null,
+        "end": 1759056048,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759056048,
+        "end": null
       }
     ]
   },
@@ -26834,7 +26850,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1759055474,
-        "end": null
+        "end": 1759056048
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759056048,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
