@@ -12817,6 +12817,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759087874,
+        "end": 1759088456,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759088456,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -18608,12 +18614,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1757878843,
-        "end": 1757880659,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1757880659,
         "end": 1757881254
@@ -20739,7 +20739,13 @@
       {
         "status": "Available",
         "start": 1759087249,
-        "end": null
+        "end": 1759088456
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1759088456,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -25732,7 +25738,13 @@
       {
         "status": "Available",
         "start": 1759087874,
-        "end": null
+        "end": 1759088456
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759088456,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35508,19 +35520,19 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759072246,
-        "end": null,
+        "end": 1759088456,
         "travel_type": "standard"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1759088456,
+        "end": null
       }
     ]
   },
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757878843,
-        "end": 1757886046
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1757886046,
@@ -38474,6 +38486,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1759087874,
+        "end": 1759088456
+      },
+      {
+        "status": "Available",
+        "start": 1759088456,
         "end": null
       }
     ]
@@ -41118,7 +41135,13 @@
       {
         "status": "Available",
         "start": 1759075842,
-        "end": null
+        "end": 1759088456
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759088456,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
