@@ -2516,8 +2516,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759075842,
-        "end": null,
+        "end": 1759082463,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759082463,
+        "end": null
       }
     ]
   },
@@ -3126,7 +3131,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1759077653,
-        "end": null
+        "end": 1759082463
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759082463,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5256,7 +5267,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759078265,
-        "end": null
+        "end": 1759082463
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759082463,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13058,18 +13075,19 @@
       {
         "status": "Available",
         "start": 1759080667,
-        "end": null
+        "end": 1759082463
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759082463,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757872246,
-        "end": 1757899875
-      },
       {
         "status": "[China] - Going",
         "start": 1757899875,
@@ -13770,12 +13788,6 @@
   "3026725": {
     "name": "Neodork",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1757872246,
-        "end": 1757878256,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757878256,
@@ -16534,6 +16546,12 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759075282,
+        "end": 1759082463,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1759082463,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -17385,8 +17403,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759075282,
-        "end": null,
+        "end": 1759082463,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759082463,
+        "end": null
       }
     ]
   },
@@ -18086,11 +18109,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1757872246,
-        "end": 1757874664
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1757874664,
@@ -23812,8 +23830,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759075842,
-        "end": null,
+        "end": 1759082463,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759082463,
+        "end": null
       }
     ]
   },
@@ -28859,7 +28882,13 @@
       {
         "status": "Available",
         "start": 1759069248,
-        "end": null
+        "end": 1759082463
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759082463,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30923,8 +30952,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759070455,
-        "end": null,
+        "end": 1759082463,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759082463,
+        "end": null
       }
     ]
   },
@@ -36688,11 +36722,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1757872246,
-        "end": 1757876459
-      },
       {
         "status": "[Japan] - Going",
         "start": 1757876459,
