@@ -1778,12 +1778,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1757861446,
-        "end": 1757868052,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1757868052,
         "end": 1757874664,
@@ -8033,8 +8027,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759061445,
-        "end": null,
+        "end": 1759071062,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759071062,
+        "end": null
       }
     ]
   },
@@ -9055,12 +9054,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1757861446,
-        "end": 1757871058,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1757871058,
@@ -12253,8 +12246,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759063849,
-        "end": null,
+        "end": 1759071062,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1759071062,
+        "end": null
       }
     ]
   },
@@ -20632,8 +20630,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759068074,
-        "end": null,
+        "end": 1759071062,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759071062,
+        "end": null
       }
     ]
   },
@@ -35362,8 +35365,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1759068655,
-        "end": null,
+        "end": 1759071062,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759071062,
+        "end": null
       }
     ]
   },
@@ -36588,11 +36596,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1757861446,
-        "end": 1757864450
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1757864450,
@@ -42716,6 +42719,11 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1759068655,
+        "end": 1759071062
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1759071062,
         "end": null
       }
     ]
