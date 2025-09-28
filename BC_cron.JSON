@@ -6131,11 +6131,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1757882446,
-        "end": 1757883662
-      },
-      {
         "status": "[China] - Returning",
         "start": 1757883662,
         "end": 1757887848,
@@ -9136,12 +9131,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1757882446,
-        "end": 1757891449,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1757891449,
@@ -12407,6 +12396,11 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1759092045,
+        "end": 1759092655
+      },
+      {
+        "status": "[Switzerland] Lost - Revives: Partial",
+        "start": 1759092655,
         "end": null
       }
     ]
@@ -15057,12 +15051,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1757882446,
-        "end": 1757889066,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757889066,
@@ -36538,8 +36526,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759091467,
-        "end": null,
+        "end": 1759092655,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759092655,
+        "end": null
       }
     ]
   },
@@ -41267,7 +41260,13 @@
       {
         "status": "Available",
         "start": 1759092045,
-        "end": null
+        "end": 1759092655
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1759092655,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41648,12 +41647,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757882446,
-        "end": 1757889066,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757889066,
@@ -43027,6 +43020,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1759091467,
+        "end": 1759092655,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1759092655,
         "end": null,
         "travel_type": "airstrip"
       }
