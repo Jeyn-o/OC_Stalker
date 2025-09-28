@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1757853065,
-        "end": 1757854869
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1757854869,
         "end": 1757868052,
@@ -9560,8 +9555,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759051255,
-        "end": null,
+        "end": 1759063255,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759063255,
+        "end": null
       }
     ]
   },
@@ -28012,8 +28012,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1759061445,
-        "end": null,
+        "end": 1759063255,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1759063255,
+        "end": null
       }
     ]
   },
@@ -30319,12 +30324,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1757853065,
-        "end": 1757865054,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757865054,
         "end": 1757874664
@@ -31749,12 +31748,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1757853065,
-        "end": 1757865054,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Going",
         "start": 1757865054,
@@ -36352,7 +36345,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759058455,
-        "end": null
+        "end": 1759063255
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759063255,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38085,7 +38084,13 @@
       {
         "status": "Available",
         "start": 1759062671,
-        "end": null
+        "end": 1759063255
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759063255,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39777,19 +39782,19 @@
       {
         "status": "Available",
         "start": 1759040450,
-        "end": null
+        "end": 1759063255
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759063255,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1757853065,
-        "end": 1757862656,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Returning",
         "start": 1757862656,
