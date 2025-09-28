@@ -726,6 +726,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759016447,
+        "end": 1759029081,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759029081,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7232,8 +7238,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759014652,
-        "end": null,
+        "end": 1759029081,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759029081,
+        "end": null
       }
     ]
   },
@@ -10875,6 +10886,11 @@
       {
         "status": "Available",
         "start": 1759025451,
+        "end": 1759029081
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1759029081,
         "end": null
       }
     ]
@@ -12653,11 +12669,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757819441,
-        "end": 1757820664
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1757820664,
@@ -20289,7 +20300,13 @@
       {
         "status": "Available",
         "start": 1759028471,
-        "end": null
+        "end": 1759029081
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759029081,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -23318,12 +23335,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1757819441,
-        "end": 1757820050,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757820050,
@@ -28186,12 +28197,6 @@
     "name": "Mr_jeff14574",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1757819441,
-        "end": 1757829664,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757829664,
         "end": 1757866249
@@ -29820,7 +29825,13 @@
       {
         "status": "Available",
         "start": 1759028471,
-        "end": null
+        "end": 1759029081
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759029081,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30357,12 +30368,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1757819441,
-        "end": 1757826064,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757826064,
@@ -37507,6 +37512,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1759020654,
+        "end": 1759029081
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1759029081,
         "end": null
       }
     ]
