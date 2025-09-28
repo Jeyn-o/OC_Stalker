@@ -7202,11 +7202,6 @@
     "name": "LSEdmond",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1757848244,
-        "end": 1757848856
-      },
-      {
         "status": "Available",
         "start": 1757848856,
         "end": 1758298849
@@ -7329,12 +7324,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1757848244,
-        "end": 1757860848,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1757860848,
@@ -8031,11 +8020,6 @@
   "2611425": {
     "name": "NeshoNeko",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1757848244,
-        "end": 1757849455
-      },
       {
         "status": "Available",
         "start": 1757849455,
@@ -9711,12 +9695,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1757848244,
-        "end": 1757854254,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1757854254,
         "end": 1757856048
@@ -11042,6 +11020,16 @@
       {
         "status": "Available",
         "start": 1759048275,
+        "end": null
+      }
+    ]
+  },
+  "2778055": {
+    "name": "MrPorkenstien",
+    "activities": [
+      {
+        "status": "Available",
+        "start": 1759057858,
         "end": null
       }
     ]
@@ -20685,11 +20673,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1757848244,
-        "end": 1757848856
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1757848856,
         "end": 1757858462,
@@ -24666,8 +24649,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1759048275,
-        "end": null,
+        "end": 1759057858,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1759057858,
+        "end": null
       }
     ]
   },
@@ -26863,8 +26851,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759056048,
-        "end": null,
+        "end": 1759057858,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759057858,
+        "end": null
       }
     ]
   },
@@ -29075,8 +29068,13 @@
       {
         "status": "[China] - Going",
         "start": 1759048275,
-        "end": null,
+        "end": 1759057858,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759057858,
+        "end": null
       }
     ]
   },
@@ -33214,11 +33212,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1757848244,
-        "end": 1757849455
-      },
-      {
         "status": "Available",
         "start": 1757849455,
         "end": 1757854869
@@ -34576,8 +34569,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1759048275,
-        "end": null,
+        "end": 1759057858,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1759057858,
+        "end": null
       }
     ]
   },
@@ -42316,6 +42314,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759054854,
+        "end": 1759057858
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1759057858,
         "end": null
       }
     ]
