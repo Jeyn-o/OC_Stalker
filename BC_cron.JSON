@@ -1760,11 +1760,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1757807449,
-        "end": 1757809248
-      },
-      {
         "status": "Available",
         "start": 1757809248,
         "end": 1757835646
@@ -5139,6 +5134,12 @@
       {
         "status": "[China] - Going",
         "start": 1759006876,
+        "end": 1759017667,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759017667,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14539,11 +14540,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757807449,
-        "end": 1757808063
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1757808063,
         "end": 1757814652,
@@ -17625,12 +17621,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1757807449,
-        "end": 1757817064,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1757817064,
         "end": 1757818242
@@ -18106,6 +18096,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1759008673,
+        "end": 1759017667,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759017667,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -20260,7 +20256,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759017050,
-        "end": null
+        "end": 1759017667
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759017667,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -21211,8 +21213,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1759008056,
-        "end": null,
+        "end": 1759017667,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1759017667,
+        "end": null
       }
     ]
   },
@@ -24346,8 +24353,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759017050,
-        "end": null,
+        "end": 1759017667,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759017667,
+        "end": null
       }
     ]
   },
@@ -28135,12 +28147,6 @@
     "name": "Mr_jeff14574",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1757807449,
-        "end": 1757817064,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1757817064,
         "end": 1757819441
@@ -28635,11 +28641,6 @@
   "3542414": {
     "name": "awesomemcsexy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757807449,
-        "end": 1757832653
-      },
       {
         "status": "[Canada] - Going",
         "start": 1757832653,
