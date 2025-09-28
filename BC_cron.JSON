@@ -11070,6 +11070,11 @@
       {
         "status": "Jail",
         "start": 1759065051,
+        "end": 1759065657
+      },
+      {
+        "status": "Available",
+        "start": 1759065657,
         "end": null
       }
     ]
@@ -13541,6 +13546,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759064476,
+        "end": 1759065657,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759065657,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -17211,7 +17222,13 @@
       {
         "status": "Available",
         "start": 1759033873,
-        "end": null
+        "end": 1759065657
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759065657,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18380,12 +18397,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1757855446,
-        "end": 1757859039,
-        "travel_type": "standard"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1757859039,
@@ -21531,11 +21542,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757855446,
-        "end": 1757863248
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1757863248,
@@ -25647,12 +25653,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757855446,
-        "end": 1757862062,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757862062,
         "end": 1757868652
@@ -28078,8 +28078,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759063849,
-        "end": null,
+        "end": 1759065657,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759065657,
+        "end": null
       }
     ]
   },
@@ -29214,7 +29219,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759063849,
-        "end": null
+        "end": 1759065657
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759065657,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
