@@ -5259,11 +5259,6 @@
     "name": "Ronskip",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757869847,
-        "end": 1758812480
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1758812480,
         "end": 1758829241
@@ -11986,7 +11981,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1759079448,
-        "end": null
+        "end": 1759080051
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759080051,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15658,11 +15659,6 @@
     "name": "JuanPaulo",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757869847,
-        "end": 1757871647
-      },
-      {
         "status": "[United Kingdom] Mugged - Revives: Partial",
         "start": 1757871647,
         "end": 1757874041
@@ -16535,12 +16531,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1757869847,
-        "end": 1757876459,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757876459,
@@ -20701,8 +20691,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759076446,
-        "end": null,
+        "end": 1759080051,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759080051,
+        "end": null
       }
     ]
   },
@@ -28267,11 +28262,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757869847,
-        "end": 1757871058
-      },
       {
         "status": "[China] - Going",
         "start": 1757871058,
@@ -39198,8 +39188,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759069248,
-        "end": null,
+        "end": 1759080051,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759080051,
+        "end": null
       }
     ]
   },
