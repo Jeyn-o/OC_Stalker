@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1757815262,
-        "end": 1757815845
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1757815845,
         "end": 1757829046,
@@ -3526,8 +3521,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759018248,
-        "end": null,
+        "end": 1759025451,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759025451,
+        "end": null
       }
     ]
   },
@@ -10881,6 +10881,11 @@
       {
         "status": "Jail",
         "start": 1759024862,
+        "end": 1759025451
+      },
+      {
+        "status": "Available",
+        "start": 1759025451,
         "end": null
       }
     ]
@@ -13328,7 +13333,13 @@
       {
         "status": "Available",
         "start": 1759024862,
-        "end": null
+        "end": 1759025451
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1759025451,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26483,12 +26494,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1757815262,
-        "end": 1757826064,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757826064,
         "end": 1757836858
@@ -27539,8 +27544,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1759015867,
-        "end": null,
+        "end": 1759025451,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1759025451,
+        "end": null
       }
     ]
   },
@@ -28137,7 +28147,13 @@
       {
         "status": "Available",
         "start": 1759003269,
-        "end": null
+        "end": 1759025451
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759025451,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31009,11 +31025,6 @@
   "3628419": {
     "name": "Littlegman212",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1757815262,
-        "end": 1757816453
-      },
       {
         "status": "Available",
         "start": 1757816453,
@@ -34063,6 +34074,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759024249,
+        "end": 1759025451,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759025451,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35700,11 +35717,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757815262,
-        "end": 1757817064
-      },
       {
         "status": "[United Kingdom] Hospitalized - Revives: OFF",
         "start": 1757817064,
@@ -40402,11 +40414,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1757815262,
-        "end": 1757817064
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1757817064,
