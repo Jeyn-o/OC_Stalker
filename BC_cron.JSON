@@ -8878,11 +8878,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[Japan] Mugged - Revives: ALL",
-        "start": 1757814652,
-        "end": 1757817064
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1757817064,
         "end": 1757820664
@@ -9570,11 +9565,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1757814652,
-        "end": 1757816453
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1757816453,
@@ -10886,6 +10876,11 @@
       {
         "status": "Available",
         "start": 1758996077,
+        "end": 1759024862
+      },
+      {
+        "status": "Jail",
+        "start": 1759024862,
         "end": null
       }
     ]
@@ -13328,6 +13323,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759021848,
+        "end": 1759024862
+      },
+      {
+        "status": "Available",
+        "start": 1759024862,
         "end": null
       }
     ]
@@ -14551,11 +14551,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757814652,
-        "end": 1757817644
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757817644,
@@ -20262,7 +20257,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759024249,
-        "end": null
+        "end": 1759024862
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759024862,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -21227,11 +21228,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1757814652,
-        "end": 1757822464
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1757822464,
@@ -29771,8 +29767,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1759023068,
-        "end": null,
+        "end": 1759024862,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1759024862,
+        "end": null
       }
     ]
   },
@@ -39116,7 +39117,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759023068,
-        "end": null
+        "end": 1759024862
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759024862,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
