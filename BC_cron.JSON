@@ -2528,6 +2528,11 @@
       {
         "status": "Available",
         "start": 1759038054,
+        "end": 1759153245
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: Partial",
+        "start": 1759153245,
         "end": null
       }
     ]
@@ -3150,7 +3155,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759152025,
-        "end": null
+        "end": 1759153245
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759153245,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4763,8 +4774,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759141222,
-        "end": null,
+        "end": 1759153245,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759153245,
+        "end": null
       }
     ]
   },
@@ -6113,11 +6129,6 @@
     "name": "Crispyfoot",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1757943065,
-        "end": 1757944860
-      },
-      {
         "status": "Available",
         "start": 1757944860,
         "end": 1758027664
@@ -6137,11 +6148,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757943065,
-        "end": 1757949040
-      },
       {
         "status": "[China] - Going",
         "start": 1757949040,
@@ -22811,7 +22817,13 @@
       {
         "status": "Available",
         "start": 1759152622,
-        "end": null
+        "end": 1759153245
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1759153245,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23297,11 +23309,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757943065,
-        "end": 1757947850
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1757947850,
@@ -24151,6 +24158,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759146620,
+        "end": 1759153245,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759153245,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -28524,8 +28537,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759146620,
-        "end": null,
+        "end": 1759153245,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759153245,
+        "end": null
       }
     ]
   },
@@ -33832,12 +33850,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1757943065,
-        "end": 1757944860,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1757944860,
