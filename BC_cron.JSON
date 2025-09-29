@@ -5963,6 +5963,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: Partial",
         "start": 1759123834,
+        "end": 1759136424
+      },
+      {
+        "status": "Available",
+        "start": 1759136424,
         "end": null
       }
     ]
@@ -8828,6 +8833,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1759134622,
+        "end": 1759136424,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759136424,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14014,8 +14025,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1759131034,
-        "end": null,
+        "end": 1759136424,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759136424,
+        "end": null
       }
     ]
   },
@@ -15076,11 +15092,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1757926249,
-        "end": 1757928042
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1757928042,
@@ -22645,7 +22656,13 @@
       {
         "status": "Available",
         "start": 1759135824,
-        "end": null
+        "end": 1759136424
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759136424,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23124,11 +23141,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757926249,
-        "end": 1757929842
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1757929842,
@@ -30733,6 +30745,11 @@
       {
         "status": "[China] - Idle",
         "start": 1759129232,
+        "end": 1759136424
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1759136424,
         "end": null
       }
     ]
@@ -41357,8 +41374,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759135225,
-        "end": null,
+        "end": 1759136424,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759136424,
+        "end": null
       }
     ]
   },
