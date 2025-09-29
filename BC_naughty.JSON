@@ -4535,5 +4535,52 @@
     },
     "slackers": {},
     "delay_time": 656
+  },
+  "1759185622": {
+    "crime_id": 882144,
+    "crime_name": "Pet Project",
+    "created_at": null,
+    "planning_at": null,
+    "ready_at": 1759184754,
+    "executed_at": 1759185622,
+    "crime_participants": {
+      "P3": {
+        "user_id": 2291737,
+        "user_name": "Special-Needs",
+        "checkpoint_pass_rate": 93,
+        "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 3759168,
+        "user_name": "AIshen",
+        "checkpoint_pass_rate": 85,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 3760809,
+        "user_name": "RandomName1",
+        "checkpoint_pass_rate": 88,
+        "position": "Kidnapper",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "slackers": {
+      "2291737": {
+        "status": "pending",
+        "handled_by": null,
+        "notes": []
+      },
+      "3759168": {
+        "status": "pending",
+        "handled_by": null,
+        "notes": []
+      }
+    },
+    "delay_time": 868
   }
 }
