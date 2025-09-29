@@ -5977,6 +5977,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759142426,
+        "end": 1759151419,
+        "travel_type": "private"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759151419,
         "end": null,
         "travel_type": "private"
       }
@@ -13039,8 +13045,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759150222,
-        "end": null,
+        "end": 1759151419,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759151419,
+        "end": null
       }
     ]
   },
@@ -18810,12 +18821,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1757941261,
-        "end": 1757944240,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1757944240,
         "end": 1757945440
@@ -23025,8 +23030,13 @@
       {
         "status": "[China] - Going",
         "start": 1759137026,
-        "end": null,
+        "end": 1759151419,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759151419,
+        "end": null
       }
     ]
   },
@@ -24149,12 +24159,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1757941261,
-        "end": 1757942450,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757942450,
