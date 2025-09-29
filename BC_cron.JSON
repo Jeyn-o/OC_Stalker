@@ -3669,12 +3669,6 @@
     "name": "smyles",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1757962869,
-        "end": 1757970645,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1757970645,
         "end": 1757978447
@@ -13067,7 +13061,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759172432,
-        "end": null
+        "end": 1759173028
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759173028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18894,11 +18894,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757962869,
-        "end": 1757964662
-      },
-      {
         "status": "[China] - Going",
         "start": 1757964662,
         "end": 1757967648,
@@ -22961,6 +22956,12 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759171223,
+        "end": 1759173028,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759173028,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -23188,11 +23189,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757962869,
-        "end": 1757965844
-      },
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1757965844,
@@ -33167,8 +33163,13 @@
       {
         "status": "[China] - Going",
         "start": 1759162817,
-        "end": null,
+        "end": 1759173028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759173028,
+        "end": null
       }
     ]
   },
@@ -37175,11 +37176,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1757962869,
-        "end": 1757964046
-      },
       {
         "status": "Available",
         "start": 1757964046,
