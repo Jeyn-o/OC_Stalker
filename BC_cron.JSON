@@ -1635,8 +1635,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759130419,
-        "end": null,
+        "end": 1759137026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759137026,
+        "end": null
       }
     ]
   },
@@ -3156,8 +3161,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759130419,
-        "end": null,
+        "end": 1759137026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759137026,
+        "end": null
       }
     ]
   },
@@ -3788,11 +3798,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757926866,
-        "end": 1757997063
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1757997063,
         "end": 1758009040,
@@ -4197,8 +4202,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759124428,
-        "end": null,
+        "end": 1759137026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759137026,
+        "end": null
       }
     ]
   },
@@ -21835,11 +21845,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757926866,
-        "end": 1757927448
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1757927448,
         "end": 1757934070,
@@ -22875,7 +22880,13 @@
       {
         "status": "Available",
         "start": 1759083654,
-        "end": null
+        "end": 1759137026
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759137026,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -36920,11 +36931,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757926866,
-        "end": 1757934070
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1757934070,
         "end": 1757935862,
@@ -38695,6 +38701,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1759128643,
+        "end": 1759137026
+      },
+      {
+        "status": "Available",
+        "start": 1759137026,
         "end": null
       }
     ]
