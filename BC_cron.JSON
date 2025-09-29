@@ -699,6 +699,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759156824,
+        "end": 1759168825,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759168825,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -9797,8 +9803,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759159220,
-        "end": null,
+        "end": 1759168825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759168825,
+        "end": null
       }
     ]
   },
@@ -13078,7 +13089,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759167622,
-        "end": null
+        "end": 1759168825
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759168825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13388,12 +13405,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1757958645,
-        "end": 1757970062,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757970062,
@@ -23443,6 +23454,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759167027,
+        "end": 1759168825
+      },
+      {
+        "status": "Available",
+        "start": 1759168825,
         "end": null
       }
     ]
@@ -25346,12 +25362,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1757958645,
-        "end": 1757968846,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Returning",
         "start": 1757968846,
         "end": 1757979646,
@@ -26260,11 +26270,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757958645,
-        "end": 1757959260
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757959260,
@@ -28694,7 +28699,13 @@
       {
         "status": "Available",
         "start": 1759168225,
-        "end": null
+        "end": 1759168825
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1759168825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29258,12 +29269,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1757958645,
-        "end": 1757968846,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757968846,
@@ -35433,7 +35438,13 @@
       {
         "status": "Available",
         "start": 1759168225,
-        "end": null
+        "end": 1759168825
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759168825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36040,7 +36051,13 @@
       {
         "status": "Available",
         "start": 1759167622,
-        "end": null
+        "end": 1759168825
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1759168825,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
