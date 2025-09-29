@@ -1647,7 +1647,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759129818,
-        "end": null
+        "end": 1759130419
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759130419,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3162,7 +3168,13 @@
       {
         "status": "Available",
         "start": 1759128643,
-        "end": null
+        "end": 1759130419
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759130419,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7807,11 +7819,6 @@
     "name": "Jubjub82180",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757920255,
-        "end": 1758249058
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1758249058,
         "end": 1758256263,
@@ -8814,6 +8821,12 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759123227,
+        "end": 1759130419,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759130419,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -21755,20 +21768,19 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759120820,
-        "end": null,
+        "end": 1759130419,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759130419,
+        "end": null
       }
     ]
   },
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1757920255,
-        "end": 1757926866,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757926866,
@@ -24996,6 +25008,11 @@
       {
         "status": "[Hawaii] Mugged - Revives: ALL",
         "start": 1759128019,
+        "end": 1759130419
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1759130419,
         "end": null
       }
     ]
@@ -31797,8 +31814,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759123227,
-        "end": null,
+        "end": 1759130419,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1759130419,
+        "end": null
       }
     ]
   },
@@ -36827,11 +36849,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1757920255,
-        "end": 1757922647
-      },
       {
         "status": "Available",
         "start": 1757922647,
