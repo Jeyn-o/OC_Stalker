@@ -5452,6 +5452,11 @@
       {
         "status": "Available",
         "start": 1759117233,
+        "end": 1759182621
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: Partial",
+        "start": 1759182621,
         "end": null
       }
     ]
@@ -6117,11 +6122,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1757972444,
-        "end": 1757981442
-      },
       {
         "status": "[China] - Returning",
         "start": 1757981442,
@@ -10478,12 +10478,6 @@
     "name": "Haungpeary",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1757972444,
-        "end": 1757979646,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757979646,
         "end": 1758234049
@@ -13054,7 +13048,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759180233,
-        "end": null
+        "end": 1759182621
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759182621,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15928,8 +15928,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759175421,
-        "end": null,
+        "end": 1759182621,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1759182621,
+        "end": null
       }
     ]
   },
@@ -20999,7 +21004,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759180233,
-        "end": null
+        "end": 1759182621
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759182621,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -33887,12 +33898,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1757972444,
-        "end": 1757978447,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757978447,
         "end": 1757979062
@@ -35384,6 +35389,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759181424,
+        "end": 1759182621,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759182621,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40642,12 +40653,6 @@
     "name": "Cerbb",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1757972444,
-        "end": 1757979646,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1757979646,
         "end": 1757986847
@@ -41657,7 +41662,13 @@
       {
         "status": "Available",
         "start": 1759175421,
-        "end": null
+        "end": 1759182621
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759182621,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
