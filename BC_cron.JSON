@@ -10643,12 +10643,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1757976054,
-        "end": 1757982659,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757982659,
         "end": 1757990445
@@ -14040,7 +14034,13 @@
       {
         "status": "Available",
         "start": 1759184417,
-        "end": null
+        "end": 1759186225
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1759186225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18388,11 +18388,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1757976054,
-        "end": 1757977289
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1757977289,
         "end": 1757987443,
@@ -21010,6 +21005,12 @@
       {
         "status": "[China] - Returning",
         "start": 1759182621,
+        "end": 1759186225,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759186225,
         "end": null,
         "travel_type": "standard"
       }
@@ -28678,7 +28679,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759185618,
-        "end": null
+        "end": 1759186225
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759186225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30977,8 +30984,13 @@
       {
         "status": "[China] - Going",
         "start": 1759176625,
-        "end": null,
+        "end": 1759186225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759186225,
+        "end": null
       }
     ]
   },
@@ -33263,6 +33275,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1759183824,
+        "end": 1759186225
+      },
+      {
+        "status": "Available",
+        "start": 1759186225,
         "end": null
       }
     ]
