@@ -1766,12 +1766,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1757957464,
-        "end": 1757964662,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1757964662,
         "end": 1757966464
@@ -9226,11 +9220,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[Japan] Mugged - Revives: ALL",
-        "start": 1757957464,
-        "end": 1757960443
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1757960443,
         "end": 1757962248
@@ -13073,6 +13062,11 @@
       {
         "status": "[Mexico] Mugged - Revives: ALL",
         "start": 1759165234,
+        "end": 1759167622
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759167622,
         "end": null
       }
     ]
@@ -14063,7 +14057,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759167027,
-        "end": null
+        "end": 1759167622
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759167622,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -18407,7 +18407,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759164620,
-        "end": null
+        "end": 1759167622
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759167622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27556,19 +27562,19 @@
       {
         "status": "Available",
         "start": 1759167027,
-        "end": null
+        "end": 1759167622
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759167622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1757957464,
-        "end": 1757964046,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757964046,
@@ -36011,8 +36017,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1759159823,
-        "end": null,
+        "end": 1759167622,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759167622,
+        "end": null
       }
     ]
   },
@@ -40643,11 +40654,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Switzerland] Mugged - Revives: ALL",
-        "start": 1757957464,
-        "end": 1757959857
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1757959857,
