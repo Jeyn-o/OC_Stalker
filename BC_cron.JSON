@@ -7337,6 +7337,11 @@
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1759110627,
+        "end": 1759111232
+      },
+      {
+        "status": "Available",
+        "start": 1759111232,
         "end": null
       }
     ]
@@ -14774,11 +14779,6 @@
   "3114278": {
     "name": "Tooger_",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757901048,
-        "end": 1758392449
-      },
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1758392449,
@@ -23902,12 +23902,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1757901048,
-        "end": 1757901663,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1757901663,
         "end": 1757903469
@@ -24994,8 +24988,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759110627,
-        "end": null,
+        "end": 1759111232,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759111232,
+        "end": null
       }
     ]
   },
@@ -32067,12 +32066,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1757901048,
-        "end": 1757910660,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757910660,
         "end": 1757960443
@@ -35588,18 +35581,19 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759107020,
-        "end": null
+        "end": 1759111232
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759111232,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757901048,
-        "end": 1757908867
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1757908867,
@@ -36503,8 +36497,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759110627,
-        "end": null,
+        "end": 1759111232,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759111232,
+        "end": null
       }
     ]
   },
@@ -39407,11 +39406,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1757901048,
-        "end": 1757902248
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1757902248,
