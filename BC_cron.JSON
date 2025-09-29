@@ -1610,7 +1610,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759161026,
-        "end": null
+        "end": 1759161626
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759161626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2505,7 +2511,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759161026,
-        "end": null
+        "end": 1759161626
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759161626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4790,12 +4802,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1757951446,
-        "end": 1757963443,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757963443,
         "end": 1757964662
@@ -5297,6 +5303,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759149027,
+        "end": 1759161626,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759161626,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -12088,11 +12100,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: Partial",
-        "start": 1757951446,
-        "end": 1757953857
-      },
-      {
         "status": "Available",
         "start": 1757953857,
         "end": 1757962248
@@ -13066,8 +13073,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759160414,
-        "end": null,
+        "end": 1759161626,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759161626,
+        "end": null
       }
     ]
   },
@@ -13382,11 +13394,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1757951446,
-        "end": 1757953253
-      },
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1757953253,
@@ -18872,11 +18879,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1757951446,
-        "end": 1757952645
-      },
-      {
         "status": "[China] - Returning",
         "start": 1757952645,
         "end": 1757955660,
@@ -22895,8 +22897,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759160414,
-        "end": null,
+        "end": 1759161626,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759161626,
+        "end": null
       }
     ]
   },
@@ -28623,12 +28630,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1757951446,
-        "end": 1757961643,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1757961643,
@@ -41549,6 +41550,11 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759149623,
+        "end": 1759161626
+      },
+      {
+        "status": "[Japan] Mugged - Revives: ALL",
+        "start": 1759161626,
         "end": null
       }
     ]
