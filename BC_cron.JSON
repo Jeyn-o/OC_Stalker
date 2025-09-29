@@ -9175,12 +9175,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1757973665,
-        "end": 1757985649,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1757985649,
         "end": 1758004262
@@ -10641,11 +10635,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1757973665,
-        "end": 1757976054
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1757976054,
@@ -13048,8 +13037,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759182621,
-        "end": null,
+        "end": 1759183824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759183824,
+        "end": null
       }
     ]
   },
@@ -15929,18 +15923,19 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759182621,
-        "end": null
+        "end": 1759183824
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759183824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757973665,
-        "end": 1757988059
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1757988059,
@@ -17691,6 +17686,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759177223,
+        "end": 1759183824,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759183824,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -18870,12 +18871,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1757973665,
-        "end": 1757977289,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Idle",
         "start": 1757977289,
@@ -21018,11 +21013,6 @@
     "name": "xaqf",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1757973665,
-        "end": 1757985649
-      },
-      {
         "status": "[Argentina] Mugged - Revives: Partial",
         "start": 1757985649,
         "end": 1757988059
@@ -22957,8 +22947,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1759182021,
-        "end": null,
+        "end": 1759183824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1759183824,
+        "end": null
       }
     ]
   },
@@ -33231,6 +33226,11 @@
       {
         "status": "Available",
         "start": 1758997865,
+        "end": 1759183824
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1759183824,
         "end": null
       }
     ]
@@ -35394,6 +35394,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759182621,
+        "end": 1759183824,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1759183824,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -36910,11 +36916,6 @@
   "3707169": {
     "name": "LichKean",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757973665,
-        "end": 1758067269
-      },
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1758067269,
@@ -41671,8 +41672,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759182621,
-        "end": null,
+        "end": 1759183824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759183824,
+        "end": null
       }
     ]
   },
