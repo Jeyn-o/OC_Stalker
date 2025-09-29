@@ -28836,9 +28836,9 @@
   },
   "862711": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1759167822,
-    "executed_at": null,
+    "executed_at": 1759170844,
     "slots": {
       "P2": {
         "user_id": 1766417,
@@ -28846,7 +28846,7 @@
         "checkpoint_pass_rate": 72,
         "position": "Hacker",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P1": {
         "user_id": 2802632,
@@ -32708,8 +32708,8 @@
   },
   "886604": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1759266972,
+    "status": "Planning",
+    "ready_at": 1759353372,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -32725,6 +32725,14 @@
         "checkpoint_pass_rate": 68,
         "position": "Enforcer",
         "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 76,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -32748,6 +32756,17 @@
         "checkpoint_pass_rate": 68,
         "position": "Enforcer",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1759171225,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 76,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     ]
