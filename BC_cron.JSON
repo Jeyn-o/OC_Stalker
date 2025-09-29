@@ -4251,11 +4251,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1757925651,
-        "end": 1757931042
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1757931042,
         "end": 1757943645,
@@ -10362,8 +10357,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759129232,
-        "end": null,
+        "end": 1759135824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759135824,
+        "end": null
       }
     ]
   },
@@ -13914,11 +13914,6 @@
     "name": "Neodork",
     "activities": [
       {
-        "status": "[Hawaii] - Idle",
-        "start": 1757925651,
-        "end": 1757929842
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1757929842,
         "end": 1757935862,
@@ -14712,7 +14707,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759134027,
-        "end": null
+        "end": 1759135824
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759135824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22638,8 +22639,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759134622,
-        "end": null,
+        "end": 1759135824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759135824,
+        "end": null
       }
     ]
   },
@@ -23980,11 +23986,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757925651,
-        "end": 1757935242
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1757935242,
@@ -33043,12 +33044,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757925651,
-        "end": 1757932260,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757932260,
         "end": 1757933439
@@ -35722,6 +35717,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1759133424,
+        "end": 1759135824,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1759135824,
         "end": null,
         "travel_type": "standard"
       }
@@ -35730,11 +35731,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1757925651,
-        "end": 1757928042
-      },
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1757928042,
