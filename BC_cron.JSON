@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757960443,
-        "end": 1757979646
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1757979646,
         "end": 1757992246,
@@ -3664,8 +3659,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759159220,
-        "end": null,
+        "end": 1759170627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759170627,
+        "end": null
       }
     ]
   },
@@ -6005,8 +6005,13 @@
       {
         "status": "[China] - Going",
         "start": 1759163431,
-        "end": null,
+        "end": 1759170627,
         "travel_type": "private"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759170627,
+        "end": null
       }
     ]
   },
@@ -7467,11 +7472,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1757960443,
-        "end": 1757961643
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1757961643,
@@ -9230,11 +9230,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1757960443,
-        "end": 1757962248
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1757962248,
@@ -17747,7 +17742,13 @@
       {
         "status": "Available",
         "start": 1759164620,
-        "end": null
+        "end": 1759170627
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759170627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22076,6 +22077,11 @@
       {
         "status": "Available",
         "start": 1759141831,
+        "end": 1759170627
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1759170627,
         "end": null
       }
     ]
@@ -23204,11 +23210,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1757960443,
-        "end": 1757962869
-      },
       {
         "status": "Available",
         "start": 1757962869,
@@ -31030,11 +31031,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "[South Africa] Mugged - Revives: ALL",
-        "start": 1757960443,
-        "end": 1757963443
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1757963443,
         "end": 1757971868
@@ -31541,12 +31537,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1757960443,
-        "end": 1757967648,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1757967648,
@@ -32399,6 +32389,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759170027,
+        "end": 1759170627
+      },
+      {
+        "status": "Available",
+        "start": 1759170627,
         "end": null
       }
     ]
@@ -32406,12 +32401,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1757960443,
-        "end": 1757970645,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Returning",
         "start": 1757970645,
@@ -36064,8 +36053,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1759168825,
-        "end": null,
+        "end": 1759170627,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1759170627,
+        "end": null
       }
     ]
   },
@@ -39765,7 +39759,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759167027,
-        "end": null
+        "end": 1759170627
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759170627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40702,12 +40702,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1757960443,
-        "end": 1757967648,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757967648,
