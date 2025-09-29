@@ -16615,11 +16615,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757908867,
-        "end": 1757940043
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1757940043,
         "end": 1757946662,
@@ -28354,6 +28349,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1759117233,
+        "end": 1759119019,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759119019,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35101,6 +35102,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759117822,
+        "end": 1759119019,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759119019,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35650,12 +35657,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1757908867,
-        "end": 1757909454,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1757909454,
@@ -36854,12 +36855,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1757908867,
-        "end": 1757918449,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757918449,
@@ -38607,6 +38602,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1759118432,
+        "end": 1759119019
+      },
+      {
+        "status": "Available",
+        "start": 1759119019,
         "end": null
       }
     ]
@@ -43028,7 +43028,13 @@
       {
         "status": "Available",
         "start": 1759117233,
-        "end": null
+        "end": 1759119019
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759119019,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
