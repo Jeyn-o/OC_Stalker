@@ -12929,6 +12929,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759138817,
+        "end": 1759140029,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759140029,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -13953,12 +13959,6 @@
   "3026725": {
     "name": "Neodork",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1757929842,
-        "end": 1757935862,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757935862,
@@ -23189,12 +23189,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1757929842,
-        "end": 1757936439,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1757936439,
         "end": 1757943065,
@@ -24037,6 +24031,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759133424,
+        "end": 1759140029,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759140029,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25125,8 +25125,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1759134622,
-        "end": null,
+        "end": 1759140029,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759140029,
+        "end": null
       }
     ]
   },
@@ -31333,11 +31338,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757929842,
-        "end": 1757930462
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1757930462,
         "end": 1757937662,
@@ -33804,11 +33804,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1757929842,
-        "end": 1757932260
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1757932260,
@@ -41460,7 +41455,13 @@
       {
         "status": "Available",
         "start": 1759139426,
-        "end": null
+        "end": 1759140029
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1759140029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
