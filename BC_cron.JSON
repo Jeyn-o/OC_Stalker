@@ -8150,12 +8150,6 @@
     "name": "NeshoNeko",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1757968257,
-        "end": 1757975461,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757975461,
         "end": 1758400848
@@ -16870,11 +16864,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757968257,
-        "end": 1757975461
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1757975461,
@@ -37157,11 +37146,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: OFF",
-        "start": 1757968257,
-        "end": 1757969444
-      },
-      {
         "status": "Available",
         "start": 1757969444,
         "end": 1757975461
@@ -40640,7 +40624,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1759177825,
-        "end": null
+        "end": 1759178421
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759178421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43440,6 +43430,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759171824,
+        "end": 1759178421,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759178421,
         "end": null,
         "travel_type": "airstrip"
       }
