@@ -13999,8 +13999,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1759102229,
-        "end": null,
+        "end": 1759107630,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1759107630,
+        "end": null
       }
     ]
   },
@@ -15055,12 +15060,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757897449,
-        "end": 1757904054,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1757904054,
@@ -20791,8 +20790,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759104624,
-        "end": null,
+        "end": 1759107630,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759107630,
+        "end": null
       }
     ]
   },
@@ -30701,11 +30705,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757897449,
-        "end": 1757945440
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1757945440,
         "end": 1757958043,
@@ -33664,11 +33663,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1757897449,
-        "end": 1757898651
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1757898651,
@@ -39444,11 +39438,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1757897449,
-        "end": 1757898651
-      },
-      {
         "status": "[Canada] Mugged - Revives: ALL",
         "start": 1757898651,
         "end": 1757901048
@@ -43008,6 +42997,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759104624,
+        "end": 1759107630
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1759107630,
         "end": null
       }
     ]
