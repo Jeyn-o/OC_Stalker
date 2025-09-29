@@ -5482,11 +5482,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757955049,
-        "end": 1757956842
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1757956842,
         "end": 1757961643,
@@ -7291,8 +7286,13 @@
       {
         "status": "[China] - Going",
         "start": 1759161026,
-        "end": null,
+        "end": 1759165234,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759165234,
+        "end": null
       }
     ]
   },
@@ -7380,6 +7380,11 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1759164620,
+        "end": 1759165234
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759165234,
         "end": null
       }
     ]
@@ -13069,6 +13074,11 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759161626,
+        "end": 1759165234
+      },
+      {
+        "status": "[Mexico] Mugged - Revives: ALL",
+        "start": 1759165234,
         "end": null
       }
     ]
@@ -13379,11 +13389,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1757955049,
-        "end": 1757958645
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1757958645,
@@ -16872,6 +16877,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759164620,
+        "end": 1759165234,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759165234,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -16880,12 +16891,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1757955049,
-        "end": 1757961643,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757961643,
@@ -23403,12 +23408,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757955049,
-        "end": 1757961643,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757961643,
         "end": 1757998248
@@ -29731,8 +29730,13 @@
       {
         "status": "[China] - Going",
         "start": 1759155025,
-        "end": null,
+        "end": 1759165234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759165234,
+        "end": null
       }
     ]
   },
@@ -36855,7 +36859,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759150222,
-        "end": null
+        "end": 1759165234
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759165234,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39671,6 +39681,11 @@
       {
         "status": "[China] - Idle",
         "start": 1759164019,
+        "end": 1759165234
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1759165234,
         "end": null
       }
     ]
@@ -40585,6 +40600,11 @@
       {
         "status": "Available",
         "start": 1759158033,
+        "end": 1759165234
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1759165234,
         "end": null
       }
     ]
