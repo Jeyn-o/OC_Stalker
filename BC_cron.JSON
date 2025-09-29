@@ -3782,11 +3782,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1757910660,
-        "end": 1757913654
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1757913654,
         "end": 1757926866,
@@ -7273,7 +7268,13 @@
       {
         "status": "Available",
         "start": 1759116631,
-        "end": null
+        "end": 1759120820
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759120820,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -13984,11 +13985,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1757910660,
-        "end": 1757936439
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1757936439,
@@ -21749,7 +21745,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759118432,
-        "end": null
+        "end": 1759120820
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759120820,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28346,8 +28348,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759119019,
-        "end": null,
+        "end": 1759120820,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759120820,
+        "end": null
       }
     ]
   },
@@ -32086,11 +32093,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757910660,
-        "end": 1757960443
-      },
-      {
         "status": "[China] - Going",
         "start": 1757960443,
         "end": 1757970645,
@@ -35099,7 +35101,13 @@
       {
         "status": "Available",
         "start": 1759119618,
-        "end": null
+        "end": 1759120820
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1759120820,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41275,8 +41283,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759120222,
-        "end": null,
+        "end": 1759120820,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759120820,
+        "end": null
       }
     ]
   },
@@ -43030,6 +43043,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1759119019,
+        "end": 1759120820,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759120820,
         "end": null,
         "travel_type": "airstrip"
       }
