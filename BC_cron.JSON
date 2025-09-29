@@ -6116,11 +6116,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1757909454,
-        "end": 1757912470
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1757912470,
         "end": 1757915447,
@@ -15750,7 +15745,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759106418,
-        "end": null
+        "end": 1759119618
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759119618,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20774,8 +20775,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759116026,
-        "end": null,
+        "end": 1759119618,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759119618,
+        "end": null
       }
     ]
   },
@@ -23901,7 +23907,13 @@
       {
         "status": "Available",
         "start": 1759082463,
-        "end": null
+        "end": 1759119618
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759119618,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35108,8 +35120,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759119019,
-        "end": null,
+        "end": 1759119618,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759119618,
+        "end": null
       }
     ]
   },
@@ -35657,11 +35674,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1757909454,
-        "end": 1757913042
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1757913042,
@@ -38607,7 +38619,13 @@
       {
         "status": "Available",
         "start": 1759119019,
-        "end": null
+        "end": 1759119618
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759119618,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
