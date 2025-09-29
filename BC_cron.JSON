@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1757947850,
-        "end": 1757948465
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1757948465,
         "end": 1757960443,
@@ -7444,12 +7439,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1757947850,
-        "end": 1757960443,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1757960443,
@@ -16826,8 +16815,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759157423,
-        "end": null,
+        "end": 1759158033,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759158033,
+        "end": null
       }
     ]
   },
@@ -20990,7 +20984,13 @@
       {
         "status": "Available",
         "start": 1759157423,
-        "end": null
+        "end": 1759158033
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759158033,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -22867,12 +22867,6 @@
     "name": "Imtheman357",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1757947850,
-        "end": 1757962248,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1757962248,
         "end": 1758052856
@@ -23340,12 +23334,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1757947850,
-        "end": 1757954444,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1757954444,
@@ -38844,6 +38832,11 @@
       {
         "status": "Available",
         "start": 1759145423,
+        "end": 1759158033
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1759158033,
         "end": null
       }
     ]
@@ -40512,6 +40505,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759156221,
+        "end": 1759158033
+      },
+      {
+        "status": "Available",
+        "start": 1759158033,
         "end": null
       }
     ]
@@ -43295,7 +43293,13 @@
       {
         "status": "Available",
         "start": 1759127427,
-        "end": null
+        "end": 1759158033
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759158033,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
