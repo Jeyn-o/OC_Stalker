@@ -13088,8 +13088,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759168825,
-        "end": null,
+        "end": 1759170027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759170027,
+        "end": null
       }
     ]
   },
@@ -18916,12 +18921,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1757959857,
-        "end": 1757962869,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1757962869,
         "end": 1757964662
@@ -21054,8 +21053,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1759167027,
-        "end": null,
+        "end": 1759170027,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1759170027,
+        "end": null
       }
     ]
   },
@@ -21256,8 +21260,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759162817,
-        "end": null,
+        "end": 1759170027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759170027,
+        "end": null
       }
     ]
   },
@@ -22958,8 +22967,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1759168225,
-        "end": null,
+        "end": 1759170027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1759170027,
+        "end": null
       }
     ]
   },
@@ -32380,6 +32394,11 @@
       {
         "status": "Available",
         "start": 1759117822,
+        "end": 1759170027
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1759170027,
         "end": null
       }
     ]
@@ -33954,6 +33973,12 @@
       {
         "status": "[China] - Going",
         "start": 1759159823,
+        "end": 1759170027,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759170027,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35420,6 +35445,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759168825,
+        "end": 1759170027,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759170027,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40658,18 +40689,19 @@
       {
         "status": "Available",
         "start": 1759166426,
-        "end": null
+        "end": 1759170027
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1759170027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1757959857,
-        "end": 1757960443
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1757960443,
