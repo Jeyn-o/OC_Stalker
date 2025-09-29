@@ -3167,7 +3167,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759137026,
-        "end": null
+        "end": 1759137620
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759137620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12917,7 +12923,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759133424,
-        "end": null
+        "end": 1759137620
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759137620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21845,12 +21857,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1757927448,
-        "end": 1757934070,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757934070,
         "end": 1757939461
@@ -22666,6 +22672,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759136424,
+        "end": 1759137620,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759137620,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25097,11 +25109,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757927448,
-        "end": 1757958645
-      },
       {
         "status": "[China] - Going",
         "start": 1757958645,
@@ -28418,8 +28425,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759131034,
-        "end": null,
+        "end": 1759137620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759137620,
+        "end": null
       }
     ]
   },
@@ -38706,6 +38718,11 @@
       {
         "status": "Available",
         "start": 1759137026,
+        "end": 1759137620
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1759137620,
         "end": null
       }
     ]
