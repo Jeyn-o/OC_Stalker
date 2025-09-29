@@ -3165,12 +3165,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1757924450,
-        "end": 1757937040,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1757937040,
         "end": 1757949643,
@@ -3639,7 +3633,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759134027,
-        "end": null
+        "end": 1759134622
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759134622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8828,7 +8828,13 @@
       {
         "status": "Available",
         "start": 1759134027,
-        "end": null
+        "end": 1759134622
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759134622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13206,11 +13212,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757924450,
-        "end": 1757935242
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1757935242,
         "end": 1757946662,
@@ -15782,7 +15783,13 @@
       {
         "status": "Available",
         "start": 1759129232,
-        "end": null
+        "end": 1759134622
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1759134622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22619,6 +22626,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759133424,
+        "end": 1759134622,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759134622,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25047,7 +25060,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1759130419,
-        "end": null
+        "end": 1759134622
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759134622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36892,11 +36911,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1757924450,
-        "end": 1757926866
-      },
       {
         "status": "Available",
         "start": 1757926866,
