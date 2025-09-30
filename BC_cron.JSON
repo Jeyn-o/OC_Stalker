@@ -2469,7 +2469,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759251023,
-        "end": null
+        "end": 1759254623
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759254623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13353,6 +13359,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759254030,
+        "end": 1759254623,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759254623,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -13361,11 +13373,6 @@
   "2943860": {
     "name": "BiberBart",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758044456,
-        "end": 1758155461
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1758155461,
@@ -18712,8 +18719,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1759252832,
-        "end": null,
+        "end": 1759254623,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1759254623,
+        "end": null
       }
     ]
   },
@@ -19238,11 +19250,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758044456,
-        "end": 1758045669
-      },
       {
         "status": "[China] - Going",
         "start": 1758045669,
@@ -27817,7 +27824,13 @@
       {
         "status": "Available",
         "start": 1759247424,
-        "end": null
+        "end": 1759254623
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759254623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28986,7 +28999,13 @@
       {
         "status": "Available",
         "start": 1759248622,
-        "end": null
+        "end": 1759254623
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759254623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31336,8 +31355,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759253434,
-        "end": null,
+        "end": 1759254623,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759254623,
+        "end": null
       }
     ]
   },
@@ -31673,7 +31697,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759251023,
-        "end": null
+        "end": 1759254623
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759254623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34279,11 +34309,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758044456,
-        "end": 1758046851
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1758046851,
@@ -42509,6 +42534,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759248622,
+        "end": 1759254623
+      },
+      {
+        "status": "Available",
+        "start": 1759254623,
         "end": null
       }
     ]
