@@ -7930,6 +7930,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759265427,
+        "end": 1759266623
+      },
+      {
+        "status": "Available",
+        "start": 1759266623,
         "end": null
       }
     ]
@@ -19320,7 +19325,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759266037,
-        "end": null
+        "end": 1759266623
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759266623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31780,8 +31791,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759254623,
-        "end": null,
+        "end": 1759266623,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759266623,
+        "end": null
       }
     ]
   },
@@ -35960,7 +35976,13 @@
       {
         "status": "Available",
         "start": 1759264827,
-        "end": null
+        "end": 1759266623
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1759266623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39588,6 +39610,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1759266037,
+        "end": 1759266623
+      },
+      {
+        "status": "Available",
+        "start": 1759266623,
         "end": null
       }
     ]
