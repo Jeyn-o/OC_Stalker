@@ -6099,6 +6099,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759193426,
+        "end": 1759194028
+      },
+      {
+        "status": "Available",
+        "start": 1759194028,
         "end": null
       }
     ]
@@ -9739,8 +9744,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1759184417,
-        "end": null,
+        "end": 1759194028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1759194028,
+        "end": null
       }
     ]
   },
@@ -21019,7 +21029,13 @@
       {
         "status": "Available",
         "start": 1759192832,
-        "end": null
+        "end": 1759194028
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759194028,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -27571,12 +27587,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1757983844,
-        "end": 1757991668,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757991668,
         "end": 1758009040
@@ -29237,11 +29247,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "[China] Lost - Revives: ALL",
-        "start": 1757983844,
-        "end": 1757985045
-      },
       {
         "status": "[China] - Idle",
         "start": 1757985045,
@@ -31003,11 +31008,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757983844,
-        "end": 1758008448
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758008448,
         "end": 1758021644,
@@ -31498,12 +31498,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1757983844,
-        "end": 1757991046,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1757991046,
@@ -37187,11 +37181,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1757983844,
-        "end": 1757994045
-      },
       {
         "status": "[Switzerland] Mugged - Revives: OFF",
         "start": 1757994045,
