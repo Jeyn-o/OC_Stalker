@@ -4833,12 +4833,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758060642,
-        "end": 1758067269,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758067269,
         "end": 1758111051
@@ -7430,11 +7424,6 @@
   "2408196": {
     "name": "iam3vaj",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1758060642,
-        "end": 1758061240
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1758061240,
@@ -30143,8 +30132,13 @@
       {
         "status": "[China] - Going",
         "start": 1759260630,
-        "end": null,
+        "end": 1759270824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759270824,
+        "end": null
       }
     ]
   },
@@ -41223,7 +41217,13 @@
       {
         "status": "Available",
         "start": 1759185618,
-        "end": null
+        "end": 1759270824
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759270824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -44032,6 +44032,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1759269629,
+        "end": 1759270824,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1759270824,
         "end": null,
         "travel_type": "airstrip"
       }
