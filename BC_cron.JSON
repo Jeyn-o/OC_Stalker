@@ -12480,8 +12480,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759242637,
-        "end": null,
+        "end": 1759255236,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759255236,
+        "end": null
       }
     ]
   },
@@ -18725,7 +18730,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1759254623,
-        "end": null
+        "end": 1759255236
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759255236,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27829,6 +27840,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759254623,
+        "end": 1759255236,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759255236,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -27837,11 +27854,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758045057,
-        "end": 1758046251
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758046251,
@@ -35832,7 +35844,13 @@
       {
         "status": "Available",
         "start": 1759254030,
-        "end": null
+        "end": 1759255236
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759255236,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39428,8 +39446,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759254030,
-        "end": null,
+        "end": 1759255236,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759255236,
+        "end": null
       }
     ]
   },
@@ -40193,7 +40216,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759248622,
-        "end": null
+        "end": 1759255236
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759255236,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -42546,11 +42575,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758045057,
-        "end": 1758045669
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758045669,
