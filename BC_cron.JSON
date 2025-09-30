@@ -4209,8 +4209,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759194628,
-        "end": null,
+        "end": 1759206632,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759206632,
+        "end": null
       }
     ]
   },
@@ -13350,6 +13355,11 @@
       {
         "status": "Available",
         "start": 1759096216,
+        "end": 1759206632
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1759206632,
         "end": null
       }
     ]
@@ -14864,7 +14874,13 @@
       {
         "status": "Available",
         "start": 1759195825,
-        "end": null
+        "end": 1759206632
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759206632,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21223,12 +21239,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1757996451,
-        "end": 1758006069,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758006069,
@@ -28654,19 +28664,19 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759198838,
-        "end": null,
+        "end": 1759206632,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1759206632,
+        "end": null
       }
     ]
   },
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1757996451,
-        "end": 1758002463
-      },
       {
         "status": "Available",
         "start": 1758002463,
@@ -37201,11 +37211,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Switzerland] Lost - Revives: OFF",
-        "start": 1757996451,
-        "end": 1757997648
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1757997648,
