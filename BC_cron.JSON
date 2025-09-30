@@ -8441,11 +8441,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758019850,
-        "end": 1758024067
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1758024067,
         "end": 1758031250,
@@ -12094,8 +12089,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1759228221,
-        "end": null,
+        "end": 1759230033,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1759230033,
+        "end": null
       }
     ]
   },
@@ -13225,19 +13225,19 @@
       {
         "status": "Available",
         "start": 1759228890,
-        "end": null
+        "end": 1759230033
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759230033,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "2943860": {
     "name": "BiberBart",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1758019850,
-        "end": 1758026454,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758026454,
@@ -24484,11 +24484,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758019850,
-        "end": 1758024647
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1758024647,
         "end": 1758025871,
@@ -29878,11 +29873,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1758019850,
-        "end": 1758037848
-      },
-      {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1758037848,
         "end": 1758039648
@@ -33370,12 +33360,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758019850,
-        "end": 1758030044,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1758030044,
@@ -39102,8 +39086,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759228221,
-        "end": null,
+        "end": 1759230033,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759230033,
+        "end": null
       }
     ]
   },
