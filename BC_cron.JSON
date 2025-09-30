@@ -721,6 +721,11 @@
       {
         "status": "[South Africa] Hospitalized - Revives: ALL",
         "start": 1759220429,
+        "end": 1759221620
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759221620,
         "end": null
       }
     ]
@@ -4227,8 +4232,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759209017,
-        "end": null,
+        "end": 1759221620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759221620,
+        "end": null
       }
     ]
   },
@@ -4280,12 +4290,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1758011446,
-        "end": 1758022847,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758022847,
@@ -7323,7 +7327,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759214417,
-        "end": null
+        "end": 1759221620
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759221620,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -8225,8 +8235,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759220429,
-        "end": null,
+        "end": 1759221620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759221620,
+        "end": null
       }
     ]
   },
@@ -9901,12 +9916,6 @@
   "2675301": {
     "name": "ExiledAstronaut",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1758011446,
-        "end": 1758018653,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758018653,
@@ -13163,8 +13172,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759221029,
-        "end": null,
+        "end": 1759221620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759221620,
+        "end": null
       }
     ]
   },
@@ -16100,12 +16114,6 @@
     "name": "JuanPaulo",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758011446,
-        "end": 1758016849,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758016849,
         "end": 1758021644,
@@ -17027,8 +17035,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759221029,
-        "end": null,
+        "end": 1759221620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759221620,
+        "end": null
       }
     ]
   },
@@ -24429,11 +24442,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758011446,
-        "end": 1758012041
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1758012041,
         "end": 1758013264,
@@ -28767,11 +28775,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1758011446,
-        "end": 1758022847
-      },
       {
         "status": "Available",
         "start": 1758022847,
