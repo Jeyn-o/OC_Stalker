@@ -7457,12 +7457,6 @@
     "name": "iam3vaj",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1758053448,
-        "end": 1758060642,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1758060642,
         "end": 1758061240
@@ -13378,7 +13372,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759262425,
-        "end": null
+        "end": 1759263625
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759263625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18787,6 +18787,11 @@
       {
         "status": "Jail",
         "start": 1759260630,
+        "end": 1759263625
+      },
+      {
+        "status": "Available",
+        "start": 1759263625,
         "end": null
       }
     ]
@@ -19323,12 +19328,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1758053448,
-        "end": 1758055250,
-        "travel_type": "standard"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1758055250,
@@ -27930,8 +27929,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759262425,
-        "end": null,
+        "end": 1759263625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759263625,
+        "end": null
       }
     ]
   },
@@ -35962,6 +35966,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759262425,
+        "end": 1759263625,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759263625,
         "end": null,
         "travel_type": "airstrip"
       }
