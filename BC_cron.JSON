@@ -2522,11 +2522,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1758043870,
-        "end": 1758046851
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1758046851,
         "end": 1758057047,
@@ -6230,12 +6225,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758043870,
-        "end": 1758048051,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Idle",
         "start": 1758048051,
@@ -9982,11 +9971,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758043870,
-        "end": 1758070861
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758070861,
         "end": 1758077442,
@@ -13364,7 +13348,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759253434,
-        "end": null
+        "end": 1759254030
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759254030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16254,18 +16244,19 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759248041,
-        "end": null
+        "end": 1759254030
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759254030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758043870,
-        "end": 1758054662
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758054662,
@@ -18023,6 +18014,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759247424,
+        "end": 1759254030,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759254030,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -24668,8 +24665,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759247424,
-        "end": null,
+        "end": 1759254030,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759254030,
+        "end": null
       }
     ]
   },
@@ -32712,11 +32714,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758043870,
-        "end": 1758052856
-      },
-      {
         "status": "[China] - Going",
         "start": 1758052856,
         "end": 1758063049,
@@ -35804,8 +35801,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759244441,
-        "end": null,
+        "end": 1759254030,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759254030,
+        "end": null
       }
     ]
   },
@@ -37327,6 +37329,11 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759246234,
+        "end": 1759254030
+      },
+      {
+        "status": "[Mexico] Mugged - Revives: ALL",
+        "start": 1759254030,
         "end": null
       }
     ]
@@ -39391,7 +39398,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759253434,
-        "end": null
+        "end": 1759254030
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759254030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
