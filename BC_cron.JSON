@@ -3653,11 +3653,6 @@
     "name": "smyles",
     "activities": [
       {
-        "status": "Available",
-        "start": 1757985649,
-        "end": 1758344463
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1758344463,
         "end": 1758353465
@@ -9195,11 +9190,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1757985649,
-        "end": 1758004262
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1758004262,
         "end": 1758016249,
@@ -9920,11 +9910,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1757985649,
-        "end": 1757986264
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1757986264,
@@ -14875,8 +14860,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759189221,
-        "end": null,
+        "end": 1759195825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759195825,
+        "end": null
       }
     ]
   },
@@ -21053,11 +21043,6 @@
   "3255591": {
     "name": "xaqf",
     "activities": [
-      {
-        "status": "[Argentina] Mugged - Revives: Partial",
-        "start": 1757985649,
-        "end": 1757988059
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1757988059,
@@ -32128,6 +32113,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759189221,
+        "end": 1759195825
+      },
+      {
+        "status": "Available",
+        "start": 1759195825,
         "end": null
       }
     ]
@@ -35440,7 +35430,13 @@
       {
         "status": "Available",
         "start": 1759195228,
-        "end": null
+        "end": 1759195825
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759195825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37187,7 +37183,13 @@
       {
         "status": "Available",
         "start": 1759083654,
-        "end": null
+        "end": 1759195825
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759195825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38963,6 +38965,11 @@
       {
         "status": "[Japan] Attacked - Revives: OFF",
         "start": 1759195228,
+        "end": 1759195825
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1759195825,
         "end": null
       }
     ]
@@ -39794,12 +39801,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1757985649,
-        "end": 1757986847,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1757986847,
