@@ -10641,8 +10641,13 @@
       {
         "status": "[China] - Going",
         "start": 1759201822,
-        "end": null,
+        "end": 1759212033,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759212033,
+        "end": null
       }
     ]
   },
@@ -13085,7 +13090,13 @@
       {
         "status": "Available",
         "start": 1759183824,
-        "end": null
+        "end": 1759212033
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759212033,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15265,12 +15276,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1758001842,
-        "end": 1758013264,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758013264,
@@ -32372,11 +32377,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758001842,
-        "end": 1758017464
-      },
-      {
         "status": "[China] - Going",
         "start": 1758017464,
         "end": 1758027664,
@@ -33179,7 +33179,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759208434,
-        "end": null
+        "end": 1759212033
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759212033,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
