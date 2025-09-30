@@ -735,11 +735,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "[Hawaii] - Idle",
-        "start": 1758039648,
-        "end": 1758040254
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1758040254,
         "end": 1758045669,
@@ -1575,8 +1570,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759243226,
-        "end": null,
+        "end": 1759249831,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759249831,
+        "end": null
       }
     ]
   },
@@ -3143,8 +3143,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759243226,
-        "end": null,
+        "end": 1759249831,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759249831,
+        "end": null
       }
     ]
   },
@@ -3679,7 +3684,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759248622,
-        "end": null
+        "end": 1759249831
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759249831,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7376,8 +7387,13 @@
       {
         "status": "[China] - Going",
         "start": 1759245624,
-        "end": null,
+        "end": 1759249831,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759249831,
+        "end": null
       }
     ]
   },
@@ -8462,11 +8478,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758039648,
-        "end": 1758078646
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1758078646,
@@ -9985,6 +9996,11 @@
       {
         "status": "Available",
         "start": 1759142426,
+        "end": 1759249831
+      },
+      {
+        "status": "Jail",
+        "start": 1759249831,
         "end": null
       }
     ]
@@ -21333,6 +21349,12 @@
       {
         "status": "[China] - Going",
         "start": 1759246819,
+        "end": 1759249831,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759249831,
         "end": null,
         "travel_type": "standard"
       }
@@ -26476,12 +26498,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758039648,
-        "end": 1758046251,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758046251,
         "end": 1758049888
@@ -30062,11 +30078,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1758039648,
-        "end": 1758046251
-      },
-      {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1758046251,
         "end": 1758048644
@@ -31302,8 +31313,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1759248041,
-        "end": null,
+        "end": 1759249831,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1759249831,
+        "end": null
       }
     ]
   },
@@ -34256,11 +34272,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758039648,
-        "end": 1758041453
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1758041453,
