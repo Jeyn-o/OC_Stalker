@@ -727,6 +727,12 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759252231,
+        "end": 1759264228,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759264228,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7526,11 +7532,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758054050,
-        "end": 1758099662
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1758099662,
@@ -36636,8 +36637,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759248622,
-        "end": null,
+        "end": 1759264228,
         "travel_type": "standard"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1759264228,
+        "end": null
       }
     ]
   },
