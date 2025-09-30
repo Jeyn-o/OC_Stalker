@@ -1581,6 +1581,11 @@
       {
         "status": "Available",
         "start": 1759168225,
+        "end": 1759228221
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1759228221,
         "end": null
       }
     ]
@@ -12089,7 +12094,13 @@
       {
         "status": "Available",
         "start": 1759227635,
-        "end": null
+        "end": 1759228221
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759228221,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19101,12 +19112,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758018048,
-        "end": 1758022268,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1758022268,
         "end": 1758024067
@@ -21227,11 +21232,6 @@
   "3255591": {
     "name": "xaqf",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758018048,
-        "end": 1758334244
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1758334244,
@@ -26333,12 +26333,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758018048,
-        "end": 1758024647,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1758024647,
         "end": 1758025871
@@ -29879,11 +29873,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1758018048,
-        "end": 1758019850
-      },
-      {
         "status": "[China] - Idle",
         "start": 1758019850,
         "end": 1758037848
@@ -31590,11 +31579,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758018048,
-        "end": 1758060075
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1758060075,
@@ -36192,8 +36176,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759211424,
-        "end": null,
+        "end": 1759228221,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759228221,
+        "end": null
       }
     ]
   },
@@ -39097,7 +39086,13 @@
       {
         "status": "[Canada] Mugged - Revives: OFF",
         "start": 1759225825,
-        "end": null
+        "end": 1759228221
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759228221,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
