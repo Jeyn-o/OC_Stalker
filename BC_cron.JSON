@@ -724,12 +724,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1758004262,
-        "end": 1758009662,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1758009662,
         "end": 1758010250
@@ -6195,11 +6189,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1758004262,
-        "end": 1758013264
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1758013264,
         "end": 1758018653,
@@ -7318,8 +7307,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759209017,
-        "end": null,
+        "end": 1759214417,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759214417,
+        "end": null
       }
     ]
   },
@@ -9226,12 +9220,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758004262,
-        "end": 1758016249,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758016249,
         "end": 1758034250
@@ -9885,12 +9873,6 @@
   "2675301": {
     "name": "ExiledAstronaut",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1758004262,
-        "end": 1758011446,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1758011446,
@@ -13107,6 +13089,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759213232,
+        "end": 1759214417,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759214417,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -24331,12 +24319,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1758004262,
-        "end": 1758004848,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758004848,
         "end": 1758005468
@@ -31010,7 +30992,13 @@
       {
         "status": "Available",
         "start": 1759197020,
-        "end": null
+        "end": 1759214417
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759214417,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43531,6 +43519,11 @@
       {
         "status": "Available",
         "start": 1759212623,
+        "end": 1759214417
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1759214417,
         "end": null
       }
     ]
