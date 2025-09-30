@@ -3680,6 +3680,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1759229430,
+        "end": 1759230626
+      },
+      {
+        "status": "Available",
+        "start": 1759230626,
         "end": null
       }
     ]
@@ -6072,7 +6077,13 @@
       {
         "status": "Available",
         "start": 1759218026,
-        "end": null
+        "end": 1759230626
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759230626,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -10493,7 +10504,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759224030,
-        "end": null
+        "end": 1759230626
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759230626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12095,7 +12112,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1759230033,
-        "end": null
+        "end": 1759230626
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759230626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15411,12 +15434,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1758020454,
-        "end": 1758031853,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758031853,
@@ -35535,6 +35552,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759229430,
+        "end": 1759230626,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759230626,
         "end": null,
         "travel_type": "airstrip"
       }
