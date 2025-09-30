@@ -1716,11 +1716,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1758051646,
-        "end": 1758058265
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1758058265,
         "end": 1758060075,
@@ -4848,11 +4843,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758051646,
-        "end": 1758052856
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758052856,
         "end": 1758060075,
@@ -7458,6 +7448,12 @@
       {
         "status": "[China] - Going",
         "start": 1759251634,
+        "end": 1759261826,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759261826,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -17233,7 +17229,13 @@
       {
         "status": "Available",
         "start": 1759255825,
-        "end": null
+        "end": 1759261826
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1759261826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29644,8 +29646,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759251634,
-        "end": null,
+        "end": 1759261826,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759261826,
+        "end": null
       }
     ]
   },
@@ -37494,8 +37501,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759260630,
-        "end": null,
+        "end": 1759261826,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1759261826,
+        "end": null
       }
     ]
   },
@@ -39560,6 +39572,11 @@
       {
         "status": "Available",
         "start": 1759261230,
+        "end": 1759261826
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1759261826,
         "end": null
       }
     ]
