@@ -23635,11 +23635,6 @@
     "name": "Krytical",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758062442,
-        "end": 1758120650
-      },
-      {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1758120650,
         "end": 1758122449
@@ -29609,11 +29604,6 @@
     "name": "Mr_jeff14574",
     "activities": [
       {
-        "status": "[Switzerland] Mugged - Revives: ALL",
-        "start": 1758062442,
-        "end": 1758064241
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1758064241,
         "end": 1758072047,
@@ -33568,6 +33558,12 @@
       {
         "status": "[China] - Going",
         "start": 1759262425,
+        "end": 1759272624,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759272624,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33704,6 +33700,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1759261230,
+        "end": 1759272624
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1759272624,
         "end": null
       }
     ]
@@ -36599,11 +36600,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758062442,
-        "end": 1758078646
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1758078646,
         "end": 1758085843,
@@ -37734,12 +37730,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1758062442,
-        "end": 1758069059,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758069059,
@@ -44057,8 +44047,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1759270824,
-        "end": null,
+        "end": 1759272624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759272624,
+        "end": null
       }
     ]
   },
