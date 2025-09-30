@@ -1718,6 +1718,11 @@
       {
         "status": "Available",
         "start": 1759098624,
+        "end": 1759246234
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1759246234,
         "end": null
       }
     ]
@@ -13319,6 +13324,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759245030,
+        "end": 1759246234,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759246234,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14430,11 +14441,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758036050,
-        "end": 1758058840
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1758058840,
@@ -21299,8 +21305,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759243830,
-        "end": null,
+        "end": 1759246234,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759246234,
+        "end": null
       }
     ]
   },
@@ -28914,8 +28925,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759245030,
-        "end": null,
+        "end": 1759246234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759246234,
+        "end": null
       }
     ]
   },
@@ -31232,6 +31248,11 @@
       {
         "status": "Available",
         "start": 1759243226,
+        "end": 1759246234
+      },
+      {
+        "status": "Jail",
+        "start": 1759246234,
         "end": null
       }
     ]
@@ -37225,8 +37246,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759245624,
-        "end": null,
+        "end": 1759246234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759246234,
+        "end": null
       }
     ]
   },
