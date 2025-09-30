@@ -4218,7 +4218,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759206632,
-        "end": null
+        "end": 1759209017
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759209017,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6179,12 +6185,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1757998873,
-        "end": 1758004262,
-        "travel_type": "standard"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1758004262,
         "end": 1758013264
@@ -7303,7 +7303,13 @@
       {
         "status": "Available",
         "start": 1759188631,
-        "end": null
+        "end": 1759209017
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759209017,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -8355,12 +8361,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1757998873,
-        "end": 1758005468,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758005468,
@@ -15261,11 +15261,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757998873,
-        "end": 1758001842
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1758001842,
@@ -24310,12 +24305,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1757998873,
-        "end": 1757999449,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1757999449,
         "end": 1758002463
@@ -28692,7 +28681,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1759206632,
-        "end": null
+        "end": 1759209017
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759209017,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29234,8 +29229,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1759203620,
-        "end": null,
+        "end": 1759209017,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1759209017,
+        "end": null
       }
     ]
   },
@@ -37220,8 +37220,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759202433,
-        "end": null,
+        "end": 1759209017,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759209017,
+        "end": null
       }
     ]
   },
