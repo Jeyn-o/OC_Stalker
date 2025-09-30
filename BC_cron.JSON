@@ -6115,6 +6115,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1759189221,
+        "end": 1759191020
+      },
+      {
+        "status": "Available",
+        "start": 1759191020,
         "end": null
       }
     ]
@@ -15945,8 +15950,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759183824,
-        "end": null,
+        "end": 1759191020,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759191020,
+        "end": null
       }
     ]
   },
@@ -17703,6 +17713,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759183824,
+        "end": 1759191020,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759191020,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22954,7 +22970,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1759183824,
-        "end": null
+        "end": 1759191020
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759191020,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29738,7 +29760,13 @@
       {
         "status": "Available",
         "start": 1759177223,
-        "end": null
+        "end": 1759191020
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759191020,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32346,11 +32374,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1757980251,
-        "end": 1757981442
-      },
       {
         "status": "[China] - Going",
         "start": 1757981442,
