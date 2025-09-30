@@ -733,6 +733,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759264228,
+        "end": 1759276230,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759276230,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -12456,11 +12462,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758066037,
-        "end": 1758301845
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758301845,
         "end": 1758314447,
@@ -18017,11 +18018,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1758066037,
-        "end": 1758067269
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1758067269,
         "end": 1758074459,
@@ -19272,18 +19268,19 @@
       {
         "status": "Available",
         "start": 1759275631,
-        "end": null
+        "end": 1759276230
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1759276230,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758066037,
-        "end": 1758066649
-      },
       {
         "status": "[China] - Going",
         "start": 1758066649,
@@ -32474,6 +32471,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759255825,
+        "end": 1759276230
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: ALL",
+        "start": 1759276230,
         "end": null
       }
     ]
@@ -33716,6 +33718,11 @@
       {
         "status": "Available",
         "start": 1759275631,
+        "end": 1759276230
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1759276230,
         "end": null
       }
     ]
@@ -39585,12 +39592,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1758066037,
-        "end": 1758076848,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1758076848,
         "end": 1758083466
@@ -44074,7 +44075,13 @@
       {
         "status": "Available",
         "start": 1759272624,
-        "end": null
+        "end": 1759276230
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1759276230,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
