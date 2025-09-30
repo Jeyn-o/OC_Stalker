@@ -1736,11 +1736,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758021054,
-        "end": 1758021644
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758021644,
         "end": 1758028249,
@@ -7956,8 +7951,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759218629,
-        "end": null,
+        "end": 1759231222,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759231222,
+        "end": null
       }
     ]
   },
@@ -13253,8 +13253,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759230033,
-        "end": null,
+        "end": 1759231222,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759231222,
+        "end": null
       }
     ]
   },
@@ -22263,11 +22268,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758021054,
-        "end": 1758037242
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758037242,
         "end": 1758049254,
@@ -23215,6 +23215,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759224626,
+        "end": 1759231222,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1759231222,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34017,7 +34023,13 @@
       {
         "status": "Available",
         "start": 1759229430,
-        "end": null
+        "end": 1759231222
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759231222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
