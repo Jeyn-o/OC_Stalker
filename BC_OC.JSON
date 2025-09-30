@@ -31050,9 +31050,9 @@
   },
   "877668": {
     "name": "Bidding War",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1759260330,
-    "executed_at": null,
+    "executed_at": 1759260364,
     "slots": {
       "P3": {
         "user_id": 2680449,
@@ -33459,7 +33459,7 @@
   "893520": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": 1759326349,
+    "ready_at": 1759412749,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -33468,6 +33468,14 @@
         "checkpoint_pass_rate": 66,
         "position": "Muscle",
         "position_number": 1
+      },
+      "P1": {
+        "user_id": 3301215,
+        "user_name": "Semykreen",
+        "checkpoint_pass_rate": 71,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -33480,6 +33488,17 @@
         "checkpoint_pass_rate": 66,
         "position": "Muscle",
         "position_number": 1
+      },
+      {
+        "timestamp": 1759260633,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3301215,
+        "user_name": "Semykreen",
+        "checkpoint_pass_rate": 71,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   }
