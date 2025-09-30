@@ -32053,8 +32053,8 @@
   },
   "882143": {
     "name": "Gaslight the Way",
-    "status": "Recruiting",
-    "ready_at": 1759496609,
+    "status": "Planning",
+    "ready_at": 1759583009,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -32092,6 +32092,14 @@
         "checkpoint_pass_rate": 70,
         "position": "Imitator",
         "position_number": 2,
+        "item_available": false
+      },
+      "P5": {
+        "user_id": 3760809,
+        "user_name": "RandomName1",
+        "checkpoint_pass_rate": 79,
+        "position": "Imitator",
+        "position_number": 3,
         "item_available": false
       }
     },
@@ -32168,6 +32176,17 @@
         "checkpoint_pass_rate": 70,
         "position": "Imitator",
         "position_number": 2,
+        "item_available": false
+      },
+      {
+        "timestamp": 1759238429,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3760809,
+        "user_name": "RandomName1",
+        "checkpoint_pass_rate": 79,
+        "position": "Imitator",
+        "position_number": 3,
         "item_available": false
       }
     ]
@@ -32979,8 +32998,8 @@
   },
   "886603": {
     "name": "Leave No Trace",
-    "status": "Recruiting",
-    "ready_at": 1759392400,
+    "status": "Planning",
+    "ready_at": 1759478800,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -32997,6 +33016,14 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": false
+      },
+      "P2": {
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 67,
+        "position": "Negotiator",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -33020,6 +33047,17 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1759238429,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 67,
+        "position": "Negotiator",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -33329,10 +33367,29 @@
   "892672": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1759324610,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 3529909,
+        "user_name": "For5aken",
+        "checkpoint_pass_rate": 79,
+        "position": "Enforcer",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1759238429,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3529909,
+        "user_name": "For5aken",
+        "checkpoint_pass_rate": 79,
+        "position": "Enforcer",
+        "position_number": 1
+      }
+    ]
   },
   "892673": {
     "name": "Honey Trap",
