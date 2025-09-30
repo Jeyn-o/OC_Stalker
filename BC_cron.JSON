@@ -1738,12 +1738,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758033652,
-        "end": 1758040254,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1758040254,
         "end": 1758042060
@@ -2472,6 +2466,11 @@
       {
         "status": "Jail",
         "start": 1759234828,
+        "end": 1759243830
+      },
+      {
+        "status": "Available",
+        "start": 1759243830,
         "end": null
       }
     ]
@@ -18657,8 +18656,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759236630,
-        "end": null,
+        "end": 1759243830,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1759243830,
+        "end": null
       }
     ]
   },
@@ -21274,6 +21278,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759241424,
+        "end": 1759243830,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759243830,
         "end": null,
         "travel_type": "standard"
       }
@@ -36302,8 +36312,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1759242021,
-        "end": null,
+        "end": 1759243830,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1759243830,
+        "end": null
       }
     ]
   },
