@@ -2492,6 +2492,11 @@
       {
         "status": "Available",
         "start": 1759234227,
+        "end": 1759234828
+      },
+      {
+        "status": "Jail",
+        "start": 1759234828,
         "end": null
       }
     ]
@@ -7367,7 +7372,13 @@
       {
         "status": "Available",
         "start": 1759227635,
-        "end": null
+        "end": 1759234828
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759234828,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -11300,12 +11311,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758024647,
-        "end": 1758031250,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1758031250,
         "end": 1758031853
@@ -13264,6 +13269,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759233629,
+        "end": 1759234828,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759234828,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -23235,7 +23246,13 @@
       {
         "status": "Available",
         "start": 1759234227,
-        "end": null
+        "end": 1759234828
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759234828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24531,12 +24548,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1758024647,
-        "end": 1758025871,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1758025871,
         "end": 1758027047
@@ -25451,7 +25462,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1759228890,
-        "end": null
+        "end": 1759234828
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759234828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26373,11 +26390,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758024647,
-        "end": 1758025871
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758025871,
