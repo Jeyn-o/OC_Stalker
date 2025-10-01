@@ -3111,12 +3111,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1758092455,
-        "end": 1758099050,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758099050,
         "end": 1758099662
@@ -8182,6 +8176,11 @@
       {
         "status": "Available",
         "start": 1759301430,
+        "end": 1759302630
+      },
+      {
+        "status": "Jail",
+        "start": 1759302630,
         "end": null
       }
     ]
@@ -13376,7 +13375,13 @@
       {
         "status": "Available",
         "start": 1759301430,
-        "end": null
+        "end": 1759302630
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759302630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22446,12 +22451,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758092455,
-        "end": 1758105059,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758105059,
         "end": 1758106257
@@ -23489,12 +23488,6 @@
   "3331202": {
     "name": "Imtheman357",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1758092455,
-        "end": 1758106862,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1758106862,
@@ -24773,7 +24766,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759297230,
-        "end": null
+        "end": 1759302630
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759302630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27920,12 +27919,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1758092455,
-        "end": 1758098447,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758098447,
@@ -33582,8 +33575,13 @@
       {
         "status": "[China] - Going",
         "start": 1759292423,
-        "end": null,
+        "end": 1759302630,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759302630,
+        "end": null
       }
     ]
   },
@@ -42722,11 +42720,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758092455,
-        "end": 1758093647
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1758093647,
