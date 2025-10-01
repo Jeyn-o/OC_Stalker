@@ -1565,8 +1565,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759305635,
-        "end": null,
+        "end": 1759312224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759312224,
+        "end": null
       }
     ]
   },
@@ -2448,7 +2453,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759311622,
-        "end": null
+        "end": 1759312224
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759312224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8441,11 +8452,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758102038,
-        "end": 1758103845
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1758103845,
@@ -21539,8 +21545,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759308030,
-        "end": null,
+        "end": 1759312224,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759312224,
+        "end": null
       }
     ]
   },
@@ -26672,12 +26683,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1758102038,
-        "end": 1758109247,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758109247,
@@ -36157,11 +36162,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1758102038,
-        "end": 1758104440
-      },
-      {
         "status": "[China] - Idle",
         "start": 1758104440,
         "end": 1758113443
@@ -37691,7 +37691,13 @@
       {
         "status": "Available",
         "start": 1759299027,
-        "end": null
+        "end": 1759312224
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759312224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39756,7 +39762,13 @@
       {
         "status": "Available",
         "start": 1759311622,
-        "end": null
+        "end": 1759312224
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759312224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
