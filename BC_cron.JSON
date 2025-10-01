@@ -4240,8 +4240,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759279232,
-        "end": null,
+        "end": 1759291232,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759291232,
+        "end": null
       }
     ]
   },
@@ -10705,11 +10710,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758081040,
-        "end": 1758114065
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1758114065,
@@ -21578,12 +21578,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1758081040,
-        "end": 1758088243,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758088243,
         "end": 1758101459
@@ -24716,7 +24710,13 @@
       {
         "status": "Available",
         "start": 1759262425,
-        "end": null
+        "end": 1759291232
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759291232,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31864,12 +31864,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1758081040,
-        "end": 1758088243,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1758088243,
         "end": 1758097246
@@ -35948,6 +35942,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759290630,
+        "end": 1759291232,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759291232,
         "end": null,
         "travel_type": "airstrip"
       }
