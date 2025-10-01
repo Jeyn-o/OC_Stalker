@@ -33121,9 +33121,9 @@
   },
   "886604": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1759353372,
-    "executed_at": null,
+    "executed_at": 1759353425,
     "slots": {
       "P2": {
         "user_id": 2414438,
@@ -33842,7 +33842,7 @@
   "897420": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1759427210,
+    "ready_at": 1759513610,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -33851,6 +33851,13 @@
         "checkpoint_pass_rate": 73,
         "position": "Picklock",
         "position_number": 2
+      },
+      "P1": {
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 69,
+        "position": "Picklock",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -33863,6 +33870,16 @@
         "checkpoint_pass_rate": 73,
         "position": "Picklock",
         "position_number": 2
+      },
+      {
+        "timestamp": 1759353627,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 69,
+        "position": "Picklock",
+        "position_number": 1
       }
     ]
   },
@@ -33914,9 +33931,30 @@
   "898155": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1759439861,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 68,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1759353627,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 68,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   }
 }
