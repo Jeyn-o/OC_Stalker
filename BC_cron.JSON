@@ -1731,11 +1731,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758103258,
-        "end": 1758103845
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758103845,
         "end": 1758110463,
@@ -4824,7 +4819,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759305635,
-        "end": null
+        "end": 1759313432
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759313432,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32927,12 +32928,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1758103258,
-        "end": 1758113443,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758113443,
         "end": 1758129049
@@ -33738,6 +33733,11 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1759311029,
+        "end": 1759313432
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759313432,
         "end": null
       }
     ]
@@ -37974,6 +37974,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1759311622,
+        "end": 1759313432
+      },
+      {
+        "status": "Available",
+        "start": 1759313432,
         "end": null
       }
     ]
