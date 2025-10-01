@@ -3086,7 +3086,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759332028,
-        "end": null
+        "end": 1759348221
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759348221,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13666,8 +13672,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759347028,
-        "end": null,
+        "end": 1759348221,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759348221,
+        "end": null
       }
     ]
   },
@@ -18364,11 +18375,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758138045,
-        "end": 1758141059
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758141059,
         "end": 1758153046,
@@ -19664,12 +19670,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758138045,
-        "end": 1758141059,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Returning",
         "start": 1758141059,
@@ -28333,7 +28333,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759346428,
-        "end": null
+        "end": 1759348221
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759348221,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34274,11 +34280,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1758138045,
-        "end": 1758144042
-      },
-      {
         "status": "[China] - Returning",
         "start": 1758144042,
         "end": 1758154247,
@@ -36557,6 +36558,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759347028,
+        "end": 1759348221,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759348221,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -36565,12 +36572,6 @@
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1758138045,
-        "end": 1758139844,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1758139844,
@@ -38166,8 +38167,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759347624,
-        "end": null,
+        "end": 1759348221,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759348221,
+        "end": null
       }
     ]
   },
@@ -41935,6 +41941,16 @@
       }
     ]
   },
+  "3831147": {
+    "name": "StripMcDip",
+    "activities": [
+      {
+        "status": "Available",
+        "start": 1759348221,
+        "end": null
+      }
+    ]
+  },
   "3837249": {
     "name": "Cerbb",
     "activities": [
@@ -44802,6 +44818,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759342233,
+        "end": 1759348221
+      },
+      {
+        "status": "Available",
+        "start": 1759348221,
         "end": null
       }
     ]
