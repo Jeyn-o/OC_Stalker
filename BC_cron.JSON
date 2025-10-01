@@ -744,7 +744,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759323636,
-        "end": null
+        "end": 1759324831
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759324831,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -1724,12 +1730,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1758114651,
-        "end": 1758116451,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Going",
         "start": 1758116451,
@@ -3102,6 +3102,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759318226,
+        "end": 1759324831,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759324831,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7291,7 +7297,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759303826,
-        "end": null
+        "end": 1759324831
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759324831,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -8975,8 +8987,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759318226,
-        "end": null,
+        "end": 1759324831,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759324831,
+        "end": null
       }
     ]
   },
@@ -12131,12 +12148,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1758114651,
-        "end": 1758122449,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1758122449,
         "end": 1758126054
@@ -13504,6 +13515,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759323636,
+        "end": 1759324831,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759324831,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22589,8 +22606,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1759315222,
-        "end": null,
+        "end": 1759324831,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1759324831,
+        "end": null
       }
     ]
   },
@@ -23868,6 +23890,11 @@
       {
         "status": "Jail",
         "start": 1759324224,
+        "end": 1759324831
+      },
+      {
+        "status": "Available",
+        "start": 1759324831,
         "end": null
       }
     ]
@@ -28109,6 +28136,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759323636,
+        "end": 1759324831,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759324831,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29279,6 +29312,11 @@
       {
         "status": "[Canada] - Idle",
         "start": 1759323636,
+        "end": 1759324831
+      },
+      {
+        "status": "[Canada] Mugged - Revives: ALL",
+        "start": 1759324831,
         "end": null
       }
     ]
@@ -39892,11 +39930,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758114651,
-        "end": 1758129049
-      },
       {
         "status": "[China] - Going",
         "start": 1758129049,
