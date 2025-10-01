@@ -8954,12 +8954,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1758090039,
-        "end": 1758097246,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1758097246,
         "end": 1758105059,
@@ -9047,19 +9041,19 @@
       {
         "status": "Available",
         "start": 1759036245,
-        "end": null
+        "end": 1759300235
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1759300235,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "2655203": {
     "name": "Vampire-Catgirl",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1758090039,
-        "end": 1758097861,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1758097861,
@@ -9823,7 +9817,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759299633,
-        "end": null
+        "end": 1759300235
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759300235,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13359,6 +13359,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759299027,
+        "end": 1759300235,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759300235,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15144,8 +15150,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759287630,
-        "end": null,
+        "end": 1759300235,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759300235,
+        "end": null
       }
     ]
   },
@@ -17208,18 +17219,19 @@
       {
         "status": "Available",
         "start": 1759275631,
-        "end": null
+        "end": 1759300235
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1759300235,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758090039,
-        "end": 1758113443
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758113443,
@@ -23894,12 +23906,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758090039,
-        "end": 1758097246,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758097246,
         "end": 1758098447
@@ -29060,8 +29066,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759293036,
-        "end": null,
+        "end": 1759300235,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759300235,
+        "end": null
       }
     ]
   },
@@ -39563,6 +39574,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1759299633,
+        "end": 1759300235
+      },
+      {
+        "status": "Available",
+        "start": 1759300235,
         "end": null
       }
     ]
@@ -42678,11 +42694,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758090039,
-        "end": 1758091246
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1758091246,
