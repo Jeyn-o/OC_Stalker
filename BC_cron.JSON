@@ -9921,12 +9921,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758077442,
-        "end": 1758084042,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758084042,
         "end": 1758117645
@@ -15115,7 +15109,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759285225,
-        "end": null
+        "end": 1759287630
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759287630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17184,11 +17184,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758077442,
-        "end": 1758084042
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758084042,
@@ -19277,12 +19272,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1758077442,
-        "end": 1758078069,
-        "travel_type": "standard"
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1758078069,
@@ -24715,12 +24704,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1758077442,
-        "end": 1758078646,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758078646,
         "end": 1758081661
@@ -26353,8 +26336,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759280440,
-        "end": null,
+        "end": 1759287630,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759287630,
+        "end": null
       }
     ]
   },
@@ -37501,6 +37489,11 @@
       {
         "status": "Available",
         "start": 1759287023,
+        "end": 1759287630
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1759287630,
         "end": null
       }
     ]
@@ -42677,12 +42670,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1758077442,
-        "end": 1758083466,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1758083466,
         "end": 1758084648
@@ -44066,6 +44053,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759281026,
+        "end": 1759287630,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759287630,
         "end": null,
         "travel_type": "airstrip"
       }
