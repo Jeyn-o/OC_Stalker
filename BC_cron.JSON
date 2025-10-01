@@ -887,12 +887,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758087059,
-        "end": 1758094263,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758094263,
         "end": 1758100853,
@@ -3818,12 +3812,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1758087059,
-        "end": 1758099662,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758099662,
@@ -7314,8 +7302,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759292423,
-        "end": null,
+        "end": 1759297230,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759297230,
+        "end": null
       }
     ]
   },
@@ -8419,12 +8412,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1758087059,
-        "end": 1758094263,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758094263,
@@ -21398,8 +21385,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759293623,
-        "end": null,
+        "end": 1759297230,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759297230,
+        "end": null
       }
     ]
   },
@@ -24740,8 +24732,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759291232,
-        "end": null,
+        "end": 1759297230,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759297230,
+        "end": null
       }
     ]
   },
@@ -37796,11 +37793,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: OFF",
-        "start": 1758087059,
-        "end": 1758094263
-      },
-      {
         "status": "Available",
         "start": 1758094263,
         "end": 1758101459
@@ -39559,6 +39551,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1759296024,
+        "end": 1759297230
+      },
+      {
+        "status": "Available",
+        "start": 1759297230,
         "end": null
       }
     ]
@@ -44064,6 +44061,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759296024,
+        "end": 1759297230
+      },
+      {
+        "status": "Available",
+        "start": 1759297230,
         "end": null
       }
     ]
