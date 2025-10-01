@@ -10706,11 +10706,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1758080441,
-        "end": 1758081040
-      },
-      {
         "status": "Available",
         "start": 1758081040,
         "end": 1758114065
@@ -19291,6 +19286,11 @@
       {
         "status": "[Japan] Attacked - Revives: ALL",
         "start": 1759290026,
+        "end": 1759290630
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1759290630,
         "end": null
       }
     ]
@@ -35943,7 +35943,13 @@
       {
         "status": "Available",
         "start": 1759290026,
-        "end": null
+        "end": 1759290630
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759290630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37765,11 +37771,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758080441,
-        "end": 1758081661
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1758081661,
         "end": 1758083466,
@@ -39540,6 +39541,11 @@
       {
         "status": "Available",
         "start": 1759272033,
+        "end": 1759290630
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1759290630,
         "end": null
       }
     ]
@@ -41217,6 +41223,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1759285225,
+        "end": 1759290630,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759290630,
         "end": null,
         "travel_type": "airstrip"
       }
