@@ -1731,12 +1731,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758121265,
-        "end": 1758127843,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1758127843,
         "end": 1758129645
@@ -3775,11 +3769,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758121265,
-        "end": 1758155461
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1758155461,
@@ -13581,8 +13570,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759330227,
-        "end": null,
+        "end": 1759331432,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759331432,
+        "end": null
       }
     ]
   },
@@ -19587,12 +19581,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1758121265,
-        "end": 1758124872,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1758124872,
         "end": 1758127255
@@ -21893,11 +21881,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758121265,
-        "end": 1758178245
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1758178245,
         "end": 1758187867,
@@ -23753,12 +23736,6 @@
     "name": "Imtheman357",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1758121265,
-        "end": 1758136250,
-        "travel_type": "standard"
-      },
-      {
         "status": "[China] - Returning",
         "start": 1758136250,
         "end": 1758151252,
@@ -24188,12 +24165,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758121265,
-        "end": 1758127843,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758127843,
@@ -28255,7 +28226,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759330839,
-        "end": null
+        "end": 1759331432
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759331432,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -44546,7 +44523,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759330839,
-        "end": null
+        "end": 1759331432
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759331432,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
