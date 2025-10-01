@@ -1726,11 +1726,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758120045,
-        "end": 1758121265
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758121265,
         "end": 1758127843,
@@ -7279,8 +7274,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759324831,
-        "end": null,
+        "end": 1759330227,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759330227,
+        "end": null
       }
     ]
   },
@@ -12545,8 +12545,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759329631,
-        "end": null,
+        "end": 1759330227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759330227,
+        "end": null
       }
     ]
   },
@@ -13565,6 +13570,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759329039,
+        "end": 1759330227,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759330227,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14553,8 +14564,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759318226,
-        "end": null,
+        "end": 1759330227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759330227,
+        "end": null
       }
     ]
   },
@@ -17451,11 +17467,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758120045,
-        "end": 1758121848
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758121848,
@@ -32256,12 +32267,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1758120045,
-        "end": 1758127255,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758127255,
