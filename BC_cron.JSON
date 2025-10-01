@@ -887,11 +887,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758107442,
-        "end": 1758108650
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758108650,
         "end": 1758115278,
@@ -4233,8 +4228,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759305024,
-        "end": null,
+        "end": 1759317627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759317627,
+        "end": null
       }
     ]
   },
@@ -13801,6 +13801,11 @@
       {
         "status": "Available",
         "start": 1759229430,
+        "end": 1759317627
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1759317627,
         "end": null
       }
     ]
@@ -24939,7 +24944,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759316436,
-        "end": null
+        "end": 1759317627
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759317627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28085,6 +28096,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759316436,
+        "end": 1759317627,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759317627,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33961,12 +33978,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1758107442,
-        "end": 1758117645,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Returning",
         "start": 1758117645,
         "end": 1758127843,
@@ -37770,7 +37781,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759312837,
-        "end": null
+        "end": 1759317627
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759317627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
