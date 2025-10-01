@@ -5441,11 +5441,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1758137461,
-        "end": 1758139844
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758139844,
         "end": 1758148259,
@@ -7241,8 +7236,13 @@
       {
         "status": "[China] - Going",
         "start": 1759342826,
-        "end": null,
+        "end": 1759347624,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1759347624,
+        "end": null
       }
     ]
   },
@@ -12131,12 +12131,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1758137461,
-        "end": 1758144654,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758144654,
         "end": 1758325851
@@ -12547,8 +12541,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759346428,
-        "end": null,
+        "end": 1759347624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759347624,
+        "end": null
       }
     ]
   },
@@ -30121,11 +30120,6 @@
     "name": "Mr_jeff14574",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1758137461,
-        "end": 1758139260
-      },
-      {
         "status": "[China] - Returning",
         "start": 1758139260,
         "end": 1758149446,
@@ -38167,7 +38161,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759347028,
-        "end": null
+        "end": 1759347624
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759347624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40296,6 +40296,11 @@
       {
         "status": "Available",
         "start": 1759346428,
+        "end": 1759347624
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1759347624,
         "end": null
       }
     ]
