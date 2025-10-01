@@ -892,11 +892,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758115278,
-        "end": 1758175850
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1758175850,
         "end": 1758183043,
@@ -2431,8 +2426,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759318830,
-        "end": null,
+        "end": 1759325433,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759325433,
+        "end": null
       }
     ]
   },
@@ -2484,12 +2484,6 @@
   "1766417": {
     "name": "gajeela09",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1758115278,
-        "end": 1758124254,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1758124254,
@@ -5472,11 +5466,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1758115278,
-        "end": 1758120650
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1758120650,
@@ -8993,7 +8982,13 @@
       {
         "status": "Available",
         "start": 1759324831,
-        "end": null
+        "end": 1759325433
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759325433,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11326,6 +11321,11 @@
       {
         "status": "Available",
         "start": 1759281620,
+        "end": 1759325433
+      },
+      {
+        "status": "Jail",
+        "start": 1759325433,
         "end": null
       }
     ]
@@ -22612,7 +22612,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759324831,
-        "end": null
+        "end": 1759325433
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759325433,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37852,8 +37858,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759323636,
-        "end": null,
+        "end": 1759325433,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759325433,
+        "end": null
       }
     ]
   },
@@ -39922,8 +39933,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759318830,
-        "end": null,
+        "end": 1759325433,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759325433,
+        "end": null
       }
     ]
   },
