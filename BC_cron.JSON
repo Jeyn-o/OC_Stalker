@@ -3110,11 +3110,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758124872,
-        "end": 1758127255
-      },
-      {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1758127255,
         "end": 1758127843
@@ -6145,12 +6140,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1758124872,
-        "end": 1758129049,
-        "travel_type": "standard"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1758129049,
         "end": 1758130845
@@ -7494,11 +7483,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758124872,
-        "end": 1758207667
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1758207667,
@@ -12563,7 +12547,13 @@
       {
         "status": "Available",
         "start": 1759332639,
-        "end": null
+        "end": 1759335029
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759335029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13610,8 +13600,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759333827,
-        "end": null,
+        "end": 1759335029,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759335029,
+        "end": null
       }
     ]
   },
@@ -19615,11 +19610,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758124872,
-        "end": 1758127255
-      },
-      {
         "status": "[China] - Going",
         "start": 1758127255,
         "end": 1758130257,
@@ -22716,8 +22706,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759325433,
-        "end": null,
+        "end": 1759335029,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759335029,
+        "end": null
       }
     ]
   },
@@ -28283,8 +28278,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759333827,
-        "end": null,
+        "end": 1759335029,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759335029,
+        "end": null
       }
     ]
   },
@@ -31813,6 +31813,11 @@
       {
         "status": "Jail",
         "start": 1759334437,
+        "end": 1759335029
+      },
+      {
+        "status": "Available",
+        "start": 1759335029,
         "end": null
       }
     ]
@@ -36459,6 +36464,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759333827,
+        "end": 1759335029,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759335029,
         "end": null,
         "travel_type": "airstrip"
       }
