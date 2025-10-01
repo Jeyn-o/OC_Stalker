@@ -2432,7 +2432,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759325433,
-        "end": null
+        "end": 1759326031
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759326031,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6150,12 +6156,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758115862,
-        "end": 1758120650,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Returning",
         "start": 1758120650,
@@ -11326,6 +11326,11 @@
       {
         "status": "Jail",
         "start": 1759325433,
+        "end": 1759326031
+      },
+      {
+        "status": "Available",
+        "start": 1759326031,
         "end": null
       }
     ]
@@ -13521,6 +13526,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759324831,
+        "end": 1759326031,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759326031,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -21601,7 +21612,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759323636,
-        "end": null
+        "end": 1759326031
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759326031,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -26767,11 +26784,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758115862,
-        "end": 1758116451
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758116451,
         "end": 1758122449,
@@ -28148,8 +28160,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759324831,
-        "end": null,
+        "end": 1759326031,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759326031,
+        "end": null
       }
     ]
   },
@@ -29884,8 +29901,13 @@
       {
         "status": "[China] - Going",
         "start": 1759315829,
-        "end": null,
+        "end": 1759326031,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759326031,
+        "end": null
       }
     ]
   },
@@ -36957,6 +36979,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759324224,
+        "end": 1759326031
+      },
+      {
+        "status": "Available",
+        "start": 1759326031,
         "end": null
       }
     ]
