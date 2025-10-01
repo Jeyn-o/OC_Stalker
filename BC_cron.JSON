@@ -4836,6 +4836,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759272033,
+        "end": 1759285225
+      },
+      {
+        "status": "Available",
+        "start": 1759285225,
         "end": null
       }
     ]
@@ -10451,11 +10456,6 @@
     "name": "TsanMan",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1758075043,
-        "end": 1758075646
-      },
-      {
         "status": "Available",
         "start": 1758075646,
         "end": 1758329453
@@ -14314,8 +14314,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759273825,
-        "end": null,
+        "end": 1759285225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1759285225,
+        "end": null
       }
     ]
   },
@@ -15115,8 +15120,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759273234,
-        "end": null,
+        "end": 1759285225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759285225,
+        "end": null
       }
     ]
   },
@@ -19265,19 +19275,19 @@
       {
         "status": "[Japan] - Going",
         "start": 1759276230,
-        "end": null,
+        "end": 1759285225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1759285225,
+        "end": null
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1758075043,
-        "end": 1758077442
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1758077442,
@@ -21348,7 +21358,13 @@
       {
         "status": "Available",
         "start": 1759283428,
-        "end": null
+        "end": 1759285225
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759285225,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -22354,8 +22370,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759278029,
-        "end": null,
+        "end": 1759285225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1759285225,
+        "end": null
       }
     ]
   },
@@ -24681,12 +24702,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1758075043,
-        "end": 1758076259,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1758076259,
@@ -29007,7 +29022,13 @@
       {
         "status": "Available",
         "start": 1759284028,
-        "end": null
+        "end": 1759285225
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759285225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32426,7 +32447,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759284028,
-        "end": null
+        "end": 1759285225
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759285225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35890,8 +35917,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759284028,
-        "end": null,
+        "end": 1759285225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759285225,
+        "end": null
       }
     ]
   },
@@ -37714,12 +37746,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1758075043,
-        "end": 1758076848,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758076848,
@@ -41205,7 +41231,13 @@
       {
         "status": "Available",
         "start": 1759284028,
-        "end": null
+        "end": 1759285225
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1759285225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
