@@ -3096,6 +3096,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759294223,
+        "end": 1759300833,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759300833,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -8171,6 +8177,11 @@
       {
         "status": "Available",
         "start": 1759071062,
+        "end": 1759300833
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1759300833,
         "end": null
       }
     ]
@@ -14349,8 +14360,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759289425,
-        "end": null,
+        "end": 1759300833,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759300833,
+        "end": null
       }
     ]
   },
@@ -25623,7 +25639,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1759289425,
-        "end": null
+        "end": 1759300833
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759300833,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34348,18 +34370,19 @@
       {
         "status": "Available",
         "start": 1759251634,
-        "end": null
+        "end": 1759300833
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759300833,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758090660,
-        "end": 1758098447
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1758098447,
