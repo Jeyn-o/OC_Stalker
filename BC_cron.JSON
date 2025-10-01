@@ -1720,11 +1720,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1758112847,
-        "end": 1758114651
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1758114651,
         "end": 1758116451,
@@ -18212,7 +18207,13 @@
       {
         "status": "Available",
         "start": 1759293036,
-        "end": null
+        "end": 1759323026
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1759323026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32702,8 +32703,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759315829,
-        "end": null,
+        "end": 1759323026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1759323026,
+        "end": null
       }
     ]
   },
@@ -33984,6 +33990,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1759311622,
+        "end": 1759323026
+      },
+      {
+        "status": "Available",
+        "start": 1759323026,
         "end": null
       }
     ]
