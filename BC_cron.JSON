@@ -2503,12 +2503,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1758082251,
-        "end": 1758088866,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1758088866,
         "end": 1758089446
@@ -7319,7 +7313,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759265427,
-        "end": null
+        "end": 1759292423
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759292423,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -19316,11 +19316,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1758082251,
-        "end": 1758105059
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1758105059,
         "end": 1758109247,
@@ -29047,8 +29042,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759285225,
-        "end": null,
+        "end": 1759292423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1759292423,
+        "end": null
       }
     ]
   },
@@ -32461,8 +32461,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759285225,
-        "end": null,
+        "end": 1759292423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759292423,
+        "end": null
       }
     ]
   },
@@ -32756,11 +32761,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758082251,
-        "end": 1758091851
-      },
       {
         "status": "[China] - Going",
         "start": 1758091851,
@@ -33548,7 +33548,13 @@
       {
         "status": "Available",
         "start": 1759282830,
-        "end": null
+        "end": 1759292423
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759292423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35959,8 +35965,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759291232,
-        "end": null,
+        "end": 1759292423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759292423,
+        "end": null
       }
     ]
   },
