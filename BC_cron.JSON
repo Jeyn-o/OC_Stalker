@@ -1559,7 +1559,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759312224,
-        "end": null
+        "end": 1759324224
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759324224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3682,11 +3688,6 @@
     "name": "firefly50",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758114065,
-        "end": 1758338443
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1758338443,
         "end": 1758339649
@@ -5465,12 +5466,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1758114065,
-        "end": 1758115278,
-        "travel_type": "private"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1758115278,
@@ -10789,12 +10784,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1758114065,
-        "end": 1758120650,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1758120650,
@@ -19510,12 +19499,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1758114065,
-        "end": 1758117045,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1758117045,
         "end": 1758117645
@@ -23880,6 +23863,11 @@
       {
         "status": "Available",
         "start": 1759320038,
+        "end": 1759324224
+      },
+      {
+        "status": "Jail",
+        "start": 1759324224,
         "end": null
       }
     ]
@@ -24089,12 +24077,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1758114065,
-        "end": 1758120650,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758120650,
@@ -24947,8 +24929,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759317627,
-        "end": null,
+        "end": 1759324224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759324224,
+        "end": null
       }
     ]
   },
@@ -32115,11 +32102,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1758114065,
-        "end": 1758120045
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1758120045,
         "end": 1758127255,
@@ -36926,6 +36908,11 @@
       {
         "status": "Available",
         "start": 1759301430,
+        "end": 1759324224
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1759324224,
         "end": null
       }
     ]
@@ -44355,7 +44342,13 @@
       {
         "status": "Available",
         "start": 1759316436,
-        "end": null
+        "end": 1759324224
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759324224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
