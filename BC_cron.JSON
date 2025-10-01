@@ -5274,6 +5274,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1759353025,
+        "end": 1759359027,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759359027,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -13741,6 +13747,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759357830,
+        "end": 1759359027,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759359027,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -23879,7 +23891,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1759354826,
-        "end": null
+        "end": 1759359027
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1759359027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29602,7 +29620,13 @@
       {
         "status": "Available",
         "start": 1759354826,
-        "end": null
+        "end": 1759359027
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1759359027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43470,11 +43494,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758148843,
-        "end": 1758149446
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1758149446,
