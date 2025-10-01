@@ -7416,6 +7416,12 @@
       {
         "status": "[China] - Going",
         "start": 1759318830,
+        "end": 1759329039,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759329039,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -13542,7 +13548,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759327229,
-        "end": null
+        "end": 1759329039
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759329039,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15347,6 +15359,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1759327229,
+        "end": 1759329039,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759329039,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -16479,8 +16497,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759318830,
-        "end": null,
+        "end": 1759329039,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759329039,
+        "end": null
       }
     ]
   },
@@ -21610,7 +21633,13 @@
       {
         "status": "Available",
         "start": 1759327845,
-        "end": null
+        "end": 1759329039
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759329039,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -29376,7 +29405,13 @@
       {
         "status": "Available",
         "start": 1759328426,
-        "end": null
+        "end": 1759329039
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759329039,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29943,7 +29978,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759326031,
-        "end": null
+        "end": 1759329039
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759329039,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37027,12 +37068,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1758118848,
-        "end": 1758126054,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1758126054,
         "end": 1758128465
@@ -37931,20 +37966,19 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759328426,
-        "end": null,
+        "end": 1759329039,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759329039,
+        "end": null
       }
     ]
   },
   "3707169": {
     "name": "LichKean",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758118848,
-        "end": 1758125447,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758125447,
@@ -43083,12 +43117,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1758118848,
-        "end": 1758125447,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758125447,
