@@ -10456,11 +10456,6 @@
     "name": "TsanMan",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758075646,
-        "end": 1758329453
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1758329453,
         "end": 1758330065
@@ -11253,12 +11248,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1758075646,
-        "end": 1758088866,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758088866,
@@ -15489,12 +15478,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758075646,
-        "end": 1758082843,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758082843,
@@ -21363,6 +21346,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759285225,
+        "end": 1759285833,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759285833,
         "end": null,
         "travel_type": "standard"
       }
@@ -22376,7 +22365,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1759285225,
-        "end": null
+        "end": 1759285833
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759285833,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23402,8 +23397,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759273234,
-        "end": null,
+        "end": 1759285833,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759285833,
+        "end": null
       }
     ]
   },
@@ -31855,11 +31855,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758075646,
-        "end": 1758081040
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1758081040,
         "end": 1758088243,
@@ -35923,7 +35918,13 @@
       {
         "status": "Available",
         "start": 1759285225,
-        "end": null
+        "end": 1759285833
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759285833,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
