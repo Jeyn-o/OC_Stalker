@@ -1726,12 +1726,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1758116451,
-        "end": 1758118240,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1758118240,
         "end": 1758120045,
@@ -8987,6 +8981,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1759325433,
+        "end": 1759326628,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759326628,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -12144,8 +12144,13 @@
       {
         "status": "[China] - Going",
         "start": 1759316436,
-        "end": null,
+        "end": 1759326628,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759326628,
+        "end": null
       }
     ]
   },
@@ -13838,11 +13843,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758116451,
-        "end": 1758118240
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1758118240,
         "end": 1758130257,
@@ -15338,8 +15338,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759314032,
-        "end": null,
+        "end": 1759326628,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759326628,
+        "end": null
       }
     ]
   },
@@ -22643,11 +22648,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1758116451,
-        "end": 1758130845
-      },
-      {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1758130845,
         "end": 1758133249
@@ -24985,7 +24985,13 @@
       {
         "status": "Available",
         "start": 1759324224,
-        "end": null
+        "end": 1759326628
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759326628,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26625,8 +26631,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759314032,
-        "end": null,
+        "end": 1759326628,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759326628,
+        "end": null
       }
     ]
   },
@@ -26783,12 +26794,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1758116451,
-        "end": 1758122449,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758122449,
@@ -28166,7 +28171,13 @@
       {
         "status": "Available",
         "start": 1759326031,
-        "end": null
+        "end": 1759326628
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759326628,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29340,6 +29351,11 @@
       {
         "status": "[Canada] Mugged - Revives: ALL",
         "start": 1759324831,
+        "end": 1759326628
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1759326628,
         "end": null
       }
     ]
@@ -36310,8 +36326,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759314629,
-        "end": null,
+        "end": 1759326628,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759326628,
+        "end": null
       }
     ]
   },
@@ -39966,6 +39987,11 @@
       {
         "status": "Available",
         "start": 1759325433,
+        "end": 1759326628
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1759326628,
         "end": null
       }
     ]
