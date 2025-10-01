@@ -5247,6 +5247,12 @@
       {
         "status": "[China] - Going",
         "start": 1759330839,
+        "end": 1759340427,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759340427,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -13911,12 +13917,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1758130257,
-        "end": 1758141059,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758141059,
         "end": 1758141647
@@ -18295,7 +18295,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759339833,
-        "end": null
+        "end": 1759340427
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759340427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19597,12 +19603,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1758130257,
-        "end": 1758133870,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1758133870,
@@ -23754,6 +23754,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759327845,
+        "end": 1759340427,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759340427,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25040,8 +25046,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759333827,
-        "end": null,
+        "end": 1759340427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759340427,
+        "end": null
       }
     ]
   },
