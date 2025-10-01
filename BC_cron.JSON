@@ -887,12 +887,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758108650,
-        "end": 1758115278,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758115278,
         "end": 1758175850
@@ -2442,6 +2436,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759312224,
+        "end": 1759318830,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759318830,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7465,7 +7465,13 @@
       {
         "status": "Available",
         "start": 1759272033,
-        "end": null
+        "end": 1759318830
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759318830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16458,7 +16464,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759308030,
-        "end": null
+        "end": 1759318830
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759318830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28120,6 +28132,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759317627,
+        "end": 1759318830,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759318830,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31627,11 +31645,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1758108650,
-        "end": 1758124254
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1758124254,
@@ -37804,8 +37817,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759317627,
-        "end": null,
+        "end": 1759318830,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759318830,
+        "end": null
       }
     ]
   },
@@ -39874,6 +39892,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759312224,
+        "end": 1759318830,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759318830,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -42957,6 +42981,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759318226,
+        "end": 1759318830
+      },
+      {
+        "status": "Available",
+        "start": 1759318830,
         "end": null
       }
     ]
