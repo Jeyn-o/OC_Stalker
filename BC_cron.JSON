@@ -1731,12 +1731,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758103845,
-        "end": 1758110463,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758110463,
         "end": 1758111051
@@ -8459,12 +8453,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1758103845,
-        "end": 1758110463,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1758110463,
         "end": 1758117645,
@@ -12132,8 +12120,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759303826,
-        "end": null,
+        "end": 1759314032,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759314032,
+        "end": null
       }
     ]
   },
@@ -15270,6 +15263,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759301430,
+        "end": 1759314032,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759314032,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -26543,7 +26542,13 @@
       {
         "status": "Available",
         "start": 1759287630,
-        "end": null
+        "end": 1759314032
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759314032,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34538,8 +34543,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759307436,
-        "end": null,
+        "end": 1759314032,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759314032,
+        "end": null
       }
     ]
   },
@@ -44264,6 +44274,11 @@
       {
         "status": "Available",
         "start": 1759297230,
+        "end": 1759314032
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1759314032,
         "end": null
       }
     ]
