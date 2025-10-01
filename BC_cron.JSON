@@ -21344,8 +21344,13 @@
       {
         "status": "[China] - Going",
         "start": 1759275631,
-        "end": null,
+        "end": 1759278635,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759278635,
+        "end": null
       }
     ]
   },
@@ -31856,12 +31861,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1758068448,
-        "end": 1758075646,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758075646,
         "end": 1758081040
@@ -32439,6 +32438,11 @@
       {
         "status": "[Argentina] Mugged - Revives: ALL",
         "start": 1759276230,
+        "end": 1759278635
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1759278635,
         "end": null
       }
     ]
@@ -44044,7 +44048,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1759278029,
-        "end": null
+        "end": 1759278635
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1759278635,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
