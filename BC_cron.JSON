@@ -8456,12 +8456,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1758098447,
-        "end": 1758099050,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1758099050,
         "end": 1758100853
@@ -9101,7 +9095,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1759307436,
-        "end": null
+        "end": 1759308622
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759308622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14556,12 +14556,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1758098447,
-        "end": 1758111051,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758111051,
@@ -24043,12 +24037,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758098447,
-        "end": 1758105059,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758105059,
         "end": 1758111649,
@@ -28038,11 +28026,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758098447,
-        "end": 1758099050
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758099050,
@@ -32615,7 +32598,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759308030,
-        "end": null
+        "end": 1759308622
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759308622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34521,12 +34510,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1758098447,
-        "end": 1758104440,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1758104440,
         "end": 1758105059
@@ -36155,8 +36138,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759296024,
-        "end": null,
+        "end": 1759308622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759308622,
+        "end": null
       }
     ]
   },
