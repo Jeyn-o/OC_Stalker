@@ -8994,6 +8994,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1759306823,
+        "end": 1759308030,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759308030,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -9102,12 +9108,6 @@
   "2655203": {
     "name": "Vampire-Catgirl",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1758097861,
-        "end": 1758105059,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758105059,
@@ -13450,6 +13450,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759306823,
+        "end": 1759308030,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759308030,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -16373,6 +16379,11 @@
       {
         "status": "[China] Mugged - Revives: Partial",
         "start": 1759305635,
+        "end": 1759308030
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759308030,
         "end": null
       }
     ]
@@ -21532,7 +21543,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759307436,
-        "end": null
+        "end": 1759308030
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759308030,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -32592,8 +32609,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759301430,
-        "end": null,
+        "end": 1759308030,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1759308030,
+        "end": null
       }
     ]
   },
@@ -33689,6 +33711,11 @@
       {
         "status": "[China] - Idle",
         "start": 1759305635,
+        "end": 1759308030
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1759308030,
         "end": null
       }
     ]
@@ -39724,7 +39751,13 @@
       {
         "status": "Available",
         "start": 1759307436,
-        "end": null
+        "end": 1759308030
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759308030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -42462,11 +42495,6 @@
   "3851236": {
     "name": "Psyden",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758097861,
-        "end": 1758272482
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1758272482,
