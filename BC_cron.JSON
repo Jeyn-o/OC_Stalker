@@ -1725,12 +1725,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758129645,
-        "end": 1758136871,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758136871,
         "end": 1758183639
@@ -2419,6 +2413,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759333234,
+        "end": 1759339833,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759339833,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -5439,12 +5439,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1758129645,
-        "end": 1758137461,
-        "travel_type": "private"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758137461,
@@ -9842,8 +9836,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759330839,
-        "end": null,
+        "end": 1759339833,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759339833,
+        "end": null
       }
     ]
   },
@@ -10763,11 +10762,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758129645,
-        "end": 1758214249
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1758214249,
@@ -13606,7 +13600,13 @@
       {
         "status": "Available",
         "start": 1759339228,
-        "end": null
+        "end": 1759339833
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759339833,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14702,6 +14702,11 @@
       {
         "status": "Available",
         "start": 1759136424,
+        "end": 1759339833
+      },
+      {
+        "status": "Jail",
+        "start": 1759339833,
         "end": null
       }
     ]
@@ -16568,12 +16573,6 @@
     "name": "JuanPaulo",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758129645,
-        "end": 1758134452,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1758134452,
         "end": 1758135666
@@ -18290,8 +18289,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759338632,
-        "end": null,
+        "end": 1759339833,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759339833,
+        "end": null
       }
     ]
   },
@@ -26841,11 +26845,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758129645,
-        "end": 1758132653
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758132653,
         "end": 1758138651,
@@ -32246,12 +32245,6 @@
   "3593371": {
     "name": "MrBrownstone",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1758129645,
-        "end": 1758138651,
-        "travel_type": "standard"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758138651,
@@ -40133,7 +40126,13 @@
       {
         "status": "Available",
         "start": 1759339228,
-        "end": null
+        "end": 1759339833
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759339833,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
