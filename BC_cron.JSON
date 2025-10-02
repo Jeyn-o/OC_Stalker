@@ -902,12 +902,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1758175850,
-        "end": 1758183043,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1758183043,
         "end": 1758190240,
@@ -21884,7 +21878,13 @@
       {
         "status": "Available",
         "start": 1759385422,
-        "end": null
+        "end": 1759386031
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759386031,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -28590,7 +28590,13 @@
       {
         "status": "Available",
         "start": 1759352428,
-        "end": null
+        "end": 1759386031
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759386031,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33505,12 +33511,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758175850,
-        "end": 1758186648,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1758186648,
@@ -43688,11 +43688,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758175850,
-        "end": 1758176463
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1758176463,
         "end": 1758177062
@@ -45107,8 +45102,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759384832,
-        "end": null,
+        "end": 1759386031,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759386031,
+        "end": null
       }
     ]
   },
