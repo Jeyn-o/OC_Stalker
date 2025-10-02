@@ -1606,6 +1606,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1759398621,
+        "end": 1759403429
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1759403429,
         "end": null
       }
     ]
@@ -4245,7 +4250,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759402832,
-        "end": null
+        "end": 1759403429
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759403429,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4292,11 +4303,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758193263,
-        "end": 1758205861
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758205861,
@@ -13985,8 +13991,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759402229,
-        "end": null,
+        "end": 1759403429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759403429,
+        "end": null
       }
     ]
   },
@@ -14279,11 +14290,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1758193263,
-        "end": 1758193842
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758193842,
@@ -18680,11 +18686,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758193263,
-        "end": 1758227454
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1758227454,
@@ -26343,7 +26344,13 @@
       {
         "status": "Available",
         "start": 1759402832,
-        "end": null
+        "end": 1759403429
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1759403429,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28752,8 +28759,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759396820,
-        "end": null,
+        "end": 1759403429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759403429,
+        "end": null
       }
     ]
   },
@@ -34546,8 +34558,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759397432,
-        "end": null,
+        "end": 1759403429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759403429,
+        "end": null
       }
     ]
   },
@@ -34739,11 +34756,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758193263,
-        "end": 1758196247
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758196247,
@@ -35376,11 +35388,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1758193263,
-        "end": 1758201651
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1758201651,
@@ -38694,11 +38701,6 @@
     "name": "LichKean",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758193263,
-        "end": 1758197449
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758197449,
         "end": 1758204068,
@@ -41468,8 +41470,13 @@
       {
         "status": "[China] - Going",
         "start": 1759393225,
-        "end": null,
+        "end": 1759403429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759403429,
+        "end": null
       }
     ]
   },
