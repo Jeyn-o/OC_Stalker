@@ -3,12 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758232248,
-        "end": 1758244848,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758244848,
         "end": 1758256843,
@@ -5504,11 +5498,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758232248,
-        "end": 1758291045
-      },
       {
         "status": "[China] - Going",
         "start": 1758291045,
@@ -15215,6 +15204,11 @@
       {
         "status": "Available",
         "start": 1759341024,
+        "end": 1759442434
+      },
+      {
+        "status": "Jail",
+        "start": 1759442434,
         "end": null
       }
     ]
@@ -22115,6 +22109,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1759439425,
+        "end": 1759442434,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759442434,
         "end": null,
         "travel_type": "standard"
       }
@@ -24298,6 +24298,12 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759440657,
+        "end": 1759442434,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759442434,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35015,11 +35021,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758232248,
-        "end": 1758249637
-      },
-      {
         "status": "[China] - Going",
         "start": 1758249637,
         "end": 1758259863,
@@ -35627,8 +35628,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759432819,
-        "end": null,
+        "end": 1759442434,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759442434,
+        "end": null
       }
     ]
   },
