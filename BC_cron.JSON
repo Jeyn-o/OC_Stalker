@@ -759,6 +759,11 @@
       {
         "status": "[South Africa] Lost - Revives: OFF",
         "start": 1759399823,
+        "end": 1759400423
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759400423,
         "end": null
       }
     ]
@@ -900,11 +905,6 @@
   "446596": {
     "name": "Bucki",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758190240,
-        "end": 1758202842
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758202842,
@@ -1759,12 +1759,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758190240,
-        "end": 1758197449,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758197449,
@@ -19383,7 +19377,13 @@
       {
         "status": "Available",
         "start": 1759398026,
-        "end": null
+        "end": 1759400423
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1759400423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29931,7 +29931,13 @@
       {
         "status": "Available",
         "start": 1759398026,
-        "end": null
+        "end": 1759400423
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759400423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35295,8 +35301,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759393834,
-        "end": null,
+        "end": 1759400423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759400423,
+        "end": null
       }
     ]
   },
@@ -40716,6 +40727,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759393834,
+        "end": 1759400423,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759400423,
         "end": null,
         "travel_type": "airstrip"
       }
