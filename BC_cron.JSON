@@ -1586,7 +1586,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759389026,
-        "end": null
+        "end": 1759390223
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759390223,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11405,12 +11411,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1758180039,
-        "end": 1758187243,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1758187243,
@@ -21906,8 +21906,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759386031,
-        "end": null,
+        "end": 1759390223,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759390223,
+        "end": null
       }
     ]
   },
@@ -22952,12 +22957,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758180039,
-        "end": 1758189663,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1758189663,
@@ -26224,8 +26223,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1759384227,
-        "end": null,
+        "end": 1759390223,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759390223,
+        "end": null
       }
     ]
   },
@@ -38746,12 +38750,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1758180039,
-        "end": 1758186064,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1758186064,
         "end": 1758191463,
@@ -43732,11 +43730,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1758180039,
-        "end": 1758180657
-      },
       {
         "status": "Available",
         "start": 1758180657,
