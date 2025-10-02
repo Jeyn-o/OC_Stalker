@@ -12573,7 +12573,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759353625,
-        "end": null
+        "end": 1759368629
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759368629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19178,11 +19184,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758158441,
-        "end": 1758159060
-      },
       {
         "status": "[Japan] - Going",
         "start": 1758159060,
@@ -43489,12 +43490,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758158441,
-        "end": 1758165044,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758165044,
         "end": 1758166257
@@ -44869,8 +44864,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1759367423,
-        "end": null,
+        "end": 1759368629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1759368629,
+        "end": null
       }
     ]
   },
