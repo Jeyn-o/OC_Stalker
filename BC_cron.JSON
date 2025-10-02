@@ -754,6 +754,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759382424,
+        "end": 1759399823
+      },
+      {
+        "status": "[South Africa] Lost - Revives: OFF",
+        "start": 1759399823,
         "end": null
       }
     ]
@@ -3121,8 +3126,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759392621,
-        "end": null,
+        "end": 1759399823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1759399823,
+        "end": null
       }
     ]
   },
@@ -9287,11 +9297,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758189663,
-        "end": 1758199247
-      },
       {
         "status": "[Japan] - Going",
         "start": 1758199247,
@@ -15755,7 +15760,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759399234,
-        "end": null
+        "end": 1759399823
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759399823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23013,11 +23024,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1758189663,
-        "end": 1758192648
-      },
-      {
         "status": "[China] - Returning",
         "start": 1758192648,
         "end": 1758202842,
@@ -24533,11 +24539,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758189663,
-        "end": 1758195065
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1758195065,
@@ -27251,11 +27252,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758189663,
-        "end": 1758190849
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758190849,
@@ -38605,8 +38601,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759390818,
-        "end": null,
+        "end": 1759399823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759399823,
+        "end": null
       }
     ]
   },
