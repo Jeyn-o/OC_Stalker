@@ -3119,12 +3119,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1758207053,
-        "end": 1758214249,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758214249,
         "end": 1758253247
@@ -3637,7 +3631,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759416633,
-        "end": null
+        "end": 1759417232
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759417232,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9908,7 +9908,13 @@
       {
         "status": "Available",
         "start": 1759405225,
-        "end": null
+        "end": 1759417232
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1759417232,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12252,8 +12258,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1759411830,
-        "end": null,
+        "end": 1759417232,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1759417232,
+        "end": null
       }
     ]
   },
@@ -15854,6 +15865,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1759415435,
+        "end": 1759417232,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1759417232,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -17044,19 +17061,19 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759405826,
-        "end": null,
+        "end": 1759417232,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759417232,
+        "end": null
       }
     ]
   },
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758207053,
-        "end": 1758271849
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758271849,
@@ -24601,12 +24618,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1758207053,
-        "end": 1758218462,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758218462,
         "end": 1758255040
@@ -31195,12 +31206,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1758207053,
-        "end": 1758217846,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758217846,
         "end": 1758224447,
@@ -32411,11 +32416,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1758207053,
-        "end": 1758217846
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1758217846,
@@ -35455,12 +35455,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1758207053,
-        "end": 1758208245,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1758208245,
@@ -38788,6 +38782,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759416024,
+        "end": 1759417232,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759417232,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -38990,11 +38990,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1758207053,
-        "end": 1758211264
-      },
       {
         "status": "Available",
         "start": 1758211264,
