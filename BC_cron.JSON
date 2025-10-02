@@ -1783,11 +1783,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758202265,
-        "end": 1758202842
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1758202842,
         "end": 1758204643,
@@ -4261,6 +4256,11 @@
       {
         "status": "Jail",
         "start": 1759397432,
+        "end": 1759412422
+      },
+      {
+        "status": "Available",
+        "start": 1759412422,
         "end": null
       }
     ]
@@ -6033,7 +6033,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759411227,
-        "end": null
+        "end": 1759412422
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759412422,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -10034,12 +10040,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758202265,
-        "end": 1758208842,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1758208842,
         "end": 1758210643
@@ -11485,12 +11485,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1758202265,
-        "end": 1758202842,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758202842,
@@ -14009,6 +14003,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759411227,
+        "end": 1759412422,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759412422,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -17016,12 +17016,6 @@
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758202265,
-        "end": 1758207053,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758207053,
@@ -27158,8 +27152,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759401027,
-        "end": null,
+        "end": 1759412422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1759412422,
+        "end": null
       }
     ]
   },
@@ -33421,6 +33420,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759405225,
+        "end": 1759412422,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759412422,
         "end": null,
         "travel_type": "airstrip"
       }
