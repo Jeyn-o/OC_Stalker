@@ -1782,12 +1782,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758208842,
-        "end": 1758215454,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1758215454,
         "end": 1758216667
@@ -3790,11 +3784,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758208842,
-        "end": 1758241855
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1758241855,
@@ -6134,6 +6123,11 @@
       {
         "status": "Jail",
         "start": 1759415435,
+        "end": 1759419026
+      },
+      {
+        "status": "Available",
+        "start": 1759419026,
         "end": null
       }
     ]
@@ -7278,7 +7272,13 @@
       {
         "status": "Available",
         "start": 1759413631,
-        "end": null
+        "end": 1759419026
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759419026,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -9324,11 +9324,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1758208842,
-        "end": 1758210047
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1758210047,
         "end": 1758219651,
@@ -10036,11 +10031,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758208842,
-        "end": 1758210643
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758210643,
@@ -20039,12 +20029,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1758208842,
-        "end": 1758210643,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1758210643,
         "end": 1758215454
@@ -24206,7 +24190,13 @@
       {
         "status": "Available",
         "start": 1759418430,
-        "end": null
+        "end": 1759419026
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759419026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37196,7 +37186,13 @@
       {
         "status": "Available",
         "start": 1759406434,
-        "end": null
+        "end": 1759419026
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759419026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
