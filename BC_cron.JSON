@@ -1777,11 +1777,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758197449,
-        "end": 1758198053
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1758198053,
         "end": 1758199864,
@@ -2476,8 +2471,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759401027,
-        "end": null,
+        "end": 1759407623,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759407623,
+        "end": null
       }
     ]
   },
@@ -7282,7 +7282,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759392036,
-        "end": null
+        "end": 1759407623
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759407623,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -11488,11 +11494,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758197449,
-        "end": 1758198053
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1758198053,
         "end": 1758199247,
@@ -12757,8 +12758,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759406434,
-        "end": null,
+        "end": 1759407623,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759407623,
+        "end": null
       }
     ]
   },
@@ -19398,6 +19404,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759400423,
+        "end": 1759407623,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759407623,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -27273,12 +27285,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758197449,
-        "end": 1758204068,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758204068,
         "end": 1758205861
@@ -28730,11 +28736,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[South Africa] Mugged - Revives: ALL",
-        "start": 1758197449,
-        "end": 1758198053
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1758198053,
         "end": 1758210643,
@@ -29951,7 +29952,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759407032,
-        "end": null
+        "end": 1759407623
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759407623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33661,11 +33668,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758197449,
-        "end": 1758211850
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1758211850,
@@ -38674,12 +38676,6 @@
     "name": "LichKean",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758197449,
-        "end": 1758204068,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758204068,
         "end": 1758288668
@@ -40749,8 +40745,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759400423,
-        "end": null,
+        "end": 1759407623,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759407623,
+        "end": null
       }
     ]
   },
