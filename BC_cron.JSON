@@ -3782,11 +3782,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1758168057,
-        "end": 1758168645
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1758168645,
         "end": 1758181245,
@@ -9834,6 +9829,11 @@
       {
         "status": "Jail",
         "start": 1759354229,
+        "end": 1759378221
+      },
+      {
+        "status": "Available",
+        "start": 1759378221,
         "end": null
       }
     ]
@@ -9928,11 +9928,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758168057,
-        "end": 1758202265
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758202265,
@@ -13789,11 +13784,6 @@
   "2943860": {
     "name": "BiberBart",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1758168057,
-        "end": 1758202842
-      },
       {
         "status": "[South Africa] Mugged - Revives: ALL",
         "start": 1758202842,
@@ -18476,12 +18466,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1758168057,
-        "end": 1758180657,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1758180657,
@@ -26897,7 +26881,13 @@
       {
         "status": "Available",
         "start": 1759377639,
-        "end": null
+        "end": 1759378221
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759378221,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36801,8 +36791,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759377028,
-        "end": null,
+        "end": 1759378221,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1759378221,
+        "end": null
       }
     ]
   },
@@ -42091,7 +42086,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759377639,
-        "end": null
+        "end": 1759378221
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759378221,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43207,8 +43208,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1759377028,
-        "end": null,
+        "end": 1759378221,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759378221,
+        "end": null
       }
     ]
   },
@@ -43576,11 +43582,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1758168057,
-        "end": 1758168645
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1758168645,
@@ -44995,6 +44996,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759377639,
+        "end": 1759378221,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759378221,
         "end": null,
         "travel_type": "airstrip"
       }
