@@ -4838,12 +4838,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758235847,
-        "end": 1758243045,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758243045,
         "end": 1758282650
@@ -10947,12 +10941,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1758235847,
-        "end": 1758243045,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758243045,
@@ -22108,7 +22096,13 @@
       {
         "status": "Available",
         "start": 1759445422,
-        "end": null
+        "end": 1759446039
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759446039,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -24308,7 +24302,13 @@
       {
         "status": "Available",
         "start": 1759444821,
-        "end": null
+        "end": 1759446039
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759446039,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32577,6 +32577,11 @@
       {
         "status": "[China] - Idle",
         "start": 1759441227,
+        "end": 1759446039
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1759446039,
         "end": null
       }
     ]
@@ -34851,8 +34856,13 @@
       {
         "status": "[China] - Going",
         "start": 1759435831,
-        "end": null,
+        "end": 1759446039,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759446039,
+        "end": null
       }
     ]
   },
