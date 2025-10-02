@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758201054,
-        "end": 1758202842
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1758202842,
         "end": 1758204068,
@@ -1616,8 +1611,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759404629,
-        "end": null,
+        "end": 1759411227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759411227,
+        "end": null
       }
     ]
   },
@@ -5496,6 +5496,11 @@
       {
         "status": "Available",
         "start": 1759261230,
+        "end": 1759411227
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: Partial",
+        "start": 1759411227,
         "end": null
       }
     ]
@@ -6016,8 +6021,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759402832,
-        "end": null,
+        "end": 1759411227,
         "travel_type": "private"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1759411227,
+        "end": null
       }
     ]
   },
@@ -8493,12 +8503,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1758201054,
-        "end": 1758208245,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758208245,
@@ -12735,7 +12739,13 @@
       {
         "status": "Available",
         "start": 1759407623,
-        "end": null
+        "end": 1759411227
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759411227,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13976,7 +13986,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759410029,
-        "end": null
+        "end": 1759411227
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759411227,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15900,6 +15916,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1759408826,
+        "end": 1759411227
+      },
+      {
+        "status": "Available",
+        "start": 1759411227,
         "end": null
       }
     ]
@@ -21974,8 +21995,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759407032,
-        "end": null,
+        "end": 1759411227,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759411227,
+        "end": null
       }
     ]
   },
@@ -35338,6 +35364,12 @@
       {
         "status": "[China] - Going",
         "start": 1759401027,
+        "end": 1759411227,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759411227,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -41426,6 +41458,11 @@
       {
         "status": "[China] - Idle",
         "start": 1759403429,
+        "end": 1759411227
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1759411227,
         "end": null
       }
     ]
