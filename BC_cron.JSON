@@ -3118,7 +3118,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759374026,
-        "end": null
+        "end": 1759385422
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759385422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8963,7 +8969,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759384227,
-        "end": null
+        "end": 1759385422
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759385422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13822,8 +13834,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759384832,
-        "end": null,
+        "end": 1759385422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759385422,
+        "end": null
       }
     ]
   },
@@ -21862,6 +21879,11 @@
       {
         "status": "Jail",
         "start": 1759384832,
+        "end": 1759385422
+      },
+      {
+        "status": "Available",
+        "start": 1759385422,
         "end": null
       }
     ]
@@ -25294,12 +25316,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1758175259,
-        "end": 1758180657,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758180657,
@@ -30905,11 +30921,6 @@
   "3542414": {
     "name": "awesomemcsexy",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1758175259,
-        "end": 1758177638
-      },
       {
         "status": "[China] - Idle",
         "start": 1758177638,
