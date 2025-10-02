@@ -3146,12 +3146,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1758199247,
-        "end": 1758206457,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1758206457,
         "end": 1758207053
@@ -3664,7 +3658,13 @@
       {
         "status": "Available",
         "start": 1759408227,
-        "end": null
+        "end": 1759409423
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759409423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9317,12 +9317,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1758199247,
-        "end": 1758208842,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1758208842,
         "end": 1758210047
@@ -11481,11 +11475,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1758199247,
-        "end": 1758202265
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1758202265,
@@ -19954,11 +19943,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758199247,
-        "end": 1758199864
-      },
       {
         "status": "[China] - Returning",
         "start": 1758199864,
@@ -40750,6 +40734,11 @@
       {
         "status": "Available",
         "start": 1759407623,
+        "end": 1759409423
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1759409423,
         "end": null
       }
     ]
