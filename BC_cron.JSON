@@ -1617,7 +1617,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759411227,
-        "end": null
+        "end": 1759411830
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759411830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12243,6 +12249,12 @@
       {
         "status": "[China] - Returning",
         "start": 1759401027,
+        "end": 1759411830,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1759411830,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -12744,6 +12756,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759411227,
+        "end": 1759411830,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759411830,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15795,8 +15813,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759399823,
-        "end": null,
+        "end": 1759411830,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759411830,
+        "end": null
       }
     ]
   },
@@ -22225,11 +22248,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758201651,
-        "end": 1758241855
-      },
       {
         "status": "[Japan] - Going",
         "start": 1758241855,
@@ -35379,12 +35397,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1758201651,
-        "end": 1758207053,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1758207053,
         "end": 1758208245,
@@ -38699,7 +38711,13 @@
       {
         "status": "Available",
         "start": 1759399823,
-        "end": null
+        "end": 1759411830
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759411830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
