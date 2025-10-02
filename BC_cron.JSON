@@ -1777,11 +1777,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758207667,
-        "end": 1758208842
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758208842,
         "end": 1758215454,
@@ -3110,8 +3105,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759410625,
-        "end": null,
+        "end": 1759417831,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759417831,
+        "end": null
       }
     ]
   },
@@ -7510,12 +7510,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1758207667,
-        "end": 1758220851,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1758220851,
@@ -12264,7 +12258,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1759417232,
-        "end": null
+        "end": 1759417831
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759417831,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28818,8 +28818,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759416024,
-        "end": null,
+        "end": 1759417831,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759417831,
+        "end": null
       }
     ]
   },
@@ -37791,8 +37796,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1759415435,
-        "end": null,
+        "end": 1759417831,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1759417831,
+        "end": null
       }
     ]
   },
