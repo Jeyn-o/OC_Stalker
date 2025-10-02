@@ -3146,11 +3146,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1758198663,
-        "end": 1758199247
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1758199247,
         "end": 1758206457,
@@ -13981,7 +13976,13 @@
       {
         "status": "Available",
         "start": 1759403429,
-        "end": null
+        "end": 1759408826
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759408826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15900,6 +15901,11 @@
       {
         "status": "Available",
         "start": 1759357830,
+        "end": 1759408826
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1759408826,
         "end": null
       }
     ]
@@ -17836,12 +17842,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758198663,
-        "end": 1758205244,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1758205244,
         "end": 1758205861
@@ -18646,7 +18646,13 @@
       {
         "status": "Available",
         "start": 1759360227,
-        "end": null
+        "end": 1759408826
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759408826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26316,6 +26322,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1759403429,
+        "end": 1759408826,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759408826,
         "end": null,
         "travel_type": "airstrip"
       }
