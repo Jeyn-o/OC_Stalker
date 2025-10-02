@@ -6191,11 +6191,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1758238272,
-        "end": 1758238842
-      },
-      {
         "status": "[China] - Returning",
         "start": 1758238842,
         "end": 1758243045,
@@ -7318,8 +7313,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759444230,
-        "end": null,
+        "end": 1759448426,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759448426,
+        "end": null
       }
     ]
   },
@@ -8307,6 +8307,11 @@
       {
         "status": "Available",
         "start": 1759447826,
+        "end": 1759448426
+      },
+      {
+        "status": "Jail",
+        "start": 1759448426,
         "end": null
       }
     ]
@@ -15920,7 +15925,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759447826,
-        "end": null
+        "end": 1759448426
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759448426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19519,12 +19530,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1758238272,
-        "end": 1758247844,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758247844,
         "end": 1758298849
@@ -20048,20 +20053,19 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759437029,
-        "end": null,
+        "end": 1759448426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1759448426,
+        "end": null
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1758238272,
-        "end": 1758241855,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Going",
         "start": 1758241855,
@@ -22099,6 +22103,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759446039,
+        "end": 1759448426,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759448426,
         "end": null,
         "travel_type": "standard"
       }
@@ -44163,12 +44173,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1758238272,
-        "end": 1758245462,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758245462,
