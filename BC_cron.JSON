@@ -6012,8 +6012,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759423218,
-        "end": null,
+        "end": 1759432219,
         "travel_type": "private"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759432219,
+        "end": null
       }
     ]
   },
@@ -7948,6 +7953,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759420223,
+        "end": 1759432219,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759432219,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -9181,12 +9192,6 @@
     "name": "Vampire-Catgirl",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758222067,
-        "end": 1758234049,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758234049,
         "end": 1758235248
@@ -9906,7 +9911,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759426824,
-        "end": null
+        "end": 1759432219
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759432219,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28896,8 +28907,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759431023,
-        "end": null,
+        "end": 1759432219,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759432219,
+        "end": null
       }
     ]
   },
@@ -33878,6 +33894,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1759426824,
+        "end": 1759432219
+      },
+      {
+        "status": "Available",
+        "start": 1759432219,
         "end": null
       }
     ]
@@ -37288,8 +37309,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759431023,
-        "end": null,
+        "end": 1759432219,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759432219,
+        "end": null
       }
     ]
   },
