@@ -8504,12 +8504,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1758193842,
-        "end": 1758201054,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1758201054,
         "end": 1758208245,
@@ -14291,12 +14285,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1758193842,
-        "end": 1758205244,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758205244,
         "end": 1758212449
@@ -19975,12 +19963,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1758193842,
-        "end": 1758196247,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Going",
         "start": 1758196247,
@@ -33508,11 +33490,6 @@
     "name": "Littlegman212",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758193842,
-        "end": 1758289855
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1758289855,
         "end": 1758290469
@@ -34564,7 +34541,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759403429,
-        "end": null
+        "end": 1759404029
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759404029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37109,8 +37092,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1759402229,
-        "end": null,
+        "end": 1759404029,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1759404029,
+        "end": null
       }
     ]
   },
