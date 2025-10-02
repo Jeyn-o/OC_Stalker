@@ -34310,7 +34310,7 @@
   "898155": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": 1759439861,
+    "ready_at": 1759527837,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -34320,6 +34320,13 @@
         "position": "Enforcer",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 2154655,
+        "user_name": "Khana",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -34333,6 +34340,16 @@
         "position": "Enforcer",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1759441827,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2154655,
+        "user_name": "Khana",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   },
@@ -34370,5 +34387,13 @@
         "position_number": 2
       }
     ]
+  },
+  "900969": {
+    "name": "Honey Trap",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
   }
 }
