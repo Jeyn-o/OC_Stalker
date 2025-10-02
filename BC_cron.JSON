@@ -5269,8 +5269,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1759359027,
-        "end": null,
+        "end": 1759364416,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759364416,
+        "end": null
       }
     ]
   },
@@ -9955,12 +9960,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758154247,
-        "end": 1758161441,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758161441,
         "end": 1758168057,
@@ -11326,11 +11325,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1758154247,
-        "end": 1758160241
-      },
       {
         "status": "[South Africa] Mugged - Revives: ALL",
         "start": 1758160241,
@@ -19760,12 +19754,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1758154247,
-        "end": 1758156637,
-        "travel_type": "standard"
-      },
-      {
         "status": "[China] - Going",
         "start": 1758156637,
         "end": 1758160241,
@@ -23924,7 +23912,13 @@
       {
         "status": "Available",
         "start": 1759362618,
-        "end": null
+        "end": 1759364416
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759364416,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33100,18 +33094,19 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759363820,
-        "end": null
+        "end": 1759364416
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759364416,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3627853": {
     "name": "lonewanderer024",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758154247,
-        "end": 1758269447
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1758269447,
@@ -34414,11 +34409,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758154247,
-        "end": 1758177638
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1758177638,
@@ -37380,12 +37370,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1758154247,
-        "end": 1758161441,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1758161441,
         "end": 1758162046
@@ -38347,12 +38331,6 @@
   "3707169": {
     "name": "LichKean",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1758154247,
-        "end": 1758160861,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758160861,
@@ -42128,6 +42106,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759357222,
+        "end": 1759364416,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759364416,
         "end": null,
         "travel_type": "airstrip"
       }
