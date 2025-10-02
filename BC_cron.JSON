@@ -6093,6 +6093,11 @@
       {
         "status": "Available",
         "start": 1759191020,
+        "end": 1759369223
+      },
+      {
+        "status": "Jail",
+        "start": 1759369223,
         "end": null
       }
     ]
@@ -10458,8 +10463,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759362618,
-        "end": null,
+        "end": 1759369223,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759369223,
+        "end": null
       }
     ]
   },
@@ -14851,11 +14861,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758159060,
-        "end": 1758165649
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758165649,
         "end": 1758178245,
@@ -19184,12 +19189,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1758159060,
-        "end": 1758168645,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1758168645,
@@ -26828,8 +26827,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759362618,
-        "end": null,
+        "end": 1759369223,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1759369223,
+        "end": null
       }
     ]
   },
@@ -36689,7 +36693,13 @@
       {
         "status": "Available",
         "start": 1759362618,
-        "end": null
+        "end": 1759369223
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759369223,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41184,11 +41194,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758159060,
-        "end": 1758159648
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1758159648,
         "end": 1758161441,
@@ -44870,7 +44875,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1759368629,
-        "end": null
+        "end": 1759369223
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759369223,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
