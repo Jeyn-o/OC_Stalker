@@ -11337,12 +11337,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758167447,
-        "end": 1758179446,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758179446,
         "end": 1758180039
@@ -14086,12 +14080,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1758167447,
-        "end": 1758178245,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758178245,
@@ -22045,6 +22033,11 @@
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1759373425,
+        "end": 1759377639
+      },
+      {
+        "status": "Available",
+        "start": 1759377639,
         "end": null
       }
     ]
@@ -25236,7 +25229,13 @@
       {
         "status": "Available",
         "start": 1759340427,
-        "end": null
+        "end": 1759377639
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1759377639,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26892,8 +26891,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759371031,
-        "end": null,
+        "end": 1759377639,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759377639,
+        "end": null
       }
     ]
   },
@@ -41267,11 +41271,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758167447,
-        "end": 1758216667
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1758216667,
         "end": 1758217846
@@ -42086,8 +42085,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759366226,
-        "end": null,
+        "end": 1759377639,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1759377639,
+        "end": null
       }
     ]
   },
@@ -44986,7 +44990,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759377028,
-        "end": null
+        "end": 1759377639
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759377639,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
