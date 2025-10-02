@@ -6128,11 +6128,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1758178245,
-        "end": 1758198053
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1758198053,
         "end": 1758203445,
@@ -8219,6 +8214,11 @@
       {
         "status": "Available",
         "start": 1759149623,
+        "end": 1759388434
+      },
+      {
+        "status": "Jail",
+        "start": 1759388434,
         "end": null
       }
     ]
@@ -12190,8 +12190,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759376421,
-        "end": null,
+        "end": 1759388434,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759388434,
+        "end": null
       }
     ]
   },
@@ -14139,11 +14144,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758178245,
-        "end": 1758181245
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1758181245,
         "end": 1758193263,
@@ -14947,12 +14947,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1758178245,
-        "end": 1758190849,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758190849,
@@ -22125,12 +22119,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1758178245,
-        "end": 1758187867,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1758187867,
@@ -34389,7 +34377,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759387224,
-        "end": null
+        "end": 1759388434
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759388434,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43352,6 +43346,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1759382424,
+        "end": 1759388434,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759388434,
         "end": null,
         "travel_type": "airstrip"
       }
