@@ -31641,9 +31641,9 @@
   },
   "878091": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1759438521,
-    "executed_at": null,
+    "executed_at": 1759447863,
     "slots": {
       "P6": {
         "user_id": 446596,
@@ -33929,8 +33929,8 @@
   },
   "895229": {
     "name": "Stage Fright",
-    "status": "Recruiting",
-    "ready_at": 1759782133,
+    "status": "Planning",
+    "ready_at": 1759868533,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -33968,6 +33968,13 @@
         "checkpoint_pass_rate": 83,
         "position": "Muscle",
         "position_number": 3
+      },
+      "P1": {
+        "user_id": 3018158,
+        "user_name": "Stevan01",
+        "checkpoint_pass_rate": 88,
+        "position": "Enforcer",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -34021,6 +34028,16 @@
         "checkpoint_pass_rate": 83,
         "position": "Muscle",
         "position_number": 3
+      },
+      {
+        "timestamp": 1759448428,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3018158,
+        "user_name": "Stevan01",
+        "checkpoint_pass_rate": 88,
+        "position": "Enforcer",
+        "position_number": 1
       }
     ]
   },
@@ -34239,10 +34256,31 @@
   "898153": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1759534259,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P5": {
+        "user_id": 2778055,
+        "user_name": "MrPorkenstien",
+        "checkpoint_pass_rate": 81,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1759448428,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2778055,
+        "user_name": "MrPorkenstien",
+        "checkpoint_pass_rate": 81,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "898154": {
     "name": "Guardian Ángels",
