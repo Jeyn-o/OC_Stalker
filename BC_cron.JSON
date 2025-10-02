@@ -3,12 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758188445,
-        "end": 1758201054,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758201054,
         "end": 1758202842
@@ -1596,6 +1590,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759398026,
+        "end": 1759398621
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1759398621,
         "end": null
       }
     ]
@@ -19904,11 +19903,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758188445,
-        "end": 1758191463
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1758191463,
         "end": 1758193842,
@@ -32738,11 +32732,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758188445,
-        "end": 1758245462
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1758245462,
         "end": 1758252659,
@@ -45213,8 +45202,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1759389026,
-        "end": null,
+        "end": 1759398621,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1759398621,
+        "end": null
       }
     ]
   },
