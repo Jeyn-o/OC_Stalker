@@ -3119,11 +3119,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1758206457,
-        "end": 1758207053
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1758207053,
         "end": 1758214249,
@@ -3636,8 +3631,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759409423,
-        "end": null,
+        "end": 1759416633,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1759416633,
+        "end": null
       }
     ]
   },
@@ -12781,8 +12781,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759415435,
-        "end": null,
+        "end": 1759416633,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759416633,
+        "end": null
       }
     ]
   },
@@ -14045,6 +14050,11 @@
       {
         "status": "[Mexico] Mugged - Revives: ALL",
         "start": 1759414223,
+        "end": 1759416633
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759416633,
         "end": null
       }
     ]
@@ -22027,7 +22037,13 @@
       {
         "status": "Available",
         "start": 1759411227,
-        "end": null
+        "end": 1759416633
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759416633,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -24156,6 +24172,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1759415435,
+        "end": 1759416633,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1759416633,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30015,7 +30037,13 @@
       {
         "status": "Available",
         "start": 1759414821,
-        "end": null
+        "end": 1759416633
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759416633,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38962,11 +38990,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1758206457,
-        "end": 1758207053
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1758207053,
