@@ -5306,6 +5306,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1759439425,
+        "end": 1759444821,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759444821,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7985,8 +7991,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759432219,
-        "end": null,
+        "end": 1759444821,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759444821,
+        "end": null
       }
     ]
   },
@@ -16293,11 +16304,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758234667,
-        "end": 1758253247
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1758253247,
         "end": 1758264639,
@@ -18771,12 +18777,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1758234667,
-        "end": 1758241855,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758241855,
         "end": 1758248452,
@@ -20070,12 +20070,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758234667,
-        "end": 1758238272,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Returning",
         "start": 1758238272,
@@ -24303,8 +24297,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759443625,
-        "end": null,
+        "end": 1759444821,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759444821,
+        "end": null
       }
     ]
   },
@@ -30203,7 +30202,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759434618,
-        "end": null
+        "end": 1759444821
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759444821,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35640,11 +35645,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1758234667,
-        "end": 1758235248
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1758235248,
