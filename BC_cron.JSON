@@ -2484,12 +2484,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1758166838,
-        "end": 1758176463,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1758176463,
         "end": 1758181245
@@ -5970,7 +5964,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759355419,
-        "end": null
+        "end": 1759377028
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759377028,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -8938,7 +8938,13 @@
       {
         "status": "Available",
         "start": 1759328426,
-        "end": null
+        "end": 1759377028
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759377028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10454,8 +10460,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759370431,
-        "end": null,
+        "end": 1759377028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759377028,
+        "end": null
       }
     ]
   },
@@ -14758,8 +14769,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759365624,
-        "end": null,
+        "end": 1759377028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759377028,
+        "end": null
       }
     ]
   },
@@ -22844,6 +22860,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1759371031,
+        "end": 1759377028,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759377028,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -24361,12 +24383,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1758166838,
-        "end": 1758178860,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758178860,
@@ -36775,6 +36791,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759375830,
+        "end": 1759377028,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759377028,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -36783,11 +36805,6 @@
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1758166838,
-        "end": 1758170454
-      },
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1758170454,
@@ -43181,7 +43198,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1759376421,
-        "end": null
+        "end": 1759377028
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1759377028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -44957,8 +44980,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759376421,
-        "end": null,
+        "end": 1759377028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759377028,
+        "end": null
       }
     ]
   },
