@@ -5478,11 +5478,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758174042,
-        "end": 1758215454
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1758215454,
         "end": 1758220851,
@@ -8951,8 +8946,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759377028,
-        "end": null,
+        "end": 1759384227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759384227,
+        "end": null
       }
     ]
   },
@@ -19233,8 +19233,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759371619,
-        "end": null,
+        "end": 1759384227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759384227,
+        "end": null
       }
     ]
   },
@@ -26147,7 +26152,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1759381233,
-        "end": null
+        "end": 1759384227
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759384227,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43643,12 +43654,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1758174042,
-        "end": 1758175850,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758175850,
         "end": 1758176463
@@ -45057,8 +45062,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759383024,
-        "end": null,
+        "end": 1759384227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759384227,
+        "end": null
       }
     ]
   },
