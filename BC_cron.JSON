@@ -1746,12 +1746,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758183639,
-        "end": 1758190240,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758190240,
         "end": 1758197449,
@@ -2499,11 +2493,6 @@
   "1766417": {
     "name": "gajeela09",
     "activities": [
-      {
-        "status": "[Japan] Mugged - Revives: Partial",
-        "start": 1758183639,
-        "end": 1758186064
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1758186064,
@@ -30971,11 +30960,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1758183639,
-        "end": 1758207053
-      },
-      {
         "status": "[China] - Returning",
         "start": 1758207053,
         "end": 1758217846,
@@ -35208,6 +35192,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759387224,
+        "end": 1759393834,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759393834,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -36950,11 +36940,6 @@
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "[United Arab Emirates] Mugged - Revives: ALL",
-        "start": 1758183639,
-        "end": 1758186064
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758186064,
@@ -40647,7 +40632,13 @@
       {
         "status": "Available",
         "start": 1759392621,
-        "end": null
+        "end": 1759393834
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759393834,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -42285,6 +42276,11 @@
       {
         "status": "Available",
         "start": 1759371619,
+        "end": 1759393834
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1759393834,
         "end": null
       }
     ]
@@ -43383,8 +43379,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1759388434,
-        "end": null,
+        "end": 1759393834,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759393834,
+        "end": null
       }
     ]
   },
