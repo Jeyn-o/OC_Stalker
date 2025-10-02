@@ -3639,7 +3639,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759395031,
-        "end": null
+        "end": 1759395638
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759395638,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4198,8 +4204,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759383024,
-        "end": null,
+        "end": 1759395638,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759395638,
+        "end": null
       }
     ]
   },
@@ -4788,7 +4799,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759394423,
-        "end": null
+        "end": 1759395638
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759395638,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9818,6 +9835,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1759386628,
+        "end": 1759395638,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759395638,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -13876,8 +13899,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759394423,
-        "end": null,
+        "end": 1759395638,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759395638,
+        "end": null
       }
     ]
   },
@@ -34396,8 +34424,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759388434,
-        "end": null,
+        "end": 1759395638,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759395638,
+        "end": null
       }
     ]
   },
@@ -34589,11 +34622,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1758185447,
-        "end": 1758186064
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1758186064,
