@@ -764,6 +764,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759426227,
+        "end": 1759426824
+      },
+      {
+        "status": "[South Africa] Lost - Revives: OFF",
+        "start": 1759426824,
         "end": null
       }
     ]
@@ -1769,12 +1774,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758216667,
-        "end": 1758223252,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758223252,
@@ -7442,7 +7441,13 @@
       {
         "status": "Available",
         "start": 1759426227,
-        "end": null
+        "end": 1759426824
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759426824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9889,8 +9894,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1759417232,
-        "end": null,
+        "end": 1759426824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1759426824,
+        "end": null
       }
     ]
   },
@@ -17925,12 +17935,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758216667,
-        "end": 1758223252,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1758223252,
         "end": 1758225049
@@ -22058,8 +22062,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759424428,
-        "end": null,
+        "end": 1759426824,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1759426824,
+        "end": null
       }
     ]
   },
@@ -28884,8 +28893,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759425030,
-        "end": null,
+        "end": 1759426824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759426824,
+        "end": null
       }
     ]
   },
@@ -33867,6 +33881,11 @@
       {
         "status": "Available",
         "start": 1759425030,
+        "end": 1759426824
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1759426824,
         "end": null
       }
     ]
@@ -35565,11 +35584,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758216667,
-        "end": 1758217252
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1758217252,
@@ -41738,11 +41752,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1758216667,
-        "end": 1758217846
-      },
-      {
         "status": "Available",
         "start": 1758217846,
         "end": 1758241855
@@ -42580,7 +42589,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759426227,
-        "end": null
+        "end": 1759426824
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759426824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43613,12 +43628,6 @@
   "3841404": {
     "name": "Sleepy_Skyes",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1758216667,
-        "end": 1758223855,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758223855,
