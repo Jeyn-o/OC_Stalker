@@ -7292,7 +7292,13 @@
       {
         "status": "Available",
         "start": 1759434618,
-        "end": null
+        "end": 1759437618
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759437618,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -8258,7 +8264,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759399234,
-        "end": null
+        "end": 1759437618
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759437618,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15051,8 +15063,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759426227,
-        "end": null,
+        "end": 1759437618,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759437618,
+        "end": null
       }
     ]
   },
@@ -18728,12 +18745,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1758227454,
-        "end": 1758234667,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1758234667,
         "end": 1758241855,
@@ -19490,12 +19501,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1758227454,
-        "end": 1758236467,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1758236467,
@@ -22065,8 +22070,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759434618,
-        "end": null,
+        "end": 1759437618,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759437618,
+        "end": null
       }
     ]
   },
