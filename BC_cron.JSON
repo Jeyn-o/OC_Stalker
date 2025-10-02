@@ -7308,8 +7308,13 @@
       {
         "status": "[China] - Going",
         "start": 1759437618,
-        "end": null,
+        "end": 1759441825,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759441825,
+        "end": null
       }
     ]
   },
@@ -9949,8 +9954,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759432219,
-        "end": null,
+        "end": 1759441825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759441825,
+        "end": null
       }
     ]
   },
@@ -10949,11 +10959,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1758231643,
-        "end": 1758235847
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1758235847,
@@ -17975,11 +17980,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758231643,
-        "end": 1758232864
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758232864,
@@ -31347,7 +31347,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759441227,
-        "end": null
+        "end": 1759441825
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759441825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -44155,12 +44161,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758231643,
-        "end": 1758238272,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758238272,
