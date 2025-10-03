@@ -3157,11 +3157,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758277885,
-        "end": 1758280850
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758280850,
         "end": 1758293447,
@@ -12797,6 +12792,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759486823,
+        "end": 1759488025,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759488025,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14109,8 +14110,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759480227,
-        "end": null,
+        "end": 1759488025,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1759488025,
+        "end": null
       }
     ]
   },
@@ -20039,12 +20045,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1758277885,
-        "end": 1758280247,
-        "travel_type": "standard"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1758280247,
         "end": 1758280850
@@ -24772,11 +24772,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758277885,
-        "end": 1758280247
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1758280247,
         "end": 1758291045,
@@ -25637,12 +25632,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1758277885,
-        "end": 1758283270,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Idle",
         "start": 1758283270,
@@ -27497,12 +27486,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1758277885,
-        "end": 1758279670,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758279670,
@@ -35803,7 +35786,13 @@
       {
         "status": "Available",
         "start": 1759481426,
-        "end": null
+        "end": 1759488025
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759488025,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41102,12 +41091,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758277885,
-        "end": 1758290469,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758290469,
         "end": 1758291643
@@ -45568,7 +45551,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759480823,
-        "end": null
+        "end": 1759488025
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759488025,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
