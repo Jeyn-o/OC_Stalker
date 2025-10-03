@@ -3679,6 +3679,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759493424,
+        "end": 1759506021,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759506021,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4301,11 +4307,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1758295872,
-        "end": 1758297670
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1758297670,
@@ -15847,8 +15848,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1759498827,
-        "end": null,
+        "end": 1759506021,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759506021,
+        "end": null
       }
     ]
   },
@@ -17024,11 +17030,6 @@
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758295872,
-        "end": 1758382268
-      },
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1758382268,
@@ -19955,11 +19956,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758295872,
-        "end": 1758296452
-      },
-      {
         "status": "[China] - Going",
         "start": 1758296452,
         "end": 1758299467,
@@ -21980,7 +21976,13 @@
       {
         "status": "Available",
         "start": 1759503636,
-        "end": null
+        "end": 1759506021
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1759506021,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -30827,11 +30829,6 @@
     "name": "Mr_jeff14574",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1758295872,
-        "end": 1758296452
-      },
-      {
         "status": "[China] Attacked - Revives: ALL",
         "start": 1758296452,
         "end": 1758297670
@@ -34916,7 +34913,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759505425,
-        "end": null
+        "end": 1759506021
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759506021,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
