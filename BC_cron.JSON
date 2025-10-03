@@ -1787,12 +1787,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758309051,
-        "end": 1758316243,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758316243,
         "end": 1758337846
@@ -7433,7 +7427,13 @@
       {
         "status": "Available",
         "start": 1759447826,
-        "end": null
+        "end": 1759519223
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759519223,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7499,11 +7499,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758309051,
-        "end": 1758507649
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1758507649,
@@ -10062,12 +10057,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758309051,
-        "end": 1758315673,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758315673,
@@ -19370,11 +19359,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1758309051,
-        "end": 1758312065
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1758312065,
         "end": 1758321063,
@@ -19928,11 +19912,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1758309051,
-        "end": 1758309654
-      },
       {
         "status": "[China] - Idle",
         "start": 1758309654,
@@ -30151,8 +30130,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1759517422,
-        "end": null,
+        "end": 1759519223,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1759519223,
+        "end": null
       }
     ]
   },
@@ -34873,6 +34857,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759518031,
+        "end": 1759519223
+      },
+      {
+        "status": "Available",
+        "start": 1759519223,
         "end": null
       }
     ]
@@ -37974,7 +37963,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1759507227,
-        "end": null
+        "end": 1759519223
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759519223,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -38960,8 +38955,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1759510224,
-        "end": null,
+        "end": 1759519223,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1759519223,
+        "end": null
       }
     ]
   },
@@ -45338,7 +45338,13 @@
       {
         "status": "Available",
         "start": 1759515026,
-        "end": null
+        "end": 1759519223
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759519223,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
