@@ -1781,11 +1781,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1758280850,
-        "end": 1758281462
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1758281462,
         "end": 1758288668,
@@ -3161,12 +3156,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1758280850,
-        "end": 1758293447,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1758293447,
@@ -11496,11 +11485,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758280850,
-        "end": 1758324672
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758324672,
         "end": 1758336644,
@@ -15944,8 +15928,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759478435,
-        "end": null,
+        "end": 1759491025,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759491025,
+        "end": null
       }
     ]
   },
@@ -20065,19 +20054,19 @@
       {
         "status": "Available",
         "start": 1759461025,
-        "end": null
+        "end": 1759491025
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1759491025,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1758280850,
-        "end": 1758283270,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1758283270,
@@ -22103,7 +22092,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759464627,
-        "end": null
+        "end": 1759491025
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759491025,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -24343,6 +24338,12 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759489233,
+        "end": 1759491025,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759491025,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -27356,8 +27357,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1759489233,
-        "end": null,
+        "end": 1759491025,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1759491025,
+        "end": null
       }
     ]
   },
@@ -27514,12 +27520,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1758280850,
-        "end": 1758282650,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1758282650,
@@ -33064,7 +33064,13 @@
       {
         "status": "Available",
         "start": 1759433426,
-        "end": null
+        "end": 1759491025
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759491025,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
