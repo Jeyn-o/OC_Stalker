@@ -32770,9 +32770,9 @@
   },
   "884643": {
     "name": "Snow Blind",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1759484310,
-    "executed_at": null,
+    "executed_at": 1759484345,
     "slots": {
       "P3": {
         "user_id": 3656242,
@@ -34332,7 +34332,7 @@
   "898153": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1759620659,
+    "ready_at": 1759707059,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -34350,6 +34350,14 @@
         "position": "Picklock",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 81,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -34374,6 +34382,17 @@
         "position": "Picklock",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1759484425,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 81,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
