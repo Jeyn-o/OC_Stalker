@@ -774,7 +774,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759497032,
-        "end": null
+        "end": 1759497627
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759497627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -1619,8 +1625,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759491624,
-        "end": null,
+        "end": 1759497627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759497627,
+        "end": null
       }
     ]
   },
@@ -10905,11 +10916,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1758287449,
-        "end": 1758288043
-      },
-      {
         "status": "Available",
         "start": 1758288043,
         "end": 1758292848
@@ -12831,6 +12837,11 @@
       {
         "status": "Available",
         "start": 1759348835,
+        "end": 1759497627
+      },
+      {
+        "status": "Jail",
+        "start": 1759497627,
         "end": null
       }
     ]
@@ -14108,8 +14119,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1759490417,
-        "end": null,
+        "end": 1759497627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759497627,
+        "end": null
       }
     ]
   },
@@ -30246,12 +30262,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1758287449,
-        "end": 1758297057,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1758297057,
         "end": 1758297670
@@ -35149,11 +35159,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1758287449,
-        "end": 1758288043
-      },
-      {
         "status": "[China] - Returning",
         "start": 1758288043,
         "end": 1758298249,
@@ -35775,11 +35780,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Hawaii] Attacked - Revives: ALL",
-        "start": 1758287449,
-        "end": 1758288043
-      },
       {
         "status": "[Hawaii] - Idle",
         "start": 1758288043,
@@ -37513,12 +37513,6 @@
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1758287449,
-        "end": 1758304241,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1758304241,
@@ -39297,11 +39291,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758287449,
-        "end": 1758296452
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1758296452,
