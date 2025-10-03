@@ -4319,12 +4319,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1758291045,
-        "end": 1758292275,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758292275,
         "end": 1758294069
@@ -5510,12 +5504,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758291045,
-        "end": 1758298849,
-        "travel_type": "private"
-      },
       {
         "status": "[China] - Idle",
         "start": 1758298849,
@@ -17072,12 +17060,6 @@
     "name": "JuanPaulo",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758291045,
-        "end": 1758295872,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758295872,
         "end": 1758382268
@@ -22028,7 +22010,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1759498226,
-        "end": null
+        "end": 1759501226
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759501226,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -24759,11 +24747,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1758291045,
-        "end": 1758291643
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758291643,
@@ -35749,8 +35732,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759494630,
-        "end": null,
+        "end": 1759501226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759501226,
+        "end": null
       }
     ]
   },
