@@ -768,8 +768,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759485028,
-        "end": null,
+        "end": 1759497032,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759497032,
+        "end": null
       }
     ]
   },
@@ -16258,11 +16263,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758286860,
-        "end": 1758297057
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1758297057,
         "end": 1758308460,
@@ -20011,12 +20011,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758286860,
-        "end": 1758289855,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Idle",
         "start": 1758289855,
@@ -24311,18 +24305,19 @@
       {
         "status": "Available",
         "start": 1759496435,
-        "end": null
+        "end": 1759497032
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759497032,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3331202": {
     "name": "Imtheman357",
     "activities": [
-      {
-        "status": "[Hawaii] Attacked - Revives: Partial",
-        "start": 1758286860,
-        "end": 1758288043
-      },
       {
         "status": "[Hawaii] - Idle",
         "start": 1758288043,
@@ -25626,12 +25621,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1758286860,
-        "end": 1758292848,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758292848,
@@ -32652,7 +32641,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759485028,
-        "end": null
+        "end": 1759497032
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759497032,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34970,8 +34965,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759484422,
-        "end": null,
+        "end": 1759497032,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759497032,
+        "end": null
       }
     ]
   },
@@ -41062,6 +41062,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1759496435,
+        "end": 1759497032
+      },
+      {
+        "status": "Available",
+        "start": 1759497032,
         "end": null
       }
     ]
