@@ -922,11 +922,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1758288668,
-        "end": 1758289855
-      },
-      {
         "status": "Available",
         "start": 1758289855,
         "end": 1758290469
@@ -1785,11 +1780,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758288668,
-        "end": 1758292848
-      },
       {
         "status": "[Canada] - Going",
         "start": 1758292848,
@@ -7329,7 +7319,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759484422,
-        "end": null
+        "end": 1759498827
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759498827,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -10074,6 +10070,11 @@
       {
         "status": "Available",
         "start": 1758618067,
+        "end": 1759498827
+      },
+      {
+        "status": "Jail",
+        "start": 1759498827,
         "end": null
       }
     ]
@@ -11443,6 +11444,11 @@
       {
         "status": "Jail",
         "start": 1759498226,
+        "end": 1759498827
+      },
+      {
+        "status": "Available",
+        "start": 1759498827,
         "end": null
       }
     ]
@@ -15914,6 +15920,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759491624,
+        "end": 1759498827,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759498827,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -24337,8 +24349,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759498226,
-        "end": null,
+        "end": 1759498827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759498827,
+        "end": null
       }
     ]
   },
@@ -33768,8 +33785,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759491624,
-        "end": null,
+        "end": 1759498827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759498827,
+        "end": null
       }
     ]
   },
@@ -34988,7 +35010,13 @@
       {
         "status": "Available",
         "start": 1759497032,
-        "end": null
+        "end": 1759498827
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759498827,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38084,7 +38112,13 @@
       {
         "status": "Available",
         "start": 1759420223,
-        "end": null
+        "end": 1759498827
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1759498827,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -39093,12 +39127,6 @@
   "3707169": {
     "name": "LichKean",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1758288668,
-        "end": 1758294653,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758294653,
@@ -45519,8 +45547,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759488025,
-        "end": null,
+        "end": 1759498827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759498827,
+        "end": null
       }
     ]
   },
