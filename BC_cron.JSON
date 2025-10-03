@@ -3685,6 +3685,11 @@
       {
         "status": "Available",
         "start": 1759518031,
+        "end": 1759521630
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1759521630,
         "end": null
       }
     ]
@@ -9942,7 +9947,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1759520423,
-        "end": null
+        "end": 1759521630
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1759521630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10622,11 +10633,6 @@
   "2730718": {
     "name": "Haungpeary",
     "activities": [
-      {
-        "status": "[Argentina] Attacked - Revives: ALL",
-        "start": 1758311445,
-        "end": 1758313245
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1758313245,
@@ -22158,11 +22164,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1758311445,
-        "end": 1758314447
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1758314447,
@@ -35647,8 +35648,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759511427,
-        "end": null,
+        "end": 1759521630,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759521630,
+        "end": null
       }
     ]
   },
@@ -37353,6 +37359,11 @@
       {
         "status": "Available",
         "start": 1759501830,
+        "end": 1759521630
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1759521630,
         "end": null
       }
     ]
@@ -37954,11 +37965,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1758311445,
-        "end": 1758313245
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1758313245,
