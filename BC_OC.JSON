@@ -34468,7 +34468,7 @@
   "898301": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1759632971,
+    "ready_at": 1759719371,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -34486,6 +34486,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 446596,
+        "user_name": "Bucki",
+        "checkpoint_pass_rate": 66,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -34510,13 +34517,23 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1759469431,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 446596,
+        "user_name": "Bucki",
+        "checkpoint_pass_rate": 66,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     ]
   },
   "898302": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1759504099,
+    "ready_at": 1759590499,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -34525,6 +34542,14 @@
         "checkpoint_pass_rate": 75,
         "position": "Picklock",
         "position_number": 2
+      },
+      "P2": {
+        "user_id": 2583853,
+        "user_name": "frkn",
+        "checkpoint_pass_rate": 70,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -34537,6 +34562,17 @@
         "checkpoint_pass_rate": 75,
         "position": "Picklock",
         "position_number": 2
+      },
+      {
+        "timestamp": 1759469431,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2583853,
+        "user_name": "frkn",
+        "checkpoint_pass_rate": 70,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
