@@ -1615,8 +1615,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759483820,
-        "end": null,
+        "end": 1759490417,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759490417,
+        "end": null
       }
     ]
   },
@@ -3691,8 +3696,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759488621,
-        "end": null,
+        "end": 1759490417,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759490417,
+        "end": null
       }
     ]
   },
@@ -14139,7 +14149,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1759488025,
-        "end": null
+        "end": 1759490417
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759490417,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14401,12 +14417,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1758280247,
-        "end": 1758292275,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758292275,
@@ -20063,11 +20073,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1758280247,
-        "end": 1758280850
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1758280850,
         "end": 1758283270,
@@ -23126,7 +23131,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759489233,
-        "end": null
+        "end": 1759490417
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759490417,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24788,12 +24799,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1758280247,
-        "end": 1758291045,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758291045,
@@ -41095,6 +41100,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1759482030,
+        "end": 1759490417
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1759490417,
         "end": null
       }
     ]
