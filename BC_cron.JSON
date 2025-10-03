@@ -4323,12 +4323,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1758286251,
-        "end": 1758288043,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758288043,
         "end": 1758289254
@@ -15188,12 +15182,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1758286251,
-        "end": 1758293447,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758293447,
         "end": 1758319852
@@ -17917,12 +17905,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758286251,
-        "end": 1758292848,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1758292848,
         "end": 1758295242
@@ -18717,7 +18699,13 @@
       {
         "status": "Available",
         "start": 1759465218,
-        "end": null
+        "end": 1759496435
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759496435,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24317,8 +24305,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759494630,
-        "end": null,
+        "end": 1759496435,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759496435,
+        "end": null
       }
     ]
   },
@@ -25633,11 +25626,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1758286251,
-        "end": 1758286860
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1758286860,
@@ -39102,8 +39090,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1759487429,
-        "end": null,
+        "end": 1759496435,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1759496435,
+        "end": null
       }
     ]
   },
@@ -41064,6 +41057,11 @@
       {
         "status": "Available",
         "start": 1759492830,
+        "end": 1759496435
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1759496435,
         "end": null
       }
     ]
