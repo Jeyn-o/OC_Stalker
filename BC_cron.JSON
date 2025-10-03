@@ -10933,11 +10933,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758247844,
-        "end": 1758248452
-      },
-      {
         "status": "Jail",
         "start": 1758248452,
         "end": 1758249058
@@ -19498,6 +19493,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759456828,
+        "end": 1759458023
+      },
+      {
+        "status": "Available",
+        "start": 1759458023,
         "end": null
       }
     ]
@@ -19505,11 +19505,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758247844,
-        "end": 1758298849
-      },
       {
         "status": "[Japan] - Going",
         "start": 1758298849,
@@ -22102,6 +22097,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1759457426,
+        "end": 1759458023,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759458023,
         "end": null,
         "travel_type": "standard"
       }
@@ -26536,7 +26537,13 @@
       {
         "status": "Available",
         "start": 1759414821,
-        "end": null
+        "end": 1759458023
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1759458023,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27338,6 +27345,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759453823,
+        "end": 1759458023
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: ALL",
+        "start": 1759458023,
         "end": null
       }
     ]
@@ -45499,6 +45511,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759450816,
+        "end": 1759458023,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759458023,
         "end": null,
         "travel_type": "airstrip"
       }
