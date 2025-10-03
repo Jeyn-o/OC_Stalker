@@ -911,12 +911,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758270669,
-        "end": 1758277244,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1758277244,
         "end": 1758281462
@@ -9942,8 +9936,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759468827,
-        "end": null,
+        "end": 1759480823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759480823,
+        "end": null
       }
     ]
   },
@@ -30269,8 +30268,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759471236,
-        "end": null,
+        "end": 1759480823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759480823,
+        "end": null
       }
     ]
   },
@@ -31441,6 +31445,11 @@
       {
         "status": "Available",
         "start": 1759452024,
+        "end": 1759480823
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1759480823,
         "end": null
       }
     ]
@@ -35735,7 +35744,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759477818,
-        "end": null
+        "end": 1759480823
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759480823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -45511,8 +45526,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759468827,
-        "end": null,
+        "end": 1759480823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1759480823,
+        "end": null
       }
     ]
   },
