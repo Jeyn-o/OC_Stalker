@@ -922,12 +922,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758297057,
-        "end": 1758303653,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758303653,
         "end": 1758344463
@@ -1621,7 +1615,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759506624,
-        "end": null
+        "end": 1759507227
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759507227,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7543,12 +7543,6 @@
     "name": "Jeyno",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758297057,
-        "end": 1758309051,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758309051,
         "end": 1758507649
@@ -9089,8 +9083,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759495826,
-        "end": null,
+        "end": 1759507227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759507227,
+        "end": null
       }
     ]
   },
@@ -16212,12 +16211,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1758297057,
-        "end": 1758308460,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758308460,
         "end": 1758323451
@@ -19942,7 +19935,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759502415,
-        "end": null
+        "end": 1759507227
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759507227,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30197,11 +30196,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1758297057,
-        "end": 1758297670
-      },
-      {
         "status": "[China] - Returning",
         "start": 1758297670,
         "end": 1758307851,
@@ -38039,20 +38033,19 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1759498827,
-        "end": null,
+        "end": 1759507227,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1759507227,
+        "end": null
       }
     ]
   },
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1758297057,
-        "end": 1758303653,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758303653,
@@ -40982,6 +40975,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1759504227,
+        "end": 1759507227
+      },
+      {
+        "status": "Available",
+        "start": 1759507227,
         "end": null
       }
     ]
