@@ -4248,7 +4248,13 @@
       {
         "status": "Available",
         "start": 1759443625,
-        "end": null
+        "end": 1759450816
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759450816,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5312,8 +5318,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1759444821,
-        "end": null,
+        "end": 1759450816,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759450816,
+        "end": null
       }
     ]
   },
@@ -22119,8 +22130,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759448426,
-        "end": null,
+        "end": 1759450816,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759450816,
+        "end": null
       }
     ]
   },
@@ -35685,11 +35701,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758240645,
-        "end": 1758241256
-      },
-      {
         "status": "[Hawaii] - Going",
         "start": 1758241256,
         "end": 1758246644,
@@ -37415,12 +37426,6 @@
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1758240645,
-        "end": 1758242440,
-        "travel_type": "standard"
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1758242440,
@@ -39221,11 +39226,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: OFF",
-        "start": 1758240645,
-        "end": 1758241256
-      },
       {
         "status": "Available",
         "start": 1758241256,
@@ -45584,6 +45584,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759444230,
+        "end": 1759450816,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759450816,
         "end": null,
         "travel_type": "airstrip"
       }
