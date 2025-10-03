@@ -3151,12 +3151,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758293447,
-        "end": 1758306044,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758306044,
         "end": 1758307252
@@ -15142,11 +15136,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758293447,
-        "end": 1758319852
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758319852,
         "end": 1758332449,
@@ -18655,7 +18644,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759503027,
-        "end": null
+        "end": 1759503636
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759503636,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21986,8 +21981,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1759501226,
-        "end": null,
+        "end": 1759503636,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759503636,
+        "end": null
       }
     ]
   },
@@ -27255,7 +27255,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1759502415,
-        "end": null
+        "end": 1759503636
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1759503636,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30184,7 +30190,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759503027,
-        "end": null
+        "end": 1759503636
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759503636,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32933,8 +32945,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759491025,
-        "end": null,
+        "end": 1759503636,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759503636,
+        "end": null
       }
     ]
   },
