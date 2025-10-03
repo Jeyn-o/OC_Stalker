@@ -7399,6 +7399,12 @@
       {
         "status": "[China] - Going",
         "start": 1759519223,
+        "end": 1759529425,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759529425,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15748,7 +15754,13 @@
       {
         "status": "Available",
         "start": 1759506021,
-        "end": null
+        "end": 1759529425
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759529425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22092,12 +22104,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1758319267,
-        "end": 1758319852,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758319852,
@@ -30010,6 +30016,11 @@
       {
         "status": "[Canada] - Idle",
         "start": 1759524626,
+        "end": 1759529425
+      },
+      {
+        "status": "[Canada] Attacked - Revives: ALL",
+        "start": 1759529425,
         "end": null
       }
     ]
@@ -32734,11 +32745,6 @@
   "3589360": {
     "name": "PyroSpunk",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1758319267,
-        "end": 1758321063
-      },
       {
         "status": "Available",
         "start": 1758321063,
@@ -38972,11 +38978,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1758319267,
-        "end": 1758321063
-      },
-      {
         "status": "Available",
         "start": 1758321063,
         "end": 1758321649
@@ -42354,12 +42355,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1758319267,
-        "end": 1758321063,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1758321063,
