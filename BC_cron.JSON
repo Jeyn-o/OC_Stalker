@@ -3685,6 +3685,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1759486823,
+        "end": 1759488621,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759488621,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -10115,11 +10121,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758278446,
-        "end": 1758284450
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758284450,
         "end": 1758290469,
@@ -12231,7 +12232,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759486823,
-        "end": null
+        "end": 1759488621
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759488621,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14379,11 +14386,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1758278446,
-        "end": 1758280247
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758280247,
         "end": 1758292275,
@@ -15068,7 +15070,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759486823,
-        "end": null
+        "end": 1759488621
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759488621,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15198,12 +15206,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1758278446,
-        "end": 1758285651,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1758285651,
@@ -25624,8 +25626,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759476629,
-        "end": null,
+        "end": 1759488621,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759488621,
+        "end": null
       }
     ]
   },
@@ -34123,11 +34130,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758278446,
-        "end": 1758297670
-      },
       {
         "status": "[China] - Going",
         "start": 1758297670,
