@@ -3,12 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1758244848,
-        "end": 1758256843,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1758256843,
         "end": 1758285064
@@ -6044,7 +6038,13 @@
       {
         "status": "Available",
         "start": 1759449630,
-        "end": null
+        "end": 1759455022
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759455022,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -11481,6 +11481,11 @@
       {
         "status": "Available",
         "start": 1759425626,
+        "end": 1759455022
+      },
+      {
+        "status": "Jail",
+        "start": 1759455022,
         "end": null
       }
     ]
@@ -20049,11 +20054,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758244848,
-        "end": 1758245462
-      },
       {
         "status": "[China] - Returning",
         "start": 1758245462,
@@ -37395,8 +37395,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759453233,
-        "end": null,
+        "end": 1759455022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759455022,
+        "end": null
       }
     ]
   },
