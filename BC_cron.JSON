@@ -1787,11 +1787,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758308460,
-        "end": 1758309051
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758309051,
         "end": 1758316243,
@@ -9946,6 +9941,12 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1759516823,
+        "end": 1759518617,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1759518617,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -16178,11 +16179,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1758308460,
-        "end": 1758323451
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758323451,
         "end": 1758334842,
@@ -19919,19 +19915,19 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759507227,
-        "end": null,
+        "end": 1759518617,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759518617,
+        "end": null
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758308460,
-        "end": 1758309051
-      },
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1758309051,
@@ -26429,12 +26425,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1758308460,
-        "end": 1758310264,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1758310264,
         "end": 1758312065,
@@ -31298,6 +31288,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759517422,
+        "end": 1759518617
+      },
+      {
+        "status": "Available",
+        "start": 1759518617,
         "end": null
       }
     ]
