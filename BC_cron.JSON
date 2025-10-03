@@ -3149,12 +3149,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1758253247,
-        "end": 1758265261,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1758265261,
         "end": 1758277885,
@@ -4247,8 +4241,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759450816,
-        "end": null,
+        "end": 1759463420,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759463420,
+        "end": null
       }
     ]
   },
@@ -11471,12 +11470,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758253247,
-        "end": 1758265261,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758265261,
         "end": 1758267058
@@ -16251,12 +16244,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1758253247,
-        "end": 1758264639,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758264639,
         "end": 1758275446
@@ -20034,11 +20021,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1758253247,
-        "end": 1758256263
-      },
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1758256263,
@@ -38053,12 +38035,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1758253247,
-        "end": 1758259863,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758259863,
         "end": 1758284450
@@ -39237,11 +39213,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758253247,
-        "end": 1758258646
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1758258646,
@@ -45598,6 +45569,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759453233,
+        "end": 1759463420
+      },
+      {
+        "status": "Available",
+        "start": 1759463420,
         "end": null
       }
     ]
