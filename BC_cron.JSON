@@ -7317,8 +7317,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759479030,
-        "end": null,
+        "end": 1759484422,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759484422,
+        "end": null
       }
     ]
   },
@@ -9107,7 +9112,13 @@
       {
         "status": "Available",
         "start": 1759482625,
-        "end": null
+        "end": 1759484422
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1759484422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11444,12 +11455,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758274259,
-        "end": 1758280850,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758280850,
@@ -15018,6 +15023,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759483232,
+        "end": 1759484422
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1759484422,
         "end": null
       }
     ]
@@ -24726,6 +24736,11 @@
       {
         "status": "Available",
         "start": 1759464627,
+        "end": 1759484422
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1759484422,
         "end": null
       }
     ]
@@ -34970,6 +34985,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759471828,
+        "end": 1759484422,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759484422,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35148,11 +35169,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758274259,
-        "end": 1758277244
-      },
       {
         "status": "[China] - Going",
         "start": 1758277244,
