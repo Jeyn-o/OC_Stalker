@@ -9932,7 +9932,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759468225,
-        "end": null
+        "end": 1759468827
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759468827,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26535,11 +26541,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[United Arab Emirates] Mugged - Revives: ALL",
-        "start": 1758258646,
-        "end": 1758260447
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758260447,
         "end": 1758264049
@@ -32611,8 +32612,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759458627,
-        "end": null,
+        "end": 1759468827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759468827,
+        "end": null
       }
     ]
   },
@@ -39201,12 +39207,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1758258646,
-        "end": 1758259863,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1758259863,
         "end": 1758261050
@@ -45502,6 +45502,12 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759467022,
+        "end": 1759468827,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1759468827,
         "end": null,
         "travel_type": "airstrip"
       }
