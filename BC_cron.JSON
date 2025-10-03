@@ -7572,12 +7572,6 @@
     "name": "Jeyno",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1758249637,
-        "end": 1758256843,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758256843,
         "end": 1758284450
@@ -18731,12 +18725,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758249637,
-        "end": 1758256263,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758256263,
         "end": 1758257447
@@ -20024,12 +20012,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1758249637,
-        "end": 1758253247,
-        "travel_type": "standard"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758253247,
@@ -22090,6 +22072,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1759459227,
+        "end": 1759459820,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759459820,
         "end": null,
         "travel_type": "standard"
       }
@@ -35072,12 +35060,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1758249637,
-        "end": 1758259863,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1758259863,
         "end": 1758264049
@@ -42585,8 +42567,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759447222,
-        "end": null,
+        "end": 1759459820,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759459820,
+        "end": null
       }
     ]
   },
