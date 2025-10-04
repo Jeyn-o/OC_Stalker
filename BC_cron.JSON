@@ -7320,6 +7320,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759550429,
+        "end": 1759551624
+      },
+      {
+        "status": "Available",
+        "start": 1759551624,
         "end": null
       }
     ]
@@ -12504,6 +12509,11 @@
       {
         "status": "[Hospital] Lost - Revives: Partial",
         "start": 1759551026,
+        "end": 1759551624
+      },
+      {
+        "status": "Available",
+        "start": 1759551624,
         "end": null
       }
     ]
@@ -19107,8 +19117,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1759546223,
-        "end": null,
+        "end": 1759551624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1759551624,
+        "end": null
       }
     ]
   },
@@ -21675,8 +21690,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759548020,
-        "end": null,
+        "end": 1759551624,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759551624,
+        "end": null
       }
     ]
   },
@@ -24318,7 +24338,13 @@
       {
         "status": "Available",
         "start": 1759486236,
-        "end": null
+        "end": 1759551624
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1759551624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33275,11 +33301,6 @@
     "name": "Littlegman212",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758341451,
-        "end": 1758384648
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1758384648,
         "end": 1758385245
@@ -38498,7 +38519,13 @@
       {
         "status": "Available",
         "start": 1759533024,
-        "end": null
+        "end": 1759551624
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1759551624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
