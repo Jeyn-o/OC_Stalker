@@ -35101,7 +35101,7 @@
   "901137": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": 1759781540,
+    "ready_at": 1759695140,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -35118,14 +35118,6 @@
         "checkpoint_pass_rate": 71,
         "position": "Robber",
         "position_number": 1,
-        "item_available": true
-      },
-      "P4": {
-        "user_id": 3449771,
-        "user_name": "Driccy",
-        "checkpoint_pass_rate": 68,
-        "position": "Robber",
-        "position_number": 3,
         "item_available": true
       }
     },
@@ -35155,6 +35147,17 @@
       {
         "timestamp": 1759614630,
         "action": "joined",
+        "slot": "P4",
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 68,
+        "position": "Robber",
+        "position_number": 3,
+        "item_available": true
+      },
+      {
+        "timestamp": 1759618221,
+        "action": "left",
         "slot": "P4",
         "user_id": 3449771,
         "user_name": "Driccy",
@@ -35426,7 +35429,7 @@
   "904613": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": 1759665428,
+    "ready_at": 1759751828,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -35435,6 +35438,14 @@
         "checkpoint_pass_rate": 72,
         "position": "Muscle",
         "position_number": 1
+      },
+      "P1": {
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 68,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -35447,6 +35458,17 @@
         "checkpoint_pass_rate": 72,
         "position": "Muscle",
         "position_number": 1
+      },
+      {
+        "timestamp": 1759618221,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 68,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
