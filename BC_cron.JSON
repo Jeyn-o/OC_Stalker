@@ -1733,11 +1733,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758339649,
-        "end": 1758357651
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758357651,
         "end": 1758364254,
@@ -3697,11 +3692,6 @@
     "name": "firefly50",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758339649,
-        "end": 1758346264
-      },
-      {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1758346264,
         "end": 1758346851
@@ -4253,11 +4243,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758339649,
-        "end": 1758518446
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1758518446,
@@ -19126,12 +19111,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1758339649,
-        "end": 1758349254,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758349254,
         "end": 1758370837
@@ -19657,12 +19636,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1758339649,
-        "end": 1758343246,
-        "travel_type": "standard"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758343246,
@@ -22658,8 +22631,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759542027,
-        "end": null,
+        "end": 1759549840,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1759549840,
+        "end": null
       }
     ]
   },
@@ -25184,7 +25162,13 @@
       {
         "status": "Available",
         "start": 1759488621,
-        "end": null
+        "end": 1759549840
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759549840,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30912,12 +30896,6 @@
   "3542414": {
     "name": "awesomemcsexy",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758339649,
-        "end": 1758350448,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Returning",
         "start": 1758350448,
@@ -40460,6 +40438,11 @@
       {
         "status": "Available",
         "start": 1759548663,
+        "end": 1759549840
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1759549840,
         "end": null
       }
     ]
@@ -42014,6 +41997,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759548663,
+        "end": 1759549840
+      },
+      {
+        "status": "Available",
+        "start": 1759549840,
         "end": null
       }
     ]
