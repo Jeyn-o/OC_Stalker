@@ -5866,8 +5866,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759591224,
-        "end": null,
+        "end": 1759599028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1759599028,
+        "end": null
       }
     ]
   },
@@ -7000,8 +7005,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759596028,
-        "end": null,
+        "end": 1759599028,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1759599028,
+        "end": null
       }
     ]
   },
@@ -8053,6 +8063,11 @@
       {
         "status": "Available",
         "start": 1759391422,
+        "end": 1759599028
+      },
+      {
+        "status": "Jail",
+        "start": 1759599028,
         "end": null
       }
     ]
@@ -24111,12 +24126,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758388846,
-        "end": 1758395450,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758395450,
         "end": 1758402063
@@ -31720,11 +31729,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "[South Africa] Mugged - Revives: ALL",
-        "start": 1758388846,
-        "end": 1758390048
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1758390048,
         "end": 1758397849
@@ -34824,11 +34828,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758388846,
-        "end": 1758390048
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1758390048,
         "end": 1758391264
@@ -37104,8 +37103,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759582831,
-        "end": null,
+        "end": 1759599028,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759599028,
+        "end": null
       }
     ]
   },
@@ -39957,6 +39961,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1759597234,
+        "end": 1759599028,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759599028,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40596,11 +40606,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1758388846,
-        "end": 1758389467
-      },
       {
         "status": "Available",
         "start": 1758389467,
