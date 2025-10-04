@@ -34778,7 +34778,7 @@
   "898302": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1759763299,
+    "ready_at": 1759676899,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -34803,14 +34803,6 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
-      },
-      "P5": {
-        "user_id": 442690,
-        "user_name": "BeardedBenny",
-        "checkpoint_pass_rate": 62,
-        "position": "Muscle",
-        "position_number": 1,
-        "item_available": false
       }
     },
     "action_log": [
@@ -34849,6 +34841,17 @@
       {
         "timestamp": 1759534826,
         "action": "joined",
+        "slot": "P5",
+        "user_id": 442690,
+        "user_name": "BeardedBenny",
+        "checkpoint_pass_rate": 62,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1759584031,
+        "action": "left",
         "slot": "P5",
         "user_id": 442690,
         "user_name": "BeardedBenny",
@@ -35032,10 +35035,29 @@
   "902405": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1759670326,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 442690,
+        "user_name": "BeardedBenny",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1759584031,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 442690,
+        "user_name": "BeardedBenny",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    ]
   },
   "902406": {
     "name": "Break the Bank",
