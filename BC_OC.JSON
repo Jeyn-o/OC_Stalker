@@ -32625,7 +32625,7 @@
         "checkpoint_pass_rate": 72,
         "position": "Hacker",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P4": {
         "user_id": 2671530,
@@ -34432,7 +34432,7 @@
         "checkpoint_pass_rate": 70,
         "position": "Bomber",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P2": {
         "user_id": 2736671,
@@ -34456,7 +34456,7 @@
         "checkpoint_pass_rate": 70,
         "position": "Engineer",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -34612,8 +34612,8 @@
   },
   "898153": {
     "name": "Counter Offer",
-    "status": "Recruiting",
-    "ready_at": 1759793459,
+    "status": "Planning",
+    "ready_at": 1759879859,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -34647,6 +34647,14 @@
         "position": "Robber",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 75,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -34693,6 +34701,17 @@
         "position": "Robber",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1759617620,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 75,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -35430,5 +35449,37 @@
         "position_number": 1
       }
     ]
+  },
+  "906544": {
+    "name": "Clinical Precision",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "906545": {
+    "name": "Break the Bank",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "906546": {
+    "name": "Break the Bank",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "906547": {
+    "name": "Blast from the Past",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
   }
 }
