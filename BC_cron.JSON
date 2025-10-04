@@ -1667,11 +1667,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758372644,
-        "end": 1758392449
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758392449,
         "end": 1758399648,
@@ -2273,8 +2268,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759576221,
-        "end": null,
+        "end": 1759582831,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759582831,
+        "end": null
       }
     ]
   },
@@ -18290,11 +18290,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758372644,
-        "end": 1758398464
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1758398464,
         "end": 1758409849,
@@ -24016,11 +24011,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: OFF",
-        "start": 1758372644,
-        "end": 1758376253
-      },
       {
         "status": "Available",
         "start": 1758376253,
@@ -37342,7 +37332,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759565421,
-        "end": null
+        "end": 1759582831
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759582831,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -41802,12 +41798,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1758372644,
-        "end": 1758384063,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758384063,
