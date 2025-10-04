@@ -15941,12 +15941,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1758348645,
-        "end": 1758359450,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758359450,
         "end": 1758362465
@@ -24340,6 +24334,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759551624,
+        "end": 1759558820,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759558820,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33199,7 +33199,13 @@
       {
         "status": "Available",
         "start": 1759522226,
-        "end": null
+        "end": 1759558820
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759558820,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
