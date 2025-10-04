@@ -2278,6 +2278,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759569625,
+        "end": 1759576221,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759576221,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -11893,8 +11899,13 @@
       {
         "status": "[China] - Going",
         "start": 1759566630,
-        "end": null,
+        "end": 1759576221,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759576221,
+        "end": null
       }
     ]
   },
@@ -21594,7 +21605,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759551624,
-        "end": null
+        "end": 1759576221
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759576221,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -22530,12 +22547,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1758366055,
-        "end": 1758378051,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758378051,
@@ -25068,12 +25079,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1758366055,
-        "end": 1758367229,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1758367229,
         "end": 1758368431,
@@ -25988,8 +25993,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1759570230,
-        "end": null,
+        "end": 1759576221,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759576221,
+        "end": null
       }
     ]
   },
