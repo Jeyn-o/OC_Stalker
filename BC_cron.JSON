@@ -2940,6 +2940,11 @@
       {
         "status": "Jail",
         "start": 1759595427,
+        "end": 1759604441
+      },
+      {
+        "status": "Available",
+        "start": 1759604441,
         "end": null
       }
     ]
@@ -2947,11 +2952,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: OFF",
-        "start": 1758394245,
-        "end": 1758395450
-      },
       {
         "status": "Available",
         "start": 1758395450,
@@ -5833,7 +5833,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1759599028,
-        "end": null
+        "end": 1759604441
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759604441,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15470,7 +15476,13 @@
       {
         "status": "Available",
         "start": 1759595427,
-        "end": null
+        "end": 1759604441
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759604441,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
