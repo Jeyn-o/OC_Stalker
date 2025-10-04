@@ -687,7 +687,13 @@
       {
         "status": "Available",
         "start": 1759620024,
-        "end": null
+        "end": 1759621821
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759621821,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14703,8 +14709,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1759616431,
-        "end": null,
+        "end": 1759621821,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1759621821,
+        "end": null
       }
     ]
   },
@@ -18920,7 +18931,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759621231,
-        "end": null
+        "end": 1759621821
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759621821,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19426,6 +19443,11 @@
       {
         "status": "Available",
         "start": 1759621231,
+        "end": 1759621821
+      },
+      {
+        "status": "Jail",
+        "start": 1759621821,
         "end": null
       }
     ]
@@ -21594,12 +21616,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1758411647,
-        "end": 1758413449,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1758413449,
@@ -23821,11 +23837,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758411647,
-        "end": 1758445267
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1758445267,
@@ -39746,6 +39757,11 @@
       {
         "status": "Available",
         "start": 1759615823,
+        "end": 1759621821
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1759621821,
         "end": null
       }
     ]
