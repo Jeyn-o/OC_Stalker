@@ -3024,8 +3024,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759571425,
-        "end": null,
+        "end": 1759577431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759577431,
+        "end": null
       }
     ]
   },
@@ -9099,11 +9104,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1758367229,
-        "end": 1758368431
-      },
       {
         "status": "Available",
         "start": 1758368431,
@@ -25080,12 +25080,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1758367229,
-        "end": 1758368431,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758368431,
         "end": 1758376253
@@ -30255,7 +30249,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759560025,
-        "end": null
+        "end": 1759577431
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759577431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38365,7 +38365,13 @@
       {
         "status": "Available",
         "start": 1759572034,
-        "end": null
+        "end": 1759577431
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759577431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40225,6 +40231,11 @@
       {
         "status": "Available",
         "start": 1759561236,
+        "end": 1759577431
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1759577431,
         "end": null
       }
     ]
