@@ -2349,11 +2349,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1758361254,
-        "end": 1758390048
-      },
-      {
         "status": "[China] - Returning",
         "start": 1758390048,
         "end": 1758400261,
@@ -3035,7 +3030,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759560622,
-        "end": null
+        "end": 1759571425
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759571425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18319,12 +18320,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1758361254,
-        "end": 1758372644,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758372644,
         "end": 1758398464
@@ -24262,11 +24257,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758361254,
-        "end": 1758362465
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758362465,
         "end": 1758369041,
@@ -26941,11 +26931,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1758361254,
-        "end": 1758361854
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1758361854,
@@ -38391,8 +38376,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759562420,
-        "end": null,
+        "end": 1759571425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1759571425,
+        "end": null
       }
     ]
   },
