@@ -7140,7 +7140,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759509023,
-        "end": null
+        "end": 1759542622
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759542622,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -14894,11 +14900,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[South Africa] Lost - Revives: ALL",
-        "start": 1758332449,
-        "end": 1758333668
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1758333668,
@@ -34721,12 +34722,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1758332449,
-        "end": 1758342665,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1758342665,
         "end": 1758354647
@@ -38794,11 +38789,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Mexico] Hospitalized - Revives: ALL",
-        "start": 1758332449,
-        "end": 1758346264
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1758346264,
         "end": 1758347443,
@@ -42079,6 +42069,11 @@
       {
         "status": "Available",
         "start": 1759519826,
+        "end": 1759542622
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1759542622,
         "end": null
       }
     ]
