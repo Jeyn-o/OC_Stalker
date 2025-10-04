@@ -1549,12 +1549,6 @@
     "name": "poik9",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1758356446,
-        "end": 1758363658,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1758363658,
         "end": 1758370837,
@@ -7095,8 +7089,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759561236,
-        "end": null,
+        "end": 1759566630,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759566630,
+        "end": null
       }
     ]
   },
@@ -11938,7 +11937,13 @@
       {
         "status": "Available",
         "start": 1759564828,
-        "end": null
+        "end": 1759566630
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759566630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14718,7 +14723,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759564828,
-        "end": null
+        "end": 1759566630
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759566630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26052,8 +26063,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1759561236,
-        "end": null,
+        "end": 1759566630,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1759566630,
+        "end": null
       }
     ]
   },
@@ -34531,11 +34547,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758356446,
-        "end": 1758370837
-      },
       {
         "status": "[China] - Returning",
         "start": 1758370837,
