@@ -816,11 +816,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758385872,
-        "end": 1758424847
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1758424847,
         "end": 1758426045
@@ -5231,11 +5226,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1758385872,
-        "end": 1758400261
-      },
-      {
         "status": "[China] - Returning",
         "start": 1758400261,
         "end": 1758407462,
@@ -7025,7 +7015,13 @@
       {
         "status": "Available",
         "start": 1759589427,
-        "end": null
+        "end": 1759596028
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759596028,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -7972,7 +7968,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1759564225,
-        "end": null
+        "end": 1759596028
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759596028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23719,6 +23721,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759589427,
+        "end": 1759596028,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759596028,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31773,11 +31781,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1758385872,
-        "end": 1758388846
-      },
-      {
         "status": "[South Africa] Mugged - Revives: ALL",
         "start": 1758388846,
         "end": 1758390048
@@ -32912,11 +32915,6 @@
     "name": "lonewanderer024",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1758385872,
-        "end": 1758386445
-      },
-      {
         "status": "Available",
         "start": 1758386445,
         "end": 1758387049
@@ -33203,6 +33201,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1759593637,
+        "end": 1759596028
+      },
+      {
+        "status": "Available",
+        "start": 1759596028,
         "end": null
       }
     ]
@@ -40035,6 +40038,11 @@
       {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1759594823,
+        "end": 1759596028
+      },
+      {
+        "status": "Available",
+        "start": 1759596028,
         "end": null
       }
     ]
@@ -40042,12 +40050,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1758385872,
-        "end": 1758387667,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758387667,
@@ -44234,7 +44236,13 @@
       {
         "status": "Available",
         "start": 1759542027,
-        "end": null
+        "end": 1759596028
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759596028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
