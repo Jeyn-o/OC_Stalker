@@ -6049,6 +6049,11 @@
       {
         "status": "Available",
         "start": 1759467022,
+        "end": 1759552227
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1759552227,
         "end": null
       }
     ]
@@ -7115,6 +7120,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759549222,
+        "end": 1759552227,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759552227,
         "end": null,
         "travel_type": "standard"
       }
@@ -11951,7 +11962,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759548020,
-        "end": null
+        "end": 1759552227
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759552227,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18346,6 +18363,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1759550429,
+        "end": 1759552227
+      },
+      {
+        "status": "Available",
+        "start": 1759552227,
         "end": null
       }
     ]
@@ -19123,7 +19145,13 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759551624,
-        "end": null
+        "end": 1759552227
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1759552227,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22657,7 +22685,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1759549840,
-        "end": null
+        "end": 1759552227
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759552227,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25202,11 +25236,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758342046,
-        "end": 1758366055
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1758366055,
         "end": 1758367229,
@@ -26089,8 +26118,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759545029,
-        "end": null,
+        "end": 1759552227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1759552227,
+        "end": null
       }
     ]
   },
@@ -30423,12 +30457,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1758342046,
-        "end": 1758343848,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758343848,
@@ -37550,12 +37578,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1758342046,
-        "end": 1758347443,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758347443,
