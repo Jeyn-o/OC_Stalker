@@ -18114,8 +18114,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759608626,
-        "end": null,
+        "end": 1759615230,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759615230,
+        "end": null
       }
     ]
   },
@@ -21354,7 +21359,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759614023,
-        "end": null
+        "end": 1759615230
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759615230,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -23776,11 +23787,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758405050,
-        "end": 1758411063
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1758411063,
@@ -36267,12 +36273,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1758405050,
-        "end": 1758421863,
-        "travel_type": "standard"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758421863,
         "end": 1758426045
@@ -41991,11 +41991,6 @@
   "3841404": {
     "name": "Sleepy_Skyes",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758405050,
-        "end": 1758421863
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1758421863,
