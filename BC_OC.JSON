@@ -33228,8 +33228,8 @@
   },
   "886608": {
     "name": "Pet Project",
-    "status": "Recruiting",
-    "ready_at": 1759775344,
+    "status": "Planning",
+    "ready_at": 1759861744,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -33247,6 +33247,14 @@
         "position": "Picklock",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 3760809,
+        "user_name": "RandomName1",
+        "checkpoint_pass_rate": 88,
+        "position": "Kidnapper",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -33271,6 +33279,17 @@
         "position": "Picklock",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1759611633,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3760809,
+        "user_name": "RandomName1",
+        "checkpoint_pass_rate": 88,
+        "position": "Kidnapper",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -34305,9 +34324,9 @@
   },
   "895231": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1759611395,
-    "executed_at": null,
+    "executed_at": 1759611610,
     "slots": {
       "P2": {
         "user_id": 2419133,
