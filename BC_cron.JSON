@@ -12003,11 +12003,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758331862,
-        "end": 1758444645
-      },
-      {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1758444645,
         "end": 1758445850
@@ -15617,6 +15612,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759529425,
+        "end": 1759542027,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759542027,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -18404,8 +18405,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759535422,
-        "end": null,
+        "end": 1759542027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759542027,
+        "end": null
       }
     ]
   },
@@ -22716,7 +22722,13 @@
       {
         "status": "Available",
         "start": 1759541435,
-        "end": null
+        "end": 1759542027
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1759542027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38782,11 +38794,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1758331862,
-        "end": 1758332449
-      },
-      {
         "status": "[Mexico] Hospitalized - Revives: ALL",
         "start": 1758332449,
         "end": 1758346264
@@ -44894,6 +44901,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759540832,
+        "end": 1759542027
+      },
+      {
+        "status": "Available",
+        "start": 1759542027,
         "end": null
       }
     ]
