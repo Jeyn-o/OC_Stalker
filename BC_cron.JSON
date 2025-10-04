@@ -1440,6 +1440,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1759608626,
+        "end": 1759611024
+      },
+      {
+        "status": "Available",
+        "start": 1759611024,
         "end": null
       }
     ]
@@ -4543,11 +4548,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758400848,
-        "end": 1758403245
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1758403245,
         "end": 1758414666,
@@ -5708,6 +5708,12 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1759605624,
+        "end": 1759611024,
+        "travel_type": "private"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759611024,
         "end": null,
         "travel_type": "private"
       }
@@ -8064,11 +8070,6 @@
   "2611425": {
     "name": "NeshoNeko",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1758400848,
-        "end": 1758401445
-      },
       {
         "status": "Available",
         "start": 1758401445,
@@ -12473,12 +12474,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1758400848,
-        "end": 1758408647,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758408647,
         "end": 1758528069
@@ -15782,11 +15777,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758400848,
-        "end": 1758432048
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1758432048,
         "end": 1758442848,
@@ -18942,12 +18932,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1758400848,
-        "end": 1758410444,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758410444,
         "end": 1758460841
@@ -19453,12 +19437,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1758400848,
-        "end": 1758401445,
-        "travel_type": "standard"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1758401445,
@@ -22354,11 +22332,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1758400848,
-        "end": 1758401445
-      },
-      {
         "status": "Available",
         "start": 1758401445,
         "end": 1758441669
@@ -24849,11 +24822,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1758400848,
-        "end": 1758402063
-      },
       {
         "status": "Available",
         "start": 1758402063,
@@ -28105,11 +28073,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1758400848,
-        "end": 1758401445
-      },
       {
         "status": "Available",
         "start": 1758401445,
@@ -33901,7 +33864,13 @@
       {
         "status": "Available",
         "start": 1759610420,
-        "end": null
+        "end": 1759611024
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1759611024,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -42229,6 +42198,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759603821,
+        "end": 1759611024,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759611024,
         "end": null,
         "travel_type": "airstrip"
       }
