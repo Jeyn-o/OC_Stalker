@@ -755,11 +755,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1758349254,
-        "end": 1758349868
-      },
-      {
         "status": "Available",
         "start": 1758349868,
         "end": 1758377454
@@ -9706,7 +9701,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759553420,
-        "end": null
+        "end": 1759559427
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759559427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16728,6 +16729,11 @@
       {
         "status": "Available",
         "start": 1759527022,
+        "end": 1759559427
+      },
+      {
+        "status": "[Hospital] Lost - Revives: Partial",
+        "start": 1759559427,
         "end": null
       }
     ]
@@ -19147,11 +19153,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758349254,
-        "end": 1758370837
-      },
       {
         "status": "[Japan] - Going",
         "start": 1758370837,
@@ -22652,8 +22653,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1759552227,
-        "end": null,
+        "end": 1759559427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759559427,
+        "end": null
       }
     ]
   },
@@ -28514,11 +28520,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758349254,
-        "end": 1758354051
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1758354051,
@@ -40409,6 +40410,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1759557633,
+        "end": 1759559427,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759559427,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -42028,12 +42035,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1758349254,
-        "end": 1758350448,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1758350448,
