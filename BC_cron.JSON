@@ -4764,11 +4764,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758330651,
-        "end": 1758376871
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1758376871,
         "end": 1758388248,
@@ -7825,11 +7820,6 @@
   "2427687": {
     "name": "Jubjub82180",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758330651,
-        "end": 1758333040
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1758333040,
@@ -12004,19 +11994,19 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759528224,
-        "end": null,
+        "end": 1759540832,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759540832,
+        "end": null
       }
     ]
   },
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: Partial",
-        "start": 1758330651,
-        "end": 1758331862
-      },
       {
         "status": "Available",
         "start": 1758331862,
@@ -12630,11 +12620,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758330651,
-        "end": 1758393060
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1758393060,
@@ -19196,7 +19181,13 @@
       {
         "status": "Available",
         "start": 1759539621,
-        "end": null
+        "end": 1759540832
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1759540832,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29856,8 +29847,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759539621,
-        "end": null,
+        "end": 1759540832,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759540832,
+        "end": null
       }
     ]
   },
@@ -38797,12 +38793,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1758330651,
-        "end": 1758331862,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1758331862,
         "end": 1758332449
@@ -44910,6 +44900,11 @@
       {
         "status": "Available",
         "start": 1759534218,
+        "end": 1759540832
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1759540832,
         "end": null
       }
     ]
