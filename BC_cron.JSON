@@ -4618,12 +4618,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1758489042,
-        "end": 1758494444,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1758494444,
         "end": 1758499849,
@@ -9645,7 +9639,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759698037,
-        "end": null
+        "end": 1759699225
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759699225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12494,11 +12494,6 @@
     "name": "Shimmer12",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1758489042,
-        "end": 1758490263
-      },
-      {
         "status": "Available",
         "start": 1758490263,
         "end": 1759344618
@@ -13774,11 +13769,6 @@
   "2943860": {
     "name": "BiberBart",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758489042,
-        "end": 1758780653
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1758780653,
@@ -21488,8 +21478,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759696824,
-        "end": null,
+        "end": 1759699225,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759699225,
+        "end": null
       }
     ]
   },
@@ -26439,8 +26434,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759687818,
-        "end": null,
+        "end": 1759699225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759699225,
+        "end": null
       }
     ]
   },
@@ -30339,12 +30339,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758489042,
-        "end": 1758495674,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1758495674,
         "end": 1758496849
@@ -31450,6 +31444,11 @@
       {
         "status": "[China] - Idle",
         "start": 1759693826,
+        "end": 1759699225
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1759699225,
         "end": null
       }
     ]
@@ -32552,8 +32551,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759692021,
-        "end": null,
+        "end": 1759699225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1759699225,
+        "end": null
       }
     ]
   },
