@@ -1429,6 +1429,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1759672832,
+        "end": 1759677025
+      },
+      {
+        "status": "Available",
+        "start": 1759677025,
         "end": null
       }
     ]
@@ -4592,6 +4597,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759675828,
+        "end": 1759677025,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759677025,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4986,7 +4997,13 @@
       {
         "status": "Available",
         "start": 1759450816,
-        "end": null
+        "end": 1759677025
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759677025,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7715,8 +7732,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759665027,
-        "end": null,
+        "end": 1759677025,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759677025,
+        "end": null
       }
     ]
   },
@@ -21407,7 +21429,13 @@
       {
         "status": "Available",
         "start": 1759676434,
-        "end": null
+        "end": 1759677025
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759677025,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -24710,7 +24738,13 @@
       {
         "status": "Available",
         "start": 1759673426,
-        "end": null
+        "end": 1759677025
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759677025,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29218,12 +29252,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1758466865,
-        "end": 1758477043,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758477043,
         "end": 1758513668
@@ -31674,11 +31702,6 @@
   "3589360": {
     "name": "PyroSpunk",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1758466865,
-        "end": 1758472846
-      },
       {
         "status": "[South Africa] Mugged - Revives: ALL",
         "start": 1758472846,
