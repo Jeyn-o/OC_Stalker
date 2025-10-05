@@ -5755,6 +5755,11 @@
       {
         "status": "Available",
         "start": 1759671624,
+        "end": 1759672228
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1759672228,
         "end": null
       }
     ]
@@ -10974,7 +10979,13 @@
       {
         "status": "[Switzerland] Mugged - Revives: ALL",
         "start": 1759670414,
-        "end": null
+        "end": 1759672228
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759672228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11807,8 +11818,13 @@
       {
         "status": "[China] - Going",
         "start": 1759662628,
-        "end": null,
+        "end": 1759672228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759672228,
+        "end": null
       }
     ]
   },
@@ -12393,11 +12409,6 @@
   "2920790": {
     "name": "Shimmer12",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1758462044,
-        "end": 1758463269
-      },
       {
         "status": "Available",
         "start": 1758463269,
@@ -22257,11 +22268,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1758462044,
-        "end": 1758462641
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1758462641,
         "end": 1758469248,
@@ -29203,11 +29209,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758462044,
-        "end": 1758463852
-      },
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1758463852,
@@ -40050,11 +40051,6 @@
   "3792175": {
     "name": "Danin327",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1758462044,
-        "end": 1758463852
-      },
       {
         "status": "Available",
         "start": 1758463852,
