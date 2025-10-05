@@ -5687,6 +5687,11 @@
       {
         "status": "Available",
         "start": 1759647025,
+        "end": 1759647625
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1759647625,
         "end": null
       }
     ]
@@ -9522,11 +9527,6 @@
   "2671530": {
     "name": "windyswag",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758437448,
-        "end": 1759034450
-      },
       {
         "status": "Jail",
         "start": 1759034450,
@@ -18861,6 +18861,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759635621,
+        "end": 1759647625,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759647625,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29223,8 +29229,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1759640424,
-        "end": null,
+        "end": 1759647625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759647625,
+        "end": null
       }
     ]
   },
@@ -39559,8 +39570,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1759640424,
-        "end": null,
+        "end": 1759647625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759647625,
+        "end": null
       }
     ]
   },
