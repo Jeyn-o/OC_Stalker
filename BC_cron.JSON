@@ -5209,11 +5209,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758493870,
-        "end": 1758494444
-      },
-      {
         "status": "[China] - Going",
         "start": 1758494444,
         "end": 1758501646,
@@ -21506,7 +21501,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759702825,
-        "end": null
+        "end": 1759704028
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759704028,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -22395,11 +22396,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1758493870,
-        "end": 1758496249
-      },
       {
         "status": "[China] - Idle",
         "start": 1758496249,
@@ -25735,12 +25731,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1758493870,
-        "end": 1758500445,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1758500445,
         "end": 1758508848
@@ -26484,8 +26474,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1759702241,
-        "end": null,
+        "end": 1759704028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1759704028,
+        "end": null
       }
     ]
   },
@@ -29932,12 +29927,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1758493870,
-        "end": 1758495674,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1758495674,
@@ -33975,6 +33964,11 @@
       {
         "status": "Available",
         "start": 1759536033,
+        "end": 1759704028
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1759704028,
         "end": null
       }
     ]
@@ -36278,6 +36272,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1759702241,
+        "end": 1759704028
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759704028,
         "end": null
       }
     ]
