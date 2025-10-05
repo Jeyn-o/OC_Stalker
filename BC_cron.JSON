@@ -4638,12 +4638,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1758480046,
-        "end": 1758481855,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758481855,
         "end": 1758489042
@@ -5011,6 +5005,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759677025,
+        "end": 1759690220,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759690220,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15592,7 +15592,13 @@
       {
         "status": "Available",
         "start": 1759670414,
-        "end": null
+        "end": 1759690220
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759690220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18996,12 +19002,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1758480046,
-        "end": 1758489649,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1758489649,
@@ -23658,8 +23658,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759682423,
-        "end": null,
+        "end": 1759690220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1759690220,
+        "end": null
       }
     ]
   },
@@ -24797,8 +24802,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759683021,
-        "end": null,
+        "end": 1759690220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759690220,
+        "end": null
       }
     ]
   },
