@@ -779,12 +779,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758428448,
-        "end": 1758435043,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1758435043,
         "end": 1758436856
@@ -7675,11 +7669,6 @@
   "2427687": {
     "name": "Jubjub82180",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758428448,
-        "end": 1758682866
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1758682866,
@@ -21431,8 +21420,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759634429,
-        "end": null,
+        "end": 1759638630,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759638630,
+        "end": null
       }
     ]
   },
@@ -23603,7 +23597,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759629629,
-        "end": null
+        "end": 1759638630
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759638630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
