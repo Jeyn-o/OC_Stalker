@@ -8776,11 +8776,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1758451251,
-        "end": 1758456068
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1758456068,
         "end": 1758463269,
@@ -16481,6 +16476,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759655423,
+        "end": 1759661425
+      },
+      {
+        "status": "[United Arab Emirates] Attacked - Revives: Partial",
+        "start": 1759661425,
         "end": null
       }
     ]
@@ -26434,11 +26434,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758451251,
-        "end": 1758463852
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1758463852,
         "end": 1758471045,
@@ -27884,7 +27879,13 @@
       {
         "status": "Available",
         "start": 1759660823,
-        "end": null
+        "end": 1759661425
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759661425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36083,18 +36084,19 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759659627,
-        "end": null
+        "end": 1759661425
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759661425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "[Cayman Islands] Attacked - Revives: ALL",
-        "start": 1758451251,
-        "end": 1758451847
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1758451847,
@@ -37709,8 +37711,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759650031,
-        "end": null,
+        "end": 1759661425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1759661425,
+        "end": null
       }
     ]
   },
