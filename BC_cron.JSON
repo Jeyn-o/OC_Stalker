@@ -12500,11 +12500,6 @@
     "name": "Shimmer12",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758490263,
-        "end": 1759344618
-      },
-      {
         "status": "Jail",
         "start": 1759344618,
         "end": 1759348835
@@ -23659,6 +23654,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1759698631,
+        "end": 1759700417,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1759700417,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -23870,6 +23871,11 @@
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1759698037,
+        "end": 1759700417
+      },
+      {
+        "status": "Available",
+        "start": 1759700417,
         "end": null
       }
     ]
@@ -25695,11 +25701,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758490263,
-        "end": 1758493870
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1758493870,
@@ -30331,7 +30332,13 @@
       {
         "status": "Available",
         "start": 1759695025,
-        "end": null
+        "end": 1759700417
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759700417,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
