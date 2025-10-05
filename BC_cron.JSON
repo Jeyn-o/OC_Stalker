@@ -19448,6 +19448,11 @@
       {
         "status": "Jail",
         "start": 1759621821,
+        "end": 1759623023
+      },
+      {
+        "status": "Available",
+        "start": 1759623023,
         "end": null
       }
     ]
@@ -19455,17 +19460,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1758412247,
-        "end": 1758412878,
-        "travel_type": "standard"
-      },
-      {
-        "status": "Available",
-        "start": 1758412878,
-        "end": 1758415241
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1758415241,
@@ -21414,8 +21408,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759620024,
-        "end": null,
+        "end": 1759623023,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759623023,
+        "end": null
       }
     ]
   },
@@ -25686,8 +25685,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1759617618,
-        "end": null,
+        "end": 1759623023,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1759623023,
+        "end": null
       }
     ]
   },
@@ -26433,7 +26437,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759614626,
-        "end": null
+        "end": 1759623023
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759623023,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41211,11 +41221,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758412878,
-        "end": 1758413449
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1758413449,
