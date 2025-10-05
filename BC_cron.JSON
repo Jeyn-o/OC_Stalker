@@ -687,7 +687,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759633826,
-        "end": null
+        "end": 1759657825
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759657825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3535,11 +3541,6 @@
   "2052875": {
     "name": "firefly50",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758447646,
-        "end": 1758649851
-      },
       {
         "status": "Jail",
         "start": 1758649851,
@@ -6960,8 +6961,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759652425,
-        "end": null,
+        "end": 1759657825,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759657825,
+        "end": null
       }
     ]
   },
@@ -10935,11 +10941,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758447646,
-        "end": 1758450048
-      },
       {
         "status": "[China] - Going",
         "start": 1758450048,
@@ -32746,6 +32747,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759653026,
+        "end": 1759657825
+      },
+      {
+        "status": "Available",
+        "start": 1759657825,
         "end": null
       }
     ]
