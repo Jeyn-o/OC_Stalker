@@ -4585,12 +4585,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1758461473,
-        "end": 1758468662,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1758468662,
         "end": 1758475871,
@@ -5756,6 +5750,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1759647625,
+        "end": 1759671624
+      },
+      {
+        "status": "Available",
+        "start": 1759671624,
         "end": null
       }
     ]
@@ -8912,7 +8911,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1759659627,
-        "end": null
+        "end": 1759671624
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759671624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19434,12 +19439,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1758461473,
-        "end": 1758464452,
-        "travel_type": "standard"
-      },
-      {
         "status": "[China] - Going",
         "start": 1758464452,
         "end": 1758468043,
@@ -21372,7 +21371,13 @@
       {
         "status": "Available",
         "start": 1759671034,
-        "end": null
+        "end": 1759671624
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759671624,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -27919,11 +27924,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Cayman Islands] Mugged - Revives: ALL",
-        "start": 1758461473,
-        "end": 1758462641
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1758462641,
@@ -39546,6 +39546,11 @@
       {
         "status": "Available",
         "start": 1759671034,
+        "end": 1759671624
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1759671624,
         "end": null
       }
     ]
@@ -40105,11 +40110,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1758461473,
-        "end": 1758462641
-      },
       {
         "status": "Available",
         "start": 1758462641,
