@@ -779,11 +779,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1758424847,
-        "end": 1758426045
-      },
-      {
         "status": "Available",
         "start": 1758426045,
         "end": 1758428448
@@ -5703,6 +5698,11 @@
       {
         "status": "[China] Hospitalized - Revives: Partial",
         "start": 1759619446,
+        "end": 1759635048
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759635048,
         "end": null
       }
     ]
@@ -6973,8 +6973,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759632025,
-        "end": null,
+        "end": 1759635048,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759635048,
+        "end": null
       }
     ]
   },
@@ -9020,8 +9025,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1759627824,
-        "end": null,
+        "end": 1759635048,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759635048,
+        "end": null
       }
     ]
   },
@@ -19467,8 +19477,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759627227,
-        "end": null,
+        "end": 1759635048,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1759635048,
+        "end": null
       }
     ]
   },
@@ -21448,11 +21463,6 @@
   "3255591": {
     "name": "xaqf",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758424847,
-        "end": 1758523249
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1758523249,
@@ -36931,7 +36941,13 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1759632624,
-        "end": null
+        "end": 1759635048
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759635048,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
