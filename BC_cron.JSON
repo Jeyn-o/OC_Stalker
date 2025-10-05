@@ -8973,12 +8973,6 @@
     "name": "Vampire-Catgirl",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1758487852,
-        "end": 1758495054,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1758495054,
         "end": 1758495674
@@ -9645,8 +9639,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759686027,
-        "end": null,
+        "end": 1759698037,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759698037,
+        "end": null
       }
     ]
   },
@@ -23871,6 +23870,11 @@
       {
         "status": "Available",
         "start": 1759444230,
+        "end": 1759698037
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: Partial",
+        "start": 1759698037,
         "end": null
       }
     ]
@@ -31773,11 +31777,6 @@
     "name": "PyroSpunk",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758487852,
-        "end": 1758717667
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1758717667,
         "end": 1758720075
@@ -33731,7 +33730,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759691551,
-        "end": null
+        "end": 1759698037
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759698037,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43559,11 +43564,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758487852,
-        "end": 1758492070
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1758492070,
