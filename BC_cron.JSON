@@ -3597,12 +3597,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1758420059,
-        "end": 1758432666,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1758432666,
         "end": 1758433241
@@ -10483,12 +10477,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1758420059,
-        "end": 1758426640,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1758426640,
         "end": 1758429063
@@ -14593,7 +14581,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759626035,
-        "end": null
+        "end": 1759630224
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759630224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15480,8 +15474,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759617618,
-        "end": null,
+        "end": 1759630224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759630224,
+        "end": null
       }
     ]
   },
@@ -21437,8 +21436,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759627824,
-        "end": null,
+        "end": 1759630224,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759630224,
+        "end": null
       }
     ]
   },
@@ -25697,8 +25701,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1759624829,
-        "end": null,
+        "end": 1759630224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759630224,
+        "end": null
       }
     ]
   },
@@ -29340,8 +29349,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759620024,
-        "end": null,
+        "end": 1759630224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759630224,
+        "end": null
       }
     ]
   },
@@ -40356,11 +40370,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1758420059,
-        "end": 1758421863
-      },
-      {
         "status": "Available",
         "start": 1758421863,
         "end": 1758426640
@@ -41178,11 +41187,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1758420059,
-        "end": 1758421863
-      },
       {
         "status": "[Argentina] Hospitalized - Revives: ALL",
         "start": 1758421863,
