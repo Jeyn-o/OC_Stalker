@@ -10300,7 +10300,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759673426,
-        "end": null
+        "end": 1759674020
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759674020,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16577,8 +16583,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759662628,
-        "end": null,
+        "end": 1759674020,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759674020,
+        "end": null
       }
     ]
   },
@@ -21405,8 +21416,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759671624,
-        "end": null,
+        "end": 1759674020,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1759674020,
+        "end": null
       }
     ]
   },
@@ -23778,11 +23794,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758463852,
-        "end": 1758567672
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1758567672,
@@ -26477,12 +26488,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1758463852,
-        "end": 1758471045,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1758471045,
@@ -29202,19 +29207,19 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759666823,
-        "end": null,
+        "end": 1759674020,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759674020,
+        "end": null
       }
     ]
   },
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1758463852,
-        "end": 1758465065
-      },
       {
         "status": "[China] - Idle",
         "start": 1758465065,
@@ -30220,7 +30225,13 @@
       {
         "status": "Available",
         "start": 1759518617,
-        "end": null
+        "end": 1759674020
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759674020,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39545,11 +39556,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758463852,
-        "end": 1758464452
-      },
-      {
         "status": "[China] - Going",
         "start": 1758464452,
         "end": 1758474065,
@@ -40036,11 +40042,6 @@
   "3792175": {
     "name": "Danin327",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758463852,
-        "end": 1758914456
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1758914456,
