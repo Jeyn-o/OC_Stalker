@@ -3993,8 +3993,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759627824,
-        "end": null,
+        "end": 1759640424,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759640424,
+        "end": null
       }
     ]
   },
@@ -10221,8 +10226,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759633826,
-        "end": null,
+        "end": 1759640424,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759640424,
+        "end": null
       }
     ]
   },
@@ -23966,12 +23976,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758430246,
-        "end": 1758436856,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758436856,
         "end": 1758439860
@@ -29301,19 +29305,19 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1759639823,
-        "end": null
+        "end": 1759640424
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759640424,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758430246,
-        "end": 1758439860,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Returning",
         "start": 1758439860,
@@ -33768,8 +33772,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759633233,
-        "end": null,
+        "end": 1759640424,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759640424,
+        "end": null
       }
     ]
   },
@@ -38009,11 +38018,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758430246,
-        "end": 1758434468
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758434468,
         "end": 1758441048,
@@ -39652,6 +39656,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759632624,
+        "end": 1759640424,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759640424,
         "end": null,
         "travel_type": "airstrip"
       }
