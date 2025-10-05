@@ -1423,7 +1423,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759648833,
-        "end": null
+        "end": 1759650625
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759650625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5711,11 +5717,6 @@
   "2315415": {
     "name": "Litri",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1758440437,
-        "end": 1758442247
-      },
       {
         "status": "Available",
         "start": 1758442247,
@@ -23519,8 +23520,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759638630,
-        "end": null,
+        "end": 1759650625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759650625,
+        "end": null
       }
     ]
   },
@@ -40953,11 +40959,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1758440437,
-        "end": 1758445267
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1758445267,
