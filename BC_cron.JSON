@@ -3604,12 +3604,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1758506463,
-        "end": 1758518446,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1758518446,
         "end": 1758520252
@@ -5962,11 +5956,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1758506463,
-        "end": 1758513046
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1758513046,
         "end": 1758516049,
@@ -7058,8 +7047,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759713625,
-        "end": null,
+        "end": 1759716628,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1759716628,
+        "end": null
       }
     ]
   },
@@ -11947,7 +11941,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759708219,
-        "end": null
+        "end": 1759716628
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759716628,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14015,12 +14015,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1758506463,
-        "end": 1758517854,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758517854,
@@ -32723,11 +32717,6 @@
     "name": "Littlegman212",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1758506463,
-        "end": 1758509446
-      },
-      {
         "status": "Available",
         "start": 1758509446,
         "end": 1758522052
@@ -33828,6 +33817,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759710030,
+        "end": 1759716628,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759716628,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -36345,7 +36340,13 @@
       {
         "status": "Available",
         "start": 1759716033,
-        "end": null
+        "end": 1759716628
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759716628,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38135,11 +38136,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[United Kingdom] Mugged - Revives: OFF",
-        "start": 1758506463,
-        "end": 1758508262
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758508262,
         "end": 1758514844,
@@ -39738,6 +39734,11 @@
       {
         "status": "Available",
         "start": 1759712436,
+        "end": 1759716628
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1759716628,
         "end": null
       }
     ]
