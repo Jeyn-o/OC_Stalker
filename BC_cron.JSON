@@ -12637,7 +12637,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1759751427,
-        "end": null
+        "end": 1759754423
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759754423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19128,7 +19134,13 @@
       {
         "status": "Available",
         "start": 1759717826,
-        "end": null
+        "end": 1759754423
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759754423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19684,12 +19696,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758544270,
-        "end": 1758547870,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Returning",
         "start": 1758547870,
@@ -22522,12 +22528,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1758544270,
-        "end": 1758551470,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758551470,
@@ -32975,11 +32975,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1758544270,
-        "end": 1758545446
-      },
-      {
         "status": "[China] Hospitalized - Revives: ALL",
         "start": 1758545446,
         "end": 1758546644
@@ -34661,12 +34656,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1758544270,
-        "end": 1758549695,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Idle",
         "start": 1758549695,
@@ -39825,6 +39814,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1759746023,
+        "end": 1759754423
+      },
+      {
+        "status": "Available",
+        "start": 1759754423,
         "end": null
       }
     ]
