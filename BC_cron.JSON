@@ -5848,7 +5848,13 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1759775426,
-        "end": null
+        "end": 1759776628
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759776628,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -18457,8 +18463,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759770041,
-        "end": null,
+        "end": 1759776628,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759776628,
+        "end": null
       }
     ]
   },
@@ -26840,12 +26851,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1758566449,
-        "end": 1758572454,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758572454,
@@ -43778,8 +43783,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759770041,
-        "end": null,
+        "end": 1759776628,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759776628,
+        "end": null
       }
     ]
   },
