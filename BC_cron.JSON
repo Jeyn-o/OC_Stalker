@@ -668,7 +668,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759755628,
-        "end": null
+        "end": 1759757432
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759757432,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5247,11 +5253,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[China] Hospitalized - Revives: Partial",
-        "start": 1758547248,
-        "end": 1758559855
-      },
-      {
         "status": "[China] - Idle",
         "start": 1758559855,
         "end": 1758560468
@@ -7102,8 +7103,13 @@
       {
         "status": "[China] - Going",
         "start": 1759753222,
-        "end": null,
+        "end": 1759757432,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759757432,
+        "end": null
       }
     ]
   },
@@ -7372,6 +7378,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759749624,
+        "end": 1759757432,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759757432,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -10442,8 +10454,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759750824,
-        "end": null,
+        "end": 1759757432,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759757432,
+        "end": null
       }
     ]
   },
@@ -11214,11 +11231,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758547248,
-        "end": 1758574258
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1758574258,
@@ -16811,6 +16823,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759752029,
+        "end": 1759757432
+      },
+      {
+        "status": "[United Arab Emirates] Lost - Revives: Partial",
+        "start": 1759757432,
         "end": null
       }
     ]
@@ -21634,7 +21651,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759750824,
-        "end": null
+        "end": 1759757432
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759757432,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -25017,12 +25040,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1758547248,
-        "end": 1758548451,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1758548451,
@@ -30490,11 +30507,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758547248,
-        "end": 1758550852
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758550852,
         "end": 1758557455,
@@ -32975,11 +32987,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] Hospitalized - Revives: ALL",
-        "start": 1758547248,
-        "end": 1758549695
-      },
       {
         "status": "[China] - Idle",
         "start": 1758549695,
@@ -39804,6 +39811,11 @@
       {
         "status": "Available",
         "start": 1759754423,
+        "end": 1759757432
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1759757432,
         "end": null
       }
     ]
@@ -39811,12 +39823,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758547248,
-        "end": 1758557455,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Returning",
         "start": 1758557455,
