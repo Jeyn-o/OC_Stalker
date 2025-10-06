@@ -2208,12 +2208,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1758568844,
-        "end": 1758580853,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1758580853,
         "end": 1758598846
@@ -5030,8 +5024,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759771821,
-        "end": null,
+        "end": 1759779032,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759779032,
+        "end": null
       }
     ]
   },
@@ -18437,7 +18436,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759776628,
-        "end": null
+        "end": 1759779032
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759779032,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21736,7 +21741,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1759772417,
-        "end": null
+        "end": 1759779032
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759779032,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -29532,11 +29543,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758568844,
-        "end": 1758604855
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1758604855,
         "end": 1758607271
@@ -34143,11 +34149,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758568844,
-        "end": 1758573649
-      },
       {
         "status": "[China] - Returning",
         "start": 1758573649,
@@ -39937,6 +39938,11 @@
       {
         "status": "Available",
         "start": 1759771821,
+        "end": 1759779032
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1759779032,
         "end": null
       }
     ]
