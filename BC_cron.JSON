@@ -7341,11 +7341,6 @@
     "name": "Jeyno",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1758519648,
-        "end": 1758520867
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1758520867,
         "end": 1758533469,
@@ -11994,7 +11989,13 @@
       {
         "status": "Available",
         "start": 1759729223,
-        "end": null
+        "end": 1759729822
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1759729822,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21601,8 +21602,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759726218,
-        "end": null,
+        "end": 1759729822,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759729822,
+        "end": null
       }
     ]
   },
@@ -36388,8 +36394,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759723232,
-        "end": null,
+        "end": 1759729822,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759729822,
+        "end": null
       }
     ]
   },
@@ -39803,6 +39814,11 @@
       {
         "status": "Available",
         "start": 1759729223,
+        "end": 1759729822
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1759729822,
         "end": null
       }
     ]
@@ -39810,11 +39826,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758519648,
-        "end": 1758521453
-      },
       {
         "status": "[United Kingdom] Hospitalized - Revives: ALL",
         "start": 1758521453,
