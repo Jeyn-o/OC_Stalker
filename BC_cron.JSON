@@ -2170,8 +2170,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759755628,
-        "end": null,
+        "end": 1759762221,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759762221,
+        "end": null
       }
     ]
   },
@@ -4666,6 +4671,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759755628,
+        "end": 1759762221,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759762221,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7104,8 +7115,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759758028,
-        "end": null,
+        "end": 1759762221,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759762221,
+        "end": null
       }
     ]
   },
@@ -7791,6 +7807,11 @@
       {
         "status": "Available",
         "start": 1759759822,
+        "end": 1759762221
+      },
+      {
+        "status": "Jail",
+        "start": 1759762221,
         "end": null
       }
     ]
@@ -22576,12 +22597,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758552050,
-        "end": 1758558668,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1758558668,
         "end": 1758559253
@@ -32731,6 +32746,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759737636,
+        "end": 1759762221
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: ALL",
+        "start": 1759762221,
         "end": null
       }
     ]
@@ -38218,11 +38238,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1758552050,
-        "end": 1758560468
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1758560468,
         "end": 1758562273,
@@ -39836,6 +39851,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1759759822,
+        "end": 1759762221
+      },
+      {
+        "status": "Available",
+        "start": 1759762221,
         "end": null
       }
     ]
@@ -41104,12 +41124,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1758552050,
-        "end": 1758564066,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1758564066,
