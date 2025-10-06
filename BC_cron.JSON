@@ -10014,6 +10014,11 @@
       {
         "status": "Jail",
         "start": 1759784452,
+        "end": 1759786231
+      },
+      {
+        "status": "Available",
+        "start": 1759786231,
         "end": null
       }
     ]
@@ -15163,7 +15168,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1759785625,
-        "end": null
+        "end": 1759786231
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759786231,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22634,11 +22645,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1758576050,
-        "end": 1758579647
-      },
-      {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1758579647,
         "end": 1758581443
@@ -24189,11 +24195,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1758576050,
-        "end": 1758576661
-      },
       {
         "status": "Available",
         "start": 1758576661,
@@ -25902,7 +25903,13 @@
       {
         "status": "Available",
         "start": 1759646424,
-        "end": null
+        "end": 1759786231
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1759786231,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33089,6 +33096,11 @@
       {
         "status": "Available",
         "start": 1759778436,
+        "end": 1759786231
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1759786231,
         "end": null
       }
     ]
@@ -34753,12 +34765,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758576050,
-        "end": 1758583252,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758583252,
