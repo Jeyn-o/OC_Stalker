@@ -12624,12 +12624,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1758528069,
-        "end": 1758535262,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1758535262,
         "end": 1758542465,
@@ -23813,6 +23807,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759731627,
+        "end": 1759738226,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759738226,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31885,7 +31885,13 @@
       {
         "status": "Available",
         "start": 1759603821,
-        "end": null
+        "end": 1759738226
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759738226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33830,8 +33836,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759731627,
-        "end": null,
+        "end": 1759738226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759738226,
+        "end": null
       }
     ]
   },
