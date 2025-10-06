@@ -5996,12 +5996,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1758573071,
-        "end": 1758577848,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1758577848,
         "end": 1758581443
@@ -9228,11 +9222,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758573071,
-        "end": 1758591644
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1758591644,
         "end": 1758594051
@@ -12149,12 +12138,6 @@
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1758573071,
-        "end": 1758574258,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1758574258,
@@ -21737,7 +21720,13 @@
       {
         "status": "Available",
         "start": 1759779623,
-        "end": null
+        "end": 1759783221
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759783221,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -28232,8 +28221,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759782028,
-        "end": null,
+        "end": 1759783221,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759783221,
+        "end": null
       }
     ]
   },
@@ -39927,6 +39921,11 @@
       {
         "status": "Available",
         "start": 1759782028,
+        "end": 1759783221
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1759783221,
         "end": null
       }
     ]
@@ -40363,6 +40362,12 @@
       {
         "status": "[China] - Going",
         "start": 1759773636,
+        "end": 1759783221,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759783221,
         "end": null,
         "travel_type": "airstrip"
       }
