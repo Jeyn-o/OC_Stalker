@@ -5853,8 +5853,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759768235,
-        "end": null,
+        "end": 1759775426,
         "travel_type": "private"
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1759775426,
+        "end": null
       }
     ]
   },
@@ -7844,6 +7849,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759762841,
+        "end": 1759775426,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759775426,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -16954,12 +16965,6 @@
     "name": "JuanPaulo",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758565247,
-        "end": 1758570054,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758570054,
         "end": 1758579647
@@ -22636,11 +22641,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758565247,
-        "end": 1758565871
-      },
       {
         "status": "[China] - Going",
         "start": 1758565871,
@@ -30574,6 +30574,12 @@
       {
         "status": "[China] - Going",
         "start": 1759765220,
+        "end": 1759775426,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759775426,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34750,7 +34756,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759774218,
-        "end": null
+        "end": 1759775426
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759775426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
