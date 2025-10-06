@@ -4024,6 +4024,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759711828,
+        "end": 1759724426,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759724426,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -11117,6 +11123,11 @@
       {
         "status": "Available",
         "start": 1759720224,
+        "end": 1759724426
+      },
+      {
+        "status": "Jail",
+        "start": 1759724426,
         "end": null
       }
     ]
@@ -21558,8 +21569,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759720818,
-        "end": null,
+        "end": 1759724426,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759724426,
+        "end": null
       }
     ]
   },
@@ -21791,11 +21807,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1758514239,
-        "end": 1758514844
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1758514844,
@@ -24920,11 +24931,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1758514239,
-        "end": 1758516650
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1758516650,
@@ -32654,8 +32660,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759717227,
-        "end": null,
+        "end": 1759724426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759724426,
+        "end": null
       }
     ]
   },
