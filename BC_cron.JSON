@@ -4034,8 +4034,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759724426,
-        "end": null,
+        "end": 1759737023,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759737023,
+        "end": null
       }
     ]
   },
@@ -7085,8 +7090,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759731627,
-        "end": null,
+        "end": 1759737023,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759737023,
+        "end": null
       }
     ]
   },
@@ -11173,12 +11183,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758526850,
-        "end": 1758537651,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Returning",
         "start": 1758537651,
@@ -15984,12 +15988,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1758526850,
-        "end": 1758534046,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758534046,
@@ -26693,12 +26691,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758526850,
-        "end": 1758533469,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758533469,
         "end": 1758534648
@@ -30005,7 +29997,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759735824,
-        "end": null
+        "end": 1759737023
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759737023,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30467,11 +30465,6 @@
   "3542414": {
     "name": "awesomemcsexy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758526850,
-        "end": 1758540051
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758540051,
@@ -38141,11 +38134,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1758526850,
-        "end": 1758529863
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1758529863,
         "end": 1758531663,
@@ -39769,6 +39757,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759730439,
+        "end": 1759737023,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759737023,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -43638,6 +43632,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759736427,
+        "end": 1759737023
+      },
+      {
+        "status": "Available",
+        "start": 1759737023,
         "end": null
       }
     ]
