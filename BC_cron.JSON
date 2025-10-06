@@ -1559,12 +1559,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758554446,
-        "end": 1758561046,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758561046,
         "end": 1758567672,
@@ -2954,8 +2948,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1759759233,
-        "end": null,
+        "end": 1759764639,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1759764639,
+        "end": null
       }
     ]
   },
@@ -5027,7 +5026,13 @@
       {
         "status": "Available",
         "start": 1759702825,
-        "end": null
+        "end": 1759764639
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759764639,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7327,7 +7332,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759761624,
-        "end": null
+        "end": 1759764639
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759764639,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7397,8 +7408,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1759757432,
-        "end": null,
+        "end": 1759764639,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759764639,
+        "end": null
       }
     ]
   },
@@ -8204,7 +8220,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1759763429,
-        "end": null
+        "end": 1759764639
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759764639,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11218,8 +11240,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759758028,
-        "end": null,
+        "end": 1759764639,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759764639,
+        "end": null
       }
     ]
   },
@@ -21693,8 +21720,13 @@
       {
         "status": "[China] - Going",
         "start": 1759761624,
-        "end": null,
+        "end": 1759764639,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759764639,
+        "end": null
       }
     ]
   },
@@ -32733,6 +32765,11 @@
       {
         "status": "[Argentina] Mugged - Revives: ALL",
         "start": 1759762221,
+        "end": 1759764639
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1759764639,
         "end": null
       }
     ]
@@ -32788,6 +32825,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759763429,
+        "end": 1759764639
+      },
+      {
+        "status": "Available",
+        "start": 1759764639,
         "end": null
       }
     ]
@@ -33007,6 +33049,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759763429,
+        "end": 1759764639
+      },
+      {
+        "status": "Available",
+        "start": 1759764639,
         "end": null
       }
     ]
@@ -40270,6 +40317,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759763429,
+        "end": 1759764639
+      },
+      {
+        "status": "Available",
+        "start": 1759764639,
         "end": null
       }
     ]
