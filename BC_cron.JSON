@@ -5827,7 +5827,13 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1759717826,
-        "end": null
+        "end": 1759760428
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759760428,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -9160,7 +9166,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759739430,
-        "end": null
+        "end": 1759760428
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759760428,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16851,7 +16863,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759758028,
-        "end": null
+        "end": 1759760428
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759760428,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19717,8 +19735,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759749624,
-        "end": null,
+        "end": 1759760428,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1759760428,
+        "end": null
       }
     ]
   },
@@ -29482,6 +29505,12 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759753222,
+        "end": 1759760428,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759760428,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31926,7 +31955,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759750824,
-        "end": null
+        "end": 1759760428
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759760428,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34647,6 +34682,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759753850,
+        "end": 1759760428,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759760428,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34655,12 +34696,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1758550253,
-        "end": 1758556250,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1758556250,
@@ -38046,8 +38081,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1759758622,
-        "end": null,
+        "end": 1759760428,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1759760428,
+        "end": null
       }
     ]
   },
@@ -38209,12 +38249,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1758550253,
-        "end": 1758552050,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1758552050,
@@ -40251,6 +40285,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759759233,
+        "end": 1759760428
+      },
+      {
+        "status": "Available",
+        "start": 1759760428,
         "end": null
       }
     ]
