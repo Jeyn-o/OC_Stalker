@@ -5843,6 +5843,12 @@
       {
         "status": "[China] - Going",
         "start": 1759760428,
+        "end": 1759768235,
+        "travel_type": "private"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759768235,
         "end": null,
         "travel_type": "private"
       }
@@ -7115,8 +7121,13 @@
       {
         "status": "[China] - Going",
         "start": 1759764028,
-        "end": null,
+        "end": 1759768235,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759768235,
+        "end": null
       }
     ]
   },
@@ -9967,12 +9978,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758558053,
-        "end": 1758564652,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758564652,
@@ -33043,6 +33048,11 @@
       {
         "status": "Available",
         "start": 1759764639,
+        "end": 1759768235
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1759768235,
         "end": null
       }
     ]
@@ -34121,12 +34131,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758558053,
-        "end": 1758568844,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1758568844,
@@ -39902,7 +39906,13 @@
       {
         "status": "Available",
         "start": 1759762221,
-        "end": null
+        "end": 1759768235
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759768235,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40328,6 +40338,11 @@
       {
         "status": "Available",
         "start": 1759764639,
+        "end": 1759768235
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1759768235,
         "end": null
       }
     ]
