@@ -750,12 +750,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758525647,
-        "end": 1758532251,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758532251,
         "end": 1758537064
@@ -1420,7 +1414,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759735226,
-        "end": null
+        "end": 1759735824
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759735824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30011,8 +30011,13 @@
       {
         "status": "[China] - Going",
         "start": 1759725622,
-        "end": null,
+        "end": 1759735824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759735824,
+        "end": null
       }
     ]
   },
@@ -36370,11 +36375,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758525647,
-        "end": 1758640852
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1758640852,
         "end": 1758642654,
@@ -38151,12 +38151,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1758525647,
-        "end": 1758526850,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1758526850,
