@@ -11086,6 +11086,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759713625,
+        "end": 1759715426
+      },
+      {
+        "status": "Available",
+        "start": 1759715426,
         "end": null
       }
     ]
@@ -15622,8 +15627,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759702241,
-        "end": null,
+        "end": 1759715426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759715426,
+        "end": null
       }
     ]
   },
@@ -15896,11 +15906,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1758505248,
-        "end": 1758507046
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758507046,
@@ -16662,7 +16667,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759714221,
-        "end": null
+        "end": 1759715426
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759715426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21522,8 +21533,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759713019,
-        "end": null,
+        "end": 1759715426,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1759715426,
+        "end": null
       }
     ]
   },
@@ -29386,7 +29402,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759714826,
-        "end": null
+        "end": 1759715426
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759715426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32922,11 +32944,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758505248,
-        "end": 1758511861
-      },
       {
         "status": "[China] - Going",
         "start": 1758511861,
