@@ -750,12 +750,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758519072,
-        "end": 1758525647,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758525647,
         "end": 1758532251,
@@ -9698,7 +9692,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759728629,
-        "end": null
+        "end": 1759729223
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759729223,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11988,8 +11988,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759716628,
-        "end": null,
+        "end": 1759729223,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759729223,
+        "end": null
       }
     ]
   },
@@ -15960,11 +15965,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758519072,
-        "end": 1758526850
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758526850,
         "end": 1758534046,
@@ -19623,8 +19623,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759717227,
-        "end": null,
+        "end": 1759729223,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759729223,
+        "end": null
       }
     ]
   },
@@ -39793,6 +39798,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1759728629,
+        "end": 1759729223
+      },
+      {
+        "status": "Available",
+        "start": 1759729223,
         "end": null
       }
     ]
@@ -39800,11 +39810,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[United Kingdom] Attacked - Revives: ALL",
-        "start": 1758519072,
-        "end": 1758519648
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758519648,
