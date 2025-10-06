@@ -8156,6 +8156,11 @@
       {
         "status": "Jail",
         "start": 1759726829,
+        "end": 1759741230
+      },
+      {
+        "status": "Available",
+        "start": 1759741230,
         "end": null
       }
     ]
@@ -8913,6 +8918,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1759739430,
+        "end": 1759741230,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759741230,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -12029,7 +12040,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759739430,
-        "end": null
+        "end": 1759741230
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759741230,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15013,12 +15030,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758531045,
-        "end": 1758543649,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758543649,
         "end": 1758576661
@@ -16765,7 +16776,13 @@
       {
         "status": "Available",
         "start": 1759726829,
-        "end": null
+        "end": 1759741230
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1759741230,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24198,12 +24215,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758531045,
-        "end": 1758538247,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758538247,
         "end": 1758603043
@@ -24973,8 +24984,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759734628,
-        "end": null,
+        "end": 1759741230,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759741230,
+        "end": null
       }
     ]
   },
@@ -29440,8 +29456,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759734628,
-        "end": null,
+        "end": 1759741230,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759741230,
+        "end": null
       }
     ]
   },
