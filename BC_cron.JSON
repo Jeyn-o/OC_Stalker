@@ -1565,12 +1565,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758561046,
-        "end": 1758567672,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758567672,
         "end": 1758587472
@@ -17652,11 +17646,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758561046,
-        "end": 1758562853
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758562853,
         "end": 1758569472,
@@ -21749,12 +21738,6 @@
     "name": "xaqf",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1758561046,
-        "end": 1758567672,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758567672,
         "end": 1758686464
@@ -23958,7 +23941,13 @@
       {
         "status": "Available",
         "start": 1759770041,
-        "end": null
+        "end": 1759771227
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759771227,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33076,6 +33065,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1759769425,
+        "end": 1759771227
+      },
+      {
+        "status": "Available",
+        "start": 1759771227,
         "end": null
       }
     ]
@@ -33083,11 +33077,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758561046,
-        "end": 1758574258
-      },
       {
         "status": "[China] - Going",
         "start": 1758574258,
@@ -36497,8 +36486,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759769425,
-        "end": null,
+        "end": 1759771227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759771227,
+        "end": null
       }
     ]
   },
