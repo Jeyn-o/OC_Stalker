@@ -662,8 +662,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759772417,
-        "end": null,
+        "end": 1759784452,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759784452,
+        "end": null
       }
     ]
   },
@@ -2165,6 +2170,11 @@
       {
         "status": "Available",
         "start": 1759769425,
+        "end": 1759784452
+      },
+      {
+        "status": "Jail",
+        "start": 1759784452,
         "end": null
       }
     ]
@@ -4089,6 +4099,11 @@
       {
         "status": "Available",
         "start": 1759763429,
+        "end": 1759784452
+      },
+      {
+        "status": "Jail",
+        "start": 1759784452,
         "end": null
       }
     ]
@@ -5030,6 +5045,11 @@
       {
         "status": "Available",
         "start": 1759779032,
+        "end": 1759784452
+      },
+      {
+        "status": "Jail",
+        "start": 1759784452,
         "end": null
       }
     ]
@@ -7098,6 +7118,11 @@
       {
         "status": "Available",
         "start": 1759773027,
+        "end": 1759784452
+      },
+      {
+        "status": "Jail",
+        "start": 1759784452,
         "end": null
       }
     ]
@@ -9973,6 +9998,11 @@
       {
         "status": "Available",
         "start": 1759258838,
+        "end": 1759784452
+      },
+      {
+        "status": "Jail",
+        "start": 1759784452,
         "end": null
       }
     ]
@@ -11253,6 +11283,11 @@
       {
         "status": "Available",
         "start": 1759764639,
+        "end": 1759784452
+      },
+      {
+        "status": "Jail",
+        "start": 1759784452,
         "end": null
       }
     ]
@@ -11280,12 +11315,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1758574258,
-        "end": 1758586856,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1758586856,
@@ -12138,11 +12167,6 @@
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1758574258,
-        "end": 1758574873
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1758574873,
@@ -28233,7 +28257,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759783221,
-        "end": null
+        "end": 1759784452
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759784452,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33057,12 +33087,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758574258,
-        "end": 1758585048,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] Hospitalized - Revives: ALL",
         "start": 1758585048,
@@ -43753,6 +43777,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759777238,
+        "end": 1759784452,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759784452,
         "end": null,
         "travel_type": "airstrip"
       }
