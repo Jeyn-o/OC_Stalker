@@ -750,11 +750,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1758537064,
-        "end": 1758537651
-      },
-      {
         "status": "Available",
         "start": 1758537651,
         "end": 1758546644
@@ -2175,8 +2170,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759740018,
-        "end": null,
+        "end": 1759747220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1759747220,
+        "end": null
       }
     ]
   },
@@ -7765,6 +7765,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759734628,
+        "end": 1759747220,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759747220,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14093,7 +14099,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759744231,
-        "end": null
+        "end": 1759747220
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759747220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19670,12 +19682,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1758537064,
-        "end": 1758538865,
-        "travel_type": "standard"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1758538865,
         "end": 1758539456
@@ -22518,12 +22524,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1758537064,
-        "end": 1758544270,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1758544270,
@@ -28139,7 +28139,13 @@
       {
         "status": "Available",
         "start": 1759703427,
-        "end": null
+        "end": 1759747220
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759747220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29994,8 +30000,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759737023,
-        "end": null,
+        "end": 1759747220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759747220,
+        "end": null
       }
     ]
   },
@@ -41054,12 +41065,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1758537064,
-        "end": 1758549695,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758549695,
