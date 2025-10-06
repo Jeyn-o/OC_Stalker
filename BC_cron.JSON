@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1758509446,
-        "end": 1758535853
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1758535853,
         "end": 1758548451,
@@ -8328,12 +8323,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1758509446,
-        "end": 1758516650,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1758516650,
         "end": 1758523849,
@@ -9858,11 +9847,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758509446,
-        "end": 1758510648
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758510648,
         "end": 1758517854,
@@ -11113,6 +11097,11 @@
       {
         "status": "Available",
         "start": 1759715426,
+        "end": 1759719634
+      },
+      {
+        "status": "Jail",
+        "start": 1759719634,
         "end": null
       }
     ]
@@ -19601,12 +19590,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1758509446,
-        "end": 1758513668,
-        "travel_type": "standard"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1758513668,
@@ -28129,12 +28112,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758509446,
-        "end": 1758516049,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758516049,
         "end": 1758522668,
@@ -32710,11 +32687,6 @@
     "name": "Littlegman212",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758509446,
-        "end": 1758522052
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1758522052,
         "end": 1758523249
@@ -36346,11 +36318,6 @@
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1758509446,
-        "end": 1758510068
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758510068,
@@ -41027,11 +40994,6 @@
     "name": "Cerbb",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1758509446,
-        "end": 1758510068
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1758510068,
         "end": 1758522052,
@@ -43618,8 +43580,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759713019,
-        "end": null,
+        "end": 1759719634,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759719634,
+        "end": null
       }
     ]
   },
