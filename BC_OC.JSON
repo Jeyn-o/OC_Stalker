@@ -35799,7 +35799,7 @@
   "904612": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": 1759720511,
+    "ready_at": 1759875572,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -35807,6 +35807,14 @@
         "user_name": "xaqf",
         "checkpoint_pass_rate": 71,
         "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 76,
+        "position": "Techie",
         "position_number": 1,
         "item_available": true
       }
@@ -35864,6 +35872,17 @@
         "user_name": "FatFlash",
         "checkpoint_pass_rate": 81,
         "position": "Car Thief",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1759789222,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 76,
+        "position": "Techie",
         "position_number": 1,
         "item_available": true
       }
@@ -36305,5 +36324,13 @@
         "item_available": true
       }
     ]
+  },
+  "912611": {
+    "name": "Market Forces",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
   }
 }
