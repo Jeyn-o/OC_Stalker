@@ -5061,6 +5061,11 @@
       {
         "status": "Jail",
         "start": 1759693225,
+        "end": 1759714221
+      },
+      {
+        "status": "Available",
+        "start": 1759714221,
         "end": null
       }
     ]
@@ -13786,6 +13791,11 @@
       {
         "status": "Available",
         "start": 1759665629,
+        "end": 1759714221
+      },
+      {
+        "status": "Jail",
+        "start": 1759714221,
         "end": null
       }
     ]
@@ -16640,8 +16650,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759703427,
-        "end": null,
+        "end": 1759714221,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1759714221,
+        "end": null
       }
     ]
   },
@@ -23685,6 +23700,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759702241,
+        "end": 1759714221,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759714221,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -32891,11 +32912,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758504053,
-        "end": 1758504664
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1758504664,
         "end": 1758505248
@@ -34563,12 +34579,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1758504053,
-        "end": 1758510068,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1758510068,
@@ -40189,11 +40199,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1758504053,
-        "end": 1758504664
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758504664,
