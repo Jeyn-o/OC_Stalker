@@ -1581,12 +1581,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1758534648,
-        "end": 1758541853,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758541853,
         "end": 1758543045
@@ -2954,6 +2948,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759737636,
+        "end": 1759744825,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759744825,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15759,7 +15759,13 @@
       {
         "status": "Available",
         "start": 1759743029,
-        "end": null
+        "end": 1759744825
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759744825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23847,8 +23853,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759738226,
-        "end": null,
+        "end": 1759744825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759744825,
+        "end": null
       }
     ]
   },
@@ -26730,12 +26741,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758534648,
-        "end": 1758541250,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758541250,
         "end": 1758547870,
@@ -29451,7 +29456,13 @@
       {
         "status": "Available",
         "start": 1759741230,
-        "end": null
+        "end": 1759744825
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759744825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37017,7 +37028,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1759744231,
-        "end": null
+        "end": 1759744825
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1759744825,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
