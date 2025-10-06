@@ -750,11 +750,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758537651,
-        "end": 1758546644
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758546644,
         "end": 1758553277,
@@ -2176,7 +2171,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1759747220,
-        "end": null
+        "end": 1759747827
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759747827,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11205,12 +11206,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1758537651,
-        "end": 1758547248,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758547248,
@@ -21635,7 +21630,13 @@
       {
         "status": "Available",
         "start": 1759729822,
-        "end": null
+        "end": 1759747827
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759747827,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -23829,8 +23830,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1759746023,
-        "end": null,
+        "end": 1759747827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1759747827,
+        "end": null
       }
     ]
   },
@@ -24984,11 +24990,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1758537651,
-        "end": 1758541250
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1758541250,
@@ -36380,6 +36381,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759746023,
+        "end": 1759747827
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1759747827,
         "end": null
       }
     ]
