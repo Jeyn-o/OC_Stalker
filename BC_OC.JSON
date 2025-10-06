@@ -33377,9 +33377,9 @@
   },
   "888729": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1759783817,
-    "executed_at": null,
+    "executed_at": 1759783864,
     "slots": {
       "P4": {
         "user_id": 2740246,
@@ -35542,7 +35542,7 @@
   "902406": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1759871606,
+    "ready_at": 1760044406,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -35567,6 +35567,22 @@
         "checkpoint_pass_rate": 61,
         "position": "Muscle",
         "position_number": 1,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 2740246,
+        "user_name": "Bub92278",
+        "checkpoint_pass_rate": 66,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P5": {
+        "user_id": 1166445,
+        "user_name": "Top",
+        "checkpoint_pass_rate": 67,
+        "position": "Muscle",
+        "position_number": 3,
         "item_available": true
       }
     },
@@ -35602,6 +35618,28 @@
         "checkpoint_pass_rate": 61,
         "position": "Muscle",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1759784456,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2740246,
+        "user_name": "Bub92278",
+        "checkpoint_pass_rate": 66,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1759784456,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 1166445,
+        "user_name": "Top",
+        "checkpoint_pass_rate": 67,
+        "position": "Muscle",
+        "position_number": 3,
         "item_available": true
       }
     ]
@@ -35880,10 +35918,31 @@
   "906544": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1759870618,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 67,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1759784456,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 67,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "906545": {
     "name": "Break the Bank",
