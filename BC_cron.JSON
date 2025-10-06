@@ -1403,6 +1403,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759759233,
+        "end": 1759765822,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759765822,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -2954,7 +2960,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1759764639,
-        "end": null
+        "end": 1759765822
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759765822,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6002,12 +6014,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1758555652,
-        "end": 1758559855,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1758559855,
@@ -28246,12 +28252,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1758555652,
-        "end": 1758562273,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1758562273,
         "end": 1758564652
@@ -36459,8 +36459,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759758622,
-        "end": null,
+        "end": 1759765822,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759765822,
+        "end": null
       }
     ]
   },
