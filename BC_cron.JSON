@@ -5972,11 +5972,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758516049,
-        "end": 1758535853
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758535853,
         "end": 1758541250,
@@ -14786,8 +14781,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759714826,
-        "end": null,
+        "end": 1759726218,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1759726218,
+        "end": null
       }
     ]
   },
@@ -14950,11 +14950,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758516049,
-        "end": 1758516650
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1758516650,
@@ -21585,7 +21580,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759724426,
-        "end": null
+        "end": 1759726218
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759726218,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -23790,6 +23791,11 @@
       {
         "status": "Jail",
         "start": 1759725622,
+        "end": 1759726218
+      },
+      {
+        "status": "Available",
+        "start": 1759726218,
         "end": null
       }
     ]
@@ -25807,11 +25813,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758516049,
-        "end": 1758583252
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1758583252,
@@ -28163,12 +28164,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758516049,
-        "end": 1758522668,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758522668,
         "end": 1758530452
@@ -29439,6 +29434,11 @@
       {
         "status": "Available",
         "start": 1759725032,
+        "end": 1759726218
+      },
+      {
+        "status": "Jail",
+        "start": 1759726218,
         "end": null
       }
     ]
@@ -36969,7 +36969,13 @@
       {
         "status": "Available",
         "start": 1759718424,
-        "end": null
+        "end": 1759726218
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1759726218,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
