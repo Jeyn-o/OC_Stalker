@@ -657,7 +657,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759784452,
-        "end": null
+        "end": 1759794620
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759794620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3558,8 +3564,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759782629,
-        "end": null,
+        "end": 1759794620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759794620,
+        "end": null
       }
     ]
   },
@@ -4692,11 +4703,6 @@
   "2184227": {
     "name": "SassyMcSlacker",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758584448,
-        "end": 1758630660
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1758630660,
@@ -5839,8 +5845,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759785625,
-        "end": null,
+        "end": 1759794620,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1759794620,
+        "end": null
       }
     ]
   },
@@ -21747,7 +21758,13 @@
       {
         "status": "Available",
         "start": 1759791628,
-        "end": null
+        "end": 1759794620
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759794620,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -33927,8 +33944,13 @@
       {
         "status": "[China] - Going",
         "start": 1759785021,
-        "end": null,
+        "end": 1759794620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759794620,
+        "end": null
       }
     ]
   },
@@ -34158,6 +34180,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759793433,
+        "end": 1759794620
+      },
+      {
+        "status": "Available",
+        "start": 1759794620,
         "end": null
       }
     ]
@@ -36515,7 +36542,13 @@
       {
         "status": "Available",
         "start": 1759793433,
-        "end": null
+        "end": 1759794620
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759794620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
