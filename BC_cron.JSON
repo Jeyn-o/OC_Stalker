@@ -7113,7 +7113,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759801822,
-        "end": null
+        "end": 1759806037
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759806037,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -8980,6 +8986,11 @@
       {
         "status": "Available",
         "start": 1759742421,
+        "end": 1759806037
+      },
+      {
+        "status": "Jail",
+        "start": 1759806037,
         "end": null
       }
     ]
@@ -11281,8 +11292,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759804822,
-        "end": null,
+        "end": 1759806037,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759806037,
+        "end": null
       }
     ]
   },
@@ -18393,12 +18409,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758595852,
-        "end": 1758608452,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758608452,
         "end": 1758632465
@@ -19737,11 +19747,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758595852,
-        "end": 1758596468
-      },
       {
         "status": "[China] - Returning",
         "start": 1758596468,
@@ -29507,7 +29512,13 @@
       {
         "status": "Available",
         "start": 1759805430,
-        "end": null
+        "end": 1759806037
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759806037,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
