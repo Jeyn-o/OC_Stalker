@@ -5237,11 +5237,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1758647445,
-        "end": 1758649851
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1758649851,
         "end": 1758658845,
@@ -5852,7 +5847,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1759857025,
-        "end": null
+        "end": 1759857627
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1759857627,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -31970,7 +31971,13 @@
       {
         "status": "Available",
         "start": 1759853448,
-        "end": null
+        "end": 1759857627
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759857627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33973,6 +33980,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759845018,
+        "end": 1759857627,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759857627,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34241,12 +34254,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758647445,
-        "end": 1758657666,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1758657666,
@@ -34829,12 +34836,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1758647445,
-        "end": 1758652841,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1758652841,
@@ -36711,19 +36712,19 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759856431,
-        "end": null,
+        "end": 1759857627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759857627,
+        "end": null
       }
     ]
   },
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758647445,
-        "end": 1758660045
-      },
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1758660045,
@@ -40226,11 +40227,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758647445,
-        "end": 1758649251
-      },
       {
         "status": "[China] - Returning",
         "start": 1758649251,
