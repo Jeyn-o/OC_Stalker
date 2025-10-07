@@ -5836,6 +5836,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759805430,
+        "end": 1759806627
+      },
+      {
+        "status": "[United Kingdom] Hospitalized - Revives: ALL",
+        "start": 1759806627,
         "end": null
       }
     ]
@@ -10516,7 +10521,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759799424,
-        "end": null
+        "end": 1759806627
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759806627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19748,12 +19759,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1758596468,
-        "end": 1758600069,
-        "travel_type": "standard"
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758600069,
         "end": 1758604252,
@@ -21718,7 +21723,13 @@
       {
         "status": "Available",
         "start": 1759804822,
-        "end": null
+        "end": 1759806627
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759806627,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -24276,6 +24287,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1759805430,
+        "end": 1759806627
+      },
+      {
+        "status": "Available",
+        "start": 1759806627,
         "end": null
       }
     ]
@@ -32695,6 +32711,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759792220,
+        "end": 1759806627
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: ALL",
+        "start": 1759806627,
         "end": null
       }
     ]
@@ -33040,7 +33061,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1759805430,
-        "end": null
+        "end": 1759806627
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759806627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36563,6 +36590,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759805430,
+        "end": 1759806627,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759806627,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37223,11 +37256,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758596468,
-        "end": 1758606051
-      },
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1758606051,
@@ -42386,11 +42414,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758596468,
-        "end": 1758597046
-      },
       {
         "status": "[Canada] - Going",
         "start": 1758597046,
