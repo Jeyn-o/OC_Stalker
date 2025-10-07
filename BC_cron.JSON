@@ -723,11 +723,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758634261,
-        "end": 1758634846
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758634846,
         "end": 1758641463,
@@ -2907,7 +2902,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759843230,
-        "end": null
+        "end": 1759844428
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759844428,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7117,8 +7118,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759839623,
-        "end": null,
+        "end": 1759844428,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759844428,
+        "end": null
       }
     ]
   },
@@ -9034,7 +9040,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759841418,
-        "end": null
+        "end": 1759844428
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759844428,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25883,18 +25895,19 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1759843835,
-        "end": null
+        "end": 1759844428
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759844428,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758634261,
-        "end": 1758634846
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1758634846,
