@@ -2132,7 +2132,13 @@
       {
         "status": "Available",
         "start": 1759786820,
-        "end": null
+        "end": 1759825831
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759825831,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4668,8 +4674,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759814426,
-        "end": null,
+        "end": 1759825831,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1759825831,
+        "end": null
       }
     ]
   },
@@ -30112,7 +30123,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759810222,
-        "end": null
+        "end": 1759825831
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759825831,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33079,11 +33096,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758615649,
-        "end": 1758616267
-      },
       {
         "status": "[China] Hospitalized - Revives: ALL",
         "start": 1758616267,
@@ -36600,6 +36612,11 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759819223,
+        "end": 1759825831
+      },
+      {
+        "status": "[Japan] Mugged - Revives: ALL",
+        "start": 1759825831,
         "end": null
       }
     ]
