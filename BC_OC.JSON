@@ -35208,7 +35208,7 @@
         "checkpoint_pass_rate": 72,
         "position": "Robber",
         "position_number": 2,
-        "item_available": false
+        "item_available": true
       },
       "P1": {
         "user_id": 2611425,
@@ -36809,7 +36809,7 @@
   "914760": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1760032807,
+    "ready_at": 1760119207,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -36824,6 +36824,14 @@
         "user_name": "Neodork",
         "checkpoint_pass_rate": 73,
         "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
+      },
+      "P3": {
+        "user_id": 442690,
+        "user_name": "BeardedBenny",
+        "checkpoint_pass_rate": 65,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": false
       }
@@ -36847,6 +36855,17 @@
         "user_name": "Neodork",
         "checkpoint_pass_rate": 73,
         "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1759871421,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 442690,
+        "user_name": "BeardedBenny",
+        "checkpoint_pass_rate": 65,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": false
       }
@@ -36916,5 +36935,21 @@
         "item_available": true
       }
     ]
+  },
+  "915293": {
+    "name": "Honey Trap",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "915294": {
+    "name": "Guardian Ángels",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
   }
 }
