@@ -3,12 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758639670,
-        "end": 1758651645,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758651645,
         "end": 1758664246,
@@ -5015,6 +5009,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759838437,
+        "end": 1759849827,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759849827,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7142,8 +7142,13 @@
       {
         "status": "[China] - Going",
         "start": 1759845627,
-        "end": null,
+        "end": 1759849827,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759849827,
+        "end": null
       }
     ]
   },
@@ -12309,8 +12314,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1759843835,
-        "end": null,
+        "end": 1759849827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759849827,
+        "end": null
       }
     ]
   },
@@ -24016,6 +24026,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759839024,
+        "end": 1759849827,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759849827,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25925,8 +25941,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1759844428,
-        "end": null,
+        "end": 1759849827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759849827,
+        "end": null
       }
     ]
   },
@@ -26702,7 +26723,13 @@
       {
         "status": "Available",
         "start": 1759847423,
-        "end": null
+        "end": 1759849827
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759849827,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30159,12 +30186,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758639670,
-        "end": 1758649251,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1758649251,
@@ -38309,12 +38330,6 @@
     "name": "LichKean",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758639670,
-        "end": 1758646868,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758646868,
         "end": 1758983464
@@ -40632,8 +40647,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759839623,
-        "end": null,
+        "end": 1759849827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759849827,
+        "end": null
       }
     ]
   },
