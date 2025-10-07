@@ -723,12 +723,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758627652,
-        "end": 1758634261,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1758634261,
         "end": 1758634846
@@ -1539,12 +1533,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1758627652,
-        "end": 1758633046,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Idle",
         "start": 1758633046,
@@ -14120,6 +14108,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759830628,
+        "end": 1759837827,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759837827,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15092,7 +15086,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759836031,
-        "end": null
+        "end": 1759837827
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759837827,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15288,11 +15288,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758627652,
-        "end": 1758667244
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1758667244,
@@ -19844,11 +19839,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1758627652,
-        "end": 1758628248
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1758628248,
         "end": 1758632465,
@@ -24000,7 +23990,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759837227,
-        "end": null
+        "end": 1759837827
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759837827,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24334,11 +24330,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758627652,
-        "end": 1758631854
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758631854,
@@ -29575,8 +29566,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759831234,
-        "end": null,
+        "end": 1759837827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759837827,
+        "end": null
       }
     ]
   },
