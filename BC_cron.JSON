@@ -5846,6 +5846,11 @@
       {
         "status": "[United Kingdom] Hospitalized - Revives: ALL",
         "start": 1759806627,
+        "end": 1759808425
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759808425,
         "end": null
       }
     ]
@@ -9799,7 +9804,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759771821,
-        "end": null
+        "end": 1759808425
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759808425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12180,7 +12191,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759794017,
-        "end": null
+        "end": 1759808425
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759808425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14988,8 +15005,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759797629,
-        "end": null,
+        "end": 1759808425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1759808425,
+        "end": null
       }
     ]
   },
@@ -34783,12 +34805,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1758598264,
-        "end": 1758604252,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Idle",
         "start": 1758604252,
