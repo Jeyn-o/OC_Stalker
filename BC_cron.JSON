@@ -5131,11 +5131,6 @@
     "name": "Special-Needs",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: Partial",
-        "start": 1758588057,
-        "end": 1758589276
-      },
-      {
         "status": "Available",
         "start": 1758589276,
         "end": 1758665447
@@ -5265,11 +5260,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758588057,
-        "end": 1758594051
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758594051,
@@ -5851,6 +5841,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1759795233,
+        "end": 1759798225
+      },
+      {
+        "status": "Available",
+        "start": 1759798225,
         "end": null
       }
     ]
@@ -7372,11 +7367,6 @@
   "2414438": {
     "name": "Caross",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1758588057,
-        "end": 1758655872
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1758655872,
@@ -17660,11 +17650,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758588057,
-        "end": 1758589276
-      },
       {
         "status": "[Canada] - Going",
         "start": 1758589276,
@@ -29542,6 +29527,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759791027,
+        "end": 1759798225,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759798225,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -36538,6 +36529,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759797023,
+        "end": 1759798225,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759798225,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40002,6 +39999,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1759795831,
+        "end": 1759798225
+      },
+      {
+        "status": "Available",
+        "start": 1759798225,
         "end": null
       }
     ]
@@ -41236,7 +41238,13 @@
       {
         "status": "Available",
         "start": 1759764028,
-        "end": null
+        "end": 1759798225
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759798225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
