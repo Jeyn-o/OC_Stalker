@@ -646,6 +646,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759830628,
+        "end": 1759843230,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759843230,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -1533,11 +1539,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1758633046,
-        "end": 1758633651
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1758633651,
@@ -2906,8 +2907,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1759834225,
-        "end": null,
+        "end": 1759843230,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1759843230,
+        "end": null
       }
     ]
   },
@@ -12290,11 +12296,6 @@
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758633046,
-        "end": 1758633651
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758633651,
@@ -25136,11 +25137,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758633046,
-        "end": 1758673861
-      },
-      {
         "status": "[Hawaii] - Going",
         "start": 1758673861,
         "end": 1758679267,
@@ -25905,12 +25901,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1758633046,
-        "end": 1758634261,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758634261,
@@ -36602,8 +36592,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759834225,
-        "end": null,
+        "end": 1759843230,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759843230,
+        "end": null
       }
     ]
   },
@@ -38256,12 +38251,6 @@
   "3707169": {
     "name": "LichKean",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1758633046,
-        "end": 1758639670,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758639670,
@@ -40115,6 +40104,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1759836031,
+        "end": 1759843230
+      },
+      {
+        "status": "Available",
+        "start": 1759843230,
         "end": null
       }
     ]
@@ -41397,11 +41391,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758633046,
-        "end": 1758633651
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1758633651,
