@@ -35721,7 +35721,7 @@
   "904531": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1759950811,
+    "ready_at": 1760037211,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -35738,6 +35738,13 @@
         "checkpoint_pass_rate": 80,
         "position": "Looter",
         "position_number": 1
+      },
+      "P4": {
+        "user_id": 3589360,
+        "user_name": "PyroSpunk",
+        "checkpoint_pass_rate": 85,
+        "position": "Looter",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -35865,6 +35872,16 @@
         "checkpoint_pass_rate": 80,
         "position": "Looter",
         "position_number": 1
+      },
+      {
+        "timestamp": 1759868425,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3589360,
+        "user_name": "PyroSpunk",
+        "checkpoint_pass_rate": 85,
+        "position": "Looter",
+        "position_number": 2
       }
     ]
   },
@@ -36837,8 +36854,8 @@
   },
   "914761": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1760035429,
+    "status": "Planning",
+    "ready_at": 1760121829,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -36854,6 +36871,14 @@
         "checkpoint_pass_rate": 72,
         "position": "Enforcer",
         "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 3116621,
+        "user_name": "BBCliff",
+        "checkpoint_pass_rate": 66,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -36877,6 +36902,17 @@
         "checkpoint_pass_rate": 72,
         "position": "Enforcer",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1759868425,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3116621,
+        "user_name": "BBCliff",
+        "checkpoint_pass_rate": 66,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     ]
