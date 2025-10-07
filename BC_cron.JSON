@@ -4993,7 +4993,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759871419,
-        "end": null
+        "end": 1759872027
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759872027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7179,8 +7185,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759867236,
-        "end": null,
+        "end": 1759872027,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759872027,
+        "end": null
       }
     ]
   },
@@ -16097,6 +16108,11 @@
       {
         "status": "Available",
         "start": 1759829430,
+        "end": 1759872027
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1759872027,
         "end": null
       }
     ]
@@ -19848,12 +19864,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1758661850,
-        "end": 1758665447,
-        "travel_type": "standard"
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1758665447,
         "end": 1758685850
@@ -21854,7 +21864,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759870228,
-        "end": null
+        "end": 1759872027
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759872027,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -28312,8 +28328,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759870228,
-        "end": null,
+        "end": 1759872027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759872027,
+        "end": null
       }
     ]
   },
@@ -36731,8 +36752,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759870829,
-        "end": null,
+        "end": 1759872027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759872027,
+        "end": null
       }
     ]
   },
