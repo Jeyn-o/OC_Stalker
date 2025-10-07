@@ -34870,9 +34870,9 @@
   },
   "898301": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1759805771,
-    "executed_at": null,
+    "executed_at": 1759805824,
     "slots": {
       "P3": {
         "user_id": 2427687,
@@ -35994,7 +35994,7 @@
   "906544": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1759957018,
+    "ready_at": 1760043418,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -36010,6 +36010,14 @@
         "user_name": "GOTOYOURHOME",
         "checkpoint_pass_rate": 71,
         "position": "Assassin",
+        "position_number": 1,
+        "item_available": false
+      },
+      "P4": {
+        "user_id": 2621654,
+        "user_name": "Hstains",
+        "checkpoint_pass_rate": 73,
+        "position": "Cleaner",
         "position_number": 1,
         "item_available": false
       }
@@ -36034,6 +36042,17 @@
         "user_name": "GOTOYOURHOME",
         "checkpoint_pass_rate": 71,
         "position": "Assassin",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1759806039,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2621654,
+        "user_name": "Hstains",
+        "checkpoint_pass_rate": 73,
+        "position": "Cleaner",
         "position_number": 1,
         "item_available": false
       }
