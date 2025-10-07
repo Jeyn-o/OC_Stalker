@@ -5859,8 +5859,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1759865431,
-        "end": null,
+        "end": 1759866628,
         "travel_type": "private"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1759866628,
+        "end": null
       }
     ]
   },
@@ -10679,11 +10684,6 @@
   "2730718": {
     "name": "Haungpeary",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758656449,
-        "end": 1758658845
-      },
       {
         "status": "[China] - Returning",
         "start": 1758658845,
@@ -17098,6 +17098,11 @@
       {
         "status": "Available",
         "start": 1759848631,
+        "end": 1759866628
+      },
+      {
+        "status": "[Hospital] Event - Revives: Partial",
+        "start": 1759866628,
         "end": null
       }
     ]
@@ -17781,12 +17786,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758656449,
-        "end": 1758663062,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758663062,
@@ -36711,8 +36710,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759865431,
-        "end": null,
+        "end": 1759866628,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759866628,
+        "end": null
       }
     ]
   },
