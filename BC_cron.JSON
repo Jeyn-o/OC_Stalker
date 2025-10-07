@@ -10780,7 +10780,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1759803030,
-        "end": null
+        "end": 1759811433
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759811433,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21954,12 +21960,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1758601254,
-        "end": 1758606654,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1758606654,
         "end": 1758607271
@@ -23951,8 +23951,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759800019,
-        "end": null,
+        "end": 1759811433,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759811433,
+        "end": null
       }
     ]
   },
@@ -28277,11 +28282,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758601254,
-        "end": 1758610863
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1758610863,
         "end": 1758617450,
@@ -29563,7 +29563,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1759807836,
-        "end": null
+        "end": 1759811433
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759811433,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41310,8 +41316,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759804822,
-        "end": null,
+        "end": 1759811433,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759811433,
+        "end": null
       }
     ]
   },
@@ -42448,12 +42459,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1758601254,
-        "end": 1758603043,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1758603043,
@@ -43881,6 +43886,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1759809640,
+        "end": 1759811433,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759811433,
         "end": null,
         "travel_type": "airstrip"
       }
