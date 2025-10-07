@@ -2101,8 +2101,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759848030,
-        "end": null,
+        "end": 1759854629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759854629,
+        "end": null
       }
     ]
   },
@@ -2881,8 +2886,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759844428,
-        "end": null,
+        "end": 1759854629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759854629,
+        "end": null
       }
     ]
   },
@@ -11335,7 +11345,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759854019,
-        "end": null
+        "end": 1759854629
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759854629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12852,8 +12868,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1759845018,
-        "end": null,
+        "end": 1759854629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1759854629,
+        "end": null
       }
     ]
   },
@@ -17050,11 +17071,6 @@
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758644436,
-        "end": 1758645065
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758645065,
