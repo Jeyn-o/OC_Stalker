@@ -10781,8 +10781,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759795831,
-        "end": null,
+        "end": 1759803030,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1759803030,
+        "end": null
       }
     ]
   },
@@ -11295,7 +11300,13 @@
       {
         "status": "Available",
         "start": 1759802432,
-        "end": null
+        "end": 1759803030
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759803030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17647,11 +17658,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758592865,
-        "end": 1758631257
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758631257,
         "end": 1758637865,
@@ -19744,12 +19750,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758592865,
-        "end": 1758595852,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Idle",
         "start": 1758595852,
@@ -34754,12 +34754,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1758592865,
-        "end": 1758598264,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Going",
         "start": 1758598264,
         "end": 1758604252,
@@ -36555,6 +36549,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759801822,
+        "end": 1759803030,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759803030,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40523,12 +40523,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1758592865,
-        "end": 1758594051,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1758594051,
