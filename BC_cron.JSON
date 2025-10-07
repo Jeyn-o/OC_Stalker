@@ -3558,11 +3558,6 @@
     "name": "firefly50",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758650468,
-        "end": 1759196428
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1759196428,
         "end": 1759201822,
@@ -5841,8 +5836,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1759860035,
-        "end": null,
+        "end": 1759860628,
         "travel_type": "private"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1759860628,
+        "end": null
       }
     ]
   },
@@ -17078,11 +17078,6 @@
     "name": "JuanPaulo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758650468,
-        "end": 1758666050
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758666050,
         "end": 1758671450,
@@ -21814,7 +21809,13 @@
       {
         "status": "Available",
         "start": 1759859426,
-        "end": null
+        "end": 1759860628
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759860628,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -28275,11 +28276,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1758650468,
-        "end": 1758659449
-      },
-      {
         "status": "[Japan] Mugged - Revives: ALL",
         "start": 1758659449,
         "end": 1758661269
@@ -31980,11 +31976,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758650468,
-        "end": 1758685850
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1758685850,
@@ -40168,6 +40159,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1759854019,
+        "end": 1759860628
+      },
+      {
+        "status": "Available",
+        "start": 1759860628,
         "end": null
       }
     ]
