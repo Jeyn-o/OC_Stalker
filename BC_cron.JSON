@@ -5846,7 +5846,13 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1759798836,
-        "end": null
+        "end": 1759801223
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759801223,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -11283,6 +11289,11 @@
       {
         "status": "Available",
         "start": 1759789827,
+        "end": 1759801223
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1759801223,
         "end": null
       }
     ]
@@ -16917,7 +16928,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759795233,
-        "end": null
+        "end": 1759801223
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759801223,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17628,12 +17645,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1758591061,
-        "end": 1758592865,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758592865,
@@ -19733,11 +19744,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1758591061,
-        "end": 1758591644
-      },
-      {
         "status": "Available",
         "start": 1758591644,
         "end": 1758592865
@@ -21713,7 +21719,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759797629,
-        "end": null
+        "end": 1759801223
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759801223,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -33048,11 +33060,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1758591061,
-        "end": 1758601860
-      },
-      {
         "status": "[China] Hospitalized - Revives: ALL",
         "start": 1758601860,
         "end": 1758610863
@@ -34151,6 +34158,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759800019,
+        "end": 1759801223
+      },
+      {
+        "status": "Available",
+        "start": 1759801223,
         "end": null
       }
     ]
@@ -36535,8 +36547,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759800019,
-        "end": null,
+        "end": 1759801223,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759801223,
+        "end": null
       }
     ]
   },
