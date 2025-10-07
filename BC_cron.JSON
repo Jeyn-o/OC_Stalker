@@ -11271,7 +11271,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759804227,
-        "end": null
+        "end": 1759804822
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759804822,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19713,8 +19719,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759793433,
-        "end": null,
+        "end": 1759804822,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759804822,
+        "end": null
       }
     ]
   },
@@ -21691,8 +21702,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759801223,
-        "end": null,
+        "end": 1759804822,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759804822,
+        "end": null
       }
     ]
   },
@@ -30496,11 +30512,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1758594669,
-        "end": 1758597662
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1758597662,
         "end": 1758599444,
@@ -34127,12 +34138,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758594669,
-        "end": 1758604855,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1758604855,
@@ -40490,11 +40495,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758594669,
-        "end": 1758676841
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1758676841,
         "end": 1758678049,
@@ -41200,6 +41200,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759798225,
+        "end": 1759804822,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759804822,
         "end": null,
         "travel_type": "airstrip"
       }
