@@ -5091,11 +5091,6 @@
     "name": "Special-Needs",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758666667,
-        "end": 1758814270
-      },
-      {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1758814270,
         "end": 1758814856
@@ -7181,8 +7176,13 @@
       {
         "status": "[China] - Going",
         "start": 1759872633,
-        "end": null,
+        "end": 1759876823,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759876823,
+        "end": null
       }
     ]
   },
@@ -10775,7 +10775,13 @@
       {
         "status": "Available",
         "start": 1759438214,
-        "end": null
+        "end": 1759876823
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759876823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -42581,11 +42587,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758666667,
-        "end": 1758670847
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1758670847,
