@@ -5871,8 +5871,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759876233,
-        "end": null,
+        "end": 1759877419,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1759877419,
+        "end": null
       }
     ]
   },
@@ -7182,7 +7187,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759876823,
-        "end": null
+        "end": 1759877419
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759877419,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -15376,12 +15387,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1758667244,
-        "end": 1758679844,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1758679844,
@@ -34829,11 +34834,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Hawaii] - Idle",
-        "start": 1758667244,
-        "end": 1758668461
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1758668461,
         "end": 1758674451,
@@ -36783,7 +36783,13 @@
       {
         "status": "Available",
         "start": 1759876233,
-        "end": null
+        "end": 1759877419
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759877419,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41548,11 +41554,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: Partial",
-        "start": 1758667244,
-        "end": 1758700867
-      },
       {
         "status": "Available",
         "start": 1758700867,
