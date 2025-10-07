@@ -5091,11 +5091,6 @@
     "name": "Special-Needs",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: Partial",
-        "start": 1758665447,
-        "end": 1758666667
-      },
-      {
         "status": "Available",
         "start": 1758666667,
         "end": 1758814270
@@ -6039,11 +6034,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758665447,
-        "end": 1758684042
-      },
       {
         "status": "[China] - Returning",
         "start": 1758684042,
@@ -9916,7 +9906,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759861226,
-        "end": null
+        "end": 1759875627
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759875627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19869,11 +19865,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1758665447,
-        "end": 1758685850
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1758685850,
@@ -36780,7 +36771,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759872027,
-        "end": null
+        "end": 1759875627
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759875627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40699,8 +40696,13 @@
       {
         "status": "[China] - Going",
         "start": 1759865431,
-        "end": null,
+        "end": 1759875627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759875627,
+        "end": null
       }
     ]
   },
