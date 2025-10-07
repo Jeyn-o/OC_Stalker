@@ -1538,12 +1538,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758613862,
-        "end": 1758620444,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758620444,
         "end": 1758627062,
@@ -8261,11 +8255,6 @@
     "name": "NeshoNeko",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758613862,
-        "end": 1758619256
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758619256,
         "end": 1758625847,
@@ -8445,7 +8434,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759822232,
-        "end": null
+        "end": 1759824034
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759824034,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15021,8 +15016,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759812625,
-        "end": null,
+        "end": 1759824034,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759824034,
+        "end": null
       }
     ]
   },
@@ -16188,11 +16188,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758613862,
-        "end": 1758624644
-      },
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1758624644,
@@ -23946,19 +23941,19 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759823429,
-        "end": null
+        "end": 1759824034
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759824034,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3331202": {
     "name": "Imtheman357",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1758613862,
-        "end": 1758616267,
-        "travel_type": "standard"
-      },
       {
         "status": "[Canada] Lost - Revives: Partial",
         "start": 1758616267,
@@ -26671,6 +26666,12 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1759822820,
+        "end": 1759824034,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1759824034,
         "end": null,
         "travel_type": "airstrip"
       }
