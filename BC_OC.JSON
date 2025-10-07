@@ -33228,9 +33228,9 @@
   },
   "886608": {
     "name": "Pet Project",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1759861744,
-    "executed_at": null,
+    "executed_at": 1759861805,
     "slots": {
       "P2": {
         "user_id": 3945856,
@@ -33787,9 +33787,9 @@
   },
   "892670": {
     "name": "Smoke and Wing Mirrors",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1759861704,
-    "executed_at": null,
+    "executed_at": 1759861744,
     "slots": {
       "P3": {
         "user_id": 3589360,
@@ -36724,7 +36724,7 @@
   "914760": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1759946407,
+    "ready_at": 1760032807,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -36733,6 +36733,14 @@
         "checkpoint_pass_rate": 70,
         "position": "Picklock",
         "position_number": 1
+      },
+      "P2": {
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 73,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -36745,6 +36753,17 @@
         "checkpoint_pass_rate": 70,
         "position": "Picklock",
         "position_number": 1
+      },
+      {
+        "timestamp": 1759861843,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 73,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
