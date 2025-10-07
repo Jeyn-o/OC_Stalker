@@ -1565,11 +1565,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1758587472,
-        "end": 1758594051
-      },
-      {
         "status": "Available",
         "start": 1758594051,
         "end": 1758613862
@@ -7127,7 +7122,13 @@
       {
         "status": "Available",
         "start": 1759796424,
-        "end": null
+        "end": 1759797629
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759797629,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -14978,7 +14979,13 @@
       {
         "status": "Available",
         "start": 1759769425,
-        "end": null
+        "end": 1759797629
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1759797629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21748,8 +21755,13 @@
       {
         "status": "[China] - Going",
         "start": 1759794620,
-        "end": null,
+        "end": 1759797629,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759797629,
+        "end": null
       }
     ]
   },
@@ -34154,6 +34166,11 @@
       {
         "status": "Available",
         "start": 1759794620,
+        "end": 1759797629
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1759797629,
         "end": null
       }
     ]
