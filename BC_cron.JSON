@@ -1387,6 +1387,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759814426,
+        "end": 1759821029,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759821029,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -2185,11 +2191,6 @@
   "1766417": {
     "name": "gajeela09",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758610863,
-        "end": 1758612670
-      },
       {
         "status": "[China] - Going",
         "start": 1758612670,
@@ -3543,6 +3544,11 @@
       {
         "status": "[Japan] Lost - Revives: OFF",
         "start": 1759819822,
+        "end": 1759821029
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1759821029,
         "end": null
       }
     ]
@@ -9813,8 +9819,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759808425,
-        "end": null,
+        "end": 1759821029,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759821029,
+        "end": null
       }
     ]
   },
@@ -16182,11 +16193,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: Partial",
-        "start": 1758610863,
-        "end": 1758613862
-      },
       {
         "status": "Available",
         "start": 1758613862,
@@ -25106,12 +25112,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1758610863,
-        "end": 1758618648,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758618648,
         "end": 1758619862
@@ -26659,7 +26659,13 @@
       {
         "status": "Available",
         "start": 1759815030,
-        "end": null
+        "end": 1759821029
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1759821029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28242,12 +28248,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1758610863,
-        "end": 1758617450,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1758617450,
@@ -33049,11 +33049,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758610863,
-        "end": 1758615059
-      },
       {
         "status": "[China] Hospitalized - Revives: ALL",
         "start": 1758615059,
