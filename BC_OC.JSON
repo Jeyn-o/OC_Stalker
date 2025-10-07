@@ -36449,9 +36449,18 @@
   "909266": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": 1759848566,
+    "ready_at": 1759929663,
     "executed_at": null,
-    "slots": {},
+    "slots": {
+      "P2": {
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 82,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
     "action_log": [
       {
         "timestamp": 1759762223,
@@ -36474,6 +36483,17 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1759843839,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 82,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
