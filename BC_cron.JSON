@@ -5870,6 +5870,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1759875028,
+        "end": 1759876233,
+        "travel_type": "private"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759876233,
         "end": null,
         "travel_type": "private"
       }
@@ -17112,12 +17118,6 @@
     "name": "JuanPaulo",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758666050,
-        "end": 1758671450,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1758671450,
         "end": 1758674451
@@ -21872,7 +21872,13 @@
       {
         "status": "Available",
         "start": 1759874431,
-        "end": null
+        "end": 1759876233
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759876233,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -22706,11 +22712,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758666050,
-        "end": 1758672072
-      },
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1758672072,
@@ -31640,12 +31641,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758666050,
-        "end": 1758678641,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758678641,
         "end": 1758731462
@@ -36776,8 +36771,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759875627,
-        "end": null,
+        "end": 1759876233,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759876233,
+        "end": null
       }
     ]
   },
@@ -40702,7 +40702,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759875627,
-        "end": null
+        "end": 1759876233
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759876233,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
