@@ -22659,12 +22659,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758642050,
-        "end": 1758648662,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758648662,
         "end": 1758655872,
@@ -28288,7 +28282,13 @@
       {
         "status": "Available",
         "start": 1759851030,
-        "end": null
+        "end": 1759852222
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759852222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29606,11 +29606,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758642050,
-        "end": 1758643274
-      },
       {
         "status": "[China] - Returning",
         "start": 1758643274,
@@ -33100,6 +33095,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1759843835,
+        "end": 1759852222
+      },
+      {
+        "status": "Available",
+        "start": 1759852222,
         "end": null
       }
     ]
@@ -34780,8 +34780,13 @@
       {
         "status": "[China] - Going",
         "start": 1759842030,
-        "end": null,
+        "end": 1759852222,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759852222,
+        "end": null
       }
     ]
   },
@@ -36652,6 +36657,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759851030,
+        "end": 1759852222,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759852222,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40167,6 +40178,11 @@
       {
         "status": "Available",
         "start": 1759851030,
+        "end": 1759852222
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1759852222,
         "end": null
       }
     ]
@@ -40614,7 +40630,13 @@
       {
         "status": "Available",
         "start": 1759849827,
-        "end": null
+        "end": 1759852222
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759852222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
