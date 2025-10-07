@@ -1379,7 +1379,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759847423,
-        "end": null
+        "end": 1759848030
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759848030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2122,7 +2128,13 @@
       {
         "status": "Available",
         "start": 1759839623,
-        "end": null
+        "end": 1759848030
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759848030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7435,11 +7447,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1758637865,
-        "end": 1758639051
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1758639051,
@@ -17767,11 +17774,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758637865,
-        "end": 1758638440
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758638440,
         "end": 1758645065,
@@ -21824,8 +21826,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759845627,
-        "end": null,
+        "end": 1759848030,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1759848030,
+        "end": null
       }
     ]
   },
@@ -32019,11 +32026,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1758637865,
-        "end": 1758643850
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1758643850,
         "end": 1758650468,
@@ -36653,7 +36655,13 @@
       {
         "status": "Available",
         "start": 1759847423,
-        "end": null
+        "end": 1759848030
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759848030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
