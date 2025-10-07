@@ -35721,7 +35721,7 @@
   "904531": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1759847884,
+    "ready_at": 1759950811,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -35731,6 +35731,13 @@
         "position": "Imitator",
         "position_number": 3,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3760809,
+        "user_name": "RandomName1",
+        "checkpoint_pass_rate": 80,
+        "position": "Looter",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -35848,6 +35855,16 @@
         "position": "Imitator",
         "position_number": 2,
         "item_available": true
+      },
+      {
+        "timestamp": 1759864830,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3760809,
+        "user_name": "RandomName1",
+        "checkpoint_pass_rate": 80,
+        "position": "Looter",
+        "position_number": 1
       }
     ]
   },
