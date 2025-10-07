@@ -15207,7 +15207,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759861839,
-        "end": null
+        "end": 1759879229
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759879229,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21888,8 +21894,13 @@
       {
         "status": "[China] - Going",
         "start": 1759876233,
-        "end": null,
+        "end": 1759879229,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759879229,
+        "end": null
       }
     ]
   },
@@ -30656,6 +30667,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1759878034,
+        "end": 1759879229,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1759879229,
         "end": null,
         "travel_type": "airstrip"
       }
