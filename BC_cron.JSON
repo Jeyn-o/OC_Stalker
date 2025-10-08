@@ -646,8 +646,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759882828,
-        "end": null,
+        "end": 1759895429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759895429,
+        "end": null
       }
     ]
   },
@@ -3498,7 +3503,13 @@
       {
         "status": "Available",
         "start": 1759859426,
-        "end": null
+        "end": 1759895429
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759895429,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10922,11 +10933,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1758685249,
-        "end": 1758686464
-      },
       {
         "status": "Available",
         "start": 1758686464,
@@ -22830,7 +22836,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1759894818,
-        "end": null
+        "end": 1759895429
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759895429,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25321,11 +25333,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758685249,
-        "end": 1758693665
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1758693665,
@@ -28499,12 +28506,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1758685249,
-        "end": 1758692448,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758692448,
@@ -38694,11 +38695,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: OFF",
-        "start": 1758685249,
-        "end": 1758694860
-      },
-      {
         "status": "Available",
         "start": 1758694860,
         "end": 1758695467
@@ -44252,6 +44248,11 @@
       {
         "status": "Available",
         "start": 1759891223,
+        "end": 1759895429
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1759895429,
         "end": null
       }
     ]
