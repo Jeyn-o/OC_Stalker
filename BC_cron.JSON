@@ -2114,6 +2114,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1759962627,
+        "end": 1759963821
+      },
+      {
+        "status": "Available",
+        "start": 1759963821,
         "end": null
       }
     ]
@@ -9295,11 +9300,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758753653,
-        "end": 1758784251
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1758784251,
         "end": 1758791455,
@@ -13339,7 +13339,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759962031,
-        "end": null
+        "end": 1759963821
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759963821,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18029,11 +18035,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1758753653,
-        "end": 1758754257
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1758754257,
@@ -26209,11 +26210,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758753653,
-        "end": 1758754257
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1758754257,
         "end": 1758765051,
@@ -29883,7 +29879,13 @@
       {
         "status": "Available",
         "start": 1759956028,
-        "end": null
+        "end": 1759963821
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1759963821,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33329,6 +33331,11 @@
       {
         "status": "Available",
         "start": 1759957234,
+        "end": 1759963821
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1759963821,
         "end": null
       }
     ]
@@ -41227,12 +41234,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1758753653,
-        "end": 1758761008,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1758761008,
         "end": 1758768048,
@@ -41922,6 +41923,11 @@
       {
         "status": "Available",
         "start": 1759892429,
+        "end": 1759963821
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1759963821,
         "end": null
       }
     ]
@@ -44496,7 +44502,13 @@
       {
         "status": "Available",
         "start": 1759961424,
-        "end": null
+        "end": 1759963821
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759963821,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   }
