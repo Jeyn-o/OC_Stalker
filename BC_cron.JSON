@@ -655,11 +655,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758678049,
-        "end": 1758723067
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1758723067,
         "end": 1758727252
@@ -5899,7 +5894,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759887033,
-        "end": null
+        "end": 1759888226
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759888226,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -17155,7 +17156,13 @@
       {
         "status": "Available",
         "start": 1759869624,
-        "end": null
+        "end": 1759888226
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1759888226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28445,12 +28452,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1758678049,
-        "end": 1758685249,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1758685249,
         "end": 1758692448,
@@ -30281,12 +30282,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758678049,
-        "end": 1758687651,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1758687651,
@@ -34090,6 +34085,11 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1759886425,
+        "end": 1759888226
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759888226,
         "end": null
       }
     ]
@@ -36888,6 +36888,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759887033,
+        "end": 1759888226,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759888226,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40876,12 +40882,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1758678049,
-        "end": 1758679844,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1758679844,
         "end": 1758681065,
@@ -44081,8 +44081,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759878034,
-        "end": null,
+        "end": 1759888226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759888226,
+        "end": null
       }
     ]
   },
@@ -44169,8 +44174,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1759886425,
-        "end": null,
+        "end": 1759888226,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1759888226,
+        "end": null
       }
     ]
   }
