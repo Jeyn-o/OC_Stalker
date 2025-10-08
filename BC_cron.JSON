@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] Mugged - Revives: ALL",
-        "start": 1758705045,
-        "end": 1758706845
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1758706845,
         "end": 1758712248
@@ -7554,12 +7549,6 @@
     "name": "Jeyno",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1758705045,
-        "end": 1758717667,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1758717667,
         "end": 1758730255,
@@ -8186,6 +8175,11 @@
       {
         "status": "Available",
         "start": 1759603821,
+        "end": 1759915222
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1759915222,
         "end": null
       }
     ]
@@ -9148,6 +9142,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1759905623,
+        "end": 1759915222,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759915222,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15533,11 +15533,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1758705045,
-        "end": 1758706272
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1758706272,
@@ -25235,8 +25230,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759908632,
-        "end": null,
+        "end": 1759915222,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759915222,
+        "end": null
       }
     ]
   },
