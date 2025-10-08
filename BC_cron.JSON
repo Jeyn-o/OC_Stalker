@@ -7644,12 +7644,6 @@
     "name": "Caross",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1758753070,
-        "end": 1758760263,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758760263,
         "end": 1759749624
@@ -9300,11 +9294,6 @@
   "2647214": {
     "name": "Balgor",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1758753070,
-        "end": 1758753653
-      },
       {
         "status": "Available",
         "start": 1758753653,
@@ -16485,11 +16474,6 @@
   "3114278": {
     "name": "Tooger_",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758753070,
-        "end": 1758757851
-      },
       {
         "status": "Jail",
         "start": 1758757851,
@@ -24264,8 +24248,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759962031,
-        "end": null,
+        "end": 1759963224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759963224,
+        "end": null
       }
     ]
   },
@@ -37264,7 +37253,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759962627,
-        "end": null
+        "end": 1759963224
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759963224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -44371,8 +44366,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759956028,
-        "end": null,
+        "end": 1759963224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759963224,
+        "end": null
       }
     ]
   },
