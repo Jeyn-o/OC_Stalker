@@ -6038,8 +6038,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759959029,
-        "end": null,
+        "end": 1759959628,
         "travel_type": "private"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759959628,
+        "end": null
       }
     ]
   },
@@ -17329,7 +17334,13 @@
       {
         "status": "Available",
         "start": 1759955425,
-        "end": null
+        "end": 1759959628
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759959628,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24198,6 +24209,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759958429,
+        "end": 1759959628,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759959628,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -42899,11 +42916,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758749470,
-        "end": 1758751270
-      },
       {
         "status": "[Canada] - Going",
         "start": 1758751270,
