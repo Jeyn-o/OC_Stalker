@@ -1503,12 +1503,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1758722467,
-        "end": 1758729675,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758729675,
         "end": 1758736254,
@@ -2113,7 +2107,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759932037,
-        "end": null
+        "end": 1759932626
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759932626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17260,7 +17260,13 @@
       {
         "status": "Available",
         "start": 1759929628,
-        "end": null
+        "end": 1759932626
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759932626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17899,7 +17905,13 @@
       {
         "status": "Available",
         "start": 1759891831,
-        "end": null
+        "end": 1759932626
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1759932626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22814,12 +22826,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1758722467,
-        "end": 1758729053,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758729053,
@@ -34109,6 +34115,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759925423,
+        "end": 1759932626,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759932626,
         "end": null,
         "travel_type": "airstrip"
       }
