@@ -692,12 +692,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758714051,
-        "end": 1758720663,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758720663,
         "end": 1758721858
@@ -1342,7 +1336,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759922421,
-        "end": null
+        "end": 1759924221
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759924221,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8595,12 +8595,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1758714051,
-        "end": 1758723067,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1758723067,
         "end": 1758723648
@@ -14620,11 +14614,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758714051,
-        "end": 1758715273
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1758715273,
@@ -26881,7 +26870,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1759921824,
-        "end": null
+        "end": 1759924221
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759924221,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32025,8 +32020,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759912234,
-        "end": null,
+        "end": 1759924221,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759924221,
+        "end": null
       }
     ]
   },
