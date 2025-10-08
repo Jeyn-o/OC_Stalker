@@ -2092,7 +2092,13 @@
       {
         "status": "Available",
         "start": 1759939234,
-        "end": null
+        "end": 1759943426
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759943426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8595,11 +8601,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758733279,
-        "end": 1758783055
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1758783055,
@@ -24109,6 +24110,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759932037,
+        "end": 1759943426,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759943426,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -24454,11 +24461,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758733279,
-        "end": 1758772872
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758772872,
@@ -37027,8 +37029,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759942226,
-        "end": null,
+        "end": 1759943426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759943426,
+        "end": null
       }
     ]
   },
@@ -40495,6 +40502,11 @@
       {
         "status": "Available",
         "start": 1759933836,
+        "end": 1759943426
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1759943426,
         "end": null
       }
     ]
@@ -40502,12 +40514,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1758733279,
-        "end": 1758742847,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758742847,
@@ -40932,8 +40938,13 @@
       {
         "status": "[China] - Going",
         "start": 1759933232,
-        "end": null,
+        "end": 1759943426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759943426,
+        "end": null
       }
     ]
   },
