@@ -702,12 +702,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758691866,
-        "end": 1758698448,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758698448,
         "end": 1758705646,
@@ -17225,11 +17219,6 @@
     "name": "JuanPaulo",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: Partial",
-        "start": 1758691866,
-        "end": 1758693046
-      },
-      {
         "status": "Available",
         "start": 1758693046,
         "end": 1758694248
@@ -18582,11 +18571,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1758691866,
-        "end": 1758712248
-      },
       {
         "status": "Available",
         "start": 1758712248,
@@ -26088,8 +26072,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1759896630,
-        "end": null,
+        "end": 1759902022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1759902022,
+        "end": null
       }
     ]
   },
@@ -30327,8 +30316,13 @@
       {
         "status": "[China] - Going",
         "start": 1759891223,
-        "end": null,
+        "end": 1759902022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759902022,
+        "end": null
       }
     ]
   },
@@ -37572,11 +37566,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758691866,
-        "end": 1758720663
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1758720663,
         "end": 1758732046,
@@ -40443,6 +40432,11 @@
       {
         "status": "Available",
         "start": 1759899630,
+        "end": 1759902022
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1759902022,
         "end": null
       }
     ]
