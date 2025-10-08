@@ -6059,8 +6059,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1759965619,
-        "end": null,
+        "end": 1759966828,
         "travel_type": "private"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1759966828,
+        "end": null
       }
     ]
   },
@@ -7387,8 +7392,13 @@
       {
         "status": "[China] - Going",
         "start": 1759962031,
-        "end": null,
+        "end": 1759966828,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759966828,
+        "end": null
       }
     ]
   },
@@ -17350,7 +17360,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1759961424,
-        "end": null
+        "end": 1759966828
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759966828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18654,11 +18670,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1758756671,
-        "end": 1758757851
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1758757851,
@@ -32068,8 +32079,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759960227,
-        "end": null,
+        "end": 1759966828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759966828,
+        "end": null
       }
     ]
   },
@@ -42974,12 +42990,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1758756671,
-        "end": 1758758505,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758758505,
