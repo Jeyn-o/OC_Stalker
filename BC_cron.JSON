@@ -4619,7 +4619,13 @@
       {
         "status": "Available",
         "start": 1759862421,
-        "end": null
+        "end": 1759906222
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759906222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12491,8 +12497,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759893628,
-        "end": null,
+        "end": 1759906222,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759906222,
+        "end": null
       }
     ]
   },
@@ -15318,7 +15329,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759904419,
-        "end": null
+        "end": 1759906222
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1759906222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15508,7 +15525,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1759886425,
-        "end": null
+        "end": 1759906222
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759906222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -42663,12 +42686,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1758696050,
-        "end": 1758697853,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758697853,
         "end": 1758718865
@@ -44067,6 +44084,11 @@
       {
         "status": "Available",
         "start": 1759905024,
+        "end": 1759906222
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1759906222,
         "end": null
       }
     ]
