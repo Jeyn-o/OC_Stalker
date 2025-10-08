@@ -6136,12 +6136,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1758726065,
-        "end": 1758730853,
-        "travel_type": "standard"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1758730853,
         "end": 1758732046
@@ -7282,8 +7276,13 @@
       {
         "status": "[China] - Going",
         "start": 1759932037,
-        "end": null,
+        "end": 1759936225,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759936225,
+        "end": null
       }
     ]
   },
@@ -7970,7 +7969,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759935024,
-        "end": null
+        "end": 1759936225
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759936225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11599,8 +11604,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759929628,
-        "end": null,
+        "end": 1759936225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759936225,
+        "end": null
       }
     ]
   },
@@ -19919,6 +19929,11 @@
       {
         "status": "[Switzerland] Mugged - Revives: ALL",
         "start": 1759933836,
+        "end": 1759936225
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1759936225,
         "end": null
       }
     ]
@@ -19926,12 +19941,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1758726065,
-        "end": 1758728452,
-        "travel_type": "standard"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1758728452,
@@ -25267,7 +25276,13 @@
       {
         "status": "Available",
         "start": 1759935635,
-        "end": null
+        "end": 1759936225
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759936225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36972,6 +36987,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759935635,
+        "end": 1759936225,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759936225,
         "end": null,
         "travel_type": "airstrip"
       }
