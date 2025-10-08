@@ -6006,7 +6006,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759954829,
-        "end": null
+        "end": 1759956028
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759956028,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -16513,11 +16519,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758745865,
-        "end": 1758766248
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758766248,
@@ -29787,8 +29788,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759946431,
-        "end": null,
+        "end": 1759956028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759956028,
+        "end": null
       }
     ]
   },
@@ -30793,12 +30799,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1758745865,
-        "end": 1758747044,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Idle",
         "start": 1758747044,
         "end": 1758748856
@@ -31704,11 +31704,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "[South Africa] Mugged - Revives: ALL",
-        "start": 1758745865,
-        "end": 1758748246
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1758748246,
@@ -34141,7 +34136,13 @@
       {
         "status": "Available",
         "start": 1759954829,
-        "end": null
+        "end": 1759956028
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759956028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -44251,6 +44252,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759948829,
+        "end": 1759956028,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759956028,
         "end": null,
         "travel_type": "airstrip"
       }
