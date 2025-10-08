@@ -1507,12 +1507,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758701444,
-        "end": 1758708643,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758708643,
         "end": 1758714650
@@ -2111,8 +2105,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759905623,
-        "end": null,
+        "end": 1759911629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759911629,
+        "end": null
       }
     ]
   },
@@ -3586,11 +3585,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758701444,
-        "end": 1758762675
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758762675,
         "end": 1758775252,
@@ -4096,12 +4090,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1758701444,
-        "end": 1758711661,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758711661,
@@ -15537,8 +15525,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1759906222,
-        "end": null,
+        "end": 1759911629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759911629,
+        "end": null
       }
     ]
   },
@@ -28455,18 +28448,19 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759909827,
-        "end": null
+        "end": 1759911629
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759911629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758701444,
-        "end": 1758706272
-      },
       {
         "status": "[China] - Going",
         "start": 1758706272,
@@ -34052,8 +34046,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759904419,
-        "end": null,
+        "end": 1759911629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759911629,
+        "end": null
       }
     ]
   },
@@ -36902,11 +36901,6 @@
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "[United Arab Emirates] Mugged - Revives: ALL",
-        "start": 1758701444,
-        "end": 1758703250
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758703250,
@@ -41647,11 +41641,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: Partial",
-        "start": 1758701444,
-        "end": 1758723067
-      },
       {
         "status": "Available",
         "start": 1758723067,
