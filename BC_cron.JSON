@@ -17835,12 +17835,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758675048,
-        "end": 1758681644,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758681644,
         "end": 1758718245
@@ -22766,7 +22760,13 @@
       {
         "status": "Available",
         "start": 1759728022,
-        "end": null
+        "end": 1759885227
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1759885227,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24115,8 +24115,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759873825,
-        "end": null,
+        "end": 1759885227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759885227,
+        "end": null
       }
     ]
   },
@@ -24433,6 +24438,11 @@
       {
         "status": "Available",
         "start": 1759806627,
+        "end": 1759885227
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1759885227,
         "end": null
       }
     ]
@@ -41556,6 +41566,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759878623,
+        "end": 1759885227,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759885227,
         "end": null,
         "travel_type": "airstrip"
       }
