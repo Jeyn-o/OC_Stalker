@@ -1327,7 +1327,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759938027,
-        "end": null
+        "end": 1759941023
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759941023,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5965,8 +5971,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759935635,
-        "end": null,
+        "end": 1759941023,
         "travel_type": "private"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1759941023,
+        "end": null
       }
     ]
   },
@@ -6129,11 +6140,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758730853,
-        "end": 1758732046
-      },
       {
         "status": "[China] - Returning",
         "start": 1758732046,
@@ -7281,8 +7287,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759936825,
-        "end": null,
+        "end": 1759941023,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759941023,
+        "end": null
       }
     ]
   },
@@ -10809,6 +10820,11 @@
       {
         "status": "Jail",
         "start": 1759940428,
+        "end": 1759941023
+      },
+      {
+        "status": "Available",
+        "start": 1759941023,
         "end": null
       }
     ]
@@ -14673,12 +14689,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1758730853,
-        "end": 1758742262,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758742262,
@@ -28497,11 +28507,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758730853,
-        "end": 1758733852
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1758733852,
         "end": 1758743450,
@@ -34957,12 +34962,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1758730853,
-        "end": 1758736867,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Going",
         "start": 1758736867,
         "end": 1758742847,
@@ -37011,6 +37010,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759939817,
+        "end": 1759941023,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759941023,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -41745,12 +41750,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1758730853,
-        "end": 1758738046,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: Partial",
         "start": 1758738046,
