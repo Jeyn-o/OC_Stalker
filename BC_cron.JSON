@@ -5120,6 +5120,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1759961424,
+        "end": 1759962031
+      },
+      {
+        "status": "Available",
+        "start": 1759962031,
         "end": null
       }
     ]
@@ -6049,8 +6054,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759961424,
-        "end": null,
+        "end": 1759962031,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1759962031,
+        "end": null
       }
     ]
   },
@@ -7378,7 +7388,13 @@
       {
         "status": "Available",
         "start": 1759960227,
-        "end": null
+        "end": 1759962031
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759962031,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -13322,8 +13338,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759949426,
-        "end": null,
+        "end": 1759962031,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759962031,
+        "end": null
       }
     ]
   },
@@ -15746,12 +15767,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1758751851,
-        "end": 1758763873,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1758763873,
@@ -22882,12 +22897,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1758751851,
-        "end": 1758762069,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1758762069,
         "end": 1758783672
@@ -24237,6 +24246,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759960841,
+        "end": 1759962031,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759962031,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -28622,11 +28637,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1758751851,
-        "end": 1758759653
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1758759653,
@@ -37236,7 +37246,13 @@
       {
         "status": "Available",
         "start": 1759961424,
-        "end": null
+        "end": 1759962031
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759962031,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
