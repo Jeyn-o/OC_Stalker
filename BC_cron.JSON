@@ -5916,7 +5916,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759890632,
-        "end": null
+        "end": 1759891223
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759891223,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -11502,6 +11508,11 @@
       {
         "status": "Available",
         "start": 1759890632,
+        "end": 1759891223
+      },
+      {
+        "status": "Jail",
+        "start": 1759891223,
         "end": null
       }
     ]
@@ -26866,8 +26877,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759878623,
-        "end": null,
+        "end": 1759891223,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759891223,
+        "end": null
       }
     ]
   },
@@ -30297,7 +30313,13 @@
       {
         "status": "Available",
         "start": 1759836031,
-        "end": null
+        "end": 1759891223
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759891223,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36924,7 +36946,13 @@
       {
         "status": "Available",
         "start": 1759890632,
-        "end": null
+        "end": 1759891223
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759891223,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40911,12 +40939,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1758681065,
-        "end": 1758682252,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758682252,
         "end": 1758736867
@@ -44219,8 +44241,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1759889423,
-        "end": null,
+        "end": 1759891223,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759891223,
+        "end": null
       }
     ]
   }
