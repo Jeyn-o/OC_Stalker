@@ -2166,12 +2166,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1758711043,
-        "end": 1758716462,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1758716462,
         "end": 1758718865
@@ -22795,7 +22789,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1759920627,
-        "end": null
+        "end": 1759921231
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759921231,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27024,11 +27024,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758711043,
-        "end": 1758711661
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1758711661,
@@ -34915,8 +34910,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759914628,
-        "end": null,
+        "end": 1759921231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759921231,
+        "end": null
       }
     ]
   },
@@ -40406,12 +40406,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758711043,
-        "end": 1758720663,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1758720663,
