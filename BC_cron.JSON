@@ -2922,11 +2922,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: OFF",
-        "start": 1758748856,
-        "end": 1758750052
-      },
-      {
         "status": "Available",
         "start": 1758750052,
         "end": 1758775252
@@ -5268,12 +5263,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1758748856,
-        "end": 1758757247,
-        "travel_type": "private"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1758757247,
         "end": 1758766847
@@ -6044,7 +6033,13 @@
       {
         "status": "Available",
         "start": 1759956626,
-        "end": null
+        "end": 1759959029
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759959029,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -9536,6 +9531,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759945819,
+        "end": 1759959029,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759959029,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -10848,7 +10849,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759957234,
-        "end": null
+        "end": 1759959029
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759959029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30841,12 +30848,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1758748856,
-        "end": 1758750052,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758750052,
         "end": 1758751270
@@ -37183,6 +37184,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759957827,
+        "end": 1759959029,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759959029,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -41901,11 +41908,6 @@
     "name": "Cerbb",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: Partial",
-        "start": 1758748856,
-        "end": 1758758505
-      },
-      {
         "status": "Available",
         "start": 1758758505,
         "end": 1758759050
@@ -44412,6 +44414,11 @@
       {
         "status": "Available",
         "start": 1759896033,
+        "end": 1759959029
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1759959029,
         "end": null
       }
     ]
