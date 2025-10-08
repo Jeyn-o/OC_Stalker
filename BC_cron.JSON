@@ -702,12 +702,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758698448,
-        "end": 1758705646,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758705646,
         "end": 1758712248,
@@ -1352,7 +1346,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1759908028,
-        "end": null
+        "end": 1759908632
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1759908632,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11575,12 +11575,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1758698448,
-        "end": 1758705646,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1758705646,
@@ -24135,7 +24129,13 @@
       {
         "status": "Available",
         "start": 1759908028,
-        "end": null
+        "end": 1759908632
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1759908632,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25267,7 +25267,13 @@
       {
         "status": "Available",
         "start": 1759908028,
-        "end": null
+        "end": 1759908632
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759908632,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30287,18 +30293,19 @@
       {
         "status": "[China] - Idle",
         "start": 1759902022,
-        "end": null
+        "end": 1759908632
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759908632,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758698448,
-        "end": 1758754877
-      },
       {
         "status": "[China] - Going",
         "start": 1758754877,
@@ -32842,8 +32849,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759901425,
-        "end": null,
+        "end": 1759908632,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1759908632,
+        "end": null
       }
     ]
   },
