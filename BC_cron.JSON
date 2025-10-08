@@ -3591,12 +3591,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1758676248,
-        "end": 1758688265,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1758688265,
         "end": 1758688843
@@ -5905,7 +5899,13 @@
       {
         "status": "Available",
         "start": 1759884027,
-        "end": null
+        "end": 1759886425
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759886425,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -15419,8 +15419,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1759881022,
-        "end": null,
+        "end": 1759886425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1759886425,
+        "end": null
       }
     ]
   },
@@ -19886,6 +19891,11 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1759884627,
+        "end": 1759886425
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1759886425,
         "end": null
       }
     ]
@@ -21927,6 +21937,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759884027,
+        "end": 1759886425,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759886425,
         "end": null,
         "travel_type": "standard"
       }
@@ -34064,6 +34080,11 @@
       {
         "status": "[China] - Idle",
         "start": 1759882226,
+        "end": 1759886425
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1759886425,
         "end": null
       }
     ]
@@ -34896,12 +34917,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1758676248,
-        "end": 1758682252,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1758682252,
@@ -37490,12 +37505,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1758676248,
-        "end": 1758682866,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1758682866,
@@ -40797,8 +40806,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759876233,
-        "end": null,
+        "end": 1759886425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759886425,
+        "end": null
       }
     ]
   },
@@ -44150,7 +44164,13 @@
       {
         "status": "Available",
         "start": 1759882226,
-        "end": null
+        "end": 1759886425
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1759886425,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   }
