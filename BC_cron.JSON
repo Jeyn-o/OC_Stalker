@@ -11469,6 +11469,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1759887628,
+        "end": 1759888830,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1759888830,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -21955,8 +21961,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759886425,
-        "end": null,
+        "end": 1759888830,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759888830,
+        "end": null
       }
     ]
   },
@@ -26057,6 +26068,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1759882828,
+        "end": 1759888830,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1759888830,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31737,11 +31754,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758678641,
-        "end": 1758731462
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758731462,
         "end": 1758743450,
@@ -34090,7 +34102,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759888226,
-        "end": null
+        "end": 1759888830
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759888830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -44087,6 +44105,11 @@
       {
         "status": "Available",
         "start": 1759888226,
+        "end": 1759888830
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1759888830,
         "end": null
       }
     ]
