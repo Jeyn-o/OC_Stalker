@@ -1347,7 +1347,13 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759900228,
-        "end": null
+        "end": 1759900823
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1759900823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4091,12 +4097,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1758690651,
-        "end": 1758700867,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1758700867,
         "end": 1758701444
@@ -5965,8 +5965,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759900228,
-        "end": null,
+        "end": 1759900823,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1759900823,
+        "end": null
       }
     ]
   },
@@ -16255,11 +16260,6 @@
     "name": "Tooger_",
     "activities": [
       {
-        "status": "[United Arab Emirates] Mugged - Revives: Partial",
-        "start": 1758690651,
-        "end": 1758693665
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758693665,
         "end": 1758695467
@@ -16444,12 +16444,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1758690651,
-        "end": 1758702670,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758702670,
@@ -25300,6 +25294,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759894228,
+        "end": 1759900823,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759900823,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30779,11 +30779,6 @@
   "3542414": {
     "name": "awesomemcsexy",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1758690651,
-        "end": 1758691255
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1758691255,
