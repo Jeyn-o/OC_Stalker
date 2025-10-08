@@ -684,11 +684,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758735073,
-        "end": 1758777050
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758777050,
         "end": 1758783672,
@@ -5978,7 +5973,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759941023,
-        "end": null
+        "end": 1759945228
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759945228,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -21967,11 +21968,6 @@
     "name": "xaqf",
     "activities": [
       {
-        "status": "[Cayman Islands] Mugged - Revives: Partial",
-        "start": 1758735073,
-        "end": 1758737448
-      },
-      {
         "status": "[Cayman Islands] - Idle",
         "start": 1758737448,
         "end": 1758739855
@@ -33236,12 +33232,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1758735073,
-        "end": 1758745248,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Returning",
         "start": 1758745248,
         "end": 1758755451,
@@ -37031,6 +37021,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759944024,
+        "end": 1759945228,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759945228,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40503,6 +40499,11 @@
       {
         "status": "Available",
         "start": 1759944024,
+        "end": 1759945228
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1759945228,
         "end": null
       }
     ]
@@ -40940,7 +40941,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759943426,
-        "end": null
+        "end": 1759945228
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759945228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
