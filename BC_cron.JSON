@@ -4042,8 +4042,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759884027,
-        "end": null,
+        "end": 1759896033,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759896033,
+        "end": null
       }
     ]
   },
@@ -5938,7 +5943,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759893628,
-        "end": null
+        "end": 1759896033
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759896033,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -18570,11 +18581,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758685850,
-        "end": 1758691866
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1758691866,
         "end": 1758712248
@@ -19952,12 +19958,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1758685850,
-        "end": 1758688843,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1758688843,
@@ -32194,12 +32194,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1758685850,
-        "end": 1758692448,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1758692448,
         "end": 1758718245
@@ -36968,6 +36962,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759894818,
+        "end": 1759896033,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759896033,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40439,6 +40439,12 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1759894818,
+        "end": 1759896033,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1759896033,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -44253,6 +44259,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1759895429,
+        "end": 1759896033
+      },
+      {
+        "status": "Available",
+        "start": 1759896033,
         "end": null
       }
     ]
