@@ -4994,8 +4994,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759936825,
-        "end": null,
+        "end": 1759948228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759948228,
+        "end": null
       }
     ]
   },
@@ -7982,8 +7987,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759936225,
-        "end": null,
+        "end": 1759948228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759948228,
+        "end": null
       }
     ]
   },
@@ -17235,7 +17245,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759939234,
-        "end": null
+        "end": 1759948228
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759948228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19955,12 +19971,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1758738046,
-        "end": 1758740468,
-        "travel_type": "standard"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1758740468,
         "end": 1758742262
@@ -21972,7 +21982,13 @@
       {
         "status": "Available",
         "start": 1759942841,
-        "end": null
+        "end": 1759948228
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1759948228,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -37038,6 +37054,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759947024,
+        "end": 1759948228,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759948228,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -41776,11 +41798,6 @@
     "name": "Cerbb",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: Partial",
-        "start": 1758738046,
-        "end": 1758748246
-      },
-      {
         "status": "Available",
         "start": 1758748246,
         "end": 1758748856
@@ -42782,11 +42799,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758738046,
-        "end": 1758739250
-      },
       {
         "status": "[China] - Returning",
         "start": 1758739250,
