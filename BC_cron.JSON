@@ -2902,11 +2902,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758735694,
-        "end": 1758748856
-      },
-      {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1758748856,
         "end": 1758750052
@@ -7294,8 +7289,13 @@
       {
         "status": "[China] - Going",
         "start": 1759941620,
-        "end": null,
+        "end": 1759945819,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759945819,
+        "end": null
       }
     ]
   },
@@ -9460,7 +9460,13 @@
       {
         "status": "Available",
         "start": 1759890632,
-        "end": null
+        "end": 1759945819
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759945819,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19311,8 +19317,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1759938630,
-        "end": null,
+        "end": 1759945819,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759945819,
+        "end": null
       }
     ]
   },
@@ -38741,11 +38752,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758735694,
-        "end": 1758741054
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1758741054,
         "end": 1758747665,
@@ -40504,6 +40510,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1759945228,
+        "end": 1759945819
+      },
+      {
+        "status": "Available",
+        "start": 1759945819,
         "end": null
       }
     ]
