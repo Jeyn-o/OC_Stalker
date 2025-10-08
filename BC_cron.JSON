@@ -1497,12 +1497,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1758714650,
-        "end": 1758721249,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1758721249,
         "end": 1758722467
@@ -9179,6 +9173,12 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759915222,
+        "end": 1759924836,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1759924836,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -10756,7 +10756,13 @@
       {
         "status": "Available",
         "start": 1759914628,
-        "end": null
+        "end": 1759924836
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1759924836,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21949,7 +21955,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759921824,
-        "end": null
+        "end": 1759924836
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759924836,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -22769,12 +22781,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1758714650,
-        "end": 1758721858,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758721858,
@@ -29747,8 +29753,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1759917631,
-        "end": null,
+        "end": 1759924836,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759924836,
+        "end": null
       }
     ]
   },
@@ -36927,11 +36938,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "[United Arab Emirates] Mugged - Revives: ALL",
-        "start": 1758714650,
-        "end": 1758720075
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758720075,
         "end": 1758723648
@@ -40393,6 +40399,11 @@
       {
         "status": "Available",
         "start": 1759923629,
+        "end": 1759924836
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1759924836,
         "end": null
       }
     ]
