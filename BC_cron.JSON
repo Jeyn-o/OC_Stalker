@@ -4037,8 +4037,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759896630,
-        "end": null,
+        "end": 1759909221,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759909221,
+        "end": null
       }
     ]
   },
@@ -7270,8 +7275,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759903832,
-        "end": null,
+        "end": 1759909221,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759909221,
+        "end": null
       }
     ]
   },
@@ -25281,11 +25291,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Hawaii] - Idle",
-        "start": 1758699061,
-        "end": 1758702052
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1758702052,
         "end": 1758708075,
@@ -28465,12 +28470,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1758699061,
-        "end": 1758700254,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1758700254,
         "end": 1758701444,
@@ -30752,11 +30751,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[Cayman Islands] Mugged - Revives: ALL",
-        "start": 1758699061,
-        "end": 1758700867
-      },
-      {
         "status": "[Cayman Islands] - Idle",
         "start": 1758700867,
         "end": 1758706272
@@ -32855,7 +32849,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759908632,
-        "end": null
+        "end": 1759909221
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759909221,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38627,11 +38627,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1758699061,
-        "end": 1758708075
-      },
       {
         "status": "[Canada] - Going",
         "start": 1758708075,
