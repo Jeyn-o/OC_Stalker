@@ -4653,12 +4653,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1758715847,
-        "end": 1758728452,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1758728452,
         "end": 1758740468,
@@ -6139,12 +6133,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1758715847,
-        "end": 1758721249,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1758721249,
@@ -9185,8 +9173,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1759924836,
-        "end": null,
+        "end": 1759926031,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1759926031,
+        "end": null
       }
     ]
   },
@@ -10043,8 +10036,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759912821,
-        "end": null,
+        "end": 1759926031,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759926031,
+        "end": null
       }
     ]
   },
@@ -12546,7 +12544,13 @@
       {
         "status": "Available",
         "start": 1759925423,
-        "end": null
+        "end": 1759926031
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1759926031,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34343,6 +34347,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1759923629,
+        "end": 1759926031
+      },
+      {
+        "status": "Available",
+        "start": 1759926031,
         "end": null
       }
     ]
