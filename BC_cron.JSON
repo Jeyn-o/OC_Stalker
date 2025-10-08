@@ -2916,12 +2916,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1758704469,
-        "end": 1758711661,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758711661,
         "end": 1758715273
@@ -10731,8 +10725,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759908028,
-        "end": null,
+        "end": 1759914628,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759914628,
+        "end": null
       }
     ]
   },
@@ -26822,8 +26821,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759903238,
-        "end": null,
+        "end": 1759914628,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759914628,
+        "end": null
       }
     ]
   },
@@ -26960,12 +26964,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758704469,
-        "end": 1758711043,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758711043,
@@ -29708,11 +29706,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758704469,
-        "end": 1758711661
-      },
       {
         "status": "[China] - Returning",
         "start": 1758711661,
@@ -33170,11 +33163,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758704469,
-        "end": 1758710448
-      },
-      {
         "status": "[China] - Going",
         "start": 1758710448,
         "end": 1758719448,
@@ -34852,7 +34840,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759913428,
-        "end": null
+        "end": 1759914628
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759914628,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
