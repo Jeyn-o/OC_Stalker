@@ -3,12 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758757247,
-        "end": 1758769855,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758769855,
         "end": 1758784251
@@ -5027,8 +5021,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759958429,
-        "end": null,
+        "end": 1759967423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759967423,
+        "end": null
       }
     ]
   },
@@ -5261,11 +5260,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1758757247,
-        "end": 1758766847
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1758766847,
@@ -7398,7 +7392,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759966828,
-        "end": null
+        "end": 1759967423
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759967423,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -12735,8 +12735,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759955425,
-        "end": null,
+        "end": 1759967423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759967423,
+        "end": null
       }
     ]
   },
@@ -20056,7 +20061,13 @@
       {
         "status": "Available",
         "start": 1759965619,
-        "end": null
+        "end": 1759967423
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1759967423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
