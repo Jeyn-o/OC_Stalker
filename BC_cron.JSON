@@ -5921,6 +5921,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759891223,
+        "end": 1759892429,
+        "travel_type": "private"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759892429,
         "end": null,
         "travel_type": "private"
       }
@@ -11518,7 +11524,13 @@
       {
         "status": "Available",
         "start": 1759891831,
-        "end": null
+        "end": 1759892429
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1759892429,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15294,7 +15306,13 @@
       {
         "status": "Available",
         "start": 1759890632,
-        "end": null
+        "end": 1759892429
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1759892429,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34969,12 +34987,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1758682252,
-        "end": 1758687651,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758687651,
         "end": 1758688265
@@ -36957,6 +36969,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759891223,
+        "end": 1759892429,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759892429,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40950,11 +40968,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758682252,
-        "end": 1758736867
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1758736867,
         "end": 1758742262
@@ -41654,8 +41667,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759885227,
-        "end": null,
+        "end": 1759892429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759892429,
+        "end": null
       }
     ]
   },
@@ -42748,12 +42766,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1758682252,
-        "end": 1758689447,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758689447,
