@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1758755451,
-        "end": 1758757247
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1758757247,
         "end": 1758769855,
@@ -6059,7 +6054,13 @@
       {
         "status": "Available",
         "start": 1759962031,
-        "end": null
+        "end": 1759965619
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759965619,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -19435,12 +19436,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1758755451,
-        "end": 1758765051,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1758765051,
         "end": 1758774672,
@@ -20039,8 +20034,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1759958429,
-        "end": null,
+        "end": 1759965619,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759965619,
+        "end": null
       }
     ]
   },
@@ -22069,8 +22069,13 @@
       {
         "status": "[China] - Going",
         "start": 1759962627,
-        "end": null,
+        "end": 1759965619,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759965619,
+        "end": null
       }
     ]
   },
@@ -33295,6 +33300,11 @@
       {
         "status": "Available",
         "start": 1759965020,
+        "end": 1759965619
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1759965619,
         "end": null
       }
     ]
@@ -33302,11 +33312,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758755451,
-        "end": 1758764444
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1758764444,
@@ -37230,8 +37235,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759964435,
-        "end": null,
+        "end": 1759965619,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759965619,
+        "end": null
       }
     ]
   },
@@ -41888,6 +41898,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1759963821,
+        "end": 1759965619
+      },
+      {
+        "status": "Available",
+        "start": 1759965619,
         "end": null
       }
     ]
