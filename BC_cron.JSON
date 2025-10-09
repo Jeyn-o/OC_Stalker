@@ -2163,6 +2163,11 @@
       {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1760020236,
+        "end": 1760021638
+      },
+      {
+        "status": "Available",
+        "start": 1760021638,
         "end": null
       }
     ]
@@ -3502,6 +3507,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760008228,
+        "end": 1760021638,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760021638,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -6226,12 +6237,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758811859,
-        "end": 1758816068,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Idle",
         "start": 1758816068,
@@ -14677,11 +14682,6 @@
     "name": "BiberBart",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758811859,
-        "end": 1758812480
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758812480,
         "end": 1758825064,
@@ -14877,11 +14877,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1758811859,
-        "end": 1758814270
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758814270,
@@ -16520,16 +16515,6 @@
     "activities": [
       {
         "status": "[United Kingdom] - Idle",
-        "start": 1758810668,
-        "end": 1758811859
-      },
-      {
-        "status": "[United Kingdom] Mugged - Revives: Partial",
-        "start": 1758811859,
-        "end": 1758813650
-      },
-      {
-        "status": "[United Kingdom] - Idle",
         "start": 1758813650,
         "end": 1758822655
       },
@@ -17300,12 +17285,6 @@
     "name": "JuanPaulo",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758811859,
-        "end": 1758816652,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758816652,
         "end": 1758821469,
@@ -17921,12 +17900,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758811859,
-        "end": 1758819053,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758819053,
@@ -19332,11 +19305,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Japan] Mugged - Revives: ALL",
-        "start": 1758811859,
-        "end": 1758814270
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1758814270,
@@ -21992,7 +21960,13 @@
       {
         "status": "Available",
         "start": 1760018432,
-        "end": null
+        "end": 1760021638
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760021638,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -24148,6 +24122,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760013025,
+        "end": 1760021638,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760021638,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -24156,11 +24136,6 @@
   "3331202": {
     "name": "Imtheman357",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758811859,
-        "end": 1758907248
-      },
       {
         "status": "[China] - Going",
         "start": 1758907248,
@@ -28522,20 +28497,19 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760020236,
-        "end": null,
+        "end": 1760021638,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760021638,
+        "end": null
       }
     ]
   },
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1758811253,
-        "end": 1758821469,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758821469,
@@ -29821,11 +29795,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1758811859,
-        "end": 1758813650
-      },
       {
         "status": "[China] - Idle",
         "start": 1758813650,
@@ -31604,11 +31573,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1758810668,
-        "end": 1758836451
-      },
       {
         "status": "[South Africa] Mugged - Revives: ALL",
         "start": 1758836451,
@@ -34035,16 +33999,6 @@
   "3653613": {
     "name": "SN00PYTOBY",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758811253,
-        "end": 1758811859
-      },
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1758811859,
-        "end": 1758824455
-      },
       {
         "status": "Available",
         "start": 1758824455,
@@ -37225,6 +37179,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760020236,
+        "end": 1760021638,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760021638,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37233,11 +37193,6 @@
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758811253,
-        "end": 1758813650
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1758813650,
@@ -41853,6 +41808,11 @@
       {
         "status": "Available",
         "start": 1760008228,
+        "end": 1760021638
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1760021638,
         "end": null
       }
     ]
