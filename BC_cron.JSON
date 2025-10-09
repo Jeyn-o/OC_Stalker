@@ -6060,7 +6060,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760027429,
-        "end": null
+        "end": 1760028632
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760028632,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -7405,7 +7411,13 @@
       {
         "status": "Available",
         "start": 1760027429,
-        "end": null
+        "end": 1760028632
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760028632,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -21983,7 +21995,13 @@
       {
         "status": "Available",
         "start": 1760028021,
-        "end": null
+        "end": 1760028632
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760028632,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -25314,11 +25332,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1758818450,
-        "end": 1758822050
-      },
       {
         "status": "[Hawaii] Mugged - Revives: ALL",
         "start": 1758822050,
@@ -30353,12 +30366,6 @@
     "name": "Mr_jeff14574",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1758818450,
-        "end": 1758828661,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1758828661,
         "end": 1758829858
@@ -30780,11 +30787,6 @@
   "3542414": {
     "name": "awesomemcsexy",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1758818450,
-        "end": 1758843070
-      },
       {
         "status": "[Cayman Islands] Mugged - Revives: ALL",
         "start": 1758843070,
@@ -34290,11 +34292,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1758818450,
-        "end": 1758830452
-      },
-      {
         "status": "[China] - Returning",
         "start": 1758830452,
         "end": 1758840654,
@@ -34895,12 +34892,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1758818450,
-        "end": 1758823856,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758823856,
@@ -40668,11 +40659,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758818450,
-        "end": 1758881452
-      },
-      {
         "status": "[China] - Going",
         "start": 1758881452,
         "end": 1758891667,
@@ -44279,8 +44265,13 @@
       {
         "status": "[China] - Going",
         "start": 1760018432,
-        "end": null,
+        "end": 1760028632,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760028632,
+        "end": null
       }
     ]
   },
