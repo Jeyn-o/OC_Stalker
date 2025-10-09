@@ -677,12 +677,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758807075,
-        "end": 1758813650,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758813650,
         "end": 1758864052
@@ -1321,6 +1315,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760010628,
+        "end": 1760017224,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760017224,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -6057,8 +6057,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760016028,
-        "end": null,
+        "end": 1760017224,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1760017224,
+        "end": null
       }
     ]
   },
@@ -7396,8 +7401,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760011831,
-        "end": null,
+        "end": 1760017224,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760017224,
+        "end": null
       }
     ]
   },
@@ -11819,12 +11829,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1758807075,
-        "end": 1758808248,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758808248,
         "end": 1758861060
@@ -12745,7 +12749,13 @@
       {
         "status": "Available",
         "start": 1760009427,
-        "end": null
+        "end": 1760017224
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760017224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17290,8 +17300,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760005835,
-        "end": null,
+        "end": 1760017224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760017224,
+        "end": null
       }
     ]
   },
@@ -24475,12 +24490,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758807075,
-        "end": 1758813650,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758813650,
@@ -34973,12 +34982,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1758807075,
-        "end": 1758812480,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1758812480,
         "end": 1758816068
@@ -40707,6 +40710,11 @@
       {
         "status": "Available",
         "start": 1760016635,
+        "end": 1760017224
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1760017224,
         "end": null
       }
     ]
@@ -44261,8 +44269,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760016028,
-        "end": null,
+        "end": 1760017224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760017224,
+        "end": null
       }
     ]
   },
