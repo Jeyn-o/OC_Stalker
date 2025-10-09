@@ -2922,12 +2922,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1758775252,
-        "end": 1758787842,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1758787842,
         "end": 1758800451,
@@ -3614,11 +3608,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1758775252,
-        "end": 1758776467
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1758776467,
@@ -25446,6 +25435,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759978225,
+        "end": 1759985421,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759985421,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30464,11 +30459,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758775252,
-        "end": 1758818450
-      },
       {
         "status": "[China] - Going",
         "start": 1758818450,
@@ -44532,8 +44522,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759978826,
-        "end": null,
+        "end": 1759985421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759985421,
+        "end": null
       }
     ]
   }
