@@ -5064,6 +5064,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760040627,
+        "end": 1760047819,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760047819,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -6142,7 +6148,13 @@
       {
         "status": "Available",
         "start": 1760047240,
-        "end": null
+        "end": 1760047819
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760047819,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -34989,12 +35001,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1758837669,
-        "end": 1758843070,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1758843070,
         "end": 1758843650
@@ -39024,11 +39030,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758837669,
-        "end": 1758842448
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1758842448,
