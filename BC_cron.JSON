@@ -6075,8 +6075,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759971017,
-        "end": null,
+        "end": 1759972225,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1759972225,
+        "end": null
       }
     ]
   },
@@ -7409,8 +7414,13 @@
       {
         "status": "[China] - Returning",
         "start": 1759967423,
-        "end": null,
+        "end": 1759972225,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1759972225,
+        "end": null
       }
     ]
   },
@@ -17367,7 +17377,13 @@
       {
         "status": "Available",
         "start": 1759968625,
-        "end": null
+        "end": 1759972225
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759972225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22884,11 +22900,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758762069,
-        "end": 1758783672
-      },
       {
         "status": "[China] - Returning",
         "start": 1758783672,
@@ -30881,12 +30892,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1758762069,
-        "end": 1758763873,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Idle",
         "start": 1758763873,
         "end": 1758765671
@@ -37297,6 +37302,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759971017,
+        "end": 1759972225,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759972225,
         "end": null,
         "travel_type": "airstrip"
       }
