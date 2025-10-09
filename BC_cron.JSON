@@ -10331,12 +10331,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758758505,
-        "end": 1758765051,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1758765051,
         "end": 1758769855
@@ -16479,16 +16473,6 @@
     "name": "Tooger_",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1758757851,
-        "end": 1758758505
-      },
-      {
-        "status": "Available",
-        "start": 1758758505,
-        "end": 1758840654
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758840654,
         "end": 1758853241,
@@ -17370,8 +17354,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759966828,
-        "end": null,
+        "end": 1759968625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759968625,
+        "end": null
       }
     ]
   },
@@ -18676,12 +18665,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758757851,
-        "end": 1758771648,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758771648,
         "end": 1758783672,
@@ -19448,6 +19431,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759955425,
+        "end": 1759968625,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759968625,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -20074,11 +20063,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758758505,
-        "end": 1758759653
-      },
       {
         "status": "[China] Attacked - Revives: ALL",
         "start": 1758759653,
@@ -22097,6 +22081,11 @@
       {
         "status": "[China] - Idle",
         "start": 1759965619,
+        "end": 1759968625
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1759968625,
         "end": null
       }
     ]
@@ -34213,6 +34202,11 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1759966234,
+        "end": 1759968625
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759968625,
         "end": null
       }
     ]
@@ -37278,7 +37272,13 @@
       {
         "status": "[Mexico] Mugged - Revives: ALL",
         "start": 1759966234,
-        "end": null
+        "end": 1759968625
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759968625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -42010,11 +42010,6 @@
     "name": "Cerbb",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758758505,
-        "end": 1758759050
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1758759050,
         "end": 1758765671,
@@ -43001,11 +42996,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758758505,
-        "end": 1758761008
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758761008,
@@ -44379,8 +44369,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1759966234,
-        "end": null,
+        "end": 1759968625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759968625,
+        "end": null
       }
     ]
   },
