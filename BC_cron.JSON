@@ -4656,6 +4656,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760019030,
+        "end": 1760026230,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760026230,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -6222,11 +6228,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758816068,
-        "end": 1758823856
-      },
       {
         "status": "[China] - Returning",
         "start": 1758823856,
@@ -8049,8 +8050,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760013025,
-        "end": null,
+        "end": 1760026230,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760026230,
+        "end": null
       }
     ]
   },
@@ -19894,7 +19900,13 @@
       {
         "status": "Available",
         "start": 1759991432,
-        "end": null
+        "end": 1760026230
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760026230,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22762,12 +22774,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758816068,
-        "end": 1758822050,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758822050,
         "end": 1758822655
@@ -25298,11 +25304,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Hawaii] Mugged - Revives: ALL",
-        "start": 1758816068,
-        "end": 1758818450
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1758818450,
         "end": 1758822050
@@ -26042,11 +26043,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758816068,
-        "end": 1758816652
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1758816652,
@@ -34906,11 +34902,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Hawaii] Mugged - Revives: ALL",
-        "start": 1758816068,
-        "end": 1758818450
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1758818450,
@@ -44213,6 +44204,16 @@
       }
     ]
   },
+  "3880785": {
+    "name": "Gemicide",
+    "activities": [
+      {
+        "status": "Available",
+        "start": 1760026230,
+        "end": null
+      }
+    ]
+  },
   "3881866": {
     "name": "GrimFury",
     "activities": [
@@ -44460,6 +44461,16 @@
         "start": 1760020236,
         "end": null,
         "travel_type": "airstrip"
+      }
+    ]
+  },
+  "3969351": {
+    "name": "KSR-Gyudon",
+    "activities": [
+      {
+        "status": "Available",
+        "start": 1760026230,
+        "end": null
       }
     ]
   }
