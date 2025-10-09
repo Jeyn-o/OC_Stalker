@@ -7412,11 +7412,6 @@
     "name": "FatFlash",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758784851,
-        "end": 1759275631
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1759275631,
         "end": 1759278029
@@ -8684,12 +8679,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1758784851,
-        "end": 1758786049,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1758786049,
@@ -18647,12 +18636,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758784851,
-        "end": 1758797454,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758797454,
         "end": 1758831056
@@ -19419,19 +19402,19 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759981818,
-        "end": null,
+        "end": 1759995027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1759995027,
+        "end": null
       }
     ]
   },
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758784851,
-        "end": 1758797454
-      },
       {
         "status": "[Japan] - Going",
         "start": 1758797454,
@@ -26978,7 +26961,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1759994426,
-        "end": null
+        "end": 1759995027
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1759995027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40727,6 +40716,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1759993235,
+        "end": 1759995027
+      },
+      {
+        "status": "Available",
+        "start": 1759995027,
         "end": null
       }
     ]
@@ -44297,6 +44291,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759993824,
+        "end": 1759995027
+      },
+      {
+        "status": "Available",
+        "start": 1759995027,
         "end": null
       }
     ]
