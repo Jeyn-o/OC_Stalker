@@ -4082,7 +4082,13 @@
       {
         "status": "Available",
         "start": 1759941620,
-        "end": null
+        "end": 1759974627
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759974627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6080,8 +6086,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1759973428,
-        "end": null,
+        "end": 1759974627,
         "travel_type": "private"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1759974627,
+        "end": null
       }
     ]
   },
@@ -17373,7 +17384,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1759973428,
-        "end": null
+        "end": 1759974627
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759974627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22100,7 +22117,13 @@
       {
         "status": "Available",
         "start": 1759973428,
-        "end": null
+        "end": 1759974627
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1759974627,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -24438,12 +24461,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1758764444,
-        "end": 1758771648,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1758771648,
@@ -33317,12 +33334,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1758764444,
-        "end": 1758772252,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1758772252,
         "end": 1758772872
@@ -35086,12 +35097,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1758764444,
-        "end": 1758770448,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Idle",
         "start": 1758770448,
@@ -37299,6 +37304,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759973428,
+        "end": 1759974627,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759974627,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -44515,6 +44526,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1759970432,
+        "end": 1759974627
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1759974627,
         "end": null
       }
     ]
