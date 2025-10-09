@@ -8675,12 +8675,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1758786049,
-        "end": 1758787842,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Idle",
         "start": 1758787842,
         "end": 1758788458
@@ -10313,6 +10307,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1759992031,
+        "end": 1759996224
+      },
+      {
+        "status": "Available",
+        "start": 1759996224,
         "end": null
       }
     ]
@@ -15552,12 +15551,6 @@
     "name": "Neodork",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1758786049,
-        "end": 1758791455,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758791455,
         "end": 1758841846
@@ -19392,7 +19385,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759995027,
-        "end": null
+        "end": 1759996224
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759996224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25381,6 +25380,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1759994426,
+        "end": 1759996224,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1759996224,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25389,12 +25394,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1758786049,
-        "end": 1758787842,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758787842,
@@ -26945,8 +26944,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1759995027,
-        "end": null,
+        "end": 1759996224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759996224,
+        "end": null
       }
     ]
   },
@@ -34091,8 +34095,13 @@
       {
         "status": "[China] - Going",
         "start": 1759986028,
-        "end": null,
+        "end": 1759996224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1759996224,
+        "end": null
       }
     ]
   },
