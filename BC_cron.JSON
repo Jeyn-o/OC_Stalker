@@ -9309,7 +9309,13 @@
       {
         "status": "Available",
         "start": 1759932037,
-        "end": null
+        "end": 1759978826
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1759978826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13362,8 +13368,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1759977023,
-        "end": null,
+        "end": 1759978826,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1759978826,
+        "end": null
       }
     ]
   },
@@ -20070,8 +20081,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759967423,
-        "end": null,
+        "end": 1759978826,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1759978826,
+        "end": null
       }
     ]
   },
@@ -22118,6 +22134,12 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1759977023,
+        "end": 1759978826,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759978826,
         "end": null,
         "travel_type": "standard"
       }
@@ -25438,11 +25460,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1758768648,
-        "end": 1758771648
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1758771648,
@@ -29908,12 +29925,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1758768648,
-        "end": 1758778845,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758778845,
@@ -37342,6 +37353,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759977628,
+        "end": 1759978826,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759978826,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -44548,7 +44565,13 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1759976417,
-        "end": null
+        "end": 1759978826
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1759978826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   }
