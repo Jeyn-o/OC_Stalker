@@ -2172,12 +2172,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1758801674,
-        "end": 1758808866,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1758808866,
         "end": 1758814856
@@ -7393,7 +7387,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759994426,
-        "end": null
+        "end": 1760011831
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760011831,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -22012,6 +22012,12 @@
       {
         "status": "[China] - Returning",
         "start": 1760008228,
+        "end": 1760011831,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760011831,
         "end": null,
         "travel_type": "standard"
       }
@@ -22794,20 +22800,19 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760004619,
-        "end": null,
+        "end": 1760011831,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760011831,
+        "end": null
       }
     ]
   },
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1758801674,
-        "end": 1758808866,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758808866,
@@ -25324,6 +25329,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760005221,
+        "end": 1760011831,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760011831,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -32029,12 +32040,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1758801674,
-        "end": 1758808248,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1758808248,
         "end": 1758810058
@@ -37228,7 +37233,13 @@
       {
         "status": "Available",
         "start": 1760011233,
-        "end": null
+        "end": 1760011831
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760011831,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38930,12 +38941,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1758801674,
-        "end": 1758802847,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1758802847,
@@ -40713,11 +40718,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] Attacked - Revives: ALL",
-        "start": 1758801674,
-        "end": 1758802847
-      },
       {
         "status": "[China] - Idle",
         "start": 1758802847,
