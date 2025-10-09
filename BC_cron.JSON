@@ -3,12 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758823265,
-        "end": 1758835863,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758835863,
         "end": 1758848466,
@@ -8492,6 +8486,11 @@
       {
         "status": "Available",
         "start": 1759818023,
+        "end": 1760033425
+      },
+      {
+        "status": "Jail",
+        "start": 1760033425,
         "end": null
       }
     ]
@@ -17314,8 +17313,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760026822,
-        "end": null,
+        "end": 1760033425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760033425,
+        "end": null
       }
     ]
   },
@@ -21998,8 +22002,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760031625,
-        "end": null,
+        "end": 1760033425,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760033425,
+        "end": null
       }
     ]
   },
@@ -25311,8 +25320,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760026822,
-        "end": null,
+        "end": 1760033425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760033425,
+        "end": null
       }
     ]
   },
@@ -37202,7 +37216,13 @@
       {
         "status": "Available",
         "start": 1760028021,
-        "end": null
+        "end": 1760033425
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760033425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37733,11 +37753,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758823265,
-        "end": 1758826874
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758826874,
@@ -42358,11 +42373,6 @@
     "name": "Sleepy_Skyes",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758823265,
-        "end": 1759167027
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1759167027,
         "end": 1759169427
@@ -44212,8 +44222,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760022082,
-        "end": null,
+        "end": 1760033425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760033425,
+        "end": null
       }
     ]
   },
