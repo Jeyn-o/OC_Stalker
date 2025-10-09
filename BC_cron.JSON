@@ -4060,7 +4060,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760008830,
-        "end": null
+        "end": 1760009427
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760009427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9274,11 +9280,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758799256,
-        "end": 1758921051
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1758921051,
         "end": 1758924077
@@ -12745,8 +12746,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1759999832,
-        "end": null,
+        "end": 1760009427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760009427,
+        "end": null
       }
     ]
   },
@@ -13381,7 +13387,13 @@
       {
         "status": "Available",
         "start": 1759981224,
-        "end": null
+        "end": 1760009427
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760009427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14659,12 +14671,6 @@
   "2943860": {
     "name": "BiberBart",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1758799256,
-        "end": 1758811859,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758811859,
@@ -17308,12 +17314,6 @@
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1758799256,
-        "end": 1758804654,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758804654,
@@ -38948,11 +38948,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758799256,
-        "end": 1758800451
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1758800451,
         "end": 1758801674,
@@ -40736,11 +40731,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758799256,
-        "end": 1758801674
-      },
       {
         "status": "[China] Attacked - Revives: ALL",
         "start": 1758801674,
