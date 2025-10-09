@@ -6136,8 +6136,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760042428,
-        "end": null,
+        "end": 1760047240,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1760047240,
+        "end": null
       }
     ]
   },
@@ -10989,7 +10994,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760044826,
-        "end": null
+        "end": 1760047240
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760047240,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19385,12 +19396,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1758837043,
-        "end": 1758846048,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1758846048,
@@ -28596,11 +28601,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1758837043,
-        "end": 1758839471
-      },
-      {
         "status": "[China] - Idle",
         "start": 1758839471,
         "end": 1758840654
@@ -37338,7 +37338,13 @@
       {
         "status": "Available",
         "start": 1760043634,
-        "end": null
+        "end": 1760047240
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760047240,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -44238,6 +44244,12 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760036443,
+        "end": 1760047240,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760047240,
         "end": null,
         "travel_type": "airstrip"
       }
