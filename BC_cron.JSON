@@ -2185,6 +2185,11 @@
       {
         "status": "Available",
         "start": 1760021638,
+        "end": 1760039420
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1760039420,
         "end": null
       }
     ]
@@ -5019,19 +5024,19 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760028021,
-        "end": null,
+        "end": 1760039420,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760039420,
+        "end": null
       }
     ]
   },
   "2250222": {
     "name": "Ronskip",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758829241,
-        "end": 1758882661
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1758882661,
@@ -5238,12 +5243,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1758829241,
-        "end": 1758838248,
-        "travel_type": "private"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1758838248,
@@ -11126,12 +11125,6 @@
     "name": "Twitt3y",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1758829241,
-        "end": 1758836451,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758836451,
         "end": 1758843650
@@ -16548,11 +16541,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758829241,
-        "end": 1758843650
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1758843650,
         "end": 1758852647,
@@ -19901,6 +19889,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760037621,
+        "end": 1760039420
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1760039420,
         "end": null
       }
     ]
@@ -22796,12 +22789,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758829241,
-        "end": 1758835863,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758835863,
@@ -37238,8 +37225,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760038819,
-        "end": null,
+        "end": 1760039420,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1760039420,
+        "end": null
       }
     ]
   },
@@ -41060,8 +41052,13 @@
       {
         "status": "[China] - Going",
         "start": 1760029235,
-        "end": null,
+        "end": 1760039420,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760039420,
+        "end": null
       }
     ]
   },
@@ -41883,11 +41880,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758829241,
-        "end": 1758829858
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1758829858,
