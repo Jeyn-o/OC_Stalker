@@ -1327,7 +1327,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760031032,
-        "end": null
+        "end": 1760034022
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760034022,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6084,8 +6090,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760028632,
-        "end": null,
+        "end": 1760034022,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1760034022,
+        "end": null
       }
     ]
   },
@@ -6248,12 +6259,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1758823856,
-        "end": 1758828053,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1758828053,
@@ -8491,6 +8496,11 @@
       {
         "status": "Jail",
         "start": 1760033425,
+        "end": 1760034022
+      },
+      {
+        "status": "Available",
+        "start": 1760034022,
         "end": null
       }
     ]
@@ -25334,11 +25344,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Hawaii] - Idle",
-        "start": 1758823856,
-        "end": 1758828661
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1758828661,
         "end": 1758834646,
@@ -30345,7 +30350,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760026822,
-        "end": null
+        "end": 1760034022
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760034022,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33129,6 +33140,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1760032225,
+        "end": 1760034022
+      },
+      {
+        "status": "Available",
+        "start": 1760034022,
         "end": null
       }
     ]
@@ -34907,11 +34923,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758823856,
-        "end": 1758824455
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1758824455,
@@ -44228,6 +44239,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760033425,
+        "end": 1760034022
+      },
+      {
+        "status": "[United Arab Emirates] Lost - Revives: OFF",
+        "start": 1760034022,
         "end": null
       }
     ]
