@@ -8664,12 +8664,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1758788458,
-        "end": 1758790253,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758790253,
         "end": 1758867651
@@ -9249,7 +9243,13 @@
       {
         "status": "Available",
         "start": 1759998028,
-        "end": null
+        "end": 1759998636
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1759998636,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16506,11 +16506,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758788458,
-        "end": 1758789063
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758789063,
@@ -27055,12 +27050,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758788458,
-        "end": 1758795654,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758795654,
         "end": 1758802256,
@@ -28532,6 +28521,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759997423,
+        "end": 1759998636,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1759998636,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29801,8 +29796,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1759997423,
-        "end": null,
+        "end": 1759998636,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1759998636,
+        "end": null
       }
     ]
   },
