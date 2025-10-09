@@ -4071,7 +4071,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1759987227,
-        "end": null
+        "end": 1759989029
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1759989029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7392,7 +7398,13 @@
       {
         "status": "Available",
         "start": 1759972225,
-        "end": null
+        "end": 1759989029
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1759989029,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -12726,8 +12738,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1759977023,
-        "end": null,
+        "end": 1759989029,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759989029,
+        "end": null
       }
     ]
   },
@@ -24452,11 +24469,6 @@
     "name": "Krytical",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758778845,
-        "end": 1758966053
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1758966053,
         "end": 1758968450
@@ -26999,8 +27011,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759977628,
-        "end": null,
+        "end": 1759989029,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759989029,
+        "end": null
       }
     ]
   },
@@ -29859,11 +29876,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758778845,
-        "end": 1758790871
-      },
       {
         "status": "[China] - Going",
         "start": 1758790871,
