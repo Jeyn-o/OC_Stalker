@@ -4710,12 +4710,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758839471,
-        "end": 1758846048,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758846048,
         "end": 1758891043
@@ -10387,6 +10381,11 @@
       {
         "status": "Available",
         "start": 1759776025,
+        "end": 1760049620
+      },
+      {
+        "status": "Jail",
+        "start": 1760049620,
         "end": null
       }
     ]
@@ -14821,6 +14820,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760049026,
+        "end": 1760049620
+      },
+      {
+        "status": "Available",
+        "start": 1760049620,
         "end": null
       }
     ]
@@ -15880,12 +15884,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1758839471,
-        "end": 1758851447,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1758851447,
@@ -28624,11 +28622,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1758839471,
-        "end": 1758840654
-      },
-      {
         "status": "[China] - Returning",
         "start": 1758840654,
         "end": 1758850860,
@@ -29896,7 +29889,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760040033,
-        "end": null
+        "end": 1760049620
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760049620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -44262,6 +44261,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760048429,
+        "end": 1760049620,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760049620,
         "end": null,
         "travel_type": "airstrip"
       }
