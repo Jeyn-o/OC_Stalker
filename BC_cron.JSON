@@ -2190,6 +2190,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1760039420,
+        "end": 1760040033
+      },
+      {
+        "status": "Available",
+        "start": 1760040033,
         "end": null
       }
     ]
@@ -6085,8 +6090,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760035231,
-        "end": null,
+        "end": 1760040033,
         "travel_type": "private"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760040033,
+        "end": null
       }
     ]
   },
@@ -10185,6 +10195,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1760038227,
+        "end": 1760040033
+      },
+      {
+        "status": "Available",
+        "start": 1760040033,
         "end": null
       }
     ]
@@ -14723,6 +14738,11 @@
       {
         "status": "Available",
         "start": 1759845627,
+        "end": 1760040033
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1760040033,
         "end": null
       }
     ]
@@ -29778,8 +29798,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760032836,
-        "end": null,
+        "end": 1760040033,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760040033,
+        "end": null
       }
     ]
   },
@@ -30332,12 +30357,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1758829858,
-        "end": 1758840048,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758840048,
@@ -37231,7 +37250,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1760039420,
-        "end": null
+        "end": 1760040033
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760040033,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41880,11 +41905,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1758829858,
-        "end": 1758830452
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1758830452,
