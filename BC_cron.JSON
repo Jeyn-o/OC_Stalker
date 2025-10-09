@@ -16332,11 +16332,6 @@
     "name": "Thornking",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758804654,
-        "end": 1758819053
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1758819053,
         "end": 1758821469
@@ -16490,11 +16485,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758804654,
-        "end": 1758808866
-      },
       {
         "status": "[United Kingdom] Mugged - Revives: Partial",
         "start": 1758808866,
@@ -17276,12 +17266,6 @@
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758804654,
-        "end": 1758809450,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758809450,
@@ -21991,8 +21975,13 @@
       {
         "status": "[China] - Going",
         "start": 1760011831,
-        "end": null,
+        "end": 1760014841,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760014841,
+        "end": null
       }
     ]
   },
@@ -26900,8 +26889,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760007637,
-        "end": null,
+        "end": 1760014841,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760014841,
+        "end": null
       }
     ]
   },
@@ -32829,11 +32823,6 @@
   "3628419": {
     "name": "Littlegman212",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1758804654,
-        "end": 1758806455
-      },
       {
         "status": "Available",
         "start": 1758806455,
@@ -40692,6 +40681,11 @@
       {
         "status": "Available",
         "start": 1760013025,
+        "end": 1760014841
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1760014841,
         "end": null
       }
     ]
@@ -44261,8 +44255,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760013025,
-        "end": null,
+        "end": 1760014841,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760014841,
+        "end": null
       }
     ]
   },
