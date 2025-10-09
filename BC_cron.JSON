@@ -2113,7 +2113,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760004032,
-        "end": null
+        "end": 1760004619
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760004619,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22050,7 +22056,13 @@
       {
         "status": "Available",
         "start": 1759990829,
-        "end": null
+        "end": 1760004619
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760004619,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -22837,19 +22849,19 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760001629,
-        "end": null
+        "end": 1760004619
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760004619,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1758794470,
-        "end": 1758801674,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1758801674,
@@ -26132,11 +26144,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1758794470,
-        "end": 1758805272
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758805272,
         "end": 1758816068,
@@ -26953,8 +26960,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759998028,
-        "end": null,
+        "end": 1760004619,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760004619,
+        "end": null
       }
     ]
   },
@@ -37273,11 +37285,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1758794470,
-        "end": 1758795046
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758795046,
         "end": 1758811253,
@@ -38827,6 +38834,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1759999220,
+        "end": 1760004619,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1760004619,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40757,11 +40770,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] Hospitalized - Revives: ALL",
-        "start": 1758794470,
-        "end": 1758799256
-      },
       {
         "status": "[China] - Idle",
         "start": 1758799256,
