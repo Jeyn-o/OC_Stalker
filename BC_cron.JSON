@@ -672,12 +672,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758789650,
-        "end": 1758796845,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758796845,
         "end": 1758800451
@@ -12703,6 +12697,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1759990226,
+        "end": 1759999832,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1759999832,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -28521,8 +28521,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1759998636,
-        "end": null,
+        "end": 1759999832,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1759999832,
+        "end": null
       }
     ]
   },
@@ -31618,12 +31623,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1758789650,
-        "end": 1758802256,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1758802256,
@@ -34998,11 +34997,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Hawaii] Hospitalized - Revives: ALL",
-        "start": 1758789650,
-        "end": 1758791455
-      },
       {
         "status": "[Hawaii] - Idle",
         "start": 1758791455,
@@ -40710,6 +40704,11 @@
       {
         "status": "Available",
         "start": 1759999220,
+        "end": 1759999832
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1759999832,
         "end": null
       }
     ]
