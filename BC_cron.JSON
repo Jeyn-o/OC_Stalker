@@ -7481,6 +7481,12 @@
       {
         "status": "[China] - Going",
         "start": 1760046024,
+        "end": 1760050230,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760050230,
         "end": null,
         "travel_type": "standard"
       }
@@ -9620,6 +9626,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760042428,
+        "end": 1760050230,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760050230,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14833,12 +14845,6 @@
     "name": "BiberBart",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1758840048,
-        "end": 1758841268,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1758841268,
         "end": 1758841846
@@ -18018,11 +18024,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758840048,
-        "end": 1758840654
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758840654,
@@ -24302,8 +24303,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760048429,
-        "end": null,
+        "end": 1760050230,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760050230,
+        "end": null
       }
     ]
   },
@@ -30454,11 +30460,6 @@
     "name": "Mr_jeff14574",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758840048,
-        "end": 1758899452
-      },
-      {
         "status": "[China] - Going",
         "start": 1758899452,
         "end": 1758909680,
@@ -32828,6 +32829,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760043019,
+        "end": 1760050230,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760050230,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -42905,11 +42912,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758840048,
-        "end": 1758841268
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1758841268,
