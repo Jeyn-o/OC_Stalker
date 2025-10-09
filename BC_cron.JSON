@@ -5003,6 +5003,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760016635,
+        "end": 1760028021,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760028021,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -21971,8 +21977,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760024432,
-        "end": null,
+        "end": 1760028021,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760028021,
+        "end": null
       }
     ]
   },
@@ -24128,6 +24139,12 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760021638,
+        "end": 1760028021,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760028021,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31972,12 +31989,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1758817870,
-        "end": 1758825064,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1758825064,
         "end": 1758832261,
@@ -33119,11 +33130,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758817870,
-        "end": 1758819053
-      },
       {
         "status": "[China] - Returning",
         "start": 1758819053,
@@ -37198,8 +37204,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760026822,
-        "end": null,
+        "end": 1760028021,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760028021,
+        "end": null
       }
     ]
   },
@@ -38734,6 +38745,11 @@
       {
         "status": "[Japan] - Idle",
         "start": 1760027429,
+        "end": 1760028021
+      },
+      {
+        "status": "[Japan] Mugged - Revives: ALL",
+        "start": 1760028021,
         "end": null
       }
     ]
@@ -44456,6 +44472,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1760026822,
+        "end": 1760028021
+      },
+      {
+        "status": "Available",
+        "start": 1760028021,
         "end": null
       }
     ]
