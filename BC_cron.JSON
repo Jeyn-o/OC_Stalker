@@ -11853,8 +11853,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760029235,
-        "end": null,
+        "end": 1760041220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760041220,
+        "end": null
       }
     ]
   },
@@ -14748,6 +14753,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760040033,
+        "end": 1760041220
+      },
+      {
+        "status": "Available",
+        "start": 1760041220,
         "end": null
       }
     ]
@@ -18539,12 +18549,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1758831056,
-        "end": 1758843070,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1758843070,
         "end": 1758843650
@@ -19919,19 +19923,19 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1760039420,
-        "end": null
+        "end": 1760041220
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760041220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1758831056,
-        "end": 1758834069,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1758834069,
@@ -22024,8 +22028,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760037621,
-        "end": null,
+        "end": 1760041220,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760041220,
+        "end": null
       }
     ]
   },
@@ -37258,6 +37267,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760040033,
+        "end": 1760041220,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760041220,
         "end": null,
         "travel_type": "airstrip"
       }
