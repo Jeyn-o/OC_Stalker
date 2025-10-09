@@ -635,8 +635,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760029827,
-        "end": null,
+        "end": 1760042428,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760042428,
+        "end": null
       }
     ]
   },
@@ -6117,7 +6122,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760040033,
-        "end": null
+        "end": 1760042428
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760042428,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -9606,7 +9617,13 @@
       {
         "status": "Available",
         "start": 1759971017,
-        "end": null
+        "end": 1760042428
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760042428,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24216,7 +24233,13 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760041829,
-        "end": null
+        "end": 1760042428
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1760042428,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32043,11 +32066,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758832261,
-        "end": 1758876654
-      },
-      {
         "status": "Jail",
         "start": 1758876654,
         "end": 1758877231
@@ -32838,11 +32856,6 @@
     "name": "Littlegman212",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758832261,
-        "end": 1758894653
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758894653,
         "end": 1758906651,
@@ -33195,12 +33208,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758832261,
-        "end": 1758842448,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1758842448,
@@ -37310,6 +37317,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760041220,
+        "end": 1760042428,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760042428,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -38845,8 +38858,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1760032225,
-        "end": null,
+        "end": 1760042428,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760042428,
+        "end": null
       }
     ]
   },
