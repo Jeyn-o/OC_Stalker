@@ -4049,8 +4049,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760009427,
-        "end": null,
+        "end": 1760015419,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760015419,
+        "end": null
       }
     ]
   },
@@ -11787,12 +11792,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1758805272,
-        "end": 1758807075,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1758807075,
         "end": 1758808248,
@@ -17894,12 +17893,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758805272,
-        "end": 1758811859,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758811859,
         "end": 1758819053,
@@ -21981,7 +21974,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760014841,
-        "end": null
+        "end": 1760015419
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760015419,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -26061,12 +26060,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1758805272,
-        "end": 1758816068,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758816068,
@@ -33182,11 +33175,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758805272,
-        "end": 1758807648
-      },
-      {
         "status": "[China] - Going",
         "start": 1758807648,
         "end": 1758817870,
@@ -37213,6 +37201,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760014228,
+        "end": 1760015419,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760015419,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -44234,7 +44228,13 @@
       {
         "status": "Available",
         "start": 1760013625,
-        "end": null
+        "end": 1760015419
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760015419,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -44261,7 +44261,13 @@
       {
         "status": "Available",
         "start": 1760014841,
-        "end": null
+        "end": 1760015419
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1760015419,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
