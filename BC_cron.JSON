@@ -9265,8 +9265,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760001018,
-        "end": null,
+        "end": 1760002829,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760002829,
+        "end": null
       }
     ]
   },
@@ -11748,6 +11753,11 @@
       {
         "status": "Jail",
         "start": 1760002236,
+        "end": 1760002829
+      },
+      {
+        "status": "Available",
+        "start": 1760002829,
         "end": null
       }
     ]
@@ -25369,8 +25379,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760001018,
-        "end": null,
+        "end": 1760002829,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760002829,
+        "end": null
       }
     ]
   },
@@ -29831,7 +29846,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1759998636,
-        "end": null
+        "end": 1760002829
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760002829,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40742,11 +40763,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758792674,
-        "end": 1758794470
-      },
       {
         "status": "[China] Hospitalized - Revives: ALL",
         "start": 1758794470,
