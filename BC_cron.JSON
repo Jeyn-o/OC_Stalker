@@ -672,12 +672,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758800451,
-        "end": 1758807075,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758807075,
         "end": 1758813650,
@@ -1317,7 +1311,13 @@
       {
         "status": "Available",
         "start": 1760001018,
-        "end": null
+        "end": 1760010628
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760010628,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2888,11 +2888,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758800451,
-        "end": 1758805852
-      },
       {
         "status": "[Japan] - Going",
         "start": 1758805852,
@@ -7649,11 +7644,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "[South Africa] Mugged - Revives: ALL",
-        "start": 1758800451,
-        "end": 1758802256
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1758802256,
@@ -14878,12 +14868,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1758800451,
-        "end": 1758811859,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758811859,
@@ -38954,12 +38938,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1758800451,
-        "end": 1758801674,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1758801674,
         "end": 1758802847,
@@ -40730,6 +40708,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1760006424,
+        "end": 1760010628
+      },
+      {
+        "status": "Available",
+        "start": 1760010628,
         "end": null
       }
     ]
