@@ -2172,11 +2172,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[Hawaii] - Idle",
-        "start": 1758791455,
-        "end": 1758796262
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1758796262,
         "end": 1758801674,
@@ -4059,7 +4054,13 @@
       {
         "status": "Available",
         "start": 1760001018,
-        "end": null
+        "end": 1760001629
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760001629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4640,8 +4641,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1759989625,
-        "end": null,
+        "end": 1760001629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760001629,
+        "end": null
       }
     ]
   },
@@ -9261,12 +9267,6 @@
   "2647214": {
     "name": "Balgor",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1758791455,
-        "end": 1758799256,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758799256,
@@ -15544,11 +15544,6 @@
   "3026725": {
     "name": "Neodork",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758791455,
-        "end": 1758841846
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1758841846,
@@ -22815,8 +22810,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1759994426,
-        "end": null,
+        "end": 1760001629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1760001629,
+        "end": null
       }
     ]
   },
@@ -24196,6 +24196,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759990226,
+        "end": 1760001629,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760001629,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -28544,7 +28550,13 @@
       {
         "status": "Available",
         "start": 1759999832,
-        "end": null
+        "end": 1760001629
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760001629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32802,7 +32814,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1759998028,
-        "end": null
+        "end": 1760001629
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760001629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33222,11 +33240,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1758791455,
-        "end": 1758795046
-      },
       {
         "status": "[China] - Returning",
         "start": 1758795046,
@@ -35008,11 +35021,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1758791455,
-        "end": 1758797454
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1758797454,
@@ -40721,6 +40729,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1759999832,
+        "end": 1760001629
+      },
+      {
+        "status": "Available",
+        "start": 1760001629,
         "end": null
       }
     ]
