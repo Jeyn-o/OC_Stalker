@@ -2874,20 +2874,19 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760003427,
-        "end": null,
+        "end": 1760016028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760016028,
+        "end": null
       }
     ]
   },
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1758805852,
-        "end": 1758814856,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1758814856,
@@ -4994,6 +4993,11 @@
       {
         "status": "Available",
         "start": 1759967423,
+        "end": 1760016028
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1760016028,
         "end": null
       }
     ]
@@ -6037,7 +6041,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1759974627,
-        "end": null
+        "end": 1760016028
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1760016028,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -19910,12 +19920,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1758805852,
-        "end": 1758809450,
-        "travel_type": "standard"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1758809450,
         "end": 1758810058
@@ -26888,7 +26892,13 @@
       {
         "status": "Available",
         "start": 1760014841,
-        "end": null
+        "end": 1760016028
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760016028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30766,11 +30776,6 @@
   "3542414": {
     "name": "awesomemcsexy",
     "activities": [
-      {
-        "status": "[Cayman Islands] Mugged - Revives: ALL",
-        "start": 1758805852,
-        "end": 1758807648
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1758807648,
@@ -44233,6 +44238,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760015419,
+        "end": 1760016028,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760016028,
         "end": null,
         "travel_type": "airstrip"
       }
