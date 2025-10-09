@@ -7643,11 +7643,6 @@
     "name": "Caross",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758760263,
-        "end": 1759749624
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1759749624,
         "end": 1759757432,
@@ -15566,11 +15561,6 @@
     "name": "Neodork",
     "activities": [
       {
-        "status": "[Hawaii] - Idle",
-        "start": 1758760263,
-        "end": 1758786049
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1758786049,
         "end": 1758791455,
@@ -22081,7 +22071,13 @@
       {
         "status": "[China] - Idle",
         "start": 1759969828,
-        "end": null
+        "end": 1759970432
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1759970432,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -29861,6 +29857,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1759963821,
+        "end": 1759970432,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1759970432,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34499,11 +34501,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1758760263,
-        "end": 1758761468
-      },
-      {
         "status": "Available",
         "start": 1758761468,
         "end": 1758808248
@@ -39006,12 +39003,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758760263,
-        "end": 1758767466,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758767466,
@@ -44503,8 +44494,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1759963821,
-        "end": null,
+        "end": 1759970432,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1759970432,
+        "end": null
       }
     ]
   }
