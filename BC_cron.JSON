@@ -11761,7 +11761,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760138420,
-        "end": null
+        "end": 1760139025
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760139025,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12726,7 +12732,13 @@
       {
         "status": "Available",
         "start": 1760116228,
-        "end": null
+        "end": 1760139025
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760139025,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17052,7 +17064,13 @@
       {
         "status": "Available",
         "start": 1760114422,
-        "end": null
+        "end": 1760139025
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760139025,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17563,12 +17581,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758928852,
-        "end": 1758936051,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758936051,
@@ -21822,12 +21834,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1758928852,
-        "end": 1758930044,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1758930044,
@@ -26538,20 +26544,19 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760132425,
-        "end": null,
+        "end": 1760139025,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760139025,
+        "end": null
       }
     ]
   },
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1758928852,
-        "end": 1758929469,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1758929469,
@@ -30163,11 +30168,6 @@
   "3542414": {
     "name": "awesomemcsexy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758928852,
-        "end": 1758929469
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1758929469,
@@ -40146,11 +40146,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758928852,
-        "end": 1758929469
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1758929469,
         "end": 1758930650,
@@ -40891,12 +40886,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758928852,
-        "end": 1758938466,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1758938466,
@@ -43524,8 +43513,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760132425,
-        "end": null,
+        "end": 1760139025,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760139025,
+        "end": null
       }
     ]
   },
