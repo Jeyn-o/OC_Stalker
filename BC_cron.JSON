@@ -4716,7 +4716,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760086835,
-        "end": null
+        "end": 1760089231
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760089231,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8714,8 +8720,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760082020,
-        "end": null,
+        "end": 1760089231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760089231,
+        "end": null
       }
     ]
   },
@@ -11906,11 +11917,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758879067,
-        "end": 1758895908
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758895908,
@@ -18470,12 +18476,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1758879067,
-        "end": 1758891667,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1758891667,
         "end": 1758892255
@@ -19225,8 +19225,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760076620,
-        "end": null,
+        "end": 1760089231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760089231,
+        "end": null
       }
     ]
   },
@@ -26942,11 +26947,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758879067,
-        "end": 1758879645
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1758879645,
         "end": 1758881452,
@@ -28442,12 +28442,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1758879067,
-        "end": 1758885651,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758885651,
@@ -34811,6 +34805,12 @@
       {
         "status": "[China] - Going",
         "start": 1760079027,
+        "end": 1760089231,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760089231,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -38891,12 +38891,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1758879067,
-        "end": 1758880256,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758880256,
@@ -44170,7 +44164,13 @@
       {
         "status": "Available",
         "start": 1760088029,
-        "end": null
+        "end": 1760089231
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1760089231,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -44379,6 +44379,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760083232,
+        "end": 1760089231
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1760089231,
         "end": null
       }
     ]
