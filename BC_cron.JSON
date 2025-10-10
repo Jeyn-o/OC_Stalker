@@ -694,11 +694,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758898876,
-        "end": 1758899452
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758899452,
         "end": 1758906066,
@@ -7528,8 +7523,13 @@
       {
         "status": "[China] - Going",
         "start": 1760104832,
-        "end": null,
+        "end": 1760109026,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760109026,
+        "end": null
       }
     ]
   },
@@ -8525,11 +8525,6 @@
   "2611425": {
     "name": "NeshoNeko",
     "activities": [
-      {
-        "status": "[United Kingdom] Mugged - Revives: ALL",
-        "start": 1758898876,
-        "end": 1758901251
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758901251,
@@ -15775,11 +15770,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1758898876,
-        "end": 1758899452
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1758899452,
         "end": 1758900674,
@@ -21998,7 +21988,13 @@
       {
         "status": "Available",
         "start": 1760104227,
-        "end": null
+        "end": 1760109026
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760109026,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -24448,6 +24444,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1760106031,
+        "end": 1760109026
+      },
+      {
+        "status": "Available",
+        "start": 1760109026,
         "end": null
       }
     ]
@@ -32986,12 +32987,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1758898876,
-        "end": 1758909054,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Returning",
         "start": 1758909054,
         "end": 1758919245,
@@ -34739,12 +34734,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1758898876,
-        "end": 1758900051,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1758900051,
@@ -37165,12 +37154,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1758898876,
-        "end": 1758915067,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1758915067,
         "end": 1758926452
@@ -38616,7 +38599,13 @@
       {
         "status": "Available",
         "start": 1760090433,
-        "end": null
+        "end": 1760109026
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760109026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40412,11 +40401,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] Hospitalized - Revives: ALL",
-        "start": 1758898876,
-        "end": 1758899452
-      },
       {
         "status": "[China] - Idle",
         "start": 1758899452,
@@ -42425,6 +42409,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760108444,
+        "end": 1760109026
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1760109026,
         "end": null
       }
     ]
@@ -43776,6 +43765,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760102426,
+        "end": 1760109026,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760109026,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -43986,8 +43981,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760102426,
-        "end": null,
+        "end": 1760109026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760109026,
+        "end": null
       }
     ]
   },
