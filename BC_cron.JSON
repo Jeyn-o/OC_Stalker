@@ -1363,7 +1363,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760074828,
-        "end": null
+        "end": 1760075422
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760075422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2971,7 +2977,13 @@
       {
         "status": "Available",
         "start": 1760044826,
-        "end": null
+        "end": 1760075422
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1760075422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9358,8 +9370,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1760065820,
-        "end": null,
+        "end": 1760075422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1760075422,
+        "end": null
       }
     ]
   },
@@ -13574,12 +13591,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1758865253,
-        "end": 1758873053,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1758873053,
@@ -19908,8 +19919,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760064026,
-        "end": null,
+        "end": 1760075422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760075422,
+        "end": null
       }
     ]
   },
@@ -28592,12 +28608,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1758865253,
-        "end": 1758878455,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758878455,
@@ -41971,11 +41981,6 @@
     "name": "Cerbb",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: OFF",
-        "start": 1758865253,
-        "end": 1758885651
-      },
-      {
         "status": "[China] - Going",
         "start": 1758885651,
         "end": 1758895908,
@@ -42854,12 +42859,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1758865253,
-        "end": 1758866467,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758866467,
