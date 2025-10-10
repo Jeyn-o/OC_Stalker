@@ -3610,11 +3610,6 @@
     "name": "smyles",
     "activities": [
       {
-        "status": "[Switzerland] Mugged - Revives: OFF",
-        "start": 1758865846,
-        "end": 1758868258
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1758868258,
         "end": 1758870077
@@ -4729,7 +4724,13 @@
       {
         "status": "Available",
         "start": 1760032836,
-        "end": null
+        "end": 1760076028
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760076028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7498,7 +7499,13 @@
       {
         "status": "Available",
         "start": 1760055027,
-        "end": null
+        "end": 1760076028
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760076028,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -9376,7 +9383,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1760075422,
-        "end": null
+        "end": 1760076028
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1760076028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10476,12 +10489,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1758865846,
-        "end": 1758872446,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758872446,
@@ -19322,8 +19329,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760063427,
-        "end": null,
+        "end": 1760076028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760076028,
+        "end": null
       }
     ]
   },
@@ -24293,8 +24305,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760063427,
-        "end": null,
+        "end": 1760076028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760076028,
+        "end": null
       }
     ]
   },
@@ -39048,11 +39065,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1758865846,
-        "end": 1758867651
-      },
-      {
         "status": "Available",
         "start": 1758867651,
         "end": 1758868258
@@ -40750,6 +40762,11 @@
       {
         "status": "Available",
         "start": 1760074229,
+        "end": 1760076028
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1760076028,
         "end": null
       }
     ]
@@ -44198,7 +44215,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1760074828,
-        "end": null
+        "end": 1760076028
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760076028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
