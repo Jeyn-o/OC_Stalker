@@ -2148,6 +2148,11 @@
       {
         "status": "Available",
         "start": 1760045433,
+        "end": 1760067024
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1760067024,
         "end": null
       }
     ]
@@ -6152,8 +6157,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760061632,
-        "end": null,
+        "end": 1760067024,
         "travel_type": "private"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760067024,
+        "end": null
       }
     ]
   },
@@ -11880,6 +11890,11 @@
       {
         "status": "Jail",
         "start": 1760066419,
+        "end": 1760067024
+      },
+      {
+        "status": "Available",
+        "start": 1760067024,
         "end": null
       }
     ]
@@ -18522,12 +18537,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1758856849,
-        "end": 1758864052,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1758864052,
@@ -26957,7 +26966,13 @@
       {
         "status": "Available",
         "start": 1760064631,
-        "end": null
+        "end": 1760067024
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760067024,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37317,7 +37332,13 @@
       {
         "status": "Available",
         "start": 1760066419,
-        "end": null
+        "end": 1760067024
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760067024,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41936,11 +41957,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1758856849,
-        "end": 1758865253
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1758865253,
