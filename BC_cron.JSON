@@ -4750,11 +4750,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1758930044,
-        "end": 1758936666
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1758936666,
         "end": 1758949276,
@@ -19540,7 +19535,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760139626,
-        "end": null
+        "end": 1760140224
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760140224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21834,11 +21835,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1758930044,
-        "end": 1758930650
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1758930650,
@@ -27914,12 +27910,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1758930044,
-        "end": 1758939052,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1758939052,
@@ -36573,8 +36563,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760133635,
-        "end": null,
+        "end": 1760140224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760140224,
+        "end": null
       }
     ]
   },
@@ -43012,6 +43007,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760133030,
+        "end": 1760140224,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760140224,
         "end": null,
         "travel_type": "airstrip"
       }
