@@ -3685,12 +3685,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1758888653,
-        "end": 1758894046,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1758894046,
         "end": 1758898258
@@ -4170,7 +4164,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1760098231,
-        "end": null
+        "end": 1760098819
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1760098819,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6355,12 +6355,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758888653,
-        "end": 1758894046,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1758894046,
         "end": 1758901849
@@ -7520,7 +7514,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760081432,
-        "end": null
+        "end": 1760098819
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760098819,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -19900,12 +19900,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1758888653,
-        "end": 1758890456,
-        "travel_type": "standard"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1758890456,
         "end": 1758891043
@@ -25335,11 +25329,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Hawaii] - Idle",
-        "start": 1758888653,
-        "end": 1758889251
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1758889251,
         "end": 1758894653,
@@ -26945,11 +26934,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758888653,
-        "end": 1758889251
-      },
       {
         "status": "[Canada] - Going",
         "start": 1758889251,
@@ -31470,11 +31454,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1758888653,
-        "end": 1758895261
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1758895261,
         "end": 1758907248,
@@ -33093,6 +33072,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1760085622,
+        "end": 1760098819
+      },
+      {
+        "status": "Available",
+        "start": 1760098819,
         "end": null
       }
     ]
