@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758861060,
-        "end": 1758871862
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758871862,
         "end": 1758884474,
@@ -6198,11 +6193,6 @@
     "name": "Litri",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758861060,
-        "end": 1758900051
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758900051,
         "end": 1758912654,
@@ -11961,12 +11951,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1758861060,
-        "end": 1758867651,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758867651,
@@ -22118,8 +22102,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760065820,
-        "end": null,
+        "end": 1760071230,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760071230,
+        "end": null
       }
     ]
   },
@@ -28616,7 +28605,13 @@
       {
         "status": "Available",
         "start": 1760038227,
-        "end": null
+        "end": 1760071230
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760071230,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29896,8 +29891,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760064631,
-        "end": null,
+        "end": 1760071230,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760071230,
+        "end": null
       }
     ]
   },
@@ -37387,7 +37387,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1760070632,
-        "end": null
+        "end": 1760071230
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760071230,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -42879,12 +42885,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1758861060,
-        "end": 1758862872,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758862872,
         "end": 1758864052
@@ -44370,8 +44370,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760064631,
-        "end": null,
+        "end": 1760071230,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760071230,
+        "end": null
       }
     ]
   },
