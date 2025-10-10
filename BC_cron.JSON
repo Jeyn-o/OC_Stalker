@@ -5197,11 +5197,6 @@
     "name": "Special-Needs",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: Partial",
-        "start": 1758926452,
-        "end": 1758927055
-      },
-      {
         "status": "Available",
         "start": 1758927055,
         "end": 1759017050
@@ -18885,7 +18880,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760136031,
-        "end": null
+        "end": 1760136616
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760136616,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19492,6 +19493,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760125822,
+        "end": 1760136616,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760136616,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -21704,6 +21711,12 @@
       {
         "status": "[China] - Going",
         "start": 1760132425,
+        "end": 1760136616,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760136616,
         "end": null,
         "travel_type": "standard"
       }
@@ -36643,12 +36656,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1758926452,
-        "end": 1758928253,
-        "travel_type": "standard"
-      },
-      {
         "status": "[Cayman Islands] - Idle",
         "start": 1758928253,
         "end": 1758935450
@@ -39772,6 +39779,11 @@
       {
         "status": "Available",
         "start": 1760136031,
+        "end": 1760136616
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1760136616,
         "end": null
       }
     ]
