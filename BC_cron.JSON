@@ -19908,6 +19908,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760052629,
+        "end": 1760064026,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760064026,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -26145,11 +26151,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1758853859,
-        "end": 1758855044
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1758855044,
@@ -34040,7 +34041,13 @@
       {
         "status": "Available",
         "start": 1760048429,
-        "end": null
+        "end": 1760064026
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760064026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37284,8 +37291,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760062825,
-        "end": null,
+        "end": 1760064026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760064026,
+        "end": null
       }
     ]
   },
@@ -40685,6 +40697,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760060423,
+        "end": 1760064026
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1760064026,
         "end": null
       }
     ]
@@ -44285,8 +44302,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760057427,
-        "end": null,
+        "end": 1760064026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760064026,
+        "end": null
       }
     ]
   },
