@@ -5197,11 +5197,6 @@
     "name": "Special-Needs",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758927055,
-        "end": 1759017050
-      },
-      {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1759017050,
         "end": 1759019469
@@ -6194,7 +6189,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760134828,
-        "end": null
+        "end": 1760137231
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760137231,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -6318,12 +6319,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1758927055,
-        "end": 1758931854,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Idle",
         "start": 1758931854,
@@ -16311,12 +16306,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1758927055,
-        "end": 1758936051,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758936051,
         "end": 1758937252
@@ -18893,12 +18882,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1758927055,
-        "end": 1758936666,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1758936666,
@@ -25639,12 +25622,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1758927055,
-        "end": 1758938466,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758938466,
         "end": 1758939653
@@ -30214,12 +30191,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1758927055,
-        "end": 1758928852,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758928852,
         "end": 1758929469
@@ -34247,8 +34218,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760130626,
-        "end": null,
+        "end": 1760137231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760137231,
+        "end": null
       }
     ]
   },
