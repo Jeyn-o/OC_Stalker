@@ -5197,6 +5197,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760041829,
+        "end": 1760070026
+      },
+      {
+        "status": "Available",
+        "start": 1760070026,
         "end": null
       }
     ]
@@ -11928,8 +11933,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760069424,
-        "end": null,
+        "end": 1760070026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760070026,
+        "end": null
       }
     ]
   },
@@ -30433,7 +30443,13 @@
       {
         "status": "Available",
         "start": 1760044222,
-        "end": null
+        "end": 1760070026
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760070026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39046,12 +39062,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1758859849,
-        "end": 1758861653,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758861653,
