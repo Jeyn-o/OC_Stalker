@@ -5064,8 +5064,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760047819,
-        "end": null,
+        "end": 1760054438,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760054438,
+        "end": null
       }
     ]
   },
@@ -6142,7 +6147,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760053219,
-        "end": null
+        "end": 1760054438
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760054438,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -8717,6 +8728,11 @@
       {
         "status": "Jail",
         "start": 1760041829,
+        "end": 1760054438
+      },
+      {
+        "status": "Available",
+        "start": 1760054438,
         "end": null
       }
     ]
@@ -10375,6 +10391,11 @@
       {
         "status": "Jail",
         "start": 1760049620,
+        "end": 1760054438
+      },
+      {
+        "status": "Available",
+        "start": 1760054438,
         "end": null
       }
     ]
@@ -41937,12 +41958,6 @@
     "name": "Cerbb",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758844251,
-        "end": 1758856849,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1758856849,
         "end": 1758865253
@@ -42831,11 +42846,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758844251,
-        "end": 1758844872
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758844872,
