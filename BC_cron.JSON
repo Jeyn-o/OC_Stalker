@@ -22039,7 +22039,13 @@
       {
         "status": "Available",
         "start": 1760095833,
-        "end": null
+        "end": 1760097631
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760097631,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -26001,11 +26007,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758887454,
-        "end": 1758911469
-      },
-      {
         "status": "[Hawaii] - Going",
         "start": 1758911469,
         "end": 1758916875,
@@ -26940,12 +26941,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1758887454,
-        "end": 1758888653,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758888653,
@@ -29701,6 +29696,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760089824,
+        "end": 1760097631
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: ALL",
+        "start": 1760097631,
         "end": null
       }
     ]
@@ -30680,8 +30680,13 @@
       {
         "status": "[China] - Going",
         "start": 1760086835,
-        "end": null,
+        "end": 1760097631,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760097631,
+        "end": null
       }
     ]
   },
