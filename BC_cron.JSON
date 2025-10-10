@@ -4200,12 +4200,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1758867651,
-        "end": 1758875461,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1758875461,
         "end": 1758876046
@@ -8743,12 +8737,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1758867651,
-        "end": 1758868846,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1758868846,
         "end": 1758870077
@@ -11959,11 +11947,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758867651,
-        "end": 1758868846
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758868846,
@@ -22248,11 +22231,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1758867651,
-        "end": 1758871250
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1758871250,
         "end": 1758880256,
@@ -28607,6 +28585,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760071230,
+        "end": 1760077830,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760077830,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -32818,7 +32802,13 @@
       {
         "status": "Available",
         "start": 1760057427,
-        "end": null
+        "end": 1760077830
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760077830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37912,12 +37902,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1758867651,
-        "end": 1758868846,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1758868846,
         "end": 1758874845
@@ -39060,11 +39044,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758867651,
-        "end": 1758868258
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1758868258,
@@ -44216,8 +44195,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760076028,
-        "end": null,
+        "end": 1760077830,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760077830,
+        "end": null
       }
     ]
   },
