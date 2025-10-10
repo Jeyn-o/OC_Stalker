@@ -5343,12 +5343,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1758911469,
-        "end": 1758920473,
-        "travel_type": "private"
-      },
-      {
         "status": "Available",
         "start": 1758920473,
         "end": 1758976272
@@ -6223,8 +6217,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760117250,
-        "end": null,
+        "end": 1760121626,
         "travel_type": "private"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760121626,
+        "end": null
       }
     ]
   },
@@ -7802,7 +7801,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760099424,
-        "end": null
+        "end": 1760121626
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760121626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16429,12 +16434,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1758911469,
-        "end": 1758920473,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1758920473,
         "end": 1758921644
@@ -17225,12 +17224,6 @@
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1758911469,
-        "end": 1758916247,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1758916247,
@@ -21883,6 +21876,11 @@
       {
         "status": "[China] Attacked - Revives: ALL",
         "start": 1760121034,
+        "end": 1760121626
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760121626,
         "end": null
       }
     ]
@@ -24012,8 +24010,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760115029,
-        "end": null,
+        "end": 1760121626,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760121626,
+        "end": null
       }
     ]
   },
@@ -25810,12 +25813,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1758911469,
-        "end": 1758916875,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1758916875,
         "end": 1758920473
@@ -26767,11 +26764,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758911469,
-        "end": 1758912051
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1758912051,
@@ -42063,6 +42055,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760114422,
+        "end": 1760121626
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1760121626,
         "end": null
       }
     ]
