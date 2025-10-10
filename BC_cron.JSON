@@ -12774,7 +12774,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1760113831,
-        "end": null
+        "end": 1760115029
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760115029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17751,12 +17757,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758904847,
-        "end": 1758912051,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1758912051,
         "end": 1758913270
@@ -21881,8 +21881,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760112045,
-        "end": null,
+        "end": 1760115029,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760115029,
+        "end": null
       }
     ]
   },
@@ -24022,6 +24027,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760107824,
+        "end": 1760115029,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760115029,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25147,8 +25158,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760108444,
-        "end": null,
+        "end": 1760115029,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760115029,
+        "end": null
       }
     ]
   },
@@ -34575,12 +34591,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1758904847,
-        "end": 1758905453,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1758905453,
         "end": 1758906651,
@@ -40568,6 +40578,11 @@
       {
         "status": "Available",
         "start": 1760114422,
+        "end": 1760115029
+      },
+      {
+        "status": "Jail",
+        "start": 1760115029,
         "end": null
       }
     ]
@@ -41950,12 +41965,6 @@
   "3851236": {
     "name": "Psyden",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1758904847,
-        "end": 1758915067,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758915067,
