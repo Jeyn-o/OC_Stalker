@@ -650,6 +650,11 @@
       {
         "status": "[South Africa] Lost - Revives: OFF",
         "start": 1760092820,
+        "end": 1760094035
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760094035,
         "end": null
       }
     ]
@@ -2147,7 +2152,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760089824,
-        "end": null
+        "end": 1760094035
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760094035,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3007,12 +3018,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1758883844,
-        "end": 1758890456,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1758890456,
@@ -4222,11 +4227,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758883844,
-        "end": 1758893474
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1758893474,
@@ -8753,11 +8753,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1758883844,
-        "end": 1758884474
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1758884474,
@@ -13523,7 +13518,13 @@
       {
         "status": "Available",
         "start": 1760024432,
-        "end": null
+        "end": 1760094035
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1760094035,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26822,8 +26823,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760081432,
-        "end": null,
+        "end": 1760094035,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760094035,
+        "end": null
       }
     ]
   },
@@ -40582,8 +40588,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1760084429,
-        "end": null,
+        "end": 1760094035,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1760094035,
+        "end": null
       }
     ]
   },
@@ -42395,11 +42406,6 @@
   "3851236": {
     "name": "Psyden",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758883844,
-        "end": 1758886262
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1758886262,
@@ -44440,6 +44446,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1760091629,
+        "end": 1760094035
+      },
+      {
+        "status": "Available",
+        "start": 1760094035,
         "end": null
       }
     ]
