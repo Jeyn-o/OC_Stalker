@@ -645,8 +645,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760056825,
-        "end": null,
+        "end": 1760069424,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760069424,
+        "end": null
       }
     ]
   },
@@ -11918,7 +11923,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1760068839,
-        "end": null
+        "end": 1760069424
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760069424,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33214,6 +33225,11 @@
       {
         "status": "Available",
         "start": 1760034022,
+        "end": 1760069424
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1760069424,
         "end": null
       }
     ]
@@ -37349,6 +37365,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760068228,
+        "end": 1760069424,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760069424,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -42847,12 +42869,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1758859261,
-        "end": 1758861060,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1758861060,
