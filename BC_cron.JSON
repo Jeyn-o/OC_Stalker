@@ -11010,11 +11010,6 @@
     "name": "TsanMan",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758850264,
-        "end": 1759003269
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759003269,
         "end": 1759004458
@@ -22090,7 +22085,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760059827,
-        "end": null
+        "end": 1760060423
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760060423,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -30837,8 +30838,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760053219,
-        "end": null,
+        "end": 1760060423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760060423,
+        "end": null
       }
     ]
   },
@@ -34961,12 +34967,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1758850264,
-        "end": 1758856241,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1758856241,
         "end": 1758861653,
@@ -37299,8 +37299,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760053833,
-        "end": null,
+        "end": 1760060423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760060423,
+        "end": null
       }
     ]
   },
@@ -40695,6 +40700,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1760017224,
+        "end": 1760060423
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1760060423,
         "end": null
       }
     ]
