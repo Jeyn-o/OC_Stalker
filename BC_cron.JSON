@@ -1480,7 +1480,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760130032,
-        "end": null
+        "end": 1760130626
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760130626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5305,11 +5311,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758920473,
-        "end": 1758976272
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1758976272,
@@ -13472,12 +13473,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1758920473,
-        "end": 1758921644,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758921644,
         "end": 1758922263
@@ -16378,11 +16373,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1758920473,
-        "end": 1758921644
-      },
       {
         "status": "[Japan] Mugged - Revives: Partial",
         "start": 1758921644,
@@ -25719,12 +25709,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1758920473,
-        "end": 1758925875,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758925875,
         "end": 1758927055
@@ -30315,12 +30299,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1758920473,
-        "end": 1758922263,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Idle",
         "start": 1758922263,
         "end": 1758923447
@@ -33720,6 +33698,11 @@
       {
         "status": "Available",
         "start": 1759977628,
+        "end": 1760130626
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1760130626,
         "end": null
       }
     ]
@@ -34359,6 +34342,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760123428,
+        "end": 1760130626,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760130626,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34367,12 +34356,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1758920473,
-        "end": 1758930650,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758930650,
@@ -37249,12 +37232,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1758920473,
-        "end": 1758924654,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1758924654,
