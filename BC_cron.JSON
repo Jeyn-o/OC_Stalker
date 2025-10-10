@@ -645,6 +645,11 @@
       {
         "status": "[South Africa] Mugged - Revives: OFF",
         "start": 1760091027,
+        "end": 1760092820
+      },
+      {
+        "status": "[South Africa] Lost - Revives: OFF",
+        "start": 1760092820,
         "end": null
       }
     ]
@@ -5117,12 +5122,6 @@
   "2250222": {
     "name": "Ronskip",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1758882661,
-        "end": 1758890456,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1758890456,
@@ -10459,6 +10458,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760080225,
+        "end": 1760092820,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760092820,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22209,12 +22214,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1758882661,
-        "end": 1758892255,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1758892255,
         "end": 1758892852
@@ -24222,6 +24221,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760085622,
+        "end": 1760092820,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760092820,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25351,11 +25356,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758882661,
-        "end": 1758883255
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1758883255,
@@ -28449,7 +28449,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1760089824,
-        "end": null
+        "end": 1760092820
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760092820,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33963,6 +33969,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760091629,
+        "end": 1760092820,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1760092820,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -44178,8 +44190,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760091027,
-        "end": null,
+        "end": 1760092820,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760092820,
+        "end": null
       }
     ]
   },
