@@ -691,12 +691,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1758864052,
-        "end": 1758870650,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1758870650,
         "end": 1758871862
@@ -15855,11 +15849,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758864052,
-        "end": 1758864661
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1758864661,
         "end": 1758877231,
@@ -18550,11 +18539,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1758864052,
-        "end": 1758864661
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1758864661,
@@ -26978,6 +26962,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760067024,
+        "end": 1760074229,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760074229,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37379,8 +37369,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760073024,
-        "end": null,
+        "end": 1760074229,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760074229,
+        "end": null
       }
     ]
   },
@@ -40752,6 +40747,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1760064026,
+        "end": 1760074229
+      },
+      {
+        "status": "Available",
+        "start": 1760074229,
         "end": null
       }
     ]
@@ -42867,12 +42867,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1758864052,
-        "end": 1758865253,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1758865253,
         "end": 1758866467,
@@ -44364,7 +44358,13 @@
       {
         "status": "Available",
         "start": 1760071230,
-        "end": null
+        "end": 1760074229
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760074229,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
