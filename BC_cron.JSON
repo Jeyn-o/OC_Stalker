@@ -1422,12 +1422,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759003269,
-        "end": 1759009856,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759009856,
         "end": 1759046473
@@ -2107,7 +2101,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760209232,
-        "end": null
+        "end": 1760213426
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760213426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4986,8 +4986,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760206228,
-        "end": null,
+        "end": 1760213426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760213426,
+        "end": null
       }
     ]
   },
@@ -10578,11 +10583,6 @@
   "2679269": {
     "name": "TsanMan",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1759003269,
-        "end": 1759004458
-      },
       {
         "status": "Available",
         "start": 1759004458,
@@ -21097,6 +21097,12 @@
       {
         "status": "[China] - Going",
         "start": 1760209232,
+        "end": 1760213426,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760213426,
         "end": null,
         "travel_type": "standard"
       }
@@ -21246,11 +21252,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759003269,
-        "end": 1759008056
-      },
       {
         "status": "[Japan] - Going",
         "start": 1759008056,
@@ -23267,11 +23268,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1759003269,
-        "end": 1759003852
-      },
       {
         "status": "Available",
         "start": 1759003852,
@@ -25632,11 +25628,6 @@
   "3447443": {
     "name": "Jordanw1",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1759003269,
-        "end": 1759011646
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1759011646,
@@ -28198,11 +28189,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759003269,
-        "end": 1759025451
-      },
       {
         "status": "[China] - Going",
         "start": 1759025451,
@@ -37081,11 +37067,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1759003269,
-        "end": 1759004458
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759004458,
