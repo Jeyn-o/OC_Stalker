@@ -3714,11 +3714,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1758951648,
-        "end": 1758952869
-      },
-      {
         "status": "[South Africa] Mugged - Revives: OFF",
         "start": 1758952869,
         "end": 1758955250
@@ -10046,8 +10041,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760149220,
-        "end": null,
+        "end": 1760161826,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760161826,
+        "end": null
       }
     ]
   },
@@ -26248,8 +26248,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760149220,
-        "end": null,
+        "end": 1760161826,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760161826,
+        "end": null
       }
     ]
   },
@@ -29496,7 +29501,13 @@
       {
         "status": "Available",
         "start": 1760122230,
-        "end": null
+        "end": 1760161826
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760161826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30988,12 +30999,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1758951648,
-        "end": 1758963672,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758963672,
@@ -36384,8 +36389,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760160625,
-        "end": null,
+        "end": 1760161826,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1760161826,
+        "end": null
       }
     ]
   },
@@ -39530,6 +39540,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1760160018,
+        "end": 1760161826
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1760161826,
         "end": null
       }
     ]
@@ -41011,7 +41026,13 @@
       {
         "status": "Available",
         "start": 1760127026,
-        "end": null
+        "end": 1760161826
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760161826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
