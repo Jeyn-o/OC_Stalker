@@ -3,12 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759016447,
-        "end": 1759029081,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1759029081,
         "end": 1759041069,
@@ -11445,6 +11439,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760225432,
+        "end": 1760226629,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760226629,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31993,8 +31993,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760215228,
-        "end": null,
+        "end": 1760226629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760226629,
+        "end": null
       }
     ]
   },
@@ -39307,7 +39312,13 @@
       {
         "status": "Available",
         "start": 1760226026,
-        "end": null
+        "end": 1760226629
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760226629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
