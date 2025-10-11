@@ -16292,11 +16292,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1758946253,
-        "end": 1758955844
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1758955844,
         "end": 1758965461,
@@ -18081,11 +18076,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1758946253,
-        "end": 1758946855
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758946855,
         "end": 1758958264,
@@ -18847,11 +18837,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758946253,
-        "end": 1758978652
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1758978652,
@@ -21811,11 +21796,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758946253,
-        "end": 1758956476
-      },
       {
         "status": "[Japan] - Going",
         "start": 1758956476,
@@ -24847,12 +24827,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1758946253,
-        "end": 1758955844,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758955844,
@@ -30033,7 +30007,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760155230,
-        "end": null
+        "end": 1760156423
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760156423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -42880,6 +42860,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760149830,
+        "end": 1760156423,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760156423,
         "end": null,
         "travel_type": "airstrip"
       }
