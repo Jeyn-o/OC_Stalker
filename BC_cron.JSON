@@ -4218,11 +4218,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1758970872,
-        "end": 1758974463
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1758974463,
         "end": 1758976272,
@@ -9330,12 +9325,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1758970872,
-        "end": 1758980451,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1758980451,
         "end": 1758985847
@@ -10150,11 +10139,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758970872,
-        "end": 1759023068
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1759023068,
@@ -12591,6 +12575,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1760171431,
+        "end": 1760181027,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1760181027,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -12599,11 +12589,6 @@
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1758970872,
-        "end": 1758971446
-      },
       {
         "status": "[Canada] Mugged - Revives: Partial",
         "start": 1758971446,
@@ -14576,12 +14561,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1758970872,
-        "end": 1758982252,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1758982252,
         "end": 1758983464
@@ -16014,11 +15993,6 @@
   "3114278": {
     "name": "Tooger_",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1758970872,
-        "end": 1758971446
-      },
       {
         "status": "[South Africa] Mugged - Revives: Partial",
         "start": 1758971446,
@@ -28664,8 +28638,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760173833,
-        "end": null,
+        "end": 1760181027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760181027,
+        "end": null
       }
     ]
   },
@@ -37584,11 +37563,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1758970872,
-        "end": 1758972046
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1758972046,
         "end": 1758978652,
@@ -41042,7 +41016,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760180437,
-        "end": null
+        "end": 1760181027
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760181027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
