@@ -8447,12 +8447,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1759002653,
-        "end": 1759014652,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759014652,
         "end": 1759034450
@@ -11538,12 +11532,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1759002653,
-        "end": 1759015253,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1759015253,
@@ -23136,7 +23124,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760207434,
-        "end": null
+        "end": 1760212839
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760212839,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25752,12 +25746,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1759002653,
-        "end": 1759004458,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Going",
         "start": 1759004458,
@@ -42406,6 +42394,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760209821,
+        "end": 1760212839
+      },
+      {
+        "status": "Available",
+        "start": 1760212839,
         "end": null
       }
     ]
