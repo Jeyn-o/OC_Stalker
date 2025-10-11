@@ -11617,12 +11617,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1758982252,
-        "end": 1758992472,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758992472,
         "end": 1759002653
@@ -13146,6 +13140,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760185832,
+        "end": 1760192432,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760192432,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14461,11 +14461,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1758982252,
-        "end": 1758983464
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1758983464,
@@ -24379,12 +24374,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1758982252,
-        "end": 1758983464,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1758983464,
         "end": 1758986453
@@ -27193,6 +27182,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760191231,
+        "end": 1760192432,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1760192432,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33437,8 +33432,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760182231,
-        "end": null,
+        "end": 1760192432,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760192432,
+        "end": null
       }
     ]
   },
@@ -38985,6 +38985,11 @@
       {
         "status": "Available",
         "start": 1760185832,
+        "end": 1760192432
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1760192432,
         "end": null
       }
     ]
@@ -40753,6 +40758,12 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760181027,
+        "end": 1760192432,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760192432,
         "end": null,
         "travel_type": "airstrip"
       }
