@@ -13225,12 +13225,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1758972671,
-        "end": 1758973849,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1758973849,
         "end": 1758974463
@@ -21350,7 +21344,13 @@
       {
         "status": "Available",
         "start": 1760179822,
-        "end": null
+        "end": 1760182828
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760182828,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -24504,20 +24504,19 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760175626,
-        "end": null,
+        "end": 1760182828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760182828,
+        "end": null
       }
     ]
   },
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1758972671,
-        "end": 1758981667,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758981667,
@@ -25146,7 +25145,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1760171431,
-        "end": null
+        "end": 1760182828
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1760182828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40590,7 +40595,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760182231,
-        "end": null
+        "end": 1760182828
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760182828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
