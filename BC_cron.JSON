@@ -1319,11 +1319,6 @@
     "name": "poik9",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758977446,
-        "end": 1758983464
-      },
-      {
         "status": "[China] - Going",
         "start": 1758983464,
         "end": 1758993655,
@@ -2135,6 +2130,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760186424,
+        "end": 1760187626
+      },
+      {
+        "status": "Available",
+        "start": 1760187626,
         "end": null
       }
     ]
@@ -7460,7 +7460,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760173239,
-        "end": null
+        "end": 1760187626
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760187626,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -8377,11 +8383,6 @@
   "2611425": {
     "name": "NeshoNeko",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758977446,
-        "end": 1758984050
-      },
       {
         "status": "[China] - Going",
         "start": 1758984050,
@@ -21441,11 +21442,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758977446,
-        "end": 1758978076
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1758978076,
         "end": 1758987646,
@@ -21915,12 +21911,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1758977446,
-        "end": 1758987646,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1758987646,
@@ -36400,12 +36390,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1758977446,
-        "end": 1758987070,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1758987070,
         "end": 1758990054
@@ -40654,11 +40638,6 @@
     "name": "Psyden",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1758977446,
-        "end": 1758978076
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1758978076,
         "end": 1758979248,
@@ -42531,7 +42510,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760187022,
-        "end": null
+        "end": 1760187626
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760187626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
