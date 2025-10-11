@@ -5111,7 +5111,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760143226,
-        "end": null
+        "end": 1760149220
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760149220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6222,7 +6228,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760148626,
-        "end": null
+        "end": 1760149220
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760149220,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -9330,11 +9342,6 @@
     "name": "Vampire-Catgirl",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1758939052,
-        "end": 1758939653
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1758939653,
         "end": 1758946855,
@@ -10051,7 +10058,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760141417,
-        "end": null
+        "end": 1760149220
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760149220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11754,7 +11767,13 @@
       {
         "status": "Available",
         "start": 1760146226,
-        "end": null
+        "end": 1760149220
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1760149220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18769,8 +18788,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760136616,
-        "end": null,
+        "end": 1760149220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760149220,
+        "end": null
       }
     ]
   },
@@ -21758,11 +21782,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1758939052,
-        "end": 1758939653
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1758939653,
@@ -26315,7 +26334,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760142026,
-        "end": null
+        "end": 1760149220
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760149220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27794,11 +27819,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1758939052,
-        "end": 1758939653
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1758939653,
@@ -33141,11 +33161,6 @@
   "3653613": {
     "name": "SN00PYTOBY",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758939052,
-        "end": 1758983464
-      },
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1758983464,
@@ -39569,6 +39584,11 @@
       {
         "status": "Available",
         "start": 1760146828,
+        "end": 1760149220
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1760149220,
         "end": null
       }
     ]
@@ -40709,12 +40729,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1758939052,
-        "end": 1758949276,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1758949276,
