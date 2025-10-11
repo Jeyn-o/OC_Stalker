@@ -2931,8 +2931,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1760217622,
-        "end": null,
+        "end": 1760223021,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1760223021,
+        "end": null
       }
     ]
   },
@@ -6055,8 +6060,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760218229,
-        "end": null,
+        "end": 1760223021,
         "travel_type": "private"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760223021,
+        "end": null
       }
     ]
   },
@@ -13090,12 +13100,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759012849,
-        "end": 1759013454,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1759013454,
         "end": 1759014652
@@ -16487,11 +16491,6 @@
     "name": "JuanPaulo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759012849,
-        "end": 1759040450
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1759040450,
         "end": 1759041656,
@@ -18101,8 +18100,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760210425,
-        "end": null,
+        "end": 1760223021,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760223021,
+        "end": null
       }
     ]
   },
@@ -20935,8 +20939,13 @@
       {
         "status": "[China] - Going",
         "start": 1760218843,
-        "end": null,
+        "end": 1760223021,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760223021,
+        "end": null
       }
     ]
   },
@@ -23240,6 +23249,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760215822,
+        "end": 1760223021,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760223021,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -39414,12 +39429,6 @@
     "name": "Cerbb",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1759012849,
-        "end": 1759021848,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1759021848,
         "end": 1759022451
@@ -41442,6 +41451,11 @@
       {
         "status": "Available",
         "start": 1760222423,
+        "end": 1760223021
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1760223021,
         "end": null
       }
     ]
