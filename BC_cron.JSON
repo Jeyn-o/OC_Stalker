@@ -7512,8 +7512,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760147425,
-        "end": null,
+        "end": 1760151634,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760151634,
+        "end": null
       }
     ]
   },
@@ -11755,7 +11760,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1760151026,
-        "end": null
+        "end": 1760151634
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1760151634,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12725,8 +12736,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760139025,
-        "end": null,
+        "end": 1760151634,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760151634,
+        "end": null
       }
     ]
   },
@@ -17017,6 +17033,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760150430,
+        "end": 1760151634
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: Partial",
+        "start": 1760151634,
         "end": null
       }
     ]
@@ -29055,6 +29076,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760144435,
+        "end": 1760151634,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760151634,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31839,8 +31866,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760150430,
-        "end": null,
+        "end": 1760151634,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760151634,
+        "end": null
       }
     ]
   },
@@ -39982,11 +40014,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1758941446,
-        "end": 1758942076
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1758942076,
