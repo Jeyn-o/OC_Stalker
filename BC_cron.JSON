@@ -1317,7 +1317,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760167227,
-        "end": null
+        "end": 1760167829
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760167829,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6336,11 +6342,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "Available",
-        "start": 1758957645,
-        "end": 1758961865
-      },
-      {
         "status": "[China] - Going",
         "start": 1758961865,
         "end": 1758966648,
@@ -7506,6 +7507,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1760167227,
+        "end": 1760167829
+      },
+      {
+        "status": "Available",
+        "start": 1760167829,
         "end": null
       }
     ]
@@ -7784,12 +7790,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1758957645,
-        "end": 1758958845,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1758958845,
@@ -16949,11 +16949,6 @@
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1758957645,
-        "end": 1758974463
-      },
       {
         "status": "[China] - Going",
         "start": 1758974463,
@@ -26213,6 +26208,11 @@
       {
         "status": "[Cayman Islands] Mugged - Revives: ALL",
         "start": 1760166039,
+        "end": 1760167829
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1760167829,
         "end": null
       }
     ]
@@ -26340,12 +26340,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1758957645,
-        "end": 1758959452,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1758959452,
@@ -36811,12 +36805,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1758957645,
-        "end": 1758959452,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1758959452,
         "end": 1758961257,
@@ -40593,11 +40581,6 @@
     "name": "Cerbb",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1758957645,
-        "end": 1758958264
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1758958264,
         "end": 1758959452,
@@ -41384,20 +41367,19 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760155824,
-        "end": null,
+        "end": 1760167829,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760167829,
+        "end": null
       }
     ]
   },
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1758957645,
-        "end": 1758959452,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1758959452,
