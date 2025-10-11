@@ -683,11 +683,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1759009251,
-        "end": 1759011055
-      },
-      {
         "status": "Available",
         "start": 1759011055,
         "end": 1759037470
@@ -13116,11 +13111,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759009251,
-        "end": 1759010473
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759010473,
         "end": 1759011055,
@@ -15767,6 +15757,11 @@
       {
         "status": "Available",
         "start": 1760176837,
+        "end": 1760219425
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1760219425,
         "end": null
       }
     ]
@@ -23038,8 +23033,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760212839,
-        "end": null,
+        "end": 1760219425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760219425,
+        "end": null
       }
     ]
   },
@@ -26837,6 +26837,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760217622,
+        "end": 1760219425,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1760219425,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30001,12 +30007,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1759009251,
-        "end": 1759020654,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759020654,
@@ -38510,6 +38510,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1760217022,
+        "end": 1760219425
+      },
+      {
+        "status": "Available",
+        "start": 1760219425,
         "end": null
       }
     ]
@@ -38922,12 +38927,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1759009251,
-        "end": 1759011055,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1759011055,
@@ -39546,11 +39545,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1759009251,
-        "end": 1759009856
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1759009856,
@@ -40287,12 +40281,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759009251,
-        "end": 1759010473,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759010473,
