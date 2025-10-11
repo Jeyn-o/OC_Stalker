@@ -5477,5 +5477,46 @@
       }
     },
     "delay_time": 405
+  },
+  "1760221833": {
+    "crime_id": 916496,
+    "crime_name": "Leave No Trace",
+    "created_at": null,
+    "planning_at": null,
+    "ready_at": 1760221351,
+    "executed_at": 1760221833,
+    "crime_participants": {
+      "P3": {
+        "user_id": 3540076,
+        "user_name": "Mr_jeff14574",
+        "checkpoint_pass_rate": 71,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": false
+      },
+      "P1": {
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 75,
+        "position": "Techie",
+        "position_number": 1
+      },
+      "P2": {
+        "user_id": 3018158,
+        "user_name": "Stevan01",
+        "checkpoint_pass_rate": 75,
+        "position": "Negotiator",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "slackers": {
+      "3018158": {
+        "status": "pending",
+        "handled_by": null,
+        "notes": []
+      }
+    },
+    "delay_time": 482
   }
 }
