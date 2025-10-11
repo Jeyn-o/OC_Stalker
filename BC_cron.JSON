@@ -8380,7 +8380,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760217022,
-        "end": null
+        "end": 1760222423
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760222423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13084,11 +13090,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759012269,
-        "end": 1759012849
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759012849,
         "end": 1759013454,
@@ -15143,11 +15144,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1759012269,
-        "end": 1759014065
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1759014065,
         "end": 1759026677,
@@ -16917,12 +16913,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759012269,
-        "end": 1759019469,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759019469,
@@ -28983,11 +28973,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759012269,
-        "end": 1759014065
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1759014065,
         "end": 1759015867,
@@ -39429,11 +39414,6 @@
     "name": "Cerbb",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759012269,
-        "end": 1759012849
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1759012849,
         "end": 1759021848,
@@ -41456,8 +41436,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760215228,
-        "end": null,
+        "end": 1760222423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760222423,
+        "end": null
       }
     ]
   },
