@@ -2277,6 +2277,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760134828,
+        "end": 1760142625,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760142625,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4198,6 +4204,11 @@
       {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1760142026,
+        "end": 1760142625
+      },
+      {
+        "status": "Available",
+        "start": 1760142625,
         "end": null
       }
     ]
@@ -15470,12 +15481,6 @@
     "name": "Neodork",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1758932451,
-        "end": 1758937846,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1758937846,
         "end": 1758962452
@@ -21833,12 +21838,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1758932451,
-        "end": 1758934253,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1758934253,
@@ -29689,12 +29688,6 @@
     "name": "Mr_jeff14574",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1758932451,
-        "end": 1758942652,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Returning",
         "start": 1758942652,
         "end": 1758952869,
@@ -33224,8 +33217,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760131219,
-        "end": null,
+        "end": 1760142625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760142625,
+        "end": null
       }
     ]
   },
@@ -33490,6 +33488,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1760130626,
+        "end": 1760142625
+      },
+      {
+        "status": "Available",
+        "start": 1760142625,
         "end": null
       }
     ]
@@ -38073,11 +38076,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1758932451,
-        "end": 1758939653
-      },
-      {
         "status": "[Japan] Mugged - Revives: OFF",
         "start": 1758939653,
         "end": 1758942076
@@ -41625,7 +41623,13 @@
       {
         "status": "Available",
         "start": 1760142026,
-        "end": null
+        "end": 1760142625
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760142625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
