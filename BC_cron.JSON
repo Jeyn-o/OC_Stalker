@@ -12703,12 +12703,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1759084273,
-        "end": 1759084852,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759084852,
         "end": 1759085451
@@ -18207,12 +18201,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1759084273,
-        "end": 1759087249,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1759087249,
         "end": 1759088456
@@ -20323,8 +20311,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760291417,
-        "end": null,
+        "end": 1760294426,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760294426,
+        "end": null
       }
     ]
   },
@@ -24590,11 +24583,6 @@
     "name": "Jordanw1",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759084273,
-        "end": 1760119830
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1760119830,
         "end": 1760126432,
@@ -27003,7 +26991,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760292622,
-        "end": null
+        "end": 1760294426
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760294426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27518,12 +27512,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1759084273,
-        "end": 1759091467,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1759091467,
@@ -37883,8 +37871,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760293824,
-        "end": null,
+        "end": 1760294426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760294426,
+        "end": null
       }
     ]
   },
@@ -40361,8 +40354,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760287227,
-        "end": null,
+        "end": 1760294426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760294426,
+        "end": null
       }
     ]
   },
@@ -40747,6 +40745,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1760292037,
+        "end": 1760294426
+      },
+      {
+        "status": "Available",
+        "start": 1760294426,
         "end": null
       }
     ]
