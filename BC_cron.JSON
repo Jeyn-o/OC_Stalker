@@ -8268,12 +8268,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1759055474,
-        "end": 1759056645,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759056645,
         "end": 1759066268
@@ -23643,7 +23637,13 @@
       {
         "status": "Available",
         "start": 1760257225,
-        "end": null
+        "end": 1760265622
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760265622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24979,11 +24979,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1759055474,
-        "end": 1759056048
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1759056048,
@@ -27376,8 +27371,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760258421,
-        "end": null,
+        "end": 1760265622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760265622,
+        "end": null
       }
     ]
   },
@@ -29942,7 +29942,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760252435,
-        "end": null
+        "end": 1760265622
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760265622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
