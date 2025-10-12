@@ -1399,11 +1399,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759061445,
-        "end": 1759075842
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759075842,
         "end": 1759082463,
@@ -2015,6 +2010,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760265033,
+        "end": 1760271639,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760271639,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7819,12 +7820,6 @@
     "name": "Jubjub82180",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1759061445,
-        "end": 1759071062,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759071062,
         "end": 1759300833
@@ -7948,6 +7943,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760271034,
+        "end": 1760271639
+      },
+      {
+        "status": "Available",
+        "start": 1760271639,
         "end": null
       }
     ]
@@ -11215,7 +11215,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1760271034,
-        "end": null
+        "end": 1760271639
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1760271639,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20712,11 +20718,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1759061445,
-        "end": 1759062054
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1759062054,
         "end": 1759069248,
@@ -22621,11 +22622,6 @@
     "name": "Imtheman357",
     "activities": [
       {
-        "status": "[China] Mugged - Revives: Partial",
-        "start": 1759061445,
-        "end": 1759063849
-      },
-      {
         "status": "[China] - Idle",
         "start": 1759063849,
         "end": 1759069876
@@ -22889,12 +22885,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759061445,
-        "end": 1759068074,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759068074,
@@ -24129,6 +24119,11 @@
       {
         "status": "Available",
         "start": 1760188227,
+        "end": 1760271639
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1760271639,
         "end": null
       }
     ]
@@ -26129,12 +26124,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1759061445,
-        "end": 1759063255,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1759063255,
