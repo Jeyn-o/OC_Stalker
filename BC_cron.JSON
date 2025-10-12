@@ -679,6 +679,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1760302832,
+        "end": 1760304634
+      },
+      {
+        "status": "Available",
+        "start": 1760304634,
         "end": null
       }
     ]
@@ -4059,6 +4064,11 @@
       {
         "status": "Available",
         "start": 1760304021,
+        "end": 1760304634
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1760304634,
         "end": null
       }
     ]
@@ -6015,7 +6025,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760302832,
-        "end": null
+        "end": 1760304634
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760304634,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12150,12 +12166,6 @@
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1759094429,
-        "end": 1759101621,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759101621,
@@ -25719,6 +25729,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1760303431,
+        "end": 1760304634
+      },
+      {
+        "status": "Available",
+        "start": 1760304634,
         "end": null
       }
     ]
@@ -26921,11 +26936,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1759094429,
-        "end": 1759116026
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1759116026,
@@ -38621,11 +38631,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759094429,
-        "end": 1759098027
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1759098027,
