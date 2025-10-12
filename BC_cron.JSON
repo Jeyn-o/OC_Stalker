@@ -4074,6 +4074,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760307025,
+        "end": 1760309425
+      },
+      {
+        "status": "Available",
+        "start": 1760309425,
         "end": null
       }
     ]
@@ -9426,6 +9431,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760304021,
+        "end": 1760309425
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: ALL",
+        "start": 1760309425,
         "end": null
       }
     ]
@@ -18175,12 +18185,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1759099223,
-        "end": 1759101017,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1759101017,
         "end": 1759101621
@@ -20275,7 +20279,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760307025,
-        "end": null
+        "end": 1760309425
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760309425,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -22287,6 +22297,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760302832,
+        "end": 1760309425,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760309425,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29895,11 +29911,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759099223,
-        "end": 1759111825
-      },
-      {
         "status": "[China] - Going",
         "start": 1759111825,
         "end": 1759122034,
@@ -35367,7 +35378,13 @@
       {
         "status": "Available",
         "start": 1760308823,
-        "end": null
+        "end": 1760309425
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760309425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36924,6 +36941,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1760307618,
+        "end": 1760309425
+      },
+      {
+        "status": "Available",
+        "start": 1760309425,
         "end": null
       }
     ]
@@ -40703,6 +40725,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760302224,
+        "end": 1760309425,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760309425,
         "end": null,
         "travel_type": "airstrip"
       }
