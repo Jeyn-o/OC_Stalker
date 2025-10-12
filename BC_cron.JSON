@@ -5961,8 +5961,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760301030,
-        "end": null,
+        "end": 1760305817,
         "travel_type": "private"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760305817,
+        "end": null
       }
     ]
   },
@@ -18174,12 +18179,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1759095649,
-        "end": 1759098027,
-        "travel_type": "standard"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1759098027,
@@ -37317,11 +37316,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759095649,
-        "end": 1759156221
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759156221,
         "end": 1759158033
@@ -40305,7 +40299,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760304021,
-        "end": null
+        "end": 1760305817
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760305817,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
