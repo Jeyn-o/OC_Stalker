@@ -20893,7 +20893,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1760235628,
-        "end": null
+        "end": 1760236229
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760236229,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -36600,11 +36606,6 @@
     "name": "LichKean",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759026052,
-        "end": 1759032069
-      },
-      {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1759032069,
         "end": 1759034450
@@ -38665,11 +38666,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759026052,
-        "end": 1759027256
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1759027256,
@@ -41582,8 +41578,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760226026,
-        "end": null,
+        "end": 1760236229,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760236229,
+        "end": null
       }
     ]
   },
