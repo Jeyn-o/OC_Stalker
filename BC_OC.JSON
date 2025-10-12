@@ -37055,8 +37055,8 @@
   },
   "910372": {
     "name": "Pet Project",
-    "status": "Recruiting",
-    "ready_at": 1760384002,
+    "status": "Planning",
+    "ready_at": 1760470402,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -37072,6 +37072,14 @@
         "user_name": "SN00PYTOBY",
         "checkpoint_pass_rate": 39,
         "position": "Muscle",
+        "position_number": 1,
+        "item_available": false
+      },
+      "P3": {
+        "user_id": 3069081,
+        "user_name": "Thornking",
+        "checkpoint_pass_rate": 85,
+        "position": "Picklock",
         "position_number": 1,
         "item_available": false
       }
@@ -37096,6 +37104,17 @@
         "user_name": "SN00PYTOBY",
         "checkpoint_pass_rate": 39,
         "position": "Muscle",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1760263818,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3069081,
+        "user_name": "Thornking",
+        "checkpoint_pass_rate": 85,
+        "position": "Picklock",
         "position_number": 1,
         "item_available": false
       }
@@ -38074,9 +38093,9 @@
   },
   "918207": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1760263573,
-    "executed_at": null,
+    "executed_at": 1760263626,
     "slots": {
       "P1": {
         "user_id": 3343429,
@@ -38139,8 +38158,8 @@
   },
   "918390": {
     "name": "Bidding War",
-    "status": "Recruiting",
-    "ready_at": 1760475567,
+    "status": "Planning",
+    "ready_at": 1760561967,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -38181,6 +38200,14 @@
         "checkpoint_pass_rate": 75,
         "position": "Driver",
         "position_number": 1
+      },
+      "P6": {
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 70,
+        "position": "Bomber",
+        "position_number": 2,
+        "item_available": true
       }
     },
     "action_log": [
@@ -38237,6 +38264,17 @@
         "checkpoint_pass_rate": 75,
         "position": "Driver",
         "position_number": 1
+      },
+      {
+        "timestamp": 1760263818,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 70,
+        "position": "Bomber",
+        "position_number": 2,
+        "item_available": true
       }
     ]
   },
@@ -38544,9 +38582,30 @@
   "927574": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1760350055,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 3301215,
+        "user_name": "Semykreen",
+        "checkpoint_pass_rate": 71,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1760263818,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3301215,
+        "user_name": "Semykreen",
+        "checkpoint_pass_rate": 71,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   }
 }
