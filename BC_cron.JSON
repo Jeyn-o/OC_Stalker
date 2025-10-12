@@ -1344,11 +1344,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759090254,
-        "end": 1759131636
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759131636,
         "end": 1759138817,
@@ -11181,12 +11176,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759090254,
-        "end": 1759102825,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1759102825,
         "end": 1759116026
@@ -12145,18 +12134,19 @@
       {
         "status": "Available",
         "start": 1760289621,
-        "end": null
+        "end": 1760300424
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760300424,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "[Switzerland] Lost - Revives: Partial",
-        "start": 1759090254,
-        "end": 1759092045
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1759092045,
@@ -13731,6 +13721,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760299229,
+        "end": 1760300424
+      },
+      {
+        "status": "Available",
+        "start": 1760300424,
         "end": null
       }
     ]
@@ -29450,7 +29445,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760295024,
-        "end": null
+        "end": 1760300424
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760300424,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30747,8 +30748,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760288442,
-        "end": null,
+        "end": 1760300424,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760300424,
+        "end": null
       }
     ]
   },
@@ -40360,6 +40366,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1760298624,
+        "end": 1760300424
+      },
+      {
+        "status": "Available",
+        "start": 1760300424,
         "end": null
       }
     ]
