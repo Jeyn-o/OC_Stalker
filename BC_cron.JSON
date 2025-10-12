@@ -3625,11 +3625,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1759043450,
-        "end": 1759044050
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1759044050,
         "end": 1759056645,
@@ -6051,8 +6046,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760248835,
-        "end": null,
+        "end": 1760253627,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1760253627,
+        "end": null
       }
     ]
   },
@@ -7999,8 +7999,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760251820,
-        "end": null,
+        "end": 1760253627,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760253627,
+        "end": null
       }
     ]
   },
@@ -9040,12 +9045,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1759043450,
-        "end": 1759045253,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1759045253,
@@ -16294,19 +16293,19 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760242221,
-        "end": null,
+        "end": 1760253627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760253627,
+        "end": null
       }
     ]
   },
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759043450,
-        "end": 1759044050
-      },
       {
         "status": "[Canada] - Going",
         "start": 1759044050,
@@ -26442,8 +26441,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760251820,
-        "end": null,
+        "end": 1760253627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760253627,
+        "end": null
       }
     ]
   },
@@ -35319,12 +35323,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1759043450,
-        "end": 1759044683,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759044683,
         "end": 1759064476
@@ -39557,12 +39555,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1759043450,
-        "end": 1759054854,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759054854,
         "end": 1759057858
@@ -41525,6 +41517,11 @@
       {
         "status": "Available",
         "start": 1760106031,
+        "end": 1760253627
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1760253627,
         "end": null
       }
     ]
