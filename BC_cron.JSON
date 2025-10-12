@@ -5009,11 +5009,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1759101017,
-        "end": 1759105224
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1759105224,
         "end": 1759114219,
@@ -18173,11 +18168,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759101017,
-        "end": 1759101621
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1759101621,
         "end": 1759104624,
@@ -20825,6 +20815,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1760301030,
+        "end": 1760310629,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1760310629,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22535,6 +22531,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1760307618,
+        "end": 1760310629
+      },
+      {
+        "status": "Available",
+        "start": 1760310629,
         "end": null
       }
     ]
@@ -23794,12 +23795,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759101017,
-        "end": 1759113028,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759113028,
@@ -25749,12 +25744,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759101017,
-        "end": 1759108218,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759108218,
@@ -31017,11 +31006,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1759101017,
-        "end": 1759123834
-      },
-      {
         "status": "[China] - Returning",
         "start": 1759123834,
         "end": 1759134027,
@@ -35345,8 +35329,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760309425,
-        "end": null,
+        "end": 1760310629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1760310629,
+        "end": null
       }
     ]
   },
@@ -39817,7 +39806,13 @@
       {
         "status": "Available",
         "start": 1760306438,
-        "end": null
+        "end": 1760310629
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760310629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
