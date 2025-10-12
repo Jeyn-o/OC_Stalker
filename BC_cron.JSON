@@ -660,6 +660,11 @@
       {
         "status": "[South Africa] Lost - Revives: OFF",
         "start": 1760232632,
+        "end": 1760233823
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760233823,
         "end": null
       }
     ]
@@ -4103,7 +4108,13 @@
       {
         "status": "Available",
         "start": 1760196019,
-        "end": null
+        "end": 1760233823
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760233823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7888,11 +7899,6 @@
   "2427687": {
     "name": "Jubjub82180",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759023655,
-        "end": 1759026677
-      },
       {
         "status": "[Japan] - Going",
         "start": 1759026677,
@@ -12442,8 +12448,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760221830,
-        "end": null,
+        "end": 1760233823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760233823,
+        "end": null
       }
     ]
   },
@@ -36614,11 +36625,6 @@
     "name": "LichKean",
     "activities": [
       {
-        "status": "[United Kingdom] Mugged - Revives: ALL",
-        "start": 1759023655,
-        "end": 1759026052
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759026052,
         "end": 1759032069
@@ -39164,8 +39170,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760226629,
-        "end": null,
+        "end": 1760233823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760233823,
+        "end": null
       }
     ]
   },
