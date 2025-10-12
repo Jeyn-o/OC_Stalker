@@ -7994,7 +7994,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1760251231,
-        "end": null
+        "end": 1760251820
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1760251820,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -16297,11 +16303,6 @@
     "name": "JuanPaulo",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1759041656,
-        "end": 1759042269
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1759042269,
         "end": 1759043450,
@@ -17889,7 +17890,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760248835,
-        "end": null
+        "end": 1760251820
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760251820,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18654,11 +18661,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1759041656,
-        "end": 1759051886
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1759051886,
@@ -23873,12 +23875,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759041656,
-        "end": 1759042876,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1759042876,
         "end": 1759044050
@@ -26463,6 +26459,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1760250027,
+        "end": 1760251820,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760251820,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -26471,11 +26473,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759041656,
-        "end": 1759042269
-      },
       {
         "status": "[Japan] - Going",
         "start": 1759042269,
@@ -28646,12 +28643,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1759041656,
-        "end": 1759042876,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1759042876,
         "end": 1759044050
@@ -29521,11 +29512,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759041656,
-        "end": 1759044050
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759044050,
@@ -35372,12 +35358,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1759041656,
-        "end": 1759043450,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1759043450,
         "end": 1759044683,
@@ -37946,6 +37926,11 @@
       {
         "status": "Available",
         "start": 1760244027,
+        "end": 1760251820
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1760251820,
         "end": null
       }
     ]
