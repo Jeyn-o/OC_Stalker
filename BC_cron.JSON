@@ -1966,7 +1966,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760298021,
-        "end": null
+        "end": 1760298624
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760298624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12730,12 +12736,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1759088456,
-        "end": 1759089678,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759089678,
         "end": 1759090851,
@@ -18210,12 +18210,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1759088456,
-        "end": 1759090851,
-        "travel_type": "standard"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1759090851,
@@ -23842,12 +23836,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1759088456,
-        "end": 1759101017,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1759101017,
@@ -34073,11 +34061,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1759088456,
-        "end": 1759098624
-      },
-      {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1759098624,
         "end": 1759100427
@@ -35483,11 +35466,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759088456,
-        "end": 1759089052
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1759089052,
@@ -37947,12 +37925,6 @@
   "3837249": {
     "name": "Cerbb",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1759088456,
-        "end": 1759089678,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1759089678,
@@ -40415,6 +40387,11 @@
       {
         "status": "Available",
         "start": 1760163630,
+        "end": 1760298624
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1760298624,
         "end": null
       }
     ]
