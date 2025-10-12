@@ -1377,12 +1377,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759075842,
-        "end": 1759082463,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759082463,
         "end": 1759083654
@@ -2188,12 +2182,6 @@
   "1766417": {
     "name": "gajeela09",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1759075842,
-        "end": 1759077653,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1759077653,
@@ -10281,7 +10269,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760285424,
-        "end": null
+        "end": 1760286030
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760286030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22714,12 +22708,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759075842,
-        "end": 1759082463,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759082463,
         "end": 1759119618
@@ -25932,12 +25920,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1759075842,
-        "end": 1759085451,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1759085451,
         "end": 1759099819
@@ -27108,7 +27090,13 @@
       {
         "status": "Available",
         "start": 1760265622,
-        "end": null
+        "end": 1760286030
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760286030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27624,11 +27612,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759075842,
-        "end": 1759084273
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1759084273,
@@ -35552,6 +35535,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760281237,
+        "end": 1760286030
+      },
+      {
+        "status": "[South Africa] Lost - Revives: ALL",
+        "start": 1760286030,
         "end": null
       }
     ]
@@ -38091,11 +38079,6 @@
     "name": "Cerbb",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759075842,
-        "end": 1759088456
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759088456,
         "end": 1759089678,
@@ -40471,8 +40454,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760278827,
-        "end": null,
+        "end": 1760286030,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1760286030,
+        "end": null
       }
     ]
   },
