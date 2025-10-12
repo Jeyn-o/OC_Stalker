@@ -687,11 +687,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759083054,
-        "end": 1759123227
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759123227,
         "end": 1759129818,
@@ -2877,8 +2872,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1760287828,
-        "end": null,
+        "end": 1760293220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760293220,
+        "end": null
       }
     ]
   },
@@ -7885,7 +7885,13 @@
       {
         "status": "Available",
         "start": 1760271639,
-        "end": null
+        "end": 1760293220
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760293220,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -12718,12 +12724,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1759083054,
-        "end": 1759083654,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1759083654,
@@ -18225,8 +18225,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760286632,
-        "end": null,
+        "end": 1760293220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760293220,
+        "end": null
       }
     ]
   },
@@ -35487,6 +35492,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760289621,
+        "end": 1760293220
+      },
+      {
+        "status": "[South Africa] Lost - Revives: ALL",
+        "start": 1760293220,
         "end": null
       }
     ]
@@ -35531,11 +35541,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: OFF",
-        "start": 1759083054,
-        "end": 1759085451
-      },
       {
         "status": "Available",
         "start": 1759085451,
@@ -37436,12 +37441,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1759083054,
-        "end": 1759095649,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759095649,
         "end": 1759156221
@@ -37920,8 +37919,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760292037,
-        "end": null,
+        "end": 1760293220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1760293220,
+        "end": null
       }
     ]
   },
@@ -38300,8 +38304,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760286632,
-        "end": null,
+        "end": 1760293220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760293220,
+        "end": null
       }
     ]
   },
