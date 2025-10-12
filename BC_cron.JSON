@@ -9045,12 +9045,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1759035054,
-        "end": 1759036849,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759036849,
         "end": 1759039268
@@ -27773,18 +27767,19 @@
       {
         "status": "Available",
         "start": 1760231420,
-        "end": null
+        "end": 1760245232
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760245232,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1759035054,
-        "end": 1759035666
-      },
       {
         "status": "[China] - Returning",
         "start": 1759035666,
@@ -36405,11 +36400,6 @@
     "name": "LichKean",
     "activities": [
       {
-        "status": "[United Kingdom] Mugged - Revives: ALL",
-        "start": 1759035054,
-        "end": 1759037470
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759037470,
         "end": 1759042269
@@ -38076,11 +38066,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1759035054,
-        "end": 1759036849
-      },
       {
         "status": "[China] - Returning",
         "start": 1759036849,
@@ -41366,8 +41351,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760238628,
-        "end": null,
+        "end": 1760245232,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760245232,
+        "end": null
       }
     ]
   },
