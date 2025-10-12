@@ -1400,12 +1400,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1759053694,
-        "end": 1759061445,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759061445,
         "end": 1759075842
@@ -2924,7 +2918,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760257225,
-        "end": null
+        "end": 1760263816
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760263816,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8746,6 +8746,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760251231,
+        "end": 1760263816,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760263816,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14866,12 +14872,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1759053694,
-        "end": 1759060875,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1759060875,
         "end": 1759068074,
@@ -17008,11 +17008,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759053694,
-        "end": 1759054854
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1759054854,
@@ -20606,7 +20601,13 @@
       {
         "status": "Available",
         "start": 1760248223,
-        "end": null
+        "end": 1760263816
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760263816,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -20754,11 +20755,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759053694,
-        "end": 1759054253
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1759054253,
@@ -22650,7 +22646,13 @@
       {
         "status": "Available",
         "start": 1760260819,
-        "end": null
+        "end": 1760263816
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760263816,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22926,12 +22928,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759053694,
-        "end": 1759054854,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1759054854,
@@ -25006,12 +25002,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1759053694,
-        "end": 1759055474,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1759055474,
@@ -29098,16 +29088,6 @@
       }
     ]
   },
-  "3593371": {
-    "name": "MrBrownstone",
-    "activities": [
-      {
-        "status": "Available",
-        "start": 1759053694,
-        "end": null
-      }
-    ]
-  },
   "3619214": {
     "name": "GoldenVirginia",
     "activities": [
@@ -29222,12 +29202,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759053694,
-        "end": 1759060875,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759060875,
@@ -40904,7 +40878,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760262026,
-        "end": null
+        "end": 1760263816
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760263816,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
