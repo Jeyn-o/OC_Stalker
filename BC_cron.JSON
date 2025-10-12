@@ -685,6 +685,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1760266220,
+        "end": 1760268624
+      },
+      {
+        "status": "Available",
+        "start": 1760268624,
         "end": null
       }
     ]
@@ -2200,11 +2205,6 @@
   "1766417": {
     "name": "gajeela09",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759058455,
-        "end": 1759066853
-      },
       {
         "status": "[Canada] - Going",
         "start": 1759066853,
@@ -4101,8 +4101,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760262026,
-        "end": null,
+        "end": 1760268624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760268624,
+        "end": null
       }
     ]
   },
@@ -32133,7 +32138,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760268027,
-        "end": null
+        "end": 1760268624
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760268624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35881,11 +35892,6 @@
     "name": "LichKean",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759058455,
-        "end": 1759063255
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759063255,
         "end": 1759069876,
@@ -39191,7 +39197,13 @@
       {
         "status": "Available",
         "start": 1760266220,
-        "end": null
+        "end": 1760268624
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760268624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
