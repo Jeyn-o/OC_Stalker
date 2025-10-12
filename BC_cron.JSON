@@ -693,11 +693,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759066268,
-        "end": 1759068655
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759068655,
         "end": 1759075282,
@@ -1294,6 +1289,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1760275226,
+        "end": 1760276429
+      },
+      {
+        "status": "Available",
+        "start": 1760276429,
         "end": null
       }
     ]
@@ -8262,12 +8262,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1759066268,
-        "end": 1759073477,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1759073477,
         "end": 1759081240,
@@ -8730,8 +8724,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760263816,
-        "end": null,
+        "end": 1760276429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760276429,
+        "end": null
       }
     ]
   },
@@ -9486,7 +9485,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760275833,
-        "end": null
+        "end": 1760276429
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760276429,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10545,12 +10550,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759066268,
-        "end": 1759078876,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1759078876,
         "end": 1759080667
@@ -11210,6 +11209,11 @@
       {
         "status": "Jail",
         "start": 1760275833,
+        "end": 1760276429
+      },
+      {
+        "status": "Available",
+        "start": 1760276429,
         "end": null
       }
     ]
@@ -12224,8 +12228,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1760266833,
-        "end": null,
+        "end": 1760276429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1760276429,
+        "end": null
       }
     ]
   },
@@ -20516,8 +20525,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760273429,
-        "end": null,
+        "end": 1760276429,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760276429,
+        "end": null
       }
     ]
   },
@@ -26040,12 +26054,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1759066268,
-        "end": 1759075842,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1759075842,
         "end": 1759085451,
@@ -28996,12 +29004,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759066268,
-        "end": 1759072838,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759072838,
@@ -34368,12 +34370,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1759066268,
-        "end": 1759068655,
-        "travel_type": "standard"
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1759068655,
         "end": 1759071062,
@@ -34827,12 +34823,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1759066268,
-        "end": 1759068074,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759068074,
@@ -38274,12 +38264,6 @@
     "name": "Cerbb",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1759066268,
-        "end": 1759075842,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759075842,
         "end": 1759088456
@@ -40642,7 +40626,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1760274036,
-        "end": null
+        "end": 1760276429
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760276429,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
