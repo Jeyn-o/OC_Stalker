@@ -6034,8 +6034,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760304634,
-        "end": null,
+        "end": 1760311242,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760311242,
+        "end": null
       }
     ]
   },
@@ -7914,8 +7919,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760293220,
-        "end": null,
+        "end": 1760311242,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760311242,
+        "end": null
       }
     ]
   },
@@ -12186,11 +12196,6 @@
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759101621,
-        "end": 1759141222
-      },
       {
         "status": "[Canada] - Going",
         "start": 1759141222,
@@ -17994,7 +17999,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760306438,
-        "end": null
+        "end": 1760311242
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760311242,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18167,12 +18178,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1759101621,
-        "end": 1759104624,
-        "travel_type": "standard"
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1759104624,
@@ -29429,7 +29434,13 @@
       {
         "status": "Available",
         "start": 1760307618,
-        "end": null
+        "end": 1760311242
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760311242,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31657,11 +31668,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759101621,
-        "end": 1759102229
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759102229,
@@ -35335,6 +35341,11 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1760310629,
+        "end": 1760311242
+      },
+      {
+        "status": "[Mexico] Lost - Revives: ALL",
+        "start": 1760311242,
         "end": null
       }
     ]
@@ -36904,11 +36915,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1759101621,
-        "end": 1759142426
-      },
       {
         "status": "[China] - Returning",
         "start": 1759142426,
