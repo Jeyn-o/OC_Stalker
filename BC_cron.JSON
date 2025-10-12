@@ -1265,6 +1265,11 @@
       {
         "status": "Available",
         "start": 1760276429,
+        "end": 1760312419
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1760312419,
         "end": null
       }
     ]
@@ -5961,7 +5966,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760305817,
-        "end": null
+        "end": 1760312419
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760312419,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -12193,8 +12204,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760300424,
-        "end": null,
+        "end": 1760312419,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760312419,
+        "end": null
       }
     ]
   },
@@ -14465,12 +14481,6 @@
   "3026725": {
     "name": "Neodork",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1759102229,
-        "end": 1759107630,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Idle",
         "start": 1759107630,
@@ -31674,12 +31684,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759102229,
-        "end": 1759103424,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759103424,
         "end": 1759104624,
@@ -37859,11 +37863,6 @@
     "name": "Cerbb",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1759102229,
-        "end": 1759103424
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1759103424,
         "end": 1759113028,
@@ -40288,6 +40287,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760305817,
+        "end": 1760312419,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760312419,
         "end": null,
         "travel_type": "airstrip"
       }
