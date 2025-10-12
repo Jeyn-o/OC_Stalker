@@ -36614,9 +36614,9 @@
   },
   "908808": {
     "name": "Stage Fright",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1760295666,
-    "executed_at": null,
+    "executed_at": 1760308325,
     "slots": {
       "P2": {
         "user_id": 3529909,
@@ -37123,7 +37123,7 @@
   "910373": {
     "name": "Cash Me if You Can",
     "status": "Recruiting",
-    "ready_at": 1760375500,
+    "ready_at": 1760461900,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -37132,6 +37132,14 @@
         "checkpoint_pass_rate": 75,
         "position": "Thief",
         "position_number": 1,
+        "item_available": false
+      },
+      "P2": {
+        "user_id": 3805208,
+        "user_name": "AuntGoo",
+        "checkpoint_pass_rate": 85,
+        "position": "Thief",
+        "position_number": 2,
         "item_available": false
       }
     },
@@ -37166,6 +37174,17 @@
         "checkpoint_pass_rate": 40,
         "position": "Lookout",
         "position_number": 1
+      },
+      {
+        "timestamp": 1760308825,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3805208,
+        "user_name": "AuntGoo",
+        "checkpoint_pass_rate": 85,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": false
       }
     ]
   },
@@ -38330,7 +38349,7 @@
   "919278": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1760427508,
+    "ready_at": 1760513908,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -38352,6 +38371,13 @@
         "user_name": "Lockets",
         "checkpoint_pass_rate": 85,
         "position": "Enforcer",
+        "position_number": 1
+      },
+      "P2": {
+        "user_id": 3703949,
+        "user_name": "Downtowndave20",
+        "checkpoint_pass_rate": 68,
+        "position": "Muscle",
         "position_number": 1
       }
     },
@@ -38426,6 +38452,16 @@
         "user_name": "Lockets",
         "checkpoint_pass_rate": 85,
         "position": "Enforcer",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1760308825,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3703949,
+        "user_name": "Downtowndave20",
+        "checkpoint_pass_rate": 68,
+        "position": "Muscle",
         "position_number": 1
       }
     ]
