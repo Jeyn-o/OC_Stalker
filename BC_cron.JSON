@@ -20823,7 +20823,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760242828,
-        "end": null
+        "end": 1760243427
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760243427,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -23924,18 +23930,19 @@
       {
         "status": "Available",
         "start": 1760199021,
-        "end": null
+        "end": 1760243427
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760243427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1759033255,
-        "end": 1759034450
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759034450,
@@ -29644,8 +29651,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760232026,
-        "end": null,
+        "end": 1760243427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760243427,
+        "end": null
       }
     ]
   },
@@ -31733,7 +31745,13 @@
       {
         "status": "Available",
         "start": 1760242828,
-        "end": null
+        "end": 1760243427
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760243427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35046,6 +35064,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760242828,
+        "end": 1760243427,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760243427,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -38102,11 +38126,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1759033255,
-        "end": 1759035054
-      },
-      {
         "status": "[China] - Idle",
         "start": 1759035054,
         "end": 1759036849
@@ -38975,8 +38994,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760242221,
-        "end": null,
+        "end": 1760243427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1760243427,
+        "end": null
       }
     ]
   },
@@ -39764,11 +39788,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759033255,
-        "end": 1759034450
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1759034450,
