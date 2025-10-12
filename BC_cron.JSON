@@ -2219,12 +2219,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1759036245,
-        "end": 1759038054,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1759038054,
         "end": 1759056645
@@ -4108,8 +4102,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760233823,
-        "end": null,
+        "end": 1760246424,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760246424,
+        "end": null
       }
     ]
   },
@@ -7864,11 +7863,6 @@
     "name": "Jubjub82180",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1759036245,
-        "end": 1759039856
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1759039856,
         "end": 1759049455,
@@ -8825,11 +8819,6 @@
   "2647214": {
     "name": "Balgor",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759036245,
-        "end": 1759300235
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1759300235,
@@ -22837,11 +22826,6 @@
   "3331202": {
     "name": "Imtheman357",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1759036245,
-        "end": 1759061445
-      },
       {
         "status": "[China] Mugged - Revives: Partial",
         "start": 1759061445,
@@ -41339,7 +41323,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760245232,
-        "end": null
+        "end": 1760246424
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760246424,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
