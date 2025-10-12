@@ -38330,7 +38330,7 @@
   "919278": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1760427508,
+    "ready_at": 1760341108,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -38346,13 +38346,6 @@
         "checkpoint_pass_rate": 66,
         "position": "Muscle",
         "position_number": 2
-      },
-      "P2": {
-        "user_id": 2659592,
-        "user_name": "HanXeng",
-        "checkpoint_pass_rate": 63,
-        "position": "Muscle",
-        "position_number": 1
       }
     },
     "action_log": [
@@ -38401,6 +38394,16 @@
       {
         "timestamp": 1760290227,
         "action": "joined",
+        "slot": "P2",
+        "user_id": 2659592,
+        "user_name": "HanXeng",
+        "checkpoint_pass_rate": 63,
+        "position": "Muscle",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1760291418,
+        "action": "left",
         "slot": "P2",
         "user_id": 2659592,
         "user_name": "HanXeng",
@@ -38821,10 +38824,29 @@
   "928938": {
     "name": "Market Forces",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1760377427,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P5": {
+        "user_id": 2659592,
+        "user_name": "HanXeng",
+        "checkpoint_pass_rate": 70,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1760291418,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2659592,
+        "user_name": "HanXeng",
+        "checkpoint_pass_rate": 70,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    ]
   },
   "928939": {
     "name": "Snow Blind",
