@@ -4948,6 +4948,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760328031,
+        "end": 1760328620
+      },
+      {
+        "status": "Available",
+        "start": 1760328620,
         "end": null
       }
     ]
@@ -10373,7 +10378,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760328031,
-        "end": null
+        "end": 1760328620
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760328620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20534,11 +20545,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1759118432,
-        "end": 1759120820
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1759120820,
         "end": 1759130419,
@@ -22403,8 +22409,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760316027,
-        "end": null,
+        "end": 1760328620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760328620,
+        "end": null
       }
     ]
   },
@@ -34100,8 +34111,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760327422,
-        "end": null,
+        "end": 1760328620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760328620,
+        "end": null
       }
     ]
   },
@@ -35479,11 +35495,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1759118432,
-        "end": 1759119019
-      },
       {
         "status": "Available",
         "start": 1759119019,
@@ -38666,8 +38677,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760317234,
-        "end": null,
+        "end": 1760328620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1760328620,
+        "end": null
       }
     ]
   },
