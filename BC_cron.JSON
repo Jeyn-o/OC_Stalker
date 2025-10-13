@@ -2093,11 +2093,6 @@
     "name": "---GHOST---",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759155624,
-        "end": 1759207821
-      },
-      {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1759207821,
         "end": 1759210229
@@ -14577,12 +14572,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759155624,
-        "end": 1759162220,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759162220,
         "end": 1759182021
@@ -20253,7 +20242,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760365217,
-        "end": null
+        "end": 1760365825
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760365825,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -20781,12 +20776,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1759155624,
-        "end": 1759156824,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759156824,
@@ -22234,8 +22223,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760364621,
-        "end": null,
+        "end": 1760365825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760365825,
+        "end": null
       }
     ]
   },
@@ -26853,8 +26847,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760364039,
-        "end": null,
+        "end": 1760365825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760365825,
+        "end": null
       }
     ]
   },
