@@ -2874,7 +2874,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760368823,
-        "end": null
+        "end": 1760376028
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760376028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7336,12 +7342,6 @@
   "2389431": {
     "name": "LSEdmond",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1759165828,
-        "end": 1759176035,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759176035,
@@ -15883,6 +15883,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760373624,
+        "end": 1760376028
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: Partial",
+        "start": 1760376028,
         "end": null
       }
     ]
@@ -17218,8 +17223,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760374226,
-        "end": null,
+        "end": 1760376028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760376028,
+        "end": null
       }
     ]
   },
@@ -20230,7 +20240,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760374839,
-        "end": null
+        "end": 1760376028
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760376028,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -31668,12 +31684,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1759165828,
-        "end": 1759167027,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759167027,
