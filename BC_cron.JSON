@@ -1378,11 +1378,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759177825,
-        "end": 1759180233
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759180233,
         "end": 1759186832,
@@ -10554,8 +10549,13 @@
       {
         "status": "[China] - Going",
         "start": 1760377823,
-        "end": null,
+        "end": 1760388028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760388028,
+        "end": null
       }
     ]
   },
@@ -11407,12 +11407,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1759177825,
-        "end": 1759189825,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1759189825,
@@ -12394,7 +12388,13 @@
       {
         "status": "Available",
         "start": 1760363428,
-        "end": null
+        "end": 1760388028
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760388028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12966,12 +12966,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759177825,
-        "end": 1759179025,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759179025,
@@ -27757,7 +27751,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760382627,
-        "end": null
+        "end": 1760388028
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760388028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31692,12 +31692,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759177825,
-        "end": 1759179025,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1759179025,
         "end": 1759179628
@@ -35250,7 +35244,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1760385633,
-        "end": null
+        "end": 1760388028
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1760388028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37087,11 +37087,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1759177825,
-        "end": 1759178421
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1759178421,
