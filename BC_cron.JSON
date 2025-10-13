@@ -4981,11 +4981,6 @@
     "name": "Special-Needs",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759117233,
-        "end": 1759182621
-      },
-      {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1759182621,
         "end": 1759185032
@@ -20363,8 +20358,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760326231,
-        "end": null,
+        "end": 1760327422,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760327422,
+        "end": null
       }
     ]
   },
@@ -23392,7 +23392,13 @@
       {
         "status": "Available",
         "start": 1760291417,
-        "end": null
+        "end": 1760327422
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760327422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25822,12 +25828,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1759117233,
-        "end": 1759119019,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1759119019,
@@ -30845,8 +30845,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760315430,
-        "end": null,
+        "end": 1760327422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760327422,
+        "end": null
       }
     ]
   },
@@ -31760,11 +31765,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759117233,
-        "end": 1759117822
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759117822,
@@ -34085,6 +34085,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760326231,
+        "end": 1760327422,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760327422,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -38665,11 +38671,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759117233,
-        "end": 1759119019
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1759119019,
         "end": 1759120820,
@@ -40416,7 +40417,13 @@
       {
         "status": "Available",
         "start": 1760325623,
-        "end": null
+        "end": 1760327422
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760327422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
