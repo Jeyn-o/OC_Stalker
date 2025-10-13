@@ -701,12 +701,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759123227,
-        "end": 1759129818,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759129818,
         "end": 1759130419
@@ -3572,11 +3566,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1759123227,
-        "end": 1759124428
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1759124428,
@@ -8294,12 +8283,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1759123227,
-        "end": 1759130419,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Going",
         "start": 1759130419,
@@ -20386,8 +20369,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760328031,
-        "end": null,
+        "end": 1760333430,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760333430,
+        "end": null
       }
     ]
   },
@@ -28745,12 +28733,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1759123227,
-        "end": 1759130419,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1759130419,
         "end": 1759141222
@@ -35463,11 +35445,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1759123227,
-        "end": 1759123834
-      },
-      {
         "status": "Available",
         "start": 1759123834,
         "end": 1759125026
@@ -40826,6 +40803,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760330418,
+        "end": 1760333430
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1760333430,
         "end": null
       }
     ]
