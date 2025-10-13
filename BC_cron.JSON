@@ -3567,12 +3567,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1759124428,
-        "end": 1759137026,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759137026,
         "end": 1759194628
@@ -12854,12 +12848,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1759124428,
-        "end": 1759125626,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759125626,
@@ -25834,12 +25822,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759124428,
-        "end": 1759131034,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759131034,
         "end": 1759137620,
@@ -27921,6 +27903,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760329227,
+        "end": 1760334625
+      },
+      {
+        "status": "Available",
+        "start": 1760334625,
         "end": null
       }
     ]
@@ -39811,8 +39798,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1760332819,
-        "end": null,
+        "end": 1760334625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1760334625,
+        "end": null
       }
     ]
   },
