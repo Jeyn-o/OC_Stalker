@@ -4151,11 +4151,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1759135225,
-        "end": 1759141222
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1759141222,
         "end": 1759153245,
@@ -9647,12 +9642,6 @@
     "name": "ExiledAstronaut",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1759135225,
-        "end": 1759142426,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759142426,
         "end": 1759249831
@@ -11311,12 +11300,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1759135225,
-        "end": 1759142426,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1759142426,
@@ -25771,7 +25754,13 @@
       {
         "status": "Available",
         "start": 1760344827,
-        "end": null
+        "end": 1760345423
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760345423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35356,6 +35345,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1760342428,
+        "end": 1760345423
+      },
+      {
+        "status": "Available",
+        "start": 1760345423,
         "end": null
       }
     ]
@@ -37830,12 +37824,6 @@
     "name": "Cerbb",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759135225,
-        "end": 1759136424,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1759136424,
         "end": 1759138229
@@ -38548,8 +38536,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760334024,
-        "end": null,
+        "end": 1760345423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760345423,
+        "end": null
       }
     ]
   },
@@ -40827,6 +40820,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760344827,
+        "end": 1760345423
+      },
+      {
+        "status": "[United Kingdom] Hospitalized - Revives: ALL",
+        "start": 1760345423,
         "end": null
       }
     ]
