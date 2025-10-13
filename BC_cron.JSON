@@ -701,12 +701,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759130419,
-        "end": 1759137026,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759137026,
         "end": 1759154425
@@ -1294,8 +1288,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760332819,
-        "end": null,
+        "end": 1760340031,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760340031,
+        "end": null
       }
     ]
   },
@@ -2173,12 +2172,6 @@
   "1766417": {
     "name": "gajeela09",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759130419,
-        "end": 1759137026,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759137026,
@@ -8281,12 +8274,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1759130419,
-        "end": 1759132221,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1759132221,
         "end": 1759134027,
@@ -12285,7 +12272,13 @@
       {
         "status": "Available",
         "start": 1760338839,
-        "end": null
+        "end": 1760340031
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1760340031,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20505,11 +20498,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759130419,
-        "end": 1759138229
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759138229,
         "end": 1759139426,
@@ -23381,11 +23369,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Hawaii] - Idle",
-        "start": 1759130419,
-        "end": 1759134622
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1759134622,
         "end": 1759140029,
@@ -23847,8 +23830,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760332231,
-        "end": null,
+        "end": 1760340031,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1760340031,
+        "end": null
       }
     ]
   },
@@ -28685,11 +28673,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1759130419,
-        "end": 1759141222
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1759141222,
         "end": 1759148421,
@@ -31066,6 +31049,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1760338226,
+        "end": 1760340031
+      },
+      {
+        "status": "Available",
+        "start": 1760340031,
         "end": null
       }
     ]
@@ -39752,6 +39740,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760339442,
+        "end": 1760340031,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760340031,
         "end": null,
         "travel_type": "airstrip"
       }
