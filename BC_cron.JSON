@@ -1368,12 +1368,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759138817,
-        "end": 1759145423,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759145423,
         "end": 1759154425
@@ -12249,8 +12243,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1760340031,
-        "end": null,
+        "end": 1760349030,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1760349030,
+        "end": null
       }
     ]
   },
@@ -12827,12 +12826,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1759138817,
-        "end": 1759140029,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759140029,
@@ -20846,12 +20839,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1759138817,
-        "end": 1759145423,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1759145423,
         "end": 1759152622,
@@ -24455,6 +24442,11 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760346027,
+        "end": 1760349030
+      },
+      {
+        "status": "[Switzerland] Mugged - Revives: ALL",
+        "start": 1760349030,
         "end": null
       }
     ]
@@ -24511,12 +24503,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759138817,
-        "end": 1759145423,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759145423,
@@ -40235,6 +40221,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760342428,
+        "end": 1760349030,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760349030,
         "end": null,
         "travel_type": "airstrip"
       }
