@@ -1378,12 +1378,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759171223,
-        "end": 1759177825,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759177825,
         "end": 1759180233
@@ -12940,12 +12934,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759171223,
-        "end": 1759172432,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1759172432,
         "end": 1759173028
@@ -16142,8 +16130,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760380234,
-        "end": null,
+        "end": 1760381429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760381429,
+        "end": null
       }
     ]
   },
@@ -18176,8 +18169,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760374839,
-        "end": null,
+        "end": 1760381429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760381429,
+        "end": null
       }
     ]
   },
@@ -20285,7 +20283,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1760380821,
-        "end": null
+        "end": 1760381429
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760381429,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -20411,11 +20415,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759171223,
-        "end": 1759195228
-      },
       {
         "status": "[Japan] - Going",
         "start": 1759195228,
@@ -20802,12 +20801,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1759171223,
-        "end": 1759173028,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Going",
         "start": 1759173028,
@@ -28573,7 +28566,13 @@
       {
         "status": "Available",
         "start": 1760374839,
-        "end": null
+        "end": 1760381429
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760381429,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31688,11 +31687,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759171223,
-        "end": 1759175421
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759175421,
