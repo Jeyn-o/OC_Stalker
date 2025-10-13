@@ -1285,6 +1285,11 @@
       {
         "status": "Available",
         "start": 1760313697,
+        "end": 1760318422
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1760318422,
         "end": null
       }
     ]
@@ -9486,7 +9491,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760311829,
-        "end": null
+        "end": 1760318422
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760318422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25807,12 +25818,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759108218,
-        "end": 1759114834,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759114834,
         "end": 1759117233
@@ -29506,8 +29511,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760311242,
-        "end": null,
+        "end": 1760318422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760318422,
+        "end": null
       }
     ]
   },
@@ -34045,8 +34055,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760317234,
-        "end": null,
+        "end": 1760318422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760318422,
+        "end": null
       }
     ]
   },
@@ -34465,11 +34480,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759108218,
-        "end": 1759110627
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759110627,
