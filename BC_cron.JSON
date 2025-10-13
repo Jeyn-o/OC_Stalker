@@ -701,11 +701,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759129818,
-        "end": 1759130419
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759130419,
         "end": 1759137026,
@@ -3511,6 +3506,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760326826,
+        "end": 1760339442,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760339442,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -9754,12 +9755,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759129232,
-        "end": 1759135824,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759135824,
         "end": 1759147820
@@ -12868,12 +12863,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759129818,
-        "end": 1759131034,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759131034,
         "end": 1759132221,
@@ -15225,11 +15214,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759129232,
-        "end": 1759134622
-      },
       {
         "status": "[Japan] - Going",
         "start": 1759134622,
@@ -20401,11 +20385,6 @@
     "name": "xaqf",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1759129232,
-        "end": 1759162817
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1759162817,
         "end": 1759170027,
@@ -20931,11 +20910,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759129818,
-        "end": 1759133424
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759133424,
@@ -25812,8 +25786,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760337627,
-        "end": null,
+        "end": 1760339442,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760339442,
+        "end": null
       }
     ]
   },
@@ -27905,11 +27884,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1759129232,
-        "end": 1759136424
-      },
-      {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1759136424,
         "end": 1759138229
@@ -29522,7 +29496,13 @@
       {
         "status": "Available",
         "start": 1760337033,
-        "end": null
+        "end": 1760339442
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760339442,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31732,7 +31712,13 @@
       {
         "status": "Available",
         "start": 1760305223,
-        "end": null
+        "end": 1760339442
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760339442,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39761,7 +39747,13 @@
       {
         "status": "Available",
         "start": 1760337627,
-        "end": null
+        "end": 1760339442
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760339442,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
