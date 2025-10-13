@@ -648,6 +648,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1760315430,
+        "end": 1760316632
+      },
+      {
+        "status": "Available",
+        "start": 1760316632,
         "end": null
       }
     ]
@@ -4088,7 +4093,13 @@
       {
         "status": "Available",
         "start": 1760309425,
-        "end": null
+        "end": 1760316632
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760316632,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6107,11 +6118,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1759107020,
-        "end": 1759113626
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1759113626,
@@ -31726,11 +31732,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759107020,
-        "end": 1759109424
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759109424,
         "end": 1759110627,
@@ -34036,11 +34037,6 @@
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1759107020,
-        "end": 1759111232
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759111232,
@@ -40740,6 +40736,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760309425,
+        "end": 1760316632,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760316632,
         "end": null,
         "travel_type": "airstrip"
       }
