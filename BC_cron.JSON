@@ -2867,7 +2867,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760337627,
-        "end": null
+        "end": 1760341226
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760341226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8040,6 +8046,11 @@
       {
         "status": "Available",
         "start": 1759574432,
+        "end": 1760341226
+      },
+      {
+        "status": "Jail",
+        "start": 1760341226,
         "end": null
       }
     ]
@@ -12862,12 +12873,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1759131034,
-        "end": 1759132221,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759132221,
         "end": 1759133424,
@@ -14542,12 +14547,6 @@
   "3026725": {
     "name": "Neodork",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1759131034,
-        "end": 1759136424,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759136424,
@@ -23366,6 +23365,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760334024,
+        "end": 1760341226,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760341226,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25786,19 +25791,19 @@
       {
         "status": "Available",
         "start": 1760339442,
-        "end": null
+        "end": 1760341226
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1760341226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759131034,
-        "end": 1759137620,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759137620,
@@ -39752,8 +39757,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760340031,
-        "end": null,
+        "end": 1760341226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760341226,
+        "end": null
       }
     ]
   },
