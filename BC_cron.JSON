@@ -4892,12 +4892,6 @@
     "name": "Ronskip",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759146620,
-        "end": 1759159823,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1759159823,
         "end": 1759180826
@@ -11273,8 +11267,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760350219,
-        "end": null,
+        "end": 1760356836,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760356836,
+        "end": null
       }
     ]
   },
@@ -15872,11 +15871,6 @@
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1759146620,
-        "end": 1759147820
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1759147820,
@@ -22486,12 +22480,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759146620,
-        "end": 1759153245,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759153245,
         "end": 1759159823,
@@ -25671,12 +25659,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759146620,
-        "end": 1759153245,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759153245,
@@ -33925,11 +33907,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759146620,
-        "end": 1759149623
-      },
-      {
         "status": "[Hawaii] - Going",
         "start": 1759149623,
         "end": 1759157423,
@@ -35227,7 +35204,13 @@
       {
         "status": "Available",
         "start": 1760345423,
-        "end": null
+        "end": 1760356836
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1760356836,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40152,6 +40135,11 @@
       {
         "status": "Available",
         "start": 1760355627,
+        "end": 1760356836
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1760356836,
         "end": null
       }
     ]
