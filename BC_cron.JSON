@@ -5059,12 +5059,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1759163431,
-        "end": 1759170627,
-        "travel_type": "private"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1759170627,
         "end": 1759200619
@@ -7313,7 +7307,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760371232,
-        "end": null
+        "end": 1760373624
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760373624,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -7335,11 +7335,6 @@
   "2389431": {
     "name": "LSEdmond",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: Partial",
-        "start": 1759163431,
-        "end": 1759164620
-      },
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1759164620,
@@ -15886,6 +15881,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: Partial",
         "start": 1760371232,
+        "end": 1760373624
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760373624,
         "end": null
       }
     ]
@@ -15893,11 +15893,6 @@
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759163431,
-        "end": 1759164620
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759164620,
@@ -18153,12 +18148,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1759163431,
-        "end": 1759166426,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1759166426,
@@ -28388,8 +28377,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760361026,
-        "end": null,
+        "end": 1760373624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760373624,
+        "end": null
       }
     ]
   },
@@ -30742,7 +30736,13 @@
       {
         "status": "Available",
         "start": 1760371232,
-        "end": null
+        "end": 1760373624
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760373624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31683,12 +31683,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1759163431,
-        "end": 1759164620,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759164620,
