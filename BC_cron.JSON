@@ -8269,12 +8269,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759148421,
-        "end": 1759155025,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759155025,
         "end": 1759213232
@@ -14591,11 +14585,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759148421,
-        "end": 1759149027
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759149027,
         "end": 1759155624,
@@ -15864,8 +15853,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760347226,
-        "end": null,
+        "end": 1760358630,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760358630,
+        "end": null
       }
     ]
   },
@@ -17289,7 +17283,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760357430,
-        "end": null
+        "end": 1760358630
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760358630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17965,7 +17965,13 @@
       {
         "status": "Available",
         "start": 1760338226,
-        "end": null
+        "end": 1760358630
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760358630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18158,8 +18164,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760352018,
-        "end": null,
+        "end": 1760358630,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760358630,
+        "end": null
       }
     ]
   },
@@ -20261,8 +20272,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760353229,
-        "end": null,
+        "end": 1760358630,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760358630,
+        "end": null
       }
     ]
   },
@@ -22225,7 +22241,13 @@
       {
         "status": "Available",
         "start": 1760358026,
-        "end": null
+        "end": 1760358630
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1760358630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23211,7 +23233,13 @@
       {
         "status": "Available",
         "start": 1760354426,
-        "end": null
+        "end": 1760358630
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760358630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27331,7 +27359,13 @@
       {
         "status": "Available",
         "start": 1760352627,
-        "end": null
+        "end": 1760358630
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760358630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28549,11 +28583,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759148421,
-        "end": 1759184417
-      },
       {
         "status": "Jail",
         "start": 1759184417,
@@ -38411,8 +38440,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760347226,
-        "end": null,
+        "end": 1760358630,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760358630,
+        "end": null
       }
     ]
   },
@@ -40252,6 +40286,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760352018,
+        "end": 1760358630,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760358630,
         "end": null,
         "travel_type": "airstrip"
       }
