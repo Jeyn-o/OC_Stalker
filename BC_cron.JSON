@@ -1300,8 +1300,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760346027,
-        "end": null,
+        "end": 1760352627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760352627,
+        "end": null
       }
     ]
   },
@@ -4113,8 +4118,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760340625,
-        "end": null,
+        "end": 1760352627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760352627,
+        "end": null
       }
     ]
   },
@@ -5043,12 +5053,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1759142426,
-        "end": 1759151419,
-        "travel_type": "private"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1759151419,
@@ -8696,7 +8700,13 @@
       {
         "status": "Available",
         "start": 1760350826,
-        "end": null
+        "end": 1760352627
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760352627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9635,11 +9645,6 @@
   "2675301": {
     "name": "ExiledAstronaut",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759142426,
-        "end": 1759249831
-      },
       {
         "status": "Jail",
         "start": 1759249831,
@@ -11301,11 +11306,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1759142426,
-        "end": 1759144226
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1759144226,
         "end": 1759150830,
@@ -12283,11 +12283,6 @@
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1759142426,
-        "end": 1759152622
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1759152622,
@@ -25704,6 +25699,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760345423,
+        "end": 1760352627,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760352627,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -27380,8 +27381,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760342428,
-        "end": null,
+        "end": 1760352627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760352627,
+        "end": null
       }
     ]
   },
@@ -36793,12 +36799,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1759142426,
-        "end": 1759152622,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759152622,
