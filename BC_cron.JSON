@@ -9741,12 +9741,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759188025,
-        "end": 1759194628,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759194628,
         "end": 1759200619
@@ -17231,20 +17225,19 @@
       {
         "status": "[Canada] - Going",
         "start": 1760396434,
-        "end": null,
+        "end": 1760398234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1760398234,
+        "end": null
       }
     ]
   },
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1759188025,
-        "end": 1759197862,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1759197862,
@@ -23662,11 +23655,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759188025,
-        "end": 1759250428
-      },
-      {
         "status": "Jail",
         "start": 1759250428,
         "end": 1759262425
@@ -27702,8 +27690,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760388028,
-        "end": null,
+        "end": 1760398234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760398234,
+        "end": null
       }
     ]
   },
@@ -38286,8 +38279,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760387433,
-        "end": null,
+        "end": 1760398234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760398234,
+        "end": null
       }
     ]
   },
