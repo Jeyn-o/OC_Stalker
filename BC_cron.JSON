@@ -7318,6 +7318,12 @@
       {
         "status": "[China] - Going",
         "start": 1760380234,
+        "end": 1760385029,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760385029,
         "end": null,
         "travel_type": "standard"
       }
@@ -7998,8 +8004,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760373031,
-        "end": null,
+        "end": 1760385029,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1760385029,
+        "end": null
       }
     ]
   },
@@ -12938,11 +12949,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1759174825,
-        "end": 1759177825
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759177825,
@@ -18158,7 +18164,13 @@
       {
         "status": "Available",
         "start": 1760381429,
-        "end": null
+        "end": 1760385029
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760385029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20789,11 +20801,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1759174825,
-        "end": 1759175421
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1759175421,
@@ -26825,11 +26832,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759174825,
-        "end": 1759203620
-      },
-      {
         "status": "[Hawaii] - Going",
         "start": 1759203620,
         "end": 1759209017,
@@ -28029,11 +28031,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759174825,
-        "end": 1759231836
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1759231836,
@@ -29415,8 +29412,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760377823,
-        "end": null,
+        "end": 1760385029,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760385029,
+        "end": null
       }
     ]
   },
@@ -36740,6 +36742,11 @@
       {
         "status": "Available",
         "start": 1760370629,
+        "end": 1760385029
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1760385029,
         "end": null
       }
     ]
