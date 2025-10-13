@@ -2881,12 +2881,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1759134622,
-        "end": 1759147229,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759147229,
         "end": 1759147820
@@ -8289,12 +8283,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1759134622,
-        "end": 1759136424,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1759136424,
@@ -15196,12 +15184,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1759134622,
-        "end": 1759144226,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1759144226,
         "end": 1759147820
@@ -17407,7 +17389,13 @@
       {
         "status": "Available",
         "start": 1760323228,
-        "end": null
+        "end": 1760344827
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760344827,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18260,7 +18248,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760344231,
-        "end": null
+        "end": 1760344827
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760344827,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20902,12 +20896,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1759134622,
-        "end": 1759135824,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759135824,
         "end": 1759136424
@@ -23367,12 +23355,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1759134622,
-        "end": 1759140029,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759140029,
         "end": 1759196428
@@ -25783,8 +25765,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760343021,
-        "end": null,
+        "end": 1760344827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760344827,
+        "end": null
       }
     ]
   },
@@ -28501,7 +28488,13 @@
       {
         "status": "Available",
         "start": 1760302832,
-        "end": null
+        "end": 1760344827
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760344827,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34023,6 +34016,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760343623,
+        "end": 1760344827,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760344827,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40823,6 +40822,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1760343021,
+        "end": 1760344827
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760344827,
         "end": null
       }
     ]
