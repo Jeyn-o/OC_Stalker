@@ -1361,12 +1361,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759131636,
-        "end": 1759138817,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759138817,
         "end": 1759145423,
@@ -7539,12 +7533,6 @@
     "name": "Jeyno",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759131636,
-        "end": 1759144226,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1759144226,
         "end": 1759144829
@@ -8051,6 +8039,11 @@
       {
         "status": "Jail",
         "start": 1760341226,
+        "end": 1760341820
+      },
+      {
+        "status": "Available",
+        "start": 1760341820,
         "end": null
       }
     ]
@@ -24595,12 +24588,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759131636,
-        "end": 1759138229,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759138229,
         "end": 1759138817
@@ -30799,8 +30786,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760330418,
-        "end": null,
+        "end": 1760341820,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760341820,
+        "end": null
       }
     ]
   },
@@ -38075,8 +38067,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760335238,
-        "end": null,
+        "end": 1760341820,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760341820,
+        "end": null
       }
     ]
   },
