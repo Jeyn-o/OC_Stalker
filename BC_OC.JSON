@@ -38105,9 +38105,9 @@
   },
   "918206": {
     "name": "Leave No Trace",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1760333402,
-    "executed_at": null,
+    "executed_at": 1760336825,
     "slots": {
       "P1": {
         "user_id": 3476243,
@@ -38654,7 +38654,7 @@
   "924040": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1760418101,
+    "ready_at": 1760504501,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -38671,6 +38671,14 @@
         "checkpoint_pass_rate": 53,
         "position": "Picklock",
         "position_number": 2
+      },
+      "P2": {
+        "user_id": 2583853,
+        "user_name": "frkn",
+        "checkpoint_pass_rate": 70,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -38694,6 +38702,17 @@
         "checkpoint_pass_rate": 53,
         "position": "Picklock",
         "position_number": 2
+      },
+      {
+        "timestamp": 1760337035,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2583853,
+        "user_name": "frkn",
+        "checkpoint_pass_rate": 70,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
