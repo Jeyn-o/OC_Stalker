@@ -2878,8 +2878,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760330418,
-        "end": null,
+        "end": 1760337627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760337627,
+        "end": null
       }
     ]
   },
@@ -8730,6 +8735,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760325022,
+        "end": 1760337627,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760337627,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -9664,12 +9675,6 @@
   "2675301": {
     "name": "ExiledAstronaut",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1759127427,
-        "end": 1759135225,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1759135225,
@@ -18269,7 +18274,13 @@
       {
         "status": "Available",
         "start": 1760304021,
-        "end": null
+        "end": 1760337627
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760337627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25799,6 +25810,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1760335825,
+        "end": 1760337627,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760337627,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34038,11 +34055,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759127427,
-        "end": 1759133424
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1759133424,
         "end": 1759135824,
@@ -35408,12 +35420,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759127427,
-        "end": 1759128643,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1759128643,
@@ -37849,12 +37855,6 @@
     "name": "Cerbb",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1759127427,
-        "end": 1759128643,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759128643,
         "end": 1759135225
@@ -38581,11 +38581,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759127427,
-        "end": 1759158033
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1759158033,
@@ -39774,8 +39769,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760335825,
-        "end": null,
+        "end": 1760337627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760337627,
+        "end": null
       }
     ]
   },
@@ -40338,6 +40338,11 @@
       {
         "status": "[Switzerland] Mugged - Revives: OFF",
         "start": 1760335238,
+        "end": 1760337627
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1760337627,
         "end": null
       }
     ]
