@@ -2887,12 +2887,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1759159220,
-        "end": 1759170627,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759170627,
         "end": 1759206025
@@ -3512,6 +3506,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760368823,
+        "end": 1760369424
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: OFF",
+        "start": 1760369424,
         "end": null
       }
     ]
@@ -6034,8 +6033,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760368225,
-        "end": null,
+        "end": 1760369424,
         "travel_type": "private"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1760369424,
+        "end": null
       }
     ]
   },
@@ -8930,12 +8934,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1759159220,
-        "end": 1759168825,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759168825,
@@ -14466,8 +14464,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760358026,
-        "end": null,
+        "end": 1760369424,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760369424,
+        "end": null
       }
     ]
   },
@@ -22248,6 +22251,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1760367631,
+        "end": 1760369424,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760369424,
         "end": null,
         "travel_type": "airstrip"
       }
