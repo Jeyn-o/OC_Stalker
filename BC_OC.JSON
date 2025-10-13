@@ -36370,9 +36370,9 @@
   },
   "906546": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1760332115,
-    "executed_at": null,
+    "executed_at": 1760332144,
     "slots": {
       "P4": {
         "user_id": 446596,
@@ -38521,8 +38521,8 @@
   },
   "923472": {
     "name": "Break the Bank",
-    "status": "Recruiting",
-    "ready_at": 1760563005,
+    "status": "Planning",
+    "ready_at": 1760649405,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -38563,6 +38563,14 @@
         "checkpoint_pass_rate": 60,
         "position": "Muscle",
         "position_number": 2,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 67,
+        "position": "Robber",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -38621,6 +38629,17 @@
         "position": "Muscle",
         "position_number": 2,
         "item_available": true
+      },
+      {
+        "timestamp": 1760332235,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 67,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -38635,7 +38654,7 @@
   "924040": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1760312449,
+    "ready_at": 1760418101,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -38645,6 +38664,13 @@
         "position": "Bomber",
         "position_number": 1,
         "item_available": true
+      },
+      "P6": {
+        "user_id": 3447443,
+        "user_name": "Jordanw1",
+        "checkpoint_pass_rate": 53,
+        "position": "Picklock",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -38658,6 +38684,16 @@
         "position": "Bomber",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1760332235,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3447443,
+        "user_name": "Jordanw1",
+        "checkpoint_pass_rate": 53,
+        "position": "Picklock",
+        "position_number": 2
       }
     ]
   },
