@@ -7329,8 +7329,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760373624,
-        "end": null,
+        "end": 1760377823,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760377823,
+        "end": null
       }
     ]
   },
@@ -10532,7 +10537,13 @@
       {
         "status": "Available",
         "start": 1760244027,
-        "end": null
+        "end": 1760377823
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760377823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12917,11 +12928,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1759167622,
-        "end": 1759168825
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759168825,
         "end": 1759170027,
@@ -13856,12 +13862,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1759167622,
-        "end": 1759184417,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1759184417,
@@ -16114,7 +16114,13 @@
       {
         "status": "Available",
         "start": 1759949426,
-        "end": null
+        "end": 1760377823
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1760377823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16513,12 +16519,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759167622,
-        "end": 1759180233,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759180233,
@@ -24450,12 +24450,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759167622,
-        "end": 1759174231,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759174231,
         "end": 1759180826,
@@ -29406,7 +29400,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760377219,
-        "end": null
+        "end": 1760377823
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760377823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33979,11 +33979,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759167622,
-        "end": 1759168825
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1759168825,
         "end": 1759170627,
@@ -37921,6 +37916,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: Partial",
         "start": 1760375422,
+        "end": 1760377823
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760377823,
         "end": null
       }
     ]
