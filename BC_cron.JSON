@@ -12843,11 +12843,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1759143024,
-        "end": 1759143632
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759143632,
         "end": 1759144829,
@@ -20310,7 +20305,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760333430,
-        "end": null
+        "end": 1760353229
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760353229,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -24441,6 +24442,11 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760351425,
+        "end": 1760353229
+      },
+      {
+        "status": "[Switzerland] Mugged - Revives: ALL",
+        "start": 1760353229,
         "end": null
       }
     ]
@@ -31635,6 +31641,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760346621,
+        "end": 1760353229,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760353229,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31643,11 +31655,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1759143024,
-        "end": 1759150222
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1759150222,
@@ -36792,6 +36799,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760348419,
+        "end": 1760353229
+      },
+      {
+        "status": "Available",
+        "start": 1760353229,
         "end": null
       }
     ]
