@@ -663,8 +663,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760379030,
-        "end": null,
+        "end": 1760392222,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760392222,
+        "end": null
       }
     ]
   },
@@ -14620,12 +14625,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1759182021,
-        "end": 1759188631,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1759188631,
         "end": 1759189221
@@ -20276,7 +20275,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760387433,
-        "end": null
+        "end": 1760392222
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760392222,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -20794,12 +20799,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1759182021,
-        "end": 1759183824,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1759183824,
