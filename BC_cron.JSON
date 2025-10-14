@@ -4914,11 +4914,6 @@
     "name": "Murder_Hobo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759258838,
-        "end": 1759693225
-      },
-      {
         "status": "Jail",
         "start": 1759693225,
         "end": 1759714221
@@ -8893,11 +8888,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1759258838,
-        "end": 1759279232
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1759279232,
         "end": 1759288827,
@@ -9638,11 +9628,6 @@
   "2675301": {
     "name": "ExiledAstronaut",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759258838,
-        "end": 1759784452
-      },
       {
         "status": "Jail",
         "start": 1759784452,
@@ -11493,7 +11478,13 @@
       {
         "status": "Available",
         "start": 1760461820,
-        "end": null
+        "end": 1760469028
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760469028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16263,11 +16254,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1759258838,
-        "end": 1759259428
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759259428,
         "end": 1759260630,
@@ -20046,7 +20032,13 @@
       {
         "status": "Available",
         "start": 1760466625,
-        "end": null
+        "end": 1760469028
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760469028,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -21966,11 +21958,6 @@
   "3331202": {
     "name": "Imtheman357",
     "activities": [
-      {
-        "status": "[United Arab Emirates] Mugged - Revives: Partial",
-        "start": 1759258838,
-        "end": 1759261230
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759261230,
@@ -24188,12 +24175,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759258838,
-        "end": 1759260029,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759260029,
@@ -31396,12 +31377,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1759258838,
-        "end": 1759259428,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759259428,
         "end": 1759260029
@@ -33654,6 +33629,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760462425,
+        "end": 1760469028,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760469028,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37655,7 +37636,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1760467822,
-        "end": null
+        "end": 1760469028
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760469028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40307,8 +40294,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760466027,
-        "end": null,
+        "end": 1760469028,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1760469028,
+        "end": null
       }
     ]
   },
@@ -40861,6 +40853,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1760466625,
+        "end": 1760469028
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760469028,
         "end": null
       }
     ]
