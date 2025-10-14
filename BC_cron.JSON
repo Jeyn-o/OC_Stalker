@@ -2089,6 +2089,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1760412026,
+        "end": 1760412632
+      },
+      {
+        "status": "[Hospital] Lost - Revives: OFF",
+        "start": 1760412632,
         "end": null
       }
     ]
@@ -6039,8 +6044,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760404825,
-        "end": null,
+        "end": 1760412632,
         "travel_type": "private"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760412632,
+        "end": null
       }
     ]
   },
@@ -20259,7 +20269,13 @@
       {
         "status": "Available",
         "start": 1760407240,
-        "end": null
+        "end": 1760412632
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760412632,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -23152,18 +23168,19 @@
       {
         "status": "Available",
         "start": 1760371822,
-        "end": null
+        "end": 1760412632
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760412632,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1759202433,
-        "end": 1759203620
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1759203620,
@@ -29805,6 +29822,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1760410829,
+        "end": 1760412632
+      },
+      {
+        "status": "Available",
+        "start": 1760412632,
         "end": null
       }
     ]
@@ -31653,12 +31675,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759202433,
-        "end": 1759203620,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759203620,
@@ -35217,12 +35233,6 @@
   "3707169": {
     "name": "LichKean",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759202433,
-        "end": 1759209017,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759209017,
@@ -39579,8 +39589,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760404825,
-        "end": null,
+        "end": 1760412632,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760412632,
+        "end": null
       }
     ]
   },
