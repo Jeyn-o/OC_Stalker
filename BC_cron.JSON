@@ -4911,11 +4911,6 @@
     "name": "Ronskip",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759193426,
-        "end": 1759819223
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1759819223,
         "end": 1759826427,
@@ -6047,11 +6042,6 @@
   "2315415": {
     "name": "Litri",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1759193426,
-        "end": 1759194028
-      },
       {
         "status": "Available",
         "start": 1759194028,
@@ -11428,7 +11418,13 @@
       {
         "status": "Available",
         "start": 1760401827,
-        "end": null
+        "end": 1760403635
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1760403635,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16507,12 +16503,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759193426,
-        "end": 1759205425,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759205425,
@@ -22198,6 +22188,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760391035,
+        "end": 1760403635,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760403635,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30708,8 +30704,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760391623,
-        "end": null,
+        "end": 1760403635,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760403635,
+        "end": null
       }
     ]
   },
@@ -40817,6 +40818,11 @@
       {
         "status": "Available",
         "start": 1760254826,
+        "end": 1760403635
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1760403635,
         "end": null
       }
     ]
