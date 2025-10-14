@@ -2109,6 +2109,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760414441,
+        "end": 1760415622
+      },
+      {
+        "status": "Available",
+        "start": 1760415622,
         "end": null
       }
     ]
@@ -3576,11 +3581,6 @@
   "2052875": {
     "name": "firefly50",
     "activities": [
-      {
-        "status": "[South Africa] Mugged - Revives: OFF",
-        "start": 1759205425,
-        "end": 1759207222
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1759207222,
@@ -16523,11 +16523,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759205425,
-        "end": 1759236630
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1759236630,
         "end": 1759243830,
@@ -20421,8 +20416,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760409023,
-        "end": null,
+        "end": 1760415622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760415622,
+        "end": null
       }
     ]
   },
@@ -20810,12 +20810,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759205425,
-        "end": 1759217437,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759217437,
@@ -22202,8 +22196,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760403635,
-        "end": null,
+        "end": 1760415622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760415622,
+        "end": null
       }
     ]
   },
@@ -28566,12 +28565,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1759205425,
-        "end": 1759212623,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759212623,
         "end": 1759234227
@@ -33892,7 +33885,13 @@
       {
         "status": "Available",
         "start": 1760415025,
-        "end": null
+        "end": 1760415622
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760415622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40318,8 +40317,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1760413827,
-        "end": null,
+        "end": 1760415622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1760415622,
+        "end": null
       }
     ]
   },
