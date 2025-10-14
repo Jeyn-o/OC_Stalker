@@ -13056,11 +13056,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759264827,
-        "end": 1759299027
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759299027,
         "end": 1759300235,
@@ -17854,12 +17849,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1759264827,
-        "end": 1759267831,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1759267831,
         "end": 1759269629
@@ -22117,6 +22106,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1760473829,
+        "end": 1760475030
+      },
+      {
+        "status": "Available",
+        "start": 1760475030,
         "end": null
       }
     ]
@@ -31319,11 +31313,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759264827,
-        "end": 1759266623
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1759266623,
         "end": 1759273825,
@@ -33556,11 +33545,6 @@
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "[United Arab Emirates] Mugged - Revives: ALL",
-        "start": 1759264827,
-        "end": 1759266037
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759266037,
@@ -39274,7 +39258,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760474426,
-        "end": null
+        "end": 1760475030
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760475030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40777,7 +40767,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760474426,
-        "end": null
+        "end": 1760475030
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760475030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
