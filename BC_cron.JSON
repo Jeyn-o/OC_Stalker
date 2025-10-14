@@ -6043,11 +6043,6 @@
     "name": "Litri",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759194028,
-        "end": 1759297818
-      },
-      {
         "status": "Jail",
         "start": 1759297818,
         "end": 1759316436
@@ -8920,11 +8915,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1759194028,
-        "end": 1759194628
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1759194628,
@@ -18172,12 +18162,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1759194028,
-        "end": 1759196428,
-        "travel_type": "standard"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1759196428,
@@ -30710,7 +30694,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760403635,
-        "end": null
+        "end": 1760404221
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760404221,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35220,8 +35210,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760402434,
-        "end": null,
+        "end": 1760404221,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1760404221,
+        "end": null
       }
     ]
   },
@@ -37514,6 +37509,11 @@
       {
         "status": "Available",
         "start": 1760332819,
+        "end": 1760404221
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1760404221,
         "end": null
       }
     ]
@@ -40823,6 +40823,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1760403635,
+        "end": 1760404221
+      },
+      {
+        "status": "Available",
+        "start": 1760404221,
         "end": null
       }
     ]
