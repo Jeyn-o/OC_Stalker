@@ -3,12 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1759225232,
-        "end": 1759237820,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1759237820,
         "end": 1759251023,
@@ -665,7 +659,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760433022,
-        "end": null
+        "end": 1760435423
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760435423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4182,12 +4182,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1759225232,
-        "end": 1759237231,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759237231,
@@ -13046,11 +13040,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1759225232,
-        "end": 1759227635
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759227635,
@@ -22324,12 +22313,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759225232,
-        "end": 1759231836,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759231836,
         "end": 1759233629
@@ -27640,8 +27623,13 @@
       {
         "status": "[China] - Going",
         "start": 1760425234,
-        "end": null,
+        "end": 1760435423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760435423,
+        "end": null
       }
     ]
   },
@@ -33823,8 +33811,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760428957,
-        "end": null,
+        "end": 1760435423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760435423,
+        "end": null
       }
     ]
   },
@@ -36635,7 +36628,13 @@
       {
         "status": "Available",
         "start": 1760433619,
-        "end": null
+        "end": 1760435423
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1760435423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
