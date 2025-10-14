@@ -4102,12 +4102,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759253434,
-        "end": 1759260029,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759260029,
         "end": 1759272033
@@ -7203,7 +7197,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760460633,
-        "end": null
+        "end": 1760463631
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760463631,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -10145,8 +10145,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760457027,
-        "end": null,
+        "end": 1760463631,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760463631,
+        "end": null
       }
     ]
   },
@@ -10553,7 +10558,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760388028,
-        "end": null
+        "end": 1760463631
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760463631,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13019,11 +13030,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1759253434,
-        "end": 1759254030
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759254030,
@@ -21951,7 +21957,13 @@
       {
         "status": "Available",
         "start": 1760463030,
-        "end": null
+        "end": 1760463631
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760463631,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26523,7 +26535,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760458229,
-        "end": null
+        "end": 1760463631
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760463631,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27444,19 +27462,19 @@
       {
         "status": "Available",
         "start": 1760457027,
-        "end": null
+        "end": 1760463631
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760463631,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3542414": {
     "name": "awesomemcsexy",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1759253434,
-        "end": 1759254623,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759254623,
@@ -34983,11 +35001,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1759253434,
-        "end": 1759254030
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759254030,
         "end": 1759255236,
@@ -37676,8 +37689,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1760461820,
-        "end": null,
+        "end": 1760463631,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1760463631,
+        "end": null
       }
     ]
   },
@@ -40305,6 +40323,11 @@
       {
         "status": "Available",
         "start": 1760418035,
+        "end": 1760463631
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1760463631,
         "end": null
       }
     ]
