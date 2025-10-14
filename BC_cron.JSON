@@ -8922,6 +8922,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760422824,
+        "end": 1760430024,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760430024,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -23577,8 +23583,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1760424629,
-        "end": null,
+        "end": 1760430024,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760430024,
+        "end": null
       }
     ]
   },
@@ -36639,7 +36650,13 @@
       {
         "status": "Available",
         "start": 1760429425,
-        "end": null
+        "end": 1760430024
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1760430024,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
