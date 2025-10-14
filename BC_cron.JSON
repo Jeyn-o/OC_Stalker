@@ -2084,6 +2084,11 @@
       {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1760411427,
+        "end": 1760412026
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1760412026,
         "end": null
       }
     ]
@@ -3551,11 +3556,6 @@
   "2052875": {
     "name": "firefly50",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1759201822,
-        "end": 1759205425
-      },
       {
         "status": "[South Africa] Mugged - Revives: OFF",
         "start": 1759205425,
@@ -7904,6 +7904,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760404825,
+        "end": 1760412026,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760412026,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -10395,12 +10401,6 @@
   "2730718": {
     "name": "Haungpeary",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1759201822,
-        "end": 1759212033,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1759212033,
@@ -13890,11 +13890,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1759201822,
-        "end": 1759203620
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759203620,
         "end": 1759215019,
@@ -15113,12 +15108,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759201822,
-        "end": 1759208434,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759208434,
@@ -26788,6 +26777,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1760410219,
+        "end": 1760412026,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760412026,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -36679,6 +36674,11 @@
       {
         "status": "Available",
         "start": 1760397022,
+        "end": 1760412026
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1760412026,
         "end": null
       }
     ]
@@ -38326,7 +38326,13 @@
       {
         "status": "Available",
         "start": 1760410219,
-        "end": null
+        "end": 1760412026
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760412026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
