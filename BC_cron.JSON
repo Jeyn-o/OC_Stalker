@@ -4561,11 +4561,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759195228,
-        "end": 1759330839
-      },
-      {
         "status": "[China] - Going",
         "start": 1759330839,
         "end": 1759340427,
@@ -11408,8 +11403,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1760403635,
-        "end": null,
+        "end": 1760405422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1760405422,
+        "end": null
       }
     ]
   },
@@ -20262,7 +20262,13 @@
       {
         "status": "Available",
         "start": 1760404825,
-        "end": null
+        "end": 1760405422
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1760405422,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -20405,12 +20411,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1759195228,
-        "end": 1759204223,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1759204223,
@@ -23645,6 +23645,11 @@
       {
         "status": "Available",
         "start": 1760361626,
+        "end": 1760405422
+      },
+      {
+        "status": "Jail",
+        "start": 1760405422,
         "end": null
       }
     ]
@@ -31658,11 +31663,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759195228,
-        "end": 1759195825
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759195825,
         "end": 1759197020,
@@ -35260,11 +35260,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Japan] Attacked - Revives: OFF",
-        "start": 1759195228,
-        "end": 1759195825
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1759195825,
