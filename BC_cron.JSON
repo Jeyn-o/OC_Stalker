@@ -1998,7 +1998,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760465424,
-        "end": null
+        "end": 1760466027
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760466027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12466,12 +12472,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1759255825,
-        "end": 1759268435,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759268435,
         "end": 1759329631
@@ -13051,11 +13051,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1759255825,
-        "end": 1759260029
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759260029,
@@ -15709,11 +15704,6 @@
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759255825,
-        "end": 1759261826
-      },
       {
         "status": "[Japan] - Going",
         "start": 1759261826,
@@ -28240,6 +28230,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760458822,
+        "end": 1760466027,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760466027,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -28248,11 +28244,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1759255825,
-        "end": 1759276230
-      },
       {
         "status": "[Argentina] Mugged - Revives: ALL",
         "start": 1759276230,
@@ -30436,8 +30427,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760454625,
-        "end": null,
+        "end": 1760466027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760466027,
+        "end": null
       }
     ]
   },
@@ -31361,6 +31357,12 @@
       {
         "status": "[China] - Returning",
         "start": 1760455830,
+        "end": 1760466027,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760466027,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37629,8 +37631,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760464222,
-        "end": null,
+        "end": 1760466027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760466027,
+        "end": null
       }
     ]
   },
@@ -40268,7 +40275,13 @@
       {
         "status": "Available",
         "start": 1760464836,
-        "end": null
+        "end": 1760466027
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760466027,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -40810,8 +40823,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760459433,
-        "end": null,
+        "end": 1760466027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760466027,
+        "end": null
       }
     ]
   },
