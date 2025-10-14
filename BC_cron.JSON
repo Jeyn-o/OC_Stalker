@@ -3567,12 +3567,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759194628,
-        "end": 1759206632,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1759206632,
         "end": 1759209017
@@ -6035,7 +6029,13 @@
       {
         "status": "Available",
         "start": 1760400045,
-        "end": null
+        "end": 1760404825
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760404825,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -7894,7 +7894,13 @@
       {
         "status": "Available",
         "start": 1759917028,
-        "end": null
+        "end": 1760404825
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760404825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8916,12 +8922,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1759194628,
-        "end": 1759203620,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759203620,
         "end": 1759236630
@@ -9721,11 +9721,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759194628,
-        "end": 1759200619
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759200619,
@@ -20261,8 +20256,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760400628,
-        "end": null,
+        "end": 1760404825,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760404825,
+        "end": null
       }
     ]
   },
@@ -20392,8 +20392,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760397621,
-        "end": null,
+        "end": 1760404825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760404825,
+        "end": null
       }
     ]
   },
@@ -33913,12 +33918,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1759194628,
-        "end": 1759211424,
-        "travel_type": "standard"
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759211424,
         "end": 1759228221,
@@ -35216,7 +35215,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1760404221,
-        "end": null
+        "end": 1760404825
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1760404825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38337,8 +38342,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760403023,
-        "end": null,
+        "end": 1760404825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1760404825,
+        "end": null
       }
     ]
   },
@@ -39579,6 +39589,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760397621,
+        "end": 1760404825,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760404825,
         "end": null,
         "travel_type": "airstrip"
       }
