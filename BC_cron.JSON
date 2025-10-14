@@ -660,6 +660,11 @@
       {
         "status": "[South Africa] Mugged - Revives: OFF",
         "start": 1760430637,
+        "end": 1760433022
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760433022,
         "end": null
       }
     ]
@@ -1317,6 +1322,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760425823,
+        "end": 1760433022,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760433022,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -1997,7 +2008,13 @@
       {
         "status": "Available",
         "start": 1760386224,
-        "end": null
+        "end": 1760433022
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760433022,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7988,6 +8005,11 @@
       {
         "status": "Jail",
         "start": 1760432436,
+        "end": 1760433022
+      },
+      {
+        "status": "Available",
+        "start": 1760433022,
         "end": null
       }
     ]
@@ -13039,11 +13061,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] Mugged - Revives: ALL",
-        "start": 1759222831,
-        "end": 1759225232
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1759225232,
         "end": 1759227635
@@ -13760,12 +13777,6 @@
   "2943860": {
     "name": "BiberBart",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759222831,
-        "end": 1759229430,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759229430,
@@ -23076,8 +23087,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760426428,
-        "end": null,
+        "end": 1760433022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760433022,
+        "end": null
       }
     ]
   },
@@ -25560,12 +25576,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1759222831,
-        "end": 1759224030,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759224030,
@@ -30914,12 +30924,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759222831,
-        "end": 1759229430,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759229430,
@@ -37822,7 +37826,13 @@
       {
         "status": "Available",
         "start": 1760428229,
-        "end": null
+        "end": 1760433022
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760433022,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
