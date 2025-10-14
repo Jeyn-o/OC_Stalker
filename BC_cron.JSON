@@ -7204,6 +7204,12 @@
       {
         "status": "[China] - Going",
         "start": 1760468433,
+        "end": 1760472625,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760472625,
         "end": null,
         "travel_type": "standard"
       }
@@ -8022,11 +8028,6 @@
   "2611425": {
     "name": "NeshoNeko",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759262425,
-        "end": 1759303227
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1759303227,
@@ -13039,11 +13040,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1759262425,
-        "end": 1759263625
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759263625,
         "end": 1759264827,
@@ -15842,12 +15838,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759262425,
-        "end": 1759269027,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759269027,
         "end": 1759275631,
@@ -16887,7 +16877,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760469627,
-        "end": null
+        "end": 1760472625
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760472625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19965,8 +19961,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760469028,
-        "end": null,
+        "end": 1760472625,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1760472625,
+        "end": null
       }
     ]
   },
@@ -22102,11 +22103,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759262425,
-        "end": 1759291232
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759291232,
         "end": 1759297230,
@@ -23300,11 +23296,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759262425,
-        "end": 1759272033
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759272033,
         "end": 1759279232,
@@ -24093,12 +24084,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759262425,
-        "end": 1759263625,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759263625,
@@ -29451,12 +29436,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1759262425,
-        "end": 1759272624,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Returning",
         "start": 1759272624,
         "end": 1759282830,
@@ -30356,7 +30335,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760466027,
-        "end": null
+        "end": 1760472625
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760472625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31276,20 +31261,19 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760466027,
-        "end": null,
+        "end": 1760472625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760472625,
+        "end": null
       }
     ]
   },
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1759262425,
-        "end": 1759263625,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759263625,
@@ -40175,8 +40159,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760469627,
-        "end": null,
+        "end": 1760472625,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760472625,
+        "end": null
       }
     ]
   },
