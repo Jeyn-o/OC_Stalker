@@ -2923,12 +2923,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1759206025,
-        "end": 1759216219,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1759216219,
         "end": 1759216824
@@ -15935,6 +15929,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760406022,
+        "end": 1760416232
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: Partial",
+        "start": 1760416232,
         "end": null
       }
     ]
@@ -22202,7 +22201,13 @@
       {
         "status": "Available",
         "start": 1760415622,
-        "end": null
+        "end": 1760416232
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760416232,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25631,7 +25636,13 @@
       {
         "status": "Available",
         "start": 1760409023,
-        "end": null
+        "end": 1760416232
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760416232,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26815,6 +26826,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1760414441,
+        "end": 1760416232,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760416232,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -27329,8 +27346,13 @@
       {
         "status": "[China] - Going",
         "start": 1760406022,
-        "end": null,
+        "end": 1760416232,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760416232,
+        "end": null
       }
     ]
   },
@@ -40323,7 +40345,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1760415622,
-        "end": null
+        "end": 1760416232
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760416232,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
