@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1759221620,
-        "end": 1759225232
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1759225232,
         "end": 1759237820,
@@ -3569,11 +3564,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759221620,
-        "end": 1759227635
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1759227635,
         "end": 1759233629,
@@ -6145,12 +6135,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1759221620,
-        "end": 1759227635,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1759227635,
         "end": 1759234828
@@ -8001,11 +7985,6 @@
   "2541399": {
     "name": "Theurgy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759221620,
-        "end": 1759569025
-      },
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759569025,
@@ -10405,7 +10384,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760431225,
-        "end": null
+        "end": 1760431824
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760431824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13043,11 +13028,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1759221620,
-        "end": 1759222831
-      },
       {
         "status": "[Mexico] Mugged - Revives: ALL",
         "start": 1759222831,
@@ -15837,11 +15817,6 @@
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1759221620,
-        "end": 1759223428
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759223428,
@@ -36653,6 +36628,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760430024,
+        "end": 1760431824,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1760431824,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40176,8 +40157,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760425234,
-        "end": null,
+        "end": 1760431824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760431824,
+        "end": null
       }
     ]
   },
