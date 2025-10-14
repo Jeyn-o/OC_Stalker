@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] Hospitalized - Revives: ALL",
-        "start": 1759220429,
-        "end": 1759221620
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1759221620,
         "end": 1759225232
@@ -665,6 +660,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760421027,
+        "end": 1760430637
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: OFF",
+        "start": 1760430637,
         "end": null
       }
     ]
@@ -8002,12 +8002,6 @@
     "name": "Theurgy",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1759220429,
-        "end": 1759221620,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759221620,
         "end": 1759569025
@@ -8285,12 +8279,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759220429,
-        "end": 1759227635,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759227635,
@@ -8708,6 +8696,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760418627,
+        "end": 1760430637,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760430637,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -13045,11 +13039,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759220429,
-        "end": 1759221029
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759221029,
         "end": 1759221620,
@@ -15845,11 +15834,6 @@
     "name": "JuanPaulo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759220429,
-        "end": 1759221029
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759221029,
         "end": 1759221620,
@@ -16035,6 +16019,11 @@
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1760428229,
+        "end": 1760430637
+      },
+      {
+        "status": "Available",
+        "start": 1760430637,
         "end": null
       }
     ]
@@ -24294,8 +24283,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760428957,
-        "end": null,
+        "end": 1760430637,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1760430637,
+        "end": null
       }
     ]
   },
@@ -30657,6 +30651,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760419822,
+        "end": 1760430637,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760430637,
         "end": null,
         "travel_type": "airstrip"
       }
