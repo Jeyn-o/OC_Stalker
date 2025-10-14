@@ -39431,7 +39431,7 @@
   "928934": {
     "name": "Mob Mentality",
     "status": "Recruiting",
-    "ready_at": 1760450849,
+    "ready_at": 1760538309,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -39441,6 +39441,13 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3926163,
+        "user_name": "J-Donuts",
+        "checkpoint_pass_rate": 75,
+        "position": "Looter",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -39476,6 +39483,16 @@
         "position": "Looter",
         "position_number": 3,
         "item_available": false
+      },
+      {
+        "timestamp": 1760452231,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3926163,
+        "user_name": "J-Donuts",
+        "checkpoint_pass_rate": 75,
+        "position": "Looter",
+        "position_number": 2
       }
     ]
   },
