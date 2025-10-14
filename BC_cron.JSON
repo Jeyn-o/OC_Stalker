@@ -1390,12 +1390,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759219815,
-        "end": 1759227635,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759227635,
         "end": 1759234227,
@@ -8008,11 +8002,6 @@
     "name": "Theurgy",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1759219815,
-        "end": 1759220429
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759220429,
         "end": 1759221620,
@@ -11451,8 +11440,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760427624,
-        "end": null,
+        "end": 1760429425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760429425,
+        "end": null
       }
     ]
   },
@@ -20180,6 +20174,11 @@
       {
         "status": "[South Africa] Mugged - Revives: ALL",
         "start": 1760427030,
+        "end": 1760429425
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760429425,
         "end": null
       }
     ]
@@ -36635,6 +36634,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1760428957,
+        "end": 1760429425
+      },
+      {
+        "status": "Available",
+        "start": 1760429425,
         "end": null
       }
     ]
