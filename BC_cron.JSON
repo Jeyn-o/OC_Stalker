@@ -4939,11 +4939,6 @@
     "name": "Special-Needs",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: Partial",
-        "start": 1759259428,
-        "end": 1759261230
-      },
-      {
         "status": "Available",
         "start": 1759261230,
         "end": 1759411227
@@ -16254,12 +16249,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1759259428,
-        "end": 1759260630,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Jail",
         "start": 1759260630,
         "end": 1759263625
@@ -16958,8 +16947,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760457631,
-        "end": null,
+        "end": 1760469627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760469627,
+        "end": null
       }
     ]
   },
@@ -29089,6 +29083,11 @@
       {
         "status": "[Argentina] Mugged - Revives: ALL",
         "start": 1760467822,
+        "end": 1760469627
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760469627,
         "end": null
       }
     ]
@@ -31376,11 +31375,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759259428,
-        "end": 1759260029
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759260029,
@@ -33917,12 +33911,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759259428,
-        "end": 1759260630,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759260630,
         "end": 1759261826,
@@ -34941,11 +34929,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1759259428,
-        "end": 1759261230
-      },
       {
         "status": "Available",
         "start": 1759261230,
@@ -36389,7 +36372,13 @@
       {
         "status": "Available",
         "start": 1760460025,
-        "end": null
+        "end": 1760469627
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760469627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38208,6 +38197,11 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1760467822,
+        "end": 1760469627
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760469627,
         "end": null
       }
     ]
@@ -40300,7 +40294,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760469028,
-        "end": null
+        "end": 1760469627
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760469627,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
