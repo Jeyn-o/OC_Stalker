@@ -664,7 +664,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760461238,
-        "end": null
+        "end": 1760463030
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760463030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2212,12 +2218,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759252832,
-        "end": 1759260029,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759260029,
         "end": 1759294223
@@ -2861,8 +2861,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760455830,
-        "end": null,
+        "end": 1760463030,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760463030,
+        "end": null
       }
     ]
   },
@@ -4970,7 +4975,13 @@
       {
         "status": "Available",
         "start": 1760053219,
-        "end": null
+        "end": 1760463030
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760463030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6066,12 +6077,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1759252832,
-        "end": 1759257631,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1759257631,
@@ -8618,8 +8623,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760455830,
-        "end": null,
+        "end": 1760463030,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760463030,
+        "end": null
       }
     ]
   },
@@ -16217,12 +16227,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1759252832,
-        "end": 1759254623,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1759254623,
         "end": 1759255236
@@ -17909,11 +17913,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759252832,
-        "end": 1759258226
-      },
       {
         "status": "[Japan] - Going",
         "start": 1759258226,
@@ -20034,7 +20033,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760461820,
-        "end": null
+        "end": 1760463030
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760463030,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -21940,8 +21945,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760461238,
-        "end": null,
+        "end": 1760463030,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760463030,
+        "end": null
       }
     ]
   },
@@ -27035,12 +27045,6 @@
     "name": "Mr_jeff14574",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759252832,
-        "end": 1759260029,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759260029,
         "end": 1759260630
@@ -29540,6 +29544,11 @@
       {
         "status": "Available",
         "start": 1760454625,
+        "end": 1760463030
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1760463030,
         "end": null
       }
     ]
