@@ -10415,6 +10415,11 @@
       {
         "status": "[Argentina] Lost - Revives: ALL",
         "start": 1760482834,
+        "end": 1760484633
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760484633,
         "end": null
       }
     ]
@@ -16913,8 +16918,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760472625,
-        "end": null,
+        "end": 1760484633,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760484633,
+        "end": null
       }
     ]
   },
@@ -17561,8 +17571,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760473223,
-        "end": null,
+        "end": 1760484633,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1760484633,
+        "end": null
       }
     ]
   },
@@ -17879,11 +17894,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759274425,
-        "end": 1759275631
-      },
       {
         "status": "[China] - Going",
         "start": 1759275631,
@@ -30435,11 +30445,6 @@
     "name": "SN00PYTOBY",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759274425,
-        "end": 1759275029
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1759275029,
         "end": 1759275631
@@ -37087,7 +37092,13 @@
       {
         "status": "Available",
         "start": 1760408422,
-        "end": null
+        "end": 1760484633
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760484633,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
