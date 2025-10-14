@@ -8294,8 +8294,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760420428,
-        "end": null,
+        "end": 1760427624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1760427624,
+        "end": null
       }
     ]
   },
@@ -9753,12 +9758,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759217437,
-        "end": 1759224030,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759224030,
@@ -11452,7 +11451,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1760405422,
-        "end": null
+        "end": 1760427624
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760427624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12455,7 +12460,13 @@
       {
         "status": "Available",
         "start": 1760425234,
-        "end": null
+        "end": 1760427624
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1760427624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20723,11 +20734,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759217437,
-        "end": 1759218026
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759218026,
         "end": 1759224626,
@@ -25566,6 +25572,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760416232,
+        "end": 1760427624,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760427624,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -36940,7 +36952,13 @@
       {
         "status": "Available",
         "start": 1760284835,
-        "end": null
+        "end": 1760427624
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760427624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
