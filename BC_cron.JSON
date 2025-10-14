@@ -9470,8 +9470,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760393430,
-        "end": null,
+        "end": 1760406022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760406022,
+        "end": null
       }
     ]
   },
@@ -10200,8 +10205,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760399428,
-        "end": null,
+        "end": 1760406022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760406022,
+        "end": null
       }
     ]
   },
@@ -14635,11 +14645,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759195825,
-        "end": 1759206632
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1759206632,
         "end": 1759219237,
@@ -15895,8 +15900,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760394624,
-        "end": null,
+        "end": 1760406022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760406022,
+        "end": null
       }
     ]
   },
@@ -20267,8 +20277,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1760405422,
-        "end": null,
+        "end": 1760406022,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1760406022,
+        "end": null
       }
     ]
   },
@@ -20784,7 +20799,13 @@
       {
         "status": "Available",
         "start": 1760368823,
-        "end": null
+        "end": 1760406022
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760406022,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27296,7 +27317,13 @@
       {
         "status": "Available",
         "start": 1760383232,
-        "end": null
+        "end": 1760406022
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760406022,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29399,11 +29426,6 @@
   "3627853": {
     "name": "lonewanderer024",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759195825,
-        "end": 1760122830
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1760122830,
@@ -31662,12 +31684,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1759195825,
-        "end": 1759197020,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759197020,
@@ -35220,20 +35236,19 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760404825,
-        "end": null,
+        "end": 1760406022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760406022,
+        "end": null
       }
     ]
   },
   "3707169": {
     "name": "LichKean",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759195825,
-        "end": 1759202433,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759202433,
@@ -35260,11 +35275,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1759195825,
-        "end": 1759196428
-      },
       {
         "status": "[Japan] Attacked - Revives: OFF",
         "start": 1759196428,
@@ -38343,6 +38353,11 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1760404825,
+        "end": 1760406022
+      },
+      {
+        "status": "[Cayman Islands] Mugged - Revives: ALL",
+        "start": 1760406022,
         "end": null
       }
     ]
