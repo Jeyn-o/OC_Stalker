@@ -4481,8 +4481,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760457027,
-        "end": null,
+        "end": 1760464222,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760464222,
+        "end": null
       }
     ]
   },
@@ -4974,8 +4979,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760463030,
-        "end": null,
+        "end": 1760464222,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1760464222,
+        "end": null
       }
     ]
   },
@@ -13031,12 +13041,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1759254030,
-        "end": 1759254623,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759254623,
         "end": 1759255825,
@@ -14889,12 +14893,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1759254030,
-        "end": 1759260630,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1759260630,
         "end": 1759267831,
@@ -15875,12 +15873,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759254030,
-        "end": 1759261230,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759261230,
@@ -22195,11 +22187,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759254030,
-        "end": 1759260630
-      },
       {
         "status": "Jail",
         "start": 1759260630,
@@ -31408,11 +31395,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759254030,
-        "end": 1759255236
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759255236,
         "end": 1759256422,
@@ -33976,11 +33958,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Mexico] Mugged - Revives: ALL",
-        "start": 1759254030,
-        "end": 1759258226
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759258226,
         "end": 1759259428,
@@ -35000,12 +34977,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759254030,
-        "end": 1759255236,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759255236,
@@ -37695,7 +37666,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1760463631,
-        "end": null
+        "end": 1760464222
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760464222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
