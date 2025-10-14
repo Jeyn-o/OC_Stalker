@@ -8760,11 +8760,6 @@
     "name": "Vampire-Catgirl",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759257035,
-        "end": 1759564828
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759564828,
         "end": 1759565421
@@ -10422,8 +10417,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760460025,
-        "end": null,
+        "end": 1760467230,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760467230,
+        "end": null
       }
     ]
   },
@@ -13029,8 +13029,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760466625,
-        "end": null,
+        "end": 1760467230,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1760467230,
+        "end": null
       }
     ]
   },
@@ -16959,12 +16964,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1759257035,
-        "end": 1759266037,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1759266037,
@@ -31388,11 +31387,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759257035,
-        "end": 1759257631
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759257631,
         "end": 1759258838,
@@ -34941,7 +34935,13 @@
       {
         "status": "Available",
         "start": 1760466625,
-        "end": null
+        "end": 1760467230
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760467230,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
