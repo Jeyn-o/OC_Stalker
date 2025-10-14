@@ -6118,11 +6118,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1759239621,
-        "end": 1759240828
-      },
-      {
         "status": "[China] - Returning",
         "start": 1759240828,
         "end": 1759245030,
@@ -7259,8 +7254,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760444419,
-        "end": null,
+        "end": 1760449825,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760449825,
+        "end": null
       }
     ]
   },
@@ -13688,7 +13688,13 @@
       {
         "status": "Available",
         "start": 1760300424,
-        "end": null
+        "end": 1760449825
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760449825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14510,12 +14516,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1759239621,
-        "end": 1759246819,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759246819,
@@ -20686,12 +20686,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1759239621,
-        "end": 1759241424,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1759241424,
         "end": 1759242637,
@@ -22045,11 +22039,6 @@
   "3331202": {
     "name": "Imtheman357",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1759239621,
-        "end": 1759258838
-      },
       {
         "status": "[United Arab Emirates] Mugged - Revives: Partial",
         "start": 1759258838,
@@ -29323,11 +29312,6 @@
     "name": "HughJass69420",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759239621,
-        "end": 1759525225
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1759525225,
         "end": 1759527022
@@ -29352,11 +29336,6 @@
   "3628419": {
     "name": "Littlegman212",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1759239621,
-        "end": 1759240828
-      },
       {
         "status": "Available",
         "start": 1759240828,
@@ -40228,6 +40207,12 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760448026,
+        "end": 1760449825,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760449825,
         "end": null,
         "travel_type": "airstrip"
       }
