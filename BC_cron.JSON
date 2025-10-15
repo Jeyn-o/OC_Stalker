@@ -13283,11 +13283,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1759360227,
-        "end": 1759361437
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759361437,
         "end": 1759362618,
@@ -15682,11 +15677,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759360227,
-        "end": 1759408826
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1759408826,
         "end": 1759420841,
@@ -16661,11 +16651,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1759360227,
-        "end": 1759362024
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1759362024,
         "end": 1759371619,
@@ -17306,6 +17291,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760559017,
+        "end": 1760570422,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760570422,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -20307,11 +20298,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759360227,
-        "end": 1759360826
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759360826,
@@ -23837,8 +23823,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760557830,
-        "end": null,
+        "end": 1760570422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760570422,
+        "end": null
       }
     ]
   },
@@ -30850,12 +30841,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759360227,
-        "end": 1759361437,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759361437,
         "end": 1759362618,
@@ -34156,7 +34141,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760560822,
-        "end": null
+        "end": 1760570422
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760570422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36292,7 +36283,13 @@
       {
         "status": "Available",
         "start": 1760499624,
-        "end": null
+        "end": 1760570422
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760570422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38601,8 +38598,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760558439,
-        "end": null,
+        "end": 1760570422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760570422,
+        "end": null
       }
     ]
   },
@@ -40427,8 +40429,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760563829,
-        "end": null,
+        "end": 1760570422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760570422,
+        "end": null
       }
     ]
   },
