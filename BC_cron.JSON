@@ -12690,17 +12690,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759351825,
-        "end": 1759352428
-      },
-      {
-        "status": "[Mexico] - Going",
-        "start": 1759352428,
-        "end": 1759353625,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1759353625,
         "end": 1759368629
@@ -13666,11 +13655,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1759352428,
-        "end": 1759365624
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759365624,
@@ -19841,8 +19825,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760557830,
-        "end": null,
+        "end": 1760562042,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760562042,
+        "end": null
       }
     ]
   },
@@ -23962,11 +23951,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759352428,
-        "end": 1759386031
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1759386031,
@@ -37605,12 +37589,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759351825,
-        "end": 1759358423,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759358423,
         "end": 1759359632
@@ -39711,6 +39689,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760555423,
+        "end": 1760562042,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760562042,
         "end": null,
         "travel_type": "airstrip"
       }
