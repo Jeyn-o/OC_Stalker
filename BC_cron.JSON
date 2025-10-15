@@ -1340,6 +1340,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760506825,
+        "end": 1760513423,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760513423,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -2922,8 +2928,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760512227,
-        "end": null,
+        "end": 1760513423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760513423,
+        "end": null
       }
     ]
   },
@@ -8110,12 +8121,6 @@
     "name": "NeshoNeko",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759303227,
-        "end": 1759309823,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759309823,
         "end": 1759311029
@@ -11598,11 +11603,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1759303227,
-        "end": 1759303826
-      },
       {
         "status": "[China] - Returning",
         "start": 1759303826,
@@ -17918,12 +17918,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1759303227,
-        "end": 1759307436,
-        "travel_type": "standard"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1759307436,
@@ -34813,12 +34807,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1759303227,
-        "end": 1759305024,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759305024,
