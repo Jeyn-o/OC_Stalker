@@ -4076,7 +4076,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760501426,
-        "end": null
+        "end": 1760502633
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760502633,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6103,12 +6109,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1759292423,
-        "end": 1759297230,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1759297230,
         "end": 1759298432
@@ -7962,7 +7962,13 @@
       {
         "status": "Available",
         "start": 1760499624,
-        "end": null
+        "end": 1760502633
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760502633,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10455,8 +10461,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760495426,
-        "end": null,
+        "end": 1760502633,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760502633,
+        "end": null
       }
     ]
   },
@@ -25339,11 +25350,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1759292423,
-        "end": 1759293036
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1759293036,
         "end": 1759300235,
@@ -28244,11 +28250,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759292423,
-        "end": 1759301430
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1759301430,
         "end": 1759308030,
@@ -29535,6 +29536,11 @@
       {
         "status": "Available",
         "start": 1760482226,
+        "end": 1760502633
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1760502633,
         "end": null
       }
     ]
@@ -29542,12 +29548,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1759292423,
-        "end": 1759302630,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1759302630,
@@ -31378,11 +31378,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759292423,
-        "end": 1759293036
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759293036,
@@ -38161,6 +38156,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760501426,
+        "end": 1760502633
+      },
+      {
+        "status": "[United Arab Emirates] Hospitalized - Revives: ALL",
+        "start": 1760502633,
         "end": null
       }
     ]
