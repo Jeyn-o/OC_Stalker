@@ -1409,12 +1409,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759305024,
-        "end": 1759311622,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759311622,
         "end": 1759312224
@@ -3589,12 +3583,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1759305024,
-        "end": 1759317627,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1759317627,
@@ -8001,7 +7989,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760514622,
-        "end": null
+        "end": 1760515238
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760515238,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8276,11 +8270,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759305024,
-        "end": 1759306823
-      },
       {
         "status": "[Canada] - Going",
         "start": 1759306823,
@@ -10495,11 +10484,6 @@
   "2730718": {
     "name": "Haungpeary",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759305024,
-        "end": 1759357830
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1759357830,
@@ -15010,11 +14994,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1759305024,
-        "end": 1759305635
-      },
       {
         "status": "[China] Mugged - Revives: Partial",
         "start": 1759305635,
@@ -20059,11 +20038,6 @@
   "3255591": {
     "name": "xaqf",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1759305024,
-        "end": 1759306823
-      },
       {
         "status": "Available",
         "start": 1759306823,
@@ -26461,12 +26435,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1759305024,
-        "end": 1759314629,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759314629,
@@ -34809,11 +34777,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759305024,
-        "end": 1759305635
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1759305635,
         "end": 1759306823
@@ -39255,8 +39218,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760505629,
-        "end": null,
+        "end": 1760515238,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760515238,
+        "end": null
       }
     ]
   },
@@ -40888,6 +40856,11 @@
       {
         "status": "[United Kingdom] Attacked - Revives: ALL",
         "start": 1760514026,
+        "end": 1760515238
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760515238,
         "end": null
       }
     ]
