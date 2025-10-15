@@ -1415,11 +1415,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759347028,
-        "end": 1759393225
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759393225,
         "end": 1759399234,
@@ -2973,7 +2968,13 @@
       {
         "status": "Available",
         "start": 1760556024,
-        "end": null
+        "end": 1760557232
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760557232,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4922,7 +4923,13 @@
       {
         "status": "Available",
         "start": 1760554839,
-        "end": null
+        "end": 1760557232
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760557232,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13294,12 +13301,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1759347028,
-        "end": 1759348221,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759348221,
         "end": 1759353625
@@ -17744,12 +17745,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1759347028,
-        "end": 1759350026,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1759350026,
@@ -27060,8 +27055,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760547640,
-        "end": null,
+        "end": 1760557232,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760557232,
+        "end": null
       }
     ]
   },
@@ -30071,11 +30071,6 @@
     "name": "SN00PYTOBY",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759347028,
-        "end": 1759505425
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759505425,
         "end": 1759506624
@@ -30966,12 +30961,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1759347028,
-        "end": 1759348221,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759348221,
@@ -33404,11 +33393,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1759347028,
-        "end": 1759347624
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759347624,
@@ -40611,6 +40595,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760554839,
+        "end": 1760557232
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1760557232,
         "end": null
       }
     ]
