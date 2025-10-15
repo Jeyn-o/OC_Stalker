@@ -2960,11 +2960,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759317030,
-        "end": 1759320038
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1759320038,
         "end": 1759332639,
@@ -9693,12 +9688,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759317030,
-        "end": 1759323636,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759323636,
         "end": 1759330839,
@@ -13252,11 +13241,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759317030,
-        "end": 1759319428
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759319428,
@@ -16902,7 +16886,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760526621,
-        "end": null
+        "end": 1760527227
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760527227,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27314,6 +27304,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760526621,
+        "end": 1760527227
+      },
+      {
+        "status": "Available",
+        "start": 1760527227,
         "end": null
       }
     ]
@@ -29434,12 +29429,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1759317030,
-        "end": 1759327229,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759327229,
@@ -40050,8 +40039,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760520629,
-        "end": null,
+        "end": 1760527227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760527227,
+        "end": null
       }
     ]
   },
