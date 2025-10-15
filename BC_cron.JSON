@@ -5069,12 +5069,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759350629,
-        "end": 1759355419,
-        "travel_type": "private"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759355419,
         "end": 1759377028
@@ -7340,8 +7334,13 @@
       {
         "status": "[China] - Going",
         "start": 1760556630,
-        "end": null,
+        "end": 1760560822,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760560822,
+        "end": null
       }
     ]
   },
@@ -12690,12 +12689,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1759350629,
-        "end": 1759351825,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759351825,
         "end": 1759352428
@@ -16737,12 +16730,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1759350629,
-        "end": 1759360227,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1759360227,
         "end": 1759362024
@@ -17750,12 +17737,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759350629,
-        "end": 1759353025,
-        "travel_type": "standard"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759353025,
@@ -27857,6 +27838,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760553624,
+        "end": 1760560822,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760560822,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29189,12 +29176,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1759350629,
-        "end": 1759361437,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1759361437,
         "end": 1759369832
@@ -30053,7 +30034,13 @@
       {
         "status": "Available",
         "start": 1760533823,
-        "end": null
+        "end": 1760560822
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760560822,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30250,11 +30237,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759350629,
-        "end": 1759387224
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1759387224,
@@ -34290,8 +34272,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760553624,
-        "end": null,
+        "end": 1760560822,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760560822,
+        "end": null
       }
     ]
   },
