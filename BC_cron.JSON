@@ -10662,6 +10662,11 @@
       {
         "status": "[Japan] Mugged - Revives: ALL",
         "start": 1760518216,
+        "end": 1760520629
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1760520629,
         "end": null
       }
     ]
@@ -12585,7 +12590,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760520022,
-        "end": null
+        "end": 1760520629
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760520629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13265,12 +13276,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759310427,
-        "end": 1759311622,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759311622,
@@ -28143,6 +28148,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760514026,
+        "end": 1760520629,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760520629,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29459,11 +29470,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1759310427,
-        "end": 1759311029
-      },
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1759311029,
@@ -40086,6 +40092,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760514026,
+        "end": 1760520629,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760520629,
         "end": null,
         "travel_type": "airstrip"
       }
