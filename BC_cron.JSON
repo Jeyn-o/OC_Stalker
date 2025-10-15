@@ -711,6 +711,11 @@
       {
         "status": "Available",
         "start": 1760304634,
+        "end": 1760569824
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1760569824,
         "end": null
       }
     ]
@@ -1407,7 +1412,13 @@
       {
         "status": "[Switzerland] Mugged - Revives: ALL",
         "start": 1760567432,
-        "end": null
+        "end": 1760569824
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760569824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7335,7 +7346,13 @@
       {
         "status": "Available",
         "start": 1760568023,
-        "end": null
+        "end": 1760569824
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760569824,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -19754,6 +19771,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1760567432,
+        "end": 1760569824,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1760569824,
         "end": null,
         "travel_type": "standard"
       }
@@ -21696,11 +21719,6 @@
   "3331202": {
     "name": "Imtheman357",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: Partial",
-        "start": 1759359632,
-        "end": 1759362024
-      },
       {
         "status": "Available",
         "start": 1759362024,
@@ -30818,8 +30836,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760560230,
-        "end": null,
+        "end": 1760569824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760569824,
+        "end": null
       }
     ]
   },
@@ -37451,6 +37474,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760568023,
+        "end": 1760569824
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1760569824,
         "end": null
       }
     ]
@@ -37458,12 +37486,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759359632,
-        "end": 1759366226,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759366226,
