@@ -668,6 +668,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760476229,
+        "end": 1760488819,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760488819,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4064,7 +4070,13 @@
       {
         "status": "Available",
         "start": 1760432436,
-        "end": null
+        "end": 1760488819
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760488819,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17572,7 +17584,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760487020,
-        "end": null
+        "end": 1760488819
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760488819,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17894,11 +17912,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1759278635,
-        "end": 1759280440
-      },
       {
         "status": "[China] - Returning",
         "start": 1759280440,
@@ -20024,7 +20037,13 @@
       {
         "status": "Available",
         "start": 1760485826,
-        "end": null
+        "end": 1760488819
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760488819,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -28213,11 +28232,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1759278635,
-        "end": 1759281620
-      },
-      {
         "status": "[Argentina] Mugged - Revives: ALL",
         "start": 1759281620,
         "end": 1759284028
@@ -36290,6 +36304,11 @@
       {
         "status": "[Switzerland] Mugged - Revives: OFF",
         "start": 1760487020,
+        "end": 1760488819
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1760488819,
         "end": null
       }
     ]
@@ -38109,6 +38128,11 @@
       {
         "status": "Available",
         "start": 1760485826,
+        "end": 1760488819
+      },
+      {
+        "status": "Jail",
+        "start": 1760488819,
         "end": null
       }
     ]
@@ -38116,12 +38140,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1759278635,
-        "end": 1759279829,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759279829,
