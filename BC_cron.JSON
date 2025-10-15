@@ -7313,7 +7313,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760514622,
-        "end": null
+        "end": 1760530830
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760530830,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -8675,7 +8681,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760528426,
-        "end": null
+        "end": 1760530830
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760530830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9693,8 +9705,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760523621,
-        "end": null,
+        "end": 1760530830,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760530830,
+        "end": null
       }
     ]
   },
@@ -13278,11 +13295,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1759320631,
-        "end": 1759321228
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759321228,
@@ -21921,6 +21933,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760529640,
+        "end": 1760530830,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1760530830,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -24055,8 +24073,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760523621,
-        "end": null,
+        "end": 1760530830,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760530830,
+        "end": null
       }
     ]
   },
@@ -25228,7 +25251,13 @@
       {
         "status": "Available",
         "start": 1760528426,
-        "end": null
+        "end": 1760530830
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760530830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34670,7 +34699,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1760499624,
-        "end": null
+        "end": 1760530830
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760530830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40807,6 +40842,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760529640,
+        "end": 1760530830
+      },
+      {
+        "status": "[United Kingdom] Hospitalized - Revives: ALL",
+        "start": 1760530830,
         "end": null
       }
     ]
