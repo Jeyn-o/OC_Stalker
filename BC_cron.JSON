@@ -2912,6 +2912,11 @@
       {
         "status": "[Cayman Islands] Mugged - Revives: Partial",
         "start": 1760509228,
+        "end": 1760511633
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1760511633,
         "end": null
       }
     ]
@@ -4511,6 +4516,12 @@
       {
         "status": "[China] - Going",
         "start": 1760501426,
+        "end": 1760511633,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760511633,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7725,11 +7736,6 @@
   "2427687": {
     "name": "Jubjub82180",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759301430,
-        "end": 1759302630
-      },
       {
         "status": "Jail",
         "start": 1759302630,
@@ -12551,8 +12557,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760499624,
-        "end": null,
+        "end": 1760511633,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760511633,
+        "end": null
       }
     ]
   },
@@ -13232,11 +13243,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759301430,
-        "end": 1759302630
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759302630,
@@ -14591,12 +14597,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1759301430,
-        "end": 1759314032,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1759314032,
@@ -20032,7 +20032,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760503822,
-        "end": null
+        "end": 1760511633
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760511633,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -28187,12 +28193,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1759301430,
-        "end": 1759308030,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1759308030,
         "end": 1759308622
@@ -33531,11 +33531,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759301430,
-        "end": 1759324224
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759324224,
         "end": 1759326031
@@ -34812,12 +34807,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1759301430,
-        "end": 1759303227,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1759303227,
@@ -36244,6 +36233,11 @@
       {
         "status": "Available",
         "start": 1760511019,
+        "end": 1760511633
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1760511633,
         "end": null
       }
     ]
@@ -37501,8 +37495,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760510419,
-        "end": null,
+        "end": 1760511633,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760511633,
+        "end": null
       }
     ]
   },
