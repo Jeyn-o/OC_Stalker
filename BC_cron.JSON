@@ -2952,12 +2952,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1759304433,
-        "end": 1759317030,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759317030,
         "end": 1759320038
@@ -3572,7 +3566,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760512822,
-        "end": null
+        "end": 1760514622
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760514622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3589,11 +3589,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759304433,
-        "end": 1759305024
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1759305024,
@@ -4140,8 +4135,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760502633,
-        "end": null,
+        "end": 1760514622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760514622,
+        "end": null
       }
     ]
   },
@@ -7299,8 +7299,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760509228,
-        "end": null,
+        "end": 1760514622,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760514622,
+        "end": null
       }
     ]
   },
@@ -7990,8 +7995,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760502633,
-        "end": null,
+        "end": 1760514622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760514622,
+        "end": null
       }
     ]
   },
@@ -9726,11 +9736,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759304433,
-        "end": 1759317030
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1759317030,
@@ -25290,7 +25295,13 @@
       {
         "status": "Available",
         "start": 1760465424,
-        "end": null
+        "end": 1760514622
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760514622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27388,11 +27399,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759304433,
-        "end": 1759334437
-      },
-      {
         "status": "Jail",
         "start": 1759334437,
         "end": 1759335029
@@ -27577,12 +27583,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1759304433,
-        "end": 1759315829,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759315829,
@@ -36547,7 +36547,13 @@
       {
         "status": "Available",
         "start": 1760454625,
-        "end": null
+        "end": 1760514622
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760514622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
