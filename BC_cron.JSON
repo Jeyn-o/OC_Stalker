@@ -680,8 +680,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760501426,
-        "end": null,
+        "end": 1760514026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760514026,
+        "end": null
       }
     ]
   },
@@ -2250,8 +2255,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760506825,
-        "end": null,
+        "end": 1760514026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760514026,
+        "end": null
       }
     ]
   },
@@ -5047,11 +5057,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759303826,
-        "end": 1759350629
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759350629,
         "end": 1759355419,
@@ -6151,11 +6156,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1759303826,
-        "end": 1759324831
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1759324831,
@@ -9714,6 +9714,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760510419,
+        "end": 1760514026
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1760514026,
         "end": null
       }
     ]
@@ -11604,12 +11609,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1759303826,
-        "end": 1759314032,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759314032,
         "end": 1759316436
@@ -13261,11 +13260,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1759303826,
-        "end": 1759306823
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759306823,
         "end": 1759308030,
@@ -14450,7 +14444,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760506825,
-        "end": null
+        "end": 1760514026
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760514026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21963,12 +21963,6 @@
     "name": "Imtheman357",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1759303826,
-        "end": 1759320038,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1759320038,
         "end": 1759324224
@@ -26968,7 +26962,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760497824,
-        "end": null
+        "end": 1760514026
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760514026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28190,7 +28190,13 @@
       {
         "status": "Available",
         "start": 1760473223,
-        "end": null
+        "end": 1760514026
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760514026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29500,11 +29506,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1759303826,
-        "end": 1759305635
-      },
       {
         "status": "[China] - Idle",
         "start": 1759305635,
@@ -40129,6 +40130,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760507428,
+        "end": 1760514026,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760514026,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40870,6 +40877,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760507428,
+        "end": 1760514026
+      },
+      {
+        "status": "[United Kingdom] Attacked - Revives: ALL",
+        "start": 1760514026,
         "end": null
       }
     ]
