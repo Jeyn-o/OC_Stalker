@@ -729,12 +729,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759305635,
-        "end": 1759312224,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759312224,
         "end": 1759324224
@@ -2026,8 +2020,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760509228,
-        "end": null,
+        "end": 1760515825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760515825,
+        "end": null
       }
     ]
   },
@@ -4129,7 +4128,13 @@
       {
         "status": "Available",
         "start": 1760514622,
-        "end": null
+        "end": 1760515825
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760515825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4166,11 +4171,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1759305635,
-        "end": 1759313432
-      },
       {
         "status": "[China] - Returning",
         "start": 1759313432,
@@ -9718,6 +9718,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1760514026,
+        "end": 1760515825
+      },
+      {
+        "status": "Available",
+        "start": 1760515825,
         "end": null
       }
     ]
@@ -14995,11 +15000,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[China] Mugged - Revives: Partial",
-        "start": 1759305635,
-        "end": 1759308030
-      },
-      {
         "status": "[China] - Idle",
         "start": 1759308030,
         "end": 1759318830
@@ -16944,11 +16944,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759306219,
-        "end": 1759350629
-      },
       {
         "status": "[Japan] - Going",
         "start": 1759350629,
@@ -21933,6 +21928,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760508621,
+        "end": 1760515825,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760515825,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22895,11 +22896,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759306219,
-        "end": 1759315829
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1759315829,
@@ -24136,12 +24132,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759305635,
-        "end": 1759312837,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759312837,
         "end": 1759316436
@@ -25282,12 +25272,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1759305635,
-        "end": 1759312837,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1759312837,
@@ -29011,6 +28995,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760508621,
+        "end": 1760515825
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: ALL",
+        "start": 1760515825,
         "end": null
       }
     ]
@@ -29474,11 +29463,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1759305635,
-        "end": 1759308030
-      },
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1759308030,
@@ -34777,11 +34761,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1759305635,
-        "end": 1759306823
-      },
-      {
         "status": "Jail",
         "start": 1759306823,
         "end": 1759307436
@@ -37027,7 +37006,13 @@
       {
         "status": "Available",
         "start": 1760491830,
-        "end": null
+        "end": 1760515825
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760515825,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
