@@ -13289,11 +13289,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1759331432,
-        "end": 1759332028
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759332028,
         "end": 1759333234,
@@ -24058,12 +24053,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1759331432,
-        "end": 1759332028,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759332028,
         "end": 1759332639
@@ -26271,7 +26260,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1760539298,
-        "end": null
+        "end": 1760541622
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760541622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35942,6 +35937,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760540432,
+        "end": 1760541622
+      },
+      {
+        "status": "Available",
+        "start": 1760541622,
         "end": null
       }
     ]
@@ -37919,19 +37919,19 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760540432,
-        "end": null
+        "end": 1760541622
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760541622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759331432,
-        "end": 1759338040,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1759338040,
@@ -39842,8 +39842,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760540432,
-        "end": null,
+        "end": 1760541622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1760541622,
+        "end": null
       }
     ]
   },
@@ -39982,7 +39987,13 @@
       {
         "status": "Available",
         "start": 1760527227,
-        "end": null
+        "end": 1760541622
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760541622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
