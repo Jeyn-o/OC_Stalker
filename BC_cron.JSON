@@ -1414,12 +1414,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759333234,
-        "end": 1759339833,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759339833,
         "end": 1759347028,
@@ -6062,7 +6056,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760542235,
-        "end": null
+        "end": 1760543429
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760543429,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -6163,12 +6163,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1759333234,
-        "end": 1759337428,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Idle",
         "start": 1759337428,
@@ -8657,8 +8651,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760530830,
-        "end": null,
+        "end": 1760543429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760543429,
+        "end": null
       }
     ]
   },
@@ -13290,11 +13289,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759333234,
-        "end": 1759333827
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759333827,
         "end": 1759335029,
@@ -17812,7 +17806,13 @@
       {
         "status": "Available",
         "start": 1760537424,
-        "end": null
+        "end": 1760543429
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760543429,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26238,8 +26238,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760541622,
-        "end": null,
+        "end": 1760543429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760543429,
+        "end": null
       }
     ]
   },
@@ -27356,11 +27361,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759333234,
-        "end": 1759401027
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1759401027,
         "end": 1759413631,
@@ -27979,8 +27979,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760536868,
-        "end": null,
+        "end": 1760543429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760543429,
+        "end": null
       }
     ]
   },
@@ -35909,6 +35914,11 @@
       {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1760542235,
+        "end": 1760543429
+      },
+      {
+        "status": "Available",
+        "start": 1760543429,
         "end": null
       }
     ]
