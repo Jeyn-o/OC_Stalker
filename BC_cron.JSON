@@ -2952,7 +2952,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1760524828,
-        "end": null
+        "end": 1760527830
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1760527830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3597,11 +3603,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1759317627,
-        "end": 1759321834
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1759321834,
@@ -7992,8 +7993,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760515238,
-        "end": null,
+        "end": 1760527830,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760527830,
+        "end": null
       }
     ]
   },
@@ -9414,8 +9420,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1760518216,
-        "end": null,
+        "end": 1760527830,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760527830,
+        "end": null
       }
     ]
   },
@@ -13735,11 +13746,6 @@
   "2943860": {
     "name": "BiberBart",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1759317627,
-        "end": 1759319428
-      },
       {
         "status": "Available",
         "start": 1759319428,
@@ -21896,8 +21902,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760526621,
-        "end": null,
+        "end": 1760527830,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760527830,
+        "end": null
       }
     ]
   },
@@ -22133,12 +22144,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759317627,
-        "end": 1759324224,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759324224,
@@ -22845,8 +22850,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760521231,
-        "end": null,
+        "end": 1760527830,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760527830,
+        "end": null
       }
     ]
   },
@@ -24093,12 +24103,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759317627,
-        "end": 1759318830,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759318830,
@@ -28114,6 +28118,12 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760520629,
+        "end": 1760527830,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760527830,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33661,12 +33671,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759317627,
-        "end": 1759318830,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759318830,
@@ -40805,6 +40809,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760518216,
+        "end": 1760527830
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1760527830,
         "end": null
       }
     ]
