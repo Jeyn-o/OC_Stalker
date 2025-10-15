@@ -4176,12 +4176,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1759313432,
-        "end": 1759323636,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759323636,
         "end": 1759384832
@@ -9690,6 +9684,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760516430,
+        "end": 1760523621,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760523621,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -21884,8 +21884,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760515825,
-        "end": null,
+        "end": 1760523621,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760523621,
+        "end": null
       }
     ]
   },
@@ -24036,7 +24041,13 @@
       {
         "status": "Available",
         "start": 1760489424,
-        "end": null
+        "end": 1760523621
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760523621,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29432,11 +29443,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1759313432,
-        "end": 1759317030
-      },
-      {
         "status": "[China] - Returning",
         "start": 1759317030,
         "end": 1759327229,
@@ -33425,6 +33431,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1760521231,
+        "end": 1760523621
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760523621,
         "end": null
       }
     ]
@@ -34676,16 +34687,6 @@
       {
         "status": "[Canada] - Idle",
         "start": 1760499624,
-        "end": null
-      }
-    ]
-  },
-  "3707169": {
-    "name": "LichKean",
-    "activities": [
-      {
-        "status": "Available",
-        "start": 1759313432,
         "end": null
       }
     ]
@@ -36080,6 +36081,11 @@
       {
         "status": "Available",
         "start": 1760518216,
+        "end": 1760523621
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1760523621,
         "end": null
       }
     ]
