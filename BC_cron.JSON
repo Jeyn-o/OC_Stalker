@@ -4130,8 +4130,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760532622,
-        "end": null,
+        "end": 1760545224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760545224,
+        "end": null
       }
     ]
   },
@@ -12627,12 +12632,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759335029,
-        "end": 1759336235,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1759336235,
         "end": 1759341638
@@ -13283,11 +13282,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1759335029,
-        "end": 1759335630
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759335630,
@@ -19923,7 +19917,13 @@
       {
         "status": "Available",
         "start": 1760544034,
-        "end": null
+        "end": 1760545224
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1760545224,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -20071,11 +20071,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759335029,
-        "end": 1759371031
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1759371031,
@@ -24031,11 +24026,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759335029,
-        "end": 1759342826
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759342826,
         "end": 1759343437,
@@ -27169,11 +27159,6 @@
   "3542414": {
     "name": "awesomemcsexy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759335029,
-        "end": 1759335630
-      },
       {
         "status": "[China] - Going",
         "start": 1759335630,
@@ -31073,12 +31058,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759335029,
-        "end": 1759335630,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759335630,
@@ -39814,6 +39793,11 @@
       {
         "status": "Available",
         "start": 1760544034,
+        "end": 1760545224
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1760545224,
         "end": null
       }
     ]
