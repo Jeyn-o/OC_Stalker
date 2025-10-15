@@ -6170,11 +6170,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1759337428,
-        "end": 1759338040
-      },
-      {
         "status": "[China] - Returning",
         "start": 1759338040,
         "end": 1759342233,
@@ -13305,12 +13300,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1759337428,
-        "end": 1759338040,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759338040,
@@ -25119,8 +25108,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760541024,
-        "end": null,
+        "end": 1760547640,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760547640,
+        "end": null
       }
     ]
   },
@@ -27191,6 +27185,12 @@
       {
         "status": "[China] - Going",
         "start": 1760537424,
+        "end": 1760547640,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760547640,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31097,12 +31097,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1759337428,
-        "end": 1759339228,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1759339228,
@@ -40777,7 +40771,13 @@
       {
         "status": "Available",
         "start": 1760541024,
-        "end": null
+        "end": 1760547640
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760547640,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
