@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759288827,
-        "end": 1759311622
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1759311622,
         "end": 1759323636,
@@ -5973,7 +5968,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760493627,
-        "end": null
+        "end": 1760499024
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760499024,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -7929,6 +7930,11 @@
       {
         "status": "Available",
         "start": 1760493030,
+        "end": 1760499024
+      },
+      {
+        "status": "Jail",
+        "start": 1760499024,
         "end": null
       }
     ]
@@ -8882,11 +8888,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759288827,
-        "end": 1759290026
-      },
       {
         "status": "[Japan] - Going",
         "start": 1759290026,
@@ -31372,11 +31373,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1759288827,
-        "end": 1759290026
-      },
-      {
         "status": "Available",
         "start": 1759290026,
         "end": 1759290630
@@ -36315,8 +36311,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760491830,
-        "end": null,
+        "end": 1760499024,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760499024,
+        "end": null
       }
     ]
   },
