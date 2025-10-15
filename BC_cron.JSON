@@ -2159,6 +2159,11 @@
       {
         "status": "Available",
         "start": 1760415622,
+        "end": 1760571026
+      },
+      {
+        "status": "Jail",
+        "start": 1760571026,
         "end": null
       }
     ]
@@ -2984,8 +2989,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760564432,
-        "end": null,
+        "end": 1760571026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760571026,
+        "end": null
       }
     ]
   },
@@ -14762,11 +14772,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1759360826,
-        "end": 1759365029
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759365029,
         "end": 1759376421,
@@ -20299,12 +20304,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759360826,
-        "end": 1759361437,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759361437,
         "end": 1759362618,
@@ -23829,7 +23828,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760570422,
-        "end": null
+        "end": 1760571026
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760571026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
