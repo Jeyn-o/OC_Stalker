@@ -39864,20 +39864,19 @@
         "position_number": 1,
         "item_available": true
       },
-      "P5": {
-        "user_id": 3160215,
-        "user_name": "Anri_of_Astora",
-        "checkpoint_pass_rate": 59,
-        "position": "Muscle",
-        "position_number": 1,
-        "item_available": true
-      },
       "P1": {
         "user_id": 2541399,
         "user_name": "Theurgy",
         "checkpoint_pass_rate": 74,
         "position": "Picklock",
         "position_number": 1
+      },
+      "P6": {
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 67,
+        "position": "Picklock",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -39974,6 +39973,27 @@
         "checkpoint_pass_rate": 74,
         "position": "Picklock",
         "position_number": 1
+      },
+      {
+        "timestamp": 1760546431,
+        "action": "left",
+        "slot": "P5",
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 59,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1760546431,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 67,
+        "position": "Picklock",
+        "position_number": 2
       }
     ]
   },
