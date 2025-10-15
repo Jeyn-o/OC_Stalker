@@ -2235,12 +2235,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759294223,
-        "end": 1759300833,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759300833,
         "end": 1759307436,
@@ -2890,7 +2884,13 @@
       {
         "status": "Available",
         "start": 1760472034,
-        "end": null
+        "end": 1760504432
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1760504432,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22940,7 +22940,13 @@
       {
         "status": "Available",
         "start": 1760455230,
-        "end": null
+        "end": 1760504432
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760504432,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27419,12 +27425,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1759294223,
-        "end": 1759304433,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759304433,
         "end": 1759334437
@@ -31363,12 +31363,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759294223,
-        "end": 1759295427,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759295427,
@@ -38148,11 +38142,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759294223,
-        "end": 1759296024
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759296024,
         "end": 1759297230
@@ -40025,8 +40014,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760497824,
-        "end": null,
+        "end": 1760504432,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760504432,
+        "end": null
       }
     ]
   },
