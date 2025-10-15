@@ -2889,8 +2889,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760504432,
-        "end": null,
+        "end": 1760505629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1760505629,
+        "end": null
       }
     ]
   },
@@ -4119,12 +4124,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1759295427,
-        "end": 1759305635,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1759305635,
@@ -31363,11 +31362,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759295427,
-        "end": 1759296024
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1759296024,
         "end": 1759308622,
@@ -38138,7 +38132,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760505024,
-        "end": null
+        "end": 1760505629
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760505629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39276,6 +39276,12 @@
       {
         "status": "[China] - Going",
         "start": 1760494823,
+        "end": 1760505629,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760505629,
         "end": null,
         "travel_type": "airstrip"
       }
