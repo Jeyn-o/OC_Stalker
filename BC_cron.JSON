@@ -2030,7 +2030,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760545830,
-        "end": null
+        "end": 1760546428
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760546428,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12643,11 +12649,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1759336235,
-        "end": 1759341638
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759341638,
         "end": 1759342826,
@@ -16820,7 +16821,13 @@
       {
         "status": "Available",
         "start": 1760542235,
-        "end": null
+        "end": 1760546428
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760546428,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17819,11 +17826,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1759336235,
-        "end": 1759338632
-      },
       {
         "status": "[China] - Returning",
         "start": 1759338632,
@@ -19939,7 +19941,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1760545830,
-        "end": null
+        "end": 1760546428
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760546428,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -22798,6 +22806,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760539942,
+        "end": 1760546428,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760546428,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -23984,8 +23998,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760539298,
-        "end": null,
+        "end": 1760546428,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760546428,
+        "end": null
       }
     ]
   },
@@ -29277,6 +29296,11 @@
       {
         "status": "Available",
         "start": 1760505024,
+        "end": 1760546428
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1760546428,
         "end": null
       }
     ]
