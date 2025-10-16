@@ -725,12 +725,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759411830,
-        "end": 1759418430,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759418430,
         "end": 1759427423
@@ -3007,7 +3001,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760614225,
-        "end": null
+        "end": 1760622030
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760622030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9439,7 +9439,13 @@
       {
         "status": "Available",
         "start": 1760560230,
-        "end": null
+        "end": 1760622030
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760622030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11726,12 +11732,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1759411830,
-        "end": 1759417232,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1759417232,
         "end": 1759417831
@@ -12736,12 +12736,6 @@
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759411830,
-        "end": 1759413019,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759413019,
@@ -14360,11 +14354,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759411830,
-        "end": 1759415435
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1759415435,
@@ -27626,8 +27615,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760614828,
-        "end": null,
+        "end": 1760622030,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760622030,
+        "end": null
       }
     ]
   },
@@ -33019,12 +33013,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759411830,
-        "end": 1759413019,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759413019,
         "end": 1759414223,
@@ -36638,8 +36626,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760615423,
-        "end": null,
+        "end": 1760622030,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760622030,
+        "end": null
       }
     ]
   },
@@ -39284,6 +39277,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760620828,
+        "end": 1760622030,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760622030,
         "end": null,
         "travel_type": "airstrip"
       }
