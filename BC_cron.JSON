@@ -730,11 +730,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1759398621,
-        "end": 1759403429
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1759403429,
         "end": 1759404629
@@ -2048,8 +2043,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760602220,
-        "end": null,
+        "end": 1760608834,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760608834,
+        "end": null
       }
     ]
   },
@@ -4195,8 +4195,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760596829,
-        "end": null,
+        "end": 1760608834,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760608834,
+        "end": null
       }
     ]
   },
@@ -4593,8 +4598,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1760599228,
-        "end": null,
+        "end": 1760608834,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760608834,
+        "end": null
       }
     ]
   },
@@ -11702,6 +11712,11 @@
       {
         "status": "[Argentina] Mugged - Revives: ALL",
         "start": 1760607031,
+        "end": 1760608834
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760608834,
         "end": null
       }
     ]
@@ -12722,6 +12737,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1760599832,
+        "end": 1760608834,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1760608834,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14196,7 +14217,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760608229,
-        "end": null
+        "end": 1760608834
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760608834,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21643,6 +21670,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760601636,
+        "end": 1760608834,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760608834,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22589,7 +22622,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760608229,
-        "end": null
+        "end": 1760608834
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760608834,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29745,7 +29784,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760603425,
-        "end": null
+        "end": 1760608834
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760608834,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37294,11 +37339,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1759398621,
-        "end": 1759415435
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1759415435,
         "end": 1759425030,
@@ -40289,6 +40329,11 @@
       {
         "status": "[China] - Idle",
         "start": 1760603425,
+        "end": 1760608834
+      },
+      {
+        "status": "[China] Hospitalized - Revives: ALL",
+        "start": 1760608834,
         "end": null
       }
     ]
