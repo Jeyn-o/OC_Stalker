@@ -4179,6 +4179,11 @@
       {
         "status": "[South Africa] Lost - Revives: OFF",
         "start": 1760592628,
+        "end": 1760594437
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760594437,
         "end": null
       }
     ]
@@ -7384,7 +7389,13 @@
       {
         "status": "Available",
         "start": 1760586022,
-        "end": null
+        "end": 1760594437
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760594437,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -8302,11 +8313,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759384227,
-        "end": 1759385422
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759385422,
         "end": 1759392036,
@@ -8915,8 +8921,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760586625,
-        "end": null,
+        "end": 1760594437,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760594437,
+        "end": null
       }
     ]
   },
@@ -15517,8 +15528,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760583020,
-        "end": null,
+        "end": 1760594437,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760594437,
+        "end": null
       }
     ]
   },
@@ -15916,11 +15932,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1759384227,
-        "end": 1759384832
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1759384832,
@@ -22610,6 +22621,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760587233,
+        "end": 1760594437,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760594437,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22618,12 +22635,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1759384227,
-        "end": 1759390223,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759390223,
@@ -37382,11 +37393,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1759384227,
-        "end": 1759384832
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759384832,
