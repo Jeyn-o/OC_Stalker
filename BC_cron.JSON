@@ -2304,12 +2304,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759367423,
-        "end": 1759374026,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759374026,
         "end": 1759385422
@@ -19807,8 +19801,13 @@
       {
         "status": "[China] - Going",
         "start": 1760573421,
-        "end": null,
+        "end": 1760577618,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760577618,
+        "end": null
       }
     ]
   },
@@ -21719,8 +21718,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760565024,
-        "end": null,
+        "end": 1760577618,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760577618,
+        "end": null
       }
     ]
   },
@@ -22656,11 +22660,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759367423,
-        "end": 1759375830
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1759375830,
@@ -26533,7 +26532,13 @@
       {
         "status": "Available",
         "start": 1760524828,
-        "end": null
+        "end": 1760577618
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760577618,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29931,7 +29936,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760572226,
-        "end": null
+        "end": 1760577618
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760577618,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34135,8 +34146,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760570422,
-        "end": null,
+        "end": 1760577618,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760577618,
+        "end": null
       }
     ]
   },
@@ -37472,12 +37488,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1759367423,
-        "end": 1759368629,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1759368629,
         "end": 1759369223
@@ -38592,8 +38602,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1760576435,
-        "end": null,
+        "end": 1760577618,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1760577618,
+        "end": null
       }
     ]
   },
