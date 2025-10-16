@@ -2008,6 +2008,11 @@
       {
         "status": "Jail",
         "start": 1760648462,
+        "end": 1760652630
+      },
+      {
+        "status": "Available",
+        "start": 1760652630,
         "end": null
       }
     ]
@@ -14127,11 +14132,6 @@
     "name": "Neodork",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1759442434,
-        "end": 1759450217
-      },
-      {
         "status": "Available",
         "start": 1759450217,
         "end": 1759616431
@@ -17560,12 +17560,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1759442434,
-        "end": 1759445422,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1759445422,
         "end": 1759446039
@@ -20232,12 +20226,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1759442434,
-        "end": 1759443625,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759443625,
@@ -23603,7 +23591,13 @@
       {
         "status": "Available",
         "start": 1760650231,
-        "end": null
+        "end": 1760652630
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760652630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29905,11 +29899,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759442434,
-        "end": 1759476629
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759476629,
@@ -39511,8 +39500,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760646031,
-        "end": null,
+        "end": 1760652630,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] Attacked - Revives: OFF",
+        "start": 1760652630,
+        "end": null
       }
     ]
   },
