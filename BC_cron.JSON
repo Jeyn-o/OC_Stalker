@@ -7731,6 +7731,11 @@
       {
         "status": "Available",
         "start": 1760628627,
+        "end": 1760644831
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1760644831,
         "end": null
       }
     ]
@@ -17508,7 +17513,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760638224,
-        "end": null
+        "end": 1760644831
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760644831,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39385,8 +39396,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760638224,
-        "end": null,
+        "end": 1760644831,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760644831,
+        "end": null
       }
     ]
   },
