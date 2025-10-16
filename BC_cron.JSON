@@ -2154,6 +2154,11 @@
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1760638224,
+        "end": 1760639441
+      },
+      {
+        "status": "Available",
+        "start": 1760639441,
         "end": null
       }
     ]
@@ -4990,8 +4995,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760632232,
-        "end": null,
+        "end": 1760639441,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760639441,
+        "end": null
       }
     ]
   },
@@ -6173,12 +6183,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1759429830,
-        "end": 1759434618,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1759434618,
@@ -13237,12 +13241,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1759429220,
-        "end": 1759430420,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759430420,
         "end": 1759480227
@@ -17531,11 +17529,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759429830,
-        "end": 1759430420
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1759430420,
         "end": 1759433426,
@@ -19662,7 +19655,13 @@
       {
         "status": "Available",
         "start": 1760638224,
-        "end": null
+        "end": 1760639441
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760639441,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -21536,6 +21535,12 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760632822,
+        "end": 1760639441,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760639441,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -23614,12 +23619,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1759429830,
-        "end": 1759431023,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759431023,
@@ -30546,12 +30545,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759429830,
-        "end": 1759431023,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759431023,
         "end": 1759432219,
@@ -32873,11 +32866,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1759429830,
-        "end": 1759430420
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1759430420,
@@ -37194,7 +37182,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760638829,
-        "end": null
+        "end": 1760639441
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760639441,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
