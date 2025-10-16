@@ -675,6 +675,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760561431,
+        "end": 1760574029,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760574029,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4596,11 +4602,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759364416,
-        "end": 1759414223
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1759414223,
         "end": 1759425626,
@@ -4948,7 +4949,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760569234,
-        "end": null
+        "end": 1760574029
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760574029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7376,8 +7383,13 @@
       {
         "status": "[China] - Going",
         "start": 1760569824,
-        "end": null,
+        "end": 1760574029,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760574029,
+        "end": null
       }
     ]
   },
@@ -20312,12 +20324,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1759364416,
-        "end": 1759371031,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1759371031,
         "end": 1759371619
@@ -26030,11 +26036,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759363820,
-        "end": 1759387826
-      },
-      {
         "status": "[China] - Going",
         "start": 1759387826,
         "end": 1759397432,
@@ -27734,17 +27735,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1759363820,
-        "end": 1759364416
-      },
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1759364416,
-        "end": 1759371619,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759371619,
@@ -35800,12 +35790,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759363820,
-        "end": 1759365029,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759365029,
         "end": 1759366226,
@@ -36348,12 +36332,6 @@
   "3831147": {
     "name": "StripMcDip",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1759364416,
-        "end": 1759371619,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759371619,
@@ -39408,7 +39386,13 @@
       {
         "status": "Available",
         "start": 1760545830,
-        "end": null
+        "end": 1760574029
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760574029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
