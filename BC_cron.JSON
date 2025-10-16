@@ -9727,12 +9727,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759407032,
-        "end": 1759414223,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759414223,
         "end": 1759420841,
@@ -17621,12 +17615,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1759407032,
-        "end": 1759411227,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1759411227,
         "end": 1759416633
@@ -24778,11 +24766,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1759407032,
-        "end": 1759407623
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1759407623,
         "end": 1759414821,
@@ -27265,8 +27248,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760604620,
-        "end": null,
+        "end": 1760617229,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760617229,
+        "end": null
       }
     ]
   },
@@ -33903,6 +33891,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760590220,
+        "end": 1760617229
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: ALL",
+        "start": 1760617229,
         "end": null
       }
     ]
@@ -39225,8 +39218,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760610632,
-        "end": null,
+        "end": 1760617229,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760617229,
+        "end": null
       }
     ]
   },
