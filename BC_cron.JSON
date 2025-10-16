@@ -660,6 +660,12 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760621433,
+        "end": 1760634034,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760634034,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -3008,11 +3014,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759423826,
-        "end": 1759467022
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1759467022,
@@ -6111,8 +6112,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760625637,
-        "end": null,
+        "end": 1760634034,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1760634034,
+        "end": null
       }
     ]
   },
@@ -10126,8 +10132,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760627424,
-        "end": null,
+        "end": 1760634034,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760634034,
+        "end": null
       }
     ]
   },
@@ -13250,11 +13261,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1759423826,
-        "end": 1759429220
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759429220,
@@ -19672,7 +19678,13 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1760631619,
-        "end": null
+        "end": 1760634034
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760634034,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -26231,7 +26243,13 @@
       {
         "status": "Available",
         "start": 1760620230,
-        "end": null
+        "end": 1760634034
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760634034,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26686,6 +26704,11 @@
       {
         "status": "[China] - Idle",
         "start": 1760633425,
+        "end": 1760634034
+      },
+      {
+        "status": "[China] Attacked - Revives: OFF",
+        "start": 1760634034,
         "end": null
       }
     ]
@@ -29652,6 +29675,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760622626,
+        "end": 1760634034,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760634034,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30556,12 +30585,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1759423826,
-        "end": 1759425626,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1759425626,
