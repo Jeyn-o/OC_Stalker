@@ -4570,12 +4570,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1759425626,
-        "end": 1759437029,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759437029,
         "end": 1759439425
@@ -9432,7 +9426,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760634629,
-        "end": null
+        "end": 1760635828
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760635828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10795,11 +10795,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759425626,
-        "end": 1759455022
-      },
       {
         "status": "Jail",
         "start": 1759455022,
@@ -20241,12 +20236,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1759425626,
-        "end": 1759427423,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1759427423,
         "end": 1759440657
@@ -28842,6 +28831,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1760635223,
+        "end": 1760635828
+      },
+      {
+        "status": "Available",
+        "start": 1760635828,
         "end": null
       }
     ]
@@ -30595,12 +30589,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1759425626,
-        "end": 1759427423,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759427423,
@@ -35550,12 +35538,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759425626,
-        "end": 1759426227,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1759426227,
         "end": 1759426824
@@ -36577,7 +36559,13 @@
       {
         "status": "[United Kingdom] Attacked - Revives: Partial",
         "start": 1760634629,
-        "end": null
+        "end": 1760635828
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760635828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38319,8 +38307,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760623826,
-        "end": null,
+        "end": 1760635828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760635828,
+        "end": null
       }
     ]
   },
