@@ -1392,12 +1392,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759428036,
-        "end": 1759434618,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759434618,
         "end": 1759478435
@@ -2166,6 +2160,11 @@
       {
         "status": "Available",
         "start": 1760598037,
+        "end": 1760638224
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: Partial",
+        "start": 1760638224,
         "end": null
       }
     ]
@@ -15330,7 +15329,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760633425,
-        "end": null
+        "end": 1760638224
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760638224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17518,20 +17523,19 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760631619,
-        "end": null,
+        "end": 1760638224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760638224,
+        "end": null
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1759428036,
-        "end": 1759429830,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1759429830,
@@ -19658,8 +19662,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760634034,
-        "end": null,
+        "end": 1760638224,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760638224,
+        "end": null
       }
     ]
   },
@@ -21566,11 +21575,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759428036,
-        "end": 1759462828
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1759462828,
@@ -25717,8 +25721,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760631031,
-        "end": null,
+        "end": 1760638224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760638224,
+        "end": null
       }
     ]
   },
@@ -28801,11 +28810,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759428036,
-        "end": 1759435831
-      },
       {
         "status": "[China] - Going",
         "start": 1759435831,
@@ -35492,11 +35496,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759428036,
-        "end": 1759434618
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1759434618,
         "end": 1759447222,
@@ -36515,11 +36514,6 @@
   "3841404": {
     "name": "Sleepy_Skyes",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759428036,
-        "end": 1759603821
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1759603821,
@@ -38261,6 +38255,11 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1760636421,
+        "end": 1760638224
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760638224,
         "end": null
       }
     ]
@@ -39407,6 +39406,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760631619,
+        "end": 1760638224,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760638224,
         "end": null,
         "travel_type": "airstrip"
       }
