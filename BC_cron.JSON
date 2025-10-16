@@ -3603,11 +3603,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1759443024,
-        "end": 1759443625
-      },
-      {
         "status": "Available",
         "start": 1759443625,
         "end": 1759450816
@@ -14587,11 +14582,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759443024,
-        "end": 1759459227
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759459227,
         "end": 1759466421,
@@ -16463,6 +16453,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760640633,
+        "end": 1760653227,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760653227,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -21559,8 +21555,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760646627,
-        "end": null,
+        "end": 1760653227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760653227,
+        "end": null
       }
     ]
   },
@@ -24668,8 +24669,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760652034,
-        "end": null,
+        "end": 1760653227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760653227,
+        "end": null
       }
     ]
   },
@@ -37266,11 +37272,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759443024,
-        "end": 1759444230
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759444230,
         "end": 1759450816,
@@ -40456,8 +40457,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760646031,
-        "end": null,
+        "end": 1760653227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760653227,
+        "end": null
       }
     ]
   },
