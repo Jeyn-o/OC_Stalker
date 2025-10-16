@@ -4137,6 +4137,11 @@
       {
         "status": "Jail",
         "start": 1760649622,
+        "end": 1760655025
+      },
+      {
+        "status": "Available",
+        "start": 1760655025,
         "end": null
       }
     ]
@@ -4564,12 +4569,6 @@
   "2184227": {
     "name": "SassyMcSlacker",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1759444821,
-        "end": 1759450816,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759450816,
@@ -7519,11 +7518,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759444821,
-        "end": 1759476629
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1759476629,
@@ -19675,8 +19669,13 @@
       {
         "status": "[China] - Going",
         "start": 1760650231,
-        "end": null,
+        "end": 1760655025,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760655025,
+        "end": null
       }
     ]
   },
@@ -20222,11 +20221,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759444821,
-        "end": 1759446039
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1759446039,
@@ -24671,12 +24665,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1759444821,
-        "end": 1759456232,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759456232,
@@ -33823,7 +33811,13 @@
       {
         "status": "Available",
         "start": 1760633425,
-        "end": null
+        "end": 1760655025
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1760655025,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40468,7 +40462,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760653227,
-        "end": null
+        "end": 1760655025
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760655025,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
