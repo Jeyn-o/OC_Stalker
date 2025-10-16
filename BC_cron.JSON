@@ -4222,12 +4222,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1759384832,
-        "end": 1759394423,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1759394423,
         "end": 1759395638
@@ -5104,11 +5098,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759384832,
-        "end": 1759402832
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759402832,
@@ -13322,12 +13311,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759384832,
-        "end": 1759385422,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1759385422,
         "end": 1759392621
@@ -15664,6 +15647,11 @@
       {
         "status": "Available",
         "start": 1760453426,
+        "end": 1760595029
+      },
+      {
+        "status": "Jail",
+        "start": 1760595029,
         "end": null
       }
     ]
@@ -15932,12 +15920,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759384832,
-        "end": 1759398026,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759398026,
@@ -17659,11 +17641,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1759384832,
-        "end": 1759385422
-      },
       {
         "status": "Available",
         "start": 1759385422,
@@ -20313,8 +20290,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1760585430,
-        "end": null,
+        "end": 1760595029,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760595029,
+        "end": null
       }
     ]
   },
@@ -23059,12 +23041,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1759384832,
-        "end": 1759392036,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759392036,
@@ -36720,7 +36696,13 @@
       {
         "status": "Available",
         "start": 1760550629,
-        "end": null
+        "end": 1760595029
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760595029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37393,12 +37375,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759384832,
-        "end": 1759386031,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759386031,
@@ -39309,6 +39285,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760588422,
+        "end": 1760595029,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760595029,
         "end": null,
         "travel_type": "airstrip"
       }
