@@ -15723,12 +15723,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1759445422,
-        "end": 1759456828,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759456828,
         "end": 1759458023
@@ -17549,11 +17543,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759445422,
-        "end": 1759446039
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1759446039,
@@ -19675,7 +19664,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760655025,
-        "end": null
+        "end": 1760655629
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760655629,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -35210,8 +35205,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760649026,
-        "end": null,
+        "end": 1760655629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760655629,
+        "end": null
       }
     ]
   },
@@ -37258,8 +37258,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760654428,
-        "end": null,
+        "end": 1760655629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1760655629,
+        "end": null
       }
     ]
   },
@@ -38371,7 +38376,13 @@
       {
         "status": "Available",
         "start": 1760412632,
-        "end": null
+        "end": 1760655629
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760655629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39268,6 +39279,11 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1760653833,
+        "end": 1760655629
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760655629,
         "end": null
       }
     ]
