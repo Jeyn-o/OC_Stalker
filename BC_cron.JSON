@@ -5100,11 +5100,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: Partial",
-        "start": 1759383624,
-        "end": 1759384832
-      },
-      {
         "status": "Available",
         "start": 1759384832,
         "end": 1759402832
@@ -10586,6 +10581,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760586625,
+        "end": 1760593825,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760593825,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35383,8 +35384,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760587233,
-        "end": null,
+        "end": 1760593825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760593825,
+        "end": null
       }
     ]
   },
@@ -38452,6 +38458,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760593218,
+        "end": 1760593825
+      },
+      {
+        "status": "Available",
+        "start": 1760593825,
         "end": null
       }
     ]
