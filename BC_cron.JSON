@@ -1347,7 +1347,13 @@
       {
         "status": "Available",
         "start": 1760605827,
-        "end": null
+        "end": 1760606420
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760606420,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3631,12 +3637,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759396225,
-        "end": 1759402832,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759402832,
@@ -8685,6 +8685,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760605240,
+        "end": 1760606420,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760606420,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -16587,6 +16593,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1760604620,
+        "end": 1760606420,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760606420,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -24753,12 +24765,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1759396225,
-        "end": 1759398026,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759398026,
@@ -35277,8 +35283,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760604620,
-        "end": null,
+        "end": 1760606420,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760606420,
+        "end": null
       }
     ]
   },
