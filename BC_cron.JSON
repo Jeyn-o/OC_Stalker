@@ -3008,12 +3008,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759383024,
-        "end": 1759395031,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1759395031,
         "end": 1759395638
@@ -3634,12 +3628,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759383024,
-        "end": 1759395638,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759395638,
@@ -6210,11 +6198,6 @@
   "2325329": {
     "name": "Crispyfoot",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759383024,
-        "end": 1759461025
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1759461025,
@@ -26906,6 +26889,12 @@
       {
         "status": "[China] - Going",
         "start": 1760583639,
+        "end": 1760593218,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760593218,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34062,11 +34051,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1759383024,
-        "end": 1759387224
-      },
-      {
         "status": "Available",
         "start": 1759387224,
         "end": 1759389026
@@ -37393,12 +37377,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759383024,
-        "end": 1759384227,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1759384227,
         "end": 1759384832
@@ -38468,8 +38446,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1760587826,
-        "end": null,
+        "end": 1760593218,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1760593218,
+        "end": null
       }
     ]
   },
@@ -40362,7 +40345,13 @@
       {
         "status": "Available",
         "start": 1760588422,
-        "end": null
+        "end": 1760593218
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760593218,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
