@@ -13299,12 +13299,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759408826,
-        "end": 1759410029,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1759410029,
         "end": 1759411227
@@ -14640,11 +14634,6 @@
     "name": "Thornking",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1759408826,
-        "end": 1759411227
-      },
-      {
         "status": "Available",
         "start": 1759411227,
         "end": 1759827030
@@ -15618,12 +15607,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1759408826,
-        "end": 1759420841,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1759420841,
@@ -16600,6 +16583,11 @@
       {
         "status": "Available",
         "start": 1760611818,
+        "end": 1760619027
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1760619027,
         "end": null
       }
     ]
@@ -22636,12 +22624,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1759408826,
-        "end": 1759414821,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759414821,
@@ -33924,7 +33906,13 @@
       {
         "status": "[Argentina] Mugged - Revives: ALL",
         "start": 1760617229,
-        "end": null
+        "end": 1760619027
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760619027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
