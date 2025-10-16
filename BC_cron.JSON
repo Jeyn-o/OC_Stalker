@@ -3,12 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1759428623,
-        "end": 1759440657,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759440657,
         "end": 1759447826
@@ -709,11 +703,6 @@
   "446596": {
     "name": "Bucki",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759428623,
-        "end": 1759469429
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1759469429,
@@ -7355,8 +7344,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760634629,
-        "end": null,
+        "end": 1760638829,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760638829,
+        "end": null
       }
     ]
   },
@@ -32660,6 +32654,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760637632,
+        "end": 1760638829,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760638829,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37188,8 +37188,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760626224,
-        "end": null,
+        "end": 1760638829,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760638829,
+        "end": null
       }
     ]
   },
@@ -39196,6 +39201,11 @@
       {
         "status": "[China] - Idle",
         "start": 1760637027,
+        "end": 1760638829
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1760638829,
         "end": null
       }
     ]
