@@ -724,11 +724,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759389026,
-        "end": 1759390223
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759390223,
         "end": 1759397432,
@@ -1346,6 +1341,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760592628,
+        "end": 1760599228,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760599228,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4613,7 +4614,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1760596228,
-        "end": null
+        "end": 1760599228
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1760599228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7823,12 +7830,6 @@
   "2427687": {
     "name": "Jubjub82180",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1759389026,
-        "end": 1759399234,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1759399234,
@@ -15504,7 +15505,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760594437,
-        "end": null
+        "end": 1760599228
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760599228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24799,11 +24806,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759389026,
-        "end": 1759394423
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1759394423,
         "end": 1759396225,
@@ -33980,12 +33982,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1759389026,
-        "end": 1759390818,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1759390818,
         "end": 1759392621,
@@ -35329,8 +35325,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760597427,
-        "end": null,
+        "end": 1760599228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760599228,
+        "end": null
       }
     ]
   },
@@ -35673,11 +35674,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759389026,
-        "end": 1759425626
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759425626,
@@ -37325,20 +37321,19 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760592628,
-        "end": null,
+        "end": 1760599228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760599228,
+        "end": null
       }
     ]
   },
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1759389026,
-        "end": 1759398621,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1759398621,
