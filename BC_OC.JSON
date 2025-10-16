@@ -39551,19 +39551,21 @@
     "status": "Recruiting",
     "ready_at": 1760659821,
     "executed_at": null,
-    "slots": {
-      "P3": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1760574033,
+        "action": "joined",
+        "slot": "P3",
         "user_id": 3841404,
         "user_name": "Sleepy_Skyes",
         "checkpoint_pass_rate": 77,
         "position": "Lookout",
         "position_number": 1
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1760574033,
-        "action": "joined",
+        "timestamp": 1760605244,
+        "action": "left",
         "slot": "P3",
         "user_id": 3841404,
         "user_name": "Sleepy_Skyes",
@@ -39576,7 +39578,7 @@
   "928927": {
     "name": "Mob Mentality",
     "status": "Recruiting",
-    "ready_at": 1760762596,
+    "ready_at": 1760848996,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -39593,6 +39595,14 @@
         "checkpoint_pass_rate": 88,
         "position": "Looter",
         "position_number": 2
+      },
+      "P3": {
+        "user_id": 3841404,
+        "user_name": "Sleepy_Skyes",
+        "checkpoint_pass_rate": 87,
+        "position": "Looter",
+        "position_number": 3,
+        "item_available": true
       }
     },
     "action_log": [
@@ -39616,6 +39626,17 @@
         "checkpoint_pass_rate": 88,
         "position": "Looter",
         "position_number": 2
+      },
+      {
+        "timestamp": 1760605244,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3841404,
+        "user_name": "Sleepy_Skyes",
+        "checkpoint_pass_rate": 87,
+        "position": "Looter",
+        "position_number": 3,
+        "item_available": true
       }
     ]
   },
