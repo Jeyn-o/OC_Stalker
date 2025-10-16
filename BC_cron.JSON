@@ -2974,6 +2974,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760635223,
+        "end": 1760641818,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760641818,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -5067,6 +5073,11 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1760464222,
+        "end": 1760641818
+      },
+      {
+        "status": "[Mexico] Mugged - Revives: Partial",
+        "start": 1760641818,
         "end": null
       }
     ]
@@ -24600,8 +24611,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760634629,
-        "end": null,
+        "end": 1760641818,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760641818,
+        "end": null
       }
     ]
   },
@@ -25709,7 +25725,13 @@
       {
         "status": "Available",
         "start": 1760638224,
-        "end": null
+        "end": 1760641818
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760641818,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27099,8 +27121,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760629828,
-        "end": null,
+        "end": 1760641818,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760641818,
+        "end": null
       }
     ]
   },
