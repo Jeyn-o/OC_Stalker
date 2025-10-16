@@ -1327,8 +1327,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760606420,
-        "end": null,
+        "end": 1760613028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760613028,
+        "end": null
       }
     ]
   },
@@ -3620,11 +3625,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759402832,
-        "end": 1759403429
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759403429,
         "end": 1759410029,
@@ -5095,12 +5095,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1759402832,
-        "end": 1759411227,
-        "travel_type": "private"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759411227,
@@ -13588,11 +13582,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759402832,
-        "end": 1759414821
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1759414821,
         "end": 1759426227,
@@ -17629,6 +17618,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760612436,
+        "end": 1760613028
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1760613028,
         "end": null
       }
     ]
@@ -22607,11 +22601,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759402832,
-        "end": 1759403429
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1759403429,
@@ -35294,8 +35283,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760612436,
-        "end": null,
+        "end": 1760613028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760613028,
+        "end": null
       }
     ]
   },
