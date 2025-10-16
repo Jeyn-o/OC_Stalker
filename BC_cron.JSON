@@ -2184,6 +2184,11 @@
       {
         "status": "Available",
         "start": 1760421027,
+        "end": 1760597427
+      },
+      {
+        "status": "[Hospital] Event - Revives: Partial",
+        "start": 1760597427,
         "end": null
       }
     ]
@@ -9772,11 +9777,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759387224,
-        "end": 1759387826
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759387826,
         "end": 1759394423,
@@ -14390,12 +14390,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1759387224,
-        "end": 1759399234,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1759399234,
@@ -24806,12 +24800,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1759387224,
-        "end": 1759389026,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759389026,
         "end": 1759394423
@@ -28945,11 +28933,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759387224,
-        "end": 1759388434
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759388434,
         "end": 1759395638,
@@ -30006,12 +29989,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759387224,
-        "end": 1759393834,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759393834,
@@ -34010,11 +33987,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759387224,
-        "end": 1759389026
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1759389026,
         "end": 1759390818,
@@ -35359,7 +35331,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1760596829,
-        "end": null
+        "end": 1760597427
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1760597427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36689,8 +36667,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760596228,
-        "end": null,
+        "end": 1760597427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760597427,
+        "end": null
       }
     ]
   },
