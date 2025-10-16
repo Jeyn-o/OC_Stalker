@@ -3603,11 +3603,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759443625,
-        "end": 1759450816
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1759450816,
         "end": 1759463420,
@@ -7398,7 +7393,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760650832,
-        "end": null
+        "end": 1760653833
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760653833,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -20222,12 +20223,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759443625,
-        "end": 1759444821,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759444821,
@@ -39274,6 +39269,11 @@
       {
         "status": "[China] - Idle",
         "start": 1760644226,
+        "end": 1760653833
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1760653833,
         "end": null
       }
     ]
