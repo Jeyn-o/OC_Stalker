@@ -38617,9 +38617,9 @@
   },
   "923472": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1760649405,
-    "executed_at": null,
+    "executed_at": 1760649424,
     "slots": {
       "P6": {
         "user_id": 2419133,
@@ -40536,8 +40536,8 @@
   },
   "938033": {
     "name": "Blast from the Past",
-    "status": "Recruiting",
-    "ready_at": 1760988733,
+    "status": "Planning",
+    "ready_at": 1761075133,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -40575,6 +40575,14 @@
         "user_name": "smyles",
         "checkpoint_pass_rate": 74,
         "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P5": {
+        "user_id": 2655203,
+        "user_name": "FluffyVixen",
+        "checkpoint_pass_rate": 74,
+        "position": "Muscle",
         "position_number": 1,
         "item_available": true
       }
@@ -40630,6 +40638,17 @@
         "user_name": "smyles",
         "checkpoint_pass_rate": 74,
         "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1760649626,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2655203,
+        "user_name": "FluffyVixen",
+        "checkpoint_pass_rate": 74,
+        "position": "Muscle",
         "position_number": 1,
         "item_available": true
       }
