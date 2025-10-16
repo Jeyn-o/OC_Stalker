@@ -2289,11 +2289,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759440031,
-        "end": 1759470025
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1759470025,
         "end": 1759479641,
@@ -7780,6 +7775,11 @@
       {
         "status": "Jail",
         "start": 1760649622,
+        "end": 1760650231
+      },
+      {
+        "status": "Available",
+        "start": 1760650231,
         "end": null
       }
     ]
@@ -19692,7 +19692,13 @@
       {
         "status": "Available",
         "start": 1760646627,
-        "end": null
+        "end": 1760650231
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760650231,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -23609,8 +23615,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760637632,
-        "end": null,
+        "end": 1760650231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760650231,
+        "end": null
       }
     ]
   },
@@ -24664,8 +24675,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760648462,
-        "end": null,
+        "end": 1760650231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760650231,
+        "end": null
       }
     ]
   },
@@ -26737,11 +26753,6 @@
   "3542414": {
     "name": "awesomemcsexy",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1759440031,
-        "end": 1759441227
-      },
       {
         "status": "[China] - Idle",
         "start": 1759441227,
@@ -32715,6 +32726,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1760648462,
+        "end": 1760650231,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760650231,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -38302,7 +38319,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760638224,
-        "end": null
+        "end": 1760650231
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760650231,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
