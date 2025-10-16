@@ -1426,12 +1426,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759393225,
-        "end": 1759399234,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759399234,
         "end": 1759401027
@@ -12724,11 +12718,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "[Mexico] Attacked - Revives: Partial",
-        "start": 1759393225,
-        "end": 1759394423
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1759394423,
         "end": 1759406434
@@ -13299,11 +13288,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759393225,
-        "end": 1759394423
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759394423,
@@ -23015,12 +22999,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1759393225,
-        "end": 1759395031,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1759395031,
         "end": 1759397432
@@ -26834,8 +26812,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760593218,
-        "end": null,
+        "end": 1760603425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760603425,
+        "end": null
       }
     ]
   },
@@ -27627,7 +27610,13 @@
       {
         "status": "Available",
         "start": 1760568023,
-        "end": null
+        "end": 1760603425
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760603425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28456,6 +28445,11 @@
       {
         "status": "[Switzerland] Mugged - Revives: ALL",
         "start": 1760601026,
+        "end": 1760603425
+      },
+      {
+        "status": "[Switzerland] Hospitalized - Revives: ALL",
+        "start": 1760603425,
         "end": null
       }
     ]
@@ -29772,8 +29766,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760591444,
-        "end": null,
+        "end": 1760603425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760603425,
+        "end": null
       }
     ]
   },
@@ -35320,12 +35319,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1759393225,
-        "end": 1759403429,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1759403429,
         "end": 1759411227
@@ -37313,7 +37306,13 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1760600422,
-        "end": null
+        "end": 1760603425
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760603425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39597,8 +39596,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760596228,
-        "end": null,
+        "end": 1760603425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760603425,
+        "end": null
       }
     ]
   },
@@ -40305,8 +40309,13 @@
       {
         "status": "[China] - Going",
         "start": 1760593218,
-        "end": null,
+        "end": 1760603425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760603425,
+        "end": null
       }
     ]
   },
