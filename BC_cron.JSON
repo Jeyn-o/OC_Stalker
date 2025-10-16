@@ -2189,6 +2189,11 @@
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1760597427,
+        "end": 1760598037
+      },
+      {
+        "status": "Available",
+        "start": 1760598037,
         "end": null
       }
     ]
@@ -3004,7 +3009,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760596829,
-        "end": null
+        "end": 1760598037
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760598037,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9777,12 +9788,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759387826,
-        "end": 1759394423,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759394423,
         "end": 1759407032
@@ -12719,8 +12724,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760586022,
-        "end": null,
+        "end": 1760598037,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760598037,
+        "end": null
       }
     ]
   },
@@ -20280,12 +20290,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1759387826,
-        "end": 1759394423,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1759394423,
         "end": 1759401620,
@@ -25936,12 +25940,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1759387826,
-        "end": 1759397432,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1759397432,
         "end": 1759402229
@@ -30688,7 +30686,13 @@
       {
         "status": "Available",
         "start": 1760569824,
-        "end": null
+        "end": 1760598037
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760598037,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
