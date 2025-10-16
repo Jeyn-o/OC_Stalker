@@ -40195,9 +40195,9 @@
   },
   "929644": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1760582907,
-    "executed_at": null,
+    "executed_at": 1760582944,
     "slots": {
       "P1": {
         "user_id": 3018158,
@@ -40462,10 +40462,31 @@
   "938687": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1760669208,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 76,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1760583022,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 76,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "938982": {
     "name": "Honey Trap",
