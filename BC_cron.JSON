@@ -2300,12 +2300,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1759410625,
-        "end": 1759417831,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759417831,
         "end": 1759424428
@@ -8689,8 +8683,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760614225,
-        "end": null,
+        "end": 1760620828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760620828,
+        "end": null
       }
     ]
   },
@@ -11707,8 +11706,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760613623,
-        "end": null,
+        "end": 1760620828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760620828,
+        "end": null
       }
     ]
   },
@@ -19784,7 +19788,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760619636,
-        "end": null
+        "end": 1760620828
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760620828,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -24799,8 +24809,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760614225,
-        "end": null,
+        "end": 1760620828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760620828,
+        "end": null
       }
     ]
   },
@@ -25922,12 +25937,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1759410625,
-        "end": 1759420841,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759420841,
         "end": 1759461619
@@ -26842,12 +26851,6 @@
   "3542414": {
     "name": "awesomemcsexy",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1759410625,
-        "end": 1759420223,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1759420223,
@@ -28951,11 +28954,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759410625,
-        "end": 1759413019
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1759413019,
@@ -39316,6 +39314,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760620230,
+        "end": 1760620828,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760620828,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40417,7 +40421,13 @@
       {
         "status": "[China] Hospitalized - Revives: ALL",
         "start": 1760608834,
-        "end": null
+        "end": 1760620828
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760620828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
