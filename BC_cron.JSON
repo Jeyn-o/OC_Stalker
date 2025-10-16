@@ -670,8 +670,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760574029,
-        "end": null,
+        "end": 1760586022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760586022,
+        "end": null
       }
     ]
   },
@@ -7383,8 +7388,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760581226,
-        "end": null,
+        "end": 1760586022,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760586022,
+        "end": null
       }
     ]
   },
@@ -12736,7 +12746,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760571625,
-        "end": null
+        "end": 1760586022
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760586022,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19799,7 +19815,13 @@
       {
         "status": "Available",
         "start": 1760584840,
-        "end": null
+        "end": 1760586022
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760586022,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -22643,12 +22665,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1759375830,
-        "end": 1759381233,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Idle",
         "start": 1759381233,
@@ -30814,12 +30830,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759375830,
-        "end": 1759377028,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759377028,
         "end": 1759378221,
@@ -36271,8 +36281,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1760584228,
-        "end": null,
+        "end": 1760586022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1760586022,
+        "end": null
       }
     ]
   },
@@ -37451,8 +37466,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760584228,
-        "end": null,
+        "end": 1760586022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1760586022,
+        "end": null
       }
     ]
   },
