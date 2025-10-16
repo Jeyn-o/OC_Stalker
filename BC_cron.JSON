@@ -2996,8 +2996,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760607620,
-        "end": null,
+        "end": 1760614225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760614225,
+        "end": null
       }
     ]
   },
@@ -8662,7 +8667,13 @@
       {
         "status": "Available",
         "start": 1760607620,
-        "end": null
+        "end": 1760614225
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760614225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24741,6 +24752,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760607620,
+        "end": 1760614225,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760614225,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -28878,12 +28895,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759404029,
-        "end": 1759410625,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759410625,
         "end": 1759413019
@@ -30629,11 +30640,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1759404029,
-        "end": 1759404629
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1759404629,
@@ -35599,8 +35605,13 @@
       {
         "status": "[China] - Going",
         "start": 1760604026,
-        "end": null,
+        "end": 1760614225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760614225,
+        "end": null
       }
     ]
   },
