@@ -39549,9 +39549,18 @@
   "928926": {
     "name": "Cash Me if You Can",
     "status": "Recruiting",
-    "ready_at": 1760659821,
+    "ready_at": 1760741219,
     "executed_at": null,
-    "slots": {},
+    "slots": {
+      "P2": {
+        "user_id": 3880785,
+        "user_name": "Gemicide",
+        "checkpoint_pass_rate": 74,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": true
+      }
+    },
     "action_log": [
       {
         "timestamp": 1760574033,
@@ -39572,6 +39581,17 @@
         "checkpoint_pass_rate": 77,
         "position": "Lookout",
         "position_number": 1
+      },
+      {
+        "timestamp": 1760655027,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3880785,
+        "user_name": "Gemicide",
+        "checkpoint_pass_rate": 74,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": true
       }
     ]
   },
@@ -40678,7 +40698,7 @@
   "938582": {
     "name": "Stacking the Deck",
     "status": "Recruiting",
-    "ready_at": 1760734981,
+    "ready_at": 1760821381,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -40686,6 +40706,14 @@
         "user_name": "Litri",
         "checkpoint_pass_rate": 68,
         "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 62,
+        "position": "Driver",
         "position_number": 1,
         "item_available": true
       }
@@ -40699,6 +40727,17 @@
         "user_name": "Litri",
         "checkpoint_pass_rate": 68,
         "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1760655027,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 62,
+        "position": "Driver",
         "position_number": 1,
         "item_available": true
       }
