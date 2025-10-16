@@ -714,12 +714,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759404629,
-        "end": 1759411227,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759411227,
         "end": 1759411830
@@ -6112,7 +6106,13 @@
       {
         "status": "Available",
         "start": 1760583639,
-        "end": null
+        "end": 1760614828
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760614828,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -25872,19 +25872,19 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760607620,
-        "end": null,
+        "end": 1760614828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1760614828,
+        "end": null
       }
     ]
   },
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1759404629,
-        "end": 1759410625
-      },
       {
         "status": "[China] - Returning",
         "start": 1759410625,
@@ -27591,7 +27591,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760610632,
-        "end": null
+        "end": 1760614828
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760614828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30640,12 +30646,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1759404629,
-        "end": 1759406434,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759406434,
@@ -39403,6 +39403,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: OFF",
         "start": 1760612436,
+        "end": 1760614828
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760614828,
         "end": null
       }
     ]
