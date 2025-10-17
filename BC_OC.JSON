@@ -38909,9 +38909,9 @@
   },
   "925408": {
     "name": "Counter Offer",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1760661103,
-    "executed_at": null,
+    "executed_at": 1760661125,
     "slots": {
       "P4": {
         "user_id": 3231991,
@@ -40374,7 +40374,7 @@
   "935737": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": 1760740137,
+    "ready_at": 1760826537,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -40384,6 +40384,14 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 3540076,
+        "user_name": "Mr_jeff14574",
+        "checkpoint_pass_rate": 72,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -40397,6 +40405,17 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1760661652,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3540076,
+        "user_name": "Mr_jeff14574",
+        "checkpoint_pass_rate": 72,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
