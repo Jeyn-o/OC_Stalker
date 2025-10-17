@@ -693,11 +693,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759513825,
-        "end": 1759608626
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1759608626,
         "end": 1759611024
@@ -13473,8 +13468,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760717424,
-        "end": null,
+        "end": 1760724035,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760724035,
+        "end": null
       }
     ]
   },
@@ -15659,17 +15659,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759513825,
-        "end": 1759514427
-      },
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759514427,
-        "end": 1759521019,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759521019,
@@ -24639,6 +24628,12 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760722824,
+        "end": 1760724035,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1760724035,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -26735,6 +26730,12 @@
       {
         "status": "[China] - Going",
         "start": 1760713819,
+        "end": 1760724035,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760724035,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -28417,11 +28418,6 @@
     "name": "Littlegman212",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759514427,
-        "end": 1759593637
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1759593637,
         "end": 1759596028
@@ -29658,7 +29654,13 @@
       {
         "status": "Available",
         "start": 1760723434,
-        "end": null
+        "end": 1760724035
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760724035,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32735,7 +32737,13 @@
       {
         "status": "Available",
         "start": 1760722824,
-        "end": null
+        "end": 1760724035
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1760724035,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37482,6 +37490,11 @@
       {
         "status": "[United Arab Emirates] Attacked - Revives: ALL",
         "start": 1760722239,
+        "end": 1760724035
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760724035,
         "end": null
       }
     ]
