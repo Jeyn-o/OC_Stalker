@@ -8654,6 +8654,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760670624,
+        "end": 1760677823,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760677823,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -11800,7 +11806,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760676049,
-        "end": null
+        "end": 1760677823
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760677823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22841,11 +22853,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759467632,
-        "end": 1759489233
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1759489233,
         "end": 1759491025,
@@ -26199,8 +26206,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760667629,
-        "end": null,
+        "end": 1760677823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760677823,
+        "end": null
       }
     ]
   },
@@ -29632,8 +29644,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760666435,
-        "end": null,
+        "end": 1760677823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760677823,
+        "end": null
       }
     ]
   },
@@ -35260,8 +35277,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760671230,
-        "end": null,
+        "end": 1760677823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760677823,
+        "end": null
       }
     ]
   },
@@ -37337,8 +37359,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760671230,
-        "end": null,
+        "end": 1760677823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760677823,
+        "end": null
       }
     ]
   },
