@@ -2992,19 +2992,19 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760692225,
-        "end": null
+        "end": 1760697027
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760697027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1759486823,
-        "end": 1759488621,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1759488621,
@@ -8002,6 +8002,11 @@
       {
         "status": "Jail",
         "start": 1760689829,
+        "end": 1760697027
+      },
+      {
+        "status": "Available",
+        "start": 1760697027,
         "end": null
       }
     ]
@@ -11871,11 +11876,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1759486823,
-        "end": 1759488621
-      },
-      {
         "status": "[China] - Returning",
         "start": 1759488621,
         "end": 1759498226,
@@ -12860,12 +12860,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759486823,
-        "end": 1759488025,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759488025,
         "end": 1759489233,
@@ -13605,11 +13599,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1759486823,
-        "end": 1759488621
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759488621,
@@ -19694,7 +19683,13 @@
       {
         "status": "Available",
         "start": 1760671831,
-        "end": null
+        "end": 1760697027
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760697027,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -20247,6 +20242,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760690424,
+        "end": 1760697027,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760697027,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25712,11 +25713,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759486823,
-        "end": 1759549222
-      },
       {
         "status": "[China] - Going",
         "start": 1759549222,
@@ -32834,11 +32830,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1759486823,
-        "end": 1759487429
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1759487429,
         "end": 1759496435,
@@ -39412,8 +39403,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760690424,
-        "end": null,
+        "end": 1760697027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760697027,
+        "end": null
       }
     ]
   },
