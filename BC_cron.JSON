@@ -698,11 +698,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759490417,
-        "end": 1759491624
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759491624,
         "end": 1759497627,
@@ -1999,7 +1994,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760699430,
-        "end": null
+        "end": 1760700027
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760700027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3010,11 +3011,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759490417,
-        "end": 1759493424
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1759493424,
@@ -7482,12 +7478,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759489824,
-        "end": 1759502415,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759502415,
@@ -13362,12 +13352,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1759490417,
-        "end": 1759497627,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759497627,
         "end": 1759663223
@@ -15382,8 +15366,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760688631,
-        "end": null,
+        "end": 1760700027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760700027,
+        "end": null
       }
     ]
   },
@@ -15523,6 +15512,11 @@
       {
         "status": "Available",
         "start": 1760595623,
+        "end": 1760700027
+      },
+      {
+        "status": "[Hospital] Event - Revives: Partial",
+        "start": 1760700027,
         "end": null
       }
     ]
@@ -19814,12 +19808,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1759490417,
-        "end": 1759499430,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759499430,
@@ -25660,8 +25648,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760692829,
-        "end": null,
+        "end": 1760700027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760700027,
+        "end": null
       }
     ]
   },
@@ -27384,11 +27377,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1759489824,
-        "end": 1759491624
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1759491624,
@@ -29531,7 +29519,13 @@
       {
         "status": "Available",
         "start": 1760696423,
-        "end": null
+        "end": 1760700027
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760700027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33719,11 +33713,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1759490417,
-        "end": 1759492830
-      },
-      {
         "status": "Available",
         "start": 1759492830,
         "end": 1759496435
@@ -37309,8 +37298,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1760694030,
-        "end": null,
+        "end": 1760700027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1760700027,
+        "end": null
       }
     ]
   },
