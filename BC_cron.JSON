@@ -7393,12 +7393,6 @@
     "name": "LSEdmond",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1759519223,
-        "end": 1759529425,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Returning",
         "start": 1759529425,
         "end": 1759539621,
@@ -23611,8 +23605,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760722239,
-        "end": null,
+        "end": 1760729427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760729427,
+        "end": null
       }
     ]
   },
@@ -24673,18 +24672,19 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1760728825,
-        "end": null
+        "end": 1760729427
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1760729427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1759519223,
-        "end": 1759522823
-      },
       {
         "status": "[Canada] Attacked - Revives: ALL",
         "start": 1759522823,
@@ -28818,11 +28818,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759519223,
-        "end": 1759596618
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759596618,
         "end": 1759603229,
@@ -32785,12 +32780,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1759519223,
-        "end": 1759527022,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1759527022,
         "end": 1759530018
@@ -32978,11 +32967,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1759519223,
-        "end": 1759524026
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1759524026,
@@ -37554,12 +37538,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759519223,
-        "end": 1759526422,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759526422,
         "end": 1759527022
@@ -38660,8 +38638,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1760719827,
-        "end": null,
+        "end": 1760729427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1760729427,
+        "end": null
       }
     ]
   },
