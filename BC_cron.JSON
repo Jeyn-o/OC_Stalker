@@ -15755,12 +15755,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759535422,
-        "end": 1759542027,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759542027,
         "end": 1759544420
@@ -17777,7 +17771,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760744434,
-        "end": null
+        "end": 1760745033
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760745033,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25901,8 +25901,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760738439,
-        "end": null,
+        "end": 1760745033,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760745033,
+        "end": null
       }
     ]
   },
@@ -26860,8 +26865,13 @@
       {
         "status": "[China] - Going",
         "start": 1760734838,
-        "end": null,
+        "end": 1760745033,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760745033,
+        "end": null
       }
     ]
   },
@@ -29767,11 +29777,6 @@
   "3653613": {
     "name": "SN00PYTOBY",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1759535422,
-        "end": 1759536033
-      },
       {
         "status": "Available",
         "start": 1759536033,
@@ -37655,6 +37660,12 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760733628,
+        "end": 1760745033,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760745033,
         "end": null,
         "travel_type": "airstrip"
       }
