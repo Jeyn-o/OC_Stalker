@@ -14606,12 +14606,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759459227,
-        "end": 1759466421,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759466421,
         "end": 1759526422
@@ -16462,7 +16456,13 @@
       {
         "status": "Available",
         "start": 1760666435,
-        "end": null
+        "end": 1760669425
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760669425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17562,18 +17562,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1759459227,
-        "end": 1759459820,
-        "travel_type": "standard"
-      },
-      {
-        "status": "[Canada] - Returning",
-        "start": 1759459820,
-        "end": 1759460435,
-        "travel_type": "standard"
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1759460435,
@@ -19791,6 +19779,11 @@
       {
         "status": "Available",
         "start": 1760436028,
+        "end": 1760669425
+      },
+      {
+        "status": "Jail",
+        "start": 1760669425,
         "end": null
       }
     ]
@@ -20204,19 +20197,19 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760668234,
-        "end": null
+        "end": 1760669425
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760669425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759459227,
-        "end": 1759471236,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759471236,
@@ -21538,8 +21531,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760656223,
-        "end": null,
+        "end": 1760669425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760669425,
+        "end": null
       }
     ]
   },
@@ -30594,12 +30592,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759459227,
-        "end": 1759460435,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759460435,
         "end": 1759461619,
@@ -35610,11 +35602,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759459820,
-        "end": 1759460435
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759460435,
         "end": 1759461025
@@ -37351,8 +37338,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760662831,
-        "end": null,
+        "end": 1760669425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760669425,
+        "end": null
       }
     ]
   },
@@ -39868,6 +39860,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760662831,
+        "end": 1760669425,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760669425,
         "end": null,
         "travel_type": "airstrip"
       }
