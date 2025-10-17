@@ -6126,7 +6126,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760719827,
-        "end": null
+        "end": 1760730034
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760730034,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -7384,8 +7390,13 @@
       {
         "status": "[China] - Going",
         "start": 1760725842,
-        "end": null,
+        "end": 1760730034,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760730034,
+        "end": null
       }
     ]
   },
@@ -9551,11 +9562,6 @@
   "2671530": {
     "name": "windyswag",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1759520423,
-        "end": 1759521630
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1759521630,
@@ -11966,7 +11972,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760728825,
-        "end": null
+        "end": 1760730034
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760730034,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11983,11 +11995,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759520423,
-        "end": 1759528224
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1759528224,
@@ -17713,12 +17720,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1759520423,
-        "end": 1759523426,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1759523426,
         "end": 1759530018
@@ -19791,7 +19792,13 @@
       {
         "status": "[Argentina] Attacked - Revives: ALL",
         "start": 1760728230,
-        "end": null
+        "end": 1760730034
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760730034,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -25810,8 +25817,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760723434,
-        "end": null,
+        "end": 1760730034,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760730034,
+        "end": null
       }
     ]
   },
@@ -32771,6 +32783,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760728825,
+        "end": 1760730034,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760730034,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35638,11 +35656,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759519826,
-        "end": 1759542622
-      },
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759542622,
@@ -39958,8 +39971,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760728825,
-        "end": null,
+        "end": 1760730034,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760730034,
+        "end": null
       }
     ]
   },
