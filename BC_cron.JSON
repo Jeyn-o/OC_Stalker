@@ -5104,11 +5104,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759504818,
-        "end": 1759509624
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1759509624,
         "end": 1759518031,
@@ -6196,17 +6191,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759504227,
-        "end": 1759504818
-      },
-      {
-        "status": "[China] - Going",
-        "start": 1759504818,
-        "end": 1759509023,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Idle",
         "start": 1759509023,
@@ -7372,6 +7356,12 @@
       {
         "status": "[China] - Going",
         "start": 1760710221,
+        "end": 1760714430,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760714430,
         "end": null,
         "travel_type": "standard"
       }
@@ -9592,11 +9582,6 @@
   "2671608": {
     "name": "AlfieG",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759504227,
-        "end": 1759512627
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759512627,
@@ -19729,8 +19714,13 @@
       {
         "status": "[China] - Going",
         "start": 1760709630,
-        "end": null,
+        "end": 1760714430,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760714430,
+        "end": null
       }
     ]
   },
@@ -23537,7 +23527,13 @@
       {
         "status": "Available",
         "start": 1760668823,
-        "end": null
+        "end": 1760714430
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760714430,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26718,12 +26714,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759504818,
-        "end": 1759517422,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759517422,
@@ -33757,11 +33747,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1759504227,
-        "end": 1759507227
-      },
-      {
         "status": "Available",
         "start": 1759507227,
         "end": 1759509023
@@ -40762,6 +40747,11 @@
       {
         "status": "Available",
         "start": 1760678428,
+        "end": 1760714430
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1760714430,
         "end": null
       }
     ]
