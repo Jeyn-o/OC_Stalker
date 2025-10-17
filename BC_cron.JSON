@@ -7427,12 +7427,6 @@
     "name": "LSEdmond",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1759529425,
-        "end": 1759539621,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759539621,
         "end": 1759550429
@@ -14528,19 +14522,19 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1760736626,
-        "end": null
+        "end": 1760739635
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1760739635,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1759529425,
-        "end": 1759542027,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1759542027,
@@ -15579,7 +15573,13 @@
       {
         "status": "Available",
         "start": 1760718637,
-        "end": null
+        "end": 1760739635
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760739635,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17757,12 +17757,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1759530018,
-        "end": 1759532428,
-        "travel_type": "standard"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1759532428,
         "end": 1759534824,
@@ -19846,7 +19840,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760737828,
-        "end": null
+        "end": 1760739635
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760739635,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -24770,11 +24770,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Canada] Attacked - Revives: ALL",
-        "start": 1759529425,
-        "end": 1759530627
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1759530627,
         "end": 1759538423
@@ -27630,6 +27625,11 @@
       {
         "status": "[Switzerland] Lost - Revives: ALL",
         "start": 1760738439,
+        "end": 1760739635
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1760739635,
         "end": null
       }
     ]
@@ -32909,11 +32909,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1759530018,
-        "end": 1759536623
-      },
-      {
         "status": "Available",
         "start": 1759536623,
         "end": 1759549222
@@ -34015,11 +34010,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759530018,
-        "end": 1759533024
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1759533024,
@@ -38763,8 +38753,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1760730626,
-        "end": null,
+        "end": 1760739635,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760739635,
+        "end": null
       }
     ]
   },
@@ -40349,6 +40344,11 @@
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1760737236,
+        "end": 1760739635
+      },
+      {
+        "status": "Available",
+        "start": 1760739635,
         "end": null
       }
     ]
@@ -41133,8 +41133,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760732436,
-        "end": null,
+        "end": 1760739635,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760739635,
+        "end": null
       }
     ]
   },
