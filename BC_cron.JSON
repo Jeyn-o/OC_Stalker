@@ -14323,11 +14323,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759491025,
-        "end": 1759491624
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1759491624,
         "end": 1759498827,
@@ -16458,12 +16453,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1759491025,
-        "end": 1759502415,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759502415,
         "end": 1759507227
@@ -17579,12 +17568,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759491025,
-        "end": 1759495221,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1759495221,
@@ -20222,12 +20205,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1759491025,
-        "end": 1759492830,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1759492830,
         "end": 1759494630
@@ -22846,11 +22823,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1759491025,
-        "end": 1759491624
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1759491624,
         "end": 1759493424,
@@ -24532,8 +24504,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760691025,
-        "end": null,
+        "end": 1760701231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760701231,
+        "end": null
       }
     ]
   },
@@ -26678,12 +26655,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759491025,
-        "end": 1759503636,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1759503636,
         "end": 1759504818
@@ -26988,7 +26959,13 @@
       {
         "status": "Available",
         "start": 1760641818,
-        "end": null
+        "end": 1760701231
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760701231,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29740,6 +29717,11 @@
       {
         "status": "Available",
         "start": 1760666435,
+        "end": 1760701231
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1760701231,
         "end": null
       }
     ]
