@@ -11758,11 +11758,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1759451425,
-        "end": 1759462828
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1759462828,
         "end": 1759474833,
@@ -15468,12 +15463,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759452024,
-        "end": 1759458627,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759458627,
         "end": 1759465218,
@@ -17510,12 +17499,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1759452024,
-        "end": 1759454418,
-        "travel_type": "standard"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1759454418,
@@ -19769,12 +19752,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1759452024,
-        "end": 1759461619,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1759461619,
@@ -23542,7 +23519,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760659828,
-        "end": null
+        "end": 1760661649
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760661649,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25732,8 +25715,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760654428,
-        "end": null,
+        "end": 1760661649,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760661649,
+        "end": null
       }
     ]
   },
@@ -26221,11 +26209,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759452024,
-        "end": 1759480823
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759480823,
@@ -28386,11 +28369,6 @@
     "name": "Littlegman212",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759452024,
-        "end": 1759471236
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759471236,
         "end": 1759472424
@@ -29827,6 +29805,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760651429,
+        "end": 1760661649
+      },
+      {
+        "status": "Available",
+        "start": 1760661649,
         "end": null
       }
     ]
@@ -33774,7 +33757,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1760661021,
-        "end": null
+        "end": 1760661649
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1760661649,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38283,8 +38272,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760650231,
-        "end": null,
+        "end": 1760661649,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760661649,
+        "end": null
       }
     ]
   },
@@ -40472,8 +40466,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760655025,
-        "end": null,
+        "end": 1760661649,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760661649,
+        "end": null
       }
     ]
   },
