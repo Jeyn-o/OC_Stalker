@@ -3034,11 +3034,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1759521630,
-        "end": 1759522226
-      },
-      {
         "status": "Available",
         "start": 1759522226,
         "end": 1759641625
@@ -9574,12 +9569,6 @@
     "name": "windyswag",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1759521630,
-        "end": 1759523426,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759523426,
         "end": 1759525225
@@ -14486,7 +14475,13 @@
       {
         "status": "Available",
         "start": 1760605240,
-        "end": null
+        "end": 1760731236
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1760731236,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15699,12 +15694,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759521019,
-        "end": 1759527621,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759527621,
@@ -24707,8 +24696,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760729427,
-        "end": null,
+        "end": 1760731236,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760731236,
+        "end": null
       }
     ]
   },
@@ -27184,11 +27178,6 @@
     "name": "PyroSpunk",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1759521019,
-        "end": 1759522823
-      },
-      {
         "status": "Available",
         "start": 1759522823,
         "end": 1760272826
@@ -27568,7 +27557,13 @@
       {
         "status": "Available",
         "start": 1760701835,
-        "end": null
+        "end": 1760731236
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760731236,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29914,11 +29909,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759521630,
-        "end": 1759579821
-      },
-      {
         "status": "[China] - Going",
         "start": 1759579821,
         "end": 1759590037,
@@ -30607,11 +30597,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1759521630,
-        "end": 1759522226
-      },
       {
         "status": "Available",
         "start": 1759522226,
@@ -32812,6 +32797,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760730034,
+        "end": 1760731236,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760731236,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37566,6 +37557,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760724035,
+        "end": 1760731236
+      },
+      {
+        "status": "[United Arab Emirates] Attacked - Revives: ALL",
+        "start": 1760731236,
         "end": null
       }
     ]
@@ -38583,7 +38579,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760728825,
-        "end": null
+        "end": 1760731236
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760731236,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
