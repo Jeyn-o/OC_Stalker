@@ -8202,6 +8202,11 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760700629,
+        "end": 1760704824
+      },
+      {
+        "status": "[Switzerland] Mugged - Revives: ALL",
+        "start": 1760704824,
         "end": null
       }
     ]
@@ -20251,12 +20256,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1759494630,
-        "end": 1759496435,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759496435,
         "end": 1759497032
@@ -25688,7 +25687,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1760703626,
-        "end": null
+        "end": 1760704824
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760704824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29785,12 +29790,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759494630,
-        "end": 1759501226,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759501226,
@@ -39414,8 +39413,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760698227,
-        "end": null,
+        "end": 1760704824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760704824,
+        "end": null
       }
     ]
   },
@@ -39686,8 +39690,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1760703032,
-        "end": null,
+        "end": 1760704824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1760704824,
+        "end": null
       }
     ]
   },
