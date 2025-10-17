@@ -1290,8 +1290,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760678428,
-        "end": null,
+        "end": 1760685026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760685026,
+        "end": null
       }
     ]
   },
@@ -3000,12 +3005,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1759474833,
-        "end": 1759482030,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759482030,
@@ -10653,8 +10652,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760678428,
-        "end": null,
+        "end": 1760685026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760685026,
+        "end": null
       }
     ]
   },
@@ -11819,8 +11823,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760677823,
-        "end": null,
+        "end": 1760685026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760685026,
+        "end": null
       }
     ]
   },
@@ -11842,11 +11851,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759474833,
-        "end": 1759476629
-      },
       {
         "status": "[China] - Going",
         "start": 1759476629,
@@ -23600,11 +23604,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1759474833,
-        "end": 1759475427
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759475427,
         "end": 1759476020,
@@ -27458,12 +27457,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1759474833,
-        "end": 1759482030,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759482030,
@@ -35258,6 +35251,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760683227,
+        "end": 1760685026
+      },
+      {
+        "status": "Available",
+        "start": 1760685026,
         "end": null
       }
     ]
