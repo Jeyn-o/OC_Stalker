@@ -1284,7 +1284,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760685026,
-        "end": null
+        "end": 1760695824
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760695824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -1367,12 +1373,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759485632,
-        "end": 1759492830,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759492830,
@@ -2999,11 +2999,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: OFF",
-        "start": 1759485632,
-        "end": 1759486823
-      },
       {
         "status": "[Canada] - Going",
         "start": 1759486823,
@@ -20255,11 +20250,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759485632,
-        "end": 1759487429
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1759487429,
         "end": 1759489233,
@@ -25722,11 +25712,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1759485632,
-        "end": 1759486823
-      },
-      {
         "status": "Available",
         "start": 1759486823,
         "end": 1759549222
@@ -30477,6 +30462,12 @@
       {
         "status": "[China] - Going",
         "start": 1760685625,
+        "end": 1760695824,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760695824,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -39670,6 +39661,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760689222,
+        "end": 1760695824,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760695824,
         "end": null,
         "travel_type": "airstrip"
       }
