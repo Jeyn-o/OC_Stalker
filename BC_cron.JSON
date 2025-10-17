@@ -3607,12 +3607,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759450816,
-        "end": 1759463420,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1759463420,
         "end": 1759467022
@@ -4573,11 +4567,6 @@
   "2184227": {
     "name": "SassyMcSlacker",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759450816,
-        "end": 1759677025
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1759677025,
@@ -8882,6 +8871,11 @@
       {
         "status": "Jail",
         "start": 1760649622,
+        "end": 1760660432
+      },
+      {
+        "status": "Available",
+        "start": 1760660432,
         "end": null
       }
     ]
@@ -17517,11 +17511,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759450816,
-        "end": 1759452024
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1759452024,
         "end": 1759454418,
@@ -19636,7 +19625,13 @@
       {
         "status": "Available",
         "start": 1760659828,
-        "end": null
+        "end": 1760660432
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760660432,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -37225,19 +37220,19 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1760655629,
-        "end": null
+        "end": 1760660432
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1760660432,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759450816,
-        "end": 1759458023,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759458023,
