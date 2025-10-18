@@ -2039,7 +2039,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760776826,
-        "end": null
+        "end": 1760777433
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760777433,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3053,8 +3059,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760770842,
-        "end": null,
+        "end": 1760777433,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760777433,
+        "end": null
       }
     ]
   },
@@ -3610,8 +3621,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760774440,
-        "end": null,
+        "end": 1760777433,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760777433,
+        "end": null
       }
     ]
   },
@@ -16828,7 +16844,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1760776826,
-        "end": null
+        "end": 1760777433
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760777433,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41631,6 +41653,11 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1760775030,
+        "end": 1760777433
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760777433,
         "end": null
       }
     ]
