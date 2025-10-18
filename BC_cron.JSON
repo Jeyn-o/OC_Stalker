@@ -12104,11 +12104,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[South Africa] Mugged - Revives: ALL",
-        "start": 1759546223,
-        "end": 1759548020
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1759548020,
         "end": 1759552227
@@ -13062,8 +13057,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760743225,
-        "end": null,
+        "end": 1760755829,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760755829,
+        "end": null
       }
     ]
   },
@@ -16012,12 +16012,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1759546223,
-        "end": 1759551624,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759551624,
         "end": 1759552227
@@ -16715,8 +16709,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760743225,
-        "end": null,
+        "end": 1760755829,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760755829,
+        "end": null
       }
     ]
   },
@@ -19976,6 +19975,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760752838,
+        "end": 1760755829,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760755829,
         "end": null,
         "travel_type": "standard"
       }
