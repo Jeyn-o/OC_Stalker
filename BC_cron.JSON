@@ -9056,12 +9056,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1759544420,
-        "end": 1759553420,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1759553420,
         "end": 1759559427
@@ -10853,8 +10847,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760746830,
-        "end": null,
+        "end": 1760754034,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760754034,
+        "end": null
       }
     ]
   },
@@ -12075,8 +12074,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1760752230,
-        "end": null,
+        "end": 1760754034,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1760754034,
+        "end": null
       }
     ]
   },
@@ -15859,11 +15863,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1759544420,
-        "end": 1759547429
-      },
       {
         "status": "Available",
         "start": 1759547429,
@@ -35872,11 +35871,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759543827,
-        "end": 1759548663
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759548663,
         "end": 1759549840
@@ -39888,7 +39882,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760753435,
-        "end": null
+        "end": 1760754034
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760754034,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40482,6 +40482,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1760752230,
+        "end": 1760754034
+      },
+      {
+        "status": "Available",
+        "start": 1760754034,
         "end": null
       }
     ]
@@ -41323,6 +41328,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760752230,
+        "end": 1760754034
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1760754034,
         "end": null
       }
     ]
