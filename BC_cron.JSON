@@ -693,11 +693,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1759608626,
-        "end": 1759611024
-      },
-      {
         "status": "Available",
         "start": 1759611024,
         "end": 1759642231
@@ -5291,11 +5286,6 @@
     "name": "Special-Needs",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: Partial",
-        "start": 1759608626,
-        "end": 1759609824
-      },
-      {
         "status": "Available",
         "start": 1759609824,
         "end": 1759696824
@@ -6399,8 +6389,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760811024,
-        "end": null,
+        "end": 1760818834,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1760818834,
+        "end": null
       }
     ]
   },
@@ -13397,12 +13392,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1759608626,
-        "end": 1759618219,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1759618219,
         "end": 1759627227,
@@ -16266,12 +16255,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759608626,
-        "end": 1759615230,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759615230,
         "end": 1759619446
@@ -16360,12 +16343,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1759608626,
-        "end": 1759621231,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1759621231,
@@ -20498,7 +20475,13 @@
       {
         "status": "Available",
         "start": 1760818230,
-        "end": null
+        "end": 1760818834
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760818834,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -26652,6 +26635,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760807429,
+        "end": 1760818834,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760818834,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -36582,11 +36571,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1759608626,
-        "end": 1759609229
-      },
       {
         "status": "Available",
         "start": 1759609229,
