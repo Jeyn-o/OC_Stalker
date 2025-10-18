@@ -4330,6 +4330,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760815840,
+        "end": 1760816431
+      },
+      {
+        "status": "Available",
+        "start": 1760816431,
         "end": null
       }
     ]
@@ -7685,7 +7690,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760814037,
-        "end": null
+        "end": 1760816431
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760816431,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -11134,8 +11145,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760809830,
-        "end": null,
+        "end": 1760816431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760816431,
+        "end": null
       }
     ]
   },
@@ -18326,19 +18342,19 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760814037,
-        "end": null
+        "end": 1760816431
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760816431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1759606823,
-        "end": 1759610420,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1759610420,
@@ -23616,6 +23632,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760809226,
+        "end": 1760816431
+      },
+      {
+        "status": "Available",
+        "start": 1760816431,
         "end": null
       }
     ]
@@ -24311,8 +24332,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760803826,
-        "end": null,
+        "end": 1760816431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760816431,
+        "end": null
       }
     ]
   },
@@ -33716,7 +33742,13 @@
       {
         "status": "Available",
         "start": 1760811024,
-        "end": null
+        "end": 1760816431
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760816431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36937,6 +36969,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760809226,
+        "end": 1760816431,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760816431,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -41177,8 +41215,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760809830,
-        "end": null,
+        "end": 1760816431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760816431,
+        "end": null
       }
     ]
   },
