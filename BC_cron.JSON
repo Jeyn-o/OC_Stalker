@@ -7657,7 +7657,13 @@
       {
         "status": "Available",
         "start": 1760800232,
-        "end": null
+        "end": 1760801455
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760801455,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -9764,7 +9770,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1760799026,
-        "end": null
+        "end": 1760801455
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1760801455,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12394,11 +12406,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759591835,
-        "end": 1759615823
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1759615823,
@@ -39491,6 +39498,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760790030,
+        "end": 1760801455,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760801455,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -41060,8 +41073,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760794828,
-        "end": null,
+        "end": 1760801455,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760801455,
+        "end": null
       }
     ]
   },
