@@ -651,7 +651,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760761829,
-        "end": null
+        "end": 1760783428
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760783428,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -1372,6 +1378,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760776826,
+        "end": 1760783428,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760783428,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -8134,11 +8146,6 @@
   "2541399": {
     "name": "Theurgy",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1759573227,
-        "end": 1759574432
-      },
       {
         "status": "Available",
         "start": 1759574432,
@@ -16021,8 +16028,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760776236,
-        "end": null,
+        "end": 1760783428,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760783428,
+        "end": null
       }
     ]
   },
@@ -18092,8 +18104,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760776826,
-        "end": null,
+        "end": 1760783428,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760783428,
+        "end": null
       }
     ]
   },
@@ -25099,8 +25116,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760776826,
-        "end": null,
+        "end": 1760783428,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760783428,
+        "end": null
       }
     ]
   },
