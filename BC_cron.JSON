@@ -6381,11 +6381,6 @@
     "name": "Litri",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1759599028,
-        "end": 1759604441
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1759604441,
         "end": 1759611631,
@@ -6453,11 +6448,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1759599028,
-        "end": 1759599616
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1759599616,
@@ -7673,8 +7663,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760806231,
-        "end": null,
+        "end": 1760808636,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760808636,
+        "end": null
       }
     ]
   },
@@ -8279,11 +8274,6 @@
   "2583853": {
     "name": "frkn",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1759599028,
-        "end": 1759599616
-      },
       {
         "status": "Available",
         "start": 1759599616,
@@ -17084,12 +17074,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1759598426,
-        "end": 1759609824,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759609824,
         "end": 1759621231,
@@ -25434,7 +25418,13 @@
       {
         "status": "Available",
         "start": 1760806231,
-        "end": null
+        "end": 1760808636
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760808636,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33733,11 +33723,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759599028,
-        "end": 1759603821
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1759603821,
         "end": 1759605624,
@@ -34786,12 +34771,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1759599028,
-        "end": 1759600834,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1759600834,
@@ -37685,7 +37664,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760808029,
-        "end": null
+        "end": 1760808636
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760808636,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
