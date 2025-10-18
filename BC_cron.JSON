@@ -15710,8 +15710,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760748030,
-        "end": null,
+        "end": 1760754640,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760754640,
+        "end": null
       }
     ]
   },
@@ -15856,6 +15861,11 @@
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1760700027,
+        "end": 1760754640
+      },
+      {
+        "status": "Available",
+        "start": 1760754640,
         "end": null
       }
     ]
@@ -20502,11 +20512,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1759545029,
-        "end": 1759560025
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1759560025,
         "end": 1759572622,
@@ -22757,12 +22762,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1759545029,
-        "end": 1759552227,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1759552227,
@@ -40517,6 +40516,11 @@
       {
         "status": "Available",
         "start": 1760750439,
+        "end": 1760754640
+      },
+      {
+        "status": "[Hospital] Lost - Revives: Partial",
+        "start": 1760754640,
         "end": null
       }
     ]
