@@ -11141,7 +11141,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760824842,
-        "end": null
+        "end": 1760826026
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760826026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12446,12 +12452,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1759615823,
-        "end": 1759627824,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1759627824,
@@ -15223,11 +15223,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: Partial",
-        "start": 1759615823,
-        "end": 1759617029
-      },
       {
         "status": "Available",
         "start": 1759617029,
@@ -28422,8 +28417,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760818230,
-        "end": null,
+        "end": 1760826026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760826026,
+        "end": null
       }
     ]
   },
@@ -29642,6 +29642,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760814037,
+        "end": 1760826026,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760826026,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33831,12 +33837,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1759615823,
-        "end": 1759632025,
-        "travel_type": "standard"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759632025,
         "end": 1759632624
@@ -34884,11 +34884,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759615823,
-        "end": 1759621821
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1759621821,
@@ -40910,6 +40905,11 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1760824229,
+        "end": 1760826026
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760826026,
         "end": null
       }
     ]
