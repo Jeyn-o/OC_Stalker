@@ -12044,6 +12044,11 @@
       {
         "status": "Available",
         "start": 1760737236,
+        "end": 1760750439
+      },
+      {
+        "status": "Jail",
+        "start": 1760750439,
         "end": null
       }
     ]
@@ -13607,7 +13612,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760749824,
-        "end": null
+        "end": 1760750439
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760750439,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20095,12 +20106,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1759540223,
-        "end": 1759541435,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759541435,
@@ -40501,6 +40506,11 @@
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1760749824,
+        "end": 1760750439
+      },
+      {
+        "status": "Available",
+        "start": 1760750439,
         "end": null
       }
     ]
