@@ -2237,6 +2237,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760799633,
+        "end": 1760806845,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760806845,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -18291,8 +18297,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760795426,
-        "end": null,
+        "end": 1760806845,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760806845,
+        "end": null
       }
     ]
   },
@@ -30428,8 +30439,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760800232,
-        "end": null,
+        "end": 1760806845,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760806845,
+        "end": null
       }
     ]
   },
@@ -34743,12 +34759,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1759597234,
-        "end": 1759599028,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1759599028,
         "end": 1759600834,
@@ -37632,6 +37642,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: Partial",
         "start": 1760805632,
+        "end": 1760806845
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1760806845,
         "end": null
       }
     ]
@@ -40731,7 +40746,13 @@
       {
         "status": "Available",
         "start": 1760806231,
-        "end": null
+        "end": 1760806845
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760806845,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
