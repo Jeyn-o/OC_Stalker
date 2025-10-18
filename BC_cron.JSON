@@ -13975,6 +13975,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760784031,
+        "end": 1760785246
+      },
+      {
+        "status": "Available",
+        "start": 1760785246,
         "end": null
       }
     ]
@@ -16197,11 +16202,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759575024,
-        "end": 1759608626
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1759608626,
@@ -20245,6 +20245,11 @@
       {
         "status": "Jail",
         "start": 1760770225,
+        "end": 1760785246
+      },
+      {
+        "status": "Available",
+        "start": 1760785246,
         "end": null
       }
     ]
@@ -20777,6 +20782,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760778629,
+        "end": 1760785246,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760785246,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25166,8 +25177,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760784031,
-        "end": null,
+        "end": 1760785246,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1760785246,
+        "end": null
       }
     ]
   },
