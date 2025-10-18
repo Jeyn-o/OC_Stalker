@@ -1313,6 +1313,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1760791825,
+        "end": 1760793629
+      },
+      {
+        "status": "Available",
+        "start": 1760793629,
         "end": null
       }
     ]
@@ -14086,11 +14091,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759583437,
-        "end": 1759603229
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1759603229,
         "end": 1759614626,
@@ -26422,8 +26422,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1760791825,
-        "end": null,
+        "end": 1760793629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1760793629,
+        "end": null
       }
     ]
   },
@@ -27386,6 +27391,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760785829,
+        "end": 1760793629,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760793629,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30281,7 +30292,13 @@
       {
         "status": "Available",
         "start": 1760747432,
-        "end": null
+        "end": 1760793629
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760793629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34561,11 +34578,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759583437,
-        "end": 1759592430
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1759592430,
