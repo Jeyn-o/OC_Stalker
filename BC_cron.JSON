@@ -9870,6 +9870,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760794828,
+        "end": 1760795426
+      },
+      {
+        "status": "Available",
+        "start": 1760795426,
         "end": null
       }
     ]
@@ -12313,8 +12318,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760788229,
-        "end": null,
+        "end": 1760795426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760795426,
+        "end": null
       }
     ]
   },
@@ -18214,6 +18224,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760784031,
+        "end": 1760795426,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760795426,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22156,8 +22172,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760789435,
-        "end": null,
+        "end": 1760795426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760795426,
+        "end": null
       }
     ]
   },
@@ -36331,7 +36352,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760790030,
-        "end": null
+        "end": 1760795426
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760795426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
