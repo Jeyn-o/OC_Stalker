@@ -7487,7 +7487,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760764225,
-        "end": null
+        "end": 1760768433
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760768433,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -13079,7 +13085,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760755829,
-        "end": null
+        "end": 1760768433
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760768433,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15904,7 +15916,13 @@
       {
         "status": "Available",
         "start": 1760754640,
-        "end": null
+        "end": 1760768433
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760768433,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21846,12 +21864,6 @@
     "name": "Krytical",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1759558820,
-        "end": 1759566018,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759566018,
         "end": 1759805430
@@ -27770,12 +27782,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1759558820,
-        "end": 1759566018,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1759566018,
@@ -35569,6 +35575,11 @@
       {
         "status": "Available",
         "start": 1760765439,
+        "end": 1760768433
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1760768433,
         "end": null
       }
     ]
@@ -39959,6 +39970,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760761829,
+        "end": 1760768433,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760768433,
         "end": null,
         "travel_type": "airstrip"
       }
