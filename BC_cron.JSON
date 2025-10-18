@@ -6197,7 +6197,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1760753435,
-        "end": null
+        "end": 1760760042
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760760042,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -7490,11 +7496,6 @@
   "2389431": {
     "name": "LSEdmond",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1759550429,
-        "end": 1759551624
-      },
       {
         "status": "Available",
         "start": 1759551624,
@@ -14514,7 +14515,13 @@
       {
         "status": "Available",
         "start": 1760758828,
-        "end": null
+        "end": 1760760042
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760760042,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15759,8 +15766,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760758828,
-        "end": null,
+        "end": 1760760042,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1760760042,
+        "end": null
       }
     ]
   },
@@ -15917,11 +15929,6 @@
   "3155624": {
     "name": "Brando72",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1759550429,
-        "end": 1759552227
-      },
       {
         "status": "Available",
         "start": 1759552227,
@@ -20175,11 +20182,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1759549840,
-        "end": 1759552227
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1759552227,
         "end": 1759559427,
@@ -22025,12 +22027,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759549840,
-        "end": 1759556425,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759556425,
@@ -34217,11 +34213,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1759549840,
-        "end": 1759552824
-      },
-      {
         "status": "Available",
         "start": 1759552824,
         "end": 1759557633
@@ -35604,6 +35595,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760749237,
+        "end": 1760760042
+      },
+      {
+        "status": "Available",
+        "start": 1760760042,
         "end": null
       }
     ]
@@ -35937,11 +35933,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759549840,
-        "end": 1759602626
-      },
       {
         "status": "Jail",
         "start": 1759602626,
