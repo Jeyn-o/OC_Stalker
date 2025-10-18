@@ -1302,8 +1302,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760784629,
-        "end": null,
+        "end": 1760791233,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760791233,
+        "end": null
       }
     ]
   },
@@ -4234,7 +4239,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1760790030,
-        "end": null
+        "end": 1760791233
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1760791233,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11009,7 +11020,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760790632,
-        "end": null
+        "end": 1760791233
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760791233,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14874,12 +14891,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1759581030,
-        "end": 1759588232,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1759588232,
@@ -20302,11 +20313,6 @@
     "name": "xaqf",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759581030,
-        "end": 1759643420
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1759643420,
         "end": 1759644627,
@@ -20825,12 +20831,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1759581030,
-        "end": 1759588824,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759588824,
@@ -28942,7 +28942,13 @@
       {
         "status": "Available",
         "start": 1760713242,
-        "end": null
+        "end": 1760791233
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760791233,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33425,7 +33431,13 @@
       {
         "status": "Available",
         "start": 1760759431,
-        "end": null
+        "end": 1760791233
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760791233,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35872,6 +35884,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760781032,
+        "end": 1760791233
+      },
+      {
+        "status": "Available",
+        "start": 1760791233,
         "end": null
       }
     ]
