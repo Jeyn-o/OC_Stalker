@@ -4286,6 +4286,11 @@
       {
         "status": "Jail",
         "start": 1760770225,
+        "end": 1760802627
+      },
+      {
+        "status": "Available",
+        "start": 1760802627,
         "end": null
       }
     ]
@@ -9826,11 +9831,6 @@
     "name": "AlfieG",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1759592430,
-        "end": 1759603229
-      },
-      {
         "status": "Available",
         "start": 1759603229,
         "end": 1759609229
@@ -13342,12 +13342,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1759593019,
-        "end": 1759602030,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759602030,
         "end": 1759608626
@@ -13944,8 +13938,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760796038,
-        "end": null,
+        "end": 1760802627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760802627,
+        "end": null
       }
     ]
   },
@@ -15161,11 +15160,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: Partial",
-        "start": 1759592430,
-        "end": 1759594221
-      },
       {
         "status": "Available",
         "start": 1759594221,
@@ -20410,8 +20404,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760799633,
-        "end": null,
+        "end": 1760802627,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760802627,
+        "end": null
       }
     ]
   },
@@ -22240,6 +22239,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760796038,
+        "end": 1760802627,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760802627,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -24301,11 +24306,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1759592430,
-        "end": 1759593637
-      },
       {
         "status": "Available",
         "start": 1759593637,
@@ -31374,8 +31374,13 @@
       {
         "status": "[China] - Going",
         "start": 1760793029,
-        "end": null,
+        "end": 1760802627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760802627,
+        "end": null
       }
     ]
   },
@@ -34716,16 +34721,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1759592430,
-        "end": 1759593019
-      },
-      {
-        "status": "Available",
-        "start": 1759593019,
-        "end": 1759594823
-      },
-      {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1759594823,
         "end": 1759596028
@@ -36116,6 +36111,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760800232,
+        "end": 1760802627
+      },
+      {
+        "status": "Available",
+        "start": 1760802627,
         "end": null
       }
     ]
