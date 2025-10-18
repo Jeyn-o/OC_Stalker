@@ -1381,12 +1381,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759569625,
-        "end": 1759576221,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759576221,
         "end": 1759582831,
@@ -4206,8 +4200,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760767241,
-        "end": null,
+        "end": 1760779833,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760779833,
+        "end": null
       }
     ]
   },
@@ -22945,7 +22944,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760779225,
-        "end": null
+        "end": 1760779833
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760779833,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36076,7 +36081,13 @@
       {
         "status": "Available",
         "start": 1760630441,
-        "end": null
+        "end": 1760779833
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760779833,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40584,7 +40595,13 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1760779225,
-        "end": null
+        "end": 1760779833
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760779833,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
