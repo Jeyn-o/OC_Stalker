@@ -9060,12 +9060,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1759559427,
-        "end": 1759569025,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759569025,
         "end": 1759657218
@@ -13683,6 +13677,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760762434,
+        "end": 1760769038,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760769038,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14923,11 +14923,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: Partial",
-        "start": 1759559427,
-        "end": 1759560622
-      },
-      {
         "status": "Available",
         "start": 1759560622,
         "end": 1759592430
@@ -15766,6 +15761,11 @@
       {
         "status": "[Mexico] Mugged - Revives: Partial",
         "start": 1760767241,
+        "end": 1760769038
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1760769038,
         "end": null
       }
     ]
@@ -20172,11 +20172,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759559427,
-        "end": 1759656028
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1759656028,
         "end": 1759665027,
@@ -21841,7 +21836,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760761223,
-        "end": null
+        "end": 1760769038
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760769038,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23135,8 +23136,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1760763639,
-        "end": null,
+        "end": 1760769038,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1760769038,
+        "end": null
       }
     ]
   },
@@ -34189,12 +34195,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1759559427,
-        "end": 1759561236,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759561236,
         "end": 1759577431
@@ -36990,7 +36990,13 @@
       {
         "status": "Available",
         "start": 1760727034,
-        "end": null
+        "end": 1760769038
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760769038,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
