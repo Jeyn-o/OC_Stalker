@@ -1296,6 +1296,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760778043,
+        "end": 1760784629,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760784629,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -2056,8 +2062,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760777433,
-        "end": null,
+        "end": 1760784629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760784629,
+        "end": null
       }
     ]
   },
@@ -4636,6 +4647,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760771435,
+        "end": 1760784629,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760784629,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -8147,11 +8164,6 @@
     "name": "Theurgy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759574432,
-        "end": 1760341226
-      },
-      {
         "status": "Jail",
         "start": 1760341226,
         "end": 1760341820
@@ -9709,6 +9721,11 @@
       {
         "status": "Jail",
         "start": 1760770225,
+        "end": 1760784629
+      },
+      {
+        "status": "Available",
+        "start": 1760784629,
         "end": null
       }
     ]
@@ -15878,8 +15895,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760778043,
-        "end": null,
+        "end": 1760784629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760784629,
+        "end": null
       }
     ]
   },
@@ -28047,11 +28069,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759574432,
-        "end": 1759576817
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759576817,
         "end": 1759578027,
@@ -31092,7 +31109,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760782235,
-        "end": null
+        "end": 1760784629
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760784629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
