@@ -13601,8 +13601,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760743225,
-        "end": null,
+        "end": 1760749824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760749824,
+        "end": null
       }
     ]
   },
@@ -33024,7 +33029,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760749237,
-        "end": null
+        "end": 1760749824
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760749824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40485,6 +40496,11 @@
       {
         "status": "Available",
         "start": 1760739635,
+        "end": 1760749824
+      },
+      {
+        "status": "[Hospital] Event - Revives: Partial",
+        "start": 1760749824,
         "end": null
       }
     ]
