@@ -640,7 +640,13 @@
       {
         "status": "Available",
         "start": 1760796038,
-        "end": null
+        "end": 1760827240
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760827240,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13871,7 +13877,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760826637,
-        "end": null
+        "end": 1760827240
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760827240,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15042,12 +15054,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1759617618,
-        "end": 1759630224,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759630224,
         "end": 1759631427
@@ -15207,12 +15213,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1759617618,
-        "end": 1759629033,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759629033,
@@ -18335,12 +18335,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1759617618,
-        "end": 1759619446,
-        "travel_type": "standard"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1759619446,
@@ -23278,12 +23272,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1759617618,
-        "end": 1759623023,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1759623023,
         "end": 1759624829
@@ -24330,7 +24318,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760826637,
-        "end": null
+        "end": 1760827240
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760827240,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34851,7 +34845,13 @@
       {
         "status": "[Cayman Islands] Mugged - Revives: ALL",
         "start": 1760824842,
-        "end": null
+        "end": 1760827240
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1760827240,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36600,8 +36600,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760821245,
-        "end": null,
+        "end": 1760827240,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760827240,
+        "end": null
       }
     ]
   },
@@ -38672,12 +38677,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759617618,
-        "end": 1759624229,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759624229,
@@ -40885,6 +40884,11 @@
       {
         "status": "[China] - Idle",
         "start": 1760826026,
+        "end": 1760827240
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1760827240,
         "end": null
       }
     ]
