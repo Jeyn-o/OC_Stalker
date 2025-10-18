@@ -3,12 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759593637,
-        "end": 1759606225,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] Lost - Revives: OFF",
         "start": 1759606225,
         "end": 1759607432
@@ -8028,8 +8022,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760791825,
-        "end": null,
+        "end": 1760803826,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760803826,
+        "end": null
       }
     ]
   },
@@ -13950,7 +13949,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760802627,
-        "end": null
+        "end": 1760803826
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760803826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24262,7 +24267,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760802036,
-        "end": null
+        "end": 1760803826
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760803826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24318,11 +24329,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759593637,
-        "end": 1759645824
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1759645824,
@@ -29181,11 +29187,6 @@
     "name": "Littlegman212",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1759593637,
-        "end": 1759596028
-      },
-      {
         "status": "Available",
         "start": 1759596028,
         "end": 1759652425
@@ -31392,7 +31393,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760802627,
-        "end": null
+        "end": 1760803826
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760803826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33681,7 +33688,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760803239,
-        "end": null
+        "end": 1760803826
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760803826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41411,6 +41424,11 @@
       {
         "status": "Available",
         "start": 1760756440,
+        "end": 1760803826
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: Partial",
+        "start": 1760803826,
         "end": null
       }
     ]
