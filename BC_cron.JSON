@@ -1421,7 +1421,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760812234,
-        "end": null
+        "end": 1760814625
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760814625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2428,11 +2434,6 @@
   "1766417": {
     "name": "gajeela09",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759604441,
-        "end": 1759617029
-      },
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1759617029,
@@ -6413,12 +6414,6 @@
   "2315415": {
     "name": "Litri",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1759604441,
-        "end": 1759611631,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759611631,
@@ -14854,8 +14849,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760803239,
-        "end": null,
+        "end": 1760814625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760814625,
+        "end": null
       }
     ]
   },
@@ -15041,12 +15041,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1759604441,
-        "end": 1759616431,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1759616431,
@@ -17808,7 +17802,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760811024,
-        "end": null
+        "end": 1760814625
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760814625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38554,8 +38554,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760803239,
-        "end": null,
+        "end": 1760814625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760814625,
+        "end": null
       }
     ]
   },
