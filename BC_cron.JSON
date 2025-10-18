@@ -9628,12 +9628,6 @@
     "name": "windyswag",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1759547429,
-        "end": 1759557018,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759557018,
         "end": 1760553624
@@ -11077,11 +11071,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1759548020,
-        "end": 1759548663
-      },
-      {
         "status": "Available",
         "start": 1759548663,
         "end": 1759663223
@@ -12097,6 +12086,11 @@
       {
         "status": "Jail",
         "start": 1760757029,
+        "end": 1760757628
+      },
+      {
+        "status": "Available",
+        "start": 1760757628,
         "end": null
       }
     ]
@@ -12114,11 +12108,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1759548020,
-        "end": 1759552227
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1759552227,
@@ -13665,8 +13654,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760750439,
-        "end": null,
+        "end": 1760757628,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760757628,
+        "end": null
       }
     ]
   },
@@ -15896,11 +15890,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759547429,
-        "end": 1759550429
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1759550429,
         "end": 1759552227
@@ -16731,7 +16720,13 @@
       {
         "status": "Available",
         "start": 1760755829,
-        "end": null
+        "end": 1760757628
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760757628,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17914,12 +17909,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1759548020,
-        "end": 1759551624,
-        "travel_type": "standard"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1759551624,
@@ -24904,11 +24893,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759547429,
-        "end": 1759599616
-      },
       {
         "status": "[Canada] - Going",
         "start": 1759599616,
@@ -33071,8 +33055,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760756440,
-        "end": null,
+        "end": 1760757628,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1760757628,
+        "end": null
       }
     ]
   },
