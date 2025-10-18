@@ -8130,11 +8130,6 @@
     "name": "Theurgy",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1759569025,
-        "end": 1759570230
-      },
-      {
         "status": "Available",
         "start": 1759570230,
         "end": 1759573227
@@ -9121,11 +9116,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759569025,
-        "end": 1759657218
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1759657218,
@@ -10411,8 +10401,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760772629,
-        "end": null,
+        "end": 1760779225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760779225,
+        "end": null
       }
     ]
   },
@@ -16867,7 +16862,13 @@
       {
         "status": "Available",
         "start": 1760778629,
-        "end": null
+        "end": 1760779225
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1760779225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22938,19 +22939,19 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760773224,
-        "end": null,
+        "end": 1760779225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760779225,
+        "end": null
       }
     ]
   },
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] Mugged - Revives: ALL",
-        "start": 1759569025,
-        "end": 1759570230
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1759570230,
@@ -40205,7 +40206,13 @@
       {
         "status": "Available",
         "start": 1760778043,
-        "end": null
+        "end": 1760779225
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760779225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40572,6 +40579,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: OFF",
         "start": 1760776826,
+        "end": 1760779225
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1760779225,
         "end": null
       }
     ]
