@@ -4149,7 +4149,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760765439,
-        "end": null
+        "end": 1760767241
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760767241,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15737,6 +15743,11 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1760760042,
+        "end": 1760767241
+      },
+      {
+        "status": "[Mexico] Mugged - Revives: Partial",
+        "start": 1760767241,
         "end": null
       }
     ]
@@ -30803,11 +30814,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759557633,
-        "end": 1759578027
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759578027,
         "end": 1759579821
@@ -34170,12 +34176,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1759557633,
-        "end": 1759559427,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1759559427,
