@@ -2110,7 +2110,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760809830,
-        "end": null
+        "end": 1760810459
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760810459,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9781,8 +9787,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1760801455,
-        "end": null,
+        "end": 1760810459,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760810459,
+        "end": null
       }
     ]
   },
@@ -13976,6 +13987,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760803826,
+        "end": 1760810459,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760810459,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15194,12 +15211,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759600233,
-        "end": 1759601424,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759601424,
@@ -30702,11 +30713,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759600834,
-        "end": 1759665629
-      },
-      {
         "status": "[China] - Going",
         "start": 1759665629,
         "end": 1759675828,
@@ -34787,11 +34793,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: OFF",
-        "start": 1759600834,
-        "end": 1759615823
-      },
       {
         "status": "Available",
         "start": 1759615823,
