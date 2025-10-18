@@ -3,17 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1759607432,
-        "end": 1759608032
-      },
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759608032,
-        "end": 1759620024,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759620024,
         "end": 1759621821
@@ -2121,8 +2110,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760810459,
-        "end": null,
+        "end": 1760817642,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760817642,
+        "end": null
       }
     ]
   },
@@ -11151,7 +11145,13 @@
       {
         "status": "Available",
         "start": 1760816431,
-        "end": null
+        "end": 1760817642
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760817642,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33764,7 +33764,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1760817032,
-        "end": null
+        "end": 1760817642
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760817642,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41502,6 +41508,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760815840,
+        "end": 1760817642
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1760817642,
         "end": null
       }
     ]
