@@ -7423,8 +7423,13 @@
       {
         "status": "[China] - Going",
         "start": 1760741433,
-        "end": null,
+        "end": 1760745642,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760745642,
+        "end": null
       }
     ]
   },
@@ -14550,8 +14555,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1760739635,
-        "end": null,
+        "end": 1760745642,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760745642,
+        "end": null
       }
     ]
   },
@@ -29778,11 +29788,6 @@
     "name": "SN00PYTOBY",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759536033,
-        "end": 1759704028
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759704028,
         "end": 1759705823
@@ -35425,6 +35430,11 @@
       {
         "status": "Available",
         "start": 1760739033,
+        "end": 1760745642
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1760745642,
         "end": null
       }
     ]
