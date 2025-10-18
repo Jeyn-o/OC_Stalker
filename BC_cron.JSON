@@ -1394,8 +1394,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760814625,
-        "end": null,
+        "end": 1760821245,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760821245,
+        "end": null
       }
     ]
   },
@@ -6381,11 +6386,6 @@
     "name": "Litri",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759611631,
-        "end": 1760295637
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1760295637,
         "end": 1760302832,
@@ -10524,7 +10524,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760790030,
-        "end": null
+        "end": 1760821245
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760821245,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12401,8 +12407,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760814037,
-        "end": null,
+        "end": 1760821245,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760821245,
+        "end": null
       }
     ]
   },
@@ -18310,12 +18321,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1759611631,
-        "end": 1759614023,
-        "travel_type": "standard"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1759614023,
@@ -33738,19 +33743,19 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760820031,
-        "end": null,
+        "end": 1760821245,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760821245,
+        "end": null
       }
     ]
   },
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1759611631,
-        "end": 1759612222
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1759612222,
@@ -36180,6 +36185,11 @@
       {
         "status": "Available",
         "start": 1760805038,
+        "end": 1760821245
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1760821245,
         "end": null
       }
     ]
@@ -36528,7 +36538,13 @@
       {
         "status": "Available",
         "start": 1760806231,
-        "end": null
+        "end": 1760821245
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760821245,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
