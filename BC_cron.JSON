@@ -13995,7 +13995,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760817032,
-        "end": null
+        "end": 1760822429
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760822429,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22278,8 +22284,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760815840,
-        "end": null,
+        "end": 1760822429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760822429,
+        "end": null
       }
     ]
   },
@@ -33773,12 +33784,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1759612222,
-        "end": 1759614023,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1759614023,
         "end": 1759615823
@@ -41518,6 +41523,11 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1760820630,
+        "end": 1760822429
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760822429,
         "end": null
       }
     ]
