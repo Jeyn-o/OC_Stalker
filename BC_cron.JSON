@@ -1409,11 +1409,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759662030,
-        "end": 1759662628
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759662628,
         "end": 1759669233,
@@ -3132,7 +3127,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1760865037,
-        "end": null
+        "end": 1760871643
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1760871643,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3716,11 +3717,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759662030,
-        "end": 1759711828
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1759711828,
@@ -12562,11 +12558,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759662030,
-        "end": 1759662628
-      },
-      {
         "status": "[China] - Going",
         "start": 1759662628,
         "end": 1759672228,
@@ -21086,12 +21077,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759662030,
-        "end": 1759669233,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1759669233,
@@ -41113,6 +41098,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760865037,
+        "end": 1760871643,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760871643,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -42927,6 +42918,11 @@
       {
         "status": "[China] - Idle",
         "start": 1760863822,
+        "end": 1760871643
+      },
+      {
+        "status": "[China] Mugged - Revives: Partial",
+        "start": 1760871643,
         "end": null
       }
     ]
