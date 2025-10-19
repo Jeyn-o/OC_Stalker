@@ -5390,12 +5390,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759701021,
-        "end": 1759705823,
-        "travel_type": "private"
-      },
-      {
         "status": "[United Kingdom] Hospitalized - Revives: ALL",
         "start": 1759705823,
         "end": 1759707028
@@ -16324,12 +16318,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759701021,
-        "end": 1759707625,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759707625,
         "end": 1759755628
@@ -18427,7 +18415,13 @@
       {
         "status": "Available",
         "start": 1760905230,
-        "end": null
+        "end": 1760911238
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760911238,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27626,11 +27620,6 @@
     "name": "awesomemcsexy",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1759701021,
-        "end": 1759706421
-      },
-      {
         "status": "[China] - Returning",
         "start": 1759706421,
         "end": 1759716033,
@@ -33877,8 +33866,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760910035,
-        "end": null,
+        "end": 1760911238,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760911238,
+        "end": null
       }
     ]
   },
@@ -36672,6 +36666,11 @@
       {
         "status": "Available",
         "start": 1760904040,
+        "end": 1760911238
+      },
+      {
+        "status": "Jail",
+        "start": 1760911238,
         "end": null
       }
     ]
