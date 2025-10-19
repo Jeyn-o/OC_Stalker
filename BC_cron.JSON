@@ -14248,6 +14248,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760833227,
+        "end": 1760835638
+      },
+      {
+        "status": "Available",
+        "start": 1760835638,
         "end": null
       }
     ]
@@ -18352,12 +18357,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1759625428,
-        "end": 1759627824,
-        "travel_type": "standard"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1759627824,
         "end": 1759630224,
@@ -22299,8 +22298,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760823035,
-        "end": null,
+        "end": 1760835638,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760835638,
+        "end": null
       }
     ]
   },
@@ -26639,7 +26643,13 @@
       {
         "status": "Available",
         "start": 1760830234,
-        "end": null
+        "end": 1760835638
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760835638,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36646,12 +36656,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759625428,
-        "end": 1759632025,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759632025,
         "end": 1759639227,
@@ -38710,12 +38714,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1759625428,
-        "end": 1759632624,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1759632624,
@@ -40922,6 +40920,11 @@
       {
         "status": "[China] - Idle",
         "start": 1760829634,
+        "end": 1760835638
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1760835638,
         "end": null
       }
     ]
@@ -41642,7 +41645,13 @@
       {
         "status": "Available",
         "start": 1760834423,
-        "end": null
+        "end": 1760835638
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760835638,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
