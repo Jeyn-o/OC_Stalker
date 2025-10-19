@@ -3675,12 +3675,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759627824,
-        "end": 1759640424,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1759640424,
         "end": 1759649427
@@ -9091,12 +9085,6 @@
     "name": "Vampire-Catgirl",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1759627824,
-        "end": 1759635048,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759635048,
         "end": 1759726829
@@ -12481,11 +12469,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1759627824,
-        "end": 1759649427
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1759649427,
         "end": 1759662030,
@@ -14061,6 +14044,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760836834,
+        "end": 1760837430
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1760837430,
         "end": null
       }
     ]
@@ -18346,12 +18334,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1759627824,
-        "end": 1759630224,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1759630224,
@@ -36632,8 +36614,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760830234,
-        "end": null,
+        "end": 1760837430,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760837430,
+        "end": null
       }
     ]
   },
@@ -40915,7 +40902,13 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1760835638,
-        "end": null
+        "end": 1760837430
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760837430,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41656,8 +41649,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760836834,
-        "end": null,
+        "end": 1760837430,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760837430,
+        "end": null
       }
     ]
   },
