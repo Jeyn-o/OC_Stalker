@@ -6466,12 +6466,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1759692624,
-        "end": 1759696824,
-        "travel_type": "standard"
-      },
-      {
         "status": "[China] - Returning",
         "start": 1759696824,
         "end": 1759701636,
@@ -14414,11 +14408,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759692624,
-        "end": 1759714826
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759714826,
@@ -33889,7 +33878,13 @@
       {
         "status": "Available",
         "start": 1760895027,
-        "end": null
+        "end": 1760902833
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760902833,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36688,6 +36683,11 @@
       {
         "status": "Available",
         "start": 1760901623,
+        "end": 1760902833
+      },
+      {
+        "status": "Jail",
+        "start": 1760902833,
         "end": null
       }
     ]
@@ -41219,8 +41219,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760892633,
-        "end": null,
+        "end": 1760902833,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760902833,
+        "end": null
       }
     ]
   },
