@@ -1409,12 +1409,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759654829,
-        "end": 1759662030,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759662030,
         "end": 1759662628
@@ -2430,12 +2424,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1759654829,
-        "end": 1759666226,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759666226,
         "end": 1759673426
@@ -3127,8 +3115,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1760859629,
-        "end": null,
+        "end": 1760865037,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1760865037,
+        "end": null
       }
     ]
   },
@@ -15337,11 +15330,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1759655423,
-        "end": 1759661425
-      },
-      {
         "status": "[United Arab Emirates] Attacked - Revives: Partial",
         "start": 1759661425,
         "end": 1759662628
@@ -21086,12 +21074,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759655423,
-        "end": 1759662030,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759662030,
@@ -41109,6 +41091,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760858433,
+        "end": 1760865037,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760865037,
         "end": null,
         "travel_type": "airstrip"
       }
