@@ -5379,11 +5379,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1759689030,
-        "end": 1759701021
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759701021,
         "end": 1759705823,
@@ -12505,8 +12500,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760892633,
-        "end": null,
+        "end": 1760899229,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760899229,
+        "end": null
       }
     ]
   },
@@ -14175,8 +14175,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760892025,
-        "end": null,
+        "end": 1760899229,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760899229,
+        "end": null
       }
     ]
   },
@@ -18425,11 +18430,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759689622,
-        "end": 1759693225
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1759693225,
         "end": 1759695618,
@@ -22295,6 +22295,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760892025,
+        "end": 1760899229,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760899229,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -24410,12 +24416,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759689622,
-        "end": 1759696229,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759696229,
         "end": 1759696824
@@ -25505,7 +25505,13 @@
       {
         "status": "Available",
         "start": 1760898630,
-        "end": null
+        "end": 1760899229
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1760899229,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
