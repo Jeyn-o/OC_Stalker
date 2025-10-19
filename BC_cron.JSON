@@ -5276,11 +5276,6 @@
     "name": "Murder_Hobo",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1759693225,
-        "end": 1759714221
-      },
-      {
         "status": "Available",
         "start": 1759714221,
         "end": 1760041829
@@ -10502,7 +10497,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760901623,
-        "end": null
+        "end": 1760903429
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760903429,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13930,7 +13931,13 @@
       {
         "status": "Available",
         "start": 1760896844,
-        "end": null
+        "end": 1760903429
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1760903429,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18429,12 +18436,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1759693225,
-        "end": 1759695618,
-        "travel_type": "standard"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1759695618,
@@ -25511,8 +25512,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760902232,
-        "end": null,
+        "end": 1760903429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760903429,
+        "end": null
       }
     ]
   },
@@ -33963,11 +33969,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759693225,
-        "end": 1759758622
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1759758622,
         "end": 1759760428,
@@ -39930,6 +39931,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760896844,
+        "end": 1760903429,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760903429,
         "end": null,
         "travel_type": "airstrip"
       }
