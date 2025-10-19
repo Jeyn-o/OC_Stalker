@@ -10053,12 +10053,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759626624,
-        "end": 1759633233,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759633233,
         "end": 1759633826
@@ -12463,7 +12457,13 @@
       {
         "status": "Available",
         "start": 1760821245,
-        "end": null
+        "end": 1760836834
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760836834,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13421,11 +13421,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759627227,
-        "end": 1759665027
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1759665027,
         "end": 1759674624,
@@ -14061,6 +14056,11 @@
       {
         "status": "Available",
         "start": 1760829025,
+        "end": 1760836834
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1760836834,
         "end": null
       }
     ]
@@ -14909,7 +14909,13 @@
       {
         "status": "Available",
         "start": 1760814625,
-        "end": null
+        "end": 1760836834
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760836834,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16268,11 +16274,6 @@
     "name": "Brando72",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759626624,
-        "end": 1759671034
-      },
-      {
         "status": "[China] - Going",
         "start": 1759671034,
         "end": 1759681227,
@@ -17085,12 +17086,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1759627227,
-        "end": 1759635048,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1759635048,
@@ -18338,8 +18333,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760830234,
-        "end": null,
+        "end": 1760836834,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760836834,
+        "end": null
       }
     ]
   },
@@ -22294,7 +22294,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760835638,
-        "end": null
+        "end": 1760836834
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760836834,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29639,12 +29645,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759627227,
-        "end": 1759633233,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759633233,
@@ -41349,8 +41349,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760830234,
-        "end": null,
+        "end": 1760836834,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760836834,
+        "end": null
       }
     ]
   },
@@ -41646,7 +41651,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1760836230,
-        "end": null
+        "end": 1760836834
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760836834,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -42597,6 +42608,11 @@
       {
         "status": "Available",
         "start": 1760835034,
+        "end": 1760836834
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1760836834,
         "end": null
       }
     ]
