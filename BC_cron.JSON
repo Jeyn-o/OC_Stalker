@@ -640,7 +640,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760833833,
-        "end": null
+        "end": 1760834423
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760834423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5152,8 +5158,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760827826,
-        "end": null,
+        "end": 1760834423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760834423,
+        "end": null
       }
     ]
   },
@@ -7674,8 +7685,13 @@
       {
         "status": "[China] - Going",
         "start": 1760830234,
-        "end": null,
+        "end": 1760834423,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760834423,
+        "end": null
       }
     ]
   },
@@ -14270,11 +14286,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] Mugged - Revives: ALL",
-        "start": 1759624229,
-        "end": 1759626035
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759626035,
@@ -24305,8 +24316,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760827240,
-        "end": null,
+        "end": 1760834423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760834423,
+        "end": null
       }
     ]
   },
@@ -34851,11 +34867,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759624229,
-        "end": 1759632624
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1759632624,
         "end": 1759640424,
@@ -38682,11 +38693,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759624229,
-        "end": 1759625428
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1759625428,
         "end": 1759632624,
@@ -41612,8 +41618,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760823035,
-        "end": null,
+        "end": 1760834423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760834423,
+        "end": null
       }
     ]
   },
