@@ -4742,11 +4742,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759702825,
-        "end": 1759764639
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1759764639,
         "end": 1759771821,
@@ -9002,11 +8997,6 @@
   "2647214": {
     "name": "Balgor",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1759702825,
-        "end": 1759703427
-      },
       {
         "status": "Available",
         "start": 1759703427,
@@ -13929,8 +13919,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1760903429,
-        "end": null,
+        "end": 1760913030,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1760913030,
+        "end": null
       }
     ]
   },
@@ -14197,8 +14192,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760911831,
-        "end": null,
+        "end": 1760913030,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1760913030,
+        "end": null
       }
     ]
   },
@@ -18424,11 +18424,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1759702825,
-        "end": 1759704028
-      },
-      {
         "status": "[China] - Returning",
         "start": 1759704028,
         "end": 1759707028,
@@ -20479,8 +20474,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760910035,
-        "end": null,
+        "end": 1760913030,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760913030,
+        "end": null
       }
     ]
   },
@@ -22274,6 +22274,12 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760911831,
+        "end": 1760913030,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1760913030,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29155,7 +29161,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760912430,
-        "end": null
+        "end": 1760913030
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760913030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
