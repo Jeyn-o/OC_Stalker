@@ -40177,9 +40177,9 @@
   },
   "929623": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1760897605,
-    "executed_at": null,
+    "executed_at": 1760897645,
     "slots": {
       "P2": {
         "user_id": 3026725,
@@ -41253,8 +41253,8 @@
   },
   "939877": {
     "name": "Blast from the Past",
-    "status": "Recruiting",
-    "ready_at": 1761135661,
+    "status": "Planning",
+    "ready_at": 1761222061,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -41294,6 +41294,14 @@
         "checkpoint_pass_rate": 65,
         "position": "Picklock",
         "position_number": 2
+      },
+      "P3": {
+        "user_id": 2679269,
+        "user_name": "TsanMan",
+        "checkpoint_pass_rate": 72,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -41349,6 +41357,17 @@
         "checkpoint_pass_rate": 65,
         "position": "Picklock",
         "position_number": 2
+      },
+      {
+        "timestamp": 1760898033,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2679269,
+        "user_name": "TsanMan",
+        "checkpoint_pass_rate": 72,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -42248,10 +42267,31 @@
   "945751": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1760984262,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P5": {
+        "user_id": 3643062,
+        "user_name": "K3llogg",
+        "checkpoint_pass_rate": 65,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1760898033,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3643062,
+        "user_name": "K3llogg",
+        "checkpoint_pass_rate": 65,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "946021": {
     "name": "Gaslight the Way",
