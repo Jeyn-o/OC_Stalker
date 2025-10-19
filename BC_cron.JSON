@@ -6409,8 +6409,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760877634,
-        "end": null,
+        "end": 1760885432,
         "travel_type": "private"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760885432,
+        "end": null
       }
     ]
   },
@@ -18369,8 +18374,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760874044,
-        "end": null,
+        "end": 1760885432,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760885432,
+        "end": null
       }
     ]
   },
@@ -24396,12 +24406,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759675224,
-        "end": 1759681828,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759681828,
@@ -36623,6 +36627,11 @@
       {
         "status": "[China] - Idle",
         "start": 1760877634,
+        "end": 1760885432
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1760885432,
         "end": null
       }
     ]
