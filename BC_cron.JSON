@@ -645,8 +645,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760834423,
-        "end": null,
+        "end": 1760841626,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760841626,
+        "end": null
       }
     ]
   },
@@ -5159,7 +5164,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760834423,
-        "end": null
+        "end": 1760841626
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760841626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15100,12 +15111,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759631427,
-        "end": 1759643420,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1759643420,
         "end": 1759656028,
@@ -16092,6 +16097,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760835034,
+        "end": 1760841626,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760841626,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -18367,12 +18378,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1759631427,
-        "end": 1759632025,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1759632025,
@@ -23317,12 +23322,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1759631427,
-        "end": 1759636835,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1759636835,
         "end": 1759641025
@@ -27127,7 +27126,13 @@
       {
         "status": "Available",
         "start": 1760715634,
-        "end": null
+        "end": 1760841626
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760841626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37116,7 +37121,13 @@
       {
         "status": "Available",
         "start": 1760839233,
-        "end": null
+        "end": 1760841626
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1760841626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41722,6 +41733,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1760839828,
+        "end": 1760841626,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760841626,
         "end": null,
         "travel_type": "airstrip"
       }
