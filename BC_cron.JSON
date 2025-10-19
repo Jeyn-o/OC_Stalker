@@ -9192,11 +9192,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1759698037,
-        "end": 1759699225
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1759699225,
         "end": 1759711828,
@@ -22279,6 +22274,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1760906427,
+        "end": 1760908226,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760908226,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22287,11 +22288,6 @@
   "3331202": {
     "name": "Imtheman357",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: Partial",
-        "start": 1759698037,
-        "end": 1759700417
-      },
       {
         "status": "Available",
         "start": 1759700417,
@@ -24331,8 +24327,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760895625,
-        "end": null,
+        "end": 1760908226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760908226,
+        "end": null
       }
     ]
   },
@@ -26615,8 +26616,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760900441,
-        "end": null,
+        "end": 1760908226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760908226,
+        "end": null
       }
     ]
   },
@@ -28392,7 +28398,13 @@
       {
         "status": "Available",
         "start": 1760826026,
-        "end": null
+        "end": 1760908226
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760908226,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -29624,12 +29636,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759698037,
-        "end": 1759704622,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759704622,
@@ -34838,8 +34844,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760897432,
-        "end": null,
+        "end": 1760908226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760908226,
+        "end": null
       }
     ]
   },
@@ -37148,8 +37159,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760896844,
-        "end": null,
+        "end": 1760908226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760908226,
+        "end": null
       }
     ]
   },
