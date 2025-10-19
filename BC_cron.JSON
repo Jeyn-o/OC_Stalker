@@ -5402,16 +5402,6 @@
     "activities": [
       {
         "status": "Available",
-        "start": 1759647025,
-        "end": 1759647625
-      },
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1759647625,
-        "end": 1759671624
-      },
-      {
-        "status": "Available",
         "start": 1759671624,
         "end": 1759672228
       },
@@ -11175,8 +11165,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760850044,
-        "end": null,
+        "end": 1760857240,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760857240,
+        "end": null
       }
     ]
   },
@@ -14160,7 +14155,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1760856630,
-        "end": null
+        "end": 1760857240
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1760857240,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16159,8 +16160,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760850631,
-        "end": null,
+        "end": 1760857240,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760857240,
+        "end": null
       }
     ]
   },
@@ -16412,12 +16418,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759647625,
-        "end": 1759660823,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759660823,
@@ -25539,11 +25539,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759647625,
-        "end": 1759659627
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1759659627,
@@ -34950,11 +34945,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759647625,
-        "end": 1759652425
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1759652425,
         "end": 1759654225,
@@ -37925,7 +37915,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1760856630,
-        "end": null
+        "end": 1760857240
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760857240,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
