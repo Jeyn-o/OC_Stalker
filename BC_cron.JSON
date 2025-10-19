@@ -2146,6 +2146,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760891435,
+        "end": 1760898031,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760898031,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7697,8 +7703,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760895027,
-        "end": null,
+        "end": 1760898031,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760898031,
+        "end": null
       }
     ]
   },
@@ -17803,7 +17814,13 @@
       {
         "status": "Available",
         "start": 1760897432,
-        "end": null
+        "end": 1760898031
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760898031,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18382,8 +18399,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760891435,
-        "end": null,
+        "end": 1760898031,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760898031,
+        "end": null
       }
     ]
   },
@@ -20457,7 +20479,13 @@
       {
         "status": "Available",
         "start": 1760897432,
-        "end": null
+        "end": 1760898031
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760898031,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -24369,11 +24397,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759688421,
-        "end": 1759689622
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1759689622,
