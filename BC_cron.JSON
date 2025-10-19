@@ -4377,12 +4377,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759680619,
-        "end": 1759681828,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759681828,
         "end": 1759683021,
@@ -10038,11 +10032,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759680619,
-        "end": 1759716033
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759716033,
         "end": 1759722622,
@@ -14172,7 +14161,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1760889028,
-        "end": null
+        "end": 1760890228
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1760890228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16133,8 +16128,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760883635,
-        "end": null,
+        "end": 1760890228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760890228,
+        "end": null
       }
     ]
   },
