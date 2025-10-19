@@ -705,12 +705,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759642231,
-        "end": 1759648833,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759648833,
         "end": 1759650625
@@ -14976,7 +14970,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760847640,
-        "end": null
+        "end": 1760852423
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760852423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17833,8 +17833,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760841031,
-        "end": null,
+        "end": 1760852423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760852423,
+        "end": null
       }
     ]
   },
@@ -23338,6 +23343,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760845834,
+        "end": 1760852423,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760852423,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29236,7 +29247,13 @@
       {
         "status": "Available",
         "start": 1760807429,
-        "end": null
+        "end": 1760852423
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760852423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38798,12 +38815,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1759642231,
-        "end": 1759643420,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1759643420,
         "end": 1759645224,
@@ -42770,8 +42781,13 @@
       {
         "status": "[China] - Going",
         "start": 1760842226,
-        "end": null,
+        "end": 1760852423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1760852423,
+        "end": null
       }
     ]
   },
