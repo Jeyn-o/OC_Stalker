@@ -9034,11 +9034,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1759659627,
-        "end": 1759671624
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1759671624,
         "end": 1759678824,
@@ -10556,7 +10551,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760867430,
-        "end": null
+        "end": 1760869237
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760869237,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14370,6 +14371,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760862024,
+        "end": 1760869237,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760869237,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -20525,7 +20532,13 @@
       {
         "status": "Available",
         "start": 1760843441,
-        "end": null
+        "end": 1760869237
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760869237,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -22354,6 +22367,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760862637,
+        "end": 1760869237,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760869237,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25573,12 +25592,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1759659627,
-        "end": 1759666823,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1759666823,
         "end": 1759674020,
@@ -26715,11 +26728,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759659627,
-        "end": 1759725622
-      },
       {
         "status": "[China] - Going",
         "start": 1759725622,
@@ -31519,11 +31527,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1759659627,
-        "end": 1759661425
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1759661425,
