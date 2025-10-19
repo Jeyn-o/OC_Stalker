@@ -4278,7 +4278,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760853641,
-        "end": null
+        "end": 1760854847
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760854847,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5388,11 +5394,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: Partial",
-        "start": 1759644627,
-        "end": 1759647025
-      },
       {
         "status": "Available",
         "start": 1759647025,
@@ -14131,8 +14132,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760847640,
-        "end": null,
+        "end": 1760854847,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760854847,
+        "end": null
       }
     ]
   },
@@ -20498,11 +20504,6 @@
     "name": "xaqf",
     "activities": [
       {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1759644627,
-        "end": 1759662628
-      },
-      {
         "status": "[Cayman Islands] Attacked - Revives: Partial",
         "start": 1759662628,
         "end": 1759664416
@@ -25520,7 +25521,13 @@
       {
         "status": "Available",
         "start": 1760821825,
-        "end": null
+        "end": 1760854847
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760854847,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28435,12 +28442,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1759644627,
-        "end": 1759651827,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759651827,
@@ -38817,11 +38818,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1759645224,
-        "end": 1759646424
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1759646424,
         "end": 1759648223,
@@ -42793,6 +42789,11 @@
       {
         "status": "[China] Mugged - Revives: Partial",
         "start": 1760854231,
+        "end": 1760854847
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760854847,
         "end": null
       }
     ]
