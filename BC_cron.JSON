@@ -15192,11 +15192,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759656028,
-        "end": 1759656630
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1759656630,
         "end": 1759663223,
@@ -20660,12 +20655,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Japan] - Going",
-        "start": 1759656028,
-        "end": 1759665027,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1759665027,
         "end": 1759666823
@@ -23372,8 +23361,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760859629,
-        "end": null,
+        "end": 1760866233,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760866233,
+        "end": null
       }
     ]
   },
@@ -25566,6 +25560,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760854847,
+        "end": 1760866233,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760866233,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34960,11 +34960,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759656028,
-        "end": 1759670414
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1759670414,
         "end": 1759671034
@@ -41968,6 +41963,11 @@
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1760865631,
+        "end": 1760866233
+      },
+      {
+        "status": "Available",
+        "start": 1760866233,
         "end": null
       }
     ]
