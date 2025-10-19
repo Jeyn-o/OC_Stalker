@@ -1412,7 +1412,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760878841,
-        "end": null
+        "end": 1760879431
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760879431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3693,6 +3699,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760868039,
+        "end": 1760879431,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760879431,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33842,7 +33854,13 @@
       {
         "status": "Available",
         "start": 1760849424,
-        "end": null
+        "end": 1760879431
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760879431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
