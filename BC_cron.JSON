@@ -18379,11 +18379,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1759685434,
-        "end": 1759686027
-      },
-      {
         "status": "[China] - Returning",
         "start": 1759686027,
         "end": 1759689622,
@@ -24317,7 +24312,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760893825,
-        "end": null
+        "end": 1760895625
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760895625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36616,12 +36617,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1759685434,
-        "end": 1759695618,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1759695618,
         "end": 1759696229
@@ -37092,8 +37087,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760884827,
-        "end": null,
+        "end": 1760895625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760895625,
+        "end": null
       }
     ]
   },
@@ -38891,11 +38891,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1759685434,
-        "end": 1759686027
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1759686027,
         "end": 1759687818,
@@ -39976,8 +39971,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760888427,
-        "end": null,
+        "end": 1760895625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760895625,
+        "end": null
       }
     ]
   },
@@ -41635,7 +41635,13 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1760891435,
-        "end": null
+        "end": 1760895625
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760895625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
