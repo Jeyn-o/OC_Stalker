@@ -40489,9 +40489,9 @@
   },
   "935737": {
     "name": "No Reserve",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1760912937,
-    "executed_at": null,
+    "executed_at": 1760914265,
     "slots": {
       "P2": {
         "user_id": 1184733,
@@ -42368,7 +42368,7 @@
   "945751": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1761157062,
+    "ready_at": 1761243462,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -42394,6 +42394,14 @@
         "position": "Picklock",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 3540076,
+        "user_name": "Mr_jeff14574",
+        "checkpoint_pass_rate": 72,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -42429,6 +42437,17 @@
         "position": "Picklock",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1760914847,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3540076,
+        "user_name": "Mr_jeff14574",
+        "checkpoint_pass_rate": 72,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -42526,6 +42545,14 @@
   },
   "949970": {
     "name": "Cash Me if You Can",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "950544": {
+    "name": "Bidding War",
     "status": "Recruiting",
     "ready_at": null,
     "executed_at": null,
