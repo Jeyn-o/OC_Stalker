@@ -11148,7 +11148,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760905838,
-        "end": null
+        "end": 1760914844
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760914844,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14203,8 +14209,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760913630,
-        "end": null,
+        "end": 1760914844,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760914844,
+        "end": null
       }
     ]
   },
@@ -22274,6 +22285,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760913030,
+        "end": 1760914844,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1760914844,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33858,6 +33875,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760913630,
+        "end": 1760914844,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760914844,
         "end": null,
         "travel_type": "airstrip"
       }
