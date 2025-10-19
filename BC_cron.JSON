@@ -710,11 +710,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759657218,
-        "end": 1759672832
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1759672832,
         "end": 1759677025
@@ -3129,11 +3124,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759656630,
-        "end": 1759660227
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759660227,
         "end": 1759666226,
@@ -3687,8 +3677,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760859629,
-        "end": null,
+        "end": 1760866834,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760866834,
+        "end": null
       }
     ]
   },
@@ -9244,12 +9239,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759657218,
-        "end": 1759669828,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1759669828,
         "end": 1759673426
@@ -11184,8 +11173,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760859629,
-        "end": null,
+        "end": 1760866834,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760866834,
+        "end": null
       }
     ]
   },
@@ -15191,12 +15185,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1759656630,
-        "end": 1759663223,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1759663223,
@@ -31527,11 +31515,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Japan] Mugged - Revives: ALL",
-        "start": 1759657218,
-        "end": 1759659627
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1759659627,
         "end": 1759661425
@@ -37973,7 +37956,13 @@
       {
         "status": "Available",
         "start": 1760865631,
-        "end": null
+        "end": 1760866834
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760866834,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
