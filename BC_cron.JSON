@@ -7691,7 +7691,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760834423,
-        "end": null
+        "end": 1760835034
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760835034,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -16081,7 +16087,13 @@
       {
         "status": "Available",
         "start": 1760813433,
-        "end": null
+        "end": 1760835034
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760835034,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20446,7 +20458,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1760832039,
-        "end": null
+        "end": 1760835034
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1760835034,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -20980,7 +20998,13 @@
       {
         "status": "Available",
         "start": 1760792441,
-        "end": null
+        "end": 1760835034
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1760835034,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23270,12 +23294,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1759624829,
-        "end": 1759630224,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759630224,
@@ -42569,8 +42587,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760824842,
-        "end": null,
+        "end": 1760835034,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760835034,
+        "end": null
       }
     ]
   },
