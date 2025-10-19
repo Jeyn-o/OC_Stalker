@@ -710,12 +710,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759650625,
-        "end": 1759657218,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759657218,
         "end": 1759672832
@@ -10560,7 +10554,13 @@
       {
         "status": "Available",
         "start": 1760828435,
-        "end": null
+        "end": 1760860837
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760860837,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21072,11 +21072,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759650625,
-        "end": 1759655423
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759655423,
         "end": 1759662030,
@@ -23694,8 +23689,13 @@
       {
         "status": "[China] - Going",
         "start": 1760851233,
-        "end": null,
+        "end": 1760860837,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760860837,
+        "end": null
       }
     ]
   },
@@ -41933,6 +41933,11 @@
       {
         "status": "Available",
         "start": 1760806231,
+        "end": 1760860837
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: Partial",
+        "start": 1760860837,
         "end": null
       }
     ]
