@@ -5422,11 +5422,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1759672228,
-        "end": 1759679423
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759679423,
         "end": 1759684225,
@@ -7738,7 +7733,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760865631,
-        "end": null
+        "end": 1760882434
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760882434,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -11458,12 +11459,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1759672228,
-        "end": 1759680029,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759680029,
         "end": 1759683628
@@ -12528,8 +12523,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760875244,
-        "end": null,
+        "end": 1760882434,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1760882434,
+        "end": null
       }
     ]
   },
@@ -12546,11 +12546,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1759672228,
-        "end": 1759673426
-      },
       {
         "status": "[China] - Returning",
         "start": 1759673426,
@@ -33883,7 +33878,13 @@
       {
         "status": "Available",
         "start": 1760881824,
-        "end": null
+        "end": 1760882434
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760882434,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41128,7 +41129,13 @@
       {
         "status": "Available",
         "start": 1760878252,
-        "end": null
+        "end": 1760882434
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760882434,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
