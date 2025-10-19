@@ -5390,12 +5390,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1759637428,
-        "end": 1759644627,
-        "travel_type": "private"
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: Partial",
         "start": 1759644627,
         "end": 1759647025
@@ -6482,16 +6476,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1759637428,
-        "end": 1759638028
-      },
-      {
-        "status": "Available",
-        "start": 1759638028,
-        "end": 1759652425
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1759652425,
@@ -14121,6 +14105,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760841031,
+        "end": 1760847640,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760847640,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14969,8 +14959,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760836834,
-        "end": null,
+        "end": 1760847640,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760847640,
+        "end": null
       }
     ]
   },
@@ -33858,7 +33853,13 @@
       {
         "status": "Available",
         "start": 1760846439,
-        "end": null
+        "end": 1760847640
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760847640,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40987,8 +40988,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760837430,
-        "end": null,
+        "end": 1760847640,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760847640,
+        "end": null
       }
     ]
   },
@@ -41428,6 +41434,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760836834,
+        "end": 1760847640
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1760847640,
         "end": null
       }
     ]
