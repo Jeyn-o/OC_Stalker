@@ -3123,12 +3123,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759660227,
-        "end": 1759666226,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759666226,
         "end": 1759666823
@@ -11190,7 +11184,13 @@
       {
         "status": "Available",
         "start": 1760866834,
-        "end": null
+        "end": 1760869836
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760869836,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18442,12 +18442,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759660227,
-        "end": 1759664416,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1759664416,
@@ -27185,8 +27179,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760859629,
-        "end": null,
+        "end": 1760869836,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760869836,
+        "end": null
       }
     ]
   },
