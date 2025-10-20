@@ -3219,12 +3219,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759717826,
-        "end": 1759730439,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1759730439,
         "end": 1759731016
@@ -5401,11 +5395,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1759717826,
-        "end": 1759760428
-      },
-      {
         "status": "[China] - Going",
         "start": 1759760428,
         "end": 1759768235,
@@ -6456,12 +6445,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1759717826,
-        "end": 1759720818,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1759720818,
@@ -15198,12 +15181,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759717826,
-        "end": 1759730439,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1759730439,
         "end": 1759743029,
@@ -16383,11 +16360,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759717826,
-        "end": 1759754423
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1759754423,
@@ -22298,7 +22270,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760926841,
-        "end": null
+        "end": 1760927436
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760927436,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -42151,6 +42129,11 @@
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1760926223,
+        "end": 1760927436
+      },
+      {
+        "status": "Available",
+        "start": 1760927436,
         "end": null
       }
     ]
