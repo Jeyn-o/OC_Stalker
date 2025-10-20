@@ -20505,12 +20505,6 @@
     "name": "xaqf",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1759721431,
-        "end": 1759722622,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759722622,
         "end": 1760386829
@@ -30383,8 +30377,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760919627,
-        "end": null,
+        "end": 1760931039,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760931039,
+        "end": null
       }
     ]
   },
@@ -36225,6 +36224,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1760930433,
+        "end": 1760931039
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1760931039,
         "end": null
       }
     ]
@@ -37136,6 +37140,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760924431,
+        "end": 1760931039,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760931039,
         "end": null,
         "travel_type": "airstrip"
       }
