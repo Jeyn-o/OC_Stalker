@@ -1460,12 +1460,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1759747827,
-        "end": 1759755023,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759755023,
         "end": 1759755628
@@ -3774,11 +3768,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1759749624,
-        "end": 1759750824
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1759750824,
         "end": 1759763429,
@@ -4763,8 +4752,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760945438,
-        "end": null,
+        "end": 1760959231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760959231,
+        "end": null
       }
     ]
   },
@@ -7725,12 +7719,6 @@
   "2414438": {
     "name": "Caross",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1759749624,
-        "end": 1759757432,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1759757432,
@@ -11103,8 +11091,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760951858,
-        "end": null,
+        "end": 1760959231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760959231,
+        "end": null
       }
     ]
   },
@@ -13387,8 +13380,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760956656,
-        "end": null,
+        "end": 1760959231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760959231,
+        "end": null
       }
     ]
   },
@@ -17137,19 +17135,19 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760956955,
-        "end": null
+        "end": 1760959231
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760959231,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1759749624,
-        "end": 1759760428,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759760428,
@@ -17850,7 +17848,13 @@
       {
         "status": "Available",
         "start": 1760922040,
-        "end": null
+        "end": 1760959231
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1760959231,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18496,12 +18500,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1759747827,
-        "end": 1759750824,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Idle",
         "start": 1759750824,
@@ -21080,17 +21078,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1759747827,
-        "end": 1759748432
-      },
-      {
-        "status": "[Canada] - Returning",
-        "start": 1759748432,
-        "end": 1759750234,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759750234,
         "end": 1759750824
@@ -22375,8 +22362,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760949457,
-        "end": null,
+        "end": 1760959231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760959231,
+        "end": null
       }
     ]
   },
@@ -23745,8 +23737,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1760954255,
-        "end": null,
+        "end": 1760959231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760959231,
+        "end": null
       }
     ]
   },
@@ -31409,11 +31406,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[United Kingdom] Mugged - Revives: ALL",
-        "start": 1759747827,
-        "end": 1759750234
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759750234,
@@ -41822,6 +41814,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760952451,
+        "end": 1760959231,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760959231,
         "end": null,
         "travel_type": "airstrip"
       }
