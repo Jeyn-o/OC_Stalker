@@ -1460,11 +1460,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1759747220,
-        "end": 1759747827
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1759747827,
         "end": 1759755023,
@@ -3210,8 +3205,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760950544,
-        "end": null,
+        "end": 1760956955,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760956955,
+        "end": null
       }
     ]
   },
@@ -5325,6 +5325,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760954862,
+        "end": 1760956955
+      },
+      {
+        "status": "Available",
+        "start": 1760956955,
         "end": null
       }
     ]
@@ -7764,12 +7769,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759747220,
-        "end": 1759759822,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759759822,
@@ -14442,12 +14441,6 @@
     "name": "BiberBart",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1759747220,
-        "end": 1759759233,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759759233,
         "end": null
@@ -17138,8 +17131,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760950049,
-        "end": null,
+        "end": 1760956955,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1760956955,
+        "end": null
       }
     ]
   },
@@ -24485,12 +24483,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759747220,
-        "end": 1759753850,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759753850,
         "end": 1759756224
@@ -26705,11 +26697,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759747220,
-        "end": 1759800625
-      },
       {
         "status": "[China] - Going",
         "start": 1759800625,
