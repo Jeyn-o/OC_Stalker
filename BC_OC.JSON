@@ -40887,9 +40887,9 @@
   },
   "938582": {
     "name": "Stacking the Deck",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1760994181,
-    "executed_at": null,
+    "executed_at": 1760994185,
     "slots": {
       "P3": {
         "user_id": 2315415,
@@ -40973,9 +40973,9 @@
   },
   "938583": {
     "name": "Stacking the Deck",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1760994081,
-    "executed_at": null,
+    "executed_at": 1760994124,
     "slots": {
       "P1": {
         "user_id": 2675301,
@@ -41516,8 +41516,8 @@
   },
   "939898": {
     "name": "Clinical Precision",
-    "status": "Recruiting",
-    "ready_at": 1761071617,
+    "status": "Planning",
+    "ready_at": 1761244417,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -41532,6 +41532,22 @@
         "user_name": "AlfieG",
         "checkpoint_pass_rate": 66,
         "position": "Cleaner",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 68,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2740246,
+        "user_name": "Bub92278",
+        "checkpoint_pass_rate": 72,
+        "position": "Assassin",
         "position_number": 1,
         "item_available": true
       }
@@ -41555,6 +41571,28 @@
         "user_name": "AlfieG",
         "checkpoint_pass_rate": 66,
         "position": "Cleaner",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1760994635,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 68,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1760994635,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2740246,
+        "user_name": "Bub92278",
+        "checkpoint_pass_rate": 72,
+        "position": "Assassin",
         "position_number": 1,
         "item_available": true
       }
@@ -42980,6 +43018,41 @@
   },
   "953179": {
     "name": "Stage Fright",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "953310": {
+    "name": "Ace in the Hole",
+    "status": "Recruiting",
+    "ready_at": 1761080647,
+    "executed_at": null,
+    "slots": {
+      "P5": {
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 51,
+        "position": "Driver",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1760994635,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 51,
+        "position": "Driver",
+        "position_number": 1
+      }
+    ]
+  },
+  "953314": {
+    "name": "Ace in the Hole",
     "status": "Recruiting",
     "ready_at": null,
     "executed_at": null,
