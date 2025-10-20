@@ -5209,8 +5209,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760974830,
-        "end": null,
+        "end": 1760985629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760985629,
+        "end": null
       }
     ]
   },
@@ -5408,11 +5413,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1759775426,
-        "end": 1759776628
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1759776628,
@@ -7662,7 +7662,13 @@
       {
         "status": "Available",
         "start": 1760981429,
-        "end": null
+        "end": 1760985629
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760985629,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -7717,12 +7723,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759775426,
-        "end": 1759788037,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759788037,
@@ -27283,12 +27283,6 @@
     "name": "Mr_jeff14574",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1759775426,
-        "end": 1759785625,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759785625,
         "end": 1759853448
@@ -30709,12 +30703,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759775426,
-        "end": 1759782028,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759782028,
@@ -39966,7 +39954,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760979033,
-        "end": null
+        "end": 1760985629
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760985629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
