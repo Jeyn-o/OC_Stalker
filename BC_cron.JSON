@@ -7676,8 +7676,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760941232,
-        "end": null,
+        "end": 1760946449,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760946449,
+        "end": null
       }
     ]
   },
@@ -15053,11 +15058,6 @@
     "name": "Neodork",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759736427,
-        "end": 1759780225
-      },
-      {
         "status": "[Hawaii] - Going",
         "start": 1759780225,
         "end": 1759785625,
@@ -15185,7 +15185,13 @@
       {
         "status": "Available",
         "start": 1760745642,
-        "end": null
+        "end": 1760946449
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1760946449,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31345,12 +31351,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759736427,
-        "end": 1759743029,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759743029,
         "end": 1759744231
@@ -36189,6 +36189,11 @@
       {
         "status": "Available",
         "start": 1760944831,
+        "end": 1760946449
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1760946449,
         "end": null
       }
     ]
@@ -38962,18 +38967,19 @@
       {
         "status": "Available",
         "start": 1760936442,
-        "end": null
+        "end": 1760946449
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760946449,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1759736427,
-        "end": 1759737023
-      },
       {
         "status": "Available",
         "start": 1759737023,
