@@ -3216,8 +3216,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760938831,
-        "end": null,
+        "end": 1760944831,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760944831,
+        "end": null
       }
     ]
   },
@@ -7771,12 +7776,6 @@
     "name": "Jeyno",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759734628,
-        "end": 1759747220,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1759747220,
         "end": 1759759822,
@@ -11120,7 +11119,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760944235,
-        "end": null
+        "end": 1760944831
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760944831,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22468,12 +22473,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759734628,
-        "end": 1759741230,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759741230,
         "end": 1759752635
@@ -25511,12 +25510,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1759734628,
-        "end": 1759741230,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759741230,
@@ -36200,6 +36193,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1760944235,
+        "end": 1760944831
+      },
+      {
+        "status": "Available",
+        "start": 1760944831,
         "end": null
       }
     ]
