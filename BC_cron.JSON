@@ -6405,7 +6405,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760985028,
-        "end": null
+        "end": 1760991035
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760991035,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -16390,12 +16396,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759781427,
-        "end": 1759794017,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1759794017,
         "end": 1759796424
@@ -20554,8 +20554,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760988049,
-        "end": null,
+        "end": 1760991035,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1760991035,
+        "end": null
       }
     ]
   },
@@ -21135,12 +21140,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1759781427,
-        "end": 1759788623,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759788623,
@@ -29671,6 +29670,11 @@
       {
         "status": "Available",
         "start": 1760856630,
+        "end": 1760991035
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1760991035,
         "end": null
       }
     ]
