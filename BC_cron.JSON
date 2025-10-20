@@ -10372,8 +10372,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760948850,
-        "end": null,
+        "end": 1760956048,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760956048,
+        "end": null
       }
     ]
   },
@@ -15192,7 +15197,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1760951262,
-        "end": null
+        "end": 1760956048
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1760956048,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20537,8 +20548,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1760948850,
-        "end": null,
+        "end": 1760956048,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760956048,
+        "end": null
       }
     ]
   },
@@ -21032,12 +21048,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1759746023,
-        "end": 1759747827,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1759747827,
@@ -31380,11 +31390,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759746023,
-        "end": 1759747827
-      },
-      {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1759747827,
         "end": 1759750234
@@ -34812,11 +34817,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: OFF",
-        "start": 1759746023,
-        "end": 1759754423
-      },
       {
         "status": "Available",
         "start": 1759754423,
