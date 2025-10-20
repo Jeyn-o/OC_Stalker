@@ -3771,7 +3771,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760931635,
-        "end": null
+        "end": 1760932845
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760932845,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4759,6 +4765,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1760930433,
+        "end": 1760932845
+      },
+      {
+        "status": "Available",
+        "start": 1760932845,
         "end": null
       }
     ]
@@ -11305,7 +11316,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760916028,
-        "end": null
+        "end": 1760932845
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760932845,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29558,11 +29575,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759723232,
-        "end": 1759723824
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759723824,
         "end": 1759730439,
@@ -31349,12 +31361,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759723232,
-        "end": 1759729822,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759729822,
