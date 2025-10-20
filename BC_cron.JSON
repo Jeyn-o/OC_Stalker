@@ -5390,12 +5390,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759709424,
-        "end": 1759713625,
-        "travel_type": "private"
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1759713625,
         "end": 1759717227
@@ -12498,7 +12492,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1760918447,
-        "end": null
+        "end": 1760919627
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760919627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28427,12 +28427,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1759709424,
-        "end": 1759716033,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1759716033,
         "end": 1759717227
@@ -30472,6 +30466,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760907641,
+        "end": 1760919627,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760919627,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30480,11 +30480,6 @@
   "3653613": {
     "name": "SN00PYTOBY",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1759709424,
-        "end": 1759710030
-      },
       {
         "status": "Available",
         "start": 1759710030,
@@ -31449,12 +31444,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759709424,
-        "end": 1759716033,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759716033,
@@ -33918,6 +33907,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1760918447,
+        "end": 1760919627,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1760919627,
         "end": null,
         "travel_type": "airstrip"
       }
