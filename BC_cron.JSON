@@ -2185,6 +2185,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760942430,
+        "end": 1760949457,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760949457,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -8490,12 +8496,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1759739430,
-        "end": 1759741230,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1759741230,
         "end": 1759742421,
@@ -9026,11 +9026,6 @@
   "2655203": {
     "name": "Vampire-Catgirl",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1759739430,
-        "end": 1759760428
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1759760428,
@@ -12490,11 +12485,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1759739430,
-        "end": 1759741230
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1759741230,
         "end": 1759750824,
@@ -14407,7 +14397,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760947665,
-        "end": null
+        "end": 1760949457
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760949457,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22325,7 +22321,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760948850,
-        "end": null
+        "end": 1760949457
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760949457,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37989,6 +37991,11 @@
       {
         "status": "Available",
         "start": 1760944235,
+        "end": 1760949457
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1760949457,
         "end": null
       }
     ]
