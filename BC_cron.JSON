@@ -6379,8 +6379,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1760999441,
-        "end": null,
+        "end": 1761000629,
         "travel_type": "private"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1761000629,
+        "end": null
       }
     ]
   },
@@ -9011,8 +9016,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760993436,
-        "end": null,
+        "end": 1761000629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1761000629,
+        "end": null
       }
     ]
   },
@@ -38134,6 +38144,11 @@
       {
         "status": "Available",
         "start": 1760994631,
+        "end": 1761000629
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761000629,
         "end": null
       }
     ]
@@ -39961,7 +39976,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761000027,
-        "end": null
+        "end": 1761000629
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761000629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
