@@ -39603,9 +39603,9 @@
   },
   "928926": {
     "name": "Cash Me if You Can",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1760966609,
-    "executed_at": null,
+    "executed_at": 1760966645,
     "slots": {
       "P2": {
         "user_id": 3880785,
@@ -42606,7 +42606,7 @@
   "946021": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1761010984,
+    "ready_at": 1761097384,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -42615,6 +42615,13 @@
         "checkpoint_pass_rate": 89,
         "position": "Looter",
         "position_number": 2
+      },
+      "P6": {
+        "user_id": 3900691,
+        "user_name": "Akytaro",
+        "checkpoint_pass_rate": 74,
+        "position": "Looter",
+        "position_number": 3
       }
     },
     "action_log": [
@@ -42627,6 +42634,16 @@
         "checkpoint_pass_rate": 89,
         "position": "Looter",
         "position_number": 2
+      },
+      {
+        "timestamp": 1760967036,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3900691,
+        "user_name": "Akytaro",
+        "checkpoint_pass_rate": 74,
+        "position": "Looter",
+        "position_number": 3
       }
     ]
   },
