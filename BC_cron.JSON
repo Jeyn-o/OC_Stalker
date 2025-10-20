@@ -8490,11 +8490,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759738819,
-        "end": 1759739430
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1759739430,
         "end": 1759741230,
@@ -9152,11 +9147,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759738819,
-        "end": 1759759233
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1759759233,
@@ -10404,7 +10394,13 @@
       {
         "status": "Available",
         "start": 1760910035,
-        "end": null
+        "end": 1760948850
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760948850,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16192,7 +16188,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760948258,
-        "end": null
+        "end": 1760948850
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760948850,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20525,6 +20527,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760941232,
+        "end": 1760948850,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760948850,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22311,8 +22319,13 @@
       {
         "status": "[China] - Going",
         "start": 1760938236,
-        "end": null,
+        "end": 1760948850,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1760948850,
+        "end": null
       }
     ]
   },
@@ -23664,8 +23677,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1760943032,
-        "end": null,
+        "end": 1760948850,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1760948850,
+        "end": null
       }
     ]
   },
@@ -29567,12 +29585,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759738819,
-        "end": 1759745430,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759745430,
@@ -36176,6 +36188,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760946449,
+        "end": 1760948850
+      },
+      {
+        "status": "Available",
+        "start": 1760948850,
         "end": null
       }
     ]
@@ -43227,6 +43244,11 @@
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1760947059,
+        "end": 1760948850
+      },
+      {
+        "status": "Available",
+        "start": 1760948850,
         "end": null
       }
     ]
