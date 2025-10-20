@@ -41536,20 +41536,20 @@
         "item_available": true
       },
       "P1": {
-        "user_id": 2675301,
-        "user_name": "ExiledAstronaut",
-        "checkpoint_pass_rate": 68,
+        "user_id": 2740246,
+        "user_name": "Bub92278",
+        "checkpoint_pass_rate": 70,
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
       },
       "P3": {
-        "user_id": 2740246,
-        "user_name": "Bub92278",
-        "checkpoint_pass_rate": 72,
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 63,
         "position": "Assassin",
         "position_number": 1,
-        "item_available": true
+        "item_available": false
       }
     },
     "action_log": [
@@ -41595,6 +41595,50 @@
         "position": "Assassin",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1760995283,
+        "action": "left",
+        "slot": "P1",
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 68,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1760995283,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2740246,
+        "user_name": "Bub92278",
+        "checkpoint_pass_rate": 70,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1760995283,
+        "action": "left",
+        "slot": "P3",
+        "user_id": 2740246,
+        "user_name": "Bub92278",
+        "checkpoint_pass_rate": 72,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1760995283,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 63,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -42827,8 +42871,8 @@
   },
   "948544": {
     "name": "Mob Mentality",
-    "status": "Recruiting",
-    "ready_at": 1761233302,
+    "status": "Planning",
+    "ready_at": 1761319702,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -42853,6 +42897,13 @@
         "position": "Looter",
         "position_number": 3,
         "item_available": true
+      },
+      "P4": {
+        "user_id": 2932114,
+        "user_name": "Nitrx",
+        "checkpoint_pass_rate": 91,
+        "position": "Looter",
+        "position_number": 4
       }
     },
     "action_log": [
@@ -42887,6 +42938,16 @@
         "position": "Looter",
         "position_number": 3,
         "item_available": true
+      },
+      {
+        "timestamp": 1760995283,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2932114,
+        "user_name": "Nitrx",
+        "checkpoint_pass_rate": 91,
+        "position": "Looter",
+        "position_number": 4
       }
     ]
   },
