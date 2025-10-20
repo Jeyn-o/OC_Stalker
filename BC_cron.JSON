@@ -3220,12 +3220,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1759744231,
-        "end": 1759755023,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759755023,
         "end": 1759755628
@@ -3735,7 +3729,13 @@
       {
         "status": "Available",
         "start": 1760890825,
-        "end": null
+        "end": 1760954255
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1760954255,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8935,7 +8935,13 @@
       {
         "status": "Available",
         "start": 1760948258,
-        "end": null
+        "end": 1760954255
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760954255,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13357,8 +13363,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760953060,
-        "end": null,
+        "end": 1760954255,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1760954255,
+        "end": null
       }
     ]
   },
@@ -14192,8 +14203,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760947665,
-        "end": null,
+        "end": 1760954255,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760954255,
+        "end": null
       }
     ]
   },
@@ -14394,11 +14410,6 @@
   "2943860": {
     "name": "BiberBart",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1759744231,
-        "end": 1759747220
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1759747220,
@@ -23679,7 +23690,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1760948850,
-        "end": null
+        "end": 1760954255
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1760954255,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26634,6 +26651,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760947059,
+        "end": 1760954255,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760954255,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30380,8 +30403,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760943032,
-        "end": null,
+        "end": 1760954255,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1760954255,
+        "end": null
       }
     ]
   },
@@ -31336,11 +31364,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[United Kingdom] Mugged - Revives: ALL",
-        "start": 1759744231,
-        "end": 1759746023
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759746023,
@@ -33856,11 +33879,6 @@
   "3689230": {
     "name": "quicsilver25",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1759744231,
-        "end": 1759744825
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1759744825,
@@ -38076,6 +38094,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1760952451,
+        "end": 1760954255
+      },
+      {
+        "status": "Available",
+        "start": 1760954255,
         "end": null
       }
     ]
@@ -38967,8 +38990,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760953060,
-        "end": null,
+        "end": 1760954255,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760954255,
+        "end": null
       }
     ]
   },
