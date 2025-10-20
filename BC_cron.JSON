@@ -2493,11 +2493,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759758622,
-        "end": 1759759233
-      },
-      {
         "status": "[Hawaii] - Going",
         "start": 1759759233,
         "end": 1759764639,
@@ -6482,12 +6477,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1759758028,
-        "end": 1759762221,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1759762221,
@@ -11392,12 +11381,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1759758028,
-        "end": 1759764639,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759764639,
         "end": 1759784452
@@ -12464,6 +12447,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760961028,
+        "end": 1760968232,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760968232,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14471,12 +14460,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1759758028,
-        "end": 1759769425,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759769425,
         "end": 1759797629
@@ -15246,11 +15229,6 @@
     "name": "Pantas",
     "activities": [
       {
-        "status": "[Argentina] Lost - Revives: ALL",
-        "start": 1759758622,
-        "end": 1759759822
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1759759822,
         "end": 1759767029,
@@ -15321,11 +15299,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1759758028,
-        "end": 1759760428
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759760428,
@@ -17180,7 +17153,13 @@
       {
         "status": "Available",
         "start": 1760965239,
-        "end": null
+        "end": 1760968232
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760968232,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22412,7 +22391,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760967034,
-        "end": null
+        "end": 1760968232
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760968232,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26747,6 +26732,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1760962827,
+        "end": 1760968232,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1760968232,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31484,12 +31475,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759758622,
-        "end": 1759765822,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759765822,
         "end": 1759767624
@@ -34023,12 +34008,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1759758622,
-        "end": 1759760428,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1759760428,
         "end": 1759765220
@@ -34924,11 +34903,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759758622,
-        "end": 1759759822
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1759759822,
@@ -36313,8 +36287,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760967034,
-        "end": null,
+        "end": 1760968232,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1760968232,
+        "end": null
       }
     ]
   },
