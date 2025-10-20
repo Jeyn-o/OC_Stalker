@@ -9698,11 +9698,6 @@
     "name": "AlfieG",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1759752635,
-        "end": 1759766434
-      },
-      {
         "status": "Available",
         "start": 1759766434,
         "end": 1759774822
@@ -11127,7 +11122,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760959231,
-        "end": null
+        "end": 1760962827
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760962827,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21142,12 +21143,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1759752635,
-        "end": 1759753850,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759753850,
         "end": 1759755628
@@ -22593,12 +22588,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759752635,
-        "end": 1759759233,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759759233,
@@ -24493,8 +24482,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1760950544,
-        "end": null,
+        "end": 1760962827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760962827,
+        "end": null
       }
     ]
   },
@@ -26758,7 +26752,13 @@
       {
         "status": "Available",
         "start": 1760961028,
-        "end": null
+        "end": 1760962827
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1760962827,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28512,7 +28512,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760962232,
-        "end": null
+        "end": 1760962827
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760962827,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -36278,6 +36284,11 @@
       {
         "status": "Available",
         "start": 1760962232,
+        "end": 1760962827
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1760962827,
         "end": null
       }
     ]
