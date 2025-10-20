@@ -1325,8 +1325,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760971823,
-        "end": null,
+        "end": 1760977833,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760977833,
+        "end": null
       }
     ]
   },
@@ -3200,7 +3205,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760972440,
-        "end": null
+        "end": 1760977833
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760977833,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16200,8 +16211,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1760976035,
-        "end": null,
+        "end": 1760977833,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1760977833,
+        "end": null
       }
     ]
   },
@@ -22383,6 +22399,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1760976619,
+        "end": 1760977833,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1760977833,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25611,11 +25633,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1759767624,
-        "end": 1759770639
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1759770639,
@@ -30690,12 +30707,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759767624,
-        "end": 1759774218,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759774218,
         "end": 1759775426
@@ -31437,12 +31448,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1759767624,
-        "end": 1759769425,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1759769425,
@@ -33970,17 +33975,6 @@
         "status": "[Canada] - Idle",
         "start": 1760976619,
         "end": null
-      }
-    ]
-  },
-  "3689230": {
-    "name": "quicsilver25",
-    "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1759767624,
-        "end": null,
-        "travel_type": "standard"
       }
     ]
   },
@@ -43383,8 +43377,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760970628,
-        "end": null,
+        "end": 1760977833,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760977833,
+        "end": null
       }
     ]
   },
