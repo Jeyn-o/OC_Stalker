@@ -656,8 +656,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1760974830,
-        "end": null,
+        "end": 1760987441,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1760987441,
+        "end": null
       }
     ]
   },
@@ -15021,8 +15026,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760976035,
-        "end": null,
+        "end": 1760987441,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760987441,
+        "end": null
       }
     ]
   },
@@ -17129,11 +17139,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759777825,
-        "end": 1759782028
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759782028,
@@ -20532,8 +20537,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1760984426,
-        "end": null,
+        "end": 1760987441,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1760987441,
+        "end": null
       }
     ]
   },
@@ -21113,11 +21123,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1759777825,
-        "end": 1759781427
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1759781427,
@@ -24548,11 +24553,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759777825,
-        "end": 1759782028
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759782028,
         "end": 1759783221,
@@ -25637,19 +25637,19 @@
       {
         "status": "[China] - Returning",
         "start": 1760977223,
-        "end": null,
+        "end": 1760987441,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760987441,
+        "end": null
       }
     ]
   },
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759777238,
-        "end": 1759791027
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1759791027,
@@ -27744,7 +27744,13 @@
       {
         "status": "Available",
         "start": 1760914236,
-        "end": null
+        "end": 1760987441
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760987441,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33947,8 +33953,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1760986220,
-        "end": null,
+        "end": 1760987441,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760987441,
+        "end": null
       }
     ]
   },
@@ -36214,6 +36225,11 @@
       {
         "status": "Available",
         "start": 1760982026,
+        "end": 1760987441
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1760987441,
         "end": null
       }
     ]
@@ -39041,12 +39057,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1759777238,
-        "end": 1759784452,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1759784452,
