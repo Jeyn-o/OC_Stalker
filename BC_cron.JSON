@@ -9860,7 +9860,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1760970628,
-        "end": null
+        "end": 1760971228
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1760971228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16210,7 +16216,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1760968842,
-        "end": null
+        "end": 1760971228
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760971228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18507,19 +18519,19 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760959835,
-        "end": null,
+        "end": 1760971228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760971228,
+        "end": null
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759761027,
-        "end": 1759761624
-      },
       {
         "status": "[China] - Going",
         "start": 1759761624,
@@ -23775,12 +23787,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759761027,
-        "end": 1759773027,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759773027,
