@@ -3212,7 +3212,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760944831,
-        "end": null
+        "end": 1760950544
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760950544,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4424,12 +4430,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759740625,
-        "end": 1759753222,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759753222,
@@ -21011,8 +21011,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1760941232,
-        "end": null,
+        "end": 1760950544,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760950544,
+        "end": null
       }
     ]
   },
@@ -24371,7 +24376,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1760922040,
-        "end": null
+        "end": 1760950544
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1760950544,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37990,6 +38001,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1760949457,
+        "end": 1760950544
+      },
+      {
+        "status": "Available",
+        "start": 1760950544,
         "end": null
       }
     ]
