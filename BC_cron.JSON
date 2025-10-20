@@ -2498,12 +2498,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759744825,
-        "end": 1759751427,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759751427,
         "end": 1759752029
@@ -5321,6 +5315,11 @@
       {
         "status": "Available",
         "start": 1760785829,
+        "end": 1760954862
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1760954862,
         "end": null
       }
     ]
@@ -13369,6 +13368,11 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1760954255,
+        "end": 1760954862
+      },
+      {
+        "status": "[Cayman Islands] Mugged - Revives: ALL",
+        "start": 1760954862,
         "end": null
       }
     ]
@@ -15030,8 +15034,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760943647,
-        "end": null,
+        "end": 1760954862,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760954862,
+        "end": null
       }
     ]
   },
@@ -15184,12 +15193,6 @@
   "3052975": {
     "name": "Pantas",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1759744825,
-        "end": 1759752029,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1759752029,
@@ -18445,6 +18448,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760953361,
+        "end": 1760954862
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1760954862,
         "end": null
       }
     ]
@@ -21018,11 +21026,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759744825,
-        "end": 1759746023
-      },
       {
         "status": "[Canada] - Going",
         "start": 1759746023,
@@ -25553,12 +25556,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1759744825,
-        "end": 1759752029,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1759752029,
@@ -30409,7 +30406,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760954255,
-        "end": null
+        "end": 1760954862
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1760954862,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33880,12 +33883,6 @@
     "name": "quicsilver25",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1759744825,
-        "end": 1759746624,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1759746624,
         "end": 1759767624
@@ -36608,7 +36605,13 @@
       {
         "status": "Available",
         "start": 1760912430,
-        "end": null
+        "end": 1760954862
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1760954862,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
