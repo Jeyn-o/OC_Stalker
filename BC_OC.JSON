@@ -42229,7 +42229,7 @@
   "945748": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": 1761015029,
+    "ready_at": 1761101429,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -42239,6 +42239,13 @@
         "position": "Enforcer",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 68,
+        "position": "Muscle",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -42252,6 +42259,16 @@
         "position": "Enforcer",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1760937631,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 68,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   },
@@ -42712,5 +42729,21 @@
         "item_available": true
       }
     ]
+  },
+  "951255": {
+    "name": "Gaslight the Way",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "951256": {
+    "name": "Leave No Trace",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
   }
 }
