@@ -1314,6 +1314,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760964622,
+        "end": 1760971823,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1760971823,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -2168,8 +2174,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1760965239,
-        "end": null,
+        "end": 1760971823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1760971823,
+        "end": null
       }
     ]
   },
@@ -7663,19 +7674,19 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1760968842,
-        "end": null,
+        "end": 1760971823,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1760971823,
+        "end": null
       }
     ]
   },
   "2389431": {
     "name": "LSEdmond",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1759761624,
-        "end": 1759764639
-      },
       {
         "status": "[China] - Returning",
         "start": 1759764639,
@@ -11101,7 +11112,13 @@
       {
         "status": "Available",
         "start": 1760969431,
-        "end": null
+        "end": 1760971823
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760971823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18532,12 +18549,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1759761624,
-        "end": 1759764639,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Idle",
         "start": 1759764639,
@@ -36279,6 +36290,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760968232,
+        "end": 1760971823
+      },
+      {
+        "status": "Available",
+        "start": 1760971823,
         "end": null
       }
     ]
@@ -36720,11 +36736,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1759761624,
-        "end": 1759764028
-      },
       {
         "status": "Available",
         "start": 1759764028,
@@ -40032,7 +40043,13 @@
       {
         "status": "Available",
         "start": 1760942430,
-        "end": null
+        "end": 1760971823
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1760971823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -42373,11 +42390,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1759761624,
-        "end": 1759770041
-      },
       {
         "status": "Available",
         "start": 1759770041,
