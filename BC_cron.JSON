@@ -2497,12 +2497,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759728629,
-        "end": 1759735226,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759735226,
         "end": 1759737636
@@ -3211,7 +3205,13 @@
       {
         "status": "Available",
         "start": 1760923231,
-        "end": null
+        "end": 1760938831
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1760938831,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9153,11 +9153,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1759728629,
-        "end": 1759729223
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1759729223,
@@ -20582,6 +20577,11 @@
       {
         "status": "Available",
         "start": 1760686831,
+        "end": 1760938831
+      },
+      {
+        "status": "[Hospital] Event - Revives: Partial",
+        "start": 1760938831,
         "end": null
       }
     ]
@@ -23621,7 +23621,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1760936442,
-        "end": null
+        "end": 1760938831
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760938831,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34788,11 +34794,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1759728629,
-        "end": 1759729223
-      },
-      {
         "status": "Available",
         "start": 1759729223,
         "end": 1759729822
@@ -42155,6 +42156,11 @@
       {
         "status": "Available",
         "start": 1760927436,
+        "end": 1760938831
+      },
+      {
+        "status": "[Hospital] Event - Revives: Partial",
+        "start": 1760938831,
         "end": null
       }
     ]
