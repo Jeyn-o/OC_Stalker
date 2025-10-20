@@ -1326,6 +1326,11 @@
       {
         "status": "Available",
         "start": 1760977833,
+        "end": 1760990445
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1760990445,
         "end": null
       }
     ]
@@ -7678,7 +7683,13 @@
       {
         "status": "[China] - Idle",
         "start": 1760989833,
-        "end": null
+        "end": 1760990445
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1760990445,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -12414,8 +12425,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1760983828,
-        "end": null,
+        "end": 1760990445,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760990445,
+        "end": null
       }
     ]
   },
@@ -15051,12 +15067,6 @@
   "3026725": {
     "name": "Neodork",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1759780225,
-        "end": 1759785625,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Idle",
         "start": 1759785625,
@@ -22435,7 +22445,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1760989833,
-        "end": null
+        "end": 1760990445
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1760990445,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28539,11 +28555,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1759780225,
-        "end": 1759791628
-      },
-      {
         "status": "[Argentina] Mugged - Revives: ALL",
         "start": 1759791628,
         "end": 1759792220
@@ -31439,8 +31450,13 @@
       {
         "status": "[China] - Returning",
         "start": 1760980228,
-        "end": null,
+        "end": 1760990445,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1760990445,
+        "end": null
       }
     ]
   },
@@ -33966,6 +33982,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1760988628,
+        "end": 1760990445,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1760990445,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33974,11 +33996,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1759780225,
-        "end": 1759782028
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759782028,
@@ -36238,6 +36255,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760988628,
+        "end": 1760990445,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1760990445,
         "end": null,
         "travel_type": "airstrip"
       }
