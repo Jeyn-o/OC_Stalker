@@ -5389,11 +5389,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759798225,
-        "end": 1759798836
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1759798836,
         "end": 1759801223
@@ -8996,8 +8991,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1761001237,
-        "end": null,
+        "end": 1761008441,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761008441,
+        "end": null
       }
     ]
   },
@@ -15026,7 +15026,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760999441,
-        "end": null
+        "end": 1761008441
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1761008441,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18482,8 +18488,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761002429,
-        "end": null,
+        "end": 1761008441,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1761008441,
+        "end": null
       }
     ]
   },
@@ -25597,12 +25608,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1759798225,
-        "end": 1759805430,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759805430,
         "end": 1759806037
@@ -27219,7 +27224,13 @@
       {
         "status": "Available",
         "start": 1760986839,
-        "end": null
+        "end": 1761008441
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1761008441,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31343,12 +31354,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759798225,
-        "end": 1759799424,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1759799424,
         "end": 1759800019
@@ -34738,18 +34743,19 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761006637,
-        "end": null
+        "end": 1761008441
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1761008441,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759798225,
-        "end": 1759810222
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1759810222,
@@ -36563,12 +36569,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759798225,
-        "end": 1759804822,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759804822,
