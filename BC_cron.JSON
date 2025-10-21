@@ -2526,12 +2526,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1759826427,
-        "end": 1759833630,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759833630,
         "end": 1759834225
@@ -4352,7 +4346,13 @@
       {
         "status": "Available",
         "start": 1761036033,
-        "end": null
+        "end": 1761036630
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761036630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5209,11 +5209,6 @@
   "2250222": {
     "name": "Ronskip",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1759826427,
-        "end": 1759828828
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1759828828,
@@ -12393,11 +12388,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759826427,
-        "end": 1759827642
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759827642,
@@ -22599,11 +22589,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759826427,
-        "end": 1759828224
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759828224,
         "end": 1759834839,
@@ -25600,7 +25585,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761034830,
-        "end": null
+        "end": 1761036630
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761036630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31358,8 +31349,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1761035443,
-        "end": null,
+        "end": 1761036630,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761036630,
+        "end": null
       }
     ]
   },
