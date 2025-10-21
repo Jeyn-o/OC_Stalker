@@ -3733,11 +3733,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759835426,
-        "end": 1759884027
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1759884027,
         "end": 1759896033,
@@ -17090,12 +17085,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1759835426,
-        "end": 1759846822,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759846822,
         "end": 1759853448
@@ -21108,7 +21097,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761044440,
-        "end": null
+        "end": 1761045640
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761045640,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23779,8 +23774,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1761040231,
-        "end": null,
+        "end": 1761045640,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1761045640,
+        "end": null
       }
     ]
   },
@@ -28029,6 +28029,11 @@
       {
         "status": "[China] - Idle",
         "start": 1761044440,
+        "end": 1761045640
+      },
+      {
+        "status": "[China] Lost - Revives: ALL",
+        "start": 1761045640,
         "end": null
       }
     ]
@@ -29257,11 +29262,6 @@
   "3628419": {
     "name": "Littlegman212",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759835426,
-        "end": 1759843835
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1759843835,
@@ -34704,11 +34704,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759835426,
-        "end": 1759836031
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1759836031,
         "end": 1759843230
@@ -36118,6 +36113,11 @@
       {
         "status": "Available",
         "start": 1761044440,
+        "end": 1761045640
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1761045640,
         "end": null
       }
     ]
@@ -36536,8 +36536,13 @@
       {
         "status": "[China] - Going",
         "start": 1761036033,
-        "end": null,
+        "end": 1761045640,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1761045640,
+        "end": null
       }
     ]
   },
