@@ -5414,11 +5414,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1759879833,
-        "end": 1759882828
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1759882828,
         "end": 1759884027,
@@ -13244,8 +13239,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1761077429,
-        "end": null,
+        "end": 1761090033,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1761090033,
+        "end": null
       }
     ]
   },
@@ -33764,11 +33764,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759879833,
-        "end": 1759911023
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759911023,
         "end": 1759917631,
@@ -39072,6 +39067,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761089433,
+        "end": 1761090033
+      },
+      {
+        "status": "[United Arab Emirates] Lost - Revives: ALL",
+        "start": 1761090033,
         "end": null
       }
     ]
@@ -41566,7 +41566,13 @@
       {
         "status": "[China] - Idle",
         "start": 1761089433,
-        "end": null
+        "end": 1761090033
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761090033,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -42706,12 +42712,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1759879833,
-        "end": 1759882226,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1759882226,
