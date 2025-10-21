@@ -1334,6 +1334,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1761037240,
+        "end": 1761045029
+      },
+      {
+        "status": "Available",
+        "start": 1761045029,
         "end": null
       }
     ]
@@ -2194,7 +2199,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761042632,
-        "end": null
+        "end": 1761045029
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761045029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3204,12 +3215,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1759834839,
-        "end": 1759846822,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1759846822,
@@ -4730,7 +4735,13 @@
       {
         "status": "Available",
         "start": 1761042632,
-        "end": null
+        "end": 1761045029
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1761045029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9741,12 +9752,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759834839,
-        "end": 1759842030,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759842030,
         "end": 1759849238,
@@ -12379,12 +12384,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759834839,
-        "end": 1759836031,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759836031,
         "end": 1759837227,
@@ -13305,8 +13304,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1761043228,
-        "end": null,
+        "end": 1761045029,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761045029,
+        "end": null
       }
     ]
   },
@@ -17791,7 +17795,13 @@
       {
         "status": "Available",
         "start": 1761015038,
-        "end": null
+        "end": 1761045029
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1761045029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22420,7 +22430,13 @@
       {
         "status": "Available",
         "start": 1761037240,
-        "end": null
+        "end": 1761045029
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761045029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22586,12 +22602,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759834839,
-        "end": 1759841418,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759841418,
@@ -23419,11 +23429,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1759834839,
-        "end": 1759841418
-      },
       {
         "status": "[Hawaii] Mugged - Revives: ALL",
         "start": 1759841418,
@@ -38081,6 +38086,11 @@
       {
         "status": "Available",
         "start": 1761034830,
+        "end": 1761045029
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761045029,
         "end": null
       }
     ]
