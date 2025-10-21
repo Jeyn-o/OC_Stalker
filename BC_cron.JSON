@@ -5426,11 +5426,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759869036,
-        "end": 1759875028
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1759875028,
         "end": 1759876233,
@@ -14236,7 +14231,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1761078636,
-        "end": null
+        "end": 1761079232
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1761079232,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31417,12 +31418,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1759869036,
-        "end": 1759870228,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759870228,
         "end": 1759870829
@@ -41591,8 +41586,13 @@
       {
         "status": "[China] - Going",
         "start": 1761068426,
-        "end": null,
+        "end": 1761079232,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1761079232,
+        "end": null
       }
     ]
   },
