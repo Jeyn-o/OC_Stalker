@@ -7625,8 +7625,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1761058843,
-        "end": null,
+        "end": 1761061837,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1761061837,
+        "end": null
       }
     ]
   },
@@ -17843,6 +17848,11 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1761059481,
+        "end": 1761061837
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1761061837,
         "end": null
       }
     ]
@@ -20581,7 +20591,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761060638,
-        "end": null
+        "end": 1761061837
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761061837,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -24566,12 +24582,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759852222,
-        "end": 1759858824,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759858824,
         "end": 1759865431,
@@ -26745,8 +26755,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1761060638,
-        "end": null,
+        "end": 1761061837,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761061837,
+        "end": null
       }
     ]
   },
@@ -29321,11 +29336,6 @@
     "name": "Littlegman212",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759852222,
-        "end": 1759926627
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1759926627,
         "end": 1759938630,
@@ -30616,11 +30626,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1759852222,
-        "end": 1759852837
-      },
-      {
         "status": "[China] - Returning",
         "start": 1759852837,
         "end": 1759862421,
@@ -31368,12 +31373,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759852222,
-        "end": 1759853448,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759853448,
@@ -34738,11 +34737,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1759852222,
-        "end": 1759854019
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1759854019,
         "end": 1759860628
@@ -36124,12 +36118,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1759852222,
-        "end": 1759854019,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1759854019,
