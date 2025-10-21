@@ -1508,12 +1508,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759863022,
-        "end": 1759869624,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759869624,
         "end": 1759870829
@@ -2196,8 +2190,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761066631,
-        "end": null,
+        "end": 1761073240,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761073240,
+        "end": null
       }
     ]
   },
@@ -5398,11 +5397,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759863022,
-        "end": 1759865431
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1759865431,
@@ -12313,8 +12307,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1761066039,
-        "end": null,
+        "end": 1761073240,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761073240,
+        "end": null
       }
     ]
   },
@@ -14190,6 +14189,12 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1761066039,
+        "end": 1761073240,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1761073240,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14378,6 +14383,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1761071440,
+        "end": 1761073240
+      },
+      {
+        "status": "Available",
+        "start": 1761073240,
         "end": null
       }
     ]
@@ -18578,12 +18588,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1759863634,
-        "end": 1759866029,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1759866029,
         "end": 1759867823
@@ -20560,8 +20564,13 @@
       {
         "status": "[China] - Going",
         "start": 1761069025,
-        "end": null,
+        "end": 1761073240,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1761073240,
+        "end": null
       }
     ]
   },
@@ -27291,17 +27300,6 @@
     "name": "Mr_jeff14574",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1759863022,
-        "end": 1759863634
-      },
-      {
-        "status": "[China] - Returning",
-        "start": 1759863634,
-        "end": 1759873227,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759873227,
         "end": 1759878034
@@ -28584,11 +28582,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759863022,
-        "end": 1759901425
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1759901425,
@@ -31370,12 +31363,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759863022,
-        "end": 1759864220,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759864220,
@@ -43702,7 +43689,13 @@
       {
         "status": "Available",
         "start": 1760988049,
-        "end": null
+        "end": 1761073240
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761073240,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
