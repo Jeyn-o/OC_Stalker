@@ -3753,12 +3753,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759802432,
-        "end": 1759814426,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1759814426,
         "end": 1759822820
@@ -6360,7 +6354,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1761000629,
-        "end": null
+        "end": 1761012040
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1761012040,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -11313,11 +11313,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759802432,
-        "end": 1759803030
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759803030,
@@ -23454,12 +23449,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1759802432,
-        "end": 1759807836,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759807836,
         "end": 1759828828
@@ -23827,12 +23816,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759802432,
-        "end": 1759815030,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759815030,
@@ -37163,6 +37146,11 @@
       {
         "status": "Available",
         "start": 1760902232,
+        "end": 1761012040
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761012040,
         "end": null
       }
     ]
@@ -39012,12 +39000,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1759802432,
-        "end": 1759809640,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1759809640,
         "end": 1759811433,
@@ -39940,7 +39922,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1761011432,
-        "end": null
+        "end": 1761012040
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1761012040,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43436,6 +43424,11 @@
       {
         "status": "Available",
         "start": 1761010832,
+        "end": 1761012040
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1761012040,
         "end": null
       }
     ]
