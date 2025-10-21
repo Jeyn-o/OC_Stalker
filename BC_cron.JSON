@@ -8187,12 +8187,6 @@
     "name": "NeshoNeko",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759815631,
-        "end": 1759822232,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759822232,
         "end": 1759824034
@@ -8344,12 +8338,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1759815631,
-        "end": 1759822820,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1759822820,
@@ -36122,6 +36110,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1761019826,
+        "end": 1761025828
+      },
+      {
+        "status": "Available",
+        "start": 1761025828,
         "end": null
       }
     ]
@@ -37027,6 +37020,11 @@
       {
         "status": "Available",
         "start": 1761013829,
+        "end": 1761025828
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761025828,
         "end": null
       }
     ]
@@ -37942,7 +37940,13 @@
       {
         "status": "Available",
         "start": 1760989229,
-        "end": null
+        "end": 1761025828
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1761025828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38985,11 +38989,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1759815631,
-        "end": 1759816832
-      },
-      {
         "status": "Available",
         "start": 1759816832,
         "end": 1759839623
@@ -39923,7 +39922,13 @@
       {
         "status": "Available",
         "start": 1761021627,
-        "end": null
+        "end": 1761025828
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1761025828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
