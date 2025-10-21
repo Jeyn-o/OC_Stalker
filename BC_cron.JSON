@@ -5406,11 +5406,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759805430,
-        "end": 1759806627
-      },
-      {
         "status": "[United Kingdom] Hospitalized - Revives: ALL",
         "start": 1759806627,
         "end": 1759808425
@@ -20545,7 +20540,13 @@
       {
         "status": "Available",
         "start": 1761004226,
-        "end": null
+        "end": 1761015641
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1761015641,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -22452,11 +22453,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1759805430,
-        "end": 1759806627
-      },
       {
         "status": "Available",
         "start": 1759806627,
@@ -25648,11 +25644,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759805430,
-        "end": 1759806037
-      },
       {
         "status": "[Canada] - Going",
         "start": 1759806037,
@@ -29305,11 +29296,6 @@
     "name": "Littlegman212",
     "activities": [
       {
-        "status": "[Hawaii] - Idle",
-        "start": 1759805430,
-        "end": 1759806627
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1759806627,
         "end": 1759812625,
@@ -31378,12 +31364,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759805430,
-        "end": 1759806627,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759806627,
@@ -33870,8 +33850,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761009028,
-        "end": null,
+        "end": 1761015641,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761015641,
+        "end": null
       }
     ]
   },
@@ -36150,6 +36135,11 @@
       {
         "status": "Available",
         "start": 1761012631,
+        "end": 1761015641
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1761015641,
         "end": null
       }
     ]
