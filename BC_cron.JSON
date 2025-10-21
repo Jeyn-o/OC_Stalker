@@ -4351,6 +4351,11 @@
       {
         "status": "Available",
         "start": 1761049840,
+        "end": 1761050422
+      },
+      {
+        "status": "Jail",
+        "start": 1761050422,
         "end": null
       }
     ]
@@ -8818,11 +8823,6 @@
   "2647214": {
     "name": "Balgor",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759840233,
-        "end": 1760452229
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1760452229,
@@ -13312,7 +13312,13 @@
       {
         "status": "Available",
         "start": 1761045029,
-        "end": null
+        "end": 1761050422
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1761050422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27738,11 +27744,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1759840233,
-        "end": 1759840823
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1759840823,
         "end": 1759853448,
@@ -36529,7 +36530,13 @@
       {
         "status": "[China] - Idle",
         "start": 1761045640,
-        "end": null
+        "end": 1761050422
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761050422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37967,6 +37974,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761043228,
+        "end": 1761050422,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761050422,
         "end": null,
         "travel_type": "airstrip"
       }
