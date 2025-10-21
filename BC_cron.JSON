@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759855819,
-        "end": 1759857025
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1759857025,
         "end": 1759870228,
@@ -4392,12 +4387,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759855819,
-        "end": 1759862421,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759862421,
         "end": 1759906222
@@ -4746,8 +4735,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1761058243,
-        "end": null,
+        "end": 1761065431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761065431,
+        "end": null
       }
     ]
   },
@@ -7621,8 +7615,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1761062435,
-        "end": null,
+        "end": 1761065431,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1761065431,
+        "end": null
       }
     ]
   },
@@ -13836,7 +13835,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1761064833,
-        "end": null
+        "end": 1761065431
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1761065431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18585,11 +18590,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1759855819,
-        "end": 1759857025
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1759857025,
@@ -26760,7 +26760,13 @@
       {
         "status": "Available",
         "start": 1761061837,
-        "end": null
+        "end": 1761065431
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1761065431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28592,12 +28598,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1759855819,
-        "end": 1759863022,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759863022,
@@ -36105,7 +36105,13 @@
       {
         "status": "Available",
         "start": 1761051646,
-        "end": null
+        "end": 1761065431
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1761065431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40178,6 +40184,11 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761063629,
+        "end": 1761065431
+      },
+      {
+        "status": "[Switzerland] Attacked - Revives: ALL",
+        "start": 1761065431,
         "end": null
       }
     ]
@@ -41531,8 +41542,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1761064233,
-        "end": null,
+        "end": 1761065431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761065431,
+        "end": null
       }
     ]
   },
