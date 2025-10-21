@@ -5414,12 +5414,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1759875028,
-        "end": 1759876233,
-        "travel_type": "private"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1759876233,
         "end": 1759877419,
@@ -15274,6 +15268,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1761073832,
+        "end": 1761085234,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1761085234,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -27809,8 +27809,13 @@
       {
         "status": "[China] - Returning",
         "start": 1761075036,
-        "end": null,
+        "end": 1761085234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761085234,
+        "end": null
       }
     ]
   },
@@ -40049,7 +40054,13 @@
       {
         "status": "Available",
         "start": 1761084633,
-        "end": null
+        "end": 1761085234
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1761085234,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41581,6 +41592,11 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1761083433,
+        "end": 1761085234
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1761085234,
         "end": null
       }
     ]
