@@ -1507,11 +1507,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759832429,
-        "end": 1759833030
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759833030,
         "end": 1759839623,
@@ -2205,8 +2200,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761036033,
-        "end": null,
+        "end": 1761042632,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1761042632,
+        "end": null
       }
     ]
   },
@@ -4741,8 +4741,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761030635,
-        "end": null,
+        "end": 1761042632,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761042632,
+        "end": null
       }
     ]
   },
@@ -10242,6 +10247,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761036033,
+        "end": 1761042632,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761042632,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -12385,12 +12396,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759832429,
-        "end": 1759833030,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759833030,
@@ -18529,12 +18534,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759832429,
-        "end": 1759836630,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1759836630,
@@ -34707,12 +34706,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1759832429,
-        "end": 1759834225,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1759834225,
         "end": 1759835426,
@@ -41395,7 +41388,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761041621,
-        "end": null
+        "end": 1761042632
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761042632,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
