@@ -667,8 +667,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1761029427,
-        "end": null,
+        "end": 1761041621,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761041621,
+        "end": null
       }
     ]
   },
@@ -3222,11 +3227,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759831829,
-        "end": 1759834839
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1759834839,
@@ -11036,7 +11036,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761030635,
-        "end": null
+        "end": 1761041621
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761041621,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12379,11 +12385,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1759831829,
-        "end": 1759832429
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759832429,
@@ -20519,7 +20520,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1761033025,
-        "end": null
+        "end": 1761041621
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1761041621,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -23405,6 +23412,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761034830,
+        "end": 1761041621,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761041621,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34689,11 +34702,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759831829,
-        "end": 1759832429
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1759832429,
         "end": 1759834225,
@@ -36110,6 +36118,11 @@
       {
         "status": "Available",
         "start": 1761039626,
+        "end": 1761041621
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1761041621,
         "end": null
       }
     ]
@@ -39017,6 +39030,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761034830,
+        "end": 1761041621,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761041621,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -41365,8 +41384,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761034830,
-        "end": null,
+        "end": 1761041621,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1761041621,
+        "end": null
       }
     ]
   },
