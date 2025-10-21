@@ -727,12 +727,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759821029,
-        "end": 1759827642,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759827642,
         "end": 1759834225,
@@ -3236,11 +3230,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1759821029,
-        "end": 1759822232
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1759822232,
@@ -9021,11 +9010,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759821029,
-        "end": 1759843835
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1759843835,
         "end": 1759856431,
@@ -12409,11 +12393,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759821623,
-        "end": 1759823429
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759823429,
@@ -20543,6 +20522,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1761021032,
+        "end": 1761031231
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: ALL",
+        "start": 1761031231,
         "end": null
       }
     ]
@@ -23800,12 +23784,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1759821029,
-        "end": 1759822232,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1759822232,
@@ -27759,8 +27737,13 @@
       {
         "status": "[China] - Returning",
         "start": 1761021032,
-        "end": null,
+        "end": 1761031231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761031231,
+        "end": null
       }
     ]
   },
@@ -31351,6 +31334,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1761030039,
+        "end": 1761031231,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1761031231,
         "end": null,
         "travel_type": "airstrip"
       }
