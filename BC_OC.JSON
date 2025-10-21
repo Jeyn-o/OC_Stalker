@@ -43195,13 +43195,6 @@
         "position": "Driver",
         "position_number": 1
       },
-      "P3": {
-        "user_id": 1166445,
-        "user_name": "Top",
-        "checkpoint_pass_rate": 63,
-        "position": "Muscle",
-        "position_number": 2
-      },
       "P2": {
         "user_id": 2621654,
         "user_name": "Hstains",
@@ -43216,6 +43209,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": false
+      },
+      "P4": {
+        "user_id": 1166445,
+        "user_name": "Top",
+        "checkpoint_pass_rate": 65,
+        "position": "Hacker",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -43301,6 +43301,26 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1761051648,
+        "action": "left",
+        "slot": "P3",
+        "user_id": 1166445,
+        "user_name": "Top",
+        "checkpoint_pass_rate": 63,
+        "position": "Muscle",
+        "position_number": 2
+      },
+      {
+        "timestamp": 1761051648,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 1166445,
+        "user_name": "Top",
+        "checkpoint_pass_rate": 65,
+        "position": "Hacker",
+        "position_number": 1
       }
     ]
   },
