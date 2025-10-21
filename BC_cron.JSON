@@ -5226,6 +5226,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1761074433,
+        "end": 1761081634,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761081634,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -10156,8 +10162,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761074433,
-        "end": null,
+        "end": 1761081634,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1761081634,
+        "end": null
       }
     ]
   },
@@ -30487,8 +30498,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761069668,
-        "end": null,
+        "end": 1761081634,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761081634,
+        "end": null
       }
     ]
   },
@@ -36084,6 +36100,11 @@
       {
         "status": "Available",
         "start": 1761072029,
+        "end": 1761081634
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1761081634,
         "end": null
       }
     ]
