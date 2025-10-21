@@ -5208,11 +5208,6 @@
     "name": "Ronskip",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759836630,
-        "end": 1759961424
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1759961424,
         "end": 1759962031
@@ -8177,7 +8172,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761039626,
-        "end": null
+        "end": 1761046828
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761046828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18525,11 +18526,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759836630,
-        "end": 1759838437
-      },
-      {
         "status": "[China] - Going",
         "start": 1759838437,
         "end": 1759842030,
@@ -20519,8 +20515,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1761041621,
-        "end": null,
+        "end": 1761046828,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1761046828,
+        "end": null
       }
     ]
   },
@@ -27208,7 +27209,13 @@
       {
         "status": "[China] - Idle",
         "start": 1761019231,
-        "end": null
+        "end": 1761046828
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761046828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28024,6 +28031,11 @@
       {
         "status": "[China] Lost - Revives: ALL",
         "start": 1761045640,
+        "end": 1761046828
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1761046828,
         "end": null
       }
     ]
