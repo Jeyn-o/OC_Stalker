@@ -3237,11 +3237,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[Japan] Lost - Revives: OFF",
-        "start": 1759819822,
-        "end": 1759821029
-      },
-      {
         "status": "[Japan] - Idle",
         "start": 1759821029,
         "end": 1759822232
@@ -8842,12 +8837,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1759819822,
-        "end": 1759827642,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1759827642,
         "end": 1759833030
@@ -13341,8 +13330,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1761017435,
-        "end": null,
+        "end": 1761030039,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761030039,
+        "end": null
       }
     ]
   },
@@ -22606,12 +22600,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759819822,
-        "end": 1759826427,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759826427,
         "end": 1759828224
@@ -31347,7 +31335,13 @@
       {
         "status": "Available",
         "start": 1760990445,
-        "end": null
+        "end": 1761030039
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1761030039,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37998,8 +37992,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1761028229,
-        "end": null,
+        "end": 1761030039,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761030039,
+        "end": null
       }
     ]
   },
@@ -39033,8 +39032,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761023434,
-        "end": null,
+        "end": 1761030039,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1761030039,
+        "end": null
       }
     ]
   },
