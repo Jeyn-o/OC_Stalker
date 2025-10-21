@@ -726,12 +726,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759848030,
-        "end": 1759855224,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759855224,
         "end": 1759900228
@@ -1506,12 +1500,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759848030,
-        "end": 1759854629,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759854629,
@@ -4751,7 +4739,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761056437,
-        "end": null
+        "end": 1761058243
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761058243,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5390,11 +5384,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759848631,
-        "end": 1759849238
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759849238,
@@ -13829,8 +13818,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1761049227,
-        "end": null,
+        "end": 1761058243,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1761058243,
+        "end": null
       }
     ]
   },
@@ -15233,11 +15227,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759848631,
-        "end": 1759866628
-      },
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1759866628,
@@ -18542,17 +18531,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1759848030,
-        "end": 1759848631
-      },
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1759848631,
-        "end": 1759851030,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1759851030,
@@ -22631,12 +22609,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759848631,
-        "end": 1759855224,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759855224,
@@ -31342,12 +31314,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759848030,
-        "end": 1759849238,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759849238,
         "end": 1759850427,
@@ -33834,8 +33800,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1761057631,
-        "end": null,
+        "end": 1761058243,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761058243,
+        "end": null
       }
     ]
   },
@@ -39068,8 +39039,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761051646,
-        "end": null,
+        "end": 1761058243,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761058243,
+        "end": null
       }
     ]
   },
@@ -41466,7 +41442,13 @@
       {
         "status": "Available",
         "start": 1761055835,
-        "end": null
+        "end": 1761058243
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1761058243,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
