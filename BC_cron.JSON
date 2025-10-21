@@ -3231,12 +3231,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1759822232,
-        "end": 1759831829,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759831829,
         "end": 1759834839
@@ -7641,8 +7635,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1761026458,
-        "end": null,
+        "end": 1761031841,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1761031841,
+        "end": null
       }
     ]
   },
@@ -8189,11 +8188,6 @@
     "name": "NeshoNeko",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759822232,
-        "end": 1759824034
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759824034,
         "end": 1759830628,
@@ -8338,7 +8332,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761029427,
-        "end": null
+        "end": 1761031841
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761031841,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13326,7 +13326,13 @@
       {
         "status": "Available",
         "start": 1761030039,
-        "end": null
+        "end": 1761031841
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1761031841,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23413,8 +23419,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761025225,
-        "end": null,
+        "end": 1761031841,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761031841,
+        "end": null
       }
     ]
   },
@@ -23784,11 +23795,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1759822232,
-        "end": 1759822820
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1759822820,
@@ -42439,6 +42445,11 @@
       {
         "status": "Available",
         "start": 1760980228,
+        "end": 1761031841
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: Partial",
+        "start": 1761031841,
         "end": null
       }
     ]
