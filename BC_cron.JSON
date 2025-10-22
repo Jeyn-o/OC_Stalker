@@ -1513,12 +1513,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759932626,
-        "end": 1759939234,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759939234,
         "end": 1759943426
@@ -15208,12 +15202,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759932626,
-        "end": 1759939234,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759939234,
         "end": 1759948228
@@ -16171,19 +16159,19 @@
       {
         "status": "Available",
         "start": 1761108035,
-        "end": null
+        "end": 1761142238
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1761142238,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1759932626,
-        "end": 1759939817,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1759939817,
@@ -18532,7 +18520,13 @@
       {
         "status": "Available",
         "start": 1761124830,
-        "end": null
+        "end": 1761142238
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1761142238,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20510,7 +20504,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761135036,
-        "end": null
+        "end": 1761142238
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761142238,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -29514,12 +29514,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759932626,
-        "end": 1759939234,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759939234,
@@ -41489,8 +41483,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1761141033,
-        "end": null,
+        "end": 1761142238,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1761142238,
+        "end": null
       }
     ]
   },
