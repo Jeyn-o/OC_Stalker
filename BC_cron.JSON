@@ -7498,8 +7498,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1761153629,
-        "end": null,
+        "end": 1761161439,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761161439,
+        "end": null
       }
     ]
   },
@@ -14167,7 +14172,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1761160832,
-        "end": null
+        "end": 1761161439
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1761161439,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17750,8 +17761,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761150028,
-        "end": null,
+        "end": 1761161439,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761161439,
+        "end": null
       }
     ]
   },
@@ -30461,12 +30477,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759951824,
-        "end": 1759958429,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759958429,
         "end": 1759992627
@@ -31214,12 +31224,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759951824,
-        "end": 1759953026,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759953026,
@@ -37691,8 +37695,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1761160224,
-        "end": null,
+        "end": 1761161439,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1761161439,
+        "end": null
       }
     ]
   },
@@ -43762,6 +43771,12 @@
       {
         "status": "[China] - Going",
         "start": 1761151231,
+        "end": 1761161439,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761161439,
         "end": null,
         "travel_type": "airstrip"
       }
