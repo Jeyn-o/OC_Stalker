@@ -9598,11 +9598,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759942226,
-        "end": 1759951219
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759951219,
         "end": 1759957234,
@@ -14191,6 +14186,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1761150636,
+        "end": 1761152449,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1761152449,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -16212,20 +16213,19 @@
       {
         "status": "[China] - Going",
         "start": 1761142238,
-        "end": null,
+        "end": 1761152449,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1761152449,
+        "end": null
       }
     ]
   },
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1759942226,
-        "end": 1759949426,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759949426,
@@ -22690,11 +22690,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759942226,
-        "end": 1759942841
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759942841,
         "end": 1759949426,
@@ -28058,11 +28053,6 @@
     "name": "GoldenVirginia",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759942226,
-        "end": 1760029235
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1760029235,
         "end": 1760035821,
@@ -31255,6 +31245,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1761151823,
+        "end": 1761152449
+      },
+      {
+        "status": "Available",
+        "start": 1761152449,
         "end": null
       }
     ]
@@ -31262,12 +31257,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759942226,
-        "end": 1759943426,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759943426,
