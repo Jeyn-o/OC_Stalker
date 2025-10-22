@@ -5409,12 +5409,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759890028,
-        "end": 1759890632,
-        "travel_type": "private"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1759890632,
         "end": 1759891223
@@ -6265,7 +6259,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761096027,
-        "end": null
+        "end": 1761100237
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761100237,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -41489,8 +41489,13 @@
       {
         "status": "[China] - Returning",
         "start": 1761090033,
-        "end": null,
+        "end": 1761100237,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761100237,
+        "end": null
       }
     ]
   },
