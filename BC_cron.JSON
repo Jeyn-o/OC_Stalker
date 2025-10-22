@@ -5409,11 +5409,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1759887033,
-        "end": 1759888226
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759888226,
         "end": 1759889423,
@@ -8885,11 +8880,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759887628,
-        "end": 1759897834
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1759897834,
         "end": 1759910430,
@@ -10988,12 +10978,6 @@
     "name": "Haungpeary",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1759887628,
-        "end": 1759898425,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759898425,
         "end": 1759929628
@@ -11234,12 +11218,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1759887628,
-        "end": 1759888830,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1759888830,
@@ -15261,8 +15239,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761085234,
-        "end": null,
+        "end": 1761097258,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761097258,
+        "end": null
       }
     ]
   },
@@ -17135,12 +17118,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1759887033,
-        "end": 1759898425,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759898425,
         "end": 1759921824
@@ -17840,7 +17817,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761091832,
-        "end": null
+        "end": 1761097258
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1761097258,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22510,11 +22493,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759887628,
-        "end": 1759930820
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1759930820,
@@ -31348,12 +31326,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1759887033,
-        "end": 1759888226,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759888226,
         "end": 1759889423,
@@ -34614,7 +34586,13 @@
       {
         "status": "Available",
         "start": 1761096634,
-        "end": null
+        "end": 1761097258
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1761097258,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39990,6 +39968,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1761085234,
+        "end": 1761097258,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1761097258,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -43723,7 +43707,13 @@
       {
         "status": "Available",
         "start": 1761087639,
-        "end": null
+        "end": 1761097258
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1761097258,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
