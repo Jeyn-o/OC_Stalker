@@ -731,12 +731,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1759908632,
-        "end": 1759915831,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759915831,
         "end": 1759922421,
@@ -2196,7 +2190,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761118230,
-        "end": null
+        "end": 1761118839
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761118839,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3688,8 +3688,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1761105638,
-        "end": null,
+        "end": 1761118839,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1761118839,
+        "end": null
       }
     ]
   },
@@ -3728,11 +3733,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759909221,
-        "end": 1759910430
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1759910430,
@@ -6334,11 +6334,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1759909221,
-        "end": 1759926627
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1759926627,
@@ -21206,12 +21201,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1759908632,
-        "end": 1759919433,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1759919433,
         "end": 1759931429,
@@ -22683,12 +22672,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759908632,
-        "end": 1759915222,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1759915222,
@@ -26730,12 +26713,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1759908632,
-        "end": 1759918829,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759918829,
         "end": 1759929028
@@ -28535,17 +28512,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1759908632,
-        "end": 1759909221
-      },
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1759909221,
-        "end": 1759915831,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759915831,
@@ -38996,7 +38962,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761118230,
-        "end": null
+        "end": 1761118839
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761118839,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
