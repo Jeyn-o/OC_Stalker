@@ -43190,7 +43190,7 @@
   "951255": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1761329806,
+    "ready_at": 1761416206,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -43215,6 +43215,14 @@
         "position": "Imitator",
         "position_number": 2,
         "item_available": true
+      },
+      "P5": {
+        "user_id": 2920790,
+        "user_name": "Shimmer12",
+        "checkpoint_pass_rate": 87,
+        "position": "Imitator",
+        "position_number": 3,
+        "item_available": false
       }
     },
     "action_log": [
@@ -43249,6 +43257,17 @@
         "position": "Imitator",
         "position_number": 2,
         "item_available": true
+      },
+      {
+        "timestamp": 1761093634,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2920790,
+        "user_name": "Shimmer12",
+        "checkpoint_pass_rate": 87,
+        "position": "Imitator",
+        "position_number": 3,
+        "item_available": false
       }
     ]
   },
@@ -43657,8 +43676,8 @@
   },
   "953503": {
     "name": "Best of the Lot",
-    "status": "Recruiting",
-    "ready_at": 1761319620,
+    "status": "Planning",
+    "ready_at": 1761406020,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -43682,6 +43701,14 @@
         "position": "Picklock",
         "position_number": 1,
         "item_available": true
+      },
+      "P4": {
+        "user_id": 3178876,
+        "user_name": "Khallie",
+        "checkpoint_pass_rate": 81,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -43715,6 +43742,17 @@
         "position": "Picklock",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1761093634,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3178876,
+        "user_name": "Khallie",
+        "checkpoint_pass_rate": 81,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -43731,19 +43769,21 @@
     "status": "Recruiting",
     "ready_at": 1761155533,
     "executed_at": null,
-    "slots": {
-      "P3": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1761069670,
+        "action": "joined",
+        "slot": "P3",
         "user_id": 3178876,
         "user_name": "Khallie",
         "checkpoint_pass_rate": 75,
         "position": "Lookout",
         "position_number": 1
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1761069670,
-        "action": "joined",
+        "timestamp": 1761093634,
+        "action": "left",
         "slot": "P3",
         "user_id": 3178876,
         "user_name": "Khallie",
