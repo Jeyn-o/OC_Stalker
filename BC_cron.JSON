@@ -22525,6 +22525,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1761128426,
+        "end": 1761130234,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1761130234,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -24518,12 +24524,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759920028,
-        "end": 1759926627,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759926627,
         "end": 1759933232,
@@ -25565,7 +25565,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761129633,
-        "end": null
+        "end": 1761130234
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761130234,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27248,8 +27254,13 @@
       {
         "status": "[China] - Going",
         "start": 1761120035,
-        "end": null,
+        "end": 1761130234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1761130234,
+        "end": null
       }
     ]
   },
@@ -29238,8 +29249,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1761123646,
-        "end": null,
+        "end": 1761130234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761130234,
+        "end": null
       }
     ]
   },
@@ -31275,6 +31291,12 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1761122432,
+        "end": 1761130234,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1761130234,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34515,12 +34537,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1759920028,
-        "end": 1759921824,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1759921824,
@@ -37941,6 +37957,11 @@
       {
         "status": "Available",
         "start": 1761046236,
+        "end": 1761130234
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1761130234,
         "end": null
       }
     ]
