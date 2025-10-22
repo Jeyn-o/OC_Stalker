@@ -3188,6 +3188,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: Partial",
         "start": 1761167433,
+        "end": 1761169825
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1761169825,
         "end": null
       }
     ]
@@ -5187,7 +5192,13 @@
       {
         "status": "[China] - Idle",
         "start": 1761169227,
-        "end": null
+        "end": 1761169825
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761169825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5380,11 +5391,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1759959628,
-        "end": 1759961424
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759961424,
@@ -10860,6 +10866,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761169227,
+        "end": 1761169825
+      },
+      {
+        "status": "[Argentina] Hospitalized - Revives: ALL",
+        "start": 1761169825,
         "end": null
       }
     ]
@@ -15102,8 +15113,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1761163832,
-        "end": null,
+        "end": 1761169825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1761169825,
+        "end": null
       }
     ]
   },
@@ -15211,12 +15227,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1759959628,
-        "end": 1759961424,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1759961424,
@@ -21117,12 +21127,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759959628,
-        "end": 1759960841,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759960841,
