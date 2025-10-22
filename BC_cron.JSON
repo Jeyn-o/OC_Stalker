@@ -677,6 +677,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1761126034,
+        "end": 1761138638,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1761138638,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -3713,12 +3719,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1759929028,
-        "end": 1759941620,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759941620,
         "end": 1759974627
@@ -4731,8 +4731,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1761131430,
-        "end": null,
+        "end": 1761138638,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1761138638,
+        "end": null
       }
     ]
   },
@@ -12278,12 +12283,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1759929028,
-        "end": 1759930237,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759930237,
         "end": 1759939234
@@ -13182,7 +13181,13 @@
       {
         "status": "Available",
         "start": 1761136827,
-        "end": null
+        "end": 1761138638
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761138638,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15145,6 +15150,11 @@
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1761138042,
+        "end": 1761138638
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1761138638,
         "end": null
       }
     ]
@@ -16345,12 +16355,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1759929028,
-        "end": 1759936825,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1759936825,
@@ -22701,12 +22705,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759929028,
-        "end": 1759935635,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759935635,
         "end": 1759936225
@@ -23522,11 +23520,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1759929028,
-        "end": 1759932037
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1759932037,
@@ -26723,12 +26716,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1759929028,
-        "end": 1759939234,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1759939234,
@@ -31295,12 +31282,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1759929028,
-        "end": 1759930237,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759930237,
