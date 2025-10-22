@@ -8070,12 +8070,6 @@
     "name": "NeshoNeko",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1759902625,
-        "end": 1759909827,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1759909827,
         "end": 1759911023
@@ -10971,7 +10965,13 @@
       {
         "status": "Available",
         "start": 1761105638,
-        "end": null
+        "end": 1761112839
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1761112839,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34549,8 +34549,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1761106826,
-        "end": null,
+        "end": 1761112839,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761112839,
+        "end": null
       }
     ]
   },
@@ -37813,7 +37818,13 @@
       {
         "status": "Available",
         "start": 1761076240,
-        "end": null
+        "end": 1761112839
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1761112839,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39921,7 +39932,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1761112232,
-        "end": null
+        "end": 1761112839
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1761112839,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43736,6 +43753,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1761105638,
+        "end": 1761112839,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761112839,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -43807,6 +43830,11 @@
       {
         "status": "Available",
         "start": 1760926841,
+        "end": 1761112839
+      },
+      {
+        "status": "[Hospital] Lost - Revives: OFF",
+        "start": 1761112839,
         "end": null
       }
     ]
