@@ -1518,12 +1518,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759905623,
-        "end": 1759911629,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1759911629,
         "end": 1759912234
@@ -8242,12 +8236,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1759905623,
-        "end": 1759915222,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1759915222,
@@ -25564,6 +25552,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1761108035,
+        "end": 1761115234,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761115234,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31301,7 +31295,13 @@
       {
         "status": "Available",
         "start": 1761084042,
-        "end": null
+        "end": 1761115234
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1761115234,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41485,8 +41485,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761108633,
-        "end": null,
+        "end": 1761115234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761115234,
+        "end": null
       }
     ]
   },
