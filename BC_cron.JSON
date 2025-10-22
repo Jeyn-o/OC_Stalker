@@ -3218,12 +3218,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759952427,
-        "end": 1759953632,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759953632,
         "end": 1759954829,
@@ -4736,6 +4730,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761160832,
+        "end": 1761162628
+      },
+      {
+        "status": "Available",
+        "start": 1761162628,
         "end": null
       }
     ]
@@ -16349,11 +16348,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759952427,
-        "end": 1759955425
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1759955425,
         "end": 1759968625,
@@ -27770,8 +27764,13 @@
       {
         "status": "[China] - Going",
         "start": 1761153030,
-        "end": null,
+        "end": 1761162628,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1761162628,
+        "end": null
       }
     ]
   },
