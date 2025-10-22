@@ -1333,8 +1333,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1761150028,
-        "end": null,
+        "end": 1761157230,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761157230,
+        "end": null
       }
     ]
   },
@@ -12224,12 +12229,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1759947024,
-        "end": 1759954829,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759954829,
         "end": 1759955425
@@ -20533,8 +20532,13 @@
       {
         "status": "[China] - Going",
         "start": 1761153030,
-        "end": null,
+        "end": 1761157230,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1761157230,
+        "end": null
       }
     ]
   },
@@ -25502,8 +25506,13 @@
       {
         "status": "[China] - Returning",
         "start": 1761147038,
-        "end": null,
+        "end": 1761157230,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761157230,
+        "end": null
       }
     ]
   },
@@ -31204,12 +31213,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1759947024,
-        "end": 1759948228,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759948228,
@@ -37656,7 +37659,13 @@
       {
         "status": "Available",
         "start": 1761156630,
-        "end": null
+        "end": 1761157230
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1761157230,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
