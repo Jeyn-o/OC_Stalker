@@ -11219,11 +11219,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759894818,
-        "end": 1759919433
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1759919433,
         "end": 1759926627,
@@ -12278,7 +12273,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1761103249,
-        "end": null
+        "end": 1761104432
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1761104432,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20505,7 +20506,13 @@
       {
         "status": "Available",
         "start": 1761102044,
-        "end": null
+        "end": 1761104432
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1761104432,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -20724,11 +20731,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1759894818,
-        "end": 1759895429
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1759895429,
@@ -22628,12 +22630,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759894228,
-        "end": 1759900823,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759900823,
         "end": 1759908028,
@@ -23459,11 +23455,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759894228,
-        "end": 1759896630
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1759896630,
@@ -27219,8 +27210,13 @@
       {
         "status": "[China] - Returning",
         "start": 1761094846,
-        "end": null,
+        "end": 1761104432,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761104432,
+        "end": null
       }
     ]
   },
@@ -31282,12 +31278,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1759894818,
-        "end": 1759896033,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1759896033,
         "end": 1759897217,
@@ -34537,17 +34527,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1759894228,
-        "end": 1759894818
-      },
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1759894818,
-        "end": 1759896033,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1759896033,
         "end": 1759897834,
@@ -36812,6 +36791,11 @@
       {
         "status": "Available",
         "start": 1761028229,
+        "end": 1761104432
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1761104432,
         "end": null
       }
     ]
