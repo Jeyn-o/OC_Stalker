@@ -5410,11 +5410,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1759898425,
-        "end": 1759900228
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759900228,
         "end": 1759900823,
@@ -10976,11 +10971,6 @@
   "2730718": {
     "name": "Haungpeary",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759898425,
-        "end": 1759929628
-      },
       {
         "status": "[China] - Going",
         "start": 1759929628,
@@ -17100,11 +17090,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759898425,
-        "end": 1759921824
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1759921824,
         "end": 1759929628,
@@ -17804,8 +17789,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761097258,
-        "end": null,
+        "end": 1761108633,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761108633,
+        "end": null
       }
     ]
   },
@@ -29593,11 +29583,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759899020,
-        "end": 1759904419
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1759904419,
         "end": 1759911629,
@@ -31316,12 +31301,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1759898425,
-        "end": 1759899630,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1759899630,
@@ -34560,12 +34539,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1759898425,
-        "end": 1759899630,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759899630,
         "end": 1759902022
@@ -35947,6 +35920,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761105638,
+        "end": 1761108633
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1761108633,
         "end": null
       }
     ]
@@ -39906,8 +39884,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761097258,
-        "end": null,
+        "end": 1761108633,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761108633,
+        "end": null
       }
     ]
   },
@@ -41476,7 +41459,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761108035,
-        "end": null
+        "end": 1761108633
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761108633,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
