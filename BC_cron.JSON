@@ -726,11 +726,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1759938027,
-        "end": 1759941023
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759941023,
         "end": 1759947629,
@@ -14200,6 +14195,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1761147038,
+        "end": 1761148234,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1761148234,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -23509,11 +23510,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759938027,
-        "end": 1759996833
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1759996833,
         "end": 1760008830,
@@ -24489,12 +24485,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1759938027,
-        "end": 1759944627,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1759944627,
@@ -27248,8 +27238,13 @@
       {
         "status": "[China] - Returning",
         "start": 1761138042,
-        "end": null,
+        "end": 1761148234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761148234,
+        "end": null
       }
     ]
   },
