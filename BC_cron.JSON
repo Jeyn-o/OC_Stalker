@@ -5410,12 +5410,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759897834,
-        "end": 1759898425,
-        "travel_type": "private"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1759898425,
         "end": 1759900228
@@ -8879,12 +8873,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1759897834,
-        "end": 1759910430,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1759910430,
@@ -20543,8 +20531,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1761104432,
-        "end": null,
+        "end": 1761107443,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1761107443,
+        "end": null
       }
     ]
   },
@@ -25555,11 +25548,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759897834,
-        "end": 1759911023
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1759911023,
         "end": 1759917631,
@@ -30396,6 +30384,11 @@
       {
         "status": "[China] - Idle",
         "start": 1761105031,
+        "end": 1761107443
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1761107443,
         "end": null
       }
     ]
@@ -34550,11 +34543,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1759897834,
-        "end": 1759898425
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1759898425,
@@ -38984,12 +38972,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1759897834,
-        "end": 1759904419,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1759904419,
@@ -43631,6 +43613,12 @@
       {
         "status": "[China] - Going",
         "start": 1761097258,
+        "end": 1761107443,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761107443,
         "end": null,
         "travel_type": "airstrip"
       }
