@@ -5409,11 +5409,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1759893628,
-        "end": 1759896033
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759896033,
         "end": 1759896630,
@@ -8234,8 +8229,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1761096027,
-        "end": null,
+        "end": 1761103249,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1761103249,
+        "end": null
       }
     ]
   },
@@ -8710,7 +8710,13 @@
       {
         "status": "Available",
         "start": 1761064833,
-        "end": null
+        "end": 1761103249
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761103249,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11203,12 +11209,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1759893628,
-        "end": 1759894818,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759894818,
         "end": 1759919433
@@ -12262,8 +12262,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1761101424,
-        "end": null,
+        "end": 1761103249,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1761103249,
+        "end": null
       }
     ]
   },
@@ -12280,12 +12285,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759893628,
-        "end": 1759906222,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759906222,
@@ -20702,7 +20701,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761080444,
-        "end": null
+        "end": 1761103249
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761103249,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21121,8 +21126,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1761093632,
-        "end": null,
+        "end": 1761103249,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1761103249,
+        "end": null
       }
     ]
   },
@@ -31256,12 +31266,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759893628,
-        "end": 1759894818,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759894818,
         "end": 1759896033,
@@ -33601,7 +33605,13 @@
       {
         "status": "Available",
         "start": 1761102631,
-        "end": null
+        "end": 1761103249
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761103249,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35903,6 +35913,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1761101424,
+        "end": 1761103249,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1761103249,
         "end": null,
         "travel_type": "airstrip"
       }
