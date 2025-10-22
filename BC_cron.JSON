@@ -1510,7 +1510,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1761132638,
-        "end": null
+        "end": 1761133228
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1761133228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2502,12 +2508,6 @@
   "1766417": {
     "name": "gajeela09",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1759923034,
-        "end": 1759930237,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759930237,
@@ -3673,8 +3673,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1761120637,
-        "end": null,
+        "end": 1761133228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761133228,
+        "end": null
       }
     ]
   },
@@ -3713,11 +3718,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1759923034,
-        "end": 1759929028
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1759929028,
@@ -4323,8 +4323,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1761120637,
-        "end": null,
+        "end": 1761133228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1761133228,
+        "end": null
       }
     ]
   },
@@ -23492,12 +23497,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1759923034,
-        "end": 1759929028,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1759929028,
         "end": 1759932037
@@ -30528,12 +30527,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1759923034,
-        "end": 1759933232,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1759933232,
         "end": 1759934427
@@ -35910,6 +35903,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761132638,
+        "end": 1761133228
+      },
+      {
+        "status": "Available",
+        "start": 1761133228,
         "end": null
       }
     ]
