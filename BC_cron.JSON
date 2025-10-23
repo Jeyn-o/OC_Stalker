@@ -721,11 +721,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1760031032,
-        "end": 1760034022
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1760034022,
         "end": 1760040627,
@@ -7696,8 +7691,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1761234035,
-        "end": null,
+        "end": 1761241227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761241227,
+        "end": null
       }
     ]
   },
@@ -12183,11 +12183,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760031032,
-        "end": 1760036443
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1760036443,
@@ -18630,8 +18625,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761234631,
-        "end": null,
+        "end": 1761241227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1761241227,
+        "end": null
       }
     ]
   },
@@ -35953,7 +35953,13 @@
       {
         "status": "[China] - Idle",
         "start": 1761240636,
-        "end": null
+        "end": 1761241227
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761241227,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
