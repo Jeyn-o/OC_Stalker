@@ -3220,11 +3220,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760007637,
-        "end": 1760008228
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1760008228,
         "end": 1760021638,
@@ -4312,8 +4307,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1761212436,
-        "end": null,
+        "end": 1761217829,
         "travel_type": "private"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1761217829,
+        "end": null
       }
     ]
   },
@@ -22507,8 +22507,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1761210633,
-        "end": null,
+        "end": 1761217829,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761217829,
+        "end": null
       }
     ]
   },
@@ -23764,12 +23769,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1760007637,
-        "end": 1760014841,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760014841,
         "end": 1760016028
@@ -24411,6 +24410,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1761217241,
+        "end": 1761217829
+      },
+      {
+        "status": "Available",
+        "start": 1761217829,
         "end": null
       }
     ]
@@ -30438,12 +30442,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1760007637,
-        "end": 1760017902,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1760017902,
         "end": 1760019618
@@ -36054,11 +36052,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1760007637,
-        "end": 1760008228
-      },
-      {
         "status": "Available",
         "start": 1760008228,
         "end": 1760021638
@@ -41549,8 +41542,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761211237,
-        "end": null,
+        "end": 1761217829,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761217829,
+        "end": null
       }
     ]
   },
@@ -43810,6 +43808,11 @@
       {
         "status": "[China] Attacked - Revives: Partial",
         "start": 1761216027,
+        "end": 1761217829
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1761217829,
         "end": null
       }
     ]
