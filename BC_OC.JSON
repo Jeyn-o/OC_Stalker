@@ -41941,9 +41941,9 @@
   },
   "941865": {
     "name": "Bidding War",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1761217587,
-    "executed_at": null,
+    "executed_at": 1761217624,
     "slots": {
       "P3": {
         "user_id": 3139132,
@@ -44112,7 +44112,7 @@
   "958067": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": 1761297626,
+    "ready_at": 1761384026,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -44122,6 +44122,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 85,
+        "position": "Techie",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -44135,6 +44142,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1761217833,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 85,
+        "position": "Techie",
+        "position_number": 1
       }
     ]
   },
@@ -44148,8 +44165,8 @@
   },
   "958071": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1761372687,
+    "status": "Planning",
+    "ready_at": 1761459087,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -44166,6 +44183,14 @@
         "checkpoint_pass_rate": 72,
         "position": "Muscle",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 76,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": true
       }
     },
     "action_log": [
@@ -44189,6 +44214,17 @@
         "checkpoint_pass_rate": 72,
         "position": "Muscle",
         "position_number": 1
+      },
+      {
+        "timestamp": 1761217833,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 76,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": true
       }
     ]
   }
