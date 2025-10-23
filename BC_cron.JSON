@@ -721,12 +721,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760017224,
-        "end": 1760023853,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760023853,
         "end": 1760024432
@@ -4314,8 +4308,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1761222029,
-        "end": null,
+        "end": 1761227431,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1761227431,
+        "end": null
       }
     ]
   },
@@ -5425,11 +5424,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760017224,
-        "end": 1760022082
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1760022082,
         "end": 1760027429,
@@ -6271,11 +6265,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760017224,
-        "end": 1760019030
-      },
       {
         "status": "[China] - Going",
         "start": 1760019030,
@@ -12218,12 +12207,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1760017224,
-        "end": 1760023853,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1760023853,
         "end": 1760031032,
@@ -13643,8 +13626,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1761225040,
-        "end": null,
+        "end": 1761227431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761227431,
+        "end": null
       }
     ]
   },
@@ -15061,8 +15049,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761215437,
-        "end": null,
+        "end": 1761227431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761227431,
+        "end": null
       }
     ]
   },
@@ -15329,18 +15322,19 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761190239,
-        "end": null
+        "end": 1761227431
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1761227431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760017224,
-        "end": 1760026822
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1760026822,
@@ -20566,6 +20560,12 @@
       {
         "status": "[China] - Going",
         "start": 1761223228,
+        "end": 1761227431,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761227431,
         "end": null,
         "travel_type": "standard"
       }
@@ -21182,6 +21182,11 @@
       {
         "status": "Available",
         "start": 1761199837,
+        "end": 1761227431
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761227431,
         "end": null
       }
     ]
@@ -34206,11 +34211,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: OFF",
-        "start": 1760017224,
-        "end": 1760060423
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760060423,
         "end": 1760064026
@@ -40042,11 +40042,6 @@
     "name": "GrimFury",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760017224,
-        "end": 1760022082
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1760022082,
         "end": 1760033425,
@@ -44094,6 +44089,11 @@
       {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1761226239,
+        "end": 1761227431
+      },
+      {
+        "status": "Available",
+        "start": 1761227431,
         "end": null
       }
     ]
