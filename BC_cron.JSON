@@ -8780,12 +8780,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1760007025,
-        "end": 1760019030,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760019030,
         "end": 1760022699
@@ -14158,6 +14152,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1761210633,
+        "end": 1761217241,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761217241,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -24406,6 +24406,11 @@
       {
         "status": "Available",
         "start": 1761024635,
+        "end": 1761217241
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1761217241,
         "end": null
       }
     ]
@@ -25488,7 +25493,13 @@
       {
         "status": "Available",
         "start": 1761216027,
-        "end": null
+        "end": 1761217241
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1761217241,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30318,7 +30329,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761216027,
-        "end": null
+        "end": 1761217241
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1761217241,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33302,7 +33319,13 @@
       {
         "status": "Available",
         "start": 1761197438,
-        "end": null
+        "end": 1761217241
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1761217241,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35598,7 +35621,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1761216629,
-        "end": null
+        "end": 1761217241
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1761217241,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40047,11 +40076,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760007025,
-        "end": 1760011233
-      },
       {
         "status": "[Canada] - Going",
         "start": 1760011233,
