@@ -4306,7 +4306,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761217829,
-        "end": null
+        "end": 1761222029
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761222029,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -6263,12 +6269,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1760011831,
-        "end": 1760017224,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1760017224,
@@ -13077,6 +13077,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1761220840,
+        "end": 1761222029,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1761222029,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -18573,12 +18579,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1760011831,
-        "end": 1760014841,
-        "travel_type": "standard"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1760014841,
         "end": 1760015419
@@ -20504,8 +20504,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1761216629,
-        "end": null,
+        "end": 1761222029,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1761222029,
+        "end": null
       }
     ]
   },
@@ -20746,11 +20751,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760011831,
-        "end": 1760062825
-      },
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1760062825,
@@ -22646,12 +22646,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760011831,
-        "end": 1760018432,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760018432,
@@ -28012,8 +28006,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1761209437,
-        "end": null,
+        "end": 1761222029,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1761222029,
+        "end": null
       }
     ]
   },
@@ -31191,12 +31190,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1760011831,
-        "end": 1760013025,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1760013025,
@@ -43770,7 +43763,13 @@
       {
         "status": "[China] - Idle",
         "start": 1761217829,
-        "end": null
+        "end": 1761222029
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761222029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
