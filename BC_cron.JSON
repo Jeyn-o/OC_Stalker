@@ -726,11 +726,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760001018,
-        "end": 1760010628
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1760010628,
         "end": 1760017224,
@@ -3636,8 +3631,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1761203431,
-        "end": null,
+        "end": 1761210633,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1761210633,
+        "end": null
       }
     ]
   },
@@ -3676,11 +3676,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760001018,
-        "end": 1760001629
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1760001629,
@@ -7517,12 +7512,6 @@
     "name": "Jeyno",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1760001018,
-        "end": 1760013025,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1760013025,
         "end": 1760026230,
@@ -8191,17 +8180,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1760000438,
-        "end": 1760001018
-      },
-      {
-        "status": "[Canada] - Returning",
-        "start": 1760001018,
-        "end": 1760002829,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760002829,
@@ -14189,7 +14167,13 @@
       {
         "status": "Available",
         "start": 1761208830,
-        "end": null
+        "end": 1761210633
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1761210633,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22537,6 +22521,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1761202842,
+        "end": 1761210633,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761210633,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22694,12 +22684,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1760001018,
-        "end": 1760002829,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760002829,
@@ -27786,12 +27770,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1760001018,
-        "end": 1760013625,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1760013625,
         "end": 1760025066
@@ -31240,12 +31218,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1760001018,
-        "end": 1760008830,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1760008830,
@@ -35636,6 +35608,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1761208830,
+        "end": 1761210633
+      },
+      {
+        "status": "Available",
+        "start": 1761210633,
         "end": null
       }
     ]
@@ -36626,6 +36603,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761208234,
+        "end": 1761210633
+      },
+      {
+        "status": "Available",
+        "start": 1761210633,
         "end": null
       }
     ]
