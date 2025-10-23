@@ -1323,8 +1323,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761211237,
-        "end": null,
+        "end": 1761218425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1761218425,
+        "end": null
       }
     ]
   },
@@ -3219,12 +3224,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1760008228,
-        "end": 1760021638,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1760021638,
@@ -18596,12 +18595,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1760008228,
-        "end": 1760011831,
-        "travel_type": "standard"
-      },
-      {
         "status": "[China] - Going",
         "start": 1760011831,
         "end": 1760014841,
@@ -22513,7 +22506,13 @@
       {
         "status": "Available",
         "start": 1761217829,
-        "end": null
+        "end": 1761218425
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761218425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29560,11 +29559,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760008228,
-        "end": 1760029235
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1760029235,
         "end": 1760035821,
@@ -31205,6 +31199,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1761211237,
+        "end": 1761218425,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761218425,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35624,8 +35624,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1761217241,
-        "end": null,
+        "end": 1761218425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761218425,
+        "end": null
       }
     ]
   },
@@ -36051,11 +36056,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760008228,
-        "end": 1760021638
-      },
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1760021638,
@@ -41548,7 +41548,13 @@
       {
         "status": "Available",
         "start": 1761217829,
-        "end": null
+        "end": 1761218425
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761218425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -44059,6 +44065,11 @@
       {
         "status": "Available",
         "start": 1761114638,
+        "end": 1761218425
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1761218425,
         "end": null
       }
     ]
