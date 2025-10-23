@@ -15297,12 +15297,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1760005835,
-        "end": 1760017224,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760017224,
         "end": 1760026822
@@ -25481,8 +25475,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1761208234,
-        "end": null,
+        "end": 1761216027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761216027,
+        "end": null
       }
     ]
   },
@@ -30306,8 +30305,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1761204637,
-        "end": null,
+        "end": 1761216027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1761216027,
+        "end": null
       }
     ]
   },
@@ -30409,11 +30413,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760005835,
-        "end": 1760007637
-      },
       {
         "status": "[China] - Going",
         "start": 1760007637,
@@ -43775,6 +43774,11 @@
       {
         "status": "[China] - Idle",
         "start": 1761208830,
+        "end": 1761216027
+      },
+      {
+        "status": "[China] Attacked - Revives: Partial",
+        "start": 1761216027,
         "end": null
       }
     ]
