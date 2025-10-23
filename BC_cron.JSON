@@ -1555,12 +1555,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759997423,
-        "end": 1760004032,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1760004032,
         "end": 1760004619
@@ -2195,7 +2189,13 @@
       {
         "status": "Available",
         "start": 1761147637,
-        "end": null
+        "end": 1761207029
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761207029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12209,8 +12209,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1761199837,
-        "end": null,
+        "end": 1761207029,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1761207029,
+        "end": null
       }
     ]
   },
@@ -15016,6 +15021,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761205828,
+        "end": 1761207029
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1761207029,
         "end": null
       }
     ]
@@ -24436,12 +24446,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759997423,
-        "end": 1759998636,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759998636,
         "end": 1759999832,
@@ -25529,12 +25533,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1759997423,
-        "end": 1759998636,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1759998636,
@@ -34230,11 +34228,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1759997423,
-        "end": 1759999220
-      },
       {
         "status": "Available",
         "start": 1759999220,
@@ -43791,6 +43784,11 @@
       {
         "status": "[China] - Idle",
         "start": 1761205231,
+        "end": 1761207029
+      },
+      {
+        "status": "[China] Mugged - Revives: Partial",
+        "start": 1761207029,
         "end": null
       }
     ]
