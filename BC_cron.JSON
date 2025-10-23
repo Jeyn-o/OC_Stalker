@@ -2376,7 +2376,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761246045,
-        "end": null
+        "end": 1761246626
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761246626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8555,8 +8561,13 @@
       {
         "status": "[China] - Returning",
         "start": 1761237039,
-        "end": null,
+        "end": 1761246626,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761246626,
+        "end": null
       }
     ]
   },
@@ -12188,12 +12199,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1760036443,
-        "end": 1760049026,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1760049026,
         "end": 1760067620
@@ -14394,11 +14399,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760036443,
-        "end": 1760088632
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760088632,
@@ -30302,6 +30302,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1761235239,
+        "end": 1761246626,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1761246626,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31178,12 +31184,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1760036443,
-        "end": 1760037621,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1760037621,
@@ -33183,6 +33183,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761240030,
+        "end": 1761246626,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761246626,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37493,8 +37499,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761240030,
-        "end": null,
+        "end": 1761246626,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761246626,
+        "end": null
       }
     ]
   },
@@ -38840,12 +38851,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1760036443,
-        "end": 1760047240,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1760047240,
@@ -42658,11 +42663,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1760036443,
-        "end": 1760037022
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760037022,
