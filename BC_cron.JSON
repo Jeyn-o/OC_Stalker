@@ -2184,7 +2184,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761213642,
-        "end": null
+        "end": 1761215437
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761215437,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9501,11 +9507,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1760005221,
-        "end": 1760006424
-      },
-      {
         "status": "Available",
         "start": 1760006424,
         "end": 1760010025
@@ -10890,8 +10891,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1761208830,
-        "end": null,
+        "end": 1761215437,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1761215437,
+        "end": null
       }
     ]
   },
@@ -15010,7 +15016,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761209437,
-        "end": null
+        "end": 1761215437
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1761215437,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22651,12 +22663,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1760005221,
-        "end": 1760011831,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760011831,
@@ -35580,7 +35586,13 @@
       {
         "status": "Available",
         "start": 1761214827,
-        "end": null
+        "end": 1761215437
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1761215437,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
