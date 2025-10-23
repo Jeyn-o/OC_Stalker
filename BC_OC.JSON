@@ -43215,8 +43215,8 @@
   },
   "950544": {
     "name": "Bidding War",
-    "status": "Recruiting",
-    "ready_at": 1761439936,
+    "status": "Planning",
+    "ready_at": 1761526336,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -43258,6 +43258,13 @@
         "position": "Robber",
         "position_number": 3,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 2250222,
+        "user_name": "Ronskip",
+        "checkpoint_pass_rate": 75,
+        "position": "Driver",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -43315,6 +43322,16 @@
         "position": "Robber",
         "position_number": 3,
         "item_available": true
+      },
+      {
+        "timestamp": 1761226242,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2250222,
+        "user_name": "Ronskip",
+        "checkpoint_pass_rate": 75,
+        "position": "Driver",
+        "position_number": 1
       }
     ]
   },
@@ -44233,8 +44250,8 @@
   },
   "958069": {
     "name": "Sneaky Git Grab",
-    "status": "Recruiting",
-    "ready_at": 1761390624,
+    "status": "Planning",
+    "ready_at": 1761563424,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -44250,6 +44267,22 @@
         "checkpoint_pass_rate": 74,
         "position": "Pickpocket",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 442690,
+        "user_name": "BeardedBenny",
+        "checkpoint_pass_rate": 80,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
+      },
+      "P4": {
+        "user_id": 2154655,
+        "user_name": "Khana",
+        "checkpoint_pass_rate": 78,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -44272,6 +44305,28 @@
         "checkpoint_pass_rate": 74,
         "position": "Pickpocket",
         "position_number": 1
+      },
+      {
+        "timestamp": 1761226242,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 442690,
+        "user_name": "BeardedBenny",
+        "checkpoint_pass_rate": 80,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1761226242,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2154655,
+        "user_name": "Khana",
+        "checkpoint_pass_rate": 78,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
