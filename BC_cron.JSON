@@ -4275,11 +4275,6 @@
     "name": "Khana",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1760041829,
-        "end": 1760044222
-      },
-      {
         "status": "Available",
         "start": 1760044222,
         "end": 1760815840
@@ -5293,11 +5288,6 @@
   "2289809": {
     "name": "Murder_Hobo",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1760041829,
-        "end": 1760070026
-      },
       {
         "status": "Available",
         "start": 1760070026,
@@ -7913,11 +7903,6 @@
     "name": "NeshoNeko",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1760041829,
-        "end": 1760054438
-      },
-      {
         "status": "Available",
         "start": 1760054438,
         "end": 1760074828
@@ -9877,11 +9862,6 @@
   "2680449": {
     "name": "BattlePrincess",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1760041829,
-        "end": 1760058031
-      },
       {
         "status": "Available",
         "start": 1760058031,
@@ -15285,19 +15265,19 @@
       {
         "status": "[South Africa] - Going",
         "start": 1761240030,
-        "end": null,
+        "end": 1761252031,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1761252031,
+        "end": null
       }
     ]
   },
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[Argentina] Mugged - Revives: Partial",
-        "start": 1760041829,
-        "end": 1760044222
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1760044222,
@@ -21157,11 +21137,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1760041829,
-        "end": 1760042428
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760042428,
@@ -29500,12 +29475,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760041829,
-        "end": 1760048429,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760048429,
         "end": 1760064026
@@ -30382,12 +30351,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1760041829,
-        "end": 1760051422,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760051422,
@@ -42124,7 +42087,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761251428,
-        "end": null
+        "end": 1761252031
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761252031,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
