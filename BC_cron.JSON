@@ -3236,12 +3236,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759980633,
-        "end": 1759993824,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1759993824,
         "end": 1759995620
@@ -10902,6 +10896,11 @@
       {
         "status": "Available",
         "start": 1761190239,
+        "end": 1761190832
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1761190832,
         "end": null
       }
     ]
@@ -11123,17 +11122,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1759980633,
-        "end": 1759981224
-      },
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1759981224,
-        "end": 1759981818,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759981818,
@@ -12198,8 +12186,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1761184290,
-        "end": null,
+        "end": 1761190832,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1761190832,
+        "end": null
       }
     ]
   },
@@ -13099,18 +13092,19 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1761178230,
-        "end": null
+        "end": 1761190832
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1761190832,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759981224,
-        "end": 1760009427
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1760009427,
@@ -16315,11 +16309,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759981224,
-        "end": 1759981818
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1759981818,
@@ -33272,6 +33261,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761183631,
+        "end": 1761190832,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761190832,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -36468,8 +36463,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1761178230,
-        "end": null,
+        "end": 1761190832,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761190832,
+        "end": null
       }
     ]
   },
