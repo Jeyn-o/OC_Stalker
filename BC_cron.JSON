@@ -726,12 +726,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1759987227,
-        "end": 1759993824,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1759993824,
         "end": 1760001018,
@@ -1329,7 +1323,13 @@
       {
         "status": "Available",
         "start": 1761157230,
-        "end": null
+        "end": 1761197438
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761197438,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3682,11 +3682,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1759987227,
-        "end": 1759989029
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1759989029,
         "end": 1760001018,
@@ -4291,8 +4286,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1761184840,
-        "end": null,
+        "end": 1761197438,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1761197438,
+        "end": null
       }
     ]
   },
@@ -7727,8 +7727,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1761184840,
-        "end": null,
+        "end": 1761197438,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761197438,
+        "end": null
       }
     ]
   },
@@ -15265,12 +15270,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1759987227,
-        "end": 1759999220,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1759999220,
         "end": 1760005835
@@ -18562,12 +18561,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1759987227,
-        "end": 1759990829,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1759990829,
@@ -26732,11 +26725,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1759987227,
-        "end": 1760024432
-      },
-      {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1760024432,
         "end": 1760026822
@@ -29308,7 +29296,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761186027,
-        "end": null
+        "end": 1761197438
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761197438,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33362,8 +33356,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761190832,
-        "end": null,
+        "end": 1761197438,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761197438,
+        "end": null
       }
     ]
   },
@@ -38927,11 +38926,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1759987227,
-        "end": 1759988431
-      },
-      {
         "status": "Available",
         "start": 1759988431,
         "end": 1759990226
@@ -41540,6 +41534,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761190239,
+        "end": 1761197438,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761197438,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -43924,8 +43924,13 @@
       {
         "status": "[China] - Going",
         "start": 1761187230,
-        "end": null,
+        "end": 1761197438,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1761197438,
+        "end": null
       }
     ]
   },
