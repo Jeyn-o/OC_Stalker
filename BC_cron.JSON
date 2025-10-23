@@ -3682,12 +3682,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1759989029,
-        "end": 1760001018,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760001018,
         "end": 1760001629
@@ -4344,12 +4338,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1759989625,
-        "end": 1760001629,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1760001629,
@@ -6270,12 +6258,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759989029,
-        "end": 1759994426,
-        "travel_type": "standard"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1759994426,
         "end": 1760011831
@@ -7733,7 +7715,13 @@
       {
         "status": "Available",
         "start": 1761197438,
-        "end": null
+        "end": 1761199242
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1761199242,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10907,7 +10895,13 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1761190832,
-        "end": null
+        "end": 1761199242
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1761199242,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12221,11 +12215,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759989029,
-        "end": 1759990226
-      },
       {
         "status": "[Japan] - Going",
         "start": 1759990226,
@@ -15144,7 +15133,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1761169825,
-        "end": null
+        "end": 1761199242
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1761199242,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17053,7 +17048,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761198633,
-        "end": null
+        "end": 1761199242
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761199242,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20736,11 +20737,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759989625,
-        "end": 1759994426
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1759994426,
         "end": 1760001629,
@@ -21138,11 +21134,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759989625,
-        "end": 1759990226
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1759990226,
@@ -23775,16 +23766,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759989029,
-        "end": 1759989625
-      },
-      {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1759989625,
-        "end": 1759991432
-      },
       {
         "status": "Available",
         "start": 1759991432,
@@ -34235,8 +34216,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1761187230,
-        "end": null,
+        "end": 1761199242,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761199242,
+        "end": null
       }
     ]
   },
@@ -35668,6 +35654,11 @@
       {
         "status": "Available",
         "start": 1761198633,
+        "end": 1761199242
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1761199242,
         "end": null
       }
     ]
@@ -37644,7 +37635,13 @@
       {
         "status": "Available",
         "start": 1761164435,
-        "end": null
+        "end": 1761199242
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1761199242,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
