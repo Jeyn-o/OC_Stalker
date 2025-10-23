@@ -8167,12 +8167,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1759988431,
-        "end": 1759998028,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1759998028,
         "end": 1759998636
@@ -12204,8 +12198,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1761192038,
-        "end": null,
+        "end": 1761198633,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761198633,
+        "end": null
       }
     ]
   },
@@ -17048,8 +17047,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1761191427,
-        "end": null,
+        "end": 1761198633,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1761198633,
+        "end": null
       }
     ]
   },
@@ -24387,6 +24391,11 @@
       {
         "status": "[South Africa] Mugged - Revives: Partial",
         "start": 1761196234,
+        "end": 1761198633
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1761198633,
         "end": null
       }
     ]
@@ -35654,6 +35663,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1761195027,
+        "end": 1761198633
+      },
+      {
+        "status": "Available",
+        "start": 1761198633,
         "end": null
       }
     ]
@@ -38920,11 +38934,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759988431,
-        "end": 1759990226
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1759990226,
