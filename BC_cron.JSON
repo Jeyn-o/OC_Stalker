@@ -721,12 +721,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760034022,
-        "end": 1760040627,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760040627,
         "end": 1760067620
@@ -5396,11 +5390,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760034022,
-        "end": 1760035231
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1760035231,
         "end": 1760040033,
@@ -7911,11 +7900,6 @@
     "name": "frkn",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760034022,
-        "end": 1760770225
-      },
-      {
         "status": "Jail",
         "start": 1760770225,
         "end": 1760772629
@@ -9137,6 +9121,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1761243030,
+        "end": 1761244232
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: ALL",
+        "start": 1761244232,
         "end": null
       }
     ]
@@ -10829,6 +10818,11 @@
       {
         "status": "[Argentina] Hospitalized - Revives: ALL",
         "start": 1761243030,
+        "end": 1761244232
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1761244232,
         "end": null
       }
     ]
@@ -20539,8 +20533,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1761238841,
-        "end": null,
+        "end": 1761244232,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1761244232,
+        "end": null
       }
     ]
   },
@@ -26643,12 +26642,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1760034022,
-        "end": 1760044222,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760044222,
         "end": 1760070026
@@ -29273,11 +29266,6 @@
   "3628419": {
     "name": "Littlegman212",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760034022,
-        "end": 1760069424
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1760069424,
@@ -39947,11 +39935,6 @@
     "name": "GrimFury",
     "activities": [
       {
-        "status": "[United Arab Emirates] Lost - Revives: OFF",
-        "start": 1760034022,
-        "end": 1760035231
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760035231,
         "end": 1760046627,
@@ -42159,7 +42142,13 @@
       {
         "status": "Available",
         "start": 1761238841,
-        "end": null
+        "end": 1761244232
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761244232,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
