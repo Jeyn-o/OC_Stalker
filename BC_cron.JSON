@@ -11047,11 +11047,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1760041220,
-        "end": 1760046627
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1760046627,
         "end": 1760059224,
@@ -14150,11 +14145,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760041220,
-        "end": 1760049026
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760049026,
         "end": 1760049620
@@ -16238,8 +16228,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1761238238,
-        "end": null,
+        "end": 1761250828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761250828,
+        "end": null
       }
     ]
   },
@@ -17074,12 +17069,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1760041220,
-        "end": 1760052024,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760052024,
@@ -18589,19 +18578,19 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761243631,
-        "end": null,
+        "end": 1761250828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761250828,
+        "end": null
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760041220,
-        "end": 1760046627
-      },
       {
         "status": "[China] - Going",
         "start": 1760046627,
@@ -20496,8 +20485,13 @@
       {
         "status": "[China] - Going",
         "start": 1761246045,
-        "end": null,
+        "end": 1761250828,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1761250828,
+        "end": null
       }
     ]
   },
@@ -24303,6 +24297,11 @@
       {
         "status": "[South Africa] Mugged - Revives: Partial",
         "start": 1761248433,
+        "end": 1761250828
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1761250828,
         "end": null
       }
     ]
@@ -25453,7 +25452,13 @@
       {
         "status": "Available",
         "start": 1761234631,
-        "end": null
+        "end": 1761250828
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1761250828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31128,12 +31133,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1760041220,
-        "end": 1760042428,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1760042428,
@@ -37446,8 +37445,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1761250243,
-        "end": null,
+        "end": 1761250828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761250828,
+        "end": null
       }
     ]
   },
