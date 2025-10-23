@@ -1542,6 +1542,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761183029,
+        "end": 1761183631
+      },
+      {
+        "status": "Available",
+        "start": 1761183631,
         "end": null
       }
     ]
@@ -5418,12 +5423,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1759973428,
-        "end": 1759974627,
-        "travel_type": "private"
-      },
-      {
         "status": "[Cayman Islands] - Idle",
         "start": 1759974627,
         "end": 1760016028
@@ -7700,8 +7699,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1761171037,
-        "end": null,
+        "end": 1761183631,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1761183631,
+        "end": null
       }
     ]
   },
@@ -10871,7 +10875,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761182428,
-        "end": null
+        "end": 1761183631
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761183631,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15243,11 +15253,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1759973428,
-        "end": 1759974627
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1759974627,
         "end": 1759976417,
@@ -18546,11 +18551,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759973428,
-        "end": 1759974627
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1759974627,
@@ -29232,6 +29232,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761175234,
+        "end": 1761183631
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: ALL",
+        "start": 1761183631,
         "end": null
       }
     ]
@@ -29538,12 +29543,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1759974021,
-        "end": 1759983621,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1759983621,
@@ -31203,12 +31202,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1759973428,
-        "end": 1759974627,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759974627,
@@ -33336,7 +33329,13 @@
       {
         "status": "Available",
         "start": 1761175234,
-        "end": null
+        "end": 1761183631
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761183631,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39809,7 +39808,13 @@
       {
         "status": "Available",
         "start": 1761183029,
-        "end": null
+        "end": 1761183631
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1761183631,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
