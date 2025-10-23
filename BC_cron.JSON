@@ -667,6 +667,12 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1761232831,
+        "end": 1761244831,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1761244831,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -9253,6 +9259,11 @@
       {
         "status": "Available",
         "start": 1761147637,
+        "end": 1761244831
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1761244831,
         "end": null
       }
     ]
@@ -18633,12 +18644,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1760034635,
-        "end": 1760037621,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Returning",
         "start": 1760037621,
@@ -29244,7 +29249,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761214827,
-        "end": null
+        "end": 1761244831
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761244831,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31185,12 +31196,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1760034635,
-        "end": 1760035821,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760035821,
@@ -38845,7 +38850,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761243030,
-        "end": null
+        "end": 1761244831
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1761244831,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
