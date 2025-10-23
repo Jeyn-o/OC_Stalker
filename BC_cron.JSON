@@ -726,12 +726,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1759993824,
-        "end": 1760001018,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760001018,
         "end": 1760010628
@@ -3231,11 +3225,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1759993824,
-        "end": 1759995620
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1759995620,
         "end": 1760007637,
@@ -3642,7 +3631,13 @@
       {
         "status": "Available",
         "start": 1761133228,
-        "end": null
+        "end": 1761203431
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1761203431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7759,6 +7754,11 @@
       {
         "status": "Available",
         "start": 1760419219,
+        "end": 1761203431
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1761203431,
         "end": null
       }
     ]
@@ -13093,8 +13093,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1761190832,
-        "end": null,
+        "end": 1761203431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761203431,
+        "end": null
       }
     ]
   },
@@ -35645,6 +35650,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1761199242,
+        "end": 1761203431
+      },
+      {
+        "status": "Available",
+        "start": 1761203431,
         "end": null
       }
     ]
@@ -37637,8 +37647,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1761201635,
-        "end": null,
+        "end": 1761203431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761203431,
+        "end": null
       }
     ]
   },
@@ -38926,18 +38941,19 @@
       {
         "status": "Available",
         "start": 1761199837,
-        "end": null
+        "end": 1761203431
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761203431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1759993824,
-        "end": 1759995027
-      },
       {
         "status": "Available",
         "start": 1759995027,
