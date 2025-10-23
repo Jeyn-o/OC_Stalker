@@ -1537,6 +1537,11 @@
       {
         "status": "Available",
         "start": 1761174034,
+        "end": 1761183029
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1761183029,
         "end": null
       }
     ]
@@ -7414,8 +7419,13 @@
       {
         "status": "[China] - Going",
         "start": 1761178230,
-        "end": null,
+        "end": 1761183029,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1761183029,
+        "end": null
       }
     ]
   },
@@ -27199,7 +27209,13 @@
       {
         "status": "[China] - Idle",
         "start": 1761159032,
-        "end": null
+        "end": 1761183029
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761183029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31175,6 +31191,11 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1761181242,
+        "end": 1761183029
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1761183029,
         "end": null
       }
     ]
@@ -31182,11 +31203,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759972825,
-        "end": 1759973428
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1759973428,
@@ -37730,6 +37746,11 @@
       {
         "status": "Available",
         "start": 1761132028,
+        "end": 1761183029
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761183029,
         "end": null
       }
     ]
@@ -38859,12 +38880,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1759972825,
-        "end": 1759980027,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1759980027,
         "end": 1759987227,
@@ -39788,8 +39803,13 @@
       {
         "status": "[China] - Returning",
         "start": 1761172824,
-        "end": null,
+        "end": 1761183029,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761183029,
+        "end": null
       }
     ]
   },
