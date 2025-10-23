@@ -43419,9 +43419,9 @@
   },
   "951256": {
     "name": "Leave No Trace",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1761202434,
-    "executed_at": null,
+    "executed_at": 1761202445,
     "slots": {
       "P3": {
         "user_id": 3476243,
@@ -44009,7 +44009,7 @@
   "958066": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": 1761280404,
+    "ready_at": 1761366804,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -44019,6 +44019,14 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 78,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -44032,6 +44040,17 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1761202844,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 78,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
