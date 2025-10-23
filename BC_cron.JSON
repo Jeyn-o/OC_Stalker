@@ -9506,12 +9506,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1760010025,
-        "end": 1760016635,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1760016635,
         "end": 1760023343,
@@ -24324,7 +24318,13 @@
       {
         "status": "Available",
         "start": 1761214227,
-        "end": null
+        "end": 1761220231
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1761220231,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25487,12 +25487,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1760010025,
-        "end": 1760017902,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1760017902,
@@ -31187,12 +31181,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1760010025,
-        "end": 1760011233,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760011233,
         "end": 1760011831
@@ -33297,11 +33285,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760010025,
-        "end": 1760017902
-      },
       {
         "status": "[Japan] - Going",
         "start": 1760017902,
@@ -43957,8 +43940,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1761213029,
-        "end": null,
+        "end": 1761220231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1761220231,
+        "end": null
       }
     ]
   },
