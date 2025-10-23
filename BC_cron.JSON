@@ -2360,7 +2360,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1761171037,
-        "end": null
+        "end": 1761181828
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1761181828,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -12147,6 +12153,11 @@
       {
         "status": "Available",
         "start": 1761178829,
+        "end": 1761181828
+      },
+      {
+        "status": "Jail",
+        "start": 1761181828,
         "end": null
       }
     ]
@@ -36016,8 +36027,13 @@
       {
         "status": "[China] - Returning",
         "start": 1761171628,
-        "end": null,
+        "end": 1761181828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761181828,
+        "end": null
       }
     ]
   },
