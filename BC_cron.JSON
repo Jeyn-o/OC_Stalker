@@ -1329,7 +1329,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761218425,
-        "end": null
+        "end": 1761224440
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761224440,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4367,11 +4373,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760014228,
-        "end": 1760019030
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1760019030,
         "end": 1760026230,
@@ -4758,7 +4759,13 @@
       {
         "status": "Available",
         "start": 1761223228,
-        "end": null
+        "end": 1761224440
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1761224440,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8212,12 +8219,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1760014228,
-        "end": 1760023853,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760023853,
@@ -14201,6 +14202,12 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1761217241,
+        "end": 1761224440,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1761224440,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -18625,8 +18632,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761213642,
-        "end": null,
+        "end": 1761224440,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761224440,
+        "end": null
       }
     ]
   },
@@ -31252,12 +31264,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1760014228,
-        "end": 1760015419,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1760015419,
         "end": 1760016635,
@@ -33331,8 +33337,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1761217241,
-        "end": null,
+        "end": 1761224440,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1761224440,
+        "end": null
       }
     ]
   },
