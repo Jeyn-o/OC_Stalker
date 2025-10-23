@@ -726,12 +726,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1760010628,
-        "end": 1760017224,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1760017224,
         "end": 1760023853,
@@ -1560,11 +1554,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760011233,
-        "end": 1760017902
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1760017902,
@@ -13072,7 +13061,13 @@
       {
         "status": "Available",
         "start": 1761203431,
-        "end": null
+        "end": 1761220840
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1761220840,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14340,12 +14335,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1760011233,
-        "end": 1760022082,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760022082,
@@ -25480,7 +25469,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1761219035,
-        "end": null
+        "end": 1761220840
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1761220840,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31181,11 +31176,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760011233,
-        "end": 1760011831
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1760011831,
         "end": 1760013025,
@@ -34143,11 +34133,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760010628,
-        "end": 1760012425
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1760012425,
@@ -40031,12 +40016,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1760011233,
-        "end": 1760013025,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1760013025,
         "end": 1760014841,
@@ -43946,6 +43925,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761220231,
+        "end": 1761220840
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: Partial",
+        "start": 1761220840,
         "end": null
       }
     ]
