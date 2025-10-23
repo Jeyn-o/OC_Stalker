@@ -687,11 +687,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1760052629,
-        "end": 1760058627
-      },
-      {
         "status": "Available",
         "start": 1760058627,
         "end": 1760266220
@@ -5304,16 +5299,6 @@
     "name": "Special-Needs",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: Partial",
-        "start": 1760052629,
-        "end": 1760053219
-      },
-      {
-        "status": "Available",
-        "start": 1760053219,
-        "end": 1760463030
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1760463030,
         "end": 1760464222,
@@ -5370,11 +5355,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1760053219,
-        "end": 1760054438
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1760054438,
@@ -15240,11 +15220,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760052629,
-        "end": 1760055027
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1760055027,
         "end": 1760066419,
@@ -17001,12 +16976,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1760052629,
-        "end": 1760064026,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760064026,
         "end": 1760075422,
@@ -17682,12 +17651,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760053219,
-        "end": 1760059827,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760059827,
@@ -23635,12 +23598,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1760053219,
-        "end": 1760064631,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760064631,
         "end": 1760067024
@@ -27084,12 +27041,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1760053219,
-        "end": 1760060423,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760060423,
@@ -35312,6 +35263,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1761259828,
+        "end": 1761262829
+      },
+      {
+        "status": "Available",
+        "start": 1761262829,
         "end": null
       }
     ]
@@ -43836,8 +43792,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1761256235,
-        "end": null,
+        "end": 1761262829,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761262829,
+        "end": null
       }
     ]
   },
