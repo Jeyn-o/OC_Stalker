@@ -43955,19 +43955,21 @@
     "status": "Recruiting",
     "ready_at": 1761297229,
     "executed_at": null,
-    "slots": {
-      "P4": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1761211241,
+        "action": "joined",
+        "slot": "P4",
         "user_id": 446596,
         "user_name": "Bucki",
         "checkpoint_pass_rate": 58,
         "position": "Hacker",
         "position_number": 1
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1761211241,
-        "action": "joined",
+        "timestamp": 1761234037,
+        "action": "left",
         "slot": "P4",
         "user_id": 446596,
         "user_name": "Bucki",
@@ -44525,10 +44527,31 @@
   "960845": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1761320195,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 446596,
+        "user_name": "Bucki",
+        "checkpoint_pass_rate": 62,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1761234037,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 446596,
+        "user_name": "Bucki",
+        "checkpoint_pass_rate": 62,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "960855": {
     "name": "Guardian Ángels",
