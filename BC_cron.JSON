@@ -8763,12 +8763,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1759990829,
-        "end": 1760004032,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1760004032,
         "end": 1760007025
@@ -9343,11 +9337,6 @@
   "2675301": {
     "name": "ExiledAstronaut",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1759990829,
-        "end": 1759991432
-      },
       {
         "status": "Available",
         "start": 1759991432,
@@ -18572,11 +18561,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759990829,
-        "end": 1760004619
-      },
-      {
         "status": "[China] - Going",
         "start": 1760004619,
         "end": 1760008228,
@@ -24392,7 +24376,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1761198633,
-        "end": null
+        "end": 1761201037
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1761201037,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28549,12 +28539,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1759990829,
-        "end": 1759998028,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1759998028,
@@ -34262,11 +34246,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1759990829,
-        "end": 1759992031
-      },
-      {
         "status": "Available",
         "start": 1759992031,
         "end": 1759993235
@@ -37667,8 +37646,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1761199242,
-        "end": null,
+        "end": 1761201037,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1761201037,
+        "end": null
       }
     ]
   },
