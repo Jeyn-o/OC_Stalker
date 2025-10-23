@@ -7776,6 +7776,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1761225040,
+        "end": 1761225632
+      },
+      {
+        "status": "Available",
+        "start": 1761225632,
         "end": null
       }
     ]
@@ -13133,6 +13138,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1761223833,
+        "end": 1761225632,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1761225632,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31275,8 +31286,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1761218425,
-        "end": null,
+        "end": 1761225632,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761225632,
+        "end": null
       }
     ]
   },
@@ -41557,7 +41573,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761225040,
-        "end": null
+        "end": 1761225632
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761225632,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
