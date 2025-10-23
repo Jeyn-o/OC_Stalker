@@ -4747,7 +4747,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761231637,
-        "end": null
+        "end": 1761232234
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761232234,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5232,6 +5238,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1761221425,
+        "end": 1761232234,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1761232234,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -5421,12 +5433,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1760022082,
-        "end": 1760027429,
-        "travel_type": "private"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1760027429,
@@ -9248,6 +9254,11 @@
       {
         "status": "Jail",
         "start": 1761222632,
+        "end": 1761232234
+      },
+      {
+        "status": "Available",
+        "start": 1761232234,
         "end": null
       }
     ]
@@ -12187,7 +12198,13 @@
       {
         "status": "Available",
         "start": 1761229837,
-        "end": null
+        "end": 1761232234
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1761232234,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14195,7 +14212,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761231637,
-        "end": null
+        "end": 1761232234
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761232234,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14400,11 +14423,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1760022082,
-        "end": 1760025635
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760025635,
@@ -20564,8 +20582,13 @@
       {
         "status": "[China] - Returning",
         "start": 1761227431,
-        "end": null,
+        "end": 1761232234,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1761232234,
+        "end": null
       }
     ]
   },
@@ -40010,12 +40033,6 @@
     "name": "GrimFury",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1760022082,
-        "end": 1760033425,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760033425,
         "end": 1760034022
@@ -42204,7 +42221,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761231637,
-        "end": null
+        "end": 1761232234
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761232234,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43772,6 +43795,12 @@
       {
         "status": "[China] - Returning",
         "start": 1761222029,
+        "end": 1761232234,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761232234,
         "end": null,
         "travel_type": "airstrip"
       }
