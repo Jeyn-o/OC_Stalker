@@ -8187,11 +8187,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759998028,
-        "end": 1759998636
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1759998636,
         "end": 1760000438,
@@ -8659,7 +8654,13 @@
       {
         "status": "Available",
         "start": 1761142833,
-        "end": null
+        "end": 1761208234
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1761208234,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20537,6 +20538,11 @@
       {
         "status": "[South Africa] Mugged - Revives: ALL",
         "start": 1761205828,
+        "end": 1761208234
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1761208234,
         "end": null
       }
     ]
@@ -22679,11 +22685,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "Available",
-        "start": 1759998028,
-        "end": 1759999220
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1759999220,
         "end": 1760001018,
@@ -23794,12 +23795,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1759998028,
-        "end": 1760004619,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1760004619,
@@ -25530,6 +25525,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1761200431,
+        "end": 1761208234,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761208234,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -28528,11 +28529,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1759998028,
-        "end": 1760001629
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1760001629,
         "end": 1760008830,
@@ -29290,7 +29286,13 @@
       {
         "status": "Available",
         "start": 1761204637,
-        "end": null
+        "end": 1761208234
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1761208234,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29586,12 +29588,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1759998028,
-        "end": 1760008228,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760008228,
@@ -35643,6 +35639,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1761204637,
+        "end": 1761208234
+      },
+      {
+        "status": "Available",
+        "start": 1761208234,
         "end": null
       }
     ]
@@ -36628,6 +36629,11 @@
       {
         "status": "Available",
         "start": 1761013829,
+        "end": 1761208234
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761208234,
         "end": null
       }
     ]
@@ -43948,8 +43954,13 @@
       {
         "status": "[China] - Returning",
         "start": 1761198033,
-        "end": null,
+        "end": 1761208234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761208234,
+        "end": null
       }
     ]
   },
