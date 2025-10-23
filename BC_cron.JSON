@@ -4286,7 +4286,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1761197438,
-        "end": null
+        "end": 1761202228
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1761202228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9343,11 +9349,6 @@
     "name": "ExiledAstronaut",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1759992031,
-        "end": 1759996224
-      },
-      {
         "status": "Available",
         "start": 1759996224,
         "end": 1760080225
@@ -14144,6 +14145,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1761195027,
+        "end": 1761202228,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761202228,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22632,12 +22639,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1759992031,
-        "end": 1759993235,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1759993235,
         "end": 1759994426,
@@ -27786,8 +27787,13 @@
       {
         "status": "[China] - Returning",
         "start": 1761192038,
-        "end": null,
+        "end": 1761202228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761202228,
+        "end": null
       }
     ]
   },
@@ -34241,11 +34247,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1759992031,
-        "end": 1759993235
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1759993235,
