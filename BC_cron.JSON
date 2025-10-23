@@ -1322,6 +1322,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761197438,
+        "end": 1761204038,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761204038,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -6263,11 +6269,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1759994426,
-        "end": 1760011831
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1760011831,
@@ -20744,12 +20745,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1759994426,
-        "end": 1760001629,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1760001629,
         "end": 1760004619
@@ -22650,12 +22645,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1759994426,
-        "end": 1759996224,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1759996224,
         "end": 1759998028,
@@ -23778,11 +23767,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1759994426,
-        "end": 1759995027
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1759995027,
@@ -25544,11 +25528,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1759994426,
-        "end": 1759996833
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1759996833,
@@ -41549,8 +41528,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761197438,
-        "end": null,
+        "end": 1761204038,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761204038,
+        "end": null
       }
     ]
   },
