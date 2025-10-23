@@ -43484,8 +43484,8 @@
   },
   "953178": {
     "name": "Clinical Precision",
-    "status": "Recruiting",
-    "ready_at": 1761385103,
+    "status": "Planning",
+    "ready_at": 1761471503,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -43508,6 +43508,14 @@
         "user_name": "---GHOST---",
         "checkpoint_pass_rate": 60,
         "position": "Assassin",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 2408196,
+        "user_name": "iam3vaj",
+        "checkpoint_pass_rate": 71,
+        "position": "Cleaner",
         "position_number": 1,
         "item_available": true
       }
@@ -43542,6 +43550,17 @@
         "user_name": "---GHOST---",
         "checkpoint_pass_rate": 60,
         "position": "Assassin",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1761222033,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2408196,
+        "user_name": "iam3vaj",
+        "checkpoint_pass_rate": 71,
+        "position": "Cleaner",
         "position_number": 1,
         "item_available": true
       }
@@ -44177,7 +44196,7 @@
   "958069": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": 1761304224,
+    "ready_at": 1761390624,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -44185,6 +44204,13 @@
         "user_name": "Semykreen",
         "checkpoint_pass_rate": 75,
         "position": "Imitator",
+        "position_number": 1
+      },
+      "P2": {
+        "user_id": 3116621,
+        "user_name": "BBCliff",
+        "checkpoint_pass_rate": 74,
+        "position": "Pickpocket",
         "position_number": 1
       }
     },
@@ -44197,6 +44223,16 @@
         "user_name": "Semykreen",
         "checkpoint_pass_rate": 75,
         "position": "Imitator",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1761222033,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3116621,
+        "user_name": "BBCliff",
+        "checkpoint_pass_rate": 74,
+        "position": "Pickpocket",
         "position_number": 1
       }
     ]
