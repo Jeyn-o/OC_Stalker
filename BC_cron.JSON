@@ -18545,11 +18545,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1759982437,
-        "end": 1759987227
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1759987227,
         "end": 1759990829,
@@ -21104,7 +21099,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761188439,
-        "end": null
+        "end": 1761192633
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761192633,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22457,8 +22458,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761181242,
-        "end": null,
+        "end": 1761192633,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761192633,
+        "end": null
       }
     ]
   },
@@ -27187,8 +27193,13 @@
       {
         "status": "[China] - Returning",
         "start": 1761183029,
-        "end": null,
+        "end": 1761192633,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761192633,
+        "end": null
       }
     ]
   },
@@ -38847,6 +38858,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761186027,
+        "end": 1761192633,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761192633,
         "end": null,
         "travel_type": "airstrip"
       }
