@@ -12050,12 +12050,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1760113223,
-        "end": 1760113831,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1760113831,
         "end": 1760115029
@@ -14303,6 +14297,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1761319234,
+        "end": 1761323437
+      },
+      {
+        "status": "Available",
+        "start": 1761323437,
         "end": null
       }
     ]
@@ -17078,12 +17077,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1760113223,
-        "end": 1760124630,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760124630,
@@ -20509,7 +20502,13 @@
       {
         "status": "[China] - Idle",
         "start": 1761319830,
-        "end": null
+        "end": 1761323437
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761323437,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -28403,11 +28402,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760113223,
-        "end": 1760148626
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1760148626,
         "end": 1760150430,
@@ -33773,7 +33767,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761322233,
-        "end": null
+        "end": 1761323437
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761323437,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35212,6 +35212,11 @@
       {
         "status": "Available",
         "start": 1761319830,
+        "end": 1761323437
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1761323437,
         "end": null
       }
     ]
