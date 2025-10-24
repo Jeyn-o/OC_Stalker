@@ -1272,6 +1272,11 @@
       {
         "status": "Available",
         "start": 1761300045,
+        "end": 1761348635
+      },
+      {
+        "status": "Jail",
+        "start": 1761348635,
         "end": null
       }
     ]
@@ -7145,7 +7150,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1761348028,
-        "end": null
+        "end": 1761348635
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1761348635,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -10938,17 +10949,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1760138420,
-        "end": 1760139025
-      },
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1760139025,
-        "end": 1760146226,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760146226,
         "end": 1760149220
@@ -12010,7 +12010,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761348028,
-        "end": null
+        "end": 1761348635
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761348635,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12027,12 +12033,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1760139025,
-        "end": 1760151634,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1760151634,
@@ -15289,12 +15289,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1760139025,
-        "end": 1760150430,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760150430,
         "end": 1760151634
@@ -16214,7 +16208,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761345631,
-        "end": null
+        "end": 1761348635
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761348635,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17707,6 +17707,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1761337236,
+        "end": 1761348635,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1761348635,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -24292,11 +24298,6 @@
     "name": "Jordanw1",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760139025,
-        "end": 1760196624
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1760196624,
         "end": 1760203828,
@@ -25445,8 +25446,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1761347430,
-        "end": null,
+        "end": 1761348635,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761348635,
+        "end": null
       }
     ]
   },
@@ -35187,11 +35193,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760138420,
-        "end": 1760186424
-      },
-      {
         "status": "[China] - Going",
         "start": 1760186424,
         "end": 1760197220,
@@ -37453,11 +37454,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760138420,
-        "end": 1760141417
-      },
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1760141417,
@@ -42541,11 +42537,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760139025,
-        "end": 1760146226
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1760146226,
