@@ -1269,11 +1269,6 @@
     "name": "poik9",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1760130032,
-        "end": 1760130626
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1760130626,
         "end": 1760137821,
@@ -5332,12 +5327,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1760129430,
-        "end": 1760134828,
-        "travel_type": "private"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1760134828,
         "end": 1760137231
@@ -8547,12 +8536,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1760129430,
-        "end": 1760141417,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1760141417,
@@ -22516,7 +22499,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761335430,
-        "end": null
+        "end": 1761339643
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761339643,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23723,12 +23712,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1760129430,
-        "end": 1760142026,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1760142026,
@@ -25400,8 +25383,13 @@
       {
         "status": "[China] - Returning",
         "start": 1761329425,
-        "end": null,
+        "end": 1761339643,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761339643,
+        "end": null
       }
     ]
   },
@@ -32851,8 +32839,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1761338427,
-        "end": null,
+        "end": 1761339643,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761339643,
+        "end": null
       }
     ]
   },
@@ -39544,8 +39537,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761328225,
-        "end": null,
+        "end": 1761339643,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761339643,
+        "end": null
       }
     ]
   },
@@ -43784,8 +43782,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1761337836,
-        "end": null,
+        "end": 1761339643,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761339643,
+        "end": null
       }
     ]
   },
