@@ -18596,12 +18596,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1760132425,
-        "end": 1760136616,
-        "travel_type": "standard"
-      },
-      {
         "status": "[China] - Returning",
         "start": 1760136616,
         "end": 1760141417,
@@ -24292,12 +24286,6 @@
   "3447443": {
     "name": "Jordanw1",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760132425,
-        "end": 1760139025,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760139025,
@@ -30954,7 +30942,13 @@
       {
         "status": "[China] - Idle",
         "start": 1761342030,
-        "end": null
+        "end": 1761342629
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761342629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33722,6 +33716,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1761335430,
+        "end": 1761342629,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761342629,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -41226,8 +41226,13 @@
       {
         "status": "[China] - Returning",
         "start": 1761332441,
-        "end": null,
+        "end": 1761342629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761342629,
+        "end": null
       }
     ]
   },
@@ -42528,12 +42533,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760132425,
-        "end": 1760139025,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760139025,
