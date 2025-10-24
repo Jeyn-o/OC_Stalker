@@ -43953,9 +43953,17 @@
   "953314": {
     "name": "Ace in the Hole",
     "status": "Recruiting",
-    "ready_at": 1761297229,
+    "ready_at": 1761419622,
     "executed_at": null,
-    "slots": {},
+    "slots": {
+      "P4": {
+        "user_id": 2671608,
+        "user_name": "AlfieG",
+        "checkpoint_pass_rate": 55,
+        "position": "Hacker",
+        "position_number": 1
+      }
+    },
     "action_log": [
       {
         "timestamp": 1761211241,
@@ -43974,6 +43982,16 @@
         "user_id": 446596,
         "user_name": "Bucki",
         "checkpoint_pass_rate": 58,
+        "position": "Hacker",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1761333634,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2671608,
+        "user_name": "AlfieG",
+        "checkpoint_pass_rate": 55,
         "position": "Hacker",
         "position_number": 1
       }
@@ -44856,9 +44874,18 @@
   "960855": {
     "name": "Guardian Ángels",
     "status": "Recruiting",
-    "ready_at": 1761351567,
+    "ready_at": 1761419914,
     "executed_at": null,
-    "slots": {},
+    "slots": {
+      "P3": {
+        "user_id": 2778055,
+        "user_name": "MrPorkenstien",
+        "checkpoint_pass_rate": 82,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
     "action_log": [
       {
         "timestamp": 1761265233,
@@ -44879,6 +44906,17 @@
         "checkpoint_pass_rate": 83,
         "position": "Hustler",
         "position_number": 1
+      },
+      {
+        "timestamp": 1761333634,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2778055,
+        "user_name": "MrPorkenstien",
+        "checkpoint_pass_rate": 82,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
