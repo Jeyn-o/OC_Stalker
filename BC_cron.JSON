@@ -12017,6 +12017,11 @@
       {
         "status": "Jail",
         "start": 1761328841,
+        "end": 1761329425
+      },
+      {
+        "status": "Available",
+        "start": 1761329425,
         "end": null
       }
     ]
@@ -24368,8 +24373,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1761322233,
-        "end": null,
+        "end": 1761329425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761329425,
+        "end": null
       }
     ]
   },
@@ -25422,7 +25432,13 @@
       {
         "status": "[China] - Idle",
         "start": 1761328841,
-        "end": null
+        "end": 1761329425
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761329425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41978,8 +41994,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761322233,
-        "end": null,
+        "end": 1761329425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1761329425,
+        "end": null
       }
     ]
   },
