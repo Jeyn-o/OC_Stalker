@@ -5274,6 +5274,16 @@
       }
     ]
   },
+  "2289809": {
+    "name": "Murder_Hobo",
+    "activities": [
+      {
+        "status": "Available",
+        "start": 1761280832,
+        "end": null
+      }
+    ]
+  },
   "2291737": {
     "name": "Special-Needs",
     "activities": [
@@ -24172,7 +24182,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761276032,
-        "end": null
+        "end": 1761280832
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761280832,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29111,11 +29127,6 @@
     "name": "Littlegman212",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760070632,
-        "end": 1760071826
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1760071826,
         "end": 1760073024
@@ -31019,11 +31030,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1760070632,
-        "end": 1760071230
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1760071230,
@@ -43611,8 +43617,13 @@
       {
         "status": "[China] - Returning",
         "start": 1761270632,
-        "end": null,
+        "end": 1761280832,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761280832,
+        "end": null
       }
     ]
   },
