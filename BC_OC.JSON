@@ -44731,19 +44731,21 @@
     "status": "Recruiting",
     "ready_at": 1761351567,
     "executed_at": null,
-    "slots": {
-      "P2": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1761265233,
+        "action": "joined",
+        "slot": "P2",
         "user_id": 3348136,
         "user_name": "shrigma",
         "checkpoint_pass_rate": 83,
         "position": "Hustler",
         "position_number": 1
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1761265233,
-        "action": "joined",
+        "timestamp": 1761273044,
+        "action": "left",
         "slot": "P2",
         "user_id": 3348136,
         "user_name": "shrigma",
@@ -44764,7 +44766,7 @@
   "960857": {
     "name": "Guardian Ángels",
     "status": "Recruiting",
-    "ready_at": 1761321397,
+    "ready_at": 1761407797,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -44774,6 +44776,13 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": false
+      },
+      "P2": {
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 83,
+        "position": "Hustler",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -44787,6 +44796,16 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1761273044,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 83,
+        "position": "Hustler",
+        "position_number": 1
       }
     ]
   },
