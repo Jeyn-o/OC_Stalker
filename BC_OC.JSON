@@ -44923,7 +44923,7 @@
   "960856": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1761417332,
+    "ready_at": 1761503732,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -44931,6 +44931,14 @@
         "user_name": "Mr_jeff14574",
         "checkpoint_pass_rate": 79,
         "position": "Looter",
+        "position_number": 1,
+        "item_available": false
+      },
+      "P3": {
+        "user_id": 1184733,
+        "user_name": "Pro_eobard",
+        "checkpoint_pass_rate": 76,
+        "position": "Hacker",
         "position_number": 1,
         "item_available": false
       }
@@ -44944,6 +44952,17 @@
         "user_name": "Mr_jeff14574",
         "checkpoint_pass_rate": 79,
         "position": "Looter",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1761335433,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 1184733,
+        "user_name": "Pro_eobard",
+        "checkpoint_pass_rate": 76,
+        "position": "Hacker",
         "position_number": 1,
         "item_available": false
       }
@@ -45015,9 +45034,30 @@
   "961663": {
     "name": "Pet Project",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1761421642,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 71,
+        "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1761335433,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 71,
+        "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   }
 }
