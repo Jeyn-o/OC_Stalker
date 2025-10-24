@@ -3551,11 +3551,6 @@
     "name": "smyles",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760088632,
-        "end": 1760924431
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1760924431,
         "end": 1760931635,
@@ -3582,12 +3577,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1760088632,
-        "end": 1760098231,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1760098231,
@@ -14097,6 +14086,12 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1761292223,
+        "end": 1761298832,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1761298832,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14277,12 +14272,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1760088632,
-        "end": 1760100025,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760100025,
@@ -24377,12 +24366,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1760088632,
-        "end": 1760089824,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1760089824,
         "end": 1760092820
@@ -31087,6 +31070,12 @@
       {
         "status": "[China] - Going",
         "start": 1761288636,
+        "end": 1761298832,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761298832,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33038,12 +33027,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1760088632,
-        "end": 1760090433,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760090433,
@@ -38811,6 +38794,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1761297032,
+        "end": 1761298832,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1761298832,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -43938,8 +43927,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1761292223,
-        "end": null,
+        "end": 1761298832,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761298832,
+        "end": null
       }
     ]
   },
