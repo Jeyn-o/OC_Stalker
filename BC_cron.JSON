@@ -2128,7 +2128,13 @@
       {
         "status": "Available",
         "start": 1761322233,
-        "end": null
+        "end": 1761325247
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761325247,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7539,8 +7545,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1761312645,
-        "end": null,
+        "end": 1761325247,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1761325247,
+        "end": null
       }
     ]
   },
@@ -8442,8 +8453,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761313829,
-        "end": null,
+        "end": 1761325247,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761325247,
+        "end": null
       }
     ]
   },
@@ -12047,12 +12063,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1760115029,
-        "end": 1760116228,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760116228,
         "end": 1760139025
@@ -12923,8 +12933,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1761315633,
-        "end": null,
+        "end": 1761325247,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761325247,
+        "end": null
       }
     ]
   },
@@ -18585,17 +18600,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760115029,
-        "end": 1760115636
-      },
-      {
-        "status": "[China] - Going",
-        "start": 1760115636,
-        "end": 1760119830,
-        "travel_type": "standard"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1760119830,
         "end": 1760121034
@@ -21201,12 +21205,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760115029,
-        "end": 1760121626,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760121626,
         "end": 1760122230
@@ -22680,11 +22678,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760115029,
-        "end": 1760154024
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1760154024,
@@ -24394,12 +24387,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1760115636,
-        "end": 1760128226,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760128226,
         "end": 1760176837
@@ -25447,11 +25434,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1760115636,
-        "end": 1760117842
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1760117842,
@@ -32919,11 +32901,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Mexico] Attacked - Revives: ALL",
-        "start": 1760115636,
-        "end": 1760117250
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1760117250,
         "end": 1760117842,
@@ -35222,11 +35199,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1760115029,
-        "end": 1760116228
-      },
-      {
         "status": "[China] - Going",
         "start": 1760116228,
         "end": 1760126432,
@@ -37351,11 +37323,6 @@
   "3841404": {
     "name": "Sleepy_Skyes",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1760115636,
-        "end": 1760116228
-      },
       {
         "status": "Available",
         "start": 1760116228,
@@ -39631,6 +39598,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761301830,
+        "end": 1761325247
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1761325247,
         "end": null
       }
     ]
