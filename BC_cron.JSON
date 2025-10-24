@@ -3,12 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1760128226,
-        "end": 1760141417,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1760141417,
         "end": 1760153428,
@@ -3050,6 +3044,11 @@
       {
         "status": "Available",
         "start": 1761313829,
+        "end": 1761337836
+      },
+      {
+        "status": "Jail",
+        "start": 1761337836,
         "end": null
       }
     ]
@@ -9681,8 +9680,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761331232,
-        "end": null,
+        "end": 1761337836,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761337836,
+        "end": null
       }
     ]
   },
@@ -18578,11 +18582,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760127629,
-        "end": 1760132425
-      },
-      {
         "status": "[China] - Going",
         "start": 1760132425,
         "end": 1760136616,
@@ -20471,6 +20470,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1761334834,
+        "end": 1761337836,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761337836,
         "end": null,
         "travel_type": "standard"
       }
@@ -24343,11 +24348,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760128226,
-        "end": 1760176837
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1760176837,
@@ -30939,11 +30939,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760128226,
-        "end": 1760133635
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1760133635,
         "end": 1760140224,
@@ -32839,8 +32834,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1761336043,
-        "end": null,
+        "end": 1761337836,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1761337836,
+        "end": null
       }
     ]
   },
@@ -35145,12 +35145,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1760128226,
-        "end": 1760138420,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760138420,
@@ -43762,6 +43756,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1761336634,
+        "end": 1761337836,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1761337836,
         "end": null,
         "travel_type": "airstrip"
       }
