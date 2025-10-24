@@ -1497,11 +1497,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760103030,
-        "end": 1760106031
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1760106031,
         "end": 1760112623,
@@ -7549,7 +7544,13 @@
       {
         "status": "Available",
         "start": 1761310230,
-        "end": null
+        "end": 1761312645
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1761312645,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12938,11 +12939,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1760103030,
-        "end": 1760107824
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1760107824,
         "end": 1760117250,
@@ -13490,7 +13486,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1761312053,
-        "end": null
+        "end": 1761312645
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1761312645,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14107,11 +14109,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1760103030,
-        "end": 1760104227
-      },
       {
         "status": "Available",
         "start": 1760104227,
@@ -15268,12 +15265,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1760103030,
-        "end": 1760114422,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760114422,
@@ -22474,8 +22465,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1761310848,
-        "end": null,
+        "end": 1761312645,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761312645,
+        "end": null
       }
     ]
   },
@@ -23371,11 +23367,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1760103030,
-        "end": 1760104227
-      },
       {
         "status": "Available",
         "start": 1760104227,
@@ -29387,12 +29378,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1760103030,
-        "end": 1760114422,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760114422,
@@ -43844,6 +43829,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1761305437,
+        "end": 1761312645,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761312645,
         "end": null,
         "travel_type": "airstrip"
       }
