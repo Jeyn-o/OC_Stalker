@@ -4174,8 +4174,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1761322822,
-        "end": null,
+        "end": 1761328225,
         "travel_type": "private"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1761328225,
+        "end": null
       }
     ]
   },
@@ -7518,7 +7523,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1761325247,
-        "end": null
+        "end": 1761328225
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1761328225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22499,8 +22510,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761321643,
-        "end": null,
+        "end": 1761328225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761328225,
+        "end": null
       }
     ]
   },
@@ -35585,7 +35601,13 @@
       {
         "status": "[China] - Idle",
         "start": 1761318043,
-        "end": null
+        "end": 1761328225
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761328225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37270,7 +37292,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761326431,
-        "end": null
+        "end": 1761328225
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761328225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39551,7 +39579,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761327632,
-        "end": null
+        "end": 1761328225
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1761328225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43751,6 +43785,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761321643,
+        "end": 1761328225,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761328225,
         "end": null,
         "travel_type": "airstrip"
       }
