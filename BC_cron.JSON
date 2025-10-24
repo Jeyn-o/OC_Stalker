@@ -717,11 +717,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1760074828,
-        "end": 1760075422
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1760075422,
         "end": 1760082020,
@@ -4218,7 +4213,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1761284431,
-        "end": null
+        "end": 1761285026
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1761285026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7885,12 +7886,6 @@
   "2611425": {
     "name": "NeshoNeko",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1760074828,
-        "end": 1760082020,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1760082020,
@@ -16160,8 +16155,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1761277827,
-        "end": null,
+        "end": 1761285026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761285026,
+        "end": null
       }
     ]
   },
@@ -38782,11 +38782,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1760074828,
-        "end": 1760076028
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1760076028,
         "end": 1760077830,
@@ -41322,8 +41317,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761278432,
-        "end": null,
+        "end": 1761285026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761285026,
+        "end": null
       }
     ]
   },
@@ -43883,7 +43883,13 @@
       {
         "status": "Available",
         "start": 1761281424,
-        "end": null
+        "end": 1761285026
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1761285026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
