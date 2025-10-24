@@ -2375,11 +2375,6 @@
     "name": "corpheus",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760118627,
-        "end": 1760134828
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1760134828,
         "end": 1760142625,
@@ -2423,11 +2418,6 @@
   "1766417": {
     "name": "gajeela09",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1760118627,
-        "end": 1760120425
-      },
       {
         "status": "[Hawaii] Mugged - Revives: Partial",
         "start": 1760120425,
@@ -5239,8 +5229,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1761321643,
-        "end": null,
+        "end": 1761328841,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761328841,
+        "end": null
       }
     ]
   },
@@ -12017,6 +12012,11 @@
       {
         "status": "Available",
         "start": 1761327632,
+        "end": 1761328841
+      },
+      {
+        "status": "Jail",
+        "start": 1761328841,
         "end": null
       }
     ]
@@ -22516,7 +22516,13 @@
       {
         "status": "Available",
         "start": 1761328225,
-        "end": null
+        "end": 1761328841
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761328841,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25410,8 +25416,13 @@
       {
         "status": "[China] - Going",
         "start": 1761318625,
-        "end": null,
+        "end": 1761328841,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1761328841,
+        "end": null
       }
     ]
   },
