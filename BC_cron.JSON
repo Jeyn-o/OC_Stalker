@@ -12053,11 +12053,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760101239,
-        "end": 1760113223
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1760113223,
         "end": 1760113831,
@@ -13483,6 +13478,12 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1761309627,
+        "end": 1761310848,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1761310848,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -18542,12 +18543,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1760101239,
-        "end": 1760104227,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1760104227,
         "end": 1760109026
@@ -22463,7 +22458,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1761310230,
-        "end": null
+        "end": 1761310848
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1761310848,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41286,8 +41287,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761304232,
-        "end": null,
+        "end": 1761310848,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761310848,
+        "end": null
       }
     ]
   },
