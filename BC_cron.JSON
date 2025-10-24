@@ -2159,7 +2159,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761301232,
-        "end": null
+        "end": 1761301830
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761301830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3115,7 +3121,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761300045,
-        "end": null
+        "end": 1761301830
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1761301830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9333,12 +9345,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1760091629,
-        "end": 1760098231,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760098231,
@@ -16289,11 +16295,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760091629,
-        "end": 1760123428
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1760123428,
@@ -29424,12 +29425,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1760091629,
-        "end": 1760092820,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1760092820,
         "end": 1760094630,
@@ -35281,6 +35276,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1761296443,
+        "end": 1761301830
+      },
+      {
+        "status": "Available",
+        "start": 1761301830,
         "end": null
       }
     ]
@@ -39706,8 +39706,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1761291036,
-        "end": null,
+        "end": 1761301830,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1761301830,
+        "end": null
       }
     ]
   },
@@ -42613,11 +42618,6 @@
     "name": "Rey2Fly",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1760091629,
-        "end": 1760096435
-      },
-      {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1760096435,
         "end": 1760101823
@@ -43917,11 +43917,6 @@
   "3969351": {
     "name": "KSR-Gyudon",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1760091629,
-        "end": 1760094035
-      },
       {
         "status": "Available",
         "start": 1760094035,
