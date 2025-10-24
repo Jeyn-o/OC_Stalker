@@ -3102,11 +3102,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760095833,
-        "end": 1760105425
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1760105425,
         "end": 1760107230
@@ -14071,8 +14066,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1761298832,
-        "end": null,
+        "end": 1761306028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1761306028,
+        "end": null
       }
     ]
   },
@@ -15221,7 +15221,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1761252031,
-        "end": null
+        "end": 1761306028
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1761306028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18507,11 +18513,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760095833,
-        "end": 1760097631
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1760097631,
         "end": 1760100623,
@@ -20426,8 +20427,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1761300623,
-        "end": null,
+        "end": 1761306028,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1761306028,
+        "end": null
       }
     ]
   },
@@ -24336,12 +24342,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1760095833,
-        "end": 1760097026,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760097026,
         "end": 1760103630
@@ -27937,7 +27937,13 @@
       {
         "status": "Available",
         "start": 1761271831,
-        "end": null
+        "end": 1761306028
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1761306028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28372,12 +28378,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1760095833,
-        "end": 1760102426,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1760102426,
