@@ -6056,17 +6056,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1760109026,
-        "end": 1760109622
-      },
-      {
-        "status": "[China] - Returning",
-        "start": 1760109622,
-        "end": 1760113831,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1760113831,
         "end": 1760116228
@@ -9286,12 +9275,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1760109622,
-        "end": 1760116228,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760116228,
@@ -14281,6 +14264,11 @@
       {
         "status": "Available",
         "start": 1761245430,
+        "end": 1761319234
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1761319234,
         "end": null
       }
     ]
@@ -17721,11 +17709,6 @@
     "name": "Khallie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760109622,
-        "end": 1760133030
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1760133030,
         "end": 1760139626,
@@ -18566,12 +18549,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1760109026,
-        "end": 1760112045,
-        "travel_type": "standard"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1760112045,
@@ -20575,8 +20552,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1761312053,
-        "end": null,
+        "end": 1761319234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761319234,
+        "end": null
       }
     ]
   },
@@ -22513,11 +22495,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760109026,
-        "end": 1760126432
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1760126432,
@@ -27649,11 +27626,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1760109622,
-        "end": 1760133030
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1760133030,
         "end": 1760146226,
@@ -27957,7 +27929,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761313236,
-        "end": null
+        "end": 1761319234
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761319234,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29142,11 +29120,6 @@
   "3628419": {
     "name": "Littlegman212",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1760109622,
-        "end": 1760110816
-      },
       {
         "status": "Available",
         "start": 1760110816,
@@ -32933,17 +32906,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1760109026,
-        "end": 1760109622,
-        "travel_type": "airstrip"
-      },
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1760109622,
-        "end": 1760115636
-      },
       {
         "status": "[Mexico] Attacked - Revives: ALL",
         "start": 1760115636,
@@ -37343,7 +37305,13 @@
       {
         "status": "Available",
         "start": 1761318043,
-        "end": null
+        "end": 1761319234
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1761319234,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37480,11 +37448,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[United Arab Emirates] Mugged - Revives: ALL",
-        "start": 1760109026,
-        "end": 1760112045
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760112045,
@@ -38742,12 +38705,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1760109026,
-        "end": 1760116228,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1760116228,
         "end": 1760123428,
@@ -39792,11 +39749,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760109026,
-        "end": 1760133030
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1760133030,
@@ -43828,17 +43780,12 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1761312645,
-        "end": null,
+        "end": 1761319234,
         "travel_type": "airstrip"
-      }
-    ]
-  },
-  "3969351": {
-    "name": "KSR-Gyudon",
-    "activities": [
+      },
       {
         "status": "Available",
-        "start": 1760109622,
+        "start": 1761319234,
         "end": null
       }
     ]
