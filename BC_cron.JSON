@@ -4272,11 +4272,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[Switzerland] Mugged - Revives: ALL",
-        "start": 1760083830,
-        "end": 1760086835
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1760086835,
         "end": 1760089231
@@ -4668,8 +4663,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1761286235,
-        "end": null,
+        "end": 1761293465,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761293465,
+        "end": null
       }
     ]
   },
@@ -12915,7 +12915,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1761292850,
-        "end": null
+        "end": 1761293465
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1761293465,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14053,12 +14059,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1760083830,
-        "end": 1760085025,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760085025,
@@ -16962,7 +16962,13 @@
       {
         "status": "Available",
         "start": 1761291626,
-        "end": null
+        "end": 1761293465
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761293465,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18476,8 +18482,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761287438,
-        "end": null,
+        "end": 1761293465,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1761293465,
+        "end": null
       }
     ]
   },
@@ -20400,6 +20411,11 @@
       {
         "status": "[South Africa] Mugged - Revives: ALL",
         "start": 1761290432,
+        "end": 1761293465
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1761293465,
         "end": null
       }
     ]
