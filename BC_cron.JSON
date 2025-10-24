@@ -1277,6 +1277,11 @@
       {
         "status": "Jail",
         "start": 1761348635,
+        "end": 1761349230
+      },
+      {
+        "status": "Available",
+        "start": 1761349230,
         "end": null
       }
     ]
@@ -18587,7 +18592,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761347430,
-        "end": null
+        "end": 1761349230
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761349230,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41998,8 +42009,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761342030,
-        "end": null,
+        "end": 1761349230,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1761349230,
+        "end": null
       }
     ]
   },
