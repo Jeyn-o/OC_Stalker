@@ -3487,6 +3487,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1761317433,
+        "end": 1761321643
+      },
+      {
+        "status": "Available",
+        "start": 1761321643,
         "end": null
       }
     ]
@@ -5111,6 +5116,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1761309627,
+        "end": 1761321643,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1761321643,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -5222,7 +5233,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761310230,
-        "end": null
+        "end": 1761321643
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761321643,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22508,6 +22525,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761315028,
+        "end": 1761321643,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761321643,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -38711,8 +38734,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761315028,
-        "end": null,
+        "end": 1761321643,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761321643,
+        "end": null
       }
     ]
   },
@@ -43801,7 +43829,13 @@
       {
         "status": "Available",
         "start": 1761319234,
-        "end": null
+        "end": 1761321643
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761321643,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
