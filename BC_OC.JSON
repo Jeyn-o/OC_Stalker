@@ -43773,9 +43773,9 @@
   },
   "953310": {
     "name": "Ace in the Hole",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1761426247,
-    "executed_at": null,
+    "executed_at": 1761426308,
     "slots": {
       "P5": {
         "user_id": 2184227,
@@ -43953,7 +43953,7 @@
   "953314": {
     "name": "Ace in the Hole",
     "status": "Recruiting",
-    "ready_at": 1761419622,
+    "ready_at": 1761599128,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -43961,6 +43961,20 @@
         "user_name": "AlfieG",
         "checkpoint_pass_rate": 55,
         "position": "Hacker",
+        "position_number": 1
+      },
+      "P3": {
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 62,
+        "position": "Muscle",
+        "position_number": 2
+      },
+      "P5": {
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 51,
+        "position": "Driver",
         "position_number": 1
       }
     },
@@ -43993,6 +44007,26 @@
         "user_name": "AlfieG",
         "checkpoint_pass_rate": 55,
         "position": "Hacker",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1761426642,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 62,
+        "position": "Muscle",
+        "position_number": 2
+      },
+      {
+        "timestamp": 1761426642,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 51,
+        "position": "Driver",
         "position_number": 1
       }
     ]
