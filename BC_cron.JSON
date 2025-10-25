@@ -3,12 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1760182231,
-        "end": 1760194217,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760194217,
         "end": 1760194839
@@ -1531,12 +1525,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760182231,
-        "end": 1760189433,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760189433,
@@ -5162,6 +5150,11 @@
       {
         "status": "Available",
         "start": 1761355229,
+        "end": 1761392436
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761392436,
         "end": null
       }
     ]
@@ -9621,8 +9614,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761385829,
-        "end": null,
+        "end": 1761392436,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1761392436,
+        "end": null
       }
     ]
   },
@@ -14079,6 +14077,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1761391839,
+        "end": 1761392436,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1761392436,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -20482,7 +20486,13 @@
       {
         "status": "Available",
         "start": 1761388234,
-        "end": null
+        "end": 1761392436
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1761392436,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -30134,12 +30144,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1760182231,
-        "end": 1760192432,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760192432,
         "end": 1760193028
@@ -33671,11 +33675,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760182231,
-        "end": 1760183423
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1760183423,
         "end": 1760185832
@@ -36086,11 +36085,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1760182231,
-        "end": 1760182828
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760182828,
@@ -38532,8 +38526,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761385829,
-        "end": null,
+        "end": 1761392436,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761392436,
+        "end": null
       }
     ]
   },
