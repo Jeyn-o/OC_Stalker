@@ -669,8 +669,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1761401423,
-        "end": null,
+        "end": 1761414030,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761414030,
+        "end": null
       }
     ]
   },
@@ -747,12 +752,6 @@
   "446596": {
     "name": "Bucki",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760203828,
-        "end": 1760210425,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760210425,
@@ -4395,6 +4394,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761412233,
+        "end": 1761414030
+      },
+      {
+        "status": "Available",
+        "start": 1761414030,
         "end": null
       }
     ]
@@ -5472,8 +5476,13 @@
       {
         "status": "[China] - Going",
         "start": 1761403828,
-        "end": null,
+        "end": 1761414030,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1761414030,
+        "end": null
       }
     ]
   },
@@ -7532,6 +7541,11 @@
       {
         "status": "Available",
         "start": 1761413433,
+        "end": 1761414030
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761414030,
         "end": null
       }
     ]
@@ -8292,6 +8306,11 @@
       {
         "status": "Available",
         "start": 1761411640,
+        "end": 1761414030
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761414030,
         "end": null
       }
     ]
@@ -8966,6 +8985,11 @@
       {
         "status": "Available",
         "start": 1761325247,
+        "end": 1761414030
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1761414030,
         "end": null
       }
     ]
@@ -10481,6 +10505,11 @@
       {
         "status": "Available",
         "start": 1761412233,
+        "end": 1761414030
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1761414030,
         "end": null
       }
     ]
@@ -11549,12 +11578,6 @@
     "name": "Haungpeary",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1760204419,
-        "end": 1760214021,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1760214021,
         "end": 1760234427
@@ -11794,12 +11817,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1760203828,
-        "end": 1760215228,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760215228,
@@ -12874,12 +12891,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1760203828,
-        "end": 1760205027,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760205027,
@@ -18204,6 +18215,11 @@
       {
         "status": "Available",
         "start": 1761412832,
+        "end": 1761414030
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761414030,
         "end": null
       }
     ]
@@ -19775,17 +19791,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1760203828,
-        "end": 1760204419
-      },
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1760204419,
-        "end": 1760207434,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1760207434,
@@ -23876,7 +23881,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761411029,
-        "end": null
+        "end": 1761414030
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761414030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25689,17 +25700,6 @@
     "name": "Jordanw1",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1760203828,
-        "end": 1760204419
-      },
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760204419,
-        "end": 1760211031,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760211031,
         "end": 1761022838
@@ -26860,12 +26860,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1760204419,
-        "end": 1760205629,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760205629,
         "end": 1760208625
@@ -27985,7 +27979,13 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761409229,
-        "end": null
+        "end": 1761414030
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1761414030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29846,11 +29846,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1760203828,
-        "end": 1760208625
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1760208625,
         "end": 1760215822,
@@ -30796,6 +30791,11 @@
       {
         "status": "Available",
         "start": 1761406827,
+        "end": 1761414030
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761414030,
         "end": null
       }
     ]
@@ -31643,6 +31643,11 @@
       {
         "status": "Available",
         "start": 1761407425,
+        "end": 1761414030
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761414030,
         "end": null
       }
     ]
@@ -31650,12 +31655,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1760203828,
-        "end": 1760214021,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760214021,
@@ -32427,17 +32426,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1760203828,
-        "end": 1760204419,
-        "travel_type": "airstrip"
-      },
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1760204419,
-        "end": 1760205027
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1760205027,
@@ -37732,11 +37720,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760204419,
-        "end": 1760206846
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1760206846,
         "end": 1760208027,
@@ -38850,6 +38833,11 @@
       {
         "status": "Available",
         "start": 1761413433,
+        "end": 1761414030
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761414030,
         "end": null
       }
     ]
@@ -38910,6 +38898,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1761413433,
+        "end": 1761414030
+      },
+      {
+        "status": "Available",
+        "start": 1761414030,
         "end": null
       }
     ]
@@ -39032,11 +39025,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1760203828,
-        "end": 1760220028
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760220028,
@@ -41371,11 +41359,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1760204419,
-        "end": 1760226026
-      },
       {
         "status": "[China] - Returning",
         "start": 1760226026,
