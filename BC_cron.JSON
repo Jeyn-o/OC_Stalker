@@ -1532,11 +1532,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1760181624,
-        "end": 1760182231
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1760182231,
         "end": 1760189433,
@@ -2366,6 +2361,11 @@
       {
         "status": "Available",
         "start": 1761391233,
+        "end": 1761391839
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761391839,
         "end": null
       }
     ]
@@ -2416,6 +2416,11 @@
       {
         "status": "Available",
         "start": 1760682625,
+        "end": 1761391839
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: Partial",
+        "start": 1761391839,
         "end": null
       }
     ]
@@ -7162,12 +7167,6 @@
     "name": "Jeyno",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1760181624,
-        "end": 1760194217,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1760194217,
         "end": 1760206228,
@@ -7480,6 +7479,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761391233,
+        "end": 1761391839
+      },
+      {
+        "status": "Available",
+        "start": 1761391839,
         "end": null
       }
     ]
@@ -10920,6 +10924,11 @@
       {
         "status": "Available",
         "start": 1760848237,
+        "end": 1761391839
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761391839,
         "end": null
       }
     ]
@@ -14065,7 +14074,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1761391233,
-        "end": null
+        "end": 1761391839
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1761391839,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14897,6 +14912,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761391233,
+        "end": 1761391839
+      },
+      {
+        "status": "Available",
+        "start": 1761391839,
         "end": null
       }
     ]
@@ -16188,8 +16208,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1761384028,
-        "end": null,
+        "end": 1761391839,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761391839,
+        "end": null
       }
     ]
   },
@@ -21185,11 +21210,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760181624,
-        "end": 1760185832
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1760185832,
         "end": 1760193028,
@@ -22656,6 +22676,11 @@
       {
         "status": "Available",
         "start": 1761390633,
+        "end": 1761391839
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761391839,
         "end": null
       }
     ]
@@ -27087,7 +27112,13 @@
       {
         "status": "[China] - Idle",
         "start": 1761391233,
-        "end": null
+        "end": 1761391839
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761391839,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -30103,11 +30134,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1760181624,
-        "end": 1760182231
-      },
-      {
         "status": "[China] - Returning",
         "start": 1760182231,
         "end": 1760192432,
@@ -32769,12 +32795,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1760181624,
-        "end": 1760188825,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1760188825,
         "end": 1760196019,
@@ -33650,11 +33670,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1760181624,
-        "end": 1760182231
-      },
       {
         "status": "Available",
         "start": 1760182231,
@@ -35506,7 +35521,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1761388234,
-        "end": null
+        "end": 1761391839
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1761391839,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35955,7 +35976,13 @@
       {
         "status": "Available",
         "start": 1761360024,
-        "end": null
+        "end": 1761391839
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761391839,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41030,6 +41057,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761391233,
+        "end": 1761391839
+      },
+      {
+        "status": "Available",
+        "start": 1761391839,
         "end": null
       }
     ]
