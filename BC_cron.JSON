@@ -2351,6 +2351,11 @@
       {
         "status": "Available",
         "start": 1761253833,
+        "end": 1761390633
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761390633,
         "end": null
       }
     ]
@@ -9197,11 +9202,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760180437,
-        "end": 1760194217
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1760194217,
         "end": 1760200823,
@@ -10673,8 +10673,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1761383431,
-        "end": null,
+        "end": 1761390633,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761390633,
+        "end": null
       }
     ]
   },
@@ -14040,7 +14045,13 @@
       {
         "status": "Available",
         "start": 1761386438,
-        "end": null
+        "end": 1761390633
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1761390633,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22606,6 +22617,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1761387630,
+        "end": 1761390633
+      },
+      {
+        "status": "Available",
+        "start": 1761390633,
         "end": null
       }
     ]
@@ -23654,6 +23670,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1761390041,
+        "end": 1761390633
+      },
+      {
+        "status": "Available",
+        "start": 1761390633,
         "end": null
       }
     ]
@@ -37244,11 +37265,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1760180437,
-        "end": 1760181027
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760181027,
         "end": 1760192432,
@@ -39503,12 +39519,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1760180437,
-        "end": 1760187022,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760187022,
@@ -43636,6 +43646,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1761377434,
+        "end": 1761390633,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1761390633,
         "end": null,
         "travel_type": "airstrip"
       }
