@@ -42891,9 +42891,9 @@
   },
   "946021": {
     "name": "Gaslight the Way",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1761442984,
-    "executed_at": null,
+    "executed_at": 1761461583,
     "slots": {
       "P4": {
         "user_id": 3255591,
@@ -44633,7 +44633,7 @@
   "960837": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1761501825,
+    "ready_at": 1761588225,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -44649,6 +44649,13 @@
         "checkpoint_pass_rate": 81,
         "position": "Looter",
         "position_number": 2
+      },
+      "P6": {
+        "user_id": 3852779,
+        "user_name": "DMG-",
+        "checkpoint_pass_rate": 76,
+        "position": "Looter",
+        "position_number": 3
       }
     },
     "action_log": [
@@ -44671,6 +44678,16 @@
         "checkpoint_pass_rate": 81,
         "position": "Looter",
         "position_number": 2
+      },
+      {
+        "timestamp": 1761462042,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3852779,
+        "user_name": "DMG-",
+        "checkpoint_pass_rate": 76,
+        "position": "Looter",
+        "position_number": 3
       }
     ]
   },
