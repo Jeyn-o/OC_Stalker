@@ -40899,7 +40899,7 @@
         "checkpoint_pass_rate": 74,
         "position": "Engineer",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -43952,17 +43952,10 @@
   },
   "953314": {
     "name": "Ace in the Hole",
-    "status": "Planning",
+    "status": "Recruiting",
     "ready_at": 1761771928,
     "executed_at": null,
     "slots": {
-      "P4": {
-        "user_id": 2671608,
-        "user_name": "AlfieG",
-        "checkpoint_pass_rate": 55,
-        "position": "Hacker",
-        "position_number": 1
-      },
       "P3": {
         "user_id": 2419133,
         "user_name": "Jeyno",
@@ -44063,6 +44056,16 @@
         "user_name": "Hstains",
         "checkpoint_pass_rate": 63,
         "position": "Muscle",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1761466837,
+        "action": "left",
+        "slot": "P4",
+        "user_id": 2671608,
+        "user_name": "AlfieG",
+        "checkpoint_pass_rate": 55,
+        "position": "Hacker",
         "position_number": 1
       }
     ]
