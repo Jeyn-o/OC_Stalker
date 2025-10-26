@@ -3475,6 +3475,11 @@
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1761471629,
+        "end": 1761474641
+      },
+      {
+        "status": "Available",
+        "start": 1761474641,
         "end": null
       }
     ]
@@ -11337,6 +11342,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761473429,
+        "end": 1761474641
+      },
+      {
+        "status": "Available",
+        "start": 1761474641,
         "end": null
       }
     ]
@@ -28390,7 +28400,13 @@
       {
         "status": "Available",
         "start": 1761469241,
-        "end": null
+        "end": 1761474641
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761474641,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30490,8 +30506,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761468026,
-        "end": null,
+        "end": 1761474641,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761474641,
+        "end": null
       }
     ]
   },
@@ -35546,6 +35567,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761473429,
+        "end": 1761474641
+      },
+      {
+        "status": "Available",
+        "start": 1761474641,
         "end": null
       }
     ]
@@ -42069,12 +42095,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1760264442,
-        "end": 1760271034,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760271034,
