@@ -43952,17 +43952,10 @@
   },
   "953314": {
     "name": "Ace in the Hole",
-    "status": "Planning",
-    "ready_at": 1761858328,
+    "status": "Recruiting",
+    "ready_at": 1761771928,
     "executed_at": null,
     "slots": {
-      "P5": {
-        "user_id": 2184227,
-        "user_name": "SassyMcSlacker",
-        "checkpoint_pass_rate": 51,
-        "position": "Driver",
-        "position_number": 1
-      },
       "P2": {
         "user_id": 2621654,
         "user_name": "Hstains",
@@ -43978,12 +43971,12 @@
         "position_number": 1
       },
       "P1": {
-        "user_id": 2069227,
-        "user_name": "GOTOYOURHOME",
-        "checkpoint_pass_rate": 62,
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 64,
         "position": "Imitator",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P3": {
         "user_id": 1166445,
@@ -44166,6 +44159,38 @@
         "checkpoint_pass_rate": 63,
         "position": "Muscle",
         "position_number": 2
+      },
+      {
+        "timestamp": 1761514237,
+        "action": "left",
+        "slot": "P5",
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 51,
+        "position": "Driver",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1761514237,
+        "action": "left",
+        "slot": "P1",
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 62,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1761514237,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 64,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
