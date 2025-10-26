@@ -889,11 +889,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1760312419,
-        "end": 1760313697
-      },
-      {
         "status": "Available",
         "start": 1760313697,
         "end": 1760318422
@@ -7870,12 +7865,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760312419,
-        "end": 1760317234,
-        "travel_type": "private"
-      },
       {
         "status": "Available",
         "start": 1760317234,
@@ -16971,11 +16960,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1760312419,
-        "end": 1760326826
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1760326826,
         "end": 1760338839,
@@ -19557,8 +19541,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1761520833,
-        "end": null,
+        "end": 1761522039,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761522039,
+        "end": null
       }
     ]
   },
@@ -22123,6 +22112,11 @@
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761520833,
+        "end": 1761522039
+      },
+      {
+        "status": "Available",
+        "start": 1761522039,
         "end": null
       }
     ]
@@ -31407,7 +31401,13 @@
       {
         "status": "Available",
         "start": 1761513033,
-        "end": null
+        "end": 1761522039
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1761522039,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -47393,6 +47393,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1761519635,
+        "end": 1761522039
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1761522039,
         "end": null
       }
     ]
@@ -50143,12 +50148,6 @@
   "3915266": {
     "name": "Lucifixion",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1760312419,
-        "end": 1760319028,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760319028,
