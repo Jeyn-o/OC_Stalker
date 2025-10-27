@@ -4572,6 +4572,11 @@
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761575433,
+        "end": 1761576633
+      },
+      {
+        "status": "Available",
+        "start": 1761576633,
         "end": null
       }
     ]
@@ -7655,6 +7660,11 @@
       {
         "status": "Available",
         "start": 1761571833,
+        "end": 1761576633
+      },
+      {
+        "status": "Jail",
+        "start": 1761576633,
         "end": null
       }
     ]
@@ -16134,6 +16144,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761575433,
+        "end": 1761576633
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1761576633,
         "end": null
       }
     ]
@@ -17274,7 +17289,13 @@
       {
         "status": "Available",
         "start": 1761574232,
-        "end": null
+        "end": 1761576633
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1761576633,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17828,11 +17849,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1760366424,
-        "end": 1760373031
-      },
       {
         "status": "[Canada] Mugged - Revives: ALL",
         "start": 1760373031,
@@ -20726,6 +20742,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761575433,
+        "end": 1761576633
+      },
+      {
+        "status": "Available",
+        "start": 1761576633,
         "end": null
       }
     ]
@@ -23259,6 +23280,11 @@
       {
         "status": "Available",
         "start": 1761568825,
+        "end": 1761576633
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1761576633,
         "end": null
       }
     ]
@@ -45771,6 +45797,11 @@
       {
         "status": "Available",
         "start": 1761576029,
+        "end": 1761576633
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761576633,
         "end": null
       }
     ]
@@ -54310,8 +54341,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761570039,
-        "end": null,
+        "end": 1761576633,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] Attacked - Revives: ALL",
+        "start": 1761576633,
+        "end": null
       }
     ]
   },
