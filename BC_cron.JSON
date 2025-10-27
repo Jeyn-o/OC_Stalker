@@ -3,12 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1760348419,
-        "end": 1760360431,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1760360431,
         "end": 1760373031,
@@ -3256,6 +3250,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761551429,
+        "end": 1761558027,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761558027,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -3938,6 +3938,11 @@
       {
         "status": "Available",
         "start": 1761553836,
+        "end": 1761558027
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1761558027,
         "end": null
       }
     ]
@@ -4427,11 +4432,6 @@
   "1766417": {
     "name": "gajeela09",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760347833,
-        "end": 1760359823
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1760359823,
@@ -13170,6 +13170,11 @@
       {
         "status": "Available",
         "start": 1761552042,
+        "end": 1761558027
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761558027,
         "end": null
       }
     ]
@@ -13365,11 +13370,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1760347833,
-        "end": 1760350826
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1760350826,
@@ -15315,8 +15315,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1761540626,
-        "end": null,
+        "end": 1761558027,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1761558027,
+        "end": null
       }
     ]
   },
@@ -31266,12 +31271,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760347833,
-        "end": 1760354426,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760354426,
         "end": 1760358630
@@ -32100,16 +32099,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Switzerland] Mugged - Revives: ALL",
-        "start": 1760347833,
-        "end": 1760348419
-      },
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1760348419,
-        "end": 1760354426
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1760354426,
@@ -43152,11 +43141,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1760348419,
-        "end": 1760353229
-      },
-      {
         "status": "Available",
         "start": 1760353229,
         "end": 1760370026
@@ -52359,11 +52343,6 @@
     "name": "Lucifixion",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760347833,
-        "end": 1760352018
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1760352018,
         "end": 1760358630,
@@ -54198,11 +54177,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1760347833,
-        "end": 1760350219
-      },
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1760350219,
