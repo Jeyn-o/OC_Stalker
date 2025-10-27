@@ -2487,12 +2487,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1760343623,
-        "end": 1760350219,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1760350219,
         "end": 1760357430,
@@ -3930,6 +3924,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761553226,
+        "end": 1761553836
+      },
+      {
+        "status": "Available",
+        "start": 1761553836,
         "end": null
       }
     ]
@@ -14264,6 +14263,11 @@
       {
         "status": "Available",
         "start": 1761552042,
+        "end": 1761553836
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761553836,
         "end": null
       }
     ]
@@ -15526,6 +15530,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761552634,
+        "end": 1761553836
+      },
+      {
+        "status": "Available",
+        "start": 1761553836,
         "end": null
       }
     ]
@@ -15533,12 +15542,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1760344231,
-        "end": 1760351425,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760351425,
@@ -22488,11 +22491,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1760344231,
-        "end": 1760347226
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760347226,
         "end": 1760358630,
@@ -25325,11 +25323,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1760344231,
-        "end": 1760344827
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760344827,
@@ -34343,12 +34336,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1760343623,
-        "end": 1760350219,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1760350219,
         "end": 1760350826
@@ -36713,6 +36700,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761552634,
+        "end": 1761553836
+      },
+      {
+        "status": "Available",
+        "start": 1761553836,
         "end": null
       }
     ]
@@ -38660,12 +38652,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1760344231,
-        "end": 1760355627,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760355627,
         "end": 1760358026
@@ -40429,12 +40415,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1760343623,
-        "end": 1760344827,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1760344827,
@@ -46098,6 +46078,11 @@
       {
         "status": "Available",
         "start": 1761549031,
+        "end": 1761553836
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761553836,
         "end": null
       }
     ]
@@ -47745,6 +47730,11 @@
       {
         "status": "Available",
         "start": 1761550234,
+        "end": 1761553836
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761553836,
         "end": null
       }
     ]
@@ -47960,6 +47950,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761552042,
+        "end": 1761553836
+      },
+      {
+        "status": "Available",
+        "start": 1761553836,
         "end": null
       }
     ]
@@ -49525,8 +49520,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761547233,
-        "end": null,
+        "end": 1761553836,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761553836,
+        "end": null
       }
     ]
   },
@@ -54051,7 +54051,13 @@
       {
         "status": "[Mexico] Attacked - Revives: Partial",
         "start": 1761552634,
-        "end": null
+        "end": 1761553836
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1761553836,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
