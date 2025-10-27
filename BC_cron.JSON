@@ -895,11 +895,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760320225,
-        "end": 1760332819
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1760332819,
         "end": 1760340031,
@@ -3102,6 +3097,11 @@
       {
         "status": "Available",
         "start": 1761520230,
+        "end": 1761530437
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761530437,
         "end": null
       }
     ]
@@ -4063,6 +4063,11 @@
       {
         "status": "Available",
         "start": 1761528628,
+        "end": 1761530437
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: Partial",
+        "start": 1761530437,
         "end": null
       }
     ]
@@ -6935,6 +6940,11 @@
       {
         "status": "Available",
         "start": 1761529829,
+        "end": 1761530437
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761530437,
         "end": null
       }
     ]
@@ -8040,12 +8050,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1760320225,
-        "end": 1760321417,
-        "travel_type": "private"
-      },
       {
         "status": "Available",
         "start": 1760321417,
@@ -14159,7 +14163,13 @@
       {
         "status": "Available",
         "start": 1761506435,
-        "end": null
+        "end": 1761530437
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761530437,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15698,6 +15708,12 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1761523839,
+        "end": 1761530437,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1761530437,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15981,7 +15997,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1761529223,
-        "end": null
+        "end": 1761530437
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1761530437,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24128,6 +24150,11 @@
       {
         "status": "Available",
         "start": 1761519635,
+        "end": 1761530437
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761530437,
         "end": null
       }
     ]
@@ -27664,11 +27691,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760320225,
-        "end": 1760350219
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1760350219,
         "end": 1760359218,
@@ -29901,6 +29923,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1761529829,
+        "end": 1761530437,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1761530437,
         "end": null,
         "travel_type": "standard"
       }
@@ -30698,6 +30726,11 @@
       {
         "status": "Available",
         "start": 1761508846,
+        "end": 1761530437
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761530437,
         "end": null
       }
     ]
@@ -31127,6 +31160,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761529223,
+        "end": 1761530437
+      },
+      {
+        "status": "Available",
+        "start": 1761530437,
         "end": null
       }
     ]
@@ -31822,6 +31860,11 @@
       {
         "status": "[Canada] Lost - Revives: Partial",
         "start": 1761529223,
+        "end": 1761530437
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1761530437,
         "end": null
       }
     ]
@@ -38174,6 +38217,11 @@
       {
         "status": "Available",
         "start": 1761519635,
+        "end": 1761530437
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761530437,
         "end": null
       }
     ]
@@ -38952,6 +39000,11 @@
       {
         "status": "Available",
         "start": 1761512440,
+        "end": 1761530437
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761530437,
         "end": null
       }
     ]
@@ -38959,11 +39012,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1760320225,
-        "end": 1760320834
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1760320834,
@@ -40864,18 +40912,19 @@
       {
         "status": "[Canada] - Idle",
         "start": 1761529829,
-        "end": null
+        "end": 1761530437
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1761530437,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760320225,
-        "end": 1760322624
-      },
       {
         "status": "[Canada] - Going",
         "start": 1760322624,
@@ -43893,6 +43942,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761528628,
+        "end": 1761530437
+      },
+      {
+        "status": "Available",
+        "start": 1761530437,
         "end": null
       }
     ]
@@ -44520,6 +44574,11 @@
       {
         "status": "Available",
         "start": 1761528628,
+        "end": 1761530437
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761530437,
         "end": null
       }
     ]
@@ -46128,6 +46187,11 @@
       {
         "status": "Available",
         "start": 1761519031,
+        "end": 1761530437
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761530437,
         "end": null
       }
     ]
@@ -46510,6 +46574,11 @@
       {
         "status": "Available",
         "start": 1761519031,
+        "end": 1761530437
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761530437,
         "end": null
       }
     ]
@@ -51662,6 +51731,11 @@
       {
         "status": "Available",
         "start": 1761505836,
+        "end": 1761530437
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1761530437,
         "end": null
       }
     ]
@@ -53253,6 +53327,11 @@
       {
         "status": "Available",
         "start": 1761528028,
+        "end": 1761530437
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761530437,
         "end": null
       }
     ]
