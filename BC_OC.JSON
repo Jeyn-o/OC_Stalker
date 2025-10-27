@@ -45912,9 +45912,18 @@
   "967673": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1761609699,
+    "ready_at": 1761636292,
     "executed_at": null,
-    "slots": {},
+    "slots": {
+      "P3": {
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 60,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": true
+      }
+    },
     "action_log": [
       {
         "timestamp": 1761523841,
@@ -45936,6 +45945,17 @@
         "checkpoint_pass_rate": 62,
         "position": "Thief",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1761550237,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 60,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     ]
