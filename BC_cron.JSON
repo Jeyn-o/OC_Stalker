@@ -2317,6 +2317,11 @@
       {
         "status": "Available",
         "start": 1761523839,
+        "end": 1761524431
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1761524431,
         "end": null
       }
     ]
@@ -5328,6 +5333,11 @@
       {
         "status": "Jail",
         "start": 1761506435,
+        "end": 1761524431
+      },
+      {
+        "status": "Available",
+        "start": 1761524431,
         "end": null
       }
     ]
@@ -12917,6 +12927,11 @@
       {
         "status": "Available",
         "start": 1761514830,
+        "end": 1761524431
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761524431,
         "end": null
       }
     ]
@@ -20582,6 +20597,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761522633,
+        "end": 1761524431
+      },
+      {
+        "status": "Available",
+        "start": 1761524431,
         "end": null
       }
     ]
@@ -26788,8 +26808,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1761522633,
-        "end": null,
+        "end": 1761524431,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1761524431,
+        "end": null
       }
     ]
   },
@@ -31440,7 +31465,13 @@
       {
         "status": "[Mexico] Lost - Revives: Partial",
         "start": 1761523839,
-        "end": null
+        "end": 1761524431
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1761524431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -50214,7 +50245,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761523839,
-        "end": null
+        "end": 1761524431
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761524431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
