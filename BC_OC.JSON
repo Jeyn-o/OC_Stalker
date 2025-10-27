@@ -44312,9 +44312,17 @@
   "953506": {
     "name": "Cash Me if You Can",
     "status": "Recruiting",
-    "ready_at": 1761155533,
+    "ready_at": 1761609908,
     "executed_at": null,
-    "slots": {},
+    "slots": {
+      "P3": {
+        "user_id": 3178876,
+        "user_name": "Khallie",
+        "checkpoint_pass_rate": 76,
+        "position": "Lookout",
+        "position_number": 1
+      }
+    },
     "action_log": [
       {
         "timestamp": 1761069670,
@@ -44333,6 +44341,16 @@
         "user_id": 3178876,
         "user_name": "Khallie",
         "checkpoint_pass_rate": 75,
+        "position": "Lookout",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1761523841,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3178876,
+        "user_name": "Khallie",
+        "checkpoint_pass_rate": 76,
         "position": "Lookout",
         "position_number": 1
       }
@@ -45834,10 +45852,31 @@
   "967673": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1761609699,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 2335586,
+        "user_name": "Poundthatass",
+        "checkpoint_pass_rate": 62,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1761523841,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2335586,
+        "user_name": "Poundthatass",
+        "checkpoint_pass_rate": 62,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "968047": {
     "name": "Bidding War",
