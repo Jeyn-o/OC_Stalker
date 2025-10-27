@@ -44306,19 +44306,21 @@
     "status": "Recruiting",
     "ready_at": 1761662344,
     "executed_at": null,
-    "slots": {
-      "P3": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1761576031,
+        "action": "joined",
+        "slot": "P3",
         "user_id": 3932437,
         "user_name": "Stealthination",
         "checkpoint_pass_rate": 60,
         "position": "Lookout",
         "position_number": 1
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1761576031,
-        "action": "joined",
+        "timestamp": 1761576635,
+        "action": "left",
         "slot": "P3",
         "user_id": 3932437,
         "user_name": "Stealthination",
@@ -46017,8 +46019,8 @@
   },
   "968047": {
     "name": "Bidding War",
-    "status": "Recruiting",
-    "ready_at": 1761891318,
+    "status": "Planning",
+    "ready_at": 1761977718,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -46060,6 +46062,13 @@
         "position": "Bomber",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 2162860,
+        "user_name": "daddyg",
+        "checkpoint_pass_rate": 78,
+        "position": "Driver",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -46139,6 +46148,16 @@
         "position": "Bomber",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1761576635,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2162860,
+        "user_name": "daddyg",
+        "checkpoint_pass_rate": 78,
+        "position": "Driver",
+        "position_number": 1
       }
     ]
   },
@@ -46230,5 +46249,40 @@
         "position_number": 1
       }
     ]
+  },
+  "972123": {
+    "name": "Best of the Lot",
+    "status": "Recruiting",
+    "ready_at": 1761662565,
+    "executed_at": null,
+    "slots": {
+      "P3": {
+        "user_id": 3932437,
+        "user_name": "Stealthination",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1761576635,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3932437,
+        "user_name": "Stealthination",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    ]
+  },
+  "972124": {
+    "name": "Pet Project",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
   }
 }
