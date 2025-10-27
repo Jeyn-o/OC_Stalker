@@ -4383,6 +4383,11 @@
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761555637,
+        "end": 1761556838
+      },
+      {
+        "status": "Available",
+        "start": 1761556838,
         "end": null
       }
     ]
@@ -7384,7 +7389,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761555637,
-        "end": null
+        "end": 1761556838
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761556838,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12048,7 +12059,13 @@
       {
         "status": "Available",
         "start": 1761549031,
-        "end": null
+        "end": 1761556838
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1761556838,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21314,6 +21331,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761555637,
+        "end": 1761556838
+      },
+      {
+        "status": "Available",
+        "start": 1761556838,
         "end": null
       }
     ]
@@ -21321,11 +21343,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760347226,
-        "end": 1760358026
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760358026,
@@ -22553,12 +22570,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1760347226,
-        "end": 1760358630,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760358630,
         "end": 1760361026
@@ -23662,8 +23673,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761549633,
-        "end": null,
+        "end": 1761556838,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761556838,
+        "end": null
       }
     ]
   },
@@ -26343,6 +26359,11 @@
       {
         "status": "Available",
         "start": 1761556228,
+        "end": 1761556838
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761556838,
         "end": null
       }
     ]
@@ -46146,6 +46167,11 @@
       {
         "status": "Available",
         "start": 1761555637,
+        "end": 1761556838
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761556838,
         "end": null
       }
     ]
@@ -48216,12 +48242,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1760347226,
-        "end": 1760358630,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760358630,
@@ -52300,6 +52320,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761555637,
+        "end": 1761556838
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1761556838,
         "end": null
       }
     ]
