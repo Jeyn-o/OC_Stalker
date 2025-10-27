@@ -45121,8 +45121,8 @@
   },
   "960844": {
     "name": "Blast from the Past",
-    "status": "Recruiting",
-    "ready_at": 1761722498,
+    "status": "Planning",
+    "ready_at": 1761808898,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -45160,6 +45160,14 @@
         "user_name": "Neodork",
         "checkpoint_pass_rate": 73,
         "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
+      },
+      "P3": {
+        "user_id": 2335586,
+        "user_name": "Poundthatass",
+        "checkpoint_pass_rate": 74,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": false
       }
@@ -45215,6 +45223,17 @@
         "user_name": "Neodork",
         "checkpoint_pass_rate": 73,
         "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1761535838,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2335586,
+        "user_name": "Poundthatass",
+        "checkpoint_pass_rate": 74,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": false
       }
@@ -45876,20 +45895,22 @@
     "status": "Recruiting",
     "ready_at": 1761609699,
     "executed_at": null,
-    "slots": {
-      "P4": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1761523841,
+        "action": "joined",
+        "slot": "P4",
         "user_id": 2335586,
         "user_name": "Poundthatass",
         "checkpoint_pass_rate": 62,
         "position": "Thief",
         "position_number": 1,
         "item_available": true
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1761523841,
-        "action": "joined",
+        "timestamp": 1761535838,
+        "action": "left",
         "slot": "P4",
         "user_id": 2335586,
         "user_name": "Poundthatass",
