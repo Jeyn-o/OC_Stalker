@@ -2418,6 +2418,11 @@
       {
         "status": "Available",
         "start": 1761534047,
+        "end": 1761539433
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761539433,
         "end": null
       }
     ]
@@ -3778,6 +3783,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761538824,
+        "end": 1761539433
+      },
+      {
+        "status": "Available",
+        "start": 1761539433,
         "end": null
       }
     ]
@@ -5625,11 +5635,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760329826,
-        "end": 1760332231
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760332231,
@@ -8882,6 +8887,11 @@
       {
         "status": "Available",
         "start": 1761533431,
+        "end": 1761539433
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1761539433,
         "end": null
       }
     ]
@@ -13501,6 +13511,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761537634,
+        "end": 1761539433
+      },
+      {
+        "status": "Available",
+        "start": 1761539433,
         "end": null
       }
     ]
@@ -14617,7 +14632,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761537031,
-        "end": null
+        "end": 1761539433
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761539433,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35019,11 +35040,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1760329227,
-        "end": 1760342428
-      },
-      {
         "status": "[China] - Returning",
         "start": 1760342428,
         "end": 1760352627,
@@ -35601,11 +35617,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1760329227,
-        "end": 1760334625
-      },
       {
         "status": "Available",
         "start": 1760334625,
@@ -36908,11 +36919,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1760329826,
-        "end": 1760330418
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1760330418,
@@ -38721,8 +38727,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1761528028,
-        "end": null,
+        "end": 1761539433,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1761539433,
+        "end": null
       }
     ]
   },
@@ -45361,6 +45372,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1761538824,
+        "end": 1761539433
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761539433,
         "end": null
       }
     ]
@@ -48749,7 +48765,13 @@
       {
         "status": "Available",
         "start": 1761532829,
-        "end": null
+        "end": 1761539433
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761539433,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -53271,6 +53293,11 @@
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1761537634,
+        "end": 1761539433
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: Partial",
+        "start": 1761539433,
         "end": null
       }
     ]
@@ -54689,6 +54716,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1761526838,
+        "end": 1761539433,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1761539433,
         "end": null,
         "travel_type": "airstrip"
       }
