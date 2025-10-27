@@ -957,6 +957,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761585025,
+        "end": 1761586823
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1761586823,
         "end": null
       }
     ]
@@ -964,11 +969,6 @@
   "446596": {
     "name": "Bucki",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760376631,
-        "end": 1760419219
-      },
       {
         "status": "Jail",
         "start": 1760419219,
@@ -5481,6 +5481,11 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1761586235,
+        "end": 1761586823
+      },
+      {
+        "status": "[Hawaii] Attacked - Revives: Partial",
+        "start": 1761586823,
         "end": null
       }
     ]
@@ -12593,6 +12598,11 @@
       {
         "status": "Available",
         "start": 1761580226,
+        "end": 1761586823
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761586823,
         "end": null
       }
     ]
@@ -13781,6 +13791,11 @@
       {
         "status": "Available",
         "start": 1761586235,
+        "end": 1761586823
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761586823,
         "end": null
       }
     ]
@@ -18093,12 +18108,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1760376631,
-        "end": 1760378433,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760378433,
         "end": 1760379629
@@ -19074,6 +19083,11 @@
       {
         "status": "Available",
         "start": 1761549031,
+        "end": 1761586823
+      },
+      {
+        "status": "Jail",
+        "start": 1761586823,
         "end": null
       }
     ]
@@ -29414,7 +29428,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1761586235,
-        "end": null
+        "end": 1761586823
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1761586823,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -31962,8 +31982,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1761585025,
-        "end": null,
+        "end": 1761586823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761586823,
+        "end": null
       }
     ]
   },
@@ -36809,6 +36834,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761585025,
+        "end": 1761586823
+      },
+      {
+        "status": "Available",
+        "start": 1761586823,
         "end": null
       }
     ]
@@ -37931,12 +37961,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1760376631,
-        "end": 1760389233,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1760389233,
@@ -40626,7 +40650,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761586235,
-        "end": null
+        "end": 1761586823
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1761586823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -52332,6 +52362,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1761582635,
+        "end": 1761586823
+      },
+      {
+        "status": "Available",
+        "start": 1761586823,
         "end": null
       }
     ]
