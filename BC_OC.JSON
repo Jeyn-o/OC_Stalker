@@ -45703,7 +45703,7 @@
   "967671": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1761729556,
+    "ready_at": 1761643156,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -45719,14 +45719,6 @@
         "user_name": "Hussc-",
         "checkpoint_pass_rate": 71,
         "position": "Looter",
-        "position_number": 1,
-        "item_available": false
-      },
-      "P5": {
-        "user_id": 2677851,
-        "user_name": "Morot",
-        "checkpoint_pass_rate": 83,
-        "position": "Engineer",
         "position_number": 1,
         "item_available": false
       }
@@ -45757,6 +45749,17 @@
       {
         "timestamp": 1761503436,
         "action": "joined",
+        "slot": "P5",
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 83,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1761529831,
+        "action": "left",
         "slot": "P5",
         "user_id": 2677851,
         "user_name": "Morot",
@@ -45994,7 +45997,7 @@
   "969709": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": 1761613474,
+    "ready_at": 1761699874,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -46003,6 +46006,14 @@
         "checkpoint_pass_rate": 74,
         "position": "Enforcer",
         "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 66,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -46016,6 +46027,17 @@
         "checkpoint_pass_rate": 74,
         "position": "Enforcer",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1761529831,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 66,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     ]
