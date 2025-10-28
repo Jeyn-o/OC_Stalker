@@ -3765,8 +3765,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1761639628,
-        "end": null,
+        "end": 1761640233,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1761640233,
+        "end": null
       }
     ]
   },
@@ -4642,6 +4647,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761638440,
+        "end": 1761640233
+      },
+      {
+        "status": "Available",
+        "start": 1761640233,
         "end": null
       }
     ]
@@ -8618,7 +8628,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761639628,
-        "end": null
+        "end": 1761640233
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1761640233,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13427,7 +13443,13 @@
       {
         "status": "[United Kingdom] Lost - Revives: ALL",
         "start": 1761639628,
-        "end": null
+        "end": 1761640233
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761640233,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -14918,7 +14940,13 @@
       {
         "status": "Available",
         "start": 1761639628,
-        "end": null
+        "end": 1761640233
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1761640233,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -15430,12 +15458,6 @@
   "2655203": {
     "name": "Vampire-Catgirl",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1760430024,
-        "end": 1760437826,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760437826,
@@ -35067,7 +35089,13 @@
       {
         "status": "[Canada] Lost - Revives: ALL",
         "start": 1761637825,
-        "end": null
+        "end": 1761640233
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1761640233,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -35942,11 +35970,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760430024,
-        "end": 1760512227
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1760512227,
@@ -47172,12 +47195,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1760430024,
-        "end": 1760431824,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1760431824,
         "end": 1760433619,
@@ -49151,6 +49168,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761639628,
+        "end": 1761640233
+      },
+      {
+        "status": "Available",
+        "start": 1761640233,
         "end": null
       }
     ]
@@ -54405,6 +54427,11 @@
       {
         "status": "[Cayman Islands] Mugged - Revives: ALL",
         "start": 1761637825,
+        "end": 1761640233
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1761640233,
         "end": null
       }
     ]
