@@ -2249,6 +2249,11 @@
       {
         "status": "Available",
         "start": 1761690024,
+        "end": 1761692436
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1761692436,
         "end": null
       }
     ]
@@ -7532,6 +7537,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761690024,
+        "end": 1761692436
+      },
+      {
+        "status": "Available",
+        "start": 1761692436,
         "end": null
       }
     ]
@@ -16693,6 +16703,11 @@
       {
         "status": "Available",
         "start": 1761681637,
+        "end": 1761692436
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761692436,
         "end": null
       }
     ]
@@ -31907,11 +31922,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1760482226,
-        "end": 1760482834
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1760482834,
         "end": 1760485826,
@@ -42173,7 +42183,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761691820,
-        "end": null
+        "end": 1761692436
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761692436,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -45052,11 +45068,6 @@
     "name": "Littlegman212",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760482226,
-        "end": 1760502633
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1760502633,
         "end": 1760505024
@@ -46164,8 +46175,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1761681637,
-        "end": null,
+        "end": 1761692436,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1761692436,
+        "end": null
       }
     ]
   },
@@ -52653,7 +52669,13 @@
       {
         "status": "[China] - Idle",
         "start": 1761690634,
-        "end": null
+        "end": 1761692436
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761692436,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -61455,7 +61477,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761688227,
-        "end": null
+        "end": 1761692436
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761692436,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -62779,11 +62807,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760482226,
-        "end": 1760484018
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1760484018,
@@ -64327,6 +64350,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761685822,
+        "end": 1761692436,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761692436,
         "end": null,
         "travel_type": "airstrip"
       }
