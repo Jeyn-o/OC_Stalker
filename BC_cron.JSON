@@ -1118,6 +1118,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761642623,
+        "end": 1761643830
+      },
+      {
+        "status": "Available",
+        "start": 1761643830,
         "end": null
       }
     ]
@@ -2951,6 +2956,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761643230,
+        "end": 1761643830
+      },
+      {
+        "status": "Available",
+        "start": 1761643830,
         "end": null
       }
     ]
@@ -15473,6 +15483,11 @@
       {
         "status": "Available",
         "start": 1761630029,
+        "end": 1761643830
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761643830,
         "end": null
       }
     ]
@@ -17827,6 +17842,11 @@
       {
         "status": "Available",
         "start": 1761619227,
+        "end": 1761643830
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761643830,
         "end": null
       }
     ]
@@ -19605,7 +19625,13 @@
       {
         "status": "Available",
         "start": 1761643230,
-        "end": null
+        "end": 1761643830
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1761643830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39767,7 +39793,13 @@
       {
         "status": "Available",
         "start": 1761642623,
-        "end": null
+        "end": 1761643830
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1761643830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -61044,8 +61076,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761637220,
-        "end": null,
+        "end": 1761643830,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Jail",
+        "start": 1761643830,
+        "end": null
       }
     ]
   },
