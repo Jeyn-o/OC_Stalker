@@ -2431,6 +2431,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761653422,
+        "end": 1761655226
+      },
+      {
+        "status": "Available",
+        "start": 1761655226,
         "end": null
       }
     ]
@@ -13531,6 +13536,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761654634,
+        "end": 1761655226
+      },
+      {
+        "status": "[Argentina] Attacked - Revives: ALL",
+        "start": 1761655226,
         "end": null
       }
     ]
@@ -15243,8 +15253,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1761652220,
-        "end": null,
+        "end": 1761655226,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1761655226,
+        "end": null
       }
     ]
   },
@@ -16022,12 +16037,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1760445033,
-        "end": 1760452229,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1760452229,
@@ -23307,6 +23316,11 @@
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761654025,
+        "end": 1761655226
+      },
+      {
+        "status": "Available",
+        "start": 1761655226,
         "end": null
       }
     ]
@@ -25096,6 +25110,11 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761654634,
+        "end": 1761655226
+      },
+      {
+        "status": "[Switzerland] Lost - Revives: ALL",
+        "start": 1761655226,
         "end": null
       }
     ]
@@ -28776,7 +28795,13 @@
       {
         "status": "Available",
         "start": 1761646830,
-        "end": null
+        "end": 1761655226
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1761655226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30451,6 +30476,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761654025,
+        "end": 1761655226
+      },
+      {
+        "status": "Available",
+        "start": 1761655226,
         "end": null
       }
     ]
@@ -44490,12 +44520,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1760445033,
-        "end": 1760455230,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1760455230,
         "end": 1760455830
@@ -53760,8 +53784,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1761645025,
-        "end": null,
+        "end": 1761655226,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: ALL",
+        "start": 1761655226,
+        "end": null
       }
     ]
   },
@@ -60358,6 +60387,11 @@
       {
         "status": "Available",
         "start": 1761654634,
+        "end": 1761655226
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: Partial",
+        "start": 1761655226,
         "end": null
       }
     ]
