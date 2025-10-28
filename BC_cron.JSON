@@ -3595,11 +3595,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: OFF",
-        "start": 1760411427,
-        "end": 1760412026
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1760412026,
         "end": 1760412632
@@ -10236,8 +10231,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1761616830,
-        "end": null,
+        "end": 1761621620,
         "travel_type": "private"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1761621620,
+        "end": null
       }
     ]
   },
@@ -24878,6 +24878,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761619827,
+        "end": 1761621620
+      },
+      {
+        "status": "Available",
+        "start": 1761621620,
         "end": null
       }
     ]
@@ -26574,6 +26579,11 @@
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761620432,
+        "end": 1761621620
+      },
+      {
+        "status": "Available",
+        "start": 1761621620,
         "end": null
       }
     ]
@@ -31089,6 +31099,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761621030,
+        "end": 1761621620
+      },
+      {
+        "status": "Available",
+        "start": 1761621620,
         "end": null
       }
     ]
@@ -34238,6 +34253,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761620432,
+        "end": 1761621620
+      },
+      {
+        "status": "Available",
+        "start": 1761621620,
         "end": null
       }
     ]
@@ -36470,6 +36490,11 @@
       {
         "status": "Available",
         "start": 1761620432,
+        "end": 1761621620
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761621620,
         "end": null
       }
     ]
@@ -49717,6 +49742,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1761615626,
+        "end": 1761621620
+      },
+      {
+        "status": "Available",
+        "start": 1761621620,
         "end": null
       }
     ]
@@ -53397,7 +53427,13 @@
       {
         "status": "Available",
         "start": 1761618024,
-        "end": null
+        "end": 1761621620
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1761621620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
