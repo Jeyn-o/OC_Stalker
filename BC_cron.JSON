@@ -1158,6 +1158,11 @@
       {
         "status": "Available",
         "start": 1761654634,
+        "end": 1761655825
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1761655825,
         "end": null
       }
     ]
@@ -4764,6 +4769,11 @@
       {
         "status": "Available",
         "start": 1761646218,
+        "end": 1761655825
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761655825,
         "end": null
       }
     ]
@@ -15259,6 +15269,11 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761655226,
+        "end": 1761655825
+      },
+      {
+        "status": "[Switzerland] Lost - Revives: OFF",
+        "start": 1761655825,
         "end": null
       }
     ]
@@ -18410,6 +18425,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1761638440,
+        "end": 1761655825,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1761655825,
         "end": null,
         "travel_type": "standard"
       }
@@ -18803,12 +18824,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1760445622,
-        "end": 1760452229,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760452229,
@@ -25115,6 +25130,11 @@
       {
         "status": "[Switzerland] Lost - Revives: ALL",
         "start": 1761655226,
+        "end": 1761655825
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1761655825,
         "end": null
       }
     ]
@@ -36613,6 +36633,11 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761654634,
+        "end": 1761655825
+      },
+      {
+        "status": "[Switzerland] Lost - Revives: ALL",
+        "start": 1761655825,
         "end": null
       }
     ]
@@ -37792,7 +37817,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1761652839,
-        "end": null
+        "end": 1761655825
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1761655825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39035,8 +39066,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1761648620,
-        "end": null,
+        "end": 1761655825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761655825,
+        "end": null
       }
     ]
   },
@@ -44187,6 +44223,11 @@
       {
         "status": "Available",
         "start": 1761651034,
+        "end": 1761655825
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761655825,
         "end": null
       }
     ]
@@ -45308,11 +45349,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1760445622,
-        "end": 1760446226
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1760446226,
@@ -52019,6 +52055,11 @@
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1761654025,
+        "end": 1761655825
+      },
+      {
+        "status": "Available",
+        "start": 1761655825,
         "end": null
       }
     ]
@@ -55236,6 +55277,11 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1761654634,
+        "end": 1761655825
+      },
+      {
+        "status": "[Cayman Islands] Attacked - Revives: ALL",
+        "start": 1761655825,
         "end": null
       }
     ]
@@ -56482,6 +56528,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761654025,
+        "end": 1761655825
+      },
+      {
+        "status": "Available",
+        "start": 1761655825,
         "end": null
       }
     ]
@@ -56489,12 +56540,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1760445622,
-        "end": 1760447427,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1760447427,
@@ -60399,11 +60444,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1760445622,
-        "end": 1760446226
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760446226,
