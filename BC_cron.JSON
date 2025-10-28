@@ -7466,6 +7466,11 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1761632422,
+        "end": 1761634830
+      },
+      {
+        "status": "[Mexico] Mugged - Revives: OFF",
+        "start": 1761634830,
         "end": null
       }
     ]
@@ -9910,6 +9915,11 @@
       {
         "status": "Available",
         "start": 1761632422,
+        "end": 1761634830
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: Partial",
+        "start": 1761634830,
         "end": null
       }
     ]
@@ -13255,6 +13265,11 @@
       {
         "status": "[Mexico] Lost - Revives: ALL",
         "start": 1761634231,
+        "end": 1761634830
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1761634830,
         "end": null
       }
     ]
@@ -18203,12 +18218,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1760424629,
-        "end": 1760431225,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1760431225,
@@ -35702,19 +35711,19 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761634231,
-        "end": null
+        "end": 1761634830
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761634830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1760424629,
-        "end": 1760430024,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760430024,
@@ -36883,7 +36892,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1761634231,
-        "end": null
+        "end": 1761634830
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1761634830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43563,12 +43578,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1760424629,
-        "end": 1760434823,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Returning",
         "start": 1760434823,
@@ -50412,6 +50421,11 @@
       {
         "status": "Available",
         "start": 1761621620,
+        "end": 1761634830
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761634830,
         "end": null
       }
     ]
@@ -50954,6 +50968,11 @@
       {
         "status": "[Hospital] Lost - Revives: Partial",
         "start": 1761634231,
+        "end": 1761634830
+      },
+      {
+        "status": "Available",
+        "start": 1761634830,
         "end": null
       }
     ]
@@ -50961,11 +50980,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1760424629,
-        "end": 1760426428
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1760426428,
@@ -55097,8 +55111,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1761629431,
-        "end": null,
+        "end": 1761634830,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761634830,
+        "end": null
       }
     ]
   },
