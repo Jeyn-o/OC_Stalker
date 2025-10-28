@@ -3605,11 +3605,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760413827,
-        "end": 1760414441
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1760414441,
         "end": 1760415622
@@ -5093,6 +5088,11 @@
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1761622834,
+        "end": 1761624037
+      },
+      {
+        "status": "Available",
+        "start": 1761624037,
         "end": null
       }
     ]
@@ -8354,6 +8354,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1761613822,
+        "end": 1761624037
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761624037,
         "end": null
       }
     ]
@@ -16624,6 +16629,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761622834,
+        "end": 1761624037
+      },
+      {
+        "status": "Available",
+        "start": 1761624037,
         "end": null
       }
     ]
@@ -26348,6 +26358,11 @@
       {
         "status": "Available",
         "start": 1761623420,
+        "end": 1761624037
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: Partial",
+        "start": 1761624037,
         "end": null
       }
     ]
@@ -26602,6 +26617,11 @@
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1761622233,
+        "end": 1761624037
+      },
+      {
+        "status": "Available",
+        "start": 1761624037,
         "end": null
       }
     ]
@@ -37512,11 +37532,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760413827,
-        "end": 1760414441
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1760414441,
         "end": 1760416232,
@@ -42658,8 +42673,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761612621,
-        "end": null,
+        "end": 1761624037,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761624037,
+        "end": null
       }
     ]
   },
@@ -48295,6 +48315,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1761622834,
+        "end": 1761624037,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1761624037,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -51531,6 +51557,11 @@
       {
         "status": "Available",
         "start": 1761619827,
+        "end": 1761624037
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1761624037,
         "end": null
       }
     ]
@@ -54694,6 +54725,11 @@
       {
         "status": "Available",
         "start": 1761619827,
+        "end": 1761624037
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761624037,
         "end": null
       }
     ]
@@ -56312,7 +56348,13 @@
       {
         "status": "Available",
         "start": 1761623420,
-        "end": null
+        "end": 1761624037
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761624037,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -57469,6 +57511,11 @@
       {
         "status": "Available",
         "start": 1761621030,
+        "end": 1761624037
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1761624037,
         "end": null
       }
     ]
@@ -57476,12 +57523,6 @@
   "3932437": {
     "name": "Stealthination",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1760413827,
-        "end": 1760415622,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1760415622,
