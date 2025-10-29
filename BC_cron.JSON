@@ -3567,12 +3567,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760546428,
-        "end": 1760553624,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760553624,
         "end": 1760602220
@@ -14047,8 +14041,13 @@
       {
         "status": "[China] - Going",
         "start": 1761752432,
-        "end": null,
+        "end": 1761756625,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1761756625,
+        "end": null
       }
     ]
   },
@@ -30675,6 +30674,11 @@
       {
         "status": "Available",
         "start": 1761751336,
+        "end": 1761756625
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: Partial",
+        "start": 1761756625,
         "end": null
       }
     ]
@@ -30979,12 +30983,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1760546428,
-        "end": 1760559621,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1760559621,
@@ -33747,6 +33745,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1761755433,
+        "end": 1761756625
+      },
+      {
+        "status": "Available",
+        "start": 1761756625,
         "end": null
       }
     ]
@@ -33754,12 +33757,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1760546428,
-        "end": 1760547025,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1760547025,
@@ -35826,6 +35823,11 @@
       {
         "status": "[Mexico] Attacked - Revives: ALL",
         "start": 1761756033,
+        "end": 1761756625
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1761756625,
         "end": null
       }
     ]
@@ -37336,6 +37338,11 @@
       {
         "status": "Available",
         "start": 1761751832,
+        "end": 1761756625
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761756625,
         "end": null
       }
     ]
@@ -39457,12 +39464,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760546428,
-        "end": 1760553037,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760553037,
         "end": 1760587233
@@ -40945,11 +40946,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760546428,
-        "end": 1760557830
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1760557830,
@@ -47335,11 +47331,6 @@
     "name": "Littlegman212",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1760546428,
-        "end": 1760548821
-      },
-      {
         "status": "Available",
         "start": 1760548821,
         "end": 1760624441
@@ -51705,6 +51696,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1761756033,
+        "end": 1761756625,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1761756625,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -54468,6 +54465,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761755433,
+        "end": 1761756625
+      },
+      {
+        "status": "Available",
+        "start": 1761756625,
         "end": null
       }
     ]
@@ -56205,6 +56207,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1761755433,
+        "end": 1761756625
+      },
+      {
+        "status": "Available",
+        "start": 1761756625,
         "end": null
       }
     ]
@@ -56945,6 +56952,11 @@
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761755433,
+        "end": 1761756625
+      },
+      {
+        "status": "Available",
+        "start": 1761756625,
         "end": null
       }
     ]
@@ -61367,7 +61379,13 @@
       {
         "status": "Available",
         "start": 1761745826,
-        "end": null
+        "end": 1761756625
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1761756625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
