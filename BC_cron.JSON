@@ -5381,6 +5381,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761732617,
+        "end": 1761733828
+      },
+      {
+        "status": "Available",
+        "start": 1761733828,
         "end": null
       }
     ]
@@ -6221,6 +6226,11 @@
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761732617,
+        "end": 1761733828
+      },
+      {
+        "status": "Available",
+        "start": 1761733828,
         "end": null
       }
     ]
@@ -9702,8 +9712,13 @@
       {
         "status": "[China] - Returning",
         "start": 1761724224,
-        "end": null,
+        "end": 1761733828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761733828,
+        "end": null
       }
     ]
   },
@@ -13678,8 +13693,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1761728433,
-        "end": null,
+        "end": 1761733828,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1761733828,
+        "end": null
       }
     ]
   },
@@ -18891,12 +18911,6 @@
   "2675301": {
     "name": "ExiledAstronaut",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1760523621,
-        "end": 1760530830,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760530830,
@@ -36523,11 +36537,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760523621,
-        "end": 1760524828
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1760524828,
         "end": 1760526621,
@@ -37915,8 +37924,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1761726626,
-        "end": null,
+        "end": 1761733828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761733828,
+        "end": null
       }
     ]
   },
@@ -38604,6 +38618,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761732617,
+        "end": 1761733828
+      },
+      {
+        "status": "Available",
+        "start": 1761733828,
         "end": null
       }
     ]
@@ -40089,12 +40108,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1760523621,
-        "end": 1760530830,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1760530830,
@@ -48760,11 +48773,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1760523621,
-        "end": 1760524828
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1760524828,
         "end": 1760531429,
@@ -51390,11 +51398,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1760523621,
-        "end": 1760526621
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1760526621,
@@ -56989,6 +56992,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1761676234,
+        "end": 1761733828
+      },
+      {
+        "status": "Available",
+        "start": 1761733828,
         "end": null
       }
     ]
@@ -62196,7 +62204,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761733219,
-        "end": null
+        "end": 1761733828
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761733828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -66179,7 +66193,13 @@
       {
         "status": "Available",
         "start": 1761733219,
-        "end": null
+        "end": 1761733828
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1761733828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
