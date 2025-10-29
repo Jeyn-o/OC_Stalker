@@ -738,11 +738,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760571625,
-        "end": 1761388824
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761388824,
         "end": 1761391233
@@ -4488,11 +4483,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760571625,
-        "end": 1760799633
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1760799633,
         "end": 1760806845,
@@ -7433,6 +7423,11 @@
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761780025,
+        "end": 1761781825
+      },
+      {
+        "status": "Available",
+        "start": 1761781825,
         "end": null
       }
     ]
@@ -11961,11 +11956,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1760571625,
-        "end": 1760575225
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760575225,
         "end": 1760583639,
@@ -14275,7 +14265,13 @@
       {
         "status": "[China] - Idle",
         "start": 1761769225,
-        "end": null
+        "end": 1761781825
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761781825,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -19106,6 +19102,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761780025,
+        "end": 1761781825
+      },
+      {
+        "status": "Available",
+        "start": 1761781825,
         "end": null
       }
     ]
@@ -24689,11 +24690,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1760571625,
-        "end": 1760586022
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1760586022,
@@ -32523,8 +32519,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761775235,
-        "end": null,
+        "end": 1761781825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1761781825,
+        "end": null
       }
     ]
   },
@@ -60209,11 +60210,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1760571625,
-        "end": 1760572226
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760572226,
         "end": 1760583639,
@@ -67299,6 +67295,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761780025,
+        "end": 1761781825
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1761781825,
         "end": null
       }
     ]
