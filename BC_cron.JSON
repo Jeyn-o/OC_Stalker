@@ -10634,6 +10634,11 @@
       {
         "status": "Available",
         "start": 1761718221,
+        "end": 1761718823
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761718823,
         "end": null
       }
     ]
@@ -14073,6 +14078,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761717633,
+        "end": 1761718823
+      },
+      {
+        "status": "Available",
+        "start": 1761718823,
         "end": null
       }
     ]
@@ -29696,7 +29706,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761717025,
-        "end": null
+        "end": 1761718823
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761718823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29978,6 +29994,11 @@
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1761717025,
+        "end": 1761718823
+      },
+      {
+        "status": "Available",
+        "start": 1761718823,
         "end": null
       }
     ]
@@ -36249,12 +36270,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1760508621,
-        "end": 1760515825,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1760515825,
         "end": 1760523621,
@@ -37636,8 +37651,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761707424,
-        "end": null,
+        "end": 1761718823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761718823,
+        "end": null
       }
     ]
   },
@@ -45261,11 +45281,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1760508621,
-        "end": 1760515825
-      },
       {
         "status": "[Argentina] Mugged - Revives: ALL",
         "start": 1760515825,
@@ -53163,6 +53178,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1761717633,
+        "end": 1761718823,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1761718823,
         "end": null,
         "travel_type": "airstrip"
       }
