@@ -1268,6 +1268,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761696627,
+        "end": 1761700222
+      },
+      {
+        "status": "Available",
+        "start": 1761700222,
         "end": null
       }
     ]
@@ -2289,6 +2294,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761698431,
+        "end": 1761700222
+      },
+      {
+        "status": "Available",
+        "start": 1761700222,
         "end": null
       }
     ]
@@ -7405,6 +7415,11 @@
       {
         "status": "Available",
         "start": 1761699026,
+        "end": 1761700222
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1761700222,
         "end": null
       }
     ]
@@ -11575,6 +11590,11 @@
       {
         "status": "Available",
         "start": 1761698431,
+        "end": 1761700222
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1761700222,
         "end": null
       }
     ]
@@ -13786,6 +13806,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761699026,
+        "end": 1761700222
+      },
+      {
+        "status": "Available",
+        "start": 1761700222,
         "end": null
       }
     ]
@@ -14422,6 +14447,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761697831,
+        "end": 1761700222
+      },
+      {
+        "status": "Available",
+        "start": 1761700222,
         "end": null
       }
     ]
@@ -21186,8 +21216,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1761693023,
-        "end": null,
+        "end": 1761700222,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1761700222,
+        "end": null
       }
     ]
   },
@@ -23696,12 +23731,6 @@
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1760490037,
-        "end": 1760491830,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760491830,
@@ -37584,6 +37613,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1761699026,
+        "end": 1761700222
+      },
+      {
+        "status": "Available",
+        "start": 1761700222,
         "end": null
       }
     ]
@@ -56443,12 +56477,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1760490037,
-        "end": 1760501426,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760501426,
         "end": 1760502633
@@ -57885,7 +57913,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1761698431,
-        "end": null
+        "end": 1761700222
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1761700222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -62081,6 +62115,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761697831,
+        "end": 1761700222
+      },
+      {
+        "status": "Available",
+        "start": 1761700222,
         "end": null
       }
     ]
@@ -64714,7 +64753,13 @@
       {
         "status": "Available",
         "start": 1761699026,
-        "end": null
+        "end": 1761700222
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1761700222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
