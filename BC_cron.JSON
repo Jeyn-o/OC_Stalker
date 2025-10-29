@@ -3400,6 +3400,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761716425,
+        "end": 1761717633
+      },
+      {
+        "status": "Available",
+        "start": 1761717633,
         "end": null
       }
     ]
@@ -14048,6 +14053,11 @@
       {
         "status": "Available",
         "start": 1761700222,
+        "end": 1761717633
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761717633,
         "end": null
       }
     ]
@@ -15893,6 +15903,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761717025,
+        "end": 1761717633
+      },
+      {
+        "status": "Available",
+        "start": 1761717633,
         "end": null
       }
     ]
@@ -40487,6 +40502,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1761705028,
+        "end": 1761717633,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1761717633,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -51060,12 +51081,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1760507428,
-        "end": 1760509228,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1760509228,
         "end": 1760511019,
@@ -53128,7 +53143,13 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761716425,
-        "end": null
+        "end": 1761717633
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1761717633,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -54796,6 +54817,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761716425,
+        "end": 1761717633
+      },
+      {
+        "status": "Available",
+        "start": 1761717633,
         "end": null
       }
     ]
@@ -55495,12 +55521,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1760507428,
-        "end": 1760509228,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1760509228,
@@ -58875,6 +58895,11 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1761717025,
+        "end": 1761717633
+      },
+      {
+        "status": "[Cayman Islands] Mugged - Revives: ALL",
+        "start": 1761717633,
         "end": null
       }
     ]
@@ -61831,12 +61856,6 @@
     "name": "Lucifixion",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760507428,
-        "end": 1760514026,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1760514026,
         "end": 1760520629,
@@ -64249,11 +64268,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1760507428,
-        "end": 1760514026
-      },
       {
         "status": "[United Kingdom] Attacked - Revives: ALL",
         "start": 1760514026,
