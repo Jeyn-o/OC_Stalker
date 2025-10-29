@@ -1292,6 +1292,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761718221,
+        "end": 1761720029
+      },
+      {
+        "status": "Available",
+        "start": 1761720029,
         "end": null
       }
     ]
@@ -10211,6 +10216,11 @@
       {
         "status": "Available",
         "start": 1761678623,
+        "end": 1761720029
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761720029,
         "end": null
       }
     ]
@@ -10639,6 +10649,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761718823,
+        "end": 1761720029
+      },
+      {
+        "status": "Available",
+        "start": 1761720029,
         "end": null
       }
     ]
@@ -11272,6 +11287,11 @@
       {
         "status": "Available",
         "start": 1761712826,
+        "end": 1761720029
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: Partial",
+        "start": 1761720029,
         "end": null
       }
     ]
@@ -14738,6 +14758,11 @@
       {
         "status": "Available",
         "start": 1761713425,
+        "end": 1761720029
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761720029,
         "end": null
       }
     ]
@@ -15255,6 +15280,11 @@
       {
         "status": "Available",
         "start": 1761629431,
+        "end": 1761720029
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761720029,
         "end": null
       }
     ]
@@ -18727,11 +18757,6 @@
     "name": "ExiledAstronaut",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1760510419,
-        "end": 1760514026
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1760514026,
         "end": 1760515825
@@ -20545,12 +20570,6 @@
     "name": "Hussc-",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1760510419,
-        "end": 1760517623,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1760517623,
         "end": 1760524828,
@@ -22350,11 +22369,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760510419,
-        "end": 1760521826
-      },
       {
         "status": "Jail",
         "start": 1760521826,
@@ -31021,6 +31035,11 @@
       {
         "status": "Available",
         "start": 1761719426,
+        "end": 1761720029
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761720029,
         "end": null
       }
     ]
@@ -31650,12 +31669,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1760510419,
-        "end": 1760521826,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760521826,
@@ -46540,6 +46553,11 @@
       {
         "status": "Available",
         "start": 1761715222,
+        "end": 1761720029
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761720029,
         "end": null
       }
     ]
@@ -46547,12 +46565,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1760510419,
-        "end": 1760522438,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760522438,
@@ -47698,12 +47710,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1760510419,
-        "end": 1760517031,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760517031,
@@ -55562,12 +55568,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1760510419,
-        "end": 1760511633,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760511633,
         "end": 1760523026
@@ -58940,7 +58940,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1761719426,
-        "end": null
+        "end": 1761720029
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1761720029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
