@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1760514026,
-        "end": 1760516430
-      },
-      {
         "status": "[South Africa] Mugged - Revives: OFF",
         "start": 1760516430,
         "end": 1760518216
@@ -2347,7 +2342,13 @@
       {
         "status": "[United Kingdom] Mugged - Revives: OFF",
         "start": 1761722419,
-        "end": null
+        "end": 1761724224
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761724224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2719,6 +2720,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761723625,
+        "end": 1761724224
+      },
+      {
+        "status": "Available",
+        "start": 1761724224,
         "end": null
       }
     ]
@@ -4272,6 +4278,11 @@
       {
         "status": "Available",
         "start": 1761685822,
+        "end": 1761724224
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1761724224,
         "end": null
       }
     ]
@@ -6165,11 +6176,6 @@
   "1423268": {
     "name": "corpheus",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760514026,
-        "end": 1760649622
-      },
       {
         "status": "Jail",
         "start": 1760649622,
@@ -9671,6 +9677,12 @@
       {
         "status": "[China] - Going",
         "start": 1761714028,
+        "end": 1761724224,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761724224,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -18790,11 +18802,6 @@
     "name": "ExiledAstronaut",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1760514026,
-        "end": 1760515825
-      },
-      {
         "status": "Available",
         "start": 1760515825,
         "end": 1760516430
@@ -19338,6 +19345,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761723625,
+        "end": 1761724224
+      },
+      {
+        "status": "Available",
+        "start": 1761724224,
         "end": null
       }
     ]
@@ -20616,6 +20628,11 @@
       {
         "status": "Available",
         "start": 1761714628,
+        "end": 1761724224
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1761724224,
         "end": null
       }
     ]
@@ -27119,6 +27136,11 @@
       {
         "status": "Available",
         "start": 1761709820,
+        "end": 1761724224
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761724224,
         "end": null
       }
     ]
@@ -27126,12 +27148,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1760514026,
-        "end": 1760525427,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760525427,
@@ -34944,7 +34960,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761712826,
-        "end": null
+        "end": 1761724224
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1761724224,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -43368,20 +43390,19 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1761717025,
-        "end": null,
+        "end": 1761724224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761724224,
+        "end": null
       }
     ]
   },
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1760514026,
-        "end": 1760524828,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760524828,
@@ -45016,12 +45037,6 @@
   "3619214": {
     "name": "GoldenVirginia",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1760514026,
-        "end": 1760520629,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1760520629,
@@ -53318,8 +53333,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1761722419,
-        "end": null,
+        "end": 1761724224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1761724224,
+        "end": null
       }
     ]
   },
@@ -62060,12 +62080,6 @@
     "name": "Lucifixion",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1760514026,
-        "end": 1760520629,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1760520629,
         "end": 1760527227,
@@ -64478,11 +64492,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[United Kingdom] Attacked - Revives: ALL",
-        "start": 1760514026,
-        "end": 1760515238
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760515238,
