@@ -1405,6 +1405,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761810626,
+        "end": 1761812421
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1761812421,
         "end": null
       }
     ]
@@ -2554,8 +2559,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761805219,
-        "end": null,
+        "end": 1761812421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1761812421,
+        "end": null
       }
     ]
   },
@@ -3752,12 +3762,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1760602220,
-        "end": 1760608834,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760608834,
@@ -8443,6 +8447,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761810626,
+        "end": 1761812421
+      },
+      {
+        "status": "Available",
+        "start": 1761812421,
         "end": null
       }
     ]
@@ -26344,7 +26353,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761811825,
-        "end": null
+        "end": 1761812421
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761812421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41500,6 +41515,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761810626,
+        "end": 1761812421
+      },
+      {
+        "status": "Available",
+        "start": 1761812421,
         "end": null
       }
     ]
@@ -42547,6 +42567,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761805827,
+        "end": 1761812421,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761812421,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -44308,6 +44334,11 @@
       {
         "status": "Available",
         "start": 1761806426,
+        "end": 1761812421
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761812421,
         "end": null
       }
     ]
@@ -55226,11 +55257,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1760602220,
-        "end": 1760604620
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1760604620,
         "end": 1760606420,
@@ -58162,7 +58188,13 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761811236,
-        "end": null
+        "end": 1761812421
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1761812421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -60092,6 +60124,11 @@
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761811236,
+        "end": 1761812421
+      },
+      {
+        "status": "Available",
+        "start": 1761812421,
         "end": null
       }
     ]
@@ -62218,6 +62255,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761811236,
+        "end": 1761812421
+      },
+      {
+        "status": "Available",
+        "start": 1761812421,
         "end": null
       }
     ]
@@ -64672,6 +64714,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761811236,
+        "end": 1761812421
+      },
+      {
+        "status": "Available",
+        "start": 1761812421,
         "end": null
       }
     ]
@@ -67803,6 +67850,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761811236,
+        "end": 1761812421
+      },
+      {
+        "status": "Available",
+        "start": 1761812421,
         "end": null
       }
     ]
@@ -69446,8 +69498,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761800432,
-        "end": null,
+        "end": 1761812421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761812421,
+        "end": null
       }
     ]
   },
@@ -71135,6 +71192,11 @@
       {
         "status": "[Hospital] Lost - Revives: Partial",
         "start": 1761811825,
+        "end": 1761812421
+      },
+      {
+        "status": "Available",
+        "start": 1761812421,
         "end": null
       }
     ]
