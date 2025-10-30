@@ -3830,6 +3830,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761832831,
+        "end": 1761833427
+      },
+      {
+        "status": "Available",
+        "start": 1761833427,
         "end": null
       }
     ]
@@ -5969,6 +5974,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761830428,
+        "end": 1761833427
+      },
+      {
+        "status": "Available",
+        "start": 1761833427,
         "end": null
       }
     ]
@@ -9455,11 +9465,6 @@
   "2080816": {
     "name": "Weasel",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760623235,
-        "end": 1760770225
-      },
       {
         "status": "Jail",
         "start": 1760770225,
@@ -13973,11 +13978,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760623235,
-        "end": 1760625032
-      },
-      {
         "status": "[China] - Going",
         "start": 1760625032,
         "end": 1760629226,
@@ -15007,7 +15007,13 @@
       {
         "status": "Available",
         "start": 1761829825,
-        "end": null
+        "end": 1761833427
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1761833427,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -16357,6 +16363,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1761820822,
+        "end": 1761833427,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1761833427,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -18421,8 +18433,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1761822627,
-        "end": null,
+        "end": 1761833427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1761833427,
+        "end": null
       }
     ]
   },
@@ -31729,12 +31746,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1760623235,
-        "end": 1760633425,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1760633425,
         "end": 1760638224
@@ -40149,12 +40160,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1760623235,
-        "end": 1760624441,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1760624441,
         "end": 1760625637,
@@ -47753,6 +47758,11 @@
       {
         "status": "Available",
         "start": 1761832221,
+        "end": 1761833427
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761833427,
         "end": null
       }
     ]
@@ -50618,7 +50628,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761816633,
-        "end": null
+        "end": 1761833427
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761833427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -56316,11 +56332,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1760623235,
-        "end": 1760623826
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1760623826,
         "end": 1760624441
@@ -59263,7 +59274,13 @@
       {
         "status": "[China] - Idle",
         "start": 1761822627,
-        "end": null
+        "end": 1761833427
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1761833427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -61283,6 +61300,11 @@
       {
         "status": "[Hospital] Lost - Revives: Partial",
         "start": 1761832221,
+        "end": 1761833427
+      },
+      {
+        "status": "Available",
+        "start": 1761833427,
         "end": null
       }
     ]
@@ -66395,11 +66417,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760623235,
-        "end": 1760623826
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1760623826,
         "end": 1760624441,
@@ -68104,11 +68121,6 @@
   "3915266": {
     "name": "Lucifixion",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760623235,
-        "end": 1760631619
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1760631619,
