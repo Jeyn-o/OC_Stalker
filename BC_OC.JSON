@@ -45100,7 +45100,7 @@
   "960840": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1761801145,
+    "ready_at": 1761895461,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -45118,6 +45118,14 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": false
+      },
+      "P5": {
+        "user_id": 2655203,
+        "user_name": "FluffyVixen",
+        "checkpoint_pass_rate": 75,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -45142,6 +45150,17 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1761809431,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2655203,
+        "user_name": "FluffyVixen",
+        "checkpoint_pass_rate": 75,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -45351,9 +45370,9 @@
   },
   "960844": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1761808898,
-    "executed_at": null,
+    "executed_at": 1761808926,
     "slots": {
       "P4": {
         "user_id": 2736671,
@@ -47351,8 +47370,8 @@
   },
   "976064": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1761873110,
+    "status": "Planning",
+    "ready_at": 1761959510,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -47368,6 +47387,14 @@
         "checkpoint_pass_rate": 74,
         "position": "Enforcer",
         "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 77,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -47391,6 +47418,17 @@
         "checkpoint_pass_rate": 74,
         "position": "Enforcer",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1761809431,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 77,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     ]
