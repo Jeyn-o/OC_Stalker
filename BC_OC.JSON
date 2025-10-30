@@ -47259,8 +47259,8 @@
   },
   "976062": {
     "name": "No Reserve",
-    "status": "Recruiting",
-    "ready_at": 1761938306,
+    "status": "Planning",
+    "ready_at": 1762024706,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -47278,6 +47278,14 @@
         "position": "Car Thief",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 3540076,
+        "user_name": "Mr_jeff14574",
+        "checkpoint_pass_rate": 73,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -47302,6 +47310,17 @@
         "position": "Car Thief",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1761798632,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3540076,
+        "user_name": "Mr_jeff14574",
+        "checkpoint_pass_rate": 73,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -47364,19 +47383,21 @@
     "status": "Recruiting",
     "ready_at": 1761855156,
     "executed_at": null,
-    "slots": {
-      "P1": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1761769229,
+        "action": "joined",
+        "slot": "P1",
         "user_id": 3540076,
         "user_name": "Mr_jeff14574",
         "checkpoint_pass_rate": 64,
         "position": "Imitator",
         "position_number": 1
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1761769229,
-        "action": "joined",
+        "timestamp": 1761798632,
+        "action": "left",
         "slot": "P1",
         "user_id": 3540076,
         "user_name": "Mr_jeff14574",
