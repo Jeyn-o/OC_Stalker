@@ -9149,8 +9149,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1761799229,
-        "end": null,
+        "end": 1761801031,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1761801031,
+        "end": null
       }
     ]
   },
@@ -33043,7 +33048,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1761799826,
-        "end": null
+        "end": 1761801031
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1761801031,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38562,6 +38573,11 @@
       {
         "status": "Available",
         "start": 1761792625,
+        "end": 1761801031
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761801031,
         "end": null
       }
     ]
@@ -40758,6 +40774,11 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761790228,
+        "end": 1761801031
+      },
+      {
+        "status": "[Switzerland] Mugged - Revives: ALL",
+        "start": 1761801031,
         "end": null
       }
     ]
@@ -48041,6 +48062,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761799229,
+        "end": 1761801031
+      },
+      {
+        "status": "Available",
+        "start": 1761801031,
         "end": null
       }
     ]
@@ -48048,11 +48074,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1760590838,
-        "end": 1760601026
-      },
       {
         "status": "[Switzerland] Mugged - Revives: ALL",
         "start": 1760601026,
@@ -62547,7 +62568,13 @@
       {
         "status": "Available",
         "start": 1761790828,
-        "end": null
+        "end": 1761801031
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1761801031,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -66654,6 +66681,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761798628,
+        "end": 1761801031
+      },
+      {
+        "status": "Available",
+        "start": 1761801031,
         "end": null
       }
     ]
