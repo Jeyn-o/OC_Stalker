@@ -47352,10 +47352,29 @@
   "972900": {
     "name": "Cash Me if You Can",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1761941642,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3820095,
+        "user_name": "Akijiro",
+        "checkpoint_pass_rate": 79,
+        "position": "Lookout",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1761855627,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3820095,
+        "user_name": "Akijiro",
+        "checkpoint_pass_rate": 79,
+        "position": "Lookout",
+        "position_number": 1
+      }
+    ]
   },
   "972901": {
     "name": "Mob Mentality",
@@ -47659,7 +47678,7 @@
   "979065": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": 1761978342,
+    "ready_at": 1762064742,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -47675,6 +47694,13 @@
         "user_name": "Morot",
         "checkpoint_pass_rate": 63,
         "position": "Pickpocket",
+        "position_number": 1
+      },
+      "P1": {
+        "user_id": 2778055,
+        "user_name": "MrPorkenstien",
+        "checkpoint_pass_rate": 64,
+        "position": "Imitator",
         "position_number": 1
       }
     },
@@ -47698,6 +47724,16 @@
         "user_name": "Morot",
         "checkpoint_pass_rate": 63,
         "position": "Pickpocket",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1761855627,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2778055,
+        "user_name": "MrPorkenstien",
+        "checkpoint_pass_rate": 64,
+        "position": "Imitator",
         "position_number": 1
       }
     ]
