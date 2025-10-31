@@ -6721,6 +6721,11 @@
       {
         "status": "Available",
         "start": 1761922238,
+        "end": 1761922839
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761922839,
         "end": null
       }
     ]
@@ -13196,6 +13201,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761921028,
+        "end": 1761922839
+      },
+      {
+        "status": "Available",
+        "start": 1761922839,
         "end": null
       }
     ]
@@ -13667,11 +13677,6 @@
   "2291737": {
     "name": "Special-Needs",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760712631,
-        "end": 1761407425
-      },
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761407425,
@@ -18528,6 +18533,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761913831,
+        "end": 1761922839
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: ALL",
+        "start": 1761922839,
         "end": null
       }
     ]
@@ -23427,6 +23437,11 @@
       {
         "status": "Available",
         "start": 1761916829,
+        "end": 1761922839
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761922839,
         "end": null
       }
     ]
@@ -38553,6 +38568,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761921028,
+        "end": 1761922839
+      },
+      {
+        "status": "Available",
+        "start": 1761922839,
         "end": null
       }
     ]
@@ -42619,8 +42639,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1761919828,
-        "end": null,
+        "end": 1761922839,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1761922839,
+        "end": null
       }
     ]
   },
@@ -46817,6 +46842,11 @@
       {
         "status": "Available",
         "start": 1761921627,
+        "end": 1761922839
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761922839,
         "end": null
       }
     ]
@@ -48005,6 +48035,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761916220,
+        "end": 1761922839,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761922839,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -52550,11 +52586,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1760712631,
-        "end": 1760715634
-      },
       {
         "status": "Available",
         "start": 1760715634,
@@ -58734,11 +58765,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1760712631,
-        "end": 1760713242
-      },
-      {
         "status": "Available",
         "start": 1760713242,
         "end": 1760716831
@@ -63791,7 +63817,13 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761921627,
-        "end": null
+        "end": 1761922839
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1761922839,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -70694,11 +70726,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1760712631,
-        "end": 1760716228
-      },
-      {
         "status": "Available",
         "start": 1760716228,
         "end": 1760717424
@@ -73984,12 +74011,6 @@
   "3915266": {
     "name": "Lucifixion",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1760712631,
-        "end": 1760720442,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1760720442,
