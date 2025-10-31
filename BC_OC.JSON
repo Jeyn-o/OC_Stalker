@@ -48042,7 +48042,7 @@
   "981494": {
     "name": "Mob Mentality",
     "status": "Recruiting",
-    "ready_at": 1761943407,
+    "ready_at": 1762029807,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -48052,6 +48052,13 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3932437,
+        "user_name": "Stealthination",
+        "checkpoint_pass_rate": 83,
+        "position": "Looter",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -48065,6 +48072,16 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1761937250,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3932437,
+        "user_name": "Stealthination",
+        "checkpoint_pass_rate": 83,
+        "position": "Looter",
+        "position_number": 2
       }
     ]
   },
@@ -48073,19 +48090,21 @@
     "status": "Recruiting",
     "ready_at": 1762023010,
     "executed_at": null,
-    "slots": {
-      "P3": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1761936628,
+        "action": "joined",
+        "slot": "P3",
         "user_id": 3932437,
         "user_name": "Stealthination",
         "checkpoint_pass_rate": 62,
         "position": "Lookout",
         "position_number": 1
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1761936628,
-        "action": "joined",
+        "timestamp": 1761937250,
+        "action": "left",
         "slot": "P3",
         "user_id": 3932437,
         "user_name": "Stealthination",
