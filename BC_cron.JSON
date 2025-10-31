@@ -1546,6 +1546,11 @@
       {
         "status": "Available",
         "start": 1761888631,
+        "end": 1761890435
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1761890435,
         "end": null
       }
     ]
@@ -2776,6 +2781,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761888631,
+        "end": 1761890435
+      },
+      {
+        "status": "Available",
+        "start": 1761890435,
         "end": null
       }
     ]
@@ -3263,6 +3273,11 @@
       {
         "status": "Available",
         "start": 1761889224,
+        "end": 1761890435
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761890435,
         "end": null
       }
     ]
@@ -10434,6 +10449,11 @@
       {
         "status": "Available",
         "start": 1761879026,
+        "end": 1761890435
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761890435,
         "end": null
       }
     ]
@@ -10639,6 +10659,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761889820,
+        "end": 1761890435
+      },
+      {
+        "status": "Available",
+        "start": 1761890435,
         "end": null
       }
     ]
@@ -14946,6 +14971,11 @@
       {
         "status": "Available",
         "start": 1761878420,
+        "end": 1761890435
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761890435,
         "end": null
       }
     ]
@@ -20842,11 +20872,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760680228,
-        "end": 1760683819
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1760683819,
         "end": 1760686831
@@ -22386,6 +22411,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761889224,
+        "end": 1761890435
+      },
+      {
+        "status": "Available",
+        "start": 1761890435,
         "end": null
       }
     ]
@@ -24085,6 +24115,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1761871817,
+        "end": 1761890435,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1761890435,
         "end": null,
         "travel_type": "standard"
       }
@@ -24761,6 +24797,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761888631,
+        "end": 1761890435
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1761890435,
         "end": null
       }
     ]
@@ -27745,6 +27786,11 @@
       {
         "status": "Available",
         "start": 1761883235,
+        "end": 1761890435
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761890435,
         "end": null
       }
     ]
@@ -32247,6 +32293,11 @@
       {
         "status": "Available",
         "start": 1761888033,
+        "end": 1761890435
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761890435,
         "end": null
       }
     ]
@@ -41301,6 +41352,11 @@
       {
         "status": "Available",
         "start": 1761882023,
+        "end": 1761890435
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761890435,
         "end": null
       }
     ]
@@ -42628,8 +42684,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1761883235,
-        "end": null,
+        "end": 1761890435,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761890435,
+        "end": null
       }
     ]
   },
@@ -46065,8 +46126,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1761889820,
-        "end": null,
+        "end": 1761890435,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761890435,
+        "end": null
       }
     ]
   },
@@ -47546,7 +47612,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1761889820,
-        "end": null
+        "end": 1761890435
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1761890435,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -50496,6 +50568,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1761889820,
+        "end": 1761890435
+      },
+      {
+        "status": "Available",
+        "start": 1761890435,
         "end": null
       }
     ]
@@ -53430,7 +53507,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1761889820,
-        "end": null
+        "end": 1761890435
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761890435,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -59257,11 +59340,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760680228,
-        "end": 1760683227
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760683227,
         "end": 1760685026
@@ -61537,6 +61615,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1761889224,
+        "end": 1761890435
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1761890435,
         "end": null
       }
     ]
