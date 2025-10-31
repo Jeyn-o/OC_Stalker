@@ -9584,6 +9584,11 @@
       {
         "status": "Available",
         "start": 1761912626,
+        "end": 1761914431
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1761914431,
         "end": null
       }
     ]
@@ -13547,6 +13552,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761913231,
+        "end": 1761914431
+      },
+      {
+        "status": "Available",
+        "start": 1761914431,
         "end": null
       }
     ]
@@ -14043,6 +14053,11 @@
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1761913231,
+        "end": 1761914431
+      },
+      {
+        "status": "Available",
+        "start": 1761914431,
         "end": null
       }
     ]
@@ -15546,6 +15561,11 @@
       {
         "status": "Available",
         "start": 1761908439,
+        "end": 1761914431
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761914431,
         "end": null
       }
     ]
@@ -19272,6 +19292,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761913231,
+        "end": 1761914431
+      },
+      {
+        "status": "Available",
+        "start": 1761914431,
         "end": null
       }
     ]
@@ -19655,6 +19680,11 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761907836,
+        "end": 1761914431
+      },
+      {
+        "status": "[Switzerland] Mugged - Revives: ALL",
+        "start": 1761914431,
         "end": null
       }
     ]
@@ -23255,6 +23285,11 @@
       {
         "status": "Available",
         "start": 1761908439,
+        "end": 1761914431
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761914431,
         "end": null
       }
     ]
@@ -30933,6 +30968,11 @@
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761913831,
+        "end": 1761914431
+      },
+      {
+        "status": "Available",
+        "start": 1761914431,
         "end": null
       }
     ]
@@ -32836,6 +32876,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1761907227,
+        "end": 1761914431,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1761914431,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35277,11 +35323,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1760704234,
-        "end": 1760707223
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760707223,
@@ -45516,7 +45557,13 @@
       {
         "status": "Available",
         "start": 1761913831,
-        "end": null
+        "end": 1761914431
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1761914431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -46486,7 +46533,13 @@
       {
         "status": "[Switzerland] Mugged - Revives: ALL",
         "start": 1761912626,
-        "end": null
+        "end": 1761914431
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761914431,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -47670,6 +47723,11 @@
       {
         "status": "Available",
         "start": 1761913231,
+        "end": 1761914431
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761914431,
         "end": null
       }
     ]
@@ -49707,12 +49765,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1760704234,
-        "end": 1760712026,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1760712026,
@@ -55186,8 +55238,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1761907836,
-        "end": null,
+        "end": 1761914431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1761914431,
+        "end": null
       }
     ]
   },
@@ -58357,8 +58414,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761907836,
-        "end": null,
+        "end": 1761914431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1761914431,
+        "end": null
       }
     ]
   },
