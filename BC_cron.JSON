@@ -9260,12 +9260,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1760673021,
-        "end": 1760685625,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1760685625,
         "end": 1760686230
@@ -10081,8 +10075,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1761876031,
-        "end": null,
+        "end": 1761883235,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1761883235,
+        "end": null
       }
     ]
   },
@@ -27585,6 +27584,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761880826,
+        "end": 1761883235
+      },
+      {
+        "status": "Available",
+        "start": 1761883235,
         "end": null
       }
     ]
@@ -31376,6 +31380,11 @@
       {
         "status": "Available",
         "start": 1761882628,
+        "end": 1761883235
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761883235,
         "end": null
       }
     ]
@@ -42359,7 +42368,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1761880826,
-        "end": null
+        "end": 1761883235
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1761883235,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -50150,6 +50165,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761882628,
+        "end": 1761883235
+      },
+      {
+        "status": "Available",
+        "start": 1761883235,
         "end": null
       }
     ]
@@ -63080,6 +63100,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1761882628,
+        "end": 1761883235
+      },
+      {
+        "status": "Available",
+        "start": 1761883235,
         "end": null
       }
     ]
@@ -65273,6 +65298,11 @@
       {
         "status": "Available",
         "start": 1761859828,
+        "end": 1761883235
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761883235,
         "end": null
       }
     ]
@@ -67820,11 +67850,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760673021,
-        "end": 1760712631
-      },
       {
         "status": "Jail",
         "start": 1760712631,
@@ -71029,6 +71054,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761876031,
+        "end": 1761883235,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761883235,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -73014,6 +73045,11 @@
       {
         "status": "Available",
         "start": 1761873633,
+        "end": 1761883235
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761883235,
         "end": null
       }
     ]
