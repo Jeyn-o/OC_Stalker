@@ -4242,12 +4242,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1760692829,
-        "end": 1760699430,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1760699430,
         "end": 1760700027
@@ -18971,12 +18965,6 @@
     "name": "NeshoNeko",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1760693428,
-        "end": 1760700629,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1760700629,
         "end": 1760704824
@@ -19354,12 +19342,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1760692829,
-        "end": 1760694030,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760694030,
@@ -21324,12 +21306,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1760692829,
-        "end": 1760705428,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1760705428,
@@ -23600,6 +23576,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761901826,
+        "end": 1761903037
+      },
+      {
+        "status": "Available",
+        "start": 1761903037,
         "end": null
       }
     ]
@@ -38241,6 +38222,11 @@
       {
         "status": "Available",
         "start": 1761885028,
+        "end": 1761903037
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761903037,
         "end": null
       }
     ]
@@ -39457,6 +39443,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761901826,
+        "end": 1761903037
+      },
+      {
+        "status": "Available",
+        "start": 1761903037,
         "end": null
       }
     ]
@@ -45717,12 +45708,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1760692829,
-        "end": 1760698835,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1760698835,
         "end": 1760705428,
@@ -49870,12 +49855,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1760692829,
-        "end": 1760700027,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760700027,
         "end": 1760702439
@@ -51331,12 +51310,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1760693428,
-        "end": 1760703626,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1760703626,
@@ -53608,12 +53581,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1760692829,
-        "end": 1760699430,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1760699430,
@@ -69168,8 +69135,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1761901826,
-        "end": null,
+        "end": 1761903037,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1761903037,
+        "end": null
       }
     ]
   },
