@@ -2812,6 +2812,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: OFF",
         "start": 1761899430,
+        "end": 1761901234
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1761901234,
         "end": null
       }
     ]
@@ -10275,6 +10280,11 @@
       {
         "status": "[Argentina] Lost - Revives: OFF",
         "start": 1761900020,
+        "end": 1761901234
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1761901234,
         "end": null
       }
     ]
@@ -18074,6 +18084,11 @@
       {
         "status": "[Argentina] Lost - Revives: ALL",
         "start": 1761898225,
+        "end": 1761901234
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1761901234,
         "end": null
       }
     ]
@@ -23556,6 +23571,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761900020,
+        "end": 1761901234
+      },
+      {
+        "status": "Available",
+        "start": 1761901234,
         "end": null
       }
     ]
@@ -44668,7 +44688,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1761889820,
-        "end": null
+        "end": 1761901234
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1761901234,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -45618,6 +45644,11 @@
       {
         "status": "[Switzerland] Lost - Revives: ALL",
         "start": 1761900626,
+        "end": 1761901234
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1761901234,
         "end": null
       }
     ]
@@ -47335,6 +47366,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761899430,
+        "end": 1761901234
+      },
+      {
+        "status": "Available",
+        "start": 1761901234,
         "end": null
       }
     ]
@@ -48752,12 +48788,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1760691025,
-        "end": 1760701231,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760701231,
@@ -60067,11 +60097,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760691025,
-        "end": 1760691639
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1760691639,
         "end": 1760694618
@@ -65310,12 +65335,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1760691025,
-        "end": 1760697629,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760697629,
@@ -77182,8 +77201,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1761894626,
-        "end": null,
+        "end": 1761901234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1761901234,
+        "end": null
       }
     ]
   },
