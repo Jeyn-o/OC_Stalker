@@ -23887,7 +23887,13 @@
       {
         "status": "Available",
         "start": 1762011030,
-        "end": null
+        "end": 1762015226
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1762015226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29663,8 +29669,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762008031,
-        "end": null,
+        "end": 1762015226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762015226,
+        "end": null
       }
     ]
   },
@@ -35871,7 +35882,13 @@
       {
         "status": "Available",
         "start": 1762008620,
-        "end": null
+        "end": 1762015226
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762015226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38466,11 +38483,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1760805038,
-        "end": 1760806231
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760806231,
@@ -56214,8 +56226,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1762009826,
-        "end": null,
+        "end": 1762015226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1762015226,
+        "end": null
       }
     ]
   },
@@ -65454,11 +65471,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760805038,
-        "end": 1760821245
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1760821245,
         "end": 1760821825
@@ -67955,8 +67967,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762014030,
-        "end": null,
+        "end": 1762015226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1762015226,
+        "end": null
       }
     ]
   },
@@ -78559,6 +78576,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762002627,
+        "end": 1762015226,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762015226,
         "end": null,
         "travel_type": "airstrip"
       }
