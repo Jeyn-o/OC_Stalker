@@ -18393,6 +18393,11 @@
       {
         "status": "Available",
         "start": 1762006226,
+        "end": 1762012224
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1762012224,
         "end": null
       }
     ]
@@ -31635,6 +31640,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1762011030,
+        "end": 1762012224
+      },
+      {
+        "status": "Available",
+        "start": 1762012224,
         "end": null
       }
     ]
@@ -38432,11 +38442,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Kingdom] Mugged - Revives: Partial",
-        "start": 1760802036,
-        "end": 1760805038
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1760805038,
         "end": 1760806231
@@ -39892,6 +39897,11 @@
       {
         "status": "Available",
         "start": 1761996028,
+        "end": 1762012224
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: Partial",
+        "start": 1762012224,
         "end": null
       }
     ]
@@ -52142,11 +52152,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1760802036,
-        "end": 1760803826
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1760803826,
         "end": 1760816431,
@@ -61191,7 +61196,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761999631,
-        "end": null
+        "end": 1762012224
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762012224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -62714,7 +62725,13 @@
       {
         "status": "Available",
         "start": 1762003830,
-        "end": null
+        "end": 1762012224
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762012224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -73733,11 +73750,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760802036,
-        "end": 1760803239
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760803239,
