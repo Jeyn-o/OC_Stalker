@@ -47742,9 +47742,9 @@
   },
   "976064": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1761959510,
-    "executed_at": null,
+    "executed_at": 1761959526,
     "slots": {
       "P2": {
         "user_id": 2680449,
@@ -47808,7 +47808,7 @@
   "977056": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": 1762039514,
+    "ready_at": 1762125914,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -47825,6 +47825,13 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 84,
+        "position": "Pickpocket",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -47868,6 +47875,16 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1761960022,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 84,
+        "position": "Pickpocket",
+        "position_number": 1
       }
     ]
   },
