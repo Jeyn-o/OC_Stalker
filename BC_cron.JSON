@@ -4766,12 +4766,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760810459,
-        "end": 1760817642,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760817642,
         "end": 1760862024
@@ -5640,7 +5634,13 @@
       {
         "status": "Available",
         "start": 1762005023,
-        "end": null
+        "end": 1762020623
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762020623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23898,11 +23898,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760810459,
-        "end": 1760994631
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1760994631,
         "end": 1761007233,
@@ -30268,7 +30263,13 @@
       {
         "status": "Available",
         "start": 1762005023,
-        "end": null
+        "end": 1762020623
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1762020623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34428,12 +34429,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1760810459,
-        "end": 1760817032,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760817032,
@@ -45736,7 +45731,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1762020036,
-        "end": null
+        "end": 1762020623
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762020623,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -54661,8 +54662,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762013427,
-        "end": null,
+        "end": 1762020623,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1762020623,
+        "end": null
       }
     ]
   },
@@ -67987,7 +67993,13 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1762019421,
-        "end": null
+        "end": 1762020623
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1762020623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -82574,7 +82586,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1762020036,
-        "end": null
+        "end": 1762020623
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1762020623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
