@@ -47488,9 +47488,9 @@
   },
   "972901": {
     "name": "Mob Mentality",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1762017848,
-    "executed_at": null,
+    "executed_at": 1762018145,
     "slots": {
       "P1": {
         "user_id": 3967366,
@@ -48725,7 +48725,7 @@
   "986085": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1762099079,
+    "ready_at": 1762185479,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -48734,6 +48734,14 @@
         "checkpoint_pass_rate": 65,
         "position": "Muscle",
         "position_number": 3
+      },
+      "P5": {
+        "user_id": 3851236,
+        "user_name": "Psyden",
+        "checkpoint_pass_rate": 68,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -48746,6 +48754,17 @@
         "checkpoint_pass_rate": 65,
         "position": "Muscle",
         "position_number": 3
+      },
+      {
+        "timestamp": 1762018227,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3851236,
+        "user_name": "Psyden",
+        "checkpoint_pass_rate": 68,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   }
