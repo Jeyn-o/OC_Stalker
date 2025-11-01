@@ -5653,12 +5653,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1760806845,
-        "end": 1760814037,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760814037,
         "end": 1760842226
@@ -23513,8 +23507,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762009826,
-        "end": null,
+        "end": 1762017027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1762017027,
+        "end": null
       }
     ]
   },
@@ -29684,7 +29683,13 @@
       {
         "status": "Available",
         "start": 1762015226,
-        "end": null
+        "end": 1762017027
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762017027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -42343,11 +42348,6 @@
     "name": "Khallie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760806845,
-        "end": 1760807429
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1760807429,
         "end": 1760814037,
@@ -45752,6 +45752,12 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1762013427,
+        "end": 1762017027,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762017027,
         "end": null,
         "travel_type": "standard"
       }
@@ -60502,11 +60508,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760806845,
-        "end": 1760831432
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1760831432,
         "end": 1760842858,
@@ -65495,6 +65496,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1762011030,
+        "end": 1762017027
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: Partial",
+        "start": 1762017027,
         "end": null
       }
     ]
@@ -68010,6 +68016,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1762015825,
+        "end": 1762017027,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1762017027,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -71334,11 +71346,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "[United Kingdom] Mugged - Revives: ALL",
-        "start": 1760806845,
-        "end": 1760808029
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1760808029,
         "end": 1760808636
@@ -73274,6 +73281,11 @@
       {
         "status": "Available",
         "start": 1761978021,
+        "end": 1762017027
+      },
+      {
+        "status": "Jail",
+        "start": 1762017027,
         "end": null
       }
     ]
@@ -76893,12 +76905,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1760806845,
-        "end": 1760817032,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1760817032,
