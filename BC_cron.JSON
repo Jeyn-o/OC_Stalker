@@ -3085,11 +3085,6 @@
     "name": "poik9",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1760812234,
-        "end": 1760814625
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1760814625,
         "end": 1760821245,
@@ -23877,8 +23872,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762015226,
-        "end": null,
+        "end": 1762022423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1762022423,
+        "end": null
       }
     ]
   },
@@ -43614,6 +43614,11 @@
       {
         "status": "Available",
         "start": 1762015825,
+        "end": 1762022423
+      },
+      {
+        "status": "Jail",
+        "start": 1762022423,
         "end": null
       }
     ]
@@ -59427,7 +59432,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1762018823,
-        "end": null
+        "end": 1762022423
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762022423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -62813,8 +62824,13 @@
       {
         "status": "[China] - Going",
         "start": 1762012224,
-        "end": null,
+        "end": 1762022423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762022423,
+        "end": null
       }
     ]
   },
@@ -75322,11 +75338,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760812234,
-        "end": 1760813433
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1760813433,
         "end": 1760824842,
@@ -82604,6 +82615,12 @@
       {
         "status": "[Canada] - Returning",
         "start": 1762020623,
+        "end": 1762022423,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1762022423,
         "end": null,
         "travel_type": "airstrip"
       }
