@@ -11715,11 +11715,6 @@
     "name": "Khana",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1760815840,
-        "end": 1760816431
-      },
-      {
         "status": "Available",
         "start": 1760816431,
         "end": 1761222632
@@ -37974,7 +37969,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1762025433,
-        "end": null
+        "end": 1762026023
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1762026023,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -47735,12 +47736,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760815840,
-        "end": 1760822429,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760822429,
@@ -57623,7 +57618,13 @@
       {
         "status": "Available",
         "start": 1762013427,
-        "end": null
+        "end": 1762026023
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762026023,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -71385,11 +71386,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760815840,
-        "end": 1760855428
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1760855428,
         "end": 1760856630,
@@ -72604,7 +72600,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762025433,
-        "end": null
+        "end": 1762026023
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762026023,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -80174,11 +80176,6 @@
     "name": "Stealthination",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1760815840,
-        "end": 1760817642
-      },
-      {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1760817642,
         "end": 1760820031
@@ -82660,6 +82657,12 @@
       {
         "status": "[Canada] - Returning",
         "start": 1762024225,
+        "end": 1762026023,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1762026023,
         "end": null,
         "travel_type": "airstrip"
       }
