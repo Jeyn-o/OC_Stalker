@@ -4615,12 +4615,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1760770225,
-        "end": 1760776826,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1760776826,
         "end": 1760777433
@@ -8240,6 +8234,11 @@
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761979227,
+        "end": 1761980436
+      },
+      {
+        "status": "Available",
+        "start": 1761980436,
         "end": null
       }
     ]
@@ -11053,6 +11052,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761979822,
+        "end": 1761980436
+      },
+      {
+        "status": "Available",
+        "start": 1761980436,
         "end": null
       }
     ]
@@ -11060,11 +11064,6 @@
   "2080816": {
     "name": "Weasel",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1760770225,
-        "end": 1760802627
-      },
       {
         "status": "Available",
         "start": 1760802627,
@@ -13168,11 +13167,6 @@
   "2250222": {
     "name": "Ronskip",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1760770225,
-        "end": 1760785829
-      },
       {
         "status": "Available",
         "start": 1760785829,
@@ -15827,11 +15821,6 @@
   "2325329": {
     "name": "Crispyfoot",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1760770225,
-        "end": 1760771435
-      },
       {
         "status": "Available",
         "start": 1760771435,
@@ -19797,11 +19786,6 @@
     "name": "frkn",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1760770225,
-        "end": 1760772629
-      },
-      {
         "status": "Available",
         "start": 1760772629,
         "end": 1761032425
@@ -23438,11 +23422,6 @@
     "name": "windyswag",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1760770225,
-        "end": 1760784629
-      },
-      {
         "status": "Available",
         "start": 1760784629,
         "end": 1761222632
@@ -26167,7 +26146,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761979822,
-        "end": null
+        "end": 1761980436
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1761980436,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27454,6 +27439,11 @@
       {
         "status": "Available",
         "start": 1761976239,
+        "end": 1761980436
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1761980436,
         "end": null
       }
     ]
@@ -35473,6 +35463,11 @@
       {
         "status": "Available",
         "start": 1761929430,
+        "end": 1761980436
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761980436,
         "end": null
       }
     ]
@@ -37169,6 +37164,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761939033,
+        "end": 1761980436
+      },
+      {
+        "status": "[United Arab Emirates] Attacked - Revives: ALL",
+        "start": 1761980436,
         "end": null
       }
     ]
@@ -40277,11 +40277,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760770225,
-        "end": 1760799633
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1760799633,
         "end": 1760811024,
@@ -42274,11 +42269,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1760770225,
-        "end": 1760785246
-      },
       {
         "status": "Available",
         "start": 1760785246,
@@ -57027,6 +57017,11 @@
       {
         "status": "Available",
         "start": 1761973238,
+        "end": 1761980436
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761980436,
         "end": null
       }
     ]
@@ -60213,6 +60208,11 @@
       {
         "status": "Available",
         "start": 1761956427,
+        "end": 1761980436
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761980436,
         "end": null
       }
     ]
@@ -68244,6 +68244,11 @@
       {
         "status": "Available",
         "start": 1761972026,
+        "end": 1761980436
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1761980436,
         "end": null
       }
     ]
@@ -70613,6 +70618,11 @@
       {
         "status": "Available",
         "start": 1761976239,
+        "end": 1761980436
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1761980436,
         "end": null
       }
     ]
@@ -76654,12 +76664,6 @@
   "3915266": {
     "name": "Lucifixion",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1760770225,
-        "end": 1760776826,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] Mugged - Revives: OFF",
         "start": 1760776826,
