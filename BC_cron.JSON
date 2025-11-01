@@ -15319,11 +15319,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1760830832,
-        "end": 1760842226
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1760842226,
         "end": 1760847026,
@@ -56288,7 +56283,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762033823,
-        "end": null
+        "end": 1762041017
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762041017,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -82571,8 +82572,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1762039220,
-        "end": null,
+        "end": 1762041017,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762041017,
+        "end": null
       }
     ]
   },
