@@ -780,6 +780,11 @@
       {
         "status": "[South Africa] Mugged - Revives: OFF",
         "start": 1762029031,
+        "end": 1762031427
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762031427,
         "end": null
       }
     ]
@@ -3093,6 +3098,11 @@
       {
         "status": "Available",
         "start": 1762030221,
+        "end": 1762031427
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1762031427,
         "end": null
       }
     ]
@@ -3100,11 +3110,6 @@
   "517163": {
     "name": "poik9",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760821245,
-        "end": 1760872246
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1760872246,
@@ -15857,7 +15862,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1762024225,
-        "end": null
+        "end": 1762031427
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1762031427,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -26521,12 +26532,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760821245,
-        "end": 1760828435,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760828435,
         "end": 1760860837
@@ -30795,11 +30800,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760821245,
-        "end": 1760836834
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1760836834,
@@ -35898,7 +35898,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1762030829,
-        "end": null
+        "end": 1762031427
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762031427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37990,8 +37996,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1762026023,
-        "end": null,
+        "end": 1762031427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762031427,
+        "end": null
       }
     ]
   },
@@ -43662,7 +43673,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762029617,
-        "end": null
+        "end": 1762031427
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762031427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -58729,8 +58746,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762021830,
-        "end": null,
+        "end": 1762031427,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1762031427,
+        "end": null
       }
     ]
   },
@@ -62888,11 +62910,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760821245,
-        "end": 1760821825
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1760821825,
         "end": 1760823035,
@@ -65507,11 +65524,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1760821245,
-        "end": 1760821825
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760821825,
         "end": 1760825426
@@ -68065,12 +68077,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1760821245,
-        "end": 1760827240,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760827240,
@@ -82645,6 +82651,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1762029617,
+        "end": 1762031427,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1762031427,
         "end": null,
         "travel_type": "airstrip"
       }
