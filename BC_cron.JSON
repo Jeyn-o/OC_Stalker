@@ -4741,6 +4741,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762000821,
+        "end": 1762013427,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762013427,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4749,12 +4755,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1760803239,
-        "end": 1760809830,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760809830,
@@ -17990,8 +17990,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762009237,
-        "end": null,
+        "end": 1762013427,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1762013427,
+        "end": null
       }
     ]
   },
@@ -19692,8 +19697,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762001424,
-        "end": null,
+        "end": 1762013427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762013427,
+        "end": null
       }
     ]
   },
@@ -36696,12 +36706,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1760803239,
-        "end": 1760814625,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760814625,
         "end": 1760836834
@@ -39907,6 +39911,11 @@
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1762012224,
+        "end": 1762013427
+      },
+      {
+        "status": "Available",
+        "start": 1762013427,
         "end": null
       }
     ]
@@ -45691,7 +45700,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1762012829,
-        "end": null
+        "end": 1762013427
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762013427,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -54621,7 +54636,13 @@
       {
         "status": "Available",
         "start": 1762005023,
-        "end": null
+        "end": 1762013427
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762013427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -57518,6 +57539,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762011030,
+        "end": 1762013427
+      },
+      {
+        "status": "Available",
+        "start": 1762013427,
         "end": null
       }
     ]
@@ -61891,6 +61917,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1762011629,
+        "end": 1762013427
+      },
+      {
+        "status": "Available",
+        "start": 1762013427,
         "end": null
       }
     ]
@@ -62752,11 +62783,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1760803239,
-        "end": 1760803826
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1760803826,
@@ -65423,11 +65449,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1760803239,
-        "end": 1760805038
-      },
       {
         "status": "Available",
         "start": 1760805038,
@@ -73766,12 +73787,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1760803239,
-        "end": 1760814625,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760814625,
         "end": 1760826637
@@ -78533,12 +78548,6 @@
     "name": "Lucifixion",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1760803239,
-        "end": 1760809830,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1760809830,
         "end": 1760816431,
@@ -82516,7 +82525,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1762011030,
-        "end": null
+        "end": 1762013427
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1762013427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
