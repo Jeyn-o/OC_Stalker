@@ -5670,6 +5670,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762077023,
+        "end": 1762083620,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762083620,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29749,8 +29755,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1762082422,
-        "end": null,
+        "end": 1762083620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1762083620,
+        "end": null
       }
     ]
   },
@@ -43641,11 +43652,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1760873438,
-        "end": 1760875830
-      },
       {
         "status": "[China] - Returning",
         "start": 1760875830,
@@ -65408,11 +65414,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1760873438,
-        "end": 1760875244
-      },
-      {
         "status": "Available",
         "start": 1760875244,
         "end": 1760875830
@@ -72355,8 +72356,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762077023,
-        "end": null,
+        "end": 1762083620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762083620,
+        "end": null
       }
     ]
   },
@@ -75185,7 +75191,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762081235,
-        "end": null
+        "end": 1762083620
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762083620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
