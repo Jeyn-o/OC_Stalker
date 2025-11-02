@@ -1747,12 +1747,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1760856033,
-        "end": 1760862637,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1760862637,
         "end": 1760863822
@@ -29756,8 +29750,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762059026,
-        "end": null,
+        "end": 1762066223,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762066223,
+        "end": null
       }
     ]
   },
@@ -36689,7 +36688,13 @@
       {
         "status": "Available",
         "start": 1762009826,
-        "end": null
+        "end": 1762066223
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1762066223,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37555,7 +37560,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762062030,
-        "end": null
+        "end": 1762066223
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762066223,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -73066,6 +73077,11 @@
       {
         "status": "Available",
         "start": 1762051221,
+        "end": 1762066223
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1762066223,
         "end": null
       }
     ]
@@ -76207,6 +76223,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1762065029,
+        "end": 1762066223
+      },
+      {
+        "status": "Available",
+        "start": 1762066223,
         "end": null
       }
     ]
