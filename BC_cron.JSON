@@ -4787,6 +4787,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762120831,
+        "end": 1762122629
+      },
+      {
+        "status": "Available",
+        "start": 1762122629,
         "end": null
       }
     ]
@@ -35959,6 +35964,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1762121419,
+        "end": 1762122629,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1762122629,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -50463,6 +50474,11 @@
       {
         "status": "Available",
         "start": 1762006820,
+        "end": 1762122629
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1762122629,
         "end": null
       }
     ]
@@ -53296,8 +53312,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762120831,
-        "end": null,
+        "end": 1762122629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1762122629,
+        "end": null
       }
     ]
   },
@@ -58842,11 +58863,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1760912430,
-        "end": 1760913030
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1760913030,
         "end": 1760920227,
@@ -62990,12 +63006,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1760912430,
-        "end": 1760913630,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1760913630,
@@ -68023,11 +68033,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760912430,
-        "end": 1760954862
-      },
       {
         "status": "[China] - Going",
         "start": 1760954862,
