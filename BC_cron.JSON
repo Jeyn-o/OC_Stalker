@@ -5659,8 +5659,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762111224,
-        "end": null,
+        "end": 1762117826,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762117826,
+        "end": null
       }
     ]
   },
@@ -10051,6 +10056,11 @@
       {
         "status": "Jail",
         "start": 1762117238,
+        "end": 1762117826
+      },
+      {
+        "status": "Available",
+        "start": 1762117826,
         "end": null
       }
     ]
@@ -15845,7 +15855,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762104628,
-        "end": null
+        "end": 1762117826
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762117826,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -32972,7 +32988,13 @@
       {
         "status": "Available",
         "start": 1762108227,
-        "end": null
+        "end": 1762117826
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1762117826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34534,11 +34556,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760907641,
-        "end": 1760911831
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1760911831,
         "end": 1760913030,
@@ -35923,6 +35940,11 @@
       {
         "status": "Available",
         "start": 1762109425,
+        "end": 1762117826
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1762117826,
         "end": null
       }
     ]
@@ -60594,12 +60616,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1760907641,
-        "end": 1760919627,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760919627,
         "end": 1760931039,
@@ -78510,12 +78526,6 @@
     "name": "Lucifixion",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1760907641,
-        "end": 1760914236,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1760914236,
         "end": 1760920830,
@@ -79358,6 +79368,11 @@
       {
         "status": "Available",
         "start": 1762008031,
+        "end": 1762117826
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1762117826,
         "end": null
       }
     ]
