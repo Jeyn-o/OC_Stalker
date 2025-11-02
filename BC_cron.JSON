@@ -9294,12 +9294,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1760850631,
-        "end": 1760858433,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1760858433,
         "end": 1760859629
@@ -31695,6 +31689,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762057825,
+        "end": 1762060826
+      },
+      {
+        "status": "Available",
+        "start": 1762060826,
         "end": null
       }
     ]
@@ -38468,12 +38467,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1760850631,
-        "end": 1760857240,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760857240,
@@ -56162,7 +56155,13 @@
       {
         "status": "Available",
         "start": 1762059632,
-        "end": null
+        "end": 1762060826
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762060826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
