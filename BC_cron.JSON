@@ -3112,6 +3112,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762110624,
+        "end": 1762114825
+      },
+      {
+        "status": "Available",
+        "start": 1762114825,
         "end": null
       }
     ]
@@ -4790,11 +4795,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760904631,
-        "end": 1760942430
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1760942430,
@@ -29816,6 +29816,11 @@
       {
         "status": "[China] - Idle",
         "start": 1762104628,
+        "end": 1762114825
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1762114825,
         "end": null
       }
     ]
@@ -49284,6 +49289,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762102223,
+        "end": 1762114825,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762114825,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -62935,20 +62946,19 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762108227,
-        "end": null,
+        "end": 1762114825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762114825,
+        "end": null
       }
     ]
   },
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1760904631,
-        "end": 1760905230,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760905230,
@@ -67997,6 +68007,11 @@
       {
         "status": "Available",
         "start": 1762114228,
+        "end": 1762114825
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1762114825,
         "end": null
       }
     ]
