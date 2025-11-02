@@ -3125,12 +3125,6 @@
     "name": "poik9",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1760907028,
-        "end": 1760914236,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760914236,
         "end": 1761398430
@@ -10052,6 +10046,11 @@
       {
         "status": "Available",
         "start": 1762116623,
+        "end": 1762117238
+      },
+      {
+        "status": "Jail",
+        "start": 1762117238,
         "end": null
       }
     ]
@@ -19699,8 +19698,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762105222,
-        "end": null,
+        "end": 1762117238,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762117238,
+        "end": null
       }
     ]
   },
@@ -27262,8 +27266,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1762109425,
-        "end": null,
+        "end": 1762117238,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762117238,
+        "end": null
       }
     ]
   },
@@ -30915,11 +30924,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760907028,
-        "end": 1760917826
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1760917826,
         "end": 1760918447,
@@ -31804,7 +31808,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1762115425,
-        "end": null
+        "end": 1762117238
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762117238,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43720,11 +43730,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760907028,
-        "end": 1760910035
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1760910035,
         "end": 1760913030,
@@ -53267,8 +53272,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762110624,
-        "end": null,
+        "end": 1762117238,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762117238,
+        "end": null
       }
     ]
   },
@@ -62082,12 +62092,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760907028,
-        "end": 1760913630,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760913630,
@@ -82474,6 +82478,11 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1762115425,
+        "end": 1762117238
+      },
+      {
+        "status": "[Cayman Islands] Mugged - Revives: ALL",
+        "start": 1762117238,
         "end": null
       }
     ]
