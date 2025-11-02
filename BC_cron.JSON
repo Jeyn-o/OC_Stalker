@@ -28642,12 +28642,6 @@
     "name": "Hussc-",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1760898630,
-        "end": 1760905838,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1760905838,
         "end": 1760914844
@@ -31800,7 +31794,13 @@
       {
         "status": "Available",
         "start": 1762102837,
-        "end": null
+        "end": 1762108818
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762108818,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -42391,12 +42391,6 @@
     "name": "Khallie",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760898630,
-        "end": 1760905230,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760905230,
         "end": 1760911238
@@ -45770,7 +45764,13 @@
       {
         "status": "Available",
         "start": 1762107623,
-        "end": null
+        "end": 1762108818
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1762108818,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -53757,11 +53757,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760898630,
-        "end": 1760899229
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1760899229,
         "end": 1760901035,
@@ -57050,11 +57045,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1760898630,
-        "end": 1760899834
-      },
       {
         "status": "[China] Mugged - Revives: OFF",
         "start": 1760899834,
@@ -67998,6 +67988,11 @@
       {
         "status": "Available",
         "start": 1762106430,
+        "end": 1762108818
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1762108818,
         "end": null
       }
     ]
@@ -82454,8 +82449,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762107623,
-        "end": null,
+        "end": 1762108818,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1762108818,
+        "end": null
       }
     ]
   },
@@ -83674,6 +83674,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762102223,
+        "end": 1762108818,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762108818,
         "end": null,
         "travel_type": "airstrip"
       }
