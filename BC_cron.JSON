@@ -15870,8 +15870,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762117826,
-        "end": null,
+        "end": 1762125626,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1762125626,
+        "end": null
       }
     ]
   },
@@ -46368,7 +46373,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1762112417,
-        "end": null
+        "end": 1762125626
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762125626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -65392,7 +65403,13 @@
       {
         "status": "Available",
         "start": 1762106430,
-        "end": null
+        "end": 1762125626
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1762125626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -75191,7 +75208,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762125027,
-        "end": null
+        "end": 1762125626
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762125626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -76260,8 +76283,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762114228,
-        "end": null,
+        "end": 1762125626,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762125626,
+        "end": null
       }
     ]
   },
@@ -81465,6 +81493,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762119033,
+        "end": 1762125626,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762125626,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -81473,11 +81507,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1760915430,
-        "end": 1760916637
-      },
       {
         "status": "[United Kingdom] Mugged - Revives: Partial",
         "start": 1760916637,
