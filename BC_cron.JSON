@@ -9305,11 +9305,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1760858433,
-        "end": 1760859629
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1760859629,
         "end": 1760866834,
@@ -51525,6 +51520,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762061431,
+        "end": 1762068625,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762068625,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -65342,8 +65343,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1762061431,
-        "end": null,
+        "end": 1762068625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762068625,
+        "end": null
       }
     ]
   },
@@ -71123,11 +71129,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760858433,
-        "end": 1760859038
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1760859038,
         "end": 1760860228,
@@ -76725,12 +76726,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760858433,
-        "end": 1760865037,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1760865037,
         "end": 1760871643,
@@ -81478,7 +81473,13 @@
       {
         "status": "Available",
         "start": 1762062623,
-        "end": null
+        "end": 1762068625
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1762068625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
