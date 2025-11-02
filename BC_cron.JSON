@@ -3107,7 +3107,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762071643,
-        "end": null
+        "end": 1762073426
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762073426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17962,8 +17968,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762068028,
-        "end": null,
+        "end": 1762073426,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762073426,
+        "end": null
       }
     ]
   },
@@ -36652,19 +36663,19 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762066223,
-        "end": null,
+        "end": 1762073426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1762073426,
+        "end": null
       }
     ]
   },
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760863233,
-        "end": 1760870426
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760870426,
@@ -37924,8 +37935,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1762068028,
-        "end": null,
+        "end": 1762073426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762073426,
+        "end": null
       }
     ]
   },
@@ -39896,8 +39912,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762062030,
-        "end": null,
+        "end": 1762073426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762073426,
+        "end": null
       }
     ]
   },
@@ -71067,11 +71088,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1760863233,
-        "end": 1760863822
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1760863822,
         "end": 1760865631,
@@ -78369,11 +78385,6 @@
     "name": "Lucifixion",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760863233,
-        "end": 1760870426
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1760870426,
         "end": 1760877634,
@@ -80286,11 +80297,6 @@
   "3943448": {
     "name": "Maddog1997",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760863233,
-        "end": 1760865631
-      },
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1760865631,
