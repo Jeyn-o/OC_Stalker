@@ -1742,12 +1742,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760888427,
-        "end": 1760895027,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760895027,
         "end": 1760937629
@@ -32891,8 +32885,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1762097423,
-        "end": null,
+        "end": 1762098625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1762098625,
+        "end": null
       }
     ]
   },
@@ -50366,11 +50365,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760888427,
-        "end": 1760937629
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1760937629,
@@ -67933,6 +67927,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1762097423,
+        "end": 1762098625
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1762098625,
         "end": null
       }
     ]
@@ -67940,11 +67939,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1760888427,
-        "end": 1760889641
-      },
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1760889641,
@@ -72336,8 +72330,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762092032,
-        "end": null,
+        "end": 1762098625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762098625,
+        "end": null
       }
     ]
   },
@@ -76251,12 +76250,6 @@
     "name": "Gemicide",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1760888427,
-        "end": 1760895625,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760895625,
         "end": 1761056437
@@ -79870,12 +79863,6 @@
     "name": "Stealthination",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760888427,
-        "end": 1760895027,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760895027,
         "end": 1761178829
@@ -82387,7 +82374,13 @@
       {
         "status": "Available",
         "start": 1762065029,
-        "end": null
+        "end": 1762098625
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1762098625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
