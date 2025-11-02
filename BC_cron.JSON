@@ -9286,19 +9286,19 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1762066836,
-        "end": null
+        "end": 1762078220
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762078220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1760868039,
-        "end": 1760879431,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760879431,
@@ -37574,8 +37574,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762066223,
-        "end": null,
+        "end": 1762078220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762078220,
+        "end": null
       }
     ]
   },
@@ -41623,8 +41628,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762065029,
-        "end": null,
+        "end": 1762078220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762078220,
+        "end": null
       }
     ]
   },
@@ -50336,12 +50346,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760868039,
-        "end": 1760874623,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1760874623,
         "end": 1760881230,
@@ -54648,7 +54652,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762074627,
-        "end": null
+        "end": 1762078220
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762078220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -62839,6 +62849,11 @@
       {
         "status": "Jail",
         "start": 1762074627,
+        "end": 1762078220
+      },
+      {
+        "status": "Available",
+        "start": 1762078220,
         "end": null
       }
     ]
@@ -83611,6 +83626,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762071643,
+        "end": 1762078220,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762078220,
         "end": null,
         "travel_type": "airstrip"
       }
