@@ -34452,11 +34452,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760859038,
-        "end": 1760872246
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1760872246,
         "end": 1760880031,
@@ -47674,7 +47669,13 @@
       {
         "status": "Available",
         "start": 1762060220,
-        "end": null
+        "end": 1762069220
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1762069220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -50300,11 +50301,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760859038,
-        "end": 1760859629
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1760859629,
@@ -71129,12 +71125,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1760859038,
-        "end": 1760860228,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1760860228,
         "end": 1760861424,
@@ -75150,8 +75140,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762068028,
-        "end": null,
+        "end": 1762069220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762069220,
+        "end": null
       }
     ]
   },
@@ -83613,6 +83608,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1762068028,
+        "end": 1762069220,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1762069220,
         "end": null,
         "travel_type": "airstrip"
       }
