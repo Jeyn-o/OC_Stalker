@@ -4802,12 +4802,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760871034,
-        "end": 1760877634,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760877634,
         "end": 1760891435
@@ -36695,8 +36689,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1762074034,
-        "end": null,
+        "end": 1762081235,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762081235,
+        "end": null
       }
     ]
   },
@@ -54653,12 +54652,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1760871034,
-        "end": 1760878252,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760878252,
         "end": 1760893238
@@ -59465,6 +59458,11 @@
       {
         "status": "[Argentina] Mugged - Revives: ALL",
         "start": 1762079430,
+        "end": 1762081235
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1762081235,
         "end": null
       }
     ]
@@ -75162,8 +75160,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762074627,
-        "end": null,
+        "end": 1762081235,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762081235,
+        "end": null
       }
     ]
   },
