@@ -32854,6 +32854,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1762074034,
+        "end": 1762083030,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1762083030,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -43622,7 +43628,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762078821,
-        "end": null
+        "end": 1762083030
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762083030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -51554,11 +51566,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760872833,
-        "end": 1760934639
-      },
       {
         "status": "[Canada] - Going",
         "start": 1760934639,
@@ -62844,7 +62851,13 @@
       {
         "status": "Available",
         "start": 1762078220,
-        "end": null
+        "end": 1762083030
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762083030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -65394,11 +65407,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760872833,
-        "end": 1760873438
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760873438,
@@ -81484,8 +81492,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1762075824,
-        "end": null,
+        "end": 1762083030,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762083030,
+        "end": null
       }
     ]
   },
