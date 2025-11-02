@@ -10497,11 +10497,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1760832627,
-        "end": 1760833227
-      },
-      {
         "status": "Available",
         "start": 1760833227,
         "end": 1760841031
@@ -62907,12 +62902,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1760832627,
-        "end": 1760839828,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760839828,
         "end": 1760843441
@@ -73247,8 +73236,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762035024,
-        "end": null,
+        "end": 1762042825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1762042825,
+        "end": null
       }
     ]
   },
@@ -78581,7 +78575,13 @@
       {
         "status": "Available",
         "start": 1762027229,
-        "end": null
+        "end": 1762042825
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762042825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
