@@ -26604,11 +26604,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760875830,
-        "end": 1760895027
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1760895027,
         "end": 1760901623,
@@ -29761,7 +29756,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1762083620,
-        "end": null
+        "end": 1762086024
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1762086024,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43652,12 +43653,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1760875830,
-        "end": 1760880031,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1760880031,
@@ -65407,11 +65402,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1760875830,
-        "end": 1760878252
-      },
-      {
         "status": "Available",
         "start": 1760878252,
         "end": 1760886631
@@ -78451,8 +78441,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762079430,
-        "end": null,
+        "end": 1762086024,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762086024,
+        "end": null
       }
     ]
   },
