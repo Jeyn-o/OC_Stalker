@@ -38024,8 +38024,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1762036222,
-        "end": null,
+        "end": 1762042231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1762042231,
+        "end": null
       }
     ]
   },
@@ -43687,11 +43692,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Hawaii] - Idle",
-        "start": 1760832039,
-        "end": 1760835034
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1760835034,
         "end": 1760838024,
@@ -45778,6 +45778,12 @@
       {
         "status": "[China] - Going",
         "start": 1762037423,
+        "end": 1762042231,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762042231,
         "end": null,
         "travel_type": "standard"
       }
@@ -51638,11 +51644,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760832039,
-        "end": 1760851233
-      },
       {
         "status": "[China] - Going",
         "start": 1760851233,
@@ -58284,6 +58285,11 @@
       {
         "status": "Available",
         "start": 1762015825,
+        "end": 1762042231
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1762042231,
         "end": null
       }
     ]
@@ -60547,12 +60553,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1760831432,
-        "end": 1760842858,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760842858,
@@ -68834,12 +68834,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1760832039,
-        "end": 1760839233,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760839233,
         "end": 1760841626
@@ -75303,7 +75297,13 @@
       {
         "status": "Available",
         "start": 1762037423,
-        "end": null
+        "end": 1762042231
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762042231,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -82578,7 +82578,13 @@
       {
         "status": "Available",
         "start": 1762041017,
-        "end": null
+        "end": 1762042231
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1762042231,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -83970,6 +83976,11 @@
       {
         "status": "Available",
         "start": 1762035626,
+        "end": 1762042231
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1762042231,
         "end": null
       }
     ]
