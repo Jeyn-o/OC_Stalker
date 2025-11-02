@@ -3,12 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1760883039,
-        "end": 1760896228,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1760896228,
         "end": 1760908825,
@@ -29778,7 +29772,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1762088432,
-        "end": null
+        "end": 1762093224
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1762093224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -45750,8 +45750,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762090232,
-        "end": null,
+        "end": 1762093224,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1762093224,
+        "end": null
       }
     ]
   },
@@ -62878,7 +62883,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762089627,
-        "end": null
+        "end": 1762093224
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762093224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -67920,7 +67931,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1762092626,
-        "end": null
+        "end": 1762093224
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762093224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -73709,12 +73726,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1760883039,
-        "end": 1760894425,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760894425,
         "end": 1760910035
@@ -78453,6 +78464,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762086627,
+        "end": 1762093224,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762093224,
         "end": null,
         "travel_type": "airstrip"
       }
