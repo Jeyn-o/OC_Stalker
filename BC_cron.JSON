@@ -43778,12 +43778,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1760917224,
-        "end": 1760921425,
-        "travel_type": "standard"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1760921425,
         "end": 1760923838
@@ -50468,6 +50462,11 @@
       {
         "status": "Available",
         "start": 1762123219,
+        "end": 1762127428
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1762127428,
         "end": null
       }
     ]
@@ -62986,11 +62985,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760917224,
-        "end": 1760918447
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1760918447,
         "end": 1760919627,
@@ -65392,8 +65386,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762125626,
-        "end": null,
+        "end": 1762127428,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1762127428,
+        "end": null
       }
     ]
   },
@@ -82497,6 +82496,11 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1762126229,
+        "end": 1762127428
+      },
+      {
+        "status": "[Cayman Islands] Mugged - Revives: ALL",
+        "start": 1762127428,
         "end": null
       }
     ]
@@ -83739,7 +83743,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1762126824,
-        "end": null
+        "end": 1762127428
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762127428,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
