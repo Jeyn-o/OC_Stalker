@@ -16285,11 +16285,6 @@
     "name": "Crispyfoot",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1760887232,
-        "end": 1760889641
-      },
-      {
         "status": "Available",
         "start": 1760889641,
         "end": 1760959835
@@ -32896,7 +32891,13 @@
       {
         "status": "Available",
         "start": 1762092626,
-        "end": null
+        "end": 1762097423
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1762097423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34468,11 +34469,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760887232,
-        "end": 1760887839
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760887839,
@@ -43675,11 +43671,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760887232,
-        "end": 1760887839
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1760887839,
         "end": 1760892633,
@@ -45744,8 +45735,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762094426,
-        "end": null,
+        "end": 1762097423,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1762097423,
+        "end": null
       }
     ]
   },
@@ -57007,8 +57003,13 @@
       {
         "status": "[China] - Going",
         "start": 1762086627,
-        "end": null,
+        "end": 1762097423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762097423,
+        "end": null
       }
     ]
   },
@@ -59518,8 +59519,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762090232,
-        "end": null,
+        "end": 1762097423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762097423,
+        "end": null
       }
     ]
   },
@@ -62902,11 +62908,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760887232,
-        "end": 1760892633
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1760892633,
@@ -67943,6 +67944,11 @@
       {
         "status": "Available",
         "start": 1762096822,
+        "end": 1762097423
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1762097423,
         "end": null
       }
     ]
