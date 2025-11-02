@@ -27265,8 +27265,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762098024,
-        "end": null,
+        "end": 1762105825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1762105825,
+        "end": null
       }
     ]
   },
@@ -52239,12 +52244,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1760895625,
-        "end": 1760908226,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760908226,
         "end": 1760908825
@@ -67986,6 +67985,11 @@
       {
         "status": "Available",
         "start": 1762104628,
+        "end": 1762105825
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1762105825,
         "end": null
       }
     ]
@@ -68813,11 +68817,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1760895625,
-        "end": 1760896844
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760896844,
@@ -76305,11 +76304,6 @@
     "name": "Gemicide",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760895625,
-        "end": 1761056437
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1761056437,
         "end": 1761063629,
@@ -78512,12 +78506,6 @@
   "3915266": {
     "name": "Lucifixion",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760895625,
-        "end": 1760902232,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760902232,
@@ -82459,7 +82447,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1762105222,
-        "end": null
+        "end": 1762105825
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762105825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
