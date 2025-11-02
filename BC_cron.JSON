@@ -1742,11 +1742,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760895027,
-        "end": 1760937629
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1760937629,
         "end": 1760945438,
@@ -17010,12 +17005,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1760895027,
-        "end": 1760898031,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1760898031,
         "end": 1760941232
@@ -19723,7 +19712,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762103426,
-        "end": null
+        "end": 1762105222
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762105222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26664,12 +26659,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1760895027,
-        "end": 1760901623,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760901623,
@@ -46291,7 +46280,13 @@
       {
         "status": "Available",
         "start": 1762000231,
-        "end": null
+        "end": 1762105222
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1762105222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -53774,12 +53769,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1760895027,
-        "end": 1760896844,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1760896844,
@@ -62967,11 +62956,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760895027,
-        "end": 1760902833
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1760902833,
         "end": 1760904040,
@@ -65449,11 +65433,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760895027,
-        "end": 1760920830
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760920830,
@@ -79961,11 +79940,6 @@
     "name": "Stealthination",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760895027,
-        "end": 1761178829
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761178829,
         "end": 1761181242
@@ -81535,11 +81509,6 @@
     "name": "Rey2Fly",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760895027,
-        "end": 1760905230
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1760905230,
         "end": 1760911831,
@@ -82484,8 +82453,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762103426,
-        "end": null,
+        "end": 1762105222,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1762105222,
+        "end": null
       }
     ]
   },
