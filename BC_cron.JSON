@@ -4789,12 +4789,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1760965239,
-        "end": 1760971823,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1760971823,
         "end": 1760972440
@@ -31796,7 +31790,13 @@
       {
         "status": "Available",
         "start": 1762135819,
-        "end": null
+        "end": 1762175427
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762175427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38489,12 +38489,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1760965239,
-        "end": 1760966435,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760966435,
         "end": 1760967034
@@ -40336,11 +40330,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760965239,
-        "end": 1760968232
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1760968232,
@@ -56085,6 +56074,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762174222,
+        "end": 1762175427,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762175427,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -56093,11 +56088,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760965239,
-        "end": 1760965832
-      },
       {
         "status": "[China] - Going",
         "start": 1760965832,
@@ -62778,11 +62768,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760965239,
-        "end": 1760967631
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1760967631,
         "end": 1760969431,
@@ -65119,12 +65104,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1760965239,
-        "end": 1760967034,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1760967034,
@@ -67737,8 +67716,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1762173619,
-        "end": null,
+        "end": 1762175427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762175427,
+        "end": null
       }
     ]
   },
@@ -72167,8 +72151,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762168822,
-        "end": null,
+        "end": 1762175427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762175427,
+        "end": null
       }
     ]
   },
@@ -78295,7 +78284,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762174836,
-        "end": null
+        "end": 1762175427
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762175427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
