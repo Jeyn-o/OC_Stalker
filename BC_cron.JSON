@@ -12012,11 +12012,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1760930433,
-        "end": 1760932845
-      },
-      {
         "status": "Available",
         "start": 1760932845,
         "end": 1760933426
@@ -29911,6 +29906,12 @@
       {
         "status": "[China] - Returning",
         "start": 1762130426,
+        "end": 1762140627,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762140627,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30995,11 +30996,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760930433,
-        "end": 1760961028
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1760961028,
@@ -38638,12 +38634,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1760930433,
-        "end": 1760931635,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760931635,
         "end": 1760935829
@@ -43715,12 +43705,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1760930433,
-        "end": 1760935829,
-        "travel_type": "standard"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1760935829,
         "end": 1760942430
@@ -46865,12 +46849,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1760930433,
-        "end": 1760939427,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1760939427,
@@ -62984,12 +62962,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1760930433,
-        "end": 1760937024,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1760937024,
         "end": 1760941836
@@ -65358,11 +65330,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1760930433,
-        "end": 1760931039
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760931039,
@@ -67957,7 +67924,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1762140018,
-        "end": null
+        "end": 1762140627
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762140627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -75197,7 +75170,13 @@
       {
         "status": "Available",
         "start": 1762132226,
-        "end": null
+        "end": 1762140627
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762140627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
