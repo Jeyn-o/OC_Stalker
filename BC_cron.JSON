@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1760922040,
-        "end": 1760922636
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1760922636,
         "end": 1760934639,
@@ -18886,7 +18881,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1762131628,
-        "end": null
+        "end": 1762132226
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762132226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28736,12 +28737,6 @@
     "name": "Hussc-",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1760922040,
-        "end": 1760928629,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1760928629,
         "end": 1760929243
@@ -31866,8 +31861,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1762130426,
-        "end": null,
+        "end": 1762132226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1762132226,
+        "end": null
       }
     ]
   },
@@ -33036,7 +33036,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762129823,
-        "end": null
+        "end": 1762132226
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762132226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41752,11 +41758,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760922040,
-        "end": 1760959231
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1760959231,
         "end": 1760969431,
@@ -50446,6 +50447,11 @@
       {
         "status": "Available",
         "start": 1762129220,
+        "end": 1762132226
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1762132226,
         "end": null
       }
     ]
@@ -52278,11 +52284,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1760922040,
-        "end": 1760950544
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1760950544,
@@ -54773,12 +54774,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1760922040,
-        "end": 1760929243,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1760929243,
         "end": 1760932230
@@ -56349,12 +56344,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1760922040,
-        "end": 1760932230,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760932230,
@@ -62979,11 +62968,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1760922040,
-        "end": 1760922636
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1760922636,
@@ -75200,8 +75184,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762125626,
-        "end": null,
+        "end": 1762132226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762132226,
+        "end": null
       }
     ]
   },
@@ -79334,8 +79323,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762125027,
-        "end": null,
+        "end": 1762132226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762132226,
+        "end": null
       }
     ]
   },
@@ -81470,8 +81464,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762125626,
-        "end": null,
+        "end": 1762132226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762132226,
+        "end": null
       }
     ]
   },
