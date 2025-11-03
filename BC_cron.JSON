@@ -3,12 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1760922636,
-        "end": 1760934639,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760934639,
         "end": 1760947665
@@ -10055,6 +10049,11 @@
       {
         "status": "Available",
         "start": 1762117826,
+        "end": 1762132829
+      },
+      {
+        "status": "Jail",
+        "start": 1762132829,
         "end": null
       }
     ]
@@ -10491,12 +10490,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1760922636,
-        "end": 1760934639,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1760934639,
@@ -38630,12 +38623,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1760922636,
-        "end": 1760924431,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1760924431,
         "end": 1760925638,
@@ -46342,8 +46329,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1762125626,
-        "end": null,
+        "end": 1762132829,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762132829,
+        "end": null
       }
     ]
   },
@@ -59575,6 +59567,11 @@
       {
         "status": "Available",
         "start": 1762097423,
+        "end": 1762132829
+      },
+      {
+        "status": "Jail",
+        "start": 1762132829,
         "end": null
       }
     ]
@@ -62961,6 +62958,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762131025,
+        "end": 1762132829
+      },
+      {
+        "status": "Available",
+        "start": 1762132829,
         "end": null
       }
     ]
@@ -62968,12 +62970,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1760922636,
-        "end": 1760923838,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760923838,
@@ -67959,7 +67955,13 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1762114825,
-        "end": null
+        "end": 1762132829
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1762132829,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -82477,7 +82479,13 @@
       {
         "status": "Available",
         "start": 1762131628,
-        "end": null
+        "end": 1762132829
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1762132829,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
