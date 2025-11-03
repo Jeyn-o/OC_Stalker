@@ -12858,6 +12858,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762182621,
+        "end": 1762190423,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762190423,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15765,7 +15771,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762185642,
-        "end": null
+        "end": 1762190423
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762190423,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -34478,12 +34490,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1760980228,
-        "end": 1760991659,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760991659,
         "end": 1761039033
@@ -38480,12 +38486,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1760980228,
-        "end": 1760981429,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760981429,
@@ -58499,11 +58499,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760980228,
-        "end": 1761016230
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1761016230,
         "end": 1761022838,
@@ -59273,8 +59268,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762183220,
-        "end": null,
+        "end": 1762190423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762190423,
+        "end": null
       }
     ]
   },
@@ -61808,12 +61808,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1760980228,
-        "end": 1760990445,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760990445,
@@ -67685,6 +67679,11 @@
       {
         "status": "Available",
         "start": 1762189817,
+        "end": 1762190423
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1762190423,
         "end": null
       }
     ]
@@ -69773,6 +69772,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1762182032,
+        "end": 1762190423
+      },
+      {
+        "status": "Available",
+        "start": 1762190423,
         "end": null
       }
     ]
@@ -76075,8 +76079,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1762185020,
-        "end": null,
+        "end": 1762190423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762190423,
+        "end": null
       }
     ]
   },
@@ -80203,11 +80212,6 @@
   "3943448": {
     "name": "Maddog1997",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760980228,
-        "end": 1761031841
-      },
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1761031841,
