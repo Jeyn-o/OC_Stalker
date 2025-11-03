@@ -23660,12 +23660,6 @@
     "name": "Vampire-Catgirl",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1761001237,
-        "end": 1761008441,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761008441,
         "end": 1761316831
@@ -38028,11 +38022,6 @@
     "name": "Thornking",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761001237,
-        "end": 1761003626
-      },
-      {
         "status": "Available",
         "start": 1761003626,
         "end": 1761043827
@@ -41585,6 +41574,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762198823,
+        "end": 1762211418,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762211418,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -42282,11 +42277,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761001237,
-        "end": 1761002429
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1761002429,
@@ -43585,8 +43575,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762200043,
-        "end": null,
+        "end": 1762211418,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762211418,
+        "end": null
       }
     ]
   },
@@ -45591,8 +45586,13 @@
       {
         "status": "[China] - Going",
         "start": 1762207237,
-        "end": null,
+        "end": 1762211418,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762211418,
+        "end": null
       }
     ]
   },
@@ -56033,6 +56033,11 @@
       {
         "status": "[South Africa] Mugged - Revives: ALL",
         "start": 1762209030,
+        "end": 1762211418
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762211418,
         "end": null
       }
     ]
@@ -59310,8 +59315,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1762203637,
-        "end": null,
+        "end": 1762211418,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762211418,
+        "end": null
       }
     ]
   },
