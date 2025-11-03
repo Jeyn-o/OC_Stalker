@@ -5657,8 +5657,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762158624,
-        "end": null,
+        "end": 1762164624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762164624,
+        "end": null
       }
     ]
   },
@@ -13482,11 +13487,6 @@
   "2250222": {
     "name": "Ronskip",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1760954862,
-        "end": 1760956955
-      },
       {
         "status": "Available",
         "start": 1760956955,
@@ -22396,8 +22396,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762163422,
-        "end": null,
+        "end": 1762164624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762164624,
+        "end": null
       }
     ]
   },
@@ -32143,11 +32148,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Cayman Islands] Mugged - Revives: ALL",
-        "start": 1760954862,
-        "end": 1760956656
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1760956656,
         "end": 1760959231,
@@ -36715,11 +36715,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760954862,
-        "end": 1760961028
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1760961028,
@@ -42293,11 +42288,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[United Arab Emirates] Mugged - Revives: ALL",
-        "start": 1760954862,
-        "end": 1760956656
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760956656,
@@ -56124,6 +56114,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762157425,
+        "end": 1762164624,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762164624,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -59396,7 +59392,13 @@
       {
         "status": "[Argentina] Mugged - Revives: ALL",
         "start": 1762162229,
-        "end": null
+        "end": 1762164624
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762164624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -60417,12 +60419,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1760954862,
-        "end": 1760966435,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760966435,
@@ -67793,12 +67789,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1760954862,
-        "end": 1760964622,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1760964622,
