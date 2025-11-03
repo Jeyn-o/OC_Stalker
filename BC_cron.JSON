@@ -9241,12 +9241,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1760954255,
-        "end": 1760967034,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1760967034,
         "end": 1760979637,
@@ -21647,12 +21641,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1760954255,
-        "end": 1760960430,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1760960430,
         "end": 1760963440
@@ -27333,6 +27321,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762159227,
+        "end": 1762164040
+      },
+      {
+        "status": "[United Kingdom] Attacked - Revives: ALL",
+        "start": 1762164040,
         "end": null
       }
     ]
@@ -32150,11 +32143,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1760954255,
-        "end": 1760954862
-      },
-      {
         "status": "[Cayman Islands] Mugged - Revives: ALL",
         "start": 1760954862,
         "end": 1760956656
@@ -34536,11 +34524,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1760954255,
-        "end": 1760955451
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1760955451,
@@ -43613,7 +43596,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1762163422,
-        "end": null
+        "end": 1762164040
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762164040,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -51507,12 +51496,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1760954255,
-        "end": 1760959231,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760959231,
         "end": 1761040231
@@ -54589,12 +54572,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1760954255,
-        "end": 1760961028,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760961028,
@@ -60440,11 +60417,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1760954255,
-        "end": 1760954862
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1760954862,
@@ -68619,8 +68591,13 @@
       {
         "status": "[China] - Going",
         "start": 1762154423,
-        "end": null,
+        "end": 1762164040,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762164040,
+        "end": null
       }
     ]
   },
@@ -73004,11 +72981,6 @@
     "name": "Psyden",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760954255,
-        "end": 1760994033
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1760994033,
         "end": 1760994631
@@ -73584,11 +73556,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760954255,
-        "end": 1761007832
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1761007832,
@@ -78337,8 +78304,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762157425,
-        "end": null,
+        "end": 1762164040,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762164040,
+        "end": null
       }
     ]
   },
