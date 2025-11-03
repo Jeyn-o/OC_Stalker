@@ -26706,11 +26706,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1760956048,
-        "end": 1760965832
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1760965832,
         "end": 1760972440,
@@ -35891,8 +35886,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762153825,
-        "end": null,
+        "end": 1762165833,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762165833,
+        "end": null
       }
     ]
   },
@@ -37581,12 +37581,6 @@
   "3026725": {
     "name": "Neodork",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1760956048,
-        "end": 1760962232,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760962232,
@@ -39918,7 +39912,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762165220,
-        "end": null
+        "end": 1762165833
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762165833,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -45679,19 +45679,19 @@
       {
         "status": "[China] - Returning",
         "start": 1762161620,
-        "end": null,
+        "end": 1762165833,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1762165833,
+        "end": null
       }
     ]
   },
   "3231991": {
     "name": "Osein",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760956048,
-        "end": 1760956656
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760956656,
@@ -51493,8 +51493,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762155029,
-        "end": null,
+        "end": 1762165833,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762165833,
+        "end": null
       }
     ]
   },
@@ -68591,7 +68596,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762164040,
-        "end": null
+        "end": 1762165833
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762165833,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
