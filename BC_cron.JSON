@@ -10073,12 +10073,6 @@
     "name": "smyles",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1760932845,
-        "end": 1760940043,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760940043,
         "end": 1761403828
@@ -11364,8 +11358,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762130426,
-        "end": null,
+        "end": 1762143021,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762143021,
+        "end": null
       }
     ]
   },
@@ -12006,11 +12005,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760932845,
-        "end": 1760933426
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1760933426,
@@ -22448,7 +22442,13 @@
       {
         "status": "Available",
         "start": 1762063235,
-        "end": null
+        "end": 1762143021
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1762143021,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29915,12 +29915,6 @@
   "2730718": {
     "name": "Haungpeary",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1760932845,
-        "end": 1760943647,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760943647,
@@ -51626,7 +51620,13 @@
       {
         "status": "Available",
         "start": 1762106430,
-        "end": null
+        "end": 1762143021
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1762143021,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -59547,6 +59547,11 @@
       {
         "status": "Jail",
         "start": 1762132829,
+        "end": 1762143021
+      },
+      {
+        "status": "Available",
+        "start": 1762143021,
         "end": null
       }
     ]
@@ -69973,6 +69978,11 @@
       {
         "status": "Available",
         "start": 1762137629,
+        "end": 1762143021
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1762143021,
         "end": null
       }
     ]
@@ -82458,8 +82468,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762141826,
-        "end": null,
+        "end": 1762143021,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762143021,
+        "end": null
       }
     ]
   },
