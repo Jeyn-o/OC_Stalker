@@ -15254,12 +15254,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1760991035,
-        "end": 1760995831,
-        "travel_type": "private"
-      },
-      {
         "status": "Available",
         "start": 1760995831,
         "end": 1760999441
@@ -17905,8 +17899,13 @@
       {
         "status": "[China] - Going",
         "start": 1762197022,
-        "end": null,
+        "end": 1762201220,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762201220,
+        "end": null
       }
     ]
   },
@@ -26699,7 +26698,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762200623,
-        "end": null
+        "end": 1762201220
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762201220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43567,11 +43572,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760991035,
-        "end": 1760994033
-      },
-      {
         "status": "[China] - Going",
         "start": 1760994033,
         "end": 1760998223,
@@ -59278,8 +59278,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762194024,
-        "end": null,
+        "end": 1762201220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1762201220,
+        "end": null
       }
     ]
   },
@@ -59626,11 +59631,6 @@
   "3628419": {
     "name": "Littlegman212",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1760991035,
-        "end": 1760992831
-      },
       {
         "status": "Available",
         "start": 1760992831,
@@ -61790,6 +61790,11 @@
       {
         "status": "Available",
         "start": 1762013427,
+        "end": 1762201220
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1762201220,
         "end": null
       }
     ]
@@ -67676,8 +67681,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762200043,
-        "end": null,
+        "end": 1762201220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762201220,
+        "end": null
       }
     ]
   },
