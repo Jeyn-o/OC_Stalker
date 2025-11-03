@@ -3110,7 +3110,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1762158624,
-        "end": null
+        "end": 1762159824
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762159824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11341,8 +11347,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762147217,
-        "end": null,
+        "end": 1762159824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762159824,
+        "end": null
       }
     ]
   },
@@ -40408,12 +40419,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1760950049,
-        "end": 1760956955,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1760956955,
         "end": 1760959231
@@ -41613,7 +41618,13 @@
       {
         "status": "Available",
         "start": 1762126229,
-        "end": null
+        "end": 1762159824
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1762159824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -61251,6 +61262,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762149634,
+        "end": 1762159824
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1762159824,
         "end": null
       }
     ]
@@ -67777,6 +67793,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1762158027,
+        "end": 1762159824,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1762159824,
         "end": null,
         "travel_type": "airstrip"
       }
