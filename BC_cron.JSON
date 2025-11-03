@@ -32969,11 +32969,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760967631,
-        "end": 1761007832
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1761007832,
         "end": 1761009028,
@@ -39841,8 +39836,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762165833,
-        "end": null,
+        "end": 1762177824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762177824,
+        "end": null
       }
     ]
   },
@@ -41519,7 +41519,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762174836,
-        "end": null
+        "end": 1762177824
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762177824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -61834,11 +61840,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760967631,
-        "end": 1760970045
-      },
-      {
         "status": "[China] - Going",
         "start": 1760970045,
         "end": 1760979637,
@@ -62734,12 +62735,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1760967631,
-        "end": 1760969431,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1760969431,
@@ -67688,8 +67683,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1762176024,
-        "end": null,
+        "end": 1762177824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1762177824,
+        "end": null
       }
     ]
   },
@@ -76507,6 +76507,11 @@
       {
         "status": "Available",
         "start": 1762103426,
+        "end": 1762177824
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1762177824,
         "end": null
       }
     ]
