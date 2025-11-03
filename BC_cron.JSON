@@ -8461,11 +8461,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1760944831,
-        "end": 1760950544
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1760950544,
         "end": 1760956955,
@@ -28723,12 +28718,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1760944831,
-        "end": 1760951858,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1760951858,
@@ -49140,8 +49129,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762145422,
-        "end": null,
+        "end": 1762155029,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762155029,
+        "end": null
       }
     ]
   },
@@ -51522,6 +51516,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762143021,
+        "end": 1762155029,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762155029,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -65181,11 +65181,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760944831,
-        "end": 1760946449
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760946449,
         "end": 1760948850
@@ -72193,7 +72188,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1762153825,
-        "end": null
+        "end": 1762155029
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1762155029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
