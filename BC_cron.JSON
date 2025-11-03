@@ -22408,6 +22408,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762143021,
+        "end": 1762150825,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762150825,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29857,8 +29863,13 @@
       {
         "status": "[China] - Going",
         "start": 1762140627,
-        "end": null,
+        "end": 1762150825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762150825,
+        "end": null
       }
     ]
   },
@@ -36743,11 +36754,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] Mugged - Revives: ALL",
-        "start": 1760940630,
-        "end": 1760942430
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760942430,
@@ -51552,11 +51558,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760940630,
-        "end": 1760943032
-      },
-      {
         "status": "[Hawaii] - Going",
         "start": 1760943032,
         "end": 1760948850,
@@ -58262,11 +58263,6 @@
   "3619214": {
     "name": "GoldenVirginia",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1760940630,
-        "end": 1760959835
-      },
       {
         "status": "[Switzerland] Mugged - Revives: ALL",
         "start": 1760959835,
@@ -69912,6 +69908,11 @@
       {
         "status": "Available",
         "start": 1762145422,
+        "end": 1762150825
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1762150825,
         "end": null
       }
     ]
@@ -71104,12 +71105,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1760940630,
-        "end": 1760942430,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1760942430,
@@ -75086,11 +75081,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1760940630,
-        "end": 1760942430
-      },
-      {
         "status": "Available",
         "start": 1760942430,
         "end": 1760971823
@@ -78362,7 +78352,13 @@
       {
         "status": "Available",
         "start": 1762149020,
-        "end": null
+        "end": 1762150825
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762150825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -80242,11 +80238,6 @@
     "name": "Maddog1997",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760940630,
-        "end": 1760979033
-      },
-      {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1760979033,
         "end": 1760980228
@@ -81355,8 +81346,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762144228,
-        "end": null,
+        "end": 1762150825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762150825,
+        "end": null
       }
     ]
   },
