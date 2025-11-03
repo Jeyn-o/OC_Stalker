@@ -16944,12 +16944,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1760978425,
-        "end": 1760981429,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1760981429,
         "end": 1760985629
@@ -25794,11 +25788,6 @@
     "name": "ExiledAstronaut",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760978425,
-        "end": 1761016230
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761016230,
         "end": 1761019231
@@ -26669,7 +26658,13 @@
       {
         "status": "Available",
         "start": 1762182032,
-        "end": null
+        "end": 1762188626
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1762188626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29849,7 +29844,13 @@
       {
         "status": "Available",
         "start": 1762184423,
-        "end": null
+        "end": 1762188626
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762188626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -42197,7 +42198,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762182621,
-        "end": null
+        "end": 1762188626
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762188626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43507,20 +43514,19 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762182032,
-        "end": null,
+        "end": 1762188626,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762188626,
+        "end": null
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1760978425,
-        "end": 1760981429,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1760981429,
@@ -45566,12 +45572,6 @@
     "name": "Osein",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1760978425,
-        "end": 1760979637,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] Mugged - Revives: OFF",
         "start": 1760979637,
         "end": 1760982623
@@ -47542,12 +47542,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1760978425,
-        "end": 1760979637,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1760979637,
@@ -62717,7 +62711,13 @@
       {
         "status": "Available",
         "start": 1762183835,
-        "end": null
+        "end": 1762188626
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1762188626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -79191,6 +79191,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1762186822,
+        "end": 1762188626
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762188626,
         "end": null
       }
     ]
