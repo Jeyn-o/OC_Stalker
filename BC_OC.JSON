@@ -49296,7 +49296,7 @@
   "990507": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": 1762229401,
+    "ready_at": 1762315801,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -49306,6 +49306,14 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": false
+      },
+      "P2": {
+        "user_id": 3625719,
+        "user_name": "Raie",
+        "checkpoint_pass_rate": 68,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -49319,6 +49327,17 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1762148426,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3625719,
+        "user_name": "Raie",
+        "checkpoint_pass_rate": 68,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   }
