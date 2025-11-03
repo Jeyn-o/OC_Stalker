@@ -4788,12 +4788,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760949457,
-        "end": 1760956656,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760956656,
         "end": 1760965239
@@ -27322,8 +27316,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762152030,
-        "end": null,
+        "end": 1762159227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762159227,
+        "end": null
       }
     ]
   },
@@ -35912,12 +35911,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1760949457,
-        "end": 1760956656,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760956656,
@@ -47694,12 +47687,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1760949457,
-        "end": 1760959231,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760959231,
         "end": 1760959835
@@ -56910,8 +56897,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762149020,
-        "end": null,
+        "end": 1762159227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762159227,
+        "end": null
       }
     ]
   },
@@ -71073,11 +71065,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1760949457,
-        "end": 1760950544
-      },
-      {
         "status": "Available",
         "start": 1760950544,
         "end": 1760975426
@@ -81324,6 +81311,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762152030,
+        "end": 1762159227,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762159227,
         "end": null,
         "travel_type": "airstrip"
       }
