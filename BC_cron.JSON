@@ -8466,12 +8466,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1760965832,
-        "end": 1760972440,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1760972440,
         "end": 1760977833
@@ -17914,7 +17908,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762158624,
-        "end": null
+        "end": 1762176024
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762176024,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -24423,7 +24423,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762116020,
-        "end": null
+        "end": 1762176024
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762176024,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26660,12 +26666,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1760965832,
-        "end": 1760972440,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760972440,
         "end": 1760985028
@@ -27296,8 +27296,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762169433,
-        "end": null,
+        "end": 1762176024,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762176024,
+        "end": null
       }
     ]
   },
@@ -43549,12 +43554,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1760965832,
-        "end": 1760970628,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1760970628,
         "end": 1760973019
@@ -50197,6 +50196,11 @@
       {
         "status": "Available",
         "start": 1762136427,
+        "end": 1762176024
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1762176024,
         "end": null
       }
     ]
@@ -56089,12 +56093,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1760965832,
-        "end": 1760976035,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1760976035,
         "end": 1760977223
@@ -58572,12 +58570,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1760965832,
-        "end": 1760973019,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1760973019,
@@ -67722,7 +67714,13 @@
       {
         "status": "Available",
         "start": 1762175427,
-        "end": null
+        "end": 1762176024
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1762176024,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -68527,8 +68525,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762165833,
-        "end": null,
+        "end": 1762176024,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762176024,
+        "end": null
       }
     ]
   },
@@ -78297,11 +78300,6 @@
   "3915266": {
     "name": "Lucifixion",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760965832,
-        "end": 1760967034
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1760967034,
