@@ -3104,8 +3104,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762151428,
-        "end": null,
+        "end": 1762158624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1762158624,
+        "end": null
       }
     ]
   },
@@ -5652,7 +5657,13 @@
       {
         "status": "Available",
         "start": 1762117826,
-        "end": null
+        "end": 1762158624
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762158624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10047,7 +10058,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762155628,
-        "end": null
+        "end": 1762158624
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762158624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17940,8 +17957,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762153238,
-        "end": null,
+        "end": 1762158624,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762158624,
+        "end": null
       }
     ]
   },
@@ -26679,12 +26701,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1760948850,
-        "end": 1760956048,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1760956048,
@@ -38546,12 +38562,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1760948850,
-        "end": 1760961028,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760961028,
         "end": 1760963440
@@ -45690,12 +45700,6 @@
     "name": "Osein",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1760948850,
-        "end": 1760956048,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760956048,
         "end": 1760956656
@@ -47689,11 +47693,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1760948850,
-        "end": 1760949457
-      },
       {
         "status": "[China] - Returning",
         "start": 1760949457,
@@ -51525,11 +51524,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1760948850,
-        "end": 1760954255
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1760954255,
@@ -65191,11 +65185,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760948850,
-        "end": 1760960430
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1760960430,
@@ -81343,11 +81332,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760948850,
-        "end": 1760970628
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1760970628,
