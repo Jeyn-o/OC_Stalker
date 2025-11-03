@@ -28722,12 +28722,6 @@
     "name": "Hussc-",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1760951858,
-        "end": 1760959231,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1760959231,
         "end": 1760962827
@@ -45690,7 +45684,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762161023,
-        "end": null
+        "end": 1762161620
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762161620,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -54581,8 +54581,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762154423,
-        "end": null,
+        "end": 1762161620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762161620,
+        "end": null
       }
     ]
   },
@@ -67782,8 +67787,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1762159824,
-        "end": null,
+        "end": 1762161620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1762161620,
+        "end": null
       }
     ]
   },
