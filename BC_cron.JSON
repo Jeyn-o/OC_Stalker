@@ -32990,6 +32990,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1762147217,
+        "end": 1762156832,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1762156832,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -45691,7 +45697,13 @@
       {
         "status": "Available",
         "start": 1762134027,
-        "end": null
+        "end": 1762156832
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762156832,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -54623,12 +54635,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1760947059,
-        "end": 1760954255,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1760954255,
@@ -67795,6 +67801,11 @@
       {
         "status": "Available",
         "start": 1762156234,
+        "end": 1762156832
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1762156832,
         "end": null
       }
     ]
@@ -71064,6 +71075,11 @@
       {
         "status": "Available",
         "start": 1762137035,
+        "end": 1762156832
+      },
+      {
+        "status": "[Hospital] Lost - Revives: Partial",
+        "start": 1762156832,
         "end": null
       }
     ]
@@ -73570,11 +73586,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1760947059,
-        "end": 1760953060
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1760953060,
@@ -78317,8 +78328,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762150825,
-        "end": null,
+        "end": 1762156832,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762156832,
+        "end": null
       }
     ]
   },
@@ -81325,11 +81341,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: Partial",
-        "start": 1760947059,
-        "end": 1760948850
-      },
       {
         "status": "Available",
         "start": 1760948850,
