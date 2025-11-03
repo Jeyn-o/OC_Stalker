@@ -3668,12 +3668,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1760977223,
-        "end": 1760979033,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1760979033,
         "end": 1760986220,
@@ -13453,7 +13447,13 @@
       {
         "status": "Available",
         "start": 1762124430,
-        "end": null
+        "end": 1762187430
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1762187430,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22373,7 +22373,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762185020,
-        "end": null
+        "end": 1762187430
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762187430,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35859,7 +35865,13 @@
       {
         "status": "Available",
         "start": 1762182032,
-        "end": null
+        "end": 1762187430
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762187430,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -42197,12 +42209,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1760977223,
-        "end": 1760988628,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1760988628,
@@ -53511,12 +53517,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1760977223,
-        "end": 1760987441,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760987441,
         "end": 1761027633
@@ -56051,12 +56051,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1760977223,
-        "end": 1760986839,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760986839,
@@ -72172,8 +72166,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1762186226,
-        "end": null,
+        "end": 1762187430,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762187430,
+        "end": null
       }
     ]
   },
