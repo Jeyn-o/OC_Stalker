@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1760960430,
-        "end": 1760961645
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1760961645,
         "end": 1760974237,
@@ -21639,11 +21634,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1760960430,
-        "end": 1760963440
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1760963440,
         "end": 1760970045,
@@ -25798,11 +25788,6 @@
   "2675301": {
     "name": "ExiledAstronaut",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1760960430,
-        "end": 1760963440
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1760963440,
@@ -32148,11 +32133,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1760960430,
-        "end": 1760961028
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1760961028,
         "end": 1760962232,
@@ -32999,6 +32979,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1762169433,
+        "end": 1762170626,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1762170626,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -65159,11 +65145,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1760960430,
-        "end": 1760962232
-      },
-      {
         "status": "Available",
         "start": 1760962232,
         "end": 1760962827
@@ -75041,6 +75022,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762169433,
+        "end": 1762170626
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1762170626,
         "end": null
       }
     ]
@@ -79176,7 +79162,13 @@
       {
         "status": "Available",
         "start": 1762132226,
-        "end": null
+        "end": 1762170626
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762170626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -81326,6 +81318,11 @@
       {
         "status": "Available",
         "start": 1762166422,
+        "end": 1762170626
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1762170626,
         "end": null
       }
     ]
