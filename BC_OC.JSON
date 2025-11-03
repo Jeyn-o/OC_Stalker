@@ -46079,9 +46079,9 @@
   },
   "967669": {
     "name": "Counter Offer",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1762132124,
-    "executed_at": null,
+    "executed_at": 1762132745,
     "slots": {
       "P4": {
         "user_id": 3231991,
@@ -48666,10 +48666,29 @@
   "983530": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1762218863,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 2802632,
+        "user_name": "Hoboblue",
+        "checkpoint_pass_rate": 73,
+        "position": "Picklock",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1762132831,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2802632,
+        "user_name": "Hoboblue",
+        "checkpoint_pass_rate": 73,
+        "position": "Picklock",
+        "position_number": 1
+      }
+    ]
   },
   "983531": {
     "name": "Blast from the Past",
