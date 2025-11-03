@@ -1742,12 +1742,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1760945438,
-        "end": 1760952451,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1760952451,
         "end": 1760964622
@@ -10053,8 +10047,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762143628,
-        "end": null,
+        "end": 1762155628,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762155628,
+        "end": null
       }
     ]
   },
@@ -11984,12 +11983,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1760945438,
-        "end": 1760959231,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1760959231,
@@ -38003,6 +37996,11 @@
       {
         "status": "Available",
         "start": 1762073426,
+        "end": 1762155628
+      },
+      {
+        "status": "Jail",
+        "start": 1762155628,
         "end": null
       }
     ]
@@ -65172,8 +65170,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762144818,
-        "end": null,
+        "end": 1762155628,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762155628,
+        "end": null
       }
     ]
   },
