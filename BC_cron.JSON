@@ -17996,7 +17996,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762131025,
-        "end": null
+        "end": 1762134027
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762134027,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -31855,7 +31861,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1762132226,
-        "end": null
+        "end": 1762134027
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1762134027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43729,12 +43741,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1760923838,
-        "end": 1760928023,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1760928023,
         "end": 1760930433
@@ -45809,8 +45815,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762129823,
-        "end": null,
+        "end": 1762134027,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1762134027,
+        "end": null
       }
     ]
   },
@@ -53288,7 +53299,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1762133441,
-        "end": null
+        "end": 1762134027
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762134027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -62976,11 +62993,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1760923838,
-        "end": 1760925028
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1760925028,
         "end": 1760925638
@@ -64693,6 +64705,11 @@
       {
         "status": "Available",
         "start": 1762011629,
+        "end": 1762134027
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1762134027,
         "end": null
       }
     ]
@@ -82484,8 +82501,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762132829,
-        "end": null,
+        "end": 1762134027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1762134027,
+        "end": null
       }
     ]
   },
@@ -83732,8 +83754,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762127428,
-        "end": null,
+        "end": 1762134027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762134027,
+        "end": null
       }
     ]
   },
