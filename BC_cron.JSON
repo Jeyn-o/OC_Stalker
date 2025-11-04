@@ -1730,12 +1730,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1761046236,
-        "end": 1761052827,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1761052827,
         "end": 1761060028,
@@ -5652,6 +5646,11 @@
       {
         "status": "Available",
         "start": 1762204821,
+        "end": 1762256429
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1762256429,
         "end": null
       }
     ]
@@ -8458,12 +8457,6 @@
   "1766417": {
     "name": "gajeela09",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1761046236,
-        "end": 1761052827,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761052827,
@@ -34381,12 +34374,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1761046236,
-        "end": 1761053446,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761053446,
         "end": 1761054030
@@ -38374,11 +38361,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761046236,
-        "end": 1761048633
-      },
-      {
         "status": "[China] - Going",
         "start": 1761048633,
         "end": 1761058843,
@@ -40159,6 +40141,16 @@
       {
         "status": "Available",
         "start": 1762011030,
+        "end": null
+      }
+    ]
+  },
+  "3156041": {
+    "name": "Googer",
+    "activities": [
+      {
+        "status": "Available",
+        "start": 1762256429,
         "end": null
       }
     ]
@@ -48707,8 +48699,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762245028,
-        "end": null,
+        "end": 1762256429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762256429,
+        "end": null
       }
     ]
   },
@@ -68263,8 +68260,13 @@
       {
         "status": "[China] - Going",
         "start": 1762246842,
-        "end": null,
+        "end": 1762256429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762256429,
+        "end": null
       }
     ]
   },
@@ -72700,11 +72702,6 @@
   "3851236": {
     "name": "Psyden",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761046236,
-        "end": 1761130234
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1761130234,
