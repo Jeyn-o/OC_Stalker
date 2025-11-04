@@ -10448,11 +10448,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1761050422,
-        "end": 1761051027
-      },
-      {
         "status": "Available",
         "start": 1761051027,
         "end": 1761094235
@@ -29740,6 +29735,12 @@
       {
         "status": "[China] - Going",
         "start": 1762250442,
+        "end": 1762260629,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762260629,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -32042,12 +32043,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1761050422,
-        "end": 1761060028,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1761060028,
@@ -59041,7 +59036,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1762252825,
-        "end": null
+        "end": 1762260629
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762260629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -67406,12 +67407,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1761050422,
-        "end": 1761060638,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761060638,
         "end": 1761061228
@@ -70710,12 +70705,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761050422,
-        "end": 1761057040,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761057040,
         "end": 1761060028
@@ -71902,7 +71891,13 @@
       {
         "status": "Available",
         "start": 1762257634,
-        "end": null
+        "end": 1762260629
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762260629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
