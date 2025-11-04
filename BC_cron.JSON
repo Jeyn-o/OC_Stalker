@@ -1716,6 +1716,11 @@
       {
         "status": "Available",
         "start": 1762011629,
+        "end": 1762265423
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1762265423,
         "end": null
       }
     ]
@@ -21074,7 +21079,13 @@
       {
         "status": "Available",
         "start": 1762010423,
-        "end": null
+        "end": 1762265423
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1762265423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34343,11 +34354,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1761055242,
-        "end": 1761057040
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1761057040,
         "end": 1761058843,
@@ -35726,6 +35732,12 @@
       {
         "status": "[China] - Going",
         "start": 1762255224,
+        "end": 1762265423,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762265423,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37776,11 +37788,6 @@
   "3069081": {
     "name": "Thornking",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1761055242,
-        "end": 1761060028
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761060028,
@@ -48636,6 +48643,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762257634,
+        "end": 1762265423,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762265423,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -49824,11 +49837,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1761055242,
-        "end": 1761055835
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1761055835,
         "end": 1761062435,
@@ -51011,8 +51019,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762258829,
-        "end": null,
+        "end": 1762265423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762265423,
+        "end": null
       }
     ]
   },
@@ -62456,7 +62469,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762264225,
-        "end": null
+        "end": 1762265423
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762265423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -64006,8 +64025,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762258230,
-        "end": null,
+        "end": 1762265423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762265423,
+        "end": null
       }
     ]
   },
