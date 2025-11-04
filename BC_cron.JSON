@@ -26739,12 +26739,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761006033,
-        "end": 1761012631,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761012631,
         "end": 1761036033
@@ -29915,6 +29909,12 @@
       {
         "status": "[China] - Returning",
         "start": 1762206026,
+        "end": 1762216229,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762216229,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33060,8 +33060,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762203637,
-        "end": null,
+        "end": 1762216229,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762216229,
+        "end": null
       }
     ]
   },
@@ -67749,8 +67754,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762209623,
-        "end": null,
+        "end": 1762216229,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1762216229,
+        "end": null
       }
     ]
   },
