@@ -1723,11 +1723,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1761073832,
-        "end": 1761082228
-      },
-      {
         "status": "Available",
         "start": 1761082228,
         "end": 1761110446
@@ -4761,6 +4756,11 @@
       {
         "status": "Available",
         "start": 1762277438,
+        "end": 1762284027
+      },
+      {
+        "status": "Jail",
+        "start": 1762284027,
         "end": null
       }
     ]
@@ -16814,12 +16814,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1761073832,
-        "end": 1761076840,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1761076840,
         "end": 1761086425
@@ -21054,6 +21048,11 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1762272629,
+        "end": 1762284027
+      },
+      {
+        "status": "[Switzerland] Mugged - Revives: ALL",
+        "start": 1762284027,
         "end": null
       }
     ]
@@ -26583,6 +26582,11 @@
       {
         "status": "Available",
         "start": 1762213246,
+        "end": 1762284027
+      },
+      {
+        "status": "Jail",
+        "start": 1762284027,
         "end": null
       }
     ]
@@ -31742,6 +31746,11 @@
       {
         "status": "Available",
         "start": 1762278624,
+        "end": 1762284027
+      },
+      {
+        "status": "Jail",
+        "start": 1762284027,
         "end": null
       }
     ]
@@ -37785,12 +37794,6 @@
   "3069081": {
     "name": "Thornking",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1761073832,
-        "end": 1761085234,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761085234,
@@ -47185,12 +47188,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1761073832,
-        "end": 1761080444,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1761080444,
         "end": 1761081025
@@ -49814,6 +49811,11 @@
       {
         "status": "Available",
         "start": 1762263029,
+        "end": 1762284027
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1762284027,
         "end": null
       }
     ]
@@ -55725,8 +55727,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762276221,
-        "end": null,
+        "end": 1762284027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1762284027,
+        "end": null
       }
     ]
   },
@@ -57107,11 +57114,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1761073832,
-        "end": 1761119435
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1761119435,
@@ -60033,6 +60035,11 @@
       {
         "status": "Available",
         "start": 1762239632,
+        "end": 1762284027
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1762284027,
         "end": null
       }
     ]
@@ -60849,7 +60856,13 @@
       {
         "status": "Available",
         "start": 1762270234,
-        "end": null
+        "end": 1762284027
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1762284027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -61551,12 +61564,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1761073832,
-        "end": 1761084042,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761084042,
@@ -62453,12 +62460,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1761073832,
-        "end": 1761080444,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761080444,
@@ -63996,12 +63997,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1761073832,
-        "end": 1761084633,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761084633,
@@ -73214,11 +73209,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[United Arab Emirates] Mugged - Revives: ALL",
-        "start": 1761073832,
-        "end": 1761076240
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761076240,
@@ -83417,7 +83407,13 @@
       {
         "status": "Available",
         "start": 1762281030,
-        "end": null
+        "end": 1762284027
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762284027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
