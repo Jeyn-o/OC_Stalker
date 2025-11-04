@@ -4751,6 +4751,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762252231,
+        "end": 1762264832,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762264832,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -20478,11 +20484,6 @@
   "2583853": {
     "name": "frkn",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761054628,
-        "end": 1761400229
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761400229,
@@ -54168,11 +54169,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761054628,
-        "end": 1761057631
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1761057631,
         "end": 1761059481,
@@ -60875,6 +60871,11 @@
       {
         "status": "Available",
         "start": 1762263029,
+        "end": 1762264832
+      },
+      {
+        "status": "Jail",
+        "start": 1762264832,
         "end": null
       }
     ]
@@ -62462,12 +62463,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1761054628,
-        "end": 1761055835,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1761055835,
@@ -67381,6 +67376,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762264225,
+        "end": 1762264832
+      },
+      {
+        "status": "Available",
+        "start": 1762264832,
         "end": null
       }
     ]
@@ -76243,12 +76243,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1761054628,
-        "end": 1761055835,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761055835,
         "end": 1761058243
@@ -81019,7 +81013,13 @@
       {
         "status": "Available",
         "start": 1762260023,
-        "end": null
+        "end": 1762264832
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762264832,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
