@@ -4760,11 +4760,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761051646,
-        "end": 1761060028
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1761060028,
         "end": 1761066631,
@@ -17818,7 +17813,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762245028,
-        "end": null
+        "end": 1762261821
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762261821,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -27227,7 +27228,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762246842,
-        "end": null
+        "end": 1762261821
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762261821,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32857,7 +32864,13 @@
       {
         "status": "Available",
         "start": 1762261238,
-        "end": null
+        "end": 1762261821
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1762261821,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43298,11 +43311,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Argentina] Mugged - Revives: ALL",
-        "start": 1761051646,
-        "end": 1761054030
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1761054030,
         "end": 1761057040,
@@ -47260,12 +47268,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761051646,
-        "end": 1761058843,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761058843,
@@ -54183,8 +54185,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762255224,
-        "end": null,
+        "end": 1762261821,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762261821,
+        "end": null
       }
     ]
   },
@@ -56516,8 +56523,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762251628,
-        "end": null,
+        "end": 1762261821,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762261821,
+        "end": null
       }
     ]
   },
@@ -62462,12 +62474,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1761051646,
-        "end": 1761052827,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761052827,
         "end": 1761053446
@@ -64722,11 +64728,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761051646,
-        "end": 1761065431
-      },
       {
         "status": "[Canada] - Going",
         "start": 1761065431,
@@ -73209,12 +73210,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761051646,
-        "end": 1761058243,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761058243,
         "end": 1761059481
@@ -76259,12 +76254,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1761051646,
-        "end": 1761052234,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1761052234,
@@ -83728,6 +83717,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1762260023,
+        "end": 1762261821
+      },
+      {
+        "status": "Available",
+        "start": 1762261821,
         "end": null
       }
     ]
