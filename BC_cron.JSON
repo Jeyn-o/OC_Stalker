@@ -33038,6 +33038,11 @@
       {
         "status": "[South Africa] Mugged - Revives: ALL",
         "start": 1762225234,
+        "end": 1762227032
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762227032,
         "end": null
       }
     ]
@@ -38523,11 +38528,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761016850,
-        "end": 1761018031
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1761018031,
@@ -52858,8 +52858,13 @@
       {
         "status": "[China] - Going",
         "start": 1762216829,
-        "end": null,
+        "end": 1762227032,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762227032,
+        "end": null
       }
     ]
   },
@@ -54385,12 +54390,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1761016850,
-        "end": 1761024024,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761024024,
@@ -62659,12 +62658,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1761016850,
-        "end": 1761018031,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761018031,
@@ -74921,18 +74914,19 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762224624,
-        "end": null
+        "end": 1762227032
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762227032,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1761016850,
-        "end": 1761019826
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1761019826,
@@ -78205,8 +78199,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1762225234,
-        "end": null,
+        "end": 1762227032,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] Hospitalized - Revives: ALL",
+        "start": 1762227032,
+        "end": null
       }
     ]
   },
