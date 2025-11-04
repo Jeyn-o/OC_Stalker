@@ -34358,11 +34358,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1761078636,
-        "end": 1761079232
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1761079232,
         "end": 1761080444,
@@ -45726,11 +45721,6 @@
   "3255591": {
     "name": "xaqf",
     "activities": [
-      {
-        "status": "[Argentina] Attacked - Revives: ALL",
-        "start": 1761078636,
-        "end": 1761080444
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1761080444,
@@ -64027,6 +64017,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1762287622,
+        "end": 1762288826,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1762288826,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -68246,8 +68242,13 @@
       {
         "status": "[China] - Going",
         "start": 1762278624,
-        "end": null,
+        "end": 1762288826,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762288826,
+        "end": null
       }
     ]
   },
@@ -71945,8 +71946,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1762287024,
-        "end": null,
+        "end": 1762288826,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762288826,
+        "end": null
       }
     ]
   },
