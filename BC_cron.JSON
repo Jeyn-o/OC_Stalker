@@ -20534,12 +20534,6 @@
     "name": "frkn",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1761032425,
-        "end": 1761039626,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1761039626,
         "end": 1761046828
@@ -61695,11 +61689,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761032425,
-        "end": 1761034229
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1761034229,
         "end": 1761035443,
@@ -64828,11 +64817,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: OFF",
-        "start": 1761032425,
-        "end": 1761034229
-      },
       {
         "status": "Available",
         "start": 1761034229,
@@ -71992,7 +71976,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1762240825,
-        "end": null
+        "end": 1762242620
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1762242620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -83552,7 +83542,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762242024,
-        "end": null
+        "end": 1762242620
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762242620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
