@@ -11281,7 +11281,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762248636,
-        "end": null
+        "end": 1762249226
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762249226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32100,11 +32106,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761039033,
-        "end": 1761040231
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1761040231,
         "end": 1761042029,
@@ -34422,12 +34423,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1761039033,
-        "end": 1761046236,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1761046236,
@@ -39741,8 +39736,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762237844,
-        "end": null,
+        "end": 1762249226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762249226,
+        "end": null
       }
     ]
   },
@@ -52742,8 +52742,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762247425,
-        "end": null,
+        "end": 1762249226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1762249226,
+        "end": null
       }
     ]
   },
