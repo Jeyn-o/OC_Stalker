@@ -49855,8 +49855,8 @@
   },
   "990500": {
     "name": "Pet Project",
-    "status": "Planning",
-    "ready_at": 1762415742,
+    "status": "Recruiting",
+    "ready_at": 1762329342,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -49874,14 +49874,6 @@
         "position": "Muscle",
         "position_number": 1,
         "item_available": true
-      },
-      "P3": {
-        "user_id": 3653613,
-        "user_name": "SN00PYTOBY",
-        "checkpoint_pass_rate": 56,
-        "position": "Picklock",
-        "position_number": 1,
-        "item_available": false
       }
     },
     "action_log": [
@@ -49910,6 +49902,17 @@
       {
         "timestamp": 1762174224,
         "action": "joined",
+        "slot": "P3",
+        "user_id": 3653613,
+        "user_name": "SN00PYTOBY",
+        "checkpoint_pass_rate": 56,
+        "position": "Picklock",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1762291831,
+        "action": "left",
         "slot": "P3",
         "user_id": 3653613,
         "user_name": "SN00PYTOBY",
@@ -50190,7 +50193,7 @@
   "994396": {
     "name": "Mob Mentality",
     "status": "Recruiting",
-    "ready_at": 1762430012,
+    "ready_at": 1762516412,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -50208,6 +50211,13 @@
         "position": "Looter",
         "position_number": 3,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3653613,
+        "user_name": "SN00PYTOBY",
+        "checkpoint_pass_rate": 69,
+        "position": "Looter",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -50252,6 +50262,16 @@
         "position": "Looter",
         "position_number": 3,
         "item_available": true
+      },
+      {
+        "timestamp": 1762291831,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3653613,
+        "user_name": "SN00PYTOBY",
+        "checkpoint_pass_rate": 69,
+        "position": "Looter",
+        "position_number": 2
       }
     ]
   },
