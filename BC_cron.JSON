@@ -12792,12 +12792,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1761081634,
-        "end": 1761088830,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761088830,
         "end": 1761135036
@@ -15666,8 +15660,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762284629,
-        "end": null,
+        "end": 1762291829,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1762291829,
+        "end": null
       }
     ]
   },
@@ -17766,8 +17765,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762287024,
-        "end": null,
+        "end": 1762291829,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1762291829,
+        "end": null
       }
     ]
   },
@@ -26603,11 +26607,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1761081634,
-        "end": 1761084042
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761084042,
@@ -55761,6 +55760,11 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1762291226,
+        "end": 1762291829
+      },
+      {
+        "status": "[Switzerland] Mugged - Revives: ALL",
+        "start": 1762291829,
         "end": null
       }
     ]
@@ -60084,11 +60088,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761081634,
-        "end": 1761094846
-      },
       {
         "status": "[China] - Going",
         "start": 1761094846,
@@ -64783,11 +64782,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1761081634,
-        "end": 1761091832
-      },
-      {
         "status": "Available",
         "start": 1761091832,
         "end": 1761094846
@@ -68296,7 +68290,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762288826,
-        "end": null
+        "end": 1762291829
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762291829,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
