@@ -17916,8 +17916,13 @@
       {
         "status": "[China] - Going",
         "start": 1762213246,
-        "end": null,
+        "end": 1762218034,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762218034,
+        "end": null
       }
     ]
   },
@@ -33063,12 +33068,6 @@
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1761007832,
-        "end": 1761009028,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1761009028,
@@ -48960,11 +48959,6 @@
     "name": "Krytical",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761007832,
-        "end": 1761187230
-      },
-      {
         "status": "Jail",
         "start": 1761187230,
         "end": 1761187829
@@ -59698,11 +59692,6 @@
     "name": "Littlegman212",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761007832,
-        "end": 1761010237
-      },
-      {
         "status": "Available",
         "start": 1761010237,
         "end": 1761147038
@@ -65053,11 +65042,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761007832,
-        "end": 1761010237
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761010237,
@@ -73555,12 +73539,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1761007832,
-        "end": 1761015038,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1761015038,
         "end": 1761016230
@@ -75086,18 +75064,19 @@
       {
         "status": "Available",
         "start": 1762215025,
-        "end": null
+        "end": 1762218034
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762218034,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761007832,
-        "end": 1761010237
-      },
       {
         "status": "[Canada] - Going",
         "start": 1761010237,
@@ -76157,6 +76136,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762205423,
+        "end": 1762218034,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762218034,
         "end": null,
         "travel_type": "airstrip"
       }
