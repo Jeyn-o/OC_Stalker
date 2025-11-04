@@ -4769,11 +4769,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761073240,
-        "end": 1761110446
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1761110446,
         "end": 1761118230,
@@ -15673,8 +15668,13 @@
       {
         "status": "[China] - Going",
         "start": 1762276221,
-        "end": null,
+        "end": 1762283419,
         "travel_type": "private"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762283419,
+        "end": null
       }
     ]
   },
@@ -30842,11 +30842,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761073240,
-        "end": 1761082228
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1761082228,
         "end": 1761089433,
@@ -34361,12 +34356,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1761073240,
-        "end": 1761075036,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1761075036,
         "end": 1761076840,
@@ -35751,19 +35740,19 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762281624,
-        "end": null,
+        "end": 1762283419,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762283419,
+        "end": null
       }
     ]
   },
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761073240,
-        "end": 1761231027
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1761231027,
@@ -43257,11 +43246,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1761073240,
-        "end": 1761078034
-      },
       {
         "status": "[China] - Returning",
         "start": 1761078034,
@@ -71906,8 +71890,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1762281624,
-        "end": null,
+        "end": 1762283419,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] Hospitalized - Revives: ALL",
+        "start": 1762283419,
+        "end": null
       }
     ]
   },
@@ -74731,6 +74720,11 @@
       {
         "status": "Available",
         "start": 1762276221,
+        "end": 1762283419
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1762283419,
         "end": null
       }
     ]
@@ -75776,6 +75770,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762271431,
+        "end": 1762283419,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762283419,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -80994,12 +80994,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1761073240,
-        "end": 1761080444,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761080444,
