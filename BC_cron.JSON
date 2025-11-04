@@ -757,6 +757,11 @@
       {
         "status": "Available",
         "start": 1762233028,
+        "end": 1762249823
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1762249823,
         "end": null
       }
     ]
@@ -3634,6 +3639,11 @@
       {
         "status": "Available",
         "start": 1762011030,
+        "end": 1762249823
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1762249823,
         "end": null
       }
     ]
@@ -20529,11 +20539,6 @@
     "name": "frkn",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1761039626,
-        "end": 1761046828
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1761046828,
         "end": 1761054628,
@@ -21572,12 +21577,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1761039626,
-        "end": 1761052234,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1761052234,
@@ -38406,12 +38405,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1761039626,
-        "end": 1761046236,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761046236,
         "end": 1761048633
@@ -41408,7 +41401,13 @@
       {
         "status": "Available",
         "start": 1762224024,
-        "end": null
+        "end": 1762249823
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1762249823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -64767,11 +64766,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761039626,
-        "end": 1761041621
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1761041621,
