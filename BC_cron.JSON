@@ -1731,12 +1731,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1761013232,
-        "end": 1761025225,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1761025225,
         "end": 1761037240,
@@ -15268,6 +15262,11 @@
       {
         "status": "Available",
         "start": 1761985227,
+        "end": 1762223431
+      },
+      {
+        "status": "[Hospital] Event - Revives: Partial",
+        "start": 1762223431,
         "end": null
       }
     ]
@@ -15275,11 +15274,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761013232,
-        "end": 1761022838
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1761022838,
@@ -17910,8 +17904,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762218620,
-        "end": null,
+        "end": 1762223431,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1762223431,
+        "end": null
       }
     ]
   },
@@ -30967,12 +30966,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1761013232,
-        "end": 1761020428,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1761020428,
@@ -56707,7 +56700,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762213246,
-        "end": null
+        "end": 1762223431
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762223431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -67599,8 +67598,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762216829,
-        "end": null,
+        "end": 1762223431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762223431,
+        "end": null
       }
     ]
   },
@@ -79083,6 +79087,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1762221021,
+        "end": 1762223431
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762223431,
         "end": null
       }
     ]
@@ -82307,8 +82316,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762222228,
-        "end": null,
+        "end": 1762223431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762223431,
+        "end": null
       }
     ]
   },
