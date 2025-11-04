@@ -17773,8 +17773,13 @@
       {
         "status": "[China] - Going",
         "start": 1762282228,
-        "end": null,
+        "end": 1762286438,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762286438,
+        "end": null
       }
     ]
   },
@@ -21059,6 +21064,11 @@
       {
         "status": "[Switzerland] Mugged - Revives: ALL",
         "start": 1762284027,
+        "end": 1762286438
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1762286438,
         "end": null
       }
     ]
@@ -64000,6 +64010,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1762285223,
+        "end": 1762286438,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1762286438,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -64693,6 +64709,11 @@
       {
         "status": "[United Arab Emirates] Lost - Revives: Partial",
         "start": 1762284629,
+        "end": 1762286438
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762286438,
         "end": null
       }
     ]
@@ -70693,11 +70714,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761076240,
-        "end": 1761112839
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1761112839,
         "end": 1761114038,
@@ -73225,11 +73241,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1761076240,
-        "end": 1761082828
-      },
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1761082828,
@@ -77923,8 +77934,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1762277438,
-        "end": null,
+        "end": 1762286438,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762286438,
+        "end": null
       }
     ]
   },
@@ -78764,7 +78780,13 @@
       {
         "status": "Available",
         "start": 1762257634,
-        "end": null
+        "end": 1762286438
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762286438,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
