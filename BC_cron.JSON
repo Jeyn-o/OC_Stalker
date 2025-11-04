@@ -43303,20 +43303,19 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762247425,
-        "end": null,
+        "end": 1762258230,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762258230,
+        "end": null
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1761048042,
-        "end": 1761051027,
-        "travel_type": "standard"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1761051027,
@@ -45339,7 +45338,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762255833,
-        "end": null
+        "end": 1762258230
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762258230,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -49866,11 +49871,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761048042,
-        "end": 1761048633
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1761048633,
@@ -57838,7 +57838,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762254627,
-        "end": null
+        "end": 1762258230
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762258230,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -64042,7 +64048,13 @@
       {
         "status": "Available",
         "start": 1762254038,
-        "end": null
+        "end": 1762258230
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762258230,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -73214,6 +73226,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762248636,
+        "end": 1762258230,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762258230,
         "end": null,
         "travel_type": "standard"
       }
@@ -73222,11 +73240,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1761048042,
-        "end": 1761049227
-      },
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1761049227,
