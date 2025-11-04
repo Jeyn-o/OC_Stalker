@@ -50270,8 +50270,8 @@
   },
   "994417": {
     "name": "Clinical Precision",
-    "status": "Recruiting",
-    "ready_at": 1762413284,
+    "status": "Planning",
+    "ready_at": 1762586084,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -50288,6 +50288,22 @@
         "position": "Assassin",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 65,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 69,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -50333,6 +50349,28 @@
         "position": "Assassin",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1762285225,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 65,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1762285225,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 69,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   }
