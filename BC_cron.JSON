@@ -1725,11 +1725,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1761037240,
-        "end": 1761045029
-      },
-      {
         "status": "Available",
         "start": 1761045029,
         "end": 1761046236
@@ -10029,6 +10024,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762234822,
+        "end": 1762247425,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762247425,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15734,12 +15735,6 @@
   "2315415": {
     "name": "Litri",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1761037240,
-        "end": 1761044440,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761044440,
@@ -32105,11 +32100,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1761037240,
-        "end": 1761038045
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1761038045,
         "end": 1761039033,
@@ -37483,8 +37473,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762236038,
-        "end": null,
+        "end": 1762247425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762247425,
+        "end": null
       }
     ]
   },
@@ -43377,7 +43372,13 @@
       {
         "status": "Available",
         "start": 1762224024,
-        "end": null
+        "end": 1762247425
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1762247425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -46412,12 +46413,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1761037240,
-        "end": 1761044440,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1761044440,
         "end": 1761045640
@@ -47369,11 +47364,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761037240,
-        "end": 1761045029
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1761045029,
@@ -52753,7 +52743,13 @@
       {
         "status": "Available",
         "start": 1762237844,
-        "end": null
+        "end": 1762247425
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1762247425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -74764,8 +74760,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762240825,
-        "end": null,
+        "end": 1762247425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762247425,
+        "end": null
       }
     ]
   },
