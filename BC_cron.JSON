@@ -11950,12 +11950,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1761019231,
-        "end": 1761030635,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761030635,
         "end": 1761042632,
@@ -25826,11 +25820,6 @@
   "2675301": {
     "name": "ExiledAstronaut",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761019231,
-        "end": 1761115829
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1761115829,
@@ -55968,11 +55957,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1761019231,
-        "end": 1761046828
-      },
-      {
         "status": "[China] - Returning",
         "start": 1761046828,
         "end": 1761057040,
@@ -78189,7 +78173,13 @@
       {
         "status": "[Canada] Hospitalized - Revives: ALL",
         "start": 1762227032,
-        "end": null
+        "end": 1762229423
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1762229423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -82298,8 +82288,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762228222,
-        "end": null,
+        "end": 1762229423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762229423,
+        "end": null
       }
     ]
   },
