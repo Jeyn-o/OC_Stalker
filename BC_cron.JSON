@@ -31756,6 +31756,11 @@
       {
         "status": "Jail",
         "start": 1762284027,
+        "end": 1762287622
+      },
+      {
+        "status": "Available",
+        "start": 1762287622,
         "end": null
       }
     ]
@@ -32073,12 +32078,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1761077429,
-        "end": 1761090033,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1761090033,
@@ -33732,7 +33731,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762270827,
-        "end": null
+        "end": 1762287622
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762287622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -62471,8 +62476,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762281030,
-        "end": null,
+        "end": 1762287622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762287622,
+        "end": null
       }
     ]
   },
@@ -64025,6 +64035,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1762286438,
+        "end": 1762287622,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1762287622,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -64723,7 +64739,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762286438,
-        "end": null
+        "end": 1762287622
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762287622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
