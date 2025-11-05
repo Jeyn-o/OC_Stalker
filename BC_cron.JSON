@@ -5617,18 +5617,19 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762372836,
-        "end": null
+        "end": 1762373431
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762373431,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
   "1184733": {
     "name": "Pro_eobard",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1761163237,
-        "end": 1761170433
-      },
       {
         "status": "[South Africa] Mugged - Revives: ALL",
         "start": 1761170433,
@@ -16770,11 +16771,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761163237,
-        "end": 1761169227
-      },
       {
         "status": "[China] - Going",
         "start": 1761169227,
@@ -30822,12 +30818,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1761163237,
-        "end": 1761170433,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1761170433,
         "end": 1761172235
@@ -32864,12 +32854,6 @@
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1761163237,
-        "end": 1761164435,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1761164435,
@@ -35701,8 +35685,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762372227,
-        "end": null,
+        "end": 1762373431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1762373431,
+        "end": null
       }
     ]
   },
@@ -41892,12 +41881,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1761163237,
-        "end": 1761174625,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761174625,
@@ -53300,12 +53283,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1761163237,
-        "end": 1761165032,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1761165032,
         "end": 1761165700
@@ -64136,7 +64113,13 @@
       {
         "status": "Available",
         "start": 1762371026,
-        "end": null
+        "end": 1762373431
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1762373431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -70874,12 +70857,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1761163237,
-        "end": 1761164435,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761164435,
@@ -81134,8 +81111,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762366831,
-        "end": null,
+        "end": 1762373431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762373431,
+        "end": null
       }
     ]
   },
