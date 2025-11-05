@@ -3058,6 +3058,11 @@
       {
         "status": "Jail",
         "start": 1762323629,
+        "end": 1762344623
+      },
+      {
+        "status": "Available",
+        "start": 1762344623,
         "end": null
       }
     ]
@@ -4738,12 +4743,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1761134444,
-        "end": 1761141033,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761141033,
@@ -32836,12 +32835,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1761134444,
-        "end": 1761144634,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Returning",
         "start": 1761144634,
         "end": 1761154833,
@@ -36526,11 +36519,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1761134444,
-        "end": 1761136237
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761136237,
         "end": 1761147637,
@@ -39559,7 +39547,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762340437,
-        "end": null
+        "end": 1762344623
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762344623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41914,7 +41908,13 @@
       {
         "status": "Available",
         "start": 1762302624,
-        "end": null
+        "end": 1762344623
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1762344623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -47162,12 +47162,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1761134444,
-        "end": 1761136237,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1761136237,
@@ -54301,12 +54295,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1761134444,
-        "end": 1761140432,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1761140432,
         "end": 1761145830,
@@ -55859,7 +55847,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1762344040,
-        "end": null
+        "end": 1762344623
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762344623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -81165,6 +81159,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762338021,
+        "end": 1762344623,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762344623,
         "end": null,
         "travel_type": "airstrip"
       }
