@@ -10391,12 +10391,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1761094235,
-        "end": 1761106826,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1761106826,
         "end": 1761119435,
@@ -13317,6 +13311,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762297231,
+        "end": 1762304430,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762304430,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15159,11 +15159,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[Switzerland] Mugged - Revives: ALL",
-        "start": 1761094235,
-        "end": 1761096027
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1761096027,
@@ -17762,7 +17757,13 @@
       {
         "status": "Available",
         "start": 1762291829,
-        "end": null
+        "end": 1762304430
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762304430,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -43245,11 +43246,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1761094235,
-        "end": 1761096027
-      },
-      {
         "status": "[China] - Idle",
         "start": 1761096027,
         "end": 1761097851
@@ -48626,8 +48622,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762293020,
-        "end": null,
+        "end": 1762304430,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1762304430,
+        "end": null
       }
     ]
   },
@@ -52684,7 +52685,13 @@
       {
         "status": "Available",
         "start": 1762300221,
-        "end": null
+        "end": 1762304430
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762304430,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -54253,11 +54260,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1761094235,
-        "end": 1761098445
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1761098445,
@@ -59101,6 +59103,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1762296626,
+        "end": 1762304430
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: ALL",
+        "start": 1762304430,
         "end": null
       }
     ]
@@ -78093,7 +78100,13 @@
       {
         "status": "Available",
         "start": 1762286438,
-        "end": null
+        "end": 1762304430
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762304430,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
