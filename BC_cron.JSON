@@ -15160,11 +15160,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1761096027,
-        "end": 1761100237
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1761100237,
         "end": 1761105638,
@@ -21060,12 +21055,6 @@
   "2611425": {
     "name": "NeshoNeko",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1761096027,
-        "end": 1761103249,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1761103249,
@@ -38297,11 +38286,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1761096027,
-        "end": 1761097851
-      },
-      {
         "status": "[China] - Returning",
         "start": 1761097851,
         "end": 1761108035,
@@ -39594,7 +39578,13 @@
       {
         "status": "Available",
         "start": 1762249226,
-        "end": null
+        "end": 1762306235
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762306235,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43241,11 +43231,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1761096027,
-        "end": 1761097851
-      },
-      {
         "status": "[China] - Returning",
         "start": 1761097851,
         "end": 1761102044,
@@ -45269,8 +45254,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762302017,
-        "end": null,
+        "end": 1762306235,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1762306235,
+        "end": null
       }
     ]
   },
@@ -54264,8 +54254,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762299030,
-        "end": null,
+        "end": 1762306235,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1762306235,
+        "end": null
       }
     ]
   },
@@ -59108,6 +59103,11 @@
       {
         "status": "[Argentina] Mugged - Revives: ALL",
         "start": 1762304430,
+        "end": 1762306235
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1762306235,
         "end": null
       }
     ]
@@ -62573,12 +62573,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761096027,
-        "end": 1761102631,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761102631,
         "end": 1761103249
@@ -64845,11 +64839,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761096027,
-        "end": 1761101424
-      },
       {
         "status": "[Canada] - Going",
         "start": 1761101424,
@@ -78098,11 +78087,6 @@
     "name": "Lucifixion",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761096027,
-        "end": 1761118230
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1761118230,
         "end": 1761124830,
@@ -78924,7 +78908,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762293020,
-        "end": null
+        "end": 1762306235
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762306235,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
