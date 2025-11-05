@@ -27214,7 +27214,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762281624,
-        "end": null
+        "end": 1762324232
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762324232,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29747,7 +29753,13 @@
       {
         "status": "Available",
         "start": 1762323629,
-        "end": null
+        "end": 1762324232
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762324232,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -60138,6 +60150,11 @@
       {
         "status": "Available",
         "start": 1762288225,
+        "end": 1762324232
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1762324232,
         "end": null
       }
     ]
@@ -60955,8 +60972,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762313425,
-        "end": null,
+        "end": 1762324232,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762324232,
+        "end": null
       }
     ]
   },
@@ -68353,7 +68375,13 @@
       {
         "status": "Available",
         "start": 1762301426,
-        "end": null
+        "end": 1762324232
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762324232,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -70836,11 +70864,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1761114038,
-        "end": 1761127835
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1761127835,
@@ -74874,6 +74897,11 @@
       {
         "status": "[Cayman Islands] Mugged - Revives: ALL",
         "start": 1762322440,
+        "end": 1762324232
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1762324232,
         "end": null
       }
     ]
@@ -83557,8 +83585,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762312219,
-        "end": null,
+        "end": 1762324232,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762324232,
+        "end": null
       }
     ]
   },
