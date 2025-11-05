@@ -15151,6 +15151,11 @@
       {
         "status": "Available",
         "start": 1762225234,
+        "end": 1762318836
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: Partial",
+        "start": 1762318836,
         "end": null
       }
     ]
@@ -15662,7 +15667,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1762317628,
-        "end": null
+        "end": 1762318836
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762318836,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -37374,7 +37385,13 @@
       {
         "status": "Available",
         "start": 1762279240,
-        "end": null
+        "end": 1762318836
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1762318836,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41270,11 +41287,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761108633,
-        "end": 1761132028
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1761132028,
@@ -64866,11 +64878,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761108633,
-        "end": 1761109825
-      },
-      {
         "status": "Available",
         "start": 1761109825,
         "end": 1761121227
@@ -67551,6 +67558,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762317628,
+        "end": 1762318836,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762318836,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -74910,11 +74923,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761108633,
-        "end": 1761110446
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1761110446,
         "end": 1761112232,
@@ -76453,12 +76461,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761108633,
-        "end": 1761115234,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761115234,
@@ -78103,6 +78105,12 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762312219,
+        "end": 1762318836,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762318836,
         "end": null,
         "travel_type": "airstrip"
       }
