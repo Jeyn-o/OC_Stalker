@@ -49622,7 +49622,7 @@
   },
   "986085": {
     "name": "Stage Fright",
-    "status": "Planning",
+    "status": "Recruiting",
     "ready_at": 1762548525,
     "executed_at": null,
     "slots": {
@@ -49646,13 +49646,6 @@
         "user_name": "Anri_of_Astora",
         "checkpoint_pass_rate": 88,
         "position": "Enforcer",
-        "position_number": 1
-      },
-      "P2": {
-        "user_id": 1184733,
-        "user_name": "Pro_eobard",
-        "checkpoint_pass_rate": 88,
-        "position": "Muscle",
         "position_number": 1
       },
       "P6": {
@@ -49771,6 +49764,16 @@
         "checkpoint_pass_rate": 78,
         "position": "Muscle",
         "position_number": 3
+      },
+      {
+        "timestamp": 1762336833,
+        "action": "left",
+        "slot": "P2",
+        "user_id": 1184733,
+        "user_name": "Pro_eobard",
+        "checkpoint_pass_rate": 88,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   },
@@ -50291,10 +50294,31 @@
   "993596": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1762423059,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 1184733,
+        "user_name": "Pro_eobard",
+        "checkpoint_pass_rate": 73,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1762336833,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 1184733,
+        "user_name": "Pro_eobard",
+        "checkpoint_pass_rate": 73,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "994396": {
     "name": "Mob Mentality",
