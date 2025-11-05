@@ -5594,8 +5594,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1762363826,
-        "end": null,
+        "end": 1762366831,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1762366831,
+        "end": null
       }
     ]
   },
@@ -15609,8 +15614,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1762361428,
-        "end": null,
+        "end": 1762366831,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1762366831,
+        "end": null
       }
     ]
   },
@@ -38153,11 +38163,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1761156630,
-        "end": 1761169227
-      },
       {
         "status": "[China] - Returning",
         "start": 1761169227,
@@ -70865,11 +70870,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761156630,
-        "end": 1761157230
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1761157230,
         "end": 1761158432,
@@ -81160,7 +81160,13 @@
       {
         "status": "[United Kingdom] Lost - Revives: Partial",
         "start": 1762365644,
-        "end": null
+        "end": 1762366831
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762366831,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
