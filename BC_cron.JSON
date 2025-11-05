@@ -4735,6 +4735,12 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762359022,
+        "end": 1762371620,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1762371620,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -17747,18 +17753,19 @@
       {
         "status": "[China] - Idle",
         "start": 1762369234,
-        "end": null
+        "end": 1762371620
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762371620,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
   "2408196": {
     "name": "iam3vaj",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761161439,
-        "end": 1761406236
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761406236,
@@ -34339,12 +34346,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1761161439,
-        "end": 1761162027,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761162027,
         "end": 1761195027
@@ -35684,8 +35685,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762369829,
-        "end": null,
+        "end": 1762371620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762371620,
+        "end": null
       }
     ]
   },
@@ -41244,11 +41250,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761161439,
-        "end": 1761164435
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1761164435,
@@ -49776,6 +49777,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762370421,
+        "end": 1762371620
+      },
+      {
+        "status": "Available",
+        "start": 1762371620,
         "end": null
       }
     ]
@@ -70851,11 +70857,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1761161439,
-        "end": 1761163237
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1761163237,
         "end": 1761164435,
@@ -72047,7 +72048,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762370421,
-        "end": null
+        "end": 1762371620
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762371620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -81129,12 +81136,6 @@
     "name": "Rey2Fly",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1761161439,
-        "end": 1761171628,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761171628,
         "end": 1761179435
@@ -83588,7 +83589,13 @@
       {
         "status": "Available",
         "start": 1762370421,
-        "end": null
+        "end": 1762371620
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762371620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
