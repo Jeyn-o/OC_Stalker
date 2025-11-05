@@ -737,6 +737,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762357225,
+        "end": 1762369829,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762369829,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -19527,6 +19533,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762357824,
+        "end": 1762369829,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762369829,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35673,7 +35685,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1762369234,
-        "end": null
+        "end": 1762369829
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762369829,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37692,12 +37710,6 @@
   "3069081": {
     "name": "Thornking",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1761159645,
-        "end": 1761171628,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761171628,
@@ -48545,8 +48557,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762363235,
-        "end": null,
+        "end": 1762369829,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762369829,
+        "end": null
       }
     ]
   },
@@ -51564,11 +51581,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1761159645,
-        "end": 1761162027
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1761162027,
         "end": 1761174034,
@@ -53282,12 +53294,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1761159645,
-        "end": 1761160832,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1761160832,
@@ -58314,12 +58320,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1761159645,
-        "end": 1761166231,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761166231,
         "end": 1761168029
@@ -59484,12 +59484,6 @@
   "3628419": {
     "name": "Littlegman212",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1761159645,
-        "end": 1761172235,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761172235,
@@ -64140,6 +64134,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762368038,
+        "end": 1762369829,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762369829,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -67565,11 +67565,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761159645,
-        "end": 1761160224
-      },
-      {
         "status": "[China] - Going",
         "start": 1761160224,
         "end": 1761170433,
@@ -70884,11 +70879,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761159645,
-        "end": 1761160224
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1761160224,
@@ -78904,7 +78894,13 @@
       {
         "status": "Available",
         "start": 1762312825,
-        "end": null
+        "end": 1762369829
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1762369829,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
