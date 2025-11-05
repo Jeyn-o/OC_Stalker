@@ -50652,10 +50652,31 @@
   "996035": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1762441283,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 2335586,
+        "user_name": "Poundthatass",
+        "checkpoint_pass_rate": 62,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1762355434,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2335586,
+        "user_name": "Poundthatass",
+        "checkpoint_pass_rate": 62,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "997481": {
     "name": "Ace in the Hole",
@@ -50690,7 +50711,7 @@
         "checkpoint_pass_rate": 64,
         "position": "Imitator",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
