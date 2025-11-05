@@ -9971,7 +9971,13 @@
       {
         "status": "Available",
         "start": 1762259429,
-        "end": null
+        "end": 1762316419
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1762316419,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11220,8 +11226,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762303819,
-        "end": null,
+        "end": 1762316419,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762316419,
+        "end": null
       }
     ]
   },
@@ -15652,7 +15663,13 @@
       {
         "status": "Available",
         "start": 1762312825,
-        "end": null
+        "end": 1762316419
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1762316419,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -30822,11 +30839,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761106237,
-        "end": 1761144038
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1761144038,
         "end": 1761150636,
@@ -32840,7 +32852,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762303819,
-        "end": null
+        "end": 1762316419
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762316419,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -64099,6 +64117,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1762315227,
+        "end": 1762316419,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1762316419,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -67508,6 +67532,11 @@
       {
         "status": "Available",
         "start": 1762315227,
+        "end": 1762316419
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1762316419,
         "end": null
       }
     ]
