@@ -3067,7 +3067,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762359630,
-        "end": null
+        "end": 1762361428
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762361428,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15598,7 +15604,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1762359630,
-        "end": null
+        "end": 1762361428
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762361428,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -29650,8 +29662,13 @@
       {
         "status": "[China] - Going",
         "start": 1762351229,
-        "end": null,
+        "end": 1762361428,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762361428,
+        "end": null
       }
     ]
   },
@@ -30745,12 +30762,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1761151231,
-        "end": 1761157837,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761157837,
@@ -45644,11 +45655,6 @@
     "name": "xaqf",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1761151231,
-        "end": 1761187829
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1761187829,
         "end": 1761195027,
@@ -47091,12 +47097,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1761151231,
-        "end": 1761157837,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761157837,
@@ -61657,11 +61657,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761151231,
-        "end": 1761151823
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1761151823,
         "end": 1761152449
@@ -73406,12 +73401,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1761151231,
-        "end": 1761157837,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1761157837,
         "end": 1761158432
@@ -74936,6 +74925,11 @@
       {
         "status": "[Cayman Islands] Mugged - Revives: ALL",
         "start": 1762359022,
+        "end": 1762361428
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1762361428,
         "end": null
       }
     ]
@@ -81151,12 +81145,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1761151231,
-        "end": 1761161439,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Returning",
         "start": 1761161439,
