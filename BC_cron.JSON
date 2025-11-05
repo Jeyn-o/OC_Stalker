@@ -1722,12 +1722,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1761136237,
-        "end": 1761143439,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1761143439,
         "end": 1761150028
@@ -12723,8 +12717,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762336220,
-        "end": null,
+        "end": 1762346425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762346425,
+        "end": null
       }
     ]
   },
@@ -36500,12 +36499,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1761136237,
-        "end": 1761147637,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761147637,
         "end": 1761193836
@@ -47139,12 +47132,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1761136237,
-        "end": 1761137425,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1761137425,
         "end": 1761144038,
@@ -51537,7 +51524,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762341619,
-        "end": null
+        "end": 1762346425
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762346425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -52701,6 +52694,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1762345222,
+        "end": 1762346425,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1762346425,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -60167,11 +60166,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761136237,
-        "end": 1761136827
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1761136827,
         "end": 1761147637,
@@ -62605,11 +62599,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1761136237,
-        "end": 1761138042
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761138042,
@@ -68400,8 +68389,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762336220,
-        "end": null,
+        "end": 1762346425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762346425,
+        "end": null
       }
     ]
   },
@@ -70884,12 +70878,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761136237,
-        "end": 1761142833,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1761142833,
@@ -83588,8 +83576,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762339825,
-        "end": null,
+        "end": 1762346425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1762346425,
+        "end": null
       }
     ]
   },
