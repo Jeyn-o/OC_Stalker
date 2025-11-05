@@ -3620,12 +3620,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1761133228,
-        "end": 1761145240,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761145240,
         "end": 1761146432
@@ -9129,11 +9123,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761133228,
-        "end": 1761203431
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1761203431,
         "end": 1761210633,
@@ -10361,11 +10350,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1761133228,
-        "end": 1761135625
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1761135625,
@@ -20418,8 +20402,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762336830,
-        "end": null,
+        "end": 1762343426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762343426,
+        "end": null
       }
     ]
   },
@@ -43225,7 +43214,13 @@
       {
         "status": "Available",
         "start": 1762341025,
-        "end": null
+        "end": 1762343426
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1762343426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -52731,7 +52726,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1762342824,
-        "end": null
+        "end": 1762343426
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762343426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -64897,11 +64898,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761133228,
-        "end": 1761146432
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1761146432,
