@@ -9140,12 +9140,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1761120637,
-        "end": 1761133228,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761133228,
         "end": 1761203431
@@ -10367,12 +10361,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1761120637,
-        "end": 1761133228,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1761133228,
@@ -27153,8 +27141,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762324232,
-        "end": null,
+        "end": 1762330822,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762330822,
+        "end": null
       }
     ]
   },
@@ -28558,12 +28551,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1761120637,
-        "end": 1761127835,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761127835,
@@ -32796,6 +32783,11 @@
       {
         "status": "Jail",
         "start": 1762329029,
+        "end": 1762330822
+      },
+      {
+        "status": "Available",
+        "start": 1762330822,
         "end": null
       }
     ]
@@ -49764,12 +49756,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1761120637,
-        "end": 1761127835,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1761127835,
         "end": 1761135036,
@@ -58246,6 +58232,11 @@
       {
         "status": "Available",
         "start": 1762313425,
+        "end": 1762330822
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1762330822,
         "end": null
       }
     ]
@@ -81123,7 +81114,13 @@
       {
         "status": "Available",
         "start": 1762303224,
-        "end": null
+        "end": 1762330822
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762330822,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
