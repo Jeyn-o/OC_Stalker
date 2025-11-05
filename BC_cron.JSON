@@ -1722,11 +1722,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1761124226,
-        "end": 1761136237
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1761136237,
         "end": 1761143439,
@@ -11210,8 +11205,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762322440,
-        "end": null,
+        "end": 1762334430,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762334430,
+        "end": null
       }
     ]
   },
@@ -22240,8 +22240,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1762333822,
-        "end": null,
+        "end": 1762334430,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762334430,
+        "end": null
       }
     ]
   },
@@ -29712,8 +29717,13 @@
       {
         "status": "[China] - Going",
         "start": 1762324232,
-        "end": null,
+        "end": 1762334430,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762334430,
+        "end": null
       }
     ]
   },
@@ -48576,6 +48586,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762327830,
+        "end": 1762334430,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762334430,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -50981,20 +50997,19 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762327830,
-        "end": null,
+        "end": 1762334430,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762334430,
+        "end": null
       }
     ]
   },
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1761124226,
-        "end": 1761129633,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761129633,
@@ -51549,8 +51564,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762327223,
-        "end": null,
+        "end": 1762334430,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762334430,
+        "end": null
       }
     ]
   },
@@ -57833,7 +57853,13 @@
       {
         "status": "Available",
         "start": 1762270827,
-        "end": null
+        "end": 1762334430
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1762334430,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -64848,12 +64874,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1761124226,
-        "end": 1761126627,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1761126627,
