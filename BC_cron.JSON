@@ -30843,12 +30843,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1761104432,
-        "end": 1761106237,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761106237,
         "end": 1761144038
@@ -43239,12 +43233,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1761104432,
-        "end": 1761107443,
-        "travel_type": "standard"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1761107443,
         "end": 1761109240
@@ -52684,8 +52672,13 @@
       {
         "status": "[China] - Going",
         "start": 1762304430,
-        "end": null,
+        "end": 1762314625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762314625,
+        "end": null
       }
     ]
   },
@@ -55831,11 +55824,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761104432,
-        "end": 1761120035
-      },
-      {
         "status": "[China] - Going",
         "start": 1761120035,
         "end": 1761130234,
@@ -56566,6 +56554,12 @@
       {
         "status": "[China] - Going",
         "start": 1762303819,
+        "end": 1762314625,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762314625,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -64844,6 +64838,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1762313425,
+        "end": 1762314625,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1762314625,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -67523,6 +67523,11 @@
       {
         "status": "Available",
         "start": 1762281030,
+        "end": 1762314625
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1762314625,
         "end": null
       }
     ]
@@ -68352,11 +68357,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1761104432,
-        "end": 1761105031
-      },
       {
         "status": "Available",
         "start": 1761105031,
@@ -75962,7 +75962,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1762311635,
-        "end": null
+        "end": 1762314625
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1762314625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
