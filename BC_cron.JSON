@@ -739,6 +739,11 @@
       {
         "status": "[South Africa] Mugged - Revives: OFF",
         "start": 1762331429,
+        "end": 1762333822
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762333822,
         "end": null
       }
     ]
@@ -17740,8 +17745,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762329029,
-        "end": null,
+        "end": 1762333822,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762333822,
+        "end": null
       }
     ]
   },
@@ -22225,7 +22235,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1762333237,
-        "end": null
+        "end": 1762333822
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1762333822,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34332,12 +34348,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1761123646,
-        "end": 1761124830,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1761124830,
         "end": 1761126034,
@@ -39542,7 +39552,13 @@
       {
         "status": "Available",
         "start": 1762332027,
-        "end": null
+        "end": 1762333822
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762333822,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -54235,11 +54251,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1761123646,
-        "end": 1761126627
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1761126627,
         "end": 1761133835,
@@ -58266,12 +58277,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1761123646,
-        "end": 1761130234,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761130234,
@@ -64843,11 +64848,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1761123646,
-        "end": 1761124226
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1761124226,
@@ -76425,12 +76425,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761123646,
-        "end": 1761129633,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761129633,
         "end": 1761141033
@@ -78075,7 +78069,13 @@
       {
         "status": "Available",
         "start": 1762333237,
-        "end": null
+        "end": 1762333822
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762333822,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
