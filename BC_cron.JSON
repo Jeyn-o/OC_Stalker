@@ -23885,6 +23885,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762362622,
+        "end": 1762375223,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762375223,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29723,6 +29729,11 @@
       {
         "status": "[China] - Idle",
         "start": 1762368038,
+        "end": 1762375223
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1762375223,
         "end": null
       }
     ]
@@ -35697,8 +35708,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762374019,
-        "end": null,
+        "end": 1762375223,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762375223,
+        "end": null
       }
     ]
   },
@@ -40035,12 +40051,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1761165032,
-        "end": 1761177643,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1761177643,
         "end": 1761190239,
@@ -41249,7 +41259,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762374632,
-        "end": null
+        "end": 1762375223
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762375223,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -53293,11 +53309,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1761165032,
-        "end": 1761165700
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1761165700,
         "end": 1761166841,
@@ -64129,7 +64140,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1762374632,
-        "end": null
+        "end": 1762375223
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762375223,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
