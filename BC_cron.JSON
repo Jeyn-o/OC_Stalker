@@ -5594,6 +5594,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762360227,
+        "end": 1762363826,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762363826,
         "end": null,
         "travel_type": "standard"
       }
@@ -17728,12 +17734,6 @@
   "2408196": {
     "name": "iam3vaj",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1761153629,
-        "end": 1761161439,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761161439,
@@ -34302,11 +34302,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761153629,
-        "end": 1761160224
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1761160224,
         "end": 1761160832,
@@ -41847,11 +41842,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1761153629,
-        "end": 1761163237
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761163237,
@@ -61685,12 +61675,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1761153629,
-        "end": 1761163832,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1761163832,
         "end": 1761165700
@@ -62585,12 +62569,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761153629,
-        "end": 1761160224,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761160224,
@@ -64836,7 +64814,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762357824,
-        "end": null
+        "end": 1762363826
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762363826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -67537,8 +67521,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762362622,
-        "end": null,
+        "end": 1762363826,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1762363826,
+        "end": null
       }
     ]
   },
@@ -72078,6 +72067,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762357225,
+        "end": 1762363826,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762363826,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -78092,12 +78087,6 @@
     "name": "Lucifixion",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761153629,
-        "end": 1761160832,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761160832,
         "end": 1761225040
@@ -83601,6 +83590,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762357225,
+        "end": 1762363826,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762363826,
         "end": null,
         "travel_type": "airstrip"
       }
