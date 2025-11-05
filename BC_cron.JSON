@@ -32032,12 +32032,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1761127241,
-        "end": 1761136827,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761136827,
         "end": 1761138638
@@ -47153,12 +47147,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1761127241,
-        "end": 1761128426,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Going",
         "start": 1761128426,
@@ -62602,6 +62590,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762330221,
+        "end": 1762337426,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762337426,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -81174,8 +81168,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762330822,
-        "end": null,
+        "end": 1762337426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762337426,
+        "end": null
       }
     ]
   },
