@@ -33723,6 +33723,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762296025,
+        "end": 1762302624,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762302624,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -41279,8 +41285,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762290037,
-        "end": null,
+        "end": 1762302624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762302624,
+        "end": null
       }
     ]
   },
@@ -41937,6 +41948,11 @@
       {
         "status": "Jail",
         "start": 1762302017,
+        "end": 1762302624
+      },
+      {
+        "status": "Available",
+        "start": 1762302624,
         "end": null
       }
     ]
@@ -55796,8 +55812,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1762294817,
-        "end": null,
+        "end": 1762302624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762302624,
+        "end": null
       }
     ]
   },
@@ -64800,6 +64821,11 @@
       {
         "status": "[Hospital] Lost - Revives: Partial",
         "start": 1762301426,
+        "end": 1762302624
+      },
+      {
+        "status": "Available",
+        "start": 1762302624,
         "end": null
       }
     ]
@@ -69598,6 +69624,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1762302017,
+        "end": 1762302624
+      },
+      {
+        "status": "Available",
+        "start": 1762302624,
         "end": null
       }
     ]
@@ -73350,12 +73381,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1761092436,
-        "end": 1761103831,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761103831,
         "end": 1761111653
@@ -75925,7 +75950,13 @@
       {
         "status": "Available",
         "start": 1762300860,
-        "end": null
+        "end": 1762302624
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1762302624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
