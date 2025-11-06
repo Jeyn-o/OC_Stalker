@@ -15601,7 +15601,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762396826,
-        "end": null
+        "end": 1762401021
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762401021,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -28551,11 +28557,6 @@
     "name": "Hussc-",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1761190832,
-        "end": 1761199242
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1761199242,
         "end": 1761205828,
@@ -30786,11 +30787,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1761190832,
-        "end": 1761192038
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1761192038,
         "end": 1761198633,
@@ -32003,12 +31999,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1761190832,
-        "end": 1761203431,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761203431,
@@ -41228,7 +41218,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762399832,
-        "end": null
+        "end": 1762401021
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762401021,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -45280,6 +45276,12 @@
       {
         "status": "[Canada] - Returning",
         "start": 1762400419,
+        "end": 1762401021,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1762401021,
         "end": null,
         "travel_type": "standard"
       }
@@ -55848,8 +55850,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1762399832,
-        "end": null,
+        "end": 1762401021,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762401021,
+        "end": null
       }
     ]
   },
@@ -62536,12 +62543,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761190832,
-        "end": 1761197438,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761197438,
         "end": 1761217241
@@ -68338,11 +68339,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761190832,
-        "end": 1761260441
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1761260441,
@@ -74845,7 +74841,13 @@
       {
         "status": "Available",
         "start": 1762400419,
-        "end": null
+        "end": 1762401021
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1762401021,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
