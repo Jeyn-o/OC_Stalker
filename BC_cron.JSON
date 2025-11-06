@@ -749,7 +749,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762396225,
-        "end": null
+        "end": 1762396826
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762396826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15594,8 +15600,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762392026,
-        "end": null,
+        "end": 1762396826,
         "travel_type": "private"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762396826,
+        "end": null
       }
     ]
   },
@@ -43201,12 +43212,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1761186634,
-        "end": 1761189634,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1761189634,
         "end": 1761195027
@@ -64073,6 +64078,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762395625,
+        "end": 1762396826,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762396826,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -64798,7 +64809,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1762396225,
-        "end": null
+        "end": 1762396826
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762396826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -77948,6 +77965,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762389621,
+        "end": 1762396826,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762396826,
         "end": null,
         "travel_type": "airstrip"
       }
