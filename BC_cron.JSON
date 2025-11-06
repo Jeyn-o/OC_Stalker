@@ -4772,12 +4772,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1761222632,
-        "end": 1761229228,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1761229228,
         "end": 1761230425
@@ -11609,11 +11603,6 @@
   "2154655": {
     "name": "Khana",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1761222632,
-        "end": 1761223228
-      },
       {
         "status": "Available",
         "start": 1761223228,
@@ -24297,11 +24286,6 @@
     "name": "windyswag",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1761222632,
-        "end": 1761232234
-      },
-      {
         "status": "Available",
         "start": 1761232234,
         "end": 1761406236
@@ -27195,11 +27179,6 @@
   "2679269": {
     "name": "TsanMan",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1761222632,
-        "end": 1761235239
-      },
       {
         "status": "Available",
         "start": 1761235239,
@@ -30833,12 +30812,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1761222632,
-        "end": 1761229837,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761229837,
@@ -35692,8 +35665,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762423233,
-        "end": null,
+        "end": 1762432821,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762432821,
+        "end": null
       }
     ]
   },
@@ -36525,8 +36503,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1762425628,
-        "end": null,
+        "end": 1762432821,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762432821,
+        "end": null
       }
     ]
   },
@@ -38177,12 +38160,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1761222632,
-        "end": 1761235239,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1761235239,
@@ -51136,6 +51113,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762426227,
+        "end": 1762432821,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762432821,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -53391,11 +53374,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761222632,
-        "end": 1761225040
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1761225040,
         "end": 1761226828,
@@ -54350,8 +54328,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762425628,
-        "end": null,
+        "end": 1762432821,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762432821,
+        "end": null
       }
     ]
   },
@@ -56659,7 +56642,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762431022,
-        "end": null
+        "end": 1762432821
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762432821,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
