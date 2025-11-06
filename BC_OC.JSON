@@ -49359,7 +49359,7 @@
   "983532": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1762528756,
+    "ready_at": 1762615156,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -49374,6 +49374,14 @@
         "user_name": "AlfieG",
         "checkpoint_pass_rate": 67,
         "position": "Cleaner",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2335586,
+        "user_name": "Poundthatass",
+        "checkpoint_pass_rate": 67,
+        "position": "Assassin",
         "position_number": 1,
         "item_available": true
       }
@@ -49397,6 +49405,17 @@
         "user_name": "AlfieG",
         "checkpoint_pass_rate": 67,
         "position": "Cleaner",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1762441246,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2335586,
+        "user_name": "Poundthatass",
+        "checkpoint_pass_rate": 67,
+        "position": "Assassin",
         "position_number": 1,
         "item_available": true
       }
@@ -50878,20 +50897,22 @@
     "status": "Recruiting",
     "ready_at": 1762441283,
     "executed_at": null,
-    "slots": {
-      "P4": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1762355434,
+        "action": "joined",
+        "slot": "P4",
         "user_id": 2335586,
         "user_name": "Poundthatass",
         "checkpoint_pass_rate": 62,
         "position": "Thief",
         "position_number": 1,
         "item_available": true
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1762355434,
-        "action": "joined",
+        "timestamp": 1762441246,
+        "action": "left",
         "slot": "P4",
         "user_id": 2335586,
         "user_name": "Poundthatass",
