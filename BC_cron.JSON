@@ -8422,6 +8422,11 @@
       {
         "status": "Available",
         "start": 1762007431,
+        "end": 1762427425
+      },
+      {
+        "status": "[Hospital] Event - Revives: Partial",
+        "start": 1762427425,
         "end": null
       }
     ]
@@ -29712,7 +29717,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762426832,
-        "end": null
+        "end": 1762427425
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762427425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34309,12 +34320,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1761217241,
-        "end": 1761224440,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1761224440,
@@ -48678,6 +48683,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762420245,
+        "end": 1762427425,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762427425,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -52821,11 +52832,6 @@
     "name": "Jordanw1",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1761217241,
-        "end": 1761217829
-      },
-      {
         "status": "Available",
         "start": 1761217829,
         "end": 1761268831
@@ -53369,12 +53375,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1761217241,
-        "end": 1761219035,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1761219035,
@@ -60198,12 +60198,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1761217241,
-        "end": 1761228051,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761228051,
         "end": 1761235239
@@ -62566,19 +62560,19 @@
       {
         "status": "Available",
         "start": 1762426832,
-        "end": null
+        "end": 1762427425
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762427425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1761217241,
-        "end": 1761224440,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1761224440,
@@ -64121,6 +64115,11 @@
       {
         "status": "Available",
         "start": 1762416660,
+        "end": 1762427425
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1762427425,
         "end": null
       }
     ]
@@ -64858,12 +64857,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1761217241,
-        "end": 1761218425,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761218425,
@@ -67535,6 +67528,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762423828,
+        "end": 1762427425
+      },
+      {
+        "status": "Available",
+        "start": 1762427425,
         "end": null
       }
     ]
@@ -68395,7 +68393,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762425628,
-        "end": null
+        "end": 1762427425
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762427425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -82259,6 +82263,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1762425022,
+        "end": 1762427425
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762427425,
         "end": null
       }
     ]
