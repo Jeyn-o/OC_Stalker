@@ -15085,11 +15085,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1761177031,
-        "end": 1761184290
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1761184290,
         "end": 1761189034,
@@ -15610,7 +15605,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762372227,
-        "end": null
+        "end": 1762387824
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762387824,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -23862,8 +23863,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762375223,
-        "end": null,
+        "end": 1762387824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762387824,
+        "end": null
       }
     ]
   },
@@ -36508,6 +36514,11 @@
       {
         "status": "Available",
         "start": 1762081235,
+        "end": 1762387824
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1762387824,
         "end": null
       }
     ]
@@ -39517,8 +39528,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762381222,
-        "end": null,
+        "end": 1762387824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762387824,
+        "end": null
       }
     ]
   },
@@ -40027,6 +40043,11 @@
       {
         "status": "Available",
         "start": 1762360227,
+        "end": 1762387824
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1762387824,
         "end": null
       }
     ]
@@ -40034,12 +40055,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1761177643,
-        "end": 1761190239,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761190239,
@@ -41248,6 +41263,12 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762375223,
+        "end": 1762387824,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1762387824,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -41256,12 +41277,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1761177643,
-        "end": 1761189034,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761189034,
@@ -48579,7 +48594,13 @@
       {
         "status": "Available",
         "start": 1762386625,
-        "end": null
+        "end": 1762387824
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1762387824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -56594,11 +56615,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761177643,
-        "end": 1761181242
-      },
       {
         "status": "[China] - Going",
         "start": 1761181242,
@@ -64806,11 +64822,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761177643,
-        "end": 1761184290
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761184290,
@@ -74850,8 +74861,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762386015,
-        "end": null,
+        "end": 1762387824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1762387824,
+        "end": null
       }
     ]
   },
@@ -81115,8 +81131,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762386015,
-        "end": null,
+        "end": 1762387824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762387824,
+        "end": null
       }
     ]
   },
