@@ -4772,11 +4772,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1761213642,
-        "end": 1761215437
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1761215437,
         "end": 1761221425,
@@ -19503,7 +19498,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762423233,
-        "end": null
+        "end": 1762423828
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762423828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22173,7 +22174,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1762422623,
-        "end": null
+        "end": 1762423828
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762423828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36494,8 +36501,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762416660,
-        "end": null,
+        "end": 1762423828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1762423828,
+        "end": null
       }
     ]
   },
@@ -41889,12 +41901,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1761213642,
-        "end": 1761224440,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761224440,
@@ -59119,7 +59125,13 @@
       {
         "status": "Available",
         "start": 1762420829,
-        "end": null
+        "end": 1762423828
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762423828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -67496,6 +67508,11 @@
       {
         "status": "Available",
         "start": 1762419634,
+        "end": 1762423828
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1762423828,
         "end": null
       }
     ]
@@ -73332,6 +73349,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1762422623,
+        "end": 1762423828
+      },
+      {
+        "status": "Available",
+        "start": 1762423828,
         "end": null
       }
     ]
@@ -81126,8 +81148,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762417225,
-        "end": null,
+        "end": 1762423828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762423828,
+        "end": null
       }
     ]
   },
