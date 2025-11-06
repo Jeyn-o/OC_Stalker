@@ -13231,7 +13231,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762471219,
-        "end": null
+        "end": 1762471823
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762471823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19504,8 +19510,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762459228,
-        "end": null,
+        "end": 1762471823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762471823,
+        "end": null
       }
     ]
   },
@@ -73249,11 +73260,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761261623,
-        "end": 1761262230
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1761262230,
         "end": 1761273622,
@@ -75762,6 +75768,12 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762461027,
+        "end": 1762471823,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1762471823,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -79625,6 +79637,11 @@
       {
         "status": "Available",
         "start": 1762182032,
+        "end": 1762471823
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1762471823,
         "end": null
       }
     ]
