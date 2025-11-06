@@ -764,6 +764,12 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762435829,
+        "end": 1762448443,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1762448443,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -5650,7 +5656,13 @@
       {
         "status": "Available",
         "start": 1762447821,
-        "end": null
+        "end": 1762448443
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762448443,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7307,6 +7319,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1762446625,
+        "end": 1762448443
+      },
+      {
+        "status": "Available",
+        "start": 1762448443,
         "end": null
       }
     ]
@@ -17725,7 +17742,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762446025,
-        "end": null
+        "end": 1762448443
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762448443,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -35562,11 +35585,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1761238238,
-        "end": 1761238841
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1761238841,
         "end": 1761245430,
@@ -37576,6 +37594,11 @@
       {
         "status": "Jail",
         "start": 1762446625,
+        "end": 1762448443
+      },
+      {
+        "status": "Available",
+        "start": 1762448443,
         "end": null
       }
     ]
@@ -38042,12 +38065,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1761238238,
-        "end": 1761250828,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761250828,
@@ -45740,11 +45757,6 @@
   "3255591": {
     "name": "xaqf",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1761238238,
-        "end": 1761240636
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1761240636,
@@ -67410,11 +67422,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1761238238,
-        "end": 1761240636
-      },
       {
         "status": "[China] - Idle",
         "start": 1761240636,
