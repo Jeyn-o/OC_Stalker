@@ -1738,12 +1738,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761224440,
-        "end": 1761231637,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761231637,
         "end": 1761283236
@@ -11837,12 +11831,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1761224440,
-        "end": 1761231637,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1761231637,
@@ -34271,12 +34259,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1761224440,
-        "end": 1761231637,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1761231637,
         "end": 1761232234
@@ -37299,7 +37281,13 @@
       {
         "status": "Available",
         "start": 1762417826,
-        "end": null
+        "end": 1762434626
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1762434626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39468,7 +39456,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762426832,
-        "end": null
+        "end": 1762434626
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762434626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41880,11 +41874,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761224440,
-        "end": 1761234631
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1761234631,
@@ -45321,7 +45310,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762434033,
-        "end": null
+        "end": 1762434626
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762434626,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -48658,8 +48653,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1762427425,
-        "end": null,
+        "end": 1762434626,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762434626,
+        "end": null
       }
     ]
   },
@@ -62517,6 +62517,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762427425,
+        "end": 1762434626,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762434626,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -62525,11 +62531,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1761224440,
-        "end": 1761226239
-      },
       {
         "status": "[Switzerland] Mugged - Revives: ALL",
         "start": 1761226239,
