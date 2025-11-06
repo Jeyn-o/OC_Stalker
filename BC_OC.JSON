@@ -49755,8 +49755,8 @@
   },
   "986085": {
     "name": "Stage Fright",
-    "status": "Recruiting",
-    "ready_at": 1762548525,
+    "status": "Planning",
+    "ready_at": 1762634925,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -49794,6 +49794,13 @@
         "checkpoint_pass_rate": 78,
         "position": "Muscle",
         "position_number": 3
+      },
+      "P2": {
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 87,
+        "position": "Muscle",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -49905,6 +49912,16 @@
         "user_id": 1184733,
         "user_name": "Pro_eobard",
         "checkpoint_pass_rate": 88,
+        "position": "Muscle",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1762402824,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 87,
         "position": "Muscle",
         "position_number": 1
       }
@@ -51015,9 +51032,30 @@
   "999226": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1762488662,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3625719,
+        "user_name": "Raie",
+        "checkpoint_pass_rate": 70,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1762402824,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3625719,
+        "user_name": "Raie",
+        "checkpoint_pass_rate": 70,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
+      }
+    ]
   }
 }
