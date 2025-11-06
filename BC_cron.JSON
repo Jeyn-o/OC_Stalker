@@ -11587,6 +11587,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762389029,
+        "end": 1762390827
+      },
+      {
+        "status": "Available",
+        "start": 1762390827,
         "end": null
       }
     ]
@@ -31711,8 +31716,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1762389029,
-        "end": null,
+        "end": 1762390827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762390827,
+        "end": null
       }
     ]
   },
@@ -48605,7 +48615,13 @@
       {
         "status": "Available",
         "start": 1762389029,
-        "end": null
+        "end": 1762390827
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1762390827,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -54303,12 +54319,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1761180629,
-        "end": 1761188439,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761188439,
@@ -75923,6 +75933,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762378821,
+        "end": 1762390827,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762390827,
         "end": null,
         "travel_type": "airstrip"
       }
