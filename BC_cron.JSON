@@ -3,12 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1761219626,
-        "end": 1761232831,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1761232831,
         "end": 1761244831,
@@ -11211,6 +11205,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762417225,
+        "end": 1762429823,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762429823,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -41277,8 +41277,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762423233,
-        "end": null,
+        "end": 1762429823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762429823,
+        "end": null
       }
     ]
   },
@@ -41919,7 +41924,13 @@
       {
         "status": "Available",
         "start": 1762408223,
-        "end": null
+        "end": 1762429823
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1762429823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43238,6 +43249,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762425022,
+        "end": 1762429823
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1762429823,
         "end": null
       }
     ]
@@ -70857,12 +70873,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1761219626,
-        "end": 1761226239,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1761226239,
         "end": 1761226828
@@ -72048,7 +72058,13 @@
       {
         "status": "Available",
         "start": 1762426832,
-        "end": null
+        "end": 1762429823
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762429823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -74907,8 +74923,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1762420245,
-        "end": null,
+        "end": 1762429823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762429823,
+        "end": null
       }
     ]
   },
@@ -83668,11 +83689,6 @@
   "3977638": {
     "name": "Vasapi_Sakti",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761219626,
-        "end": 1761226239
-      },
       {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1761226239,
