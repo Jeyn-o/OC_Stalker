@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] Lost - Revives: OFF",
-        "start": 1761257432,
-        "end": 1761259235
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1761259235,
         "end": 1761259828
@@ -15630,6 +15625,11 @@
       {
         "status": "Jail",
         "start": 1762464625,
+        "end": 1762467624
+      },
+      {
+        "status": "Available",
+        "start": 1762467624,
         "end": null
       }
     ]
@@ -39403,6 +39403,11 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: Partial",
         "start": 1762465222,
+        "end": 1762467624
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762467624,
         "end": null
       }
     ]
@@ -43152,7 +43157,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762467020,
-        "end": null
+        "end": 1762467624
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762467624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -45270,7 +45281,13 @@
       {
         "status": "Available",
         "start": 1762464025,
-        "end": null
+        "end": 1762467624
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1762467624,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -57144,11 +57161,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1761257432,
-        "end": 1761259235
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1761259235,
         "end": 1761271831,
@@ -64007,8 +64019,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762465830,
-        "end": null,
+        "end": 1762467624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762467624,
+        "end": null
       }
     ]
   },
@@ -74763,7 +74780,13 @@
       {
         "status": "Available",
         "start": 1762449023,
-        "end": null
+        "end": 1762467624
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1762467624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
