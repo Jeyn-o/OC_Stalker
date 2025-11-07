@@ -3655,11 +3655,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761348028,
-        "end": 1761351631
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1761351631,
         "end": 1761353436
@@ -16704,11 +16699,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1761348028,
-        "end": 1761348635
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1761348635,
         "end": 1761354038,
@@ -18580,6 +18570,11 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1762556429,
+        "end": 1762558228
+      },
+      {
+        "status": "[Switzerland] Mugged - Revives: ALL",
+        "start": 1762558228,
         "end": null
       }
     ]
@@ -30642,11 +30637,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1761348028,
-        "end": 1761348635
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1761348635,
@@ -42970,12 +42960,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1761348028,
-        "end": 1761352830,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1761352830,
         "end": 1761354038
@@ -52655,8 +52639,13 @@
       {
         "status": "[China] - Going",
         "start": 1762548018,
-        "end": null,
+        "end": 1762558228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762558228,
+        "end": null
       }
     ]
   },
@@ -58202,8 +58191,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762551027,
-        "end": null,
+        "end": 1762558228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762558228,
+        "end": null
       }
     ]
   },
@@ -75785,6 +75779,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762557023,
+        "end": 1762558228,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762558228,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -82176,12 +82176,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1761348028,
-        "end": 1761360630,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1761360630,
