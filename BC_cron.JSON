@@ -3,11 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761271831,
-        "end": 1761273622
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1761273622,
         "end": 1761285638,
@@ -10417,12 +10412,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1761271831,
-        "end": 1761284431,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1761284431,
         "end": 1761285026
@@ -13233,8 +13222,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762471823,
-        "end": null,
+        "end": 1762482016,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762482016,
+        "end": null
       }
     ]
   },
@@ -39410,8 +39404,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762470625,
-        "end": null,
+        "end": 1762482016,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762482016,
+        "end": null
       }
     ]
   },
@@ -53277,8 +53276,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1762474223,
-        "end": null,
+        "end": 1762482016,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762482016,
+        "end": null
       }
     ]
   },
@@ -57174,18 +57178,19 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1762481425,
-        "end": null
+        "end": 1762482016
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1762482016,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761271831,
-        "end": 1761306028
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1761306028,
@@ -67407,6 +67412,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1762480227,
+        "end": 1762482016,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1762482016,
         "end": null,
         "travel_type": "airstrip"
       }
