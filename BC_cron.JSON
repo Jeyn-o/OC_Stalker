@@ -10008,6 +10008,11 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1762546227,
+        "end": 1762546822
+      },
+      {
+        "status": "[Switzerland] Mugged - Revives: OFF",
+        "start": 1762546822,
         "end": null
       }
     ]
@@ -17669,7 +17674,13 @@
       {
         "status": "Available",
         "start": 1762541427,
-        "end": null
+        "end": 1762546822
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762546822,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -40954,7 +40965,13 @@
       {
         "status": "Available",
         "start": 1762520432,
-        "end": null
+        "end": 1762546822
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1762546822,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41623,8 +41640,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762534831,
-        "end": null,
+        "end": 1762546822,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762546822,
+        "end": null
       }
     ]
   },
@@ -79658,6 +79680,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762545017,
+        "end": 1762546822
+      },
+      {
+        "status": "Available",
+        "start": 1762546822,
         "end": null
       }
     ]
@@ -82154,12 +82181,6 @@
     "name": "Icks-B",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1761336634,
-        "end": 1761337836,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1761337836,
         "end": 1761339643,
@@ -83530,6 +83551,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762539626,
+        "end": 1762546822,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762546822,
         "end": null,
         "travel_type": "airstrip"
       }
