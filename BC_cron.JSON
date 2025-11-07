@@ -35589,6 +35589,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762475432,
+        "end": 1762479621
+      },
+      {
+        "status": "Available",
+        "start": 1762479621,
         "end": null
       }
     ]
@@ -37233,7 +37238,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762458623,
-        "end": null
+        "end": 1762479621
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762479621,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -45269,7 +45280,13 @@
       {
         "status": "Available",
         "start": 1762477825,
-        "end": null
+        "end": 1762479621
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762479621,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -81007,18 +81024,19 @@
       {
         "status": "Available",
         "start": 1762479033,
-        "end": null
+        "end": 1762479621
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762479621,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1761269438,
-        "end": 1761270632
-      },
       {
         "status": "[China] - Returning",
         "start": 1761270632,
@@ -82065,6 +82083,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1762476622,
+        "end": 1762479621
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762479621,
         "end": null
       }
     ]
