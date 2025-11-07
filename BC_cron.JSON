@@ -11828,12 +11828,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761324628,
-        "end": 1761331232,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761331232,
         "end": 1761403828
@@ -27018,7 +27012,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762528229,
-        "end": null
+        "end": 1762534831
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762534831,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41645,18 +41645,19 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762529429,
-        "end": null
+        "end": 1762534831
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762534831,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761324628,
-        "end": 1761325830
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1761325830,
@@ -45102,8 +45103,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762530029,
-        "end": null,
+        "end": 1762534831,
         "travel_type": "standard"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762534831,
+        "end": null
       }
     ]
   },
@@ -50896,8 +50902,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762528229,
-        "end": null,
+        "end": 1762534831,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762534831,
+        "end": null
       }
     ]
   },
@@ -55669,8 +55680,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762527637,
-        "end": null,
+        "end": 1762534831,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762534831,
+        "end": null
       }
     ]
   },
@@ -67373,6 +67389,11 @@
       {
         "status": "Available",
         "start": 1762533628,
+        "end": 1762534831
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1762534831,
         "end": null
       }
     ]
@@ -73272,12 +73293,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1761324628,
-        "end": 1761336043,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761336043,
@@ -79208,8 +79223,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762517422,
-        "end": null,
+        "end": 1762534831,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1762534831,
+        "end": null
       }
     ]
   },
