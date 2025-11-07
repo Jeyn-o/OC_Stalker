@@ -15553,8 +15553,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762552219,
-        "end": null,
+        "end": 1762557023,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1762557023,
+        "end": null
       }
     ]
   },
@@ -53194,11 +53199,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1761346836,
-        "end": 1761347430
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1761347430,
         "end": 1761348635,
@@ -68240,6 +68240,11 @@
       {
         "status": "[China] - Idle",
         "start": 1762556429,
+        "end": 1762557023
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1762557023,
         "end": null
       }
     ]
@@ -68247,12 +68252,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1761346836,
-        "end": 1761353436,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761353436,
@@ -75788,7 +75787,13 @@
       {
         "status": "Available",
         "start": 1762556429,
-        "end": null
+        "end": 1762557023
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1762557023,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
