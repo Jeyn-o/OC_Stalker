@@ -9167,11 +9167,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1761278432,
-        "end": 1761283833
-      },
-      {
         "status": "Available",
         "start": 1761283833,
         "end": 1761317433
@@ -11847,12 +11842,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1761278432,
-        "end": 1761286235,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1761286235,
@@ -45277,7 +45266,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1762488028,
-        "end": null
+        "end": 1762488619
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1762488619,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -49837,12 +49832,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1761278432,
-        "end": 1761289233,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761289233,
@@ -55829,11 +55818,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1761278432,
-        "end": 1761281424
-      },
-      {
         "status": "[China] - Returning",
         "start": 1761281424,
         "end": 1761291626,
@@ -57227,8 +57211,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1762487420,
-        "end": null,
+        "end": 1762488619,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1762488619,
+        "end": null
       }
     ]
   },
@@ -64061,7 +64050,13 @@
       {
         "status": "Available",
         "start": 1762484439,
-        "end": null
+        "end": 1762488619
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1762488619,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -67466,6 +67461,11 @@
       {
         "status": "Available",
         "start": 1762485626,
+        "end": 1762488619
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1762488619,
         "end": null
       }
     ]
@@ -76323,12 +76323,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761278432,
-        "end": 1761285026,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761285026,
