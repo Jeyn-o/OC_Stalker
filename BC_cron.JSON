@@ -4791,6 +4791,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762510825,
+        "end": 1762523426,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762523426,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -17669,7 +17675,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762502435,
-        "end": null
+        "end": 1762523426
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762523426,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -35436,8 +35448,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762513819,
-        "end": null,
+        "end": 1762523426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762523426,
+        "end": null
       }
     ]
   },
@@ -37911,12 +37928,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1761313236,
-        "end": 1761320433,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761320433,
@@ -45161,7 +45172,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1762522820,
-        "end": null
+        "end": 1762523426
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1762523426,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -54151,6 +54168,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762516838,
+        "end": 1762523426,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762523426,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -56437,8 +56460,13 @@
       {
         "status": "[China] - Going",
         "start": 1762513232,
-        "end": null,
+        "end": 1762523426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762523426,
+        "end": null
       }
     ]
   },
@@ -57138,11 +57166,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1761313236,
-        "end": 1761319234
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1761319234,
         "end": 1761327040,
@@ -57783,7 +57806,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762522820,
-        "end": null
+        "end": 1762523426
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762523426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -67401,7 +67430,13 @@
       {
         "status": "Available",
         "start": 1762518026,
-        "end": null
+        "end": 1762523426
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1762523426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -74782,7 +74817,13 @@
       {
         "status": "Available",
         "start": 1762514421,
-        "end": null
+        "end": 1762523426
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762523426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -76281,12 +76322,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1761313236,
-        "end": 1761314442,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1761314442,
