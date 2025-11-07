@@ -3,12 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1761318625,
-        "end": 1761331830,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1761331830,
         "end": 1761343833,
@@ -10429,11 +10423,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761318625,
-        "end": 1761352830
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1761352830,
         "end": 1761364843,
@@ -17680,8 +17669,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762523426,
-        "end": null,
+        "end": 1762528831,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1762528831,
+        "end": null
       }
     ]
   },
@@ -35419,7 +35413,13 @@
       {
         "status": "Available",
         "start": 1762528229,
-        "end": null
+        "end": 1762528831
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762528831,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -53215,12 +53215,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1761318625,
-        "end": 1761328841,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1761328841,
         "end": 1761329425
@@ -64727,11 +64721,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1761318625,
-        "end": 1761319830
-      },
-      {
         "status": "Available",
         "start": 1761319830,
         "end": 1761323437
@@ -67441,6 +67430,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762527637,
+        "end": 1762528831
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1762528831,
         "end": null
       }
     ]
