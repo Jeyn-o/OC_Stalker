@@ -4800,12 +4800,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1761325247,
-        "end": 1761331830,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1761331830,
         "end": 1761332441
@@ -18518,11 +18512,6 @@
     "name": "Jeyno",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1761325247,
-        "end": 1761328225
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1761328225,
         "end": 1761340839,
@@ -21322,11 +21311,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761325247,
-        "end": 1761414030
-      },
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761414030,
@@ -31800,11 +31784,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761325247,
-        "end": 1761377434
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1761377434,
         "end": 1761378633,
@@ -39765,6 +39744,11 @@
       {
         "status": "Available",
         "start": 1762524621,
+        "end": 1762535423
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1762535423,
         "end": null
       }
     ]
@@ -45109,7 +45093,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762534831,
-        "end": null
+        "end": 1762535423
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762535423,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -56405,7 +56395,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762523426,
-        "end": null
+        "end": 1762535423
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762535423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -57744,8 +57740,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762523426,
-        "end": null,
+        "end": 1762535423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762535423,
+        "end": null
       }
     ]
   },
@@ -74792,11 +74793,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[United Arab Emirates] Mugged - Revives: ALL",
-        "start": 1761325247,
-        "end": 1761327632
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761327632,
         "end": 1761328225
@@ -78627,7 +78623,13 @@
       {
         "status": "Available",
         "start": 1762384222,
-        "end": null
+        "end": 1762535423
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762535423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -83562,8 +83564,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762528229,
-        "end": null,
+        "end": 1762535423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762535423,
+        "end": null
       }
     ]
   },
