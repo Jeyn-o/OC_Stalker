@@ -4800,12 +4800,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761301830,
-        "end": 1761308425,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761308425,
         "end": 1761309034
@@ -8476,12 +8470,6 @@
   "1766417": {
     "name": "gajeela09",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1761301830,
-        "end": 1761313829,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761313829,
@@ -64754,11 +64742,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761301830,
-        "end": 1761302436
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1761302436,
         "end": 1761318043
@@ -68310,7 +68293,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762510232,
-        "end": null
+        "end": 1762512019
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762512019,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -74835,11 +74824,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1761301830,
-        "end": 1761325247
-      },
-      {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1761325247,
         "end": 1761327632
@@ -79267,6 +79251,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762511426,
+        "end": 1762512019
+      },
+      {
+        "status": "[South Africa] Attacked - Revives: ALL",
+        "start": 1762512019,
         "end": null
       }
     ]
