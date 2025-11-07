@@ -29552,6 +29552,11 @@
       {
         "status": "[China] - Idle",
         "start": 1762542040,
+        "end": 1762554629
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1762554629,
         "end": null
       }
     ]
@@ -35367,7 +35372,13 @@
       {
         "status": "Available",
         "start": 1762554018,
-        "end": null
+        "end": 1762554629
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1762554629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39170,7 +39181,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762553419,
-        "end": null
+        "end": 1762554629
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762554629,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -77777,8 +77794,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762548018,
-        "end": null,
+        "end": 1762554629,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1762554629,
+        "end": null
       }
     ]
   },
