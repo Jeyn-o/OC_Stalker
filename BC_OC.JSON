@@ -48353,8 +48353,8 @@
   },
   "981814": {
     "name": "Gaslight the Way",
-    "status": "Recruiting",
-    "ready_at": 1762790947,
+    "status": "Planning",
+    "ready_at": 1762877347,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -48394,6 +48394,13 @@
         "position": "Imitator",
         "position_number": 3,
         "item_available": true
+      },
+      "P6": {
+        "user_id": 3156041,
+        "user_name": "Googer",
+        "checkpoint_pass_rate": 91,
+        "position": "Looter",
+        "position_number": 3
       }
     },
     "action_log": [
@@ -48449,6 +48456,16 @@
         "position": "Imitator",
         "position_number": 3,
         "item_available": true
+      },
+      {
+        "timestamp": 1762515626,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3156041,
+        "user_name": "Googer",
+        "checkpoint_pass_rate": 91,
+        "position": "Looter",
+        "position_number": 3
       }
     ]
   },
@@ -51334,5 +51351,29 @@
         "item_available": true
       }
     ]
+  },
+  "1003535": {
+    "name": "Stage Fright",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1003536": {
+    "name": "Snow Blind",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1003537": {
+    "name": "Pet Project",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
   }
 }
