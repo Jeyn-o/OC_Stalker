@@ -48806,9 +48806,9 @@
   },
   "981908": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1762536095,
-    "executed_at": null,
+    "executed_at": 1762536125,
     "slots": {
       "P1": {
         "user_id": 446596,
@@ -49483,8 +49483,8 @@
   },
   "983532": {
     "name": "Clinical Precision",
-    "status": "Recruiting",
-    "ready_at": 1762615156,
+    "status": "Planning",
+    "ready_at": 1762701556,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -49507,6 +49507,14 @@
         "user_name": "Poundthatass",
         "checkpoint_pass_rate": 67,
         "position": "Assassin",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 2408196,
+        "user_name": "iam3vaj",
+        "checkpoint_pass_rate": 72,
+        "position": "Imitator",
         "position_number": 1,
         "item_available": true
       }
@@ -49541,6 +49549,17 @@
         "user_name": "Poundthatass",
         "checkpoint_pass_rate": 67,
         "position": "Assassin",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1762536631,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2408196,
+        "user_name": "iam3vaj",
+        "checkpoint_pass_rate": 72,
+        "position": "Imitator",
         "position_number": 1,
         "item_available": true
       }
