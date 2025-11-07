@@ -51185,9 +51185,18 @@
   "996035": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1762441283,
+    "ready_at": 1762626365,
     "executed_at": null,
-    "slots": {},
+    "slots": {
+      "P4": {
+        "user_id": 446596,
+        "user_name": "Bucki",
+        "checkpoint_pass_rate": 62,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
     "action_log": [
       {
         "timestamp": 1762355434,
@@ -51206,6 +51215,17 @@
         "slot": "P4",
         "user_id": 2335586,
         "user_name": "Poundthatass",
+        "checkpoint_pass_rate": 62,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1762540240,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 446596,
+        "user_name": "Bucki",
         "checkpoint_pass_rate": 62,
         "position": "Thief",
         "position_number": 1,
@@ -51410,8 +51430,8 @@
   },
   "999225": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1762694220,
+    "status": "Planning",
+    "ready_at": 1762780620,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -51429,6 +51449,13 @@
         "position": "Enforcer",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3342314,
+        "user_name": "Krytical",
+        "checkpoint_pass_rate": 62,
+        "position": "Muscle",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -51453,6 +51480,16 @@
         "position": "Enforcer",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1762540240,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3342314,
+        "user_name": "Krytical",
+        "checkpoint_pass_rate": 62,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   },
