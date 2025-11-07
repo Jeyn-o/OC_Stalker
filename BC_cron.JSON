@@ -9990,6 +9990,12 @@
       {
         "status": "[China] - Returning",
         "start": 1762506040,
+        "end": 1762516838,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762516838,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22080,8 +22086,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762505426,
-        "end": null,
+        "end": 1762516838,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762516838,
+        "end": null
       }
     ]
   },
@@ -29570,8 +29581,13 @@
       {
         "status": "[China] - Going",
         "start": 1762507228,
-        "end": null,
+        "end": 1762516838,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762516838,
+        "end": null
       }
     ]
   },
@@ -34094,12 +34110,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1761306632,
-        "end": 1761313829,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761313829,
         "end": 1761314442
@@ -36304,11 +36314,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761306632,
-        "end": 1761309627
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1761309627,
         "end": 1761320433,
@@ -37945,11 +37950,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1761306632,
-        "end": 1761313236
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1761313236,
         "end": 1761320433,
@@ -39300,6 +39300,11 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: Partial",
         "start": 1762515032,
+        "end": 1762516838
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762516838,
         "end": null
       }
     ]
@@ -39868,11 +39873,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761306632,
-        "end": 1761334233
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1761334233,
@@ -41735,7 +41735,13 @@
       {
         "status": "Available",
         "start": 1762503038,
-        "end": null
+        "end": 1762516838
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1762516838,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -45183,8 +45189,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1762516217,
-        "end": null,
+        "end": 1762516838,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1762516838,
+        "end": null
       }
     ]
   },
@@ -54196,7 +54207,13 @@
       {
         "status": "Available",
         "start": 1762514421,
-        "end": null
+        "end": 1762516838
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762516838,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -57164,6 +57181,11 @@
       {
         "status": "Jail",
         "start": 1762516217,
+        "end": 1762516838
+      },
+      {
+        "status": "Available",
+        "start": 1762516838,
         "end": null
       }
     ]
@@ -60897,7 +60919,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762499428,
-        "end": null
+        "end": 1762516838
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762516838,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
