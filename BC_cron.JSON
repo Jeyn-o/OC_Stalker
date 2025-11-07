@@ -22152,7 +22152,13 @@
       {
         "status": "Available",
         "start": 1762431022,
-        "end": null
+        "end": 1762488028
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1762488028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38042,12 +38048,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1761277827,
-        "end": 1761285026,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761285026,
         "end": 1761299439
@@ -45271,8 +45271,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1762487420,
-        "end": null,
+        "end": 1762488028,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1762488028,
+        "end": null
       }
     ]
   },
@@ -47152,7 +47157,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762487420,
-        "end": null
+        "end": 1762488028
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762488028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -54257,12 +54268,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1761277827,
-        "end": 1761289233,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761289233,
@@ -83541,6 +83546,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762480835,
+        "end": 1762488028,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762488028,
         "end": null,
         "travel_type": "airstrip"
       }
