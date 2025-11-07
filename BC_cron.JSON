@@ -35607,6 +35607,11 @@
       {
         "status": "Available",
         "start": 1762474223,
+        "end": 1762475432
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1762475432,
         "end": null
       }
     ]
@@ -43176,11 +43181,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761265230,
-        "end": 1761268230
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1761268230,
         "end": 1761270632,
@@ -47178,7 +47178,13 @@
       {
         "status": "Available",
         "start": 1762433425,
-        "end": null
+        "end": 1762475432
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1762475432,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -54294,11 +54300,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761265230,
-        "end": 1761266431
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1761266431,
         "end": 1761277827,
@@ -55851,6 +55852,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762468821,
+        "end": 1762475432,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762475432,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -56589,12 +56596,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1761265230,
-        "end": 1761274842,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1761274842,
@@ -60939,8 +60940,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762468821,
-        "end": null,
+        "end": 1762475432,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762475432,
+        "end": null
       }
     ]
   },
@@ -74752,7 +74758,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1762469419,
-        "end": null
+        "end": 1762475432
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762475432,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
