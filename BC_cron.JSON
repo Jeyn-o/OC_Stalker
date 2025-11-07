@@ -9161,11 +9161,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761283833,
-        "end": 1761317433
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1761317433,
         "end": 1761321643
@@ -51628,6 +51623,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762487420,
+        "end": 1762494021,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762494021,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -81133,7 +81134,13 @@
       {
         "status": "Available",
         "start": 1762493427,
-        "end": null
+        "end": 1762494021
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762494021,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
