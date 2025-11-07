@@ -17674,6 +17674,12 @@
       {
         "status": "[China] - Going",
         "start": 1762546822,
+        "end": 1762551027,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762551027,
         "end": null,
         "travel_type": "standard"
       }
@@ -18545,11 +18551,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761340839,
-        "end": 1761358231
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1761358231,
@@ -25485,11 +25486,6 @@
     "name": "ExiledAstronaut",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1761340839,
-        "end": 1761341437
-      },
-      {
         "status": "Available",
         "start": 1761341437,
         "end": 1761394230
@@ -30610,12 +30606,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1761340839,
-        "end": 1761348028,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1761348028,
@@ -41654,12 +41644,6 @@
     "name": "Khallie",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1761340839,
-        "end": 1761347430,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1761347430,
         "end": 1761349230
@@ -42917,11 +42901,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761340839,
-        "end": 1761343833
-      },
       {
         "status": "[China] - Going",
         "start": 1761343833,
@@ -58195,6 +58174,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762543825,
+        "end": 1762551027,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762551027,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -78578,8 +78563,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762544451,
-        "end": null,
+        "end": 1762551027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762551027,
+        "end": null
       }
     ]
   },
