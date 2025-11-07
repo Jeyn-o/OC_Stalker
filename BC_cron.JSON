@@ -21367,11 +21367,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761299439,
-        "end": 1761300623
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1761300623,
         "end": 1761312053,
@@ -32685,6 +32680,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1762500021,
+        "end": 1762509635,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1762509635,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37983,12 +37984,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1761299439,
-        "end": 1761306632,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1761306632,
@@ -56517,8 +56512,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762498830,
-        "end": null,
+        "end": 1762509635,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762509635,
+        "end": null
       }
     ]
   },
@@ -69590,6 +69590,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1762498830,
+        "end": 1762509635
+      },
+      {
+        "status": "Available",
+        "start": 1762509635,
         "end": null
       }
     ]
