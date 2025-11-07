@@ -5672,6 +5672,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762513232,
+        "end": 1762520432,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762520432,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -13184,11 +13190,6 @@
     "name": "Ronskip",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1761310230,
-        "end": 1761321643
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1761321643,
         "end": 1761328841,
@@ -18527,11 +18528,6 @@
     "name": "Jeyno",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761310230,
-        "end": 1761312645
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1761312645,
         "end": 1761325247,
@@ -19427,8 +19423,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762508422,
-        "end": null,
+        "end": 1762520432,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762520432,
+        "end": null
       }
     ]
   },
@@ -41036,8 +41037,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762508422,
-        "end": null,
+        "end": 1762520432,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762520432,
+        "end": null
       }
     ]
   },
@@ -47064,11 +47070,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1761310230,
-        "end": 1761310848
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1761310848,
@@ -55717,7 +55718,13 @@
       {
         "status": "Available",
         "start": 1762519822,
-        "end": null
+        "end": 1762520432
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762520432,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -61575,12 +61582,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1761310230,
-        "end": 1761320433,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1761320433,
         "end": 1761321029
@@ -63981,7 +63982,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762505426,
-        "end": null
+        "end": 1762520432
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762520432,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
