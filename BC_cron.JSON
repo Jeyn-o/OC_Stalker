@@ -10008,7 +10008,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762527027,
-        "end": null
+        "end": 1762528229
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762528229,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11848,12 +11854,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1761318043,
-        "end": 1761324029,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1761324029,
@@ -27036,8 +27036,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762521624,
-        "end": null,
+        "end": 1762528229,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762528229,
+        "end": null
       }
     ]
   },
@@ -35409,6 +35414,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762527027,
+        "end": 1762528229
+      },
+      {
+        "status": "Available",
+        "start": 1762528229,
         "end": null
       }
     ]
@@ -37446,11 +37456,6 @@
   "3069081": {
     "name": "Thornking",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761318043,
-        "end": 1761322233
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1761322233,
@@ -41692,12 +41697,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761318043,
-        "end": 1761324628,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761324628,
@@ -50953,7 +50952,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762527637,
-        "end": null
+        "end": 1762528229
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762528229,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -53209,11 +53214,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761318043,
-        "end": 1761318625
-      },
       {
         "status": "[China] - Going",
         "start": 1761318625,
@@ -60903,8 +60903,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762516838,
-        "end": null,
+        "end": 1762528229,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762528229,
+        "end": null
       }
     ]
   },
@@ -64722,11 +64727,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761318043,
-        "end": 1761318625
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1761318625,
         "end": 1761319830
@@ -67448,11 +67448,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1761318043,
-        "end": 1761328225
-      },
       {
         "status": "[China] - Returning",
         "start": 1761328225,
@@ -70806,11 +70801,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761318043,
-        "end": 1761319234
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1761319234,
@@ -83616,6 +83606,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762521624,
+        "end": 1762528229,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762528229,
         "end": null,
         "travel_type": "airstrip"
       }
