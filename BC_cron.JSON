@@ -10416,11 +10416,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761297633,
-        "end": 1761298233
-      },
-      {
         "status": "[China] - Going",
         "start": 1761298233,
         "end": 1761309034,
@@ -18567,12 +18562,6 @@
     "name": "Jeyno",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1761297633,
-        "end": 1761310230,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761310230,
         "end": 1761312645
@@ -19462,8 +19451,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762495819,
-        "end": null,
+        "end": 1762507825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762507825,
+        "end": null
       }
     ]
   },
@@ -34133,6 +34127,11 @@
       {
         "status": "Available",
         "start": 1762027823,
+        "end": 1762507825
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1762507825,
         "end": null
       }
     ]
@@ -41792,12 +41791,6 @@
     "name": "Khallie",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761297633,
-        "end": 1761304232,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761304232,
         "end": 1761309034
@@ -45747,8 +45740,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762506629,
-        "end": null,
+        "end": 1762507825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762507825,
+        "end": null
       }
     ]
   },
@@ -51045,7 +51043,13 @@
       {
         "status": "Available",
         "start": 1762506629,
-        "end": null
+        "end": 1762507825
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762507825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -54245,7 +54249,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1762507228,
-        "end": null
+        "end": 1762507825
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762507825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -58294,12 +58304,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1761297633,
-        "end": 1761309034,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761309034,
@@ -74853,7 +74857,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762507228,
-        "end": null
+        "end": 1762507825
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762507825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -76357,12 +76367,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1761297633,
-        "end": 1761304232,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761304232,
@@ -81145,7 +81149,13 @@
       {
         "status": "Available",
         "start": 1762506629,
-        "end": null
+        "end": 1762507825
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762507825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
