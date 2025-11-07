@@ -21373,12 +21373,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1761297032,
-        "end": 1761298233,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1761298233,
         "end": 1761299439,
@@ -29617,7 +29611,13 @@
       {
         "status": "Available",
         "start": 1762504822,
-        "end": null
+        "end": 1762507228
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762507228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41114,8 +41114,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762494624,
-        "end": null,
+        "end": 1762507228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762507228,
+        "end": null
       }
     ]
   },
@@ -54234,19 +54239,19 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762500021,
-        "end": null,
+        "end": 1762507228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1762507228,
+        "end": null
       }
     ]
   },
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1761297032,
-        "end": 1761298233
-      },
       {
         "status": "Available",
         "start": 1761298233,
@@ -73346,12 +73351,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1761297032,
-        "end": 1761298832,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1761298832,
         "end": 1761300045,
@@ -74848,8 +74847,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762500630,
-        "end": null,
+        "end": 1762507228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762507228,
+        "end": null
       }
     ]
   },
@@ -83605,6 +83609,12 @@
       {
         "status": "[China] - Going",
         "start": 1762497630,
+        "end": 1762507228,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762507228,
         "end": null,
         "travel_type": "airstrip"
       }
