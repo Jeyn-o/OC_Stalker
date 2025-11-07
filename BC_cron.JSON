@@ -37214,6 +37214,11 @@
       {
         "status": "Available",
         "start": 1762491026,
+        "end": 1762491634
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1762491634,
         "end": null
       }
     ]
@@ -41823,7 +41828,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762489836,
-        "end": null
+        "end": 1762491634
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762491634,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -45756,6 +45767,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762489836,
+        "end": 1762491634,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762491634,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -51062,11 +51079,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Hawaii] - Idle",
-        "start": 1761281424,
-        "end": 1761286831
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1761286831,
         "end": 1761292223,
@@ -55828,12 +55840,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1761281424,
-        "end": 1761291626,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761291626,
         "end": 1761292223
@@ -57226,8 +57232,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1762490419,
-        "end": null,
+        "end": 1762491634,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762491634,
+        "end": null
       }
     ]
   },
@@ -64077,8 +64088,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762489836,
-        "end": null,
+        "end": 1762491634,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762491634,
+        "end": null
       }
     ]
   },
@@ -73342,12 +73358,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1761281424,
-        "end": 1761292223,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761292223,
         "end": 1761297032
@@ -82208,11 +82218,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761281424,
-        "end": 1761285026
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1761285026,
