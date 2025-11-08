@@ -50152,9 +50152,18 @@
   "986830": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": 1762111603,
+    "ready_at": 1762686790,
     "executed_at": null,
-    "slots": {},
+    "slots": {
+      "P4": {
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 80,
+        "position": "Robber",
+        "position_number": 3,
+        "item_available": true
+      }
+    },
     "action_log": [
       {
         "timestamp": 1762025435,
@@ -50176,6 +50185,17 @@
         "checkpoint_pass_rate": 61,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1762600829,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 80,
+        "position": "Robber",
+        "position_number": 3,
         "item_available": true
       }
     ]
