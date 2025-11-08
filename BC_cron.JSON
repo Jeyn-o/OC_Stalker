@@ -3097,6 +3097,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762583426,
+        "end": 1762590628,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762590628,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37011,12 +37017,6 @@
     "name": "Neodork",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1761380430,
-        "end": 1761385829,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761385829,
         "end": 1761405625
@@ -49649,6 +49649,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1762590038,
+        "end": 1762590628
+      },
+      {
+        "status": "Available",
+        "start": 1762590628,
         "end": null
       }
     ]
@@ -49656,11 +49661,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761380430,
-        "end": 1761394230
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761394230,
@@ -51504,7 +51504,13 @@
       {
         "status": "Available",
         "start": 1762525220,
-        "end": null
+        "end": 1762590628
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1762590628,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -70690,11 +70696,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761380430,
-        "end": 1761396031
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761396031,
         "end": 1761397836
@@ -74701,8 +74702,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762579222,
-        "end": null,
+        "end": 1762590628,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762590628,
+        "end": null
       }
     ]
   },
@@ -77816,8 +77822,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1762585233,
-        "end": null,
+        "end": 1762590628,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1762590628,
+        "end": null
       }
     ]
   },
@@ -81132,8 +81143,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762584624,
-        "end": null,
+        "end": 1762590628,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762590628,
+        "end": null
       }
     ]
   },
