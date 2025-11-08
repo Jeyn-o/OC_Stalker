@@ -10462,12 +10462,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1761366631,
-        "end": 1761379237,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761379237,
         "end": 1761388824
@@ -49682,6 +49676,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762569617,
+        "end": 1762576826,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762576826,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -60050,12 +60050,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1761366631,
-        "end": 1761377434,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761377434,
@@ -77842,12 +77836,6 @@
     "name": "Lucifixion",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761366631,
-        "end": 1761373231,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761373231,
         "end": 1761397246
@@ -81133,8 +81121,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762570228,
-        "end": null,
+        "end": 1762576826,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762576826,
+        "end": null
       }
     ]
   },
