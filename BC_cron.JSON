@@ -37824,11 +37824,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1761358830,
-        "end": 1761364843
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1761364843,
         "end": 1761366034,
@@ -55676,6 +55671,11 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1762566625,
+        "end": 1762569034
+      },
+      {
+        "status": "[Switzerland] Mugged - Revives: ALL",
+        "start": 1762569034,
         "end": null
       }
     ]
@@ -57080,8 +57080,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1762568426,
-        "end": null,
+        "end": 1762569034,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1762569034,
+        "end": null
       }
     ]
   },
@@ -63935,12 +63940,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761358830,
-        "end": 1761365431,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761365431,
@@ -76259,7 +76258,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1762567827,
-        "end": null
+        "end": 1762569034
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762569034,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
