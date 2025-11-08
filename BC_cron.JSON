@@ -5718,11 +5718,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761390633,
-        "end": 1761391233
-      },
-      {
         "status": "Available",
         "start": 1761391233,
         "end": 1761391839
@@ -28483,11 +28478,6 @@
     "name": "Hussc-",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761390633,
-        "end": 1761401423
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761401423,
         "end": 1761403236
@@ -33987,12 +33977,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1761390633,
-        "end": 1761391233,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1761391233,
@@ -48386,18 +48370,19 @@
       {
         "status": "[China] - Idle",
         "start": 1762594819,
-        "end": null
+        "end": 1762600825
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762600825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761390633,
-        "end": 1761391839
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761391839,
@@ -50882,11 +50867,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761390633,
-        "end": 1761397246
-      },
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1761397246,
@@ -60830,6 +60810,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762594230,
+        "end": 1762600825
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1762600825,
         "end": null
       }
     ]
@@ -82322,12 +82307,6 @@
     "name": "Icks-B",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1761390633,
-        "end": 1761403236,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761403236,
         "end": 1761403828
@@ -83692,7 +83671,13 @@
       {
         "status": "Available",
         "start": 1762600222,
-        "end": null
+        "end": 1762600825
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1762600825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
