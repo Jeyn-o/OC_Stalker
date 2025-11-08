@@ -37812,11 +37812,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761366034,
-        "end": 1761369030
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1761369030,
         "end": 1761376241,
@@ -45106,8 +45101,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762571418,
-        "end": null,
+        "end": 1762576232,
         "travel_type": "standard"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762576232,
+        "end": null
       }
     ]
   },
@@ -48452,8 +48452,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762566625,
-        "end": null,
+        "end": 1762576232,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762576232,
+        "end": null
       }
     ]
   },
@@ -59010,7 +59015,13 @@
       {
         "status": "Available",
         "start": 1762532422,
-        "end": null
+        "end": 1762576232
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1762576232,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -60039,11 +60050,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761366034,
-        "end": 1761366631
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1761366631,
@@ -62432,12 +62438,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1761366034,
-        "end": 1761367830,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1761367830,
         "end": 1761369030,
@@ -63899,6 +63899,11 @@
       {
         "status": "Available",
         "start": 1762531821,
+        "end": 1762576232
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1762576232,
         "end": null
       }
     ]
@@ -76235,8 +76240,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1762569034,
-        "end": null,
+        "end": 1762576232,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762576232,
+        "end": null
       }
     ]
   },
