@@ -5704,8 +5704,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762593621,
-        "end": null,
+        "end": 1762600222,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762600222,
+        "end": null
       }
     ]
   },
@@ -17716,7 +17721,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1762599026,
-        "end": null
+        "end": 1762600222
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762600222,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -32557,8 +32568,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1762599026,
-        "end": null,
+        "end": 1762600222,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762600222,
+        "end": null
       }
     ]
   },
@@ -39722,11 +39738,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761390041,
-        "end": 1761391233
-      },
-      {
         "status": "Available",
         "start": 1761391233,
         "end": 1761394230
@@ -45054,11 +45065,6 @@
   "3231991": {
     "name": "Osein",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761390041,
-        "end": 1761391233
-      },
       {
         "status": "Available",
         "start": 1761391233,
@@ -50877,11 +50883,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1761390041,
-        "end": 1761390633
-      },
-      {
         "status": "Available",
         "start": 1761390633,
         "end": 1761397246
@@ -53138,11 +53139,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761390041,
-        "end": 1761405625
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761405625,
         "end": 1761406236
@@ -54058,7 +54054,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762599633,
-        "end": null
+        "end": 1762600222
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762600222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -76288,11 +76290,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761390041,
-        "end": 1761391233
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761391233,
         "end": 1761391839
@@ -83689,8 +83686,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762598426,
-        "end": null,
+        "end": 1762600222,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762600222,
+        "end": null
       }
     ]
   },
