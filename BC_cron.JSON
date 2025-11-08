@@ -3663,7 +3663,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1762560627,
-        "end": null
+        "end": 1762564820
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762564820,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4809,8 +4815,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762552219,
-        "end": null,
+        "end": 1762564820,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762564820,
+        "end": null
       }
     ]
   },
@@ -60066,12 +60077,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1761354628,
-        "end": 1761366034,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761366034,
         "end": 1761366631
@@ -79232,6 +79237,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762561831,
+        "end": 1762564820
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: ALL",
+        "start": 1762564820,
         "end": null
       }
     ]
