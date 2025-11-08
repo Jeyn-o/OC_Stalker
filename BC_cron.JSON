@@ -27091,7 +27091,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762596032,
-        "end": null
+        "end": 1762597830
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762597830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32560,7 +32566,13 @@
       {
         "status": "Available",
         "start": 1762519223,
-        "end": null
+        "end": 1762597830
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1762597830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37361,11 +37373,6 @@
     "name": "Thornking",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1761387630,
-        "end": 1761400229
-      },
-      {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1761400229,
         "end": 1761402636
@@ -39717,11 +39724,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761387630,
-        "end": 1761389434
-      },
       {
         "status": "Available",
         "start": 1761389434,
@@ -48388,11 +48390,6 @@
     "name": "Krytical",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1761387630,
-        "end": 1761390633
-      },
-      {
         "status": "Available",
         "start": 1761390633,
         "end": 1761391839
@@ -51487,8 +51484,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762590628,
-        "end": null,
+        "end": 1762597830,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1762597830,
+        "end": null
       }
     ]
   },
@@ -62395,8 +62397,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762591231,
-        "end": null,
+        "end": 1762597830,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762597830,
+        "end": null
       }
     ]
   },
@@ -67340,6 +67347,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1762596032,
+        "end": 1762597830
+      },
+      {
+        "status": "[Hospital] Lost - Revives: OFF",
+        "start": 1762597830,
         "end": null
       }
     ]
