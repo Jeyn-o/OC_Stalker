@@ -3,12 +3,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1761388234,
-        "end": 1761400229,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1761400229,
         "end": 1761401423
@@ -3687,11 +3681,6 @@
   "914683": {
     "name": "Droq",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761388234,
-        "end": 1761389434
-      },
       {
         "status": "Available",
         "start": 1761389434,
@@ -35371,8 +35360,13 @@
       {
         "status": "[China] - Going",
         "start": 1762588229,
-        "end": null,
+        "end": 1762598426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762598426,
+        "end": null
       }
     ]
   },
@@ -40954,8 +40948,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762585829,
-        "end": null,
+        "end": 1762598426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762598426,
+        "end": null
       }
     ]
   },
@@ -42846,11 +42845,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761388234,
-        "end": 1761392436
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1761392436,
@@ -62403,7 +62397,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762597830,
-        "end": null
+        "end": 1762598426
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762598426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -67359,11 +67359,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1761388234,
-        "end": 1761391839
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1761391839,
@@ -77848,7 +77843,13 @@
       {
         "status": "Available",
         "start": 1762597220,
-        "end": null
+        "end": 1762598426
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762598426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -82276,6 +82277,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762595417,
+        "end": 1762598426
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1762598426,
         "end": null
       }
     ]
@@ -83642,6 +83648,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762597220,
+        "end": 1762598426,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762598426,
         "end": null,
         "travel_type": "airstrip"
       }
