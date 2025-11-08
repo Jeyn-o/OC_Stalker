@@ -49654,7 +49654,7 @@
   "985374": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": 1762639036,
+    "ready_at": 1762725436,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -49664,6 +49664,13 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 76,
+        "position": "Pickpocket",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -49677,6 +49684,16 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1762626024,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 76,
+        "position": "Pickpocket",
+        "position_number": 1
       }
     ]
   },
@@ -51973,9 +51990,30 @@
   "1006134": {
     "name": "Best of the Lot",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1762712275,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 3178876,
+        "user_name": "Khallie",
+        "checkpoint_pass_rate": 81,
+        "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1762626024,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3178876,
+        "user_name": "Khallie",
+        "checkpoint_pass_rate": 81,
+        "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   }
 }
