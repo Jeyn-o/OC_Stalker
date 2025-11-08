@@ -41609,12 +41609,6 @@
     "name": "Khallie",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761384630,
-        "end": 1761391233,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761391233,
         "end": 1761401423
@@ -48385,8 +48379,13 @@
       {
         "status": "[China] - Going",
         "start": 1762584624,
-        "end": null,
+        "end": 1762594819,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762594819,
+        "end": null
       }
     ]
   },
@@ -50873,6 +50872,12 @@
       {
         "status": "[China] - Going",
         "start": 1762584624,
+        "end": 1762594819,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762594819,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -74712,7 +74717,13 @@
       {
         "status": "Available",
         "start": 1762590628,
-        "end": null
+        "end": 1762594819
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1762594819,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
