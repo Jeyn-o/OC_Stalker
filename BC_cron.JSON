@@ -783,11 +783,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761444637,
-        "end": 1761448232
-      },
-      {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761448232,
         "end": 1761449434
@@ -1707,11 +1702,6 @@
   "446596": {
     "name": "Bucki",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1761444637,
-        "end": 1761447030
-      },
       {
         "status": "Available",
         "start": 1761447030,
@@ -2981,11 +2971,6 @@
   "517163": {
     "name": "poik9",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761444637,
-        "end": 1761454235
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761454235,
@@ -4536,6 +4521,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1762653024,
+        "end": 1762654825
+      },
+      {
+        "status": "Available",
+        "start": 1762654825,
         "end": null
       }
     ]
@@ -6865,11 +6855,6 @@
     "name": "---GHOST---",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761444637,
-        "end": 1761445227
-      },
-      {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761445227,
         "end": 1761446432
@@ -8458,11 +8443,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761444637,
-        "end": 1761466231
-      },
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761466231,
@@ -10866,11 +10846,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761444637,
-        "end": 1761446432
-      },
-      {
         "status": "Available",
         "start": 1761446432,
         "end": 1761447030
@@ -12147,11 +12122,6 @@
   "2250222": {
     "name": "Ronskip",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761444637,
-        "end": 1761455428
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761455428,
@@ -30655,11 +30625,6 @@
     "name": "Shimmer12",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761444637,
-        "end": 1761454235
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1761454235,
         "end": 1761454840
@@ -36633,11 +36598,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761444637,
-        "end": 1761461431
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1761461431,
@@ -43385,6 +43345,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762647027,
+        "end": 1762654825,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762654825,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -55956,11 +55922,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[United Arab Emirates] Mugged - Revives: ALL",
-        "start": 1761444637,
-        "end": 1761446432
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761446432,
         "end": 1761450031
@@ -59747,11 +59708,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[Cayman Islands] Mugged - Revives: Partial",
-        "start": 1761444637,
-        "end": 1761446432
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1761446432,
@@ -76187,8 +76143,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1762647624,
-        "end": null,
+        "end": 1762654825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762654825,
+        "end": null
       }
     ]
   },
@@ -77322,8 +77283,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762648224,
-        "end": null,
+        "end": 1762654825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1762654825,
+        "end": null
       }
     ]
   },
