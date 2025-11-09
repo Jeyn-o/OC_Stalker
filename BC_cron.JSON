@@ -2831,8 +2831,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762684818,
-        "end": null,
+        "end": 1762692020,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1762692020,
+        "end": null
       }
     ]
   },
@@ -3295,11 +3300,6 @@
   "914683": {
     "name": "Droq",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761481833,
-        "end": 1761490836
-      },
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1761490836,
@@ -4281,11 +4281,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761481833,
-        "end": 1761492036
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1761492036,
@@ -24022,11 +24017,6 @@
     "name": "BattlePrincess",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761481833,
-        "end": 1761483035
-      },
-      {
         "status": "Available",
         "start": 1761483035,
         "end": 1761492635
@@ -32469,6 +32459,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762680625,
+        "end": 1762692020,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762692020,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34414,11 +34410,6 @@
   "3139132": {
     "name": "JuanPaulo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761481833,
-        "end": 1761483035
-      },
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1761483035,
@@ -40028,7 +40019,13 @@
       {
         "status": "Available",
         "start": 1762690822,
-        "end": null
+        "end": 1762692020
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1762692020,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -41623,12 +41620,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1761481833,
-        "end": 1761483035,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761483035,
@@ -45338,7 +45329,13 @@
       {
         "status": "Available",
         "start": 1762684818,
-        "end": null
+        "end": 1762692020
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762692020,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -51887,7 +51884,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762689628,
-        "end": null
+        "end": 1762692020
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762692020,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -61735,11 +61738,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761481833,
-        "end": 1761482429
-      },
-      {
         "status": "Available",
         "start": 1761482429,
         "end": 1761484239
@@ -62874,11 +62872,6 @@
   "3820095": {
     "name": "Akijiro",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761481833,
-        "end": 1761483638
-      },
       {
         "status": "Available",
         "start": 1761483638,
@@ -70425,11 +70418,6 @@
     "name": "Lucifixion",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1761481833,
-        "end": 1761484239
-      },
-      {
         "status": "[United Kingdom] Attacked - Revives: ALL",
         "start": 1761484239,
         "end": 1761485442
@@ -73619,6 +73607,11 @@
       {
         "status": "Available",
         "start": 1762686626,
+        "end": 1762692020
+      },
+      {
+        "status": "[Hospital] Event - Revives: Partial",
+        "start": 1762692020,
         "end": null
       }
     ]
