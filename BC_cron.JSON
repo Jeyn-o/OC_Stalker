@@ -1591,11 +1591,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1761502834,
-        "end": 1761503434
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1761503434,
         "end": 1761506435,
@@ -4204,12 +4199,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761502834,
-        "end": 1761509425,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761509425,
         "end": 1761514234
@@ -6311,11 +6300,6 @@
   "1387584": {
     "name": "---GHOST---",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: Partial",
-        "start": 1761502834,
-        "end": 1761505244
-      },
       {
         "status": "Available",
         "start": 1761505244,
@@ -9453,11 +9437,6 @@
   "2080816": {
     "name": "Weasel",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761502834,
-        "end": 1761506435
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761506435,
@@ -15210,6 +15189,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1762711241,
+        "end": 1762713026
+      },
+      {
+        "status": "Available",
+        "start": 1762713026,
         "end": null
       }
     ]
@@ -18839,11 +18823,6 @@
   "2647214": {
     "name": "Balgor",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761502834,
-        "end": 1761505836
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761505836,
@@ -27887,11 +27866,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761502834,
-        "end": 1761504032
-      },
-      {
         "status": "Available",
         "start": 1761504032,
         "end": 1761511234
@@ -30197,7 +30171,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1762710026,
-        "end": null
+        "end": 1762713026
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762713026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32306,12 +32286,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1761502834,
-        "end": 1761504032,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1761504032,
@@ -46402,11 +46376,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1761502834,
-        "end": 1761503434
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1761503434,
         "end": 1761510034,
@@ -51174,11 +51143,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] Mugged - Revives: ALL",
-        "start": 1761502834,
-        "end": 1761505244
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1761505244,
@@ -60516,7 +60480,13 @@
       {
         "status": "Available",
         "start": 1762705223,
-        "end": null
+        "end": 1762713026
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762713026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
