@@ -5424,11 +5424,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761438026,
-        "end": 1761438631
-      },
-      {
         "status": "Available",
         "start": 1761438631,
         "end": 1761439835
@@ -7958,11 +7953,6 @@
   "1766417": {
     "name": "gajeela09",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: Partial",
-        "start": 1761438026,
-        "end": 1761439835
-      },
       {
         "status": "Available",
         "start": 1761439835,
@@ -20569,11 +20559,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761438026,
-        "end": 1761439228
-      },
-      {
         "status": "Available",
         "start": 1761439228,
         "end": 1761441626
@@ -23649,11 +23634,6 @@
   "2675301": {
     "name": "ExiledAstronaut",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761438026,
-        "end": 1761438631
-      },
       {
         "status": "Available",
         "start": 1761438631,
@@ -38083,7 +38063,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1762646442,
-        "end": null
+        "end": 1762648224
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1762648224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -46351,11 +46337,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761438026,
-        "end": 1761439228
-      },
       {
         "status": "Available",
         "start": 1761439228,
@@ -55426,8 +55407,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762635633,
-        "end": null,
+        "end": 1762648224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762648224,
+        "end": null
       }
     ]
   },
@@ -65630,11 +65616,6 @@
   "3820095": {
     "name": "Akijiro",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761438026,
-        "end": 1761439228
-      },
       {
         "status": "Available",
         "start": 1761439228,
@@ -77920,7 +77901,13 @@
       {
         "status": "Available",
         "start": 1762646442,
-        "end": null
+        "end": 1762648224
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762648224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
