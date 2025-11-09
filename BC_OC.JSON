@@ -52270,7 +52270,7 @@
   "1006134": {
     "name": "Best of the Lot",
     "status": "Recruiting",
-    "ready_at": 1762798675,
+    "ready_at": 1762885075,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -52288,6 +52288,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 3760809,
+        "user_name": "RandomName1",
+        "checkpoint_pass_rate": 88,
+        "position": "Muscle",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -52312,6 +52319,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1762679428,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3760809,
+        "user_name": "RandomName1",
+        "checkpoint_pass_rate": 88,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   },
