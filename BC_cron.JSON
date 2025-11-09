@@ -3250,11 +3250,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761493824,
-        "end": 1761496235
-      },
-      {
         "status": "Available",
         "start": 1761496235,
         "end": 1761507032
@@ -5038,11 +5033,6 @@
   "1184733": {
     "name": "Pro_eobard",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761493824,
-        "end": 1761496235
-      },
       {
         "status": "Available",
         "start": 1761496235,
@@ -7780,11 +7770,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1761493824,
-        "end": 1761495629
-      },
       {
         "status": "Available",
         "start": 1761495629,
@@ -12843,11 +12828,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761493824,
-        "end": 1761508226
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761508226,
         "end": 1761510034
@@ -15375,8 +15355,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762698625,
-        "end": null,
+        "end": 1762704031,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1762704031,
+        "end": null
       }
     ]
   },
@@ -15698,11 +15683,6 @@
   "2414438": {
     "name": "Caross",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761493824,
-        "end": 1761532829
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761532829,
@@ -21227,11 +21207,6 @@
     "name": "AlfieG",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761493824,
-        "end": 1761495073
-      },
-      {
         "status": "Available",
         "start": 1761495073,
         "end": 1761498038
@@ -24404,11 +24379,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761493824,
-        "end": 1761496824
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1761496824,
@@ -30500,6 +30470,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762702228,
+        "end": 1762704031,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762704031,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -42408,7 +42384,13 @@
       {
         "status": "Available",
         "start": 1762703421,
-        "end": null
+        "end": 1762704031
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1762704031,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43512,11 +43494,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761493824,
-        "end": 1761505244
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761505244,
@@ -55604,12 +55581,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1761493824,
-        "end": 1761495629,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761495629,
         "end": 1761505244
@@ -57527,11 +57498,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761493824,
-        "end": 1761494443
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1761494443,
@@ -60981,11 +60947,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761493824,
-        "end": 1761495073
-      },
-      {
         "status": "Available",
         "start": 1761495073,
         "end": 1761495629
@@ -64038,11 +63999,6 @@
   "3841404": {
     "name": "Sleepy_Skyes",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761493824,
-        "end": 1761499833
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761499833,
@@ -68051,12 +68007,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1761493824,
-        "end": 1761495629,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1761495629,
@@ -75236,8 +75186,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762697415,
-        "end": null,
+        "end": 1762704031,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762704031,
+        "end": null
       }
     ]
   },
