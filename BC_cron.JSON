@@ -1722,11 +1722,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761437426,
-        "end": 1761438631
-      },
-      {
         "status": "Available",
         "start": 1761438631,
         "end": 1761444637
@@ -3496,11 +3491,6 @@
   "914683": {
     "name": "Droq",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761437426,
-        "end": 1761439228
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1761439228,
@@ -5433,11 +5423,6 @@
   "1184733": {
     "name": "Pro_eobard",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761437426,
-        "end": 1761438026
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761438026,
@@ -11005,11 +10990,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761437426,
-        "end": 1761442231
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761442231,
         "end": 1761443424
@@ -13955,11 +13935,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761437426,
-        "end": 1761438631
-      },
       {
         "status": "Available",
         "start": 1761438631,
@@ -18962,11 +18937,6 @@
     "name": "frkn",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761437426,
-        "end": 1761447030
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761447030,
         "end": 1761448232
@@ -19857,11 +19827,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761437426,
-        "end": 1761447641
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761447641,
@@ -22163,11 +22128,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761437426,
-        "end": 1761438631
-      },
-      {
         "status": "Available",
         "start": 1761438631,
         "end": 1761442832
@@ -22975,11 +22935,6 @@
     "name": "AlfieG",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761437426,
-        "end": 1761438631
-      },
-      {
         "status": "Available",
         "start": 1761438631,
         "end": 1761444037
@@ -23694,11 +23649,6 @@
   "2675301": {
     "name": "ExiledAstronaut",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761437426,
-        "end": 1761438026
-      },
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761438026,
@@ -28007,11 +27957,6 @@
     "name": "Twitt3y",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761437426,
-        "end": 1761447030
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761447030,
         "end": 1761448828
@@ -29218,6 +29163,11 @@
       {
         "status": "Jail",
         "start": 1762647027,
+        "end": 1762647624
+      },
+      {
+        "status": "Available",
+        "start": 1762647624,
         "end": null
       }
     ]
@@ -36999,11 +36949,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761437426,
-        "end": 1761438631
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1761438631,
         "end": 1761439835
@@ -43823,12 +43768,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761437426,
-        "end": 1761444037,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761444037,
@@ -50735,11 +50674,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761437426,
-        "end": 1761439228
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761439228,
         "end": 1761441027
@@ -53650,7 +53584,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1762642220,
-        "end": null
+        "end": 1762647624
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1762647624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -60874,11 +60814,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761437426,
-        "end": 1761439228
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761439228,
@@ -76849,6 +76784,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762640418,
+        "end": 1762647624,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762647624,
         "end": null,
         "travel_type": "airstrip"
       }
