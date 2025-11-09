@@ -8854,11 +8854,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1761495073,
-        "end": 1761495629
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1761495629,
         "end": 1761497426,
@@ -17514,11 +17509,6 @@
     "name": "frkn",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761495073,
-        "end": 1761495629
-      },
-      {
         "status": "Available",
         "start": 1761495629,
         "end": 1761496824
@@ -21202,11 +21192,6 @@
     "name": "AlfieG",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761495073,
-        "end": 1761498038
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761498038,
         "end": 1761499833
@@ -22613,11 +22598,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761495073,
-        "end": 1761505244
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761505244,
@@ -25455,6 +25435,12 @@
       {
         "status": "[China] - Returning",
         "start": 1762695621,
+        "end": 1762705223,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762705223,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30471,6 +30457,12 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762704031,
+        "end": 1762705223,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1762705223,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -39426,7 +39418,13 @@
       {
         "status": "Available",
         "start": 1762703421,
-        "end": null
+        "end": 1762705223
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1762705223,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -42363,8 +42361,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1762704031,
-        "end": null,
+        "end": 1762705223,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1762705223,
+        "end": null
       }
     ]
   },
@@ -45194,12 +45197,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1761495073,
-        "end": 1761496824,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761496824,
         "end": 1761498624
@@ -46713,12 +46710,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1761495073,
-        "end": 1761501640,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] Attacked - Revives: Partial",
         "start": 1761501640,
@@ -49797,12 +49788,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1761495073,
-        "end": 1761505244,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761505244,
@@ -60907,19 +60892,19 @@
       {
         "status": "[China] - Returning",
         "start": 1762694428,
-        "end": null,
+        "end": 1762705223,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762705223,
+        "end": null
       }
     ]
   },
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761495073,
-        "end": 1761495629
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761495629,
@@ -62970,11 +62955,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761495073,
-        "end": 1761496824
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761496824,
@@ -73769,11 +73749,6 @@
     "name": "Icks-B",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: Partial",
-        "start": 1761495073,
-        "end": 1761496824
-      },
-      {
         "status": "Available",
         "start": 1761496824,
         "end": 1761501027
@@ -75156,7 +75131,13 @@
       {
         "status": "Available",
         "start": 1762704031,
-        "end": null
+        "end": 1762705223
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762705223,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
