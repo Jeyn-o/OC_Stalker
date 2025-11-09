@@ -2924,6 +2924,11 @@
       {
         "status": "Jail",
         "start": 1762652425,
+        "end": 1762668027
+      },
+      {
+        "status": "Available",
+        "start": 1762668027,
         "end": null
       }
     ]
@@ -3407,11 +3412,6 @@
   "914683": {
     "name": "Droq",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761457829,
-        "end": 1761459033
-      },
       {
         "status": "Available",
         "start": 1761459033,
@@ -7680,11 +7680,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761457829,
-        "end": 1761459636
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1761459636,
         "end": 1761469241,
@@ -10063,8 +10058,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762655428,
-        "end": null,
+        "end": 1762668027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762668027,
+        "end": null
       }
     ]
   },
@@ -11849,11 +11849,6 @@
   "2250222": {
     "name": "Ronskip",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761457829,
-        "end": 1761465637
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761465637,
@@ -44171,7 +44166,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762667420,
-        "end": null
+        "end": 1762668027
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762668027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -49592,7 +49593,13 @@
       {
         "status": "Available",
         "start": 1762640418,
-        "end": null
+        "end": 1762668027
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762668027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -75207,7 +75214,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762667420,
-        "end": null
+        "end": 1762668027
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762668027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -77718,6 +77731,12 @@
       {
         "status": "[China] - Going",
         "start": 1762657820,
+        "end": 1762668027,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762668027,
         "end": null,
         "travel_type": "airstrip"
       }
