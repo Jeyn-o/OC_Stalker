@@ -6511,11 +6511,6 @@
     "name": "---GHOST---",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761477030,
-        "end": 1761478239
-      },
-      {
         "status": "Available",
         "start": 1761478239,
         "end": 1761482429
@@ -20528,11 +20523,6 @@
   "2655203": {
     "name": "Vampire-Catgirl",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761477030,
-        "end": 1761509425
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761509425,
@@ -34576,8 +34566,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762674619,
-        "end": null,
+        "end": 1762687223,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762687223,
+        "end": null
       }
     ]
   },
@@ -35143,7 +35138,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762686626,
-        "end": null
+        "end": 1762687223
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762687223,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40187,8 +40188,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762681819,
-        "end": null,
+        "end": 1762687223,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1762687223,
+        "end": null
       }
     ]
   },
@@ -55625,11 +55631,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761477030,
-        "end": 1761488436
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761488436,
@@ -76378,7 +76379,13 @@
       {
         "status": "Available",
         "start": 1762686626,
-        "end": null
+        "end": 1762687223
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1762687223,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
