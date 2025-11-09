@@ -1591,12 +1591,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761503434,
-        "end": 1761506435,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1761506435,
         "end": 1761507032
@@ -11119,8 +11113,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762702228,
-        "end": null,
+        "end": 1762713625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762713625,
+        "end": null
       }
     ]
   },
@@ -11747,11 +11746,6 @@
   "2289809": {
     "name": "Murder_Hobo",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1761503434,
-        "end": 1761504032
-      },
       {
         "status": "[Hawaii] Mugged - Revives: OFF",
         "start": 1761504032,
@@ -15860,11 +15854,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761503434,
-        "end": 1761504630
-      },
       {
         "status": "Available",
         "start": 1761504630,
@@ -23003,11 +22992,6 @@
     "name": "TsanMan",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1761503434,
-        "end": 1761507032
-      },
-      {
         "status": "Available",
         "start": 1761507032,
         "end": 1761515428
@@ -25186,11 +25170,6 @@
   "2730718": {
     "name": "Haungpeary",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761503434,
-        "end": 1761504032
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1761504032,
@@ -46376,12 +46355,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1761503434,
-        "end": 1761510034,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761510034,
         "end": 1761531623
@@ -63462,11 +63435,6 @@
     "name": "Sleepy_Skyes",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761503434,
-        "end": 1761504032
-      },
-      {
         "status": "Available",
         "start": 1761504032,
         "end": 1761505244
@@ -68912,11 +68880,6 @@
   "3915266": {
     "name": "Lucifixion",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761503434,
-        "end": 1761505244
-      },
       {
         "status": "Available",
         "start": 1761505244,
@@ -74578,7 +74541,13 @@
       {
         "status": "[Argentina] Attacked - Revives: OFF",
         "start": 1762712424,
-        "end": null
+        "end": 1762713625
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762713625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
