@@ -14545,11 +14545,6 @@
     "name": "Crispyfoot",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761454840,
-        "end": 1761465034
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761465034,
         "end": 1761466231
@@ -16149,7 +16144,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762664436,
-        "end": null
+        "end": 1762665025
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762665025,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -20087,11 +20088,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761454840,
-        "end": 1761456033
-      },
-      {
         "status": "Available",
         "start": 1761456033,
         "end": 1761463838
@@ -23088,11 +23084,6 @@
     "name": "ExiledAstronaut",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761454840,
-        "end": 1761455428
-      },
-      {
         "status": "Available",
         "start": 1761455428,
         "end": 1761465034
@@ -24540,11 +24531,6 @@
   "2679269": {
     "name": "TsanMan",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761454840,
-        "end": 1761463838
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1761463838,
@@ -30271,11 +30257,6 @@
   "2920790": {
     "name": "Shimmer12",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761454840,
-        "end": 1761459636
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1761459636,
@@ -48356,8 +48337,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1762663221,
-        "end": null,
+        "end": 1762665025,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1762665025,
+        "end": null
       }
     ]
   },
@@ -51986,11 +51972,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761454840,
-        "end": 1761472840
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761472840,
@@ -64529,11 +64510,6 @@
     "name": "Akijiro",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761454840,
-        "end": 1761457230
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761457230,
         "end": 1761458435
@@ -65593,11 +65569,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761454840,
-        "end": 1761458435
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761458435,
@@ -72244,6 +72215,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762657820,
+        "end": 1762665025,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762665025,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -72252,11 +72229,6 @@
   "3915266": {
     "name": "Lucifixion",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761454840,
-        "end": 1761456033
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761456033,
@@ -76600,6 +76572,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1762662023,
+        "end": 1762665025
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: ALL",
+        "start": 1762665025,
         "end": null
       }
     ]
