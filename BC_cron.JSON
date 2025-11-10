@@ -4414,11 +4414,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761604224,
-        "end": 1761604826
-      },
-      {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761604826,
         "end": 1761607219
@@ -5379,11 +5374,6 @@
     "name": "---GHOST---",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761604224,
-        "end": 1761606621
-      },
-      {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761606621,
         "end": 1761607219
@@ -6013,11 +6003,6 @@
   "1766417": {
     "name": "gajeela09",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: Partial",
-        "start": 1761604224,
-        "end": 1761605428
-      },
       {
         "status": "Available",
         "start": 1761605428,
@@ -11353,11 +11338,6 @@
     "name": "Litri",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761604224,
-        "end": 1761604826
-      },
-      {
         "status": "Available",
         "start": 1761604826,
         "end": 1761607831
@@ -14685,11 +14665,6 @@
   "2541399": {
     "name": "Theurgy",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761604224,
-        "end": 1761605428
-      },
       {
         "status": "Available",
         "start": 1761605428,
@@ -18530,11 +18505,6 @@
   "2675301": {
     "name": "ExiledAstronaut",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761604224,
-        "end": 1761619227
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761619227,
@@ -26773,11 +26743,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761604224,
-        "end": 1761605428
-      },
-      {
         "status": "Available",
         "start": 1761605428,
         "end": 1761618635
@@ -32451,6 +32416,11 @@
       {
         "status": "Available",
         "start": 1762794619,
+        "end": 1762814422
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1762814422,
         "end": null
       }
     ]
@@ -38029,11 +37999,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761604224,
-        "end": 1761614424
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761614424,
         "end": 1761615026
@@ -40635,7 +40600,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762809630,
-        "end": null
+        "end": 1762814422
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762814422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
