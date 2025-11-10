@@ -5409,11 +5409,6 @@
     "name": "---GHOST---",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761600028,
-        "end": 1761601222
-      },
-      {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761601222,
         "end": 1761604224
@@ -11400,11 +11395,6 @@
   "2315415": {
     "name": "Litri",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761600028,
-        "end": 1761601222
-      },
       {
         "status": "Available",
         "start": 1761601222,
@@ -31436,6 +31426,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762789221,
+        "end": 1762810228
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: ALL",
+        "start": 1762810228,
         "end": null
       }
     ]
@@ -34559,8 +34554,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762804833,
-        "end": null,
+        "end": 1762810228,
         "travel_type": "standard"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762810228,
+        "end": null
       }
     ]
   },
@@ -47232,7 +47232,13 @@
       {
         "status": "Available",
         "start": 1762752629,
-        "end": null
+        "end": 1762810228
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1762810228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -51238,8 +51244,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762799432,
-        "end": null,
+        "end": 1762810228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762810228,
+        "end": null
       }
     ]
   },
@@ -57097,11 +57108,6 @@
   "3841404": {
     "name": "Sleepy_Skyes",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761600028,
-        "end": 1761608425
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1761608425,
@@ -66213,12 +66219,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1761600028,
-        "end": 1761612621,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1761612621,
