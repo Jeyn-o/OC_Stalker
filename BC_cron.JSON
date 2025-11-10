@@ -3049,11 +3049,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761543029,
-        "end": 1761544227
-      },
-      {
         "status": "Available",
         "start": 1761544227,
         "end": 1761547233
@@ -31646,7 +31641,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762749023,
-        "end": null
+        "end": 1762753224
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762753224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37076,8 +37077,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762747819,
-        "end": null,
+        "end": 1762753224,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762753224,
+        "end": null
       }
     ]
   },
@@ -39951,8 +39957,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762741826,
-        "end": null,
+        "end": 1762753224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762753224,
+        "end": null
       }
     ]
   },
@@ -42063,7 +42074,13 @@
       {
         "status": "Available",
         "start": 1762705824,
-        "end": null
+        "end": 1762753224
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762753224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -57685,11 +57702,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761543029,
-        "end": 1761543637
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761543637,
         "end": 1761546037
@@ -65858,8 +65870,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762746621,
-        "end": null,
+        "end": 1762753224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762753224,
+        "end": null
       }
     ]
   },
@@ -67515,11 +67532,6 @@
   "3943448": {
     "name": "Maddog1997",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761543029,
-        "end": 1761548440
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1761548440,
