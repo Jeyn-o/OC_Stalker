@@ -9747,6 +9747,11 @@
       {
         "status": "Jail",
         "start": 1762770627,
+        "end": 1762795831
+      },
+      {
+        "status": "Available",
+        "start": 1762795831,
         "end": null
       }
     ]
@@ -11682,8 +11687,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762791025,
-        "end": null,
+        "end": 1762795831,
         "travel_type": "private"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762795831,
+        "end": null
       }
     ]
   },
@@ -13532,6 +13542,12 @@
       {
         "status": "[China] - Going",
         "start": 1762791025,
+        "end": 1762795831,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762795831,
         "end": null,
         "travel_type": "standard"
       }
@@ -14803,7 +14819,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762789221,
-        "end": null
+        "end": 1762795831
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762795831,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26933,6 +26955,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762794036,
+        "end": 1762795831,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762795831,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29943,7 +29971,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762794036,
-        "end": null
+        "end": 1762795831
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762795831,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35317,7 +35351,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762794619,
-        "end": null
+        "end": 1762795831
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762795831,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
