@@ -4597,11 +4597,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761565231,
-        "end": 1761568239
-      },
-      {
         "status": "Available",
         "start": 1761568239,
         "end": 1761568825
@@ -19709,11 +19704,6 @@
     "name": "ExiledAstronaut",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761565231,
-        "end": 1761565829
-      },
-      {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761565829,
         "end": 1761567028
@@ -22019,11 +22009,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1761565231,
-        "end": 1761567028
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1761567028,
@@ -29076,8 +29061,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762764626,
-        "end": null,
+        "end": 1762775421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762775421,
+        "end": null
       }
     ]
   },
@@ -37666,12 +37656,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1761565231,
-        "end": 1761571833,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761571833,
@@ -49993,11 +49977,6 @@
     "name": "SN00PYTOBY",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1761565231,
-        "end": 1761570039
-      },
-      {
         "status": "Available",
         "start": 1761570039,
         "end": 1761577836
@@ -53308,11 +53287,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1761565231,
-        "end": 1761566440
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1761566440,
@@ -59382,11 +59356,6 @@
     "name": "Sleepy_Skyes",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761565231,
-        "end": 1761567632
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761567632,
         "end": 1761568825
@@ -63248,11 +63217,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1761565231,
-        "end": 1761565829
-      },
-      {
         "status": "Available",
         "start": 1761565829,
         "end": 1761567028
@@ -66350,11 +66314,6 @@
     "name": "Maddog1997",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: Partial",
-        "start": 1761565231,
-        "end": 1761567028
-      },
-      {
         "status": "Available",
         "start": 1761567028,
         "end": 1761567632
@@ -68853,11 +68812,6 @@
     "name": "Icks-B",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761565231,
-        "end": 1761565829
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1761565829,
         "end": 1761573028,
@@ -70367,7 +70321,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1762774821,
-        "end": null
+        "end": 1762775421
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1762775421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
