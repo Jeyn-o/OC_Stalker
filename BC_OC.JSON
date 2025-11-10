@@ -52128,8 +52128,8 @@
   },
   "1003535": {
     "name": "Stage Fright",
-    "status": "Recruiting",
-    "ready_at": 1763072560,
+    "status": "Planning",
+    "ready_at": 1763158960,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -52167,6 +52167,13 @@
         "checkpoint_pass_rate": 72,
         "position": "Muscle",
         "position_number": 3
+      },
+      "P6": {
+        "user_id": 2932114,
+        "user_name": "Nitrx",
+        "checkpoint_pass_rate": 76,
+        "position": "Sniper",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -52240,6 +52247,16 @@
         "checkpoint_pass_rate": 72,
         "position": "Muscle",
         "position_number": 3
+      },
+      {
+        "timestamp": 1762818024,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 2932114,
+        "user_name": "Nitrx",
+        "checkpoint_pass_rate": 76,
+        "position": "Sniper",
+        "position_number": 1
       }
     ]
   },
@@ -52635,7 +52652,7 @@
   "1007695": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1762902188,
+    "ready_at": 1762988588,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -52653,6 +52670,14 @@
         "position": "Bomber",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 442690,
+        "user_name": "BeardedBenny",
+        "checkpoint_pass_rate": 65,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -52675,6 +52700,17 @@
         "user_name": "TsanMan",
         "checkpoint_pass_rate": 75,
         "position": "Bomber",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1762818024,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 442690,
+        "user_name": "BeardedBenny",
+        "checkpoint_pass_rate": 65,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": false
       }
