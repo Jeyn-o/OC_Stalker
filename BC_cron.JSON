@@ -3034,11 +3034,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761557435,
-        "end": 1761559250
-      },
-      {
         "status": "Available",
         "start": 1761559250,
         "end": 1761567028
@@ -9612,6 +9607,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762755622,
+        "end": 1762767627,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762767627,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34390,8 +34391,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762761630,
-        "end": null,
+        "end": 1762767627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762767627,
+        "end": null
       }
     ]
   },
@@ -40297,11 +40303,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761557435,
-        "end": 1761567632
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761567632,
         "end": 1761568825
@@ -41417,7 +41418,13 @@
       {
         "status": "Available",
         "start": 1762767026,
-        "end": null
+        "end": 1762767627
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762767627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -44213,11 +44220,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761557435,
-        "end": 1761559250
-      },
       {
         "status": "Available",
         "start": 1761559250,
@@ -49517,11 +49519,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761557435,
-        "end": 1761561636
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1761561636,
         "end": 1761562840
@@ -51625,6 +51622,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762761023,
+        "end": 1762767627,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762767627,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -53577,12 +53580,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1761557435,
-        "end": 1761558627,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1761558627,
@@ -56074,6 +56071,11 @@
       {
         "status": "Available",
         "start": 1762767026,
+        "end": 1762767627
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1762767627,
         "end": null
       }
     ]
@@ -64989,6 +64991,12 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762760419,
+        "end": 1762767627,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762767627,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -66641,12 +66649,6 @@
   "3943448": {
     "name": "Maddog1997",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1761557435,
-        "end": 1761558627,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] Attacked - Revives: Partial",
         "start": 1761558627,
