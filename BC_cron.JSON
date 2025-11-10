@@ -2535,11 +2535,6 @@
     "name": "poik9",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761595825,
-        "end": 1761618635
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761618635,
         "end": 1761620432
@@ -4455,11 +4450,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761595825,
-        "end": 1761598838
-      },
-      {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761598838,
         "end": 1761601831
@@ -5439,11 +5429,6 @@
   "1387584": {
     "name": "---GHOST---",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761595825,
-        "end": 1761596421
-      },
       {
         "status": "Available",
         "start": 1761596421,
@@ -13329,8 +13314,13 @@
       {
         "status": "[China] - Going",
         "start": 1762801823,
-        "end": null,
+        "end": 1762806023,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762806023,
+        "end": null
       }
     ]
   },
@@ -40063,11 +40053,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761595825,
-        "end": 1761618635
-      },
-      {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1761618635,
         "end": 1761621030
@@ -54002,6 +53987,11 @@
       {
         "status": "Available",
         "start": 1762805420,
+        "end": 1762806023
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1762806023,
         "end": null
       }
     ]
@@ -54870,11 +54860,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761595825,
-        "end": 1761596421
-      },
       {
         "status": "Available",
         "start": 1761596421,
@@ -56592,11 +56577,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761595825,
-        "end": 1761597621
-      },
       {
         "status": "Available",
         "start": 1761597621,
@@ -63233,7 +63213,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1762735824,
-        "end": null
+        "end": 1762806023
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1762806023,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -66606,11 +66592,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761595825,
-        "end": 1761600028
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1761600028,
