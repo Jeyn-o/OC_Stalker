@@ -1562,11 +1562,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761536428,
-        "end": 1761543637
-      },
-      {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761543637,
         "end": 1761545456
@@ -5903,11 +5898,6 @@
     "name": "---GHOST---",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761536428,
-        "end": 1761537634
-      },
-      {
         "status": "Available",
         "start": 1761537634,
         "end": 1761538824
@@ -9321,11 +9311,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761536428,
-        "end": 1761538230
-      },
-      {
         "status": "Available",
         "start": 1761538230,
         "end": 1761541834
@@ -11350,11 +11335,6 @@
   "2291737": {
     "name": "Special-Needs",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761536428,
-        "end": 1761537634
-      },
       {
         "status": "Available",
         "start": 1761537634,
@@ -14355,8 +14335,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762742423,
-        "end": null,
+        "end": 1762746621,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1762746621,
+        "end": null
       }
     ]
   },
@@ -20473,11 +20458,6 @@
   "2675301": {
     "name": "ExiledAstronaut",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761536428,
-        "end": 1761537634
-      },
       {
         "status": "Available",
         "start": 1761537634,
@@ -31822,8 +31802,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762740030,
-        "end": null,
+        "end": 1762746621,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: Partial",
+        "start": 1762746621,
+        "end": null
       }
     ]
   },
@@ -45085,11 +45070,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761536428,
-        "end": 1761538230
-      },
-      {
         "status": "Available",
         "start": 1761538230,
         "end": 1761540033
@@ -57043,6 +57023,11 @@
       {
         "status": "Available",
         "start": 1762746023,
+        "end": 1762746621
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1762746621,
         "end": null
       }
     ]
@@ -57897,11 +57882,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761536428,
-        "end": 1761537634
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1761537634,
@@ -66107,18 +66087,19 @@
       {
         "status": "[Argentina] Mugged - Revives: ALL",
         "start": 1762743631,
-        "end": null
+        "end": 1762746621
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762746621,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3915266": {
     "name": "Lucifixion",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761536428,
-        "end": 1761564040
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761564040,
