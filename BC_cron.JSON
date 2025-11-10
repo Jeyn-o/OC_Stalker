@@ -737,11 +737,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761582023,
-        "end": 1761583226
-      },
-      {
         "status": "Available",
         "start": 1761583226,
         "end": 1761585025
@@ -12041,11 +12036,6 @@
     "name": "Crispyfoot",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761582023,
-        "end": 1761587429
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761587429,
         "end": 1761589222
@@ -14196,11 +14186,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761582023,
-        "end": 1761583826
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761583826,
@@ -27033,6 +27018,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762791025,
+        "end": 1762792229,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762792229,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33413,12 +33404,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1761582023,
-        "end": 1761585025,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1761585025,
         "end": 1761585626
@@ -36065,11 +36050,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761582023,
-        "end": 1761583226
-      },
       {
         "status": "Available",
         "start": 1761583226,
@@ -39186,12 +39166,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1761582023,
-        "end": 1761589222,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761589222,
         "end": 1761597025
@@ -40326,11 +40300,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761582023,
-        "end": 1761592823
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761592823,
@@ -50386,11 +50355,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1761582023,
-        "end": 1761582635
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1761582635,
         "end": 1761583226,
@@ -55703,6 +55667,11 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1762789829,
+        "end": 1762792229
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762792229,
         "end": null
       }
     ]
@@ -68942,8 +68911,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1762791025,
-        "end": null,
+        "end": 1762792229,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762792229,
+        "end": null
       }
     ]
   },
