@@ -53176,15 +53176,36 @@
   "1011925": {
     "name": "Pet Project",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1762902917,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3900691,
+        "user_name": "Akytaro",
+        "checkpoint_pass_rate": 86,
+        "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1762816827,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3900691,
+        "user_name": "Akytaro",
+        "checkpoint_pass_rate": 86,
+        "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1011926": {
     "name": "Cash Me if You Can",
-    "status": "Recruiting",
-    "ready_at": 1762980765,
+    "status": "Planning",
+    "ready_at": 1763067165,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -53201,6 +53222,14 @@
         "position": "Thief",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3841404,
+        "user_name": "Sleepy_Skyes",
+        "checkpoint_pass_rate": 81,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": false
       }
     },
     "action_log": [
@@ -53224,6 +53253,17 @@
         "position": "Thief",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1762816827,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3841404,
+        "user_name": "Sleepy_Skyes",
+        "checkpoint_pass_rate": 81,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": false
       }
     ]
   },
