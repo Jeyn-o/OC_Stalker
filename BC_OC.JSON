@@ -52656,8 +52656,8 @@
   },
   "1008181": {
     "name": "No Reserve",
-    "status": "Recruiting",
-    "ready_at": 1762848041,
+    "status": "Planning",
+    "ready_at": 1762934441,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -52673,6 +52673,14 @@
         "user_name": "Mr_jeff14574",
         "checkpoint_pass_rate": 74,
         "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
+      },
+      "P2": {
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 76,
+        "position": "Techie",
         "position_number": 1,
         "item_available": false
       }
@@ -52721,6 +52729,17 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1762781430,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 76,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
