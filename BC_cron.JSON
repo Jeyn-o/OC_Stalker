@@ -3895,12 +3895,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761558027,
-        "end": 1761564636,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761564636,
         "end": 1761568825
@@ -4616,11 +4610,6 @@
   "1184733": {
     "name": "Pro_eobard",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761558027,
-        "end": 1761559250
-      },
       {
         "status": "Available",
         "start": 1761559250,
@@ -17327,11 +17316,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761558027,
-        "end": 1761560431
-      },
-      {
         "status": "Available",
         "start": 1761560431,
         "end": 1761561636
@@ -21212,11 +21196,6 @@
   "2679269": {
     "name": "TsanMan",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1761558027,
-        "end": 1761559835
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1761559835,
@@ -56076,6 +56055,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1762767627,
+        "end": 1762768227
+      },
+      {
+        "status": "Available",
+        "start": 1762768227,
         "end": null
       }
     ]
@@ -66243,6 +66227,11 @@
       {
         "status": "Available",
         "start": 1762666822,
+        "end": 1762768227
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1762768227,
         "end": null
       }
     ]
@@ -70602,8 +70591,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762766425,
-        "end": null,
+        "end": 1762768227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762768227,
+        "end": null
       }
     ]
   },
@@ -70697,8 +70691,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762761630,
-        "end": null,
+        "end": 1762768227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762768227,
+        "end": null
       }
     ]
   },
