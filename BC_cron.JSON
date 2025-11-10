@@ -742,11 +742,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761601222,
-        "end": 1761602426
-      },
-      {
         "status": "Available",
         "start": 1761602426,
         "end": 1761603022
@@ -5408,11 +5403,6 @@
   "1387584": {
     "name": "---GHOST---",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761601222,
-        "end": 1761604224
-      },
       {
         "status": "Available",
         "start": 1761604224,
@@ -11401,11 +11391,6 @@
   "2315415": {
     "name": "Litri",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761601222,
-        "end": 1761603022
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761603022,
@@ -17778,11 +17763,6 @@
   "2671530": {
     "name": "windyswag",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761601222,
-        "end": 1761603022
-      },
       {
         "status": "Available",
         "start": 1761603022,
@@ -40754,11 +40734,6 @@
     "name": "Jordanw1",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761601222,
-        "end": 1761603022
-      },
-      {
         "status": "Available",
         "start": 1761603022,
         "end": 1761616225
@@ -47238,20 +47213,19 @@
       {
         "status": "[Canada] - Going",
         "start": 1762810228,
-        "end": null,
+        "end": 1762811420,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1762811420,
+        "end": null
       }
     ]
   },
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1761601222,
-        "end": 1761612621,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761612621,
@@ -59441,6 +59415,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762810818,
+        "end": 1762811420
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1762811420,
         "end": null
       }
     ]
@@ -66202,8 +66181,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762804833,
-        "end": null,
+        "end": 1762811420,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1762811420,
+        "end": null
       }
     ]
   },
