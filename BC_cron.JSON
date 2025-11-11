@@ -1225,11 +1225,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1761683436,
-        "end": 1761684023
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1761684023,
         "end": 1761688227
@@ -2516,11 +2511,6 @@
   "914683": {
     "name": "Droq",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761683436,
-        "end": 1761684023
-      },
       {
         "status": "Available",
         "start": 1761684023,
@@ -11973,11 +11963,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761683436,
-        "end": 1761684023
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761684023,
@@ -21726,12 +21711,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1761683436,
-        "end": 1761684627,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761684627,
         "end": 1761703230
@@ -22956,20 +22935,19 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762892428,
-        "end": null,
+        "end": 1762893622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762893622,
+        "end": null
       }
     ]
   },
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1761683436,
-        "end": 1761684627,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1761684627,
@@ -26082,7 +26060,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762889427,
-        "end": null
+        "end": 1762893622
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762893622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27610,7 +27594,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762893030,
-        "end": null
+        "end": 1762893622
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762893622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -44224,11 +44214,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1761683436,
-        "end": 1761684023
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1761684023,
         "end": 1761685235,
@@ -45540,6 +45525,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762893030,
+        "end": 1762893622
+      },
+      {
+        "status": "Available",
+        "start": 1762893622,
         "end": null
       }
     ]
@@ -49179,11 +49169,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761683436,
-        "end": 1761685235
-      },
-      {
         "status": "Available",
         "start": 1761685235,
         "end": 1761686426
@@ -51870,12 +51855,6 @@
   "3851236": {
     "name": "Psyden",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1761683436,
-        "end": 1761693630,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1761693630,
