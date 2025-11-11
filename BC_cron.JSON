@@ -747,11 +747,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761625829,
-        "end": 1761626424
-      },
-      {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761626424,
         "end": 1761627018
@@ -23124,7 +23119,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762822225,
-        "end": null
+        "end": 1762836020
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762836020,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26950,11 +26951,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761625829,
-        "end": 1761626424
-      },
       {
         "status": "Available",
         "start": 1761626424,
@@ -49178,8 +49174,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1762834217,
-        "end": null,
+        "end": 1762836020,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762836020,
+        "end": null
       }
     ]
   },
@@ -49749,11 +49750,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761625829,
-        "end": 1761628227
-      },
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761628227,
@@ -52118,11 +52114,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761625829,
-        "end": 1761638440
-      },
-      {
         "status": "Jail",
         "start": 1761638440,
         "end": 1761647426
@@ -53761,11 +53752,6 @@
   "3820095": {
     "name": "Akijiro",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761625829,
-        "end": 1761627018
-      },
       {
         "status": "Available",
         "start": 1761627018,
@@ -55868,6 +55854,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762833634,
+        "end": 1762836020
+      },
+      {
+        "status": "Available",
+        "start": 1762836020,
         "end": null
       }
     ]
@@ -63166,18 +63157,19 @@
       {
         "status": "Available",
         "start": 1762833634,
-        "end": null
+        "end": 1762836020
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762836020,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761625829,
-        "end": 1761628227
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761628227,
