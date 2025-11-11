@@ -4906,11 +4906,6 @@
     "name": "---GHOST---",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761650420,
-        "end": 1761651626
-      },
-      {
         "status": "Available",
         "start": 1761651626,
         "end": 1761652839
@@ -22126,8 +22121,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1762851022,
-        "end": null,
+        "end": 1762860627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1762860627,
+        "end": null
       }
     ]
   },
@@ -24127,11 +24127,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Switzerland] Lost - Revives: ALL",
-        "start": 1761650420,
-        "end": 1761651626
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1761651626,
@@ -35433,11 +35428,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[Switzerland] Lost - Revives: ALL",
-        "start": 1761650420,
-        "end": 1761651626
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1761651626,
         "end": 1761652220
@@ -44302,11 +44292,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761650420,
-        "end": 1761651034
-      },
-      {
         "status": "Available",
         "start": 1761651034,
         "end": 1761655825
@@ -47699,7 +47684,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1762860027,
-        "end": null
+        "end": 1762860627
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1762860627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -48275,11 +48266,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1761650420,
-        "end": 1761652839
-      },
       {
         "status": "Available",
         "start": 1761652839,
@@ -58690,6 +58676,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1762855236,
+        "end": 1762860627,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1762860627,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -64385,6 +64377,11 @@
       {
         "status": "[China] - Idle",
         "start": 1762860027,
+        "end": 1762860627
+      },
+      {
+        "status": "[China] Mugged - Revives: OFF",
+        "start": 1762860627,
         "end": null
       }
     ]
