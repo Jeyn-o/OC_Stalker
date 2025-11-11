@@ -2713,11 +2713,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761641420,
-        "end": 1761642623
-      },
-      {
         "status": "Available",
         "start": 1761642623,
         "end": 1761643230
@@ -4130,11 +4125,6 @@
   "1184733": {
     "name": "Pro_eobard",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761641420,
-        "end": 1761642039
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761642039,
@@ -12260,8 +12250,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762846227,
-        "end": null,
+        "end": 1762851632,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762851632,
+        "end": null
       }
     ]
   },
@@ -23191,12 +23186,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1761641420,
-        "end": 1761643230,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1761643230,
         "end": 1761645025,
@@ -24434,11 +24423,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761641420,
-        "end": 1761642623
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1761642623,
@@ -27814,7 +27798,13 @@
       {
         "status": "Available",
         "start": 1762821024,
-        "end": null
+        "end": 1762851632
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1762851632,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35885,11 +35875,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761641420,
-        "end": 1761642623
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1761642623,
         "end": 1761649833,
@@ -36977,6 +36962,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762839026,
+        "end": 1762851632,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762851632,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -38768,11 +38759,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1761641420,
-        "end": 1761646218
-      },
-      {
         "status": "[Switzerland] Mugged - Revives: ALL",
         "start": 1761646218,
         "end": 1761648025
@@ -39657,8 +39643,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762845030,
-        "end": null,
+        "end": 1762851632,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762851632,
+        "end": null
       }
     ]
   },
@@ -45506,11 +45497,6 @@
   "3653613": {
     "name": "SN00PYTOBY",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761641420,
-        "end": 1761645643
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761645643,
@@ -59244,7 +59230,13 @@
       {
         "status": "Available",
         "start": 1762846227,
-        "end": null
+        "end": 1762851632
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762851632,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -63193,8 +63185,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762844429,
-        "end": null,
+        "end": 1762851632,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762851632,
+        "end": null
       }
     ]
   },
