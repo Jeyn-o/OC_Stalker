@@ -715,11 +715,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761663647,
-        "end": 1761664223
-      },
-      {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761664223,
         "end": 1761664826
@@ -2229,7 +2224,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762873240,
-        "end": null
+        "end": 1762873820
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762873820,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3302,11 +3303,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[Canada] Lost - Revives: ALL",
-        "start": 1761663647,
-        "end": 1761664826
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1761664826,
         "end": 1761665426
@@ -3963,11 +3959,6 @@
   "1184733": {
     "name": "Pro_eobard",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761663647,
-        "end": 1761664826
-      },
       {
         "status": "Available",
         "start": 1761664826,
@@ -5263,11 +5254,6 @@
   "1766417": {
     "name": "gajeela09",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761663647,
-        "end": 1761679222
-      },
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1761679222,
@@ -20931,12 +20917,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1761663647,
-        "end": 1761664826,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761664826,
         "end": 1761679833
@@ -34024,11 +34004,6 @@
     "name": "Krytical",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1761663647,
-        "end": 1761665426
-      },
-      {
         "status": "Available",
         "start": 1761665426,
         "end": 1761666033
@@ -35863,7 +35838,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762873240,
-        "end": null
+        "end": 1762873820
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762873820,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -49849,12 +49830,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1761663647,
-        "end": 1761673829,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761673829,
         "end": 1761678623
@@ -55142,12 +55117,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1761663647,
-        "end": 1761669036,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1761669036,
@@ -60494,11 +60463,6 @@
     "name": "Rey2Fly",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761663647,
-        "end": 1761672631
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761672631,
         "end": 1761674433
@@ -63191,6 +63155,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762867230,
+        "end": 1762873820,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762873820,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -63540,6 +63510,11 @@
       {
         "status": "[China] Mugged - Revives: OFF",
         "start": 1762870821,
+        "end": 1762873820
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762873820,
         "end": null
       }
     ]
