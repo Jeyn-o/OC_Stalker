@@ -15052,11 +15052,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761644423,
-        "end": 1761657029
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761657029,
         "end": 1761658825
@@ -16407,7 +16402,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762838422,
-        "end": null
+        "end": 1762854622
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762854622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17736,11 +17737,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761644423,
-        "end": 1761645643
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761645643,
@@ -21388,11 +21384,6 @@
   "2778055": {
     "name": "MrPorkenstien",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761644423,
-        "end": 1761645643
-      },
       {
         "status": "Available",
         "start": 1761645643,
@@ -26077,11 +26068,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Kingdom] Lost - Revives: Partial",
-        "start": 1761644423,
-        "end": 1761645643
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1761645643,
         "end": 1761646830
@@ -27185,8 +27171,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762842635,
-        "end": null,
+        "end": 1762854622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762854622,
+        "end": null
       }
     ]
   },
@@ -37385,8 +37376,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762852819,
-        "end": null,
+        "end": 1762854622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1762854622,
+        "end": null
       }
     ]
   },
@@ -60643,11 +60639,6 @@
     "name": "Maddog1997",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761644423,
-        "end": 1761645025
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1761645025,
         "end": 1761646218,
@@ -63064,11 +63055,6 @@
     "name": "Icks-B",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761644423,
-        "end": 1761646218
-      },
-      {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761646218,
         "end": 1761646830
@@ -64930,6 +64916,11 @@
       {
         "status": "[China] Attacked - Revives: OFF",
         "start": 1762853429,
+        "end": 1762854622
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762854622,
         "end": null
       }
     ]
