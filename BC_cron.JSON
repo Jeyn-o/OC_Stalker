@@ -726,11 +726,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761643830,
-        "end": 1761645025
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761645025,
         "end": 1761647426
@@ -2702,11 +2697,6 @@
   "914683": {
     "name": "Droq",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761643830,
-        "end": 1761651034
-      },
       {
         "status": "Jail",
         "start": 1761651034,
@@ -15062,11 +15052,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761643830,
-        "end": 1761644423
-      },
-      {
         "status": "Available",
         "start": 1761644423,
         "end": 1761657029
@@ -17752,11 +17737,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761643830,
-        "end": 1761644423
-      },
-      {
         "status": "Available",
         "start": 1761644423,
         "end": 1761645643
@@ -19166,12 +19146,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1761643830,
-        "end": 1761651034,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1761651034,
@@ -39588,12 +39562,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1761643830,
-        "end": 1761651034,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1761651034,
         "end": 1761653422
@@ -40879,8 +40847,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762847421,
-        "end": null,
+        "end": 1762854028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762854028,
+        "end": null
       }
     ]
   },
@@ -63091,11 +63064,6 @@
     "name": "Icks-B",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1761643830,
-        "end": 1761644423
-      },
-      {
         "status": "Available",
         "start": 1761644423,
         "end": 1761646218
@@ -64468,7 +64436,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762853429,
-        "end": null
+        "end": 1762854028
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762854028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
