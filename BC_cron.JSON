@@ -3873,18 +3873,19 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762888220,
-        "end": null
+        "end": 1762888818
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762888818,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "1184733": {
     "name": "Pro_eobard",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761678623,
-        "end": 1761679833
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761679833,
@@ -4675,11 +4676,6 @@
   "1387584": {
     "name": "---GHOST---",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761678623,
-        "end": 1761679833
-      },
       {
         "status": "Available",
         "start": 1761679833,
@@ -6333,11 +6329,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761678623,
-        "end": 1761697831
-      },
-      {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761697831,
         "end": 1761698431
@@ -7780,11 +7771,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761678623,
-        "end": 1761720029
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761720029,
         "end": 1761721233
@@ -8275,6 +8261,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1762878628,
+        "end": 1762888818,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1762888818,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -12080,11 +12072,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761678623,
-        "end": 1761679833
-      },
       {
         "status": "Available",
         "start": 1761679833,
@@ -26396,11 +26383,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Canada] Lost - Revives: ALL",
-        "start": 1761678623,
-        "end": 1761679833
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1761679833,
         "end": 1761681637,
@@ -27950,11 +27932,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1761678623,
-        "end": 1761679833
-      },
       {
         "status": "Available",
         "start": 1761679833,
@@ -33364,11 +33341,6 @@
     "name": "Krytical",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761678623,
-        "end": 1761679833
-      },
-      {
         "status": "Available",
         "start": 1761679833,
         "end": 1761681637
@@ -34108,11 +34080,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761678623,
-        "end": 1761679833
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761679833,
@@ -36910,11 +36877,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1761678623,
-        "end": 1761679222
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1761679222,
@@ -42803,6 +42765,11 @@
       {
         "status": "Available",
         "start": 1762813228,
+        "end": 1762888818
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1762888818,
         "end": null
       }
     ]
@@ -43514,11 +43481,6 @@
   "3653613": {
     "name": "SN00PYTOBY",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761678623,
-        "end": 1761680424
-      },
       {
         "status": "Available",
         "start": 1761680424,
@@ -48946,12 +48908,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1761678623,
-        "end": 1761688828,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1761688828,
         "end": 1761690634
@@ -49755,8 +49711,13 @@
       {
         "status": "[China] - Going",
         "start": 1762878628,
-        "end": null,
+        "end": 1762888818,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762888818,
+        "end": null
       }
     ]
   },
@@ -62176,6 +62137,11 @@
       {
         "status": "[Canada] - Idle",
         "start": 1762887634,
+        "end": 1762888818
+      },
+      {
+        "status": "[Canada] Mugged - Revives: ALL",
+        "start": 1762888818,
         "end": null
       }
     ]
