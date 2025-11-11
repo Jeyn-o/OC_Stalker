@@ -747,11 +747,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761622233,
-        "end": 1761623420
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761623420,
         "end": 1761625829
@@ -13902,6 +13897,11 @@
       {
         "status": "Available",
         "start": 1762808436,
+        "end": 1762832426
+      },
+      {
+        "status": "Jail",
+        "start": 1762832426,
         "end": null
       }
     ]
@@ -17350,11 +17350,6 @@
   "2671608": {
     "name": "AlfieG",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761622233,
-        "end": 1761623420
-      },
       {
         "status": "Available",
         "start": 1761623420,
@@ -23634,11 +23629,6 @@
     "name": "Shimmer12",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761622233,
-        "end": 1761627634
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761627634,
         "end": 1761629431
@@ -28179,11 +28169,6 @@
     "name": "JuanPaulo",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: Partial",
-        "start": 1761622233,
-        "end": 1761624037
-      },
-      {
         "status": "Available",
         "start": 1761624037,
         "end": 1761630029
@@ -31416,12 +31401,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1761622233,
-        "end": 1761627634,
-        "travel_type": "standard"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1761627634,
@@ -42676,7 +42655,13 @@
       {
         "status": "Available",
         "start": 1762803033,
-        "end": null
+        "end": 1762832426
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762832426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -55540,11 +55525,6 @@
     "name": "Sleepy_Skyes",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761622233,
-        "end": 1761622834
-      },
-      {
         "status": "Available",
         "start": 1761622834,
         "end": 1761623420
@@ -60540,7 +60520,13 @@
       {
         "status": "Available",
         "start": 1762831218,
-        "end": null
+        "end": 1762832426
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762832426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -60561,6 +60547,12 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1762826437,
+        "end": 1762832426,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1762832426,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -66299,7 +66291,13 @@
       {
         "status": "Available",
         "start": 1762831835,
-        "end": null
+        "end": 1762832426
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1762832426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   }
