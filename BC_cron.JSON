@@ -6920,11 +6920,6 @@
     "name": "Khana",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761691221,
-        "end": 1761693023
-      },
-      {
         "status": "Available",
         "start": 1761693023,
         "end": 1761696627
@@ -10178,12 +10173,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1761691221,
-        "end": 1761696627,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1761696627,
         "end": 1761705028
@@ -11309,8 +11298,13 @@
       {
         "status": "[China] - Going",
         "start": 1762897224,
-        "end": null,
+        "end": 1762901424,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762901424,
+        "end": null
       }
     ]
   },
@@ -11786,11 +11780,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761691221,
-        "end": 1761697831
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761697831,
@@ -20753,11 +20742,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761691221,
-        "end": 1761706231
-      },
-      {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761706231,
         "end": 1761707424
@@ -22703,11 +22687,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761691221,
-        "end": 1761698431
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761698431,
@@ -30661,11 +30640,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761691221,
-        "end": 1761693023
-      },
-      {
         "status": "Available",
         "start": 1761693023,
         "end": 1761696627
@@ -32628,11 +32602,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761691221,
-        "end": 1761694828
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761694828,
@@ -37002,11 +36971,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Argentina] Attacked - Revives: ALL",
-        "start": 1761691221,
-        "end": 1761691820
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1761691820,
         "end": 1761692436
@@ -39580,8 +39544,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762891233,
-        "end": null,
+        "end": 1762901424,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762901424,
+        "end": null
       }
     ]
   },
@@ -51678,11 +51647,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761691221,
-        "end": 1761696627
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1761696627,
         "end": 1761698431,
@@ -52980,7 +52944,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1762900232,
-        "end": null
+        "end": 1762901424
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762901424,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -56230,7 +56200,13 @@
       {
         "status": "Available",
         "start": 1762900821,
-        "end": null
+        "end": 1762901424
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762901424,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
