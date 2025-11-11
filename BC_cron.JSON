@@ -4126,11 +4126,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761642039,
-        "end": 1761642623
-      },
-      {
         "status": "Available",
         "start": 1761642623,
         "end": 1761645025
@@ -24416,7 +24411,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1762848037,
-        "end": null
+        "end": 1762852220
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762852220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35069,11 +35070,6 @@
     "name": "Krytical",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761642039,
-        "end": 1761643230
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761643230,
         "end": 1761645025
@@ -39649,7 +39645,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762851632,
-        "end": null
+        "end": 1762852220
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762852220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41562,8 +41564,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762842635,
-        "end": null,
+        "end": 1762852220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762852220,
+        "end": null
       }
     ]
   },
@@ -43926,11 +43933,6 @@
     "name": "lonewanderer024",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761642039,
-        "end": 1761643230
-      },
-      {
         "status": "Available",
         "start": 1761643230,
         "end": 1761654634
@@ -45489,8 +45491,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762841416,
-        "end": null,
+        "end": 1762852220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762852220,
+        "end": null
       }
     ]
   },
@@ -48773,11 +48780,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761642039,
-        "end": 1761645643
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761645643,
@@ -54774,12 +54776,6 @@
     "name": "Psyden",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1761642039,
-        "end": 1761643230,
-        "travel_type": "standard"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1761643230,
         "end": 1761645025,
@@ -60772,12 +60768,6 @@
     "name": "Maddog1997",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1761642039,
-        "end": 1761643230,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1761643230,
         "end": 1761644423,
@@ -62027,7 +62017,13 @@
       {
         "status": "Available",
         "start": 1762851022,
-        "end": null
+        "end": 1762852220
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762852220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
