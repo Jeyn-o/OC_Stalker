@@ -2508,6 +2508,16 @@
       }
     ]
   },
+  "541960": {
+    "name": "Davie_Corleone",
+    "activities": [
+      {
+        "status": "Available",
+        "start": 1762892428,
+        "end": null
+      }
+    ]
+  },
   "914683": {
     "name": "Droq",
     "activities": [
@@ -4644,6 +4654,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762890022,
+        "end": 1762892428
+      },
+      {
+        "status": "Available",
+        "start": 1762892428,
         "end": null
       }
     ]
@@ -11476,7 +11491,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1762890022,
-        "end": null
+        "end": 1762892428
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762892428,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -11962,11 +11983,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761682232,
-        "end": 1761682829
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761682829,
@@ -20092,11 +20108,6 @@
     "name": "MrPorkenstien",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761682232,
-        "end": 1761702021
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761702021,
         "end": 1761703230
@@ -21735,12 +21746,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1761682232,
-        "end": 1761683436,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1761683436,
         "end": 1761684627,
@@ -22965,6 +22970,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762890627,
+        "end": 1762892428,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762892428,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22973,11 +22984,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761682232,
-        "end": 1761683436
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1761683436,
@@ -34795,11 +34801,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761682232,
-        "end": 1761717025
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761717025,
         "end": 1761718221
@@ -40011,11 +40012,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1761682232,
-        "end": 1761684023
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1761684023,
         "end": 1761685235,
@@ -41759,11 +41755,6 @@
   "3628419": {
     "name": "Littlegman212",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761682232,
-        "end": 1761687623
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761687623,
@@ -44283,12 +44274,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1761682232,
-        "end": 1761683436,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1761683436,
@@ -51936,11 +51921,6 @@
   "3851236": {
     "name": "Psyden",
     "activities": [
-      {
-        "status": "[Argentina] Lost - Revives: ALL",
-        "start": 1761682232,
-        "end": 1761683436
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1761683436,
@@ -61601,8 +61581,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1762890627,
-        "end": null,
+        "end": 1762892428,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762892428,
+        "end": null
       }
     ]
   },
