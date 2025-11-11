@@ -3876,11 +3876,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761677430,
-        "end": 1761678623
-      },
-      {
         "status": "Available",
         "start": 1761678623,
         "end": 1761679833
@@ -4663,6 +4658,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762884624,
+        "end": 1762887634
+      },
+      {
+        "status": "Available",
+        "start": 1762887634,
         "end": null
       }
     ]
@@ -13205,11 +13205,6 @@
     "name": "frkn",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761677430,
-        "end": 1761709221
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761709221,
         "end": 1761709820
@@ -14261,11 +14256,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761677430,
-        "end": 1761678037
-      },
-      {
         "status": "Available",
         "start": 1761678037,
         "end": 1761679833
@@ -14962,11 +14952,6 @@
   "2655203": {
     "name": "Vampire-Catgirl",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761677430,
-        "end": 1761706231
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761706231,
@@ -19428,11 +19413,6 @@
   "2736671": {
     "name": "Twitt3y",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761677430,
-        "end": 1761709221
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761709221,
@@ -36628,8 +36608,13 @@
       {
         "status": "[China] - Going",
         "start": 1762877426,
-        "end": null,
+        "end": 1762887634,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762887634,
+        "end": null
       }
     ]
   },
@@ -36950,12 +36935,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1761677430,
-        "end": 1761678623,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1761678623,
@@ -37853,8 +37832,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1762886419,
-        "end": null,
+        "end": 1762887634,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1762887634,
+        "end": null
       }
     ]
   },
@@ -39185,11 +39169,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761677430,
-        "end": 1761679833
-      },
-      {
         "status": "Available",
         "start": 1761679833,
         "end": 1761702021
@@ -40462,11 +40441,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1761677430,
-        "end": 1761678037
-      },
       {
         "status": "[Canada] Mugged - Revives: ALL",
         "start": 1761678037,
@@ -44821,11 +44795,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761677430,
-        "end": 1761679833
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761679833,
@@ -57511,7 +57480,13 @@
       {
         "status": "Available",
         "start": 1762835425,
-        "end": null
+        "end": 1762887634
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762887634,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -60624,7 +60599,13 @@
       {
         "status": "Available",
         "start": 1762851632,
-        "end": null
+        "end": 1762887634
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762887634,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -62206,8 +62187,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1762886419,
-        "end": null,
+        "end": 1762887634,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1762887634,
+        "end": null
       }
     ]
   },
