@@ -23821,6 +23821,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762861221,
+        "end": 1762867826,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762867826,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25064,8 +25070,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762856422,
-        "end": null,
+        "end": 1762867826,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762867826,
+        "end": null
       }
     ]
   },
@@ -50933,7 +50944,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762859424,
-        "end": null
+        "end": 1762867826
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762867826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
