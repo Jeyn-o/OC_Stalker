@@ -4303,11 +4303,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1761625222,
-        "end": 1761627018
-      },
-      {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761627018,
         "end": 1761628227
@@ -7697,6 +7692,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762834217,
+        "end": 1762835425
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: OFF",
+        "start": 1762835425,
         "end": null
       }
     ]
@@ -9136,11 +9136,6 @@
     "name": "Ronskip",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761625222,
-        "end": 1761626424
-      },
-      {
         "status": "Available",
         "start": 1761626424,
         "end": 1761627634
@@ -9933,11 +9928,6 @@
   "2291737": {
     "name": "Special-Needs",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761625222,
-        "end": 1761626424
-      },
       {
         "status": "Available",
         "start": 1761626424,
@@ -12705,8 +12695,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762830622,
-        "end": null,
+        "end": 1762835425,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1762835425,
+        "end": null
       }
     ]
   },
@@ -19048,8 +19043,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762828819,
-        "end": null,
+        "end": 1762835425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762835425,
+        "end": null
       }
     ]
   },
@@ -26516,11 +26516,6 @@
     "name": "Neodork",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761625222,
-        "end": 1761646830
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761646830,
         "end": 1761647426
@@ -26955,11 +26950,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761625222,
-        "end": 1761625829
-      },
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761625829,
@@ -34648,11 +34638,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1761625222,
-        "end": 1761627018
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761627018,
@@ -61054,19 +61039,19 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762828230,
-        "end": null,
+        "end": 1762835425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762835425,
+        "end": null
       }
     ]
   },
   "3926163": {
     "name": "J-Donuts",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761625222,
-        "end": 1761640829
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761640829,
@@ -64350,11 +64335,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761625222,
-        "end": 1761630029
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1761630029,
