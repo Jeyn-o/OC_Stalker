@@ -51262,7 +51262,7 @@
         "checkpoint_pass_rate": 75,
         "position": "Engineer",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P4": {
         "user_id": 2671530,
@@ -52824,7 +52824,7 @@
         "checkpoint_pass_rate": 64,
         "position": "Cleaner",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -53174,8 +53174,8 @@
   },
   "1009088": {
     "name": "Honey Trap",
-    "status": "Planning",
-    "ready_at": 1763071848,
+    "status": "Recruiting",
+    "ready_at": 1762985448,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -53193,13 +53193,6 @@
         "position": "Muscle",
         "position_number": 2,
         "item_available": true
-      },
-      "P2": {
-        "user_id": 3156041,
-        "user_name": "Googer",
-        "checkpoint_pass_rate": 62,
-        "position": "Muscle",
-        "position_number": 1
       }
     },
     "action_log": [
@@ -53228,6 +53221,16 @@
       {
         "timestamp": 1762878021,
         "action": "joined",
+        "slot": "P2",
+        "user_id": 3156041,
+        "user_name": "Googer",
+        "checkpoint_pass_rate": 62,
+        "position": "Muscle",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1762901427,
+        "action": "left",
         "slot": "P2",
         "user_id": 3156041,
         "user_name": "Googer",
@@ -53468,7 +53471,7 @@
         "checkpoint_pass_rate": 86,
         "position": "Kidnapper",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -53579,7 +53582,7 @@
         "checkpoint_pass_rate": 81,
         "position": "Thief",
         "position_number": 2,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
