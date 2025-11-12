@@ -4163,11 +4163,6 @@
     "name": "---GHOST---",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761754823,
-        "end": 1761758428
-      },
-      {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761758428,
         "end": 1761759623
@@ -4709,11 +4704,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761754823,
-        "end": 1761780025
-      },
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761780025,
@@ -7920,11 +7910,6 @@
   "2291737": {
     "name": "Special-Needs",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761754823,
-        "end": 1761755433
-      },
       {
         "status": "Available",
         "start": 1761755433,
@@ -11754,11 +11739,6 @@
   "2583853": {
     "name": "frkn",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761754823,
-        "end": 1761782439
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761782439,
@@ -18175,11 +18155,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761754823,
-        "end": 1761759030
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761759030,
         "end": 1761760835
@@ -19566,12 +19541,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1761754823,
-        "end": 1761756033,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1761756033,
@@ -23172,8 +23141,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762958436,
-        "end": null,
+        "end": 1762965028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762965028,
+        "end": null
       }
     ]
   },
@@ -26027,19 +26001,19 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762957834,
-        "end": null,
+        "end": 1762965028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762965028,
+        "end": null
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1761754823,
-        "end": 1761755433
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1761755433,
@@ -38405,8 +38379,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762958436,
-        "end": null,
+        "end": 1762965028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762965028,
+        "end": null
       }
     ]
   },
@@ -40841,12 +40820,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1761754823,
-        "end": 1761755433,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1761755433,
         "end": 1761756033
@@ -42637,11 +42610,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761754823,
-        "end": 1761755433
-      },
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761755433,
@@ -47860,6 +47828,11 @@
       {
         "status": "Available",
         "start": 1762836020,
+        "end": 1762965028
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1762965028,
         "end": null
       }
     ]
@@ -49483,7 +49456,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1762964421,
-        "end": null
+        "end": 1762965028
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762965028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -50373,7 +50352,13 @@
       {
         "status": "Available",
         "start": 1762924822,
-        "end": null
+        "end": 1762965028
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1762965028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
