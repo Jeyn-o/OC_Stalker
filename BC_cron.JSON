@@ -13187,11 +13187,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761726030,
-        "end": 1761727827
-      },
-      {
         "status": "Available",
         "start": 1761727827,
         "end": 1761728433
@@ -14620,11 +14615,6 @@
   "2671608": {
     "name": "AlfieG",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761726030,
-        "end": 1761727223
-      },
       {
         "status": "Available",
         "start": 1761727223,
@@ -16213,11 +16203,6 @@
   "2680449": {
     "name": "BattlePrincess",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761726030,
-        "end": 1761732042
-      },
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761732042,
@@ -31195,6 +31180,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762924222,
+        "end": 1762936229,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762936229,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37412,7 +37403,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762933825,
-        "end": null
+        "end": 1762936229
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762936229,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -51042,7 +51039,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762935618,
-        "end": null
+        "end": 1762936229
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762936229,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -53663,6 +53666,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1762930832,
+        "end": 1762936229,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1762936229,
         "end": null,
         "travel_type": "airstrip"
       }
