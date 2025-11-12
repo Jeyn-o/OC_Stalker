@@ -53482,19 +53482,19 @@
     "ready_at": 1763060901,
     "executed_at": null,
     "slots": {
-      "P1": {
-        "user_id": 3880785,
-        "user_name": "Gemicide",
-        "checkpoint_pass_rate": 86,
-        "position": "Kidnapper",
-        "position_number": 1,
-        "item_available": true
-      },
       "P3": {
         "user_id": 3945856,
         "user_name": "Rey2Fly",
         "checkpoint_pass_rate": 79,
         "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 3880785,
+        "user_name": "Gemicide",
+        "checkpoint_pass_rate": 86,
+        "position": "Muscle",
         "position_number": 1,
         "item_available": true
       }
@@ -53519,6 +53519,28 @@
         "user_name": "Rey2Fly",
         "checkpoint_pass_rate": 79,
         "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1762989035,
+        "action": "left",
+        "slot": "P1",
+        "user_id": 3880785,
+        "user_name": "Gemicide",
+        "checkpoint_pass_rate": 86,
+        "position": "Kidnapper",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1762989035,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3880785,
+        "user_name": "Gemicide",
+        "checkpoint_pass_rate": 86,
+        "position": "Muscle",
         "position_number": 1,
         "item_available": true
       }
