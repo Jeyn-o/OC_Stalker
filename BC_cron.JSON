@@ -1116,11 +1116,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1761748226,
-        "end": 1761748830
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1761748830,
         "end": 1761756033,
@@ -4186,6 +4181,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762956628,
+        "end": 1762958436
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1762958436,
         "end": null
       }
     ]
@@ -7781,7 +7781,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1762950021,
-        "end": null
+        "end": 1762958436
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762958436,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8826,7 +8832,13 @@
       {
         "status": "Available",
         "start": 1762818625,
-        "end": null
+        "end": 1762958436
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762958436,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -10409,7 +10421,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762935618,
-        "end": null
+        "end": 1762958436
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762958436,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -12745,11 +12763,6 @@
   "2647214": {
     "name": "Balgor",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761748226,
-        "end": 1761756033
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761756033,
@@ -16962,11 +16975,6 @@
     "name": "Haungpeary",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761748226,
-        "end": 1761762027
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761762027,
         "end": 1761764441
@@ -20897,11 +20905,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761748226,
-        "end": 1761764441
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761764441,
         "end": 1761765027
@@ -23335,7 +23338,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762951824,
-        "end": null
+        "end": 1762958436
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762958436,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28437,11 +28446,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761748226,
-        "end": 1761748830
-      },
       {
         "status": "Available",
         "start": 1761748830,
@@ -38616,6 +38620,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762951824,
+        "end": 1762958436,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762958436,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40304,11 +40314,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761748226,
-        "end": 1761774625
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1761774625,
