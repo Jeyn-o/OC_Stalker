@@ -12448,11 +12448,6 @@
     "name": "frkn",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761712229,
-        "end": 1761714628
-      },
-      {
         "status": "Available",
         "start": 1761714628,
         "end": 1761738019
@@ -15236,11 +15231,6 @@
   "2675301": {
     "name": "ExiledAstronaut",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761712229,
-        "end": 1761712826
-      },
       {
         "status": "Available",
         "start": 1761712826,
@@ -25053,11 +25043,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761712229,
-        "end": 1761712826
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761712826,
@@ -37914,8 +37899,13 @@
       {
         "status": "[China] - Returning",
         "start": 1762912221,
-        "end": null,
+        "end": 1762922420,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762922420,
+        "end": null
       }
     ]
   },
@@ -46661,6 +46651,11 @@
       {
         "status": "Available",
         "start": 1762887027,
+        "end": 1762922420
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1762922420,
         "end": null
       }
     ]
