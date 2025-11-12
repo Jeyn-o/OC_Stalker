@@ -3710,11 +3710,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761699630,
-        "end": 1761700817
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761700817,
         "end": 1761702021
@@ -7967,11 +7962,6 @@
   "2250222": {
     "name": "Ronskip",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761699630,
-        "end": 1761700817
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761700817,
@@ -28000,7 +27990,13 @@
       {
         "status": "Available",
         "start": 1762883420,
-        "end": null
+        "end": 1762909818
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1762909818,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29878,11 +29874,6 @@
   "3231991": {
     "name": "Osein",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761699630,
-        "end": 1761700817
-      },
       {
         "status": "Available",
         "start": 1761700817,
@@ -39209,11 +39200,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761699630,
-        "end": 1761700817
-      },
-      {
         "status": "Available",
         "start": 1761700817,
         "end": 1761702021
@@ -43385,12 +43371,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1761699630,
-        "end": 1761700817,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1761700817,
@@ -48945,8 +48925,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762899028,
-        "end": null,
+        "end": 1762909818,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762909818,
+        "end": null
       }
     ]
   },
@@ -57703,6 +57688,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762903225,
+        "end": 1762909818,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762909818,
         "end": null,
         "travel_type": "airstrip"
       }
