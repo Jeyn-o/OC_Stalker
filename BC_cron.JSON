@@ -3470,7 +3470,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762959635,
-        "end": null
+        "end": 1762960218
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762960218,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4170,6 +4176,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1762958436,
+        "end": 1762960218
+      },
+      {
+        "status": "Available",
+        "start": 1762960218,
         "end": null
       }
     ]
@@ -7414,8 +7425,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762952431,
-        "end": null,
+        "end": 1762960218,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1762960218,
+        "end": null
       }
     ]
   },
@@ -22071,11 +22087,6 @@
     "name": "Thornking",
     "activities": [
       {
-        "status": "[United Arab Emirates] Mugged - Revives: ALL",
-        "start": 1761750042,
-        "end": 1761751832
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761751832,
         "end": 1761771043
@@ -34468,11 +34479,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761750042,
-        "end": 1761751336
-      },
-      {
         "status": "Available",
         "start": 1761751336,
         "end": 1761753029
@@ -44925,11 +44931,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1761750042,
-        "end": 1761751832
-      },
       {
         "status": "[China] - Idle",
         "start": 1761751832,
