@@ -3390,11 +3390,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761772821,
-        "end": 1761775829
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1761775829,
         "end": 1761776428
@@ -7254,8 +7249,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1762981235,
-        "end": null,
+        "end": 1762983024,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762983024,
+        "end": null
       }
     ]
   },
@@ -10187,8 +10187,13 @@
       {
         "status": "[China] - Going",
         "start": 1762978227,
-        "end": null,
+        "end": 1762983024,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762983024,
+        "end": null
       }
     ]
   },
@@ -13285,8 +13290,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1762975830,
-        "end": null,
+        "end": 1762983024,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762983024,
+        "end": null
       }
     ]
   },
@@ -13569,6 +13579,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762923631,
+        "end": 1762983024
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: ALL",
+        "start": 1762983024,
         "end": null
       }
     ]
@@ -14081,11 +14096,6 @@
   "2675301": {
     "name": "ExiledAstronaut",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1761772821,
-        "end": 1761773434
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1761773434,
@@ -21514,11 +21524,6 @@
     "name": "Thornking",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1761772821,
-        "end": 1761782439
-      },
-      {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1761782439,
         "end": 1761784817
@@ -24086,12 +24091,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1761772821,
-        "end": 1761784237,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761784237,
@@ -28260,11 +28259,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761772821,
-        "end": 1761773434
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1761773434,
         "end": 1761784237,
@@ -30198,11 +30192,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761772821,
-        "end": 1761774625
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761774625,
         "end": 1761776428
@@ -31721,11 +31710,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1761772821,
-        "end": 1761773434
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1761773434,
         "end": 1761775235,
@@ -32864,12 +32848,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1761772821,
-        "end": 1761774625,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761774625,
@@ -46555,11 +46533,6 @@
     "name": "Sleepy_Skyes",
     "activities": [
       {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1761772821,
-        "end": 1761773434
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1761773434,
         "end": 1761774625,
@@ -49641,11 +49614,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1761772821,
-        "end": 1761777626
-      },
       {
         "status": "[Japan] Mugged - Revives: ALL",
         "start": 1761777626,
@@ -54440,12 +54408,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1761772821,
-        "end": 1761779422,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761779422,
