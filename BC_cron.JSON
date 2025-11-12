@@ -2008,11 +2008,6 @@
     "name": "poik9",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761723625,
-        "end": 1761724224
-      },
-      {
         "status": "Available",
         "start": 1761724224,
         "end": 1761728433
@@ -3620,11 +3615,6 @@
   "1184733": {
     "name": "Pro_eobard",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761723625,
-        "end": 1761725426
-      },
       {
         "status": "Available",
         "start": 1761725426,
@@ -15008,11 +14998,6 @@
     "name": "ExiledAstronaut",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761723625,
-        "end": 1761724224
-      },
-      {
         "status": "Available",
         "start": 1761724224,
         "end": 1761737426
@@ -15494,12 +15479,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1761723625,
-        "end": 1761730231,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761730231,
@@ -18018,11 +17997,6 @@
     "name": "Twitt3y",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761723625,
-        "end": 1761787226
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761787226,
         "end": 1761789019
@@ -18887,6 +18861,11 @@
       {
         "status": "Available",
         "start": 1762714830,
+        "end": 1762933825
+      },
+      {
+        "status": "Jail",
+        "start": 1762933825,
         "end": null
       }
     ]
@@ -22799,11 +22778,6 @@
   "3026725": {
     "name": "Neodork",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761723625,
-        "end": 1761740424
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761740424,
@@ -29385,11 +29359,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761723625,
-        "end": 1761740424
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761740424,
         "end": 1761741036
@@ -29996,8 +29965,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1762926623,
-        "end": null,
+        "end": 1762933825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762933825,
+        "end": null
       }
     ]
   },
@@ -31291,11 +31265,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761723625,
-        "end": 1761727827
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761727827,
@@ -35561,7 +35530,13 @@
       {
         "status": "Available",
         "start": 1762889427,
-        "end": null
+        "end": 1762933825
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762933825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37487,8 +37462,13 @@
       {
         "status": "[China] - Going",
         "start": 1762923631,
-        "end": null,
+        "end": 1762933825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762933825,
+        "end": null
       }
     ]
   },
@@ -46199,6 +46179,11 @@
       {
         "status": "Available",
         "start": 1762930832,
+        "end": 1762933825
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1762933825,
         "end": null
       }
     ]
@@ -47693,11 +47678,6 @@
   "3820095": {
     "name": "Akijiro",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761723625,
-        "end": 1761727223
-      },
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1761727223,
@@ -51088,6 +51068,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762932632,
+        "end": 1762933825
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1762933825,
         "end": null
       }
     ]
