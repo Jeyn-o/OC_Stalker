@@ -1130,11 +1130,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761739238,
-        "end": 1761739828
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761739828,
         "end": 1761740424
@@ -7103,11 +7098,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761739238,
-        "end": 1761751336
-      },
-      {
         "status": "[China] - Going",
         "start": 1761751336,
         "end": 1761761424,
@@ -12077,11 +12067,6 @@
     "name": "frkn",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761739238,
-        "end": 1761753638
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761753638,
         "end": 1761754823
@@ -15960,11 +15945,6 @@
     "name": "BattlePrincess",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761739238,
-        "end": 1761740424
-      },
-      {
         "status": "Available",
         "start": 1761740424,
         "end": 1761741626
@@ -16484,12 +16464,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1761739238,
-        "end": 1761746431,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1761746431,
@@ -19833,11 +19807,6 @@
   "2920790": {
     "name": "Shimmer12",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761739238,
-        "end": 1761741036
-      },
       {
         "status": "Available",
         "start": 1761741036,
@@ -23812,11 +23781,6 @@
     "name": "JuanPaulo",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761739238,
-        "end": 1761741036
-      },
-      {
         "status": "Available",
         "start": 1761741036,
         "end": 1761769225
@@ -25216,11 +25180,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761739238,
-        "end": 1761741626
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761741626,
@@ -29588,8 +29547,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1762940424,
-        "end": null,
+        "end": 1762949426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1762949426,
+        "end": null
       }
     ]
   },
@@ -30865,6 +30829,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762948223,
+        "end": 1762949426,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1762949426,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40640,7 +40610,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762938033,
-        "end": null
+        "end": 1762949426
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1762949426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
