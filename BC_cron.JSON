@@ -698,8 +698,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762971621,
-        "end": null,
+        "end": 1762984219,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762984219,
+        "end": null
       }
     ]
   },
@@ -8608,8 +8613,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762979426,
-        "end": null,
+        "end": 1762984219,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1762984219,
+        "end": null
       }
     ]
   },
@@ -25530,12 +25540,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1761774023,
-        "end": 1761777034,
-        "travel_type": "standard"
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1761777034,
         "end": 1761780025,
@@ -29556,12 +29560,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1761774023,
-        "end": 1761775235,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1761775235,
@@ -43893,6 +43891,11 @@
       {
         "status": "Available",
         "start": 1762983619,
+        "end": 1762984219
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1762984219,
         "end": null
       }
     ]
@@ -45259,11 +45262,6 @@
   "3820095": {
     "name": "Akijiro",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761774023,
-        "end": 1761775829
-      },
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761775829,
@@ -48464,12 +48462,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1761774023,
-        "end": 1761779422,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761779422,
@@ -54382,7 +54374,13 @@
       {
         "status": "Available",
         "start": 1762930223,
-        "end": null
+        "end": 1762984219
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762984219,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
