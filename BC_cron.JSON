@@ -1993,6 +1993,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762928425,
+        "end": 1762935028,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762935028,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -2956,12 +2962,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1761724833,
-        "end": 1761732617,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1761732617,
@@ -34350,8 +34350,13 @@
       {
         "status": "[China] - Going",
         "start": 1762925428,
-        "end": null,
+        "end": 1762935028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1762935028,
+        "end": null
       }
     ]
   },
@@ -41373,12 +41378,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1761724833,
-        "end": 1761731423,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1761731423,
         "end": 1761738019,
@@ -46146,6 +46145,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762934432,
+        "end": 1762935028
+      },
+      {
+        "status": "Available",
+        "start": 1762935028,
         "end": null
       }
     ]
@@ -58926,8 +58930,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762928425,
-        "end": null,
+        "end": 1762935028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1762935028,
+        "end": null
       }
     ]
   },
