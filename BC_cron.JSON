@@ -1067,11 +1067,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761781227,
-        "end": 1761783629
-      },
-      {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761783629,
         "end": 1761784817
@@ -3360,11 +3355,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761781227,
-        "end": 1761783629
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761783629,
         "end": 1761786032
@@ -3995,11 +3985,6 @@
     "name": "---GHOST---",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761781227,
-        "end": 1761784237
-      },
-      {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761784237,
         "end": 1761786032
@@ -4505,11 +4490,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761781227,
-        "end": 1761787226
-      },
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761787226,
@@ -5334,12 +5314,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1761781227,
-        "end": 1761782439,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1761782439,
@@ -7153,6 +7127,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1762986020,
+        "end": 1762991422,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1762991422,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22544,8 +22524,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762984842,
-        "end": null,
+        "end": 1762991422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762991422,
+        "end": null
       }
     ]
   },
@@ -29391,11 +29376,6 @@
     "name": "Krytical",
     "activities": [
       {
-        "status": "[United Kingdom] Lost - Revives: ALL",
-        "start": 1761781227,
-        "end": 1761782439
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1761782439,
         "end": 1761784817,
@@ -32371,7 +32351,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1762990825,
-        "end": null
+        "end": 1762991422
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1762991422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34734,11 +34720,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761781227,
-        "end": 1761782439
-      },
       {
         "status": "Available",
         "start": 1761782439,
@@ -41519,12 +41500,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1761781227,
-        "end": 1761783024,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1761783024,
         "end": 1761784817,
@@ -44287,11 +44262,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761781227,
-        "end": 1761783024
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761783024,
@@ -48061,8 +48031,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762984842,
-        "end": null,
+        "end": 1762991422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762991422,
+        "end": null
       }
     ]
   },
@@ -48954,11 +48929,6 @@
     "name": "Gemicide",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761781227,
-        "end": 1761782439
-      },
-      {
         "status": "Available",
         "start": 1761782439,
         "end": 1761784237
@@ -49194,12 +49164,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1761781227,
-        "end": 1761790228,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761790228,
@@ -53984,8 +53948,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762984219,
-        "end": null,
+        "end": 1762991422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1762991422,
+        "end": null
       }
     ]
   },
