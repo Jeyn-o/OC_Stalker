@@ -4531,6 +4531,11 @@
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1762953630,
+        "end": 1762954822
+      },
+      {
+        "status": "Available",
+        "start": 1762954822,
         "end": null
       }
     ]
@@ -8904,11 +8909,6 @@
     "name": "Litri",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761744635,
-        "end": 1761789019
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761789019,
         "end": 1761790228
@@ -10506,11 +10506,6 @@
   "2408196": {
     "name": "iam3vaj",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761744635,
-        "end": 1761749431
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761749431,
@@ -14219,11 +14214,6 @@
     "name": "AlfieG",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761744635,
-        "end": 1761745826
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761745826,
         "end": 1761747022
@@ -17102,11 +17092,6 @@
     "name": "Haungpeary",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761744635,
-        "end": 1761746431
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761746431,
         "end": 1761748226
@@ -19183,8 +19168,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762947632,
-        "end": null,
+        "end": 1762954822,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762954822,
+        "end": null
       }
     ]
   },
@@ -19854,12 +19844,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761744635,
-        "end": 1761751336,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761751336,
@@ -25456,11 +25440,6 @@
     "name": "Khallie",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761744635,
-        "end": 1761745229
-      },
-      {
         "status": "Available",
         "start": 1761745229,
         "end": 1761746431
@@ -28613,11 +28592,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761744635,
-        "end": 1761748226
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761748226,
         "end": 1761748830
@@ -29224,12 +29198,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1761744635,
-        "end": 1761745826,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1761745826,
@@ -30495,11 +30463,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1761744635,
-        "end": 1761747626
-      },
       {
         "status": "Available",
         "start": 1761747626,
@@ -34753,6 +34716,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762947632,
+        "end": 1762954822,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762954822,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -50022,8 +49991,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762948223,
-        "end": null,
+        "end": 1762954822,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762954822,
+        "end": null
       }
     ]
   },
@@ -57528,8 +57502,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1762948223,
-        "end": null,
+        "end": 1762954822,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762954822,
+        "end": null
       }
     ]
   },
@@ -57790,7 +57769,13 @@
       {
         "status": "Available",
         "start": 1762942222,
-        "end": null
+        "end": 1762954822
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1762954822,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
