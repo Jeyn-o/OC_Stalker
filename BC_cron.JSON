@@ -3464,8 +3464,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762953020,
-        "end": null,
+        "end": 1762959635,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1762959635,
+        "end": null
       }
     ]
   },
@@ -12074,7 +12079,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1762953630,
-        "end": null
+        "end": 1762959635
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762959635,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28937,8 +28948,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1762950021,
-        "end": null,
+        "end": 1762959635,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1762959635,
+        "end": null
       }
     ]
   },
@@ -30185,6 +30201,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762953020,
+        "end": 1762959635,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1762959635,
         "end": null,
         "travel_type": "airstrip"
       }
