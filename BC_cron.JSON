@@ -6951,11 +6951,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761704428,
-        "end": 1761705028
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761705028,
         "end": 1761705626
@@ -7919,11 +7914,6 @@
   "2250222": {
     "name": "Ronskip",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761704428,
-        "end": 1761705028
-      },
       {
         "status": "Available",
         "start": 1761705028,
@@ -13642,11 +13632,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761704428,
-        "end": 1761705626
-      },
-      {
         "status": "Available",
         "start": 1761705626,
         "end": 1761706231
@@ -18270,11 +18255,6 @@
   "2730718": {
     "name": "Haungpeary",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761704428,
-        "end": 1761712826
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761712826,
@@ -26888,11 +26868,6 @@
     "name": "Khallie",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761704428,
-        "end": 1761705626
-      },
-      {
         "status": "Available",
         "start": 1761705626,
         "end": 1761708626
@@ -32776,6 +32751,11 @@
       {
         "status": "Available",
         "start": 1762905018,
+        "end": 1762914632
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1762914632,
         "end": null
       }
     ]
@@ -32783,11 +32763,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761704428,
-        "end": 1761705028
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761705028,
@@ -38971,6 +38946,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762907427,
+        "end": 1762914632,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1762914632,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -44931,11 +44912,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761704428,
-        "end": 1761705626
-      },
-      {
         "status": "Available",
         "start": 1761705626,
         "end": 1761712826
@@ -48637,11 +48613,6 @@
     "name": "Akijiro",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761704428,
-        "end": 1761710436
-      },
-      {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1761710436,
         "end": 1761712826
@@ -52146,7 +52117,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762914021,
-        "end": null
+        "end": 1762914632
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762914632,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -53077,7 +53054,13 @@
       {
         "status": "[China] - Idle",
         "start": 1762913419,
-        "end": null
+        "end": 1762914632
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1762914632,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -54689,8 +54672,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762907427,
-        "end": null,
+        "end": 1762914632,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1762914632,
+        "end": null
       }
     ]
   },
@@ -60454,6 +60442,11 @@
       {
         "status": "[United Kingdom] Hospitalized - Revives: OFF",
         "start": 1762914021,
+        "end": 1762914632
+      },
+      {
+        "status": "[United Kingdom] Hospitalized - Revives: ALL",
+        "start": 1762914632,
         "end": null
       }
     ]
