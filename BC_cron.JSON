@@ -3667,11 +3667,6 @@
     "name": "---GHOST---",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: Partial",
-        "start": 1761831624,
-        "end": 1761834025
-      },
-      {
         "status": "Available",
         "start": 1761834025,
         "end": 1761834637
@@ -3909,6 +3904,11 @@
       {
         "status": "[Hospital] Lost - Revives: Partial",
         "start": 1763040021,
+        "end": 1763041823
+      },
+      {
+        "status": "Available",
+        "start": 1763041823,
         "end": null
       }
     ]
@@ -6530,11 +6530,6 @@
   "2250222": {
     "name": "Ronskip",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761831624,
-        "end": 1761842432
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761842432,
@@ -9227,7 +9222,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763015424,
-        "end": null
+        "end": 1763041823
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763041823,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -12417,11 +12418,6 @@
   "2671608": {
     "name": "AlfieG",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761831624,
-        "end": 1761834025
-      },
       {
         "status": "Available",
         "start": 1761834025,
@@ -17129,12 +17125,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1761831624,
-        "end": 1761838828,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761838828,
         "end": 1761843023
@@ -18581,12 +18571,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1761831624,
-        "end": 1761843023,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761843023,
         "end": 1761847234
@@ -19479,11 +19463,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761831624,
-        "end": 1761837625
-      },
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761837625,
@@ -25700,12 +25679,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1761831624,
-        "end": 1761839426,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1761839426,
@@ -37915,8 +37888,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763040633,
-        "end": null,
+        "end": 1763041823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763041823,
+        "end": null
       }
     ]
   },
@@ -43280,6 +43258,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1763040633,
+        "end": 1763041823
+      },
+      {
+        "status": "Available",
+        "start": 1763041823,
         "end": null
       }
     ]
@@ -49120,11 +49103,6 @@
     "name": "Rey2Fly",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761831624,
-        "end": 1761834637
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761834637,
         "end": 1761835226
@@ -51489,8 +51467,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763040633,
-        "end": null,
+        "end": 1763041823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763041823,
+        "end": null
       }
     ]
   },
