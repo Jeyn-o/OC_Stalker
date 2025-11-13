@@ -698,6 +698,11 @@
       {
         "status": "[South Africa] Lost - Revives: OFF",
         "start": 1763029224,
+        "end": 1763030423
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763030423,
         "end": null
       }
     ]
@@ -3747,11 +3752,6 @@
   "1387584": {
     "name": "---GHOST---",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761820232,
-        "end": 1761821425
-      },
       {
         "status": "Available",
         "start": 1761821425,
@@ -11628,11 +11628,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761820232,
-        "end": 1761821425
-      },
-      {
         "status": "Available",
         "start": 1761821425,
         "end": 1761822036
@@ -14574,11 +14569,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1761820232,
-        "end": 1761821425
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1761821425,
@@ -21638,7 +21628,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1763029825,
-        "end": null
+        "end": 1763030423
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763030423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
