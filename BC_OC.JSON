@@ -51456,9 +51456,9 @@
   },
   "996034": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1763048182,
-    "executed_at": null,
+    "executed_at": 1763048224,
     "slots": {
       "P1": {
         "user_id": 3193353,
@@ -52791,9 +52791,9 @@
   },
   "1007696": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1763048350,
-    "executed_at": null,
+    "executed_at": 1763048406,
     "slots": {
       "P3": {
         "user_id": 2315415,
@@ -53069,8 +53069,8 @@
   },
   "1008990": {
     "name": "Bidding War",
-    "status": "Recruiting",
-    "ready_at": 1763112093,
+    "status": "Planning",
+    "ready_at": 1763198493,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -53112,6 +53112,13 @@
         "position": "Bomber",
         "position_number": 2,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 914683,
+        "user_name": "Droq",
+        "checkpoint_pass_rate": 77,
+        "position": "Driver",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -53169,6 +53176,16 @@
         "position": "Bomber",
         "position_number": 2,
         "item_available": true
+      },
+      {
+        "timestamp": 1763048425,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 914683,
+        "user_name": "Droq",
+        "checkpoint_pass_rate": 77,
+        "position": "Driver",
+        "position_number": 1
       }
     ]
   },
