@@ -2092,11 +2092,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1761801629,
-        "end": 1761811236
-      },
-      {
         "status": "Available",
         "start": 1761811236,
         "end": 1761815424
@@ -17210,12 +17205,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1761801629,
-        "end": 1761808827,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1761808827,
         "end": 1761810023
@@ -30258,6 +30247,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763011217,
+        "end": 1763011826,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763011826,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30793,11 +30788,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761801629,
-        "end": 1761803422
-      },
       {
         "status": "[Canada] - Going",
         "start": 1761803422,
@@ -32732,11 +32722,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761801629,
-        "end": 1761804033
-      },
       {
         "status": "Available",
         "start": 1761804033,
@@ -40078,6 +40063,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763010626,
+        "end": 1763011826,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763011826,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -42713,7 +42704,13 @@
       {
         "status": "Available",
         "start": 1763011217,
-        "end": null
+        "end": 1763011826
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1763011826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
