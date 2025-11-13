@@ -1976,11 +1976,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761848424,
-        "end": 1761862221
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761862221,
         "end": 1761863432
@@ -3062,11 +3057,6 @@
   "1184733": {
     "name": "Pro_eobard",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761848424,
-        "end": 1761858622
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761858622,
@@ -4442,11 +4432,6 @@
     "name": "smyles",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761848424,
-        "end": 1761897027
-      },
-      {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761897027,
         "end": 1761897630
@@ -5341,6 +5326,11 @@
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1763056218,
+        "end": 1763058632
+      },
+      {
+        "status": "Available",
+        "start": 1763058632,
         "end": null
       }
     ]
@@ -7445,7 +7435,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763055627,
-        "end": null
+        "end": 1763058632
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763058632,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -10513,11 +10509,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761848424,
-        "end": 1761852026
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1761852026,
@@ -17867,11 +17858,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761848424,
-        "end": 1761855625
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761855625,
         "end": 1761857425
@@ -22383,8 +22369,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763052023,
-        "end": null,
+        "end": 1763058632,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763058632,
+        "end": null
       }
     ]
   },
@@ -26682,11 +26673,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761848424,
-        "end": 1761855023
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761855023,
@@ -34980,11 +34966,6 @@
     "name": "SN00PYTOBY",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761848424,
-        "end": 1761851426
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761851426,
         "end": 1761855023
@@ -35938,7 +35919,13 @@
       {
         "status": "[China] - Idle",
         "start": 1763056834,
-        "end": null
+        "end": 1763058632
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763058632,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37116,7 +37103,13 @@
       {
         "status": "Available",
         "start": 1763058022,
-        "end": null
+        "end": 1763058632
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763058632,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -48098,11 +48091,6 @@
     "name": "Rey2Fly",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761848424,
-        "end": 1761851426
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761851426,
         "end": 1761852632
@@ -50822,6 +50810,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1763057422,
+        "end": 1763058632,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763058632,
         "end": null,
         "travel_type": "airstrip"
       }
