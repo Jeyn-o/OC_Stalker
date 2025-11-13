@@ -11694,12 +11694,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1761798019,
-        "end": 1761799229,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1761799229,
         "end": 1761802818
@@ -16027,11 +16021,6 @@
   "2730718": {
     "name": "Haungpeary",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761798019,
-        "end": 1761799229
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1761799229,
@@ -22582,12 +22571,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1761798019,
-        "end": 1761799826,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1761799826,
         "end": 1761801031
@@ -23430,11 +23413,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761798019,
-        "end": 1761799826
-      },
       {
         "status": "Available",
         "start": 1761799826,
@@ -26604,6 +26582,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763002830,
+        "end": 1763008221,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763008221,
         "end": null,
         "travel_type": "standard"
       }
@@ -27536,8 +27520,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763001622,
-        "end": null,
+        "end": 1763008221,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763008221,
+        "end": null
       }
     ]
   },
@@ -30341,11 +30330,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761798019,
-        "end": 1761803422
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761803422,
@@ -36801,6 +36785,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1763007021,
+        "end": 1763008221
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: ALL",
+        "start": 1763008221,
         "end": null
       }
     ]
@@ -39081,12 +39070,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1761798019,
-        "end": 1761799229,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761799229,
         "end": 1761803422
@@ -40171,6 +40154,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763007021,
+        "end": 1763008221,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763008221,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40761,11 +40750,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761798019,
-        "end": 1761802818
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761802818,
@@ -42794,7 +42778,13 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763005217,
-        "end": null
+        "end": 1763008221
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1763008221,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -47217,8 +47207,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763001622,
-        "end": null,
+        "end": 1763008221,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] Lost - Revives: ALL",
+        "start": 1763008221,
+        "end": null
       }
     ]
   },
