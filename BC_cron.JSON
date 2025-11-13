@@ -7325,11 +7325,6 @@
     "name": "Special-Needs",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761810023,
-        "end": 1761818434
-      },
-      {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761818434,
         "end": 1761819025
@@ -11863,11 +11858,6 @@
   "2647214": {
     "name": "Balgor",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761810023,
-        "end": 1761810626
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761810626,
@@ -16873,11 +16863,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Switzerland] Mugged - Revives: ALL",
-        "start": 1761810023,
-        "end": 1761811825
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1761811825,
         "end": 1761812421
@@ -17594,8 +17579,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763007624,
-        "end": null,
+        "end": 1763020221,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763020221,
+        "end": null
       }
     ]
   },
@@ -32148,11 +32138,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761810023,
-        "end": 1761817221
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1761817221,
         "end": 1761823827,
@@ -33387,11 +33372,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761810023,
-        "end": 1761810626
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761810626,
@@ -35262,12 +35242,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1761810023,
-        "end": 1761816633,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1761816633,
         "end": 1761833427
@@ -36197,11 +36171,6 @@
     "name": "Littlegman212",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761810023,
-        "end": 1761813624
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761813624,
         "end": 1761815424
@@ -36600,6 +36569,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1763018425,
+        "end": 1763020221
+      },
+      {
+        "status": "Available",
+        "start": 1763020221,
         "end": null
       }
     ]
@@ -37565,12 +37539,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1761810023,
-        "end": 1761816633,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761816633,
@@ -46359,7 +46327,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763010034,
-        "end": null
+        "end": 1763020221
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763020221,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -51087,7 +51061,13 @@
       {
         "status": "Available",
         "start": 1763013023,
-        "end": null
+        "end": 1763020221
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763020221,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
