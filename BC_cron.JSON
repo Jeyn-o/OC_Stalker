@@ -12109,11 +12109,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761793828,
-        "end": 1761795624
-      },
-      {
         "status": "Available",
         "start": 1761795624,
         "end": 1761808223
@@ -13185,7 +13180,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762984842,
-        "end": null
+        "end": 1763004024
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763004024,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18347,11 +18348,6 @@
     "name": "Shimmer12",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761793828,
-        "end": 1761803422
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761803422,
         "end": 1761805827
@@ -22103,8 +22099,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762996817,
-        "end": null,
+        "end": 1763004024,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763004024,
+        "end": null
       }
     ]
   },
@@ -24008,7 +24009,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762996225,
-        "end": null
+        "end": 1763004024
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763004024,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -50790,12 +50797,6 @@
     "name": "Stealthination",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1761793828,
-        "end": 1761804630,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761804630,
         "end": 1761808827
@@ -52146,8 +52147,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1762997425,
-        "end": null,
+        "end": 1763004024,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763004024,
+        "end": null
       }
     ]
   },
@@ -53241,6 +53247,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1762991422,
+        "end": 1763004024
+      },
+      {
+        "status": "[Argentina] Attacked - Revives: ALL",
+        "start": 1763004024,
         "end": null
       }
     ]
