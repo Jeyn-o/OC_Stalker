@@ -1759,7 +1759,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763021417,
-        "end": null
+        "end": 1763024433
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763024433,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2038,6 +2044,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1763007624,
+        "end": 1763024433
+      },
+      {
+        "status": "Available",
+        "start": 1763024433,
         "end": null
       }
     ]
@@ -3228,11 +3239,6 @@
   "1184733": {
     "name": "Pro_eobard",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761814223,
-        "end": 1761816020
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761816020,
@@ -6238,6 +6244,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1763017233,
+        "end": 1763024433,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763024433,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -10885,6 +10897,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1763022631,
+        "end": 1763024433
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763024433,
         "end": null
       }
     ]
@@ -17878,11 +17895,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1761814223,
-        "end": 1761814831
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1761814831,
         "end": 1761821425,
@@ -20268,11 +20280,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761814223,
-        "end": 1761815424
-      },
       {
         "status": "Available",
         "start": 1761815424,
@@ -39628,11 +39635,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761814223,
-        "end": 1761814831
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761814831,
         "end": 1761817221
@@ -43378,11 +43380,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761814223,
-        "end": 1761816633
-      },
       {
         "status": "Available",
         "start": 1761816633,
@@ -53368,6 +53365,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1763017233,
+        "end": 1763024433,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763024433,
         "end": null,
         "travel_type": "airstrip"
       }
