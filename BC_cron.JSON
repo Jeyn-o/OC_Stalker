@@ -707,11 +707,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1761797419,
-        "end": 1761800432
-      },
-      {
         "status": "Available",
         "start": 1761800432,
         "end": 1761803422
@@ -2089,6 +2084,11 @@
       {
         "status": "Available",
         "start": 1762892428,
+        "end": 1763007624
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1763007624,
         "end": null
       }
     ]
@@ -3300,11 +3300,6 @@
   "1184733": {
     "name": "Pro_eobard",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761797419,
-        "end": 1761798628
-      },
       {
         "status": "Available",
         "start": 1761798628,
@@ -10774,7 +10769,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763007021,
-        "end": null
+        "end": 1763007624
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763007624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10951,7 +10952,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763006432,
-        "end": null
+        "end": 1763007624
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763007624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14775,11 +14782,6 @@
     "name": "BattlePrincess",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761797419,
-        "end": 1761803422
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761803422,
         "end": 1761805219
@@ -17980,7 +17982,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1762994418,
-        "end": null
+        "end": 1763007624
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763007624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30852,8 +30860,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1762995018,
-        "end": null,
+        "end": 1763007624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763007624,
+        "end": null
       }
     ]
   },
@@ -39068,11 +39081,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1761797419,
-        "end": 1761798019
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1761798019,
         "end": 1761799229,
@@ -44097,11 +44105,6 @@
     "name": "Akijiro",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761797419,
-        "end": 1761798628
-      },
-      {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1761798628,
         "end": 1761800432
@@ -47223,11 +47226,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1761797419,
-        "end": 1761798628
-      },
-      {
         "status": "Available",
         "start": 1761798628,
         "end": 1761803422
@@ -49705,11 +49703,6 @@
     "name": "Lucifixion",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761797419,
-        "end": 1761798628
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761798628,
         "end": 1761801031
@@ -50288,11 +50281,6 @@
   "3926163": {
     "name": "J-Donuts",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1761797419,
-        "end": 1761807636
-      },
       {
         "status": "Available",
         "start": 1761807636,
@@ -52014,11 +52002,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761797419,
-        "end": 1761799229
-      },
       {
         "status": "Available",
         "start": 1761799229,
