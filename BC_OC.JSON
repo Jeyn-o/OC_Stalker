@@ -53711,9 +53711,9 @@
   },
   "1011926": {
     "name": "Cash Me if You Can",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1763067165,
-    "executed_at": null,
+    "executed_at": 1763067185,
     "slots": {
       "P3": {
         "user_id": 3915266,
@@ -54370,7 +54370,7 @@
   "1020909": {
     "name": "Cash Me if You Can",
     "status": "Recruiting",
-    "ready_at": 1763138075,
+    "ready_at": 1763224475,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -54379,6 +54379,14 @@
         "checkpoint_pass_rate": 73,
         "position": "Lookout",
         "position_number": 1
+      },
+      "P1": {
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 71,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -54391,6 +54399,17 @@
         "checkpoint_pass_rate": 73,
         "position": "Lookout",
         "position_number": 1
+      },
+      {
+        "timestamp": 1763067634,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 71,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
