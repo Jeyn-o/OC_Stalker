@@ -10294,11 +10294,6 @@
     "name": "Jeyno",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761796226,
-        "end": 1761796831
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761796831,
         "end": 1761799826
@@ -10950,8 +10945,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1762998626,
-        "end": null,
+        "end": 1763006432,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1763006432,
+        "end": null
       }
     ]
   },
@@ -14774,11 +14774,6 @@
   "2680449": {
     "name": "BattlePrincess",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761796226,
-        "end": 1761797419
-      },
       {
         "status": "Available",
         "start": 1761797419,
@@ -21021,11 +21016,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761796226,
-        "end": 1761798628
-      },
       {
         "status": "[Canada] - Going",
         "start": 1761798628,
@@ -27554,11 +27544,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761796226,
-        "end": 1761796831
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1761796831,
         "end": 1761809429,
@@ -30888,11 +30873,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1761796226,
-        "end": 1761799826
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1761799826,
@@ -35311,6 +35291,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763001622,
+        "end": 1763006432
+      },
+      {
+        "status": "Available",
+        "start": 1763006432,
         "end": null
       }
     ]
@@ -39100,12 +39085,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1761796226,
-        "end": 1761797419,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1761797419,
@@ -43534,11 +43513,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761796226,
-        "end": 1761803422
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761803422,
         "end": 1761805219
@@ -47255,12 +47229,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1761796226,
-        "end": 1761797419,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1761797419,
         "end": 1761798628
@@ -49584,8 +49552,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1762999823,
-        "end": null,
+        "end": 1763006432,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1763006432,
+        "end": null
       }
     ]
   },
@@ -52027,7 +52000,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763004024,
-        "end": null
+        "end": 1763006432
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763006432,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
