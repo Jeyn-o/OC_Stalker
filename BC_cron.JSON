@@ -6293,11 +6293,6 @@
     "name": "Ronskip",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761849627,
-        "end": 1761850828
-      },
-      {
         "status": "Available",
         "start": 1761850828,
         "end": 1761855023
@@ -6695,11 +6690,6 @@
   "2291737": {
     "name": "Special-Needs",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: Partial",
-        "start": 1761849627,
-        "end": 1761851426
-      },
       {
         "status": "Available",
         "start": 1761851426,
@@ -15989,11 +15979,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761849627,
-        "end": 1761860424
-      },
-      {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1761860424,
         "end": 1761862221
@@ -16436,11 +16421,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1761849627,
-        "end": 1761850224
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1761850224,
@@ -20210,12 +20190,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1761849627,
-        "end": 1761856832,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1761856832,
@@ -37116,6 +37090,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763058632,
+        "end": 1763059825,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763059825,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37646,11 +37626,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761849627,
-        "end": 1761850224
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761850224,
@@ -43625,8 +43600,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763048423,
-        "end": null,
+        "end": 1763059825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763059825,
+        "end": null
       }
     ]
   },
@@ -44634,11 +44614,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761849627,
-        "end": 1761851426
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761851426,
@@ -49142,7 +49117,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1763053825,
-        "end": null
+        "end": 1763059825
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763059825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
