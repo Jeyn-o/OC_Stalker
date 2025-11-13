@@ -3975,11 +3975,6 @@
     "name": "---GHOST---",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761784237,
-        "end": 1761786032
-      },
-      {
         "status": "Available",
         "start": 1761786032,
         "end": 1761810626
@@ -5299,11 +5294,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1761784237,
-        "end": 1761785424
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1761785424,
@@ -15076,11 +15066,6 @@
     "name": "BattlePrincess",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761784237,
-        "end": 1761785424
-      },
-      {
         "status": "Available",
         "start": 1761785424,
         "end": 1761796226
@@ -16351,12 +16336,6 @@
   "2730718": {
     "name": "Haungpeary",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1761784237,
-        "end": 1761790828,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761790828,
@@ -18333,8 +18312,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762981822,
-        "end": null,
+        "end": 1762994418,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1762994418,
+        "end": null
       }
     ]
   },
@@ -18919,11 +18903,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1761784237,
-        "end": 1761785424
-      },
       {
         "status": "Available",
         "start": 1761785424,
@@ -22996,11 +22975,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1761784237,
-        "end": 1761786622
-      },
-      {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1761786622,
         "end": 1761790828
@@ -23841,6 +23815,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1762982424,
+        "end": 1762994418,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1762994418,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -23849,12 +23829,6 @@
   "3161450": {
     "name": "Rubadubb",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1761784237,
-        "end": 1761795624,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761795624,
@@ -27999,18 +27973,19 @@
       {
         "status": "Available",
         "start": 1762959635,
-        "end": null
+        "end": 1762994418
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762994418,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1761784237,
-        "end": 1761785424
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1761785424,
@@ -40812,6 +40787,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1762993224,
+        "end": 1762994418,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1762994418,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -47919,7 +47900,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762991422,
-        "end": null
+        "end": 1762994418
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1762994418,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -48810,11 +48797,6 @@
   "3880785": {
     "name": "Gemicide",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761784237,
-        "end": 1761785424
-      },
       {
         "status": "Available",
         "start": 1761785424,
@@ -55133,7 +55115,13 @@
       {
         "status": "Available",
         "start": 1762992623,
-        "end": null
+        "end": 1762994418
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1762994418,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
