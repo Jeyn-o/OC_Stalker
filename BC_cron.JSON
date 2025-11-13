@@ -7209,11 +7209,6 @@
     "name": "Special-Needs",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761818434,
-        "end": 1761819025
-      },
-      {
         "status": "Available",
         "start": 1761819025,
         "end": 1761819640
@@ -11295,11 +11290,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761818434,
-        "end": 1761819025
-      },
       {
         "status": "Jail",
         "start": 1761819025,
@@ -17297,8 +17287,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763021417,
-        "end": null,
+        "end": 1763028627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1763028627,
+        "end": null
       }
     ]
   },
@@ -29941,11 +29936,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761818434,
-        "end": 1761820822
-      },
-      {
         "status": "[China] - Going",
         "start": 1761820822,
         "end": 1761831027,
@@ -41565,6 +41555,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763023227,
+        "end": 1763028627
+      },
+      {
+        "status": "Available",
+        "start": 1763028627,
         "end": null
       }
     ]
@@ -48142,8 +48137,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1763022024,
-        "end": null,
+        "end": 1763028627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763028627,
+        "end": null
       }
     ]
   },
