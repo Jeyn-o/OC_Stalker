@@ -52561,9 +52561,9 @@
   },
   "1006134": {
     "name": "Best of the Lot",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1762982105,
-    "executed_at": null,
+    "executed_at": 1763034124,
     "slots": {
       "P1": {
         "user_id": 3178876,
@@ -53478,8 +53478,8 @@
   },
   "1011924": {
     "name": "Pet Project",
-    "status": "Recruiting",
-    "ready_at": 1763060901,
+    "status": "Planning",
+    "ready_at": 1763147301,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -53497,6 +53497,14 @@
         "position": "Muscle",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 3628419,
+        "user_name": "Littlegman212",
+        "checkpoint_pass_rate": 88,
+        "position": "Kidnapper",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -53543,6 +53551,17 @@
         "position": "Muscle",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1763034622,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3628419,
+        "user_name": "Littlegman212",
+        "checkpoint_pass_rate": 88,
+        "position": "Kidnapper",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
