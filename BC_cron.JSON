@@ -4442,11 +4442,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761787226,
-        "end": 1761790828
-      },
-      {
         "status": "Available",
         "start": 1761790828,
         "end": 1761803422
@@ -12762,6 +12757,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1762996225,
+        "end": 1762997425
+      },
+      {
+        "status": "Available",
+        "start": 1762997425,
         "end": null
       }
     ]
@@ -13801,11 +13801,6 @@
   "2675301": {
     "name": "ExiledAstronaut",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761787226,
-        "end": 1761788417
-      },
       {
         "status": "Available",
         "start": 1761788417,
@@ -16453,11 +16448,6 @@
   "2736671": {
     "name": "Twitt3y",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761787226,
-        "end": 1761789019
-      },
       {
         "status": "Available",
         "start": 1761789019,
@@ -25126,12 +25116,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1761787226,
-        "end": 1761790828,
-        "travel_type": "standard"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1761790828,
         "end": 1761792625
@@ -29109,7 +29093,13 @@
       {
         "status": "Available",
         "start": 1762988435,
-        "end": null
+        "end": 1762997425
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1762997425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36384,8 +36374,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762985421,
-        "end": null,
+        "end": 1762997425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1762997425,
+        "end": null
       }
     ]
   },
@@ -41204,11 +41199,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1761787226,
-        "end": 1761795624
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761795624,
@@ -46377,11 +46367,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761787226,
-        "end": 1761787832
-      },
       {
         "status": "Available",
         "start": 1761787832,
@@ -52491,7 +52476,13 @@
       {
         "status": "Available",
         "start": 1762996225,
-        "end": null
+        "end": 1762997425
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1762997425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -53592,12 +53583,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1761787226,
-        "end": 1761799229,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1761799229,
