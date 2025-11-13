@@ -1011,11 +1011,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761847234,
-        "end": 1761847820
-      },
-      {
         "status": "Available",
         "start": 1761847820,
         "end": 1761853230
@@ -1728,8 +1723,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763050225,
-        "end": null,
+        "end": 1763057422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763057422,
+        "end": null
       }
     ]
   },
@@ -3533,11 +3533,6 @@
     "name": "---GHOST---",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761847234,
-        "end": 1761854435
-      },
-      {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1761854435,
         "end": 1761856231
@@ -3752,12 +3747,6 @@
   "1766417": {
     "name": "gajeela09",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1761847234,
-        "end": 1761853825,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1761853825,
@@ -8920,6 +8909,12 @@
       {
         "status": "[China] - Going",
         "start": 1763053242,
+        "end": 1763057422,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763057422,
         "end": null,
         "travel_type": "standard"
       }
@@ -17892,11 +17887,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761847234,
-        "end": 1761848424
-      },
-      {
         "status": "Available",
         "start": 1761848424,
         "end": 1761855625
@@ -26198,19 +26188,19 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763050225,
-        "end": null,
+        "end": 1763057422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1763057422,
+        "end": null
       }
     ]
   },
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761847234,
-        "end": 1761847820
-      },
       {
         "status": "Available",
         "start": 1761847820,
@@ -29998,12 +29988,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1761847234,
-        "end": 1761853825,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761853825,
@@ -37134,7 +37118,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763056834,
-        "end": null
+        "end": 1763057422
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763057422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37663,11 +37653,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1761847234,
-        "end": 1761849627
-      },
       {
         "status": "Available",
         "start": 1761849627,
@@ -48130,11 +48115,6 @@
     "name": "Rey2Fly",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761847234,
-        "end": 1761848424
-      },
-      {
         "status": "Available",
         "start": 1761848424,
         "end": 1761851426
@@ -50854,7 +50834,13 @@
       {
         "status": "Available",
         "start": 1763056834,
-        "end": null
+        "end": 1763057422
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1763057422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
