@@ -1011,11 +1011,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761847820,
-        "end": 1761853230
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1761853230,
         "end": 1761853825
@@ -4447,11 +4442,6 @@
     "name": "smyles",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1761847820,
-        "end": 1761848424
-      },
-      {
         "status": "Available",
         "start": 1761848424,
         "end": 1761897027
@@ -6710,11 +6700,6 @@
   "2291737": {
     "name": "Special-Needs",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761847820,
-        "end": 1761849627
-      },
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1761849627,
@@ -10879,11 +10864,6 @@
   "2647214": {
     "name": "Balgor",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761847820,
-        "end": 1761849026
-      },
       {
         "status": "Available",
         "start": 1761849026,
@@ -24111,7 +24091,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763056218,
-        "end": null
+        "end": 1763058022
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763058022,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -26194,18 +26180,19 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763057422,
-        "end": null
+        "end": 1763058022
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763058022,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761847820,
-        "end": 1761850224
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761850224,
@@ -37123,8 +37110,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763057422,
-        "end": null,
+        "end": 1763058022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763058022,
+        "end": null
       }
     ]
   },
@@ -44439,6 +44431,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763050824,
+        "end": 1763058022,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763058022,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -44640,11 +44638,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761847820,
-        "end": 1761849627
-      },
       {
         "status": "Available",
         "start": 1761849627,
@@ -46549,11 +46542,6 @@
     "name": "J-Donuts",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761847820,
-        "end": 1761850224
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761850224,
         "end": 1761852026
@@ -46834,11 +46822,6 @@
   "3932437": {
     "name": "Stealthination",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761847820,
-        "end": 1761852026
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761852026,
