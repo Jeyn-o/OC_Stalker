@@ -3073,11 +3073,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761846022,
-        "end": 1761848424
-      },
-      {
         "status": "Available",
         "start": 1761848424,
         "end": 1761858622
@@ -5372,6 +5367,11 @@
       {
         "status": "Available",
         "start": 1762742423,
+        "end": 1763056218
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: Partial",
+        "start": 1763056218,
         "end": null
       }
     ]
@@ -15316,11 +15316,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761846022,
-        "end": 1761855023
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761855023,
         "end": 1761856231
@@ -20255,8 +20250,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763045423,
-        "end": null,
+        "end": 1763056218,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763056218,
+        "end": null
       }
     ]
   },
@@ -24146,8 +24146,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763051426,
-        "end": null,
+        "end": 1763056218,
         "travel_type": "standard"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763056218,
+        "end": null
       }
     ]
   },
@@ -29021,11 +29026,6 @@
     "name": "Jordanw1",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761846022,
-        "end": 1761855625
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761855625,
         "end": 1761856832
@@ -33103,7 +33103,13 @@
       {
         "status": "[Argentina] Mugged - Revives: ALL",
         "start": 1763053825,
-        "end": null
+        "end": 1763056218
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763056218,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37157,6 +37163,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763055028,
+        "end": 1763056218,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763056218,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37687,11 +37699,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761846022,
-        "end": 1761847234
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761847234,
@@ -46883,11 +46890,6 @@
   "3932437": {
     "name": "Stealthination",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761846022,
-        "end": 1761847820
-      },
       {
         "status": "Available",
         "start": 1761847820,
