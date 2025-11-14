@@ -5245,11 +5245,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761888033,
-        "end": 1761897027
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761897027,
         "end": 1761898225
@@ -6804,11 +6799,6 @@
   "2315415": {
     "name": "Litri",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761888033,
-        "end": 1761897027
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761897027,
@@ -16039,11 +16029,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761888033,
-        "end": 1761890435
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761890435,
         "end": 1761892224
@@ -22274,8 +22259,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763092827,
-        "end": null,
+        "end": 1763098224,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763098224,
+        "end": null
       }
     ]
   },
@@ -26144,11 +26134,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761888033,
-        "end": 1761888631
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1761888631,
         "end": 1761889820,
@@ -27839,11 +27824,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761888033,
-        "end": 1761889224
-      },
-      {
         "status": "Available",
         "start": 1761889224,
         "end": 1761889820
@@ -29057,11 +29037,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761888033,
-        "end": 1761888631
-      },
       {
         "status": "Available",
         "start": 1761888631,
@@ -31690,11 +31665,6 @@
   "3628419": {
     "name": "Littlegman212",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761888033,
-        "end": 1761892224
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761892224,
@@ -34723,6 +34693,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763097025,
+        "end": 1763098224,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763098224,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35223,11 +35199,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761888033,
-        "end": 1761889224
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1761889224,
@@ -47367,7 +47338,13 @@
       {
         "status": "Available",
         "start": 1763093419,
-        "end": null
+        "end": 1763098224
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1763098224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
