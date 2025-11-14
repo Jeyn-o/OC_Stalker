@@ -3987,11 +3987,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[Argentina] Lost - Revives: OFF",
-        "start": 1761901826,
-        "end": 1761902429
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1761902429,
         "end": 1761905423
@@ -10542,11 +10537,6 @@
     "name": "ExiledAstronaut",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761901826,
-        "end": 1761903037
-      },
-      {
         "status": "Available",
         "start": 1761903037,
         "end": 1761910231
@@ -11466,11 +11456,6 @@
   "2680449": {
     "name": "BattlePrincess",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761901826,
-        "end": 1761902429
-      },
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761902429,
@@ -15330,11 +15315,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761901826,
-        "end": 1761902429
-      },
-      {
         "status": "Available",
         "start": 1761902429,
         "end": 1761904836
@@ -17698,12 +17678,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1761901826,
-        "end": 1761903621,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Idle",
         "start": 1761903621,
         "end": 1761911425
@@ -18900,11 +18874,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761901826,
-        "end": 1761903037
-      },
       {
         "status": "Available",
         "start": 1761903037,
@@ -30658,7 +30627,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763109621,
-        "end": null
+        "end": 1763112024
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763112024,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36138,12 +36113,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1761901826,
-        "end": 1761912044,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1761912044,
         "end": 1761925821
@@ -38537,12 +38506,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1761901826,
-        "end": 1761903037,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1761903037,
@@ -45035,12 +44998,6 @@
     "name": "Icks-B",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761901826,
-        "end": 1761908439,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761908439,
         "end": 1761909628
@@ -46775,7 +46732,13 @@
       {
         "status": "Available",
         "start": 1763111426,
-        "end": null
+        "end": 1763112024
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1763112024,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
