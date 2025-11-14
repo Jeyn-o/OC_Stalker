@@ -32305,6 +32305,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1763091032,
+        "end": 1763091623
+      },
+      {
+        "status": "Available",
+        "start": 1763091623,
         "end": null
       }
     ]
@@ -35017,7 +35022,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763088624,
-        "end": null
+        "end": 1763091623
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763091623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41972,7 +41983,13 @@
       {
         "status": "Available",
         "start": 1763090424,
-        "end": null
+        "end": 1763091623
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1763091623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -43457,8 +43474,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1763086227,
-        "end": null,
+        "end": 1763091623,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763091623,
+        "end": null
       }
     ]
   },
