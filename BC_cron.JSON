@@ -913,12 +913,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1761921028,
-        "end": 1761927630,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1761927630,
         "end": 1761928240
@@ -5230,11 +5224,6 @@
     "name": "Ronskip",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761921028,
-        "end": 1761922839
-      },
-      {
         "status": "Available",
         "start": 1761922839,
         "end": 1761927630
@@ -5472,11 +5461,6 @@
   "2291737": {
     "name": "Special-Needs",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: Partial",
-        "start": 1761921028,
-        "end": 1761923435
-      },
       {
         "status": "Available",
         "start": 1761923435,
@@ -6095,7 +6079,13 @@
       {
         "status": "Available",
         "start": 1763094627,
-        "end": null
+        "end": 1763131226
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763131226,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -7469,8 +7459,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763125823,
-        "end": null,
+        "end": 1763131226,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1763131226,
+        "end": null
       }
     ]
   },
@@ -9017,11 +9012,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761921028,
-        "end": 1761924023
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761924023,
         "end": 1761927630
@@ -9542,11 +9532,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761921028,
-        "end": 1761923435
-      },
       {
         "status": "Available",
         "start": 1761923435,
@@ -10787,11 +10772,6 @@
   "2680449": {
     "name": "BattlePrincess",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761921028,
-        "end": 1761921627
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761921627,
@@ -15282,11 +15262,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761921028,
-        "end": 1761924023
-      },
-      {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761924023,
         "end": 1761925239
@@ -16602,11 +16577,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761921028,
-        "end": 1761922839
-      },
       {
         "status": "Available",
         "start": 1761922839,
@@ -25583,8 +25553,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1763129425,
-        "end": null,
+        "end": 1763131226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763131226,
+        "end": null
       }
     ]
   },
@@ -30985,7 +30960,13 @@
       {
         "status": "Available",
         "start": 1763130022,
-        "end": null
+        "end": 1763131226
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763131226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32267,7 +32248,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763130022,
-        "end": null
+        "end": 1763131226
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763131226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32768,11 +32755,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761921028,
-        "end": 1761921627
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761921627,
@@ -34637,7 +34619,13 @@
       {
         "status": "Available",
         "start": 1763129425,
-        "end": null
+        "end": 1763131226
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763131226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36535,7 +36523,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763129425,
-        "end": null
+        "end": 1763131226
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763131226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -44511,6 +44505,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1763124020,
+        "end": 1763131226,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763131226,
         "end": null,
         "travel_type": "airstrip"
       }
