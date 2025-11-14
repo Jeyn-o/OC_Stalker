@@ -1621,11 +1621,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761943833,
-        "end": 1761944436
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761944436,
         "end": 1761945032
@@ -2533,11 +2528,6 @@
   "1184733": {
     "name": "Pro_eobard",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761943833,
-        "end": 1761944436
-      },
       {
         "status": "Available",
         "start": 1761944436,
@@ -7154,8 +7144,13 @@
       {
         "status": "[China] - Going",
         "start": 1763149823,
-        "end": null,
+        "end": 1763154036,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763154036,
+        "end": null
       }
     ]
   },
@@ -8499,11 +8494,6 @@
   "2647214": {
     "name": "Balgor",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761943833,
-        "end": 1761944436
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761944436,
@@ -16291,6 +16281,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763146226,
+        "end": 1763154036,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763154036,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -17560,8 +17556,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763147426,
-        "end": null,
+        "end": 1763154036,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763154036,
+        "end": null
       }
     ]
   },
@@ -23456,8 +23457,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763144430,
-        "end": null,
+        "end": 1763154036,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763154036,
+        "end": null
       }
     ]
   },
@@ -28884,11 +28890,6 @@
     "name": "SN00PYTOBY",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761943833,
-        "end": 1761945623
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761945623,
         "end": 1761946228
@@ -31449,11 +31450,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761943833,
-        "end": 1761948042
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761948042,
@@ -34271,11 +34267,6 @@
   "3820095": {
     "name": "Akijiro",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: Partial",
-        "start": 1761943833,
-        "end": 1761944436
-      },
       {
         "status": "Available",
         "start": 1761944436,
@@ -40616,8 +40607,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763147426,
-        "end": null,
+        "end": 1763154036,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763154036,
+        "end": null
       }
     ]
   },
