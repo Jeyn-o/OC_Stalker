@@ -2067,11 +2067,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761930630,
-        "end": 1761931830
-      },
-      {
         "status": "Available",
         "start": 1761931830,
         "end": 1761932429
@@ -6113,11 +6108,6 @@
     "name": "Crispyfoot",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761930630,
-        "end": 1761933040
-      },
-      {
         "status": "Available",
         "start": 1761933040,
         "end": 1761958834
@@ -8853,11 +8843,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761930630,
-        "end": 1761933040
-      },
-      {
         "status": "Available",
         "start": 1761933040,
         "end": 1761934831
@@ -10749,12 +10734,6 @@
     "name": "Hussc-",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1761930630,
-        "end": 1761937830,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1761937830,
         "end": 1761955302
@@ -11522,11 +11501,6 @@
   "2736671": {
     "name": "Twitt3y",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761930630,
-        "end": 1761934831
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761934831,
@@ -20123,11 +20097,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761930630,
-        "end": 1761931227
-      },
       {
         "status": "Available",
         "start": 1761931227,
@@ -30621,11 +30590,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761930630,
-        "end": 1761931830
-      },
-      {
         "status": "Available",
         "start": 1761931830,
         "end": 1761959424
@@ -32386,11 +32350,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1761930630,
-        "end": 1761931227
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1761931227,
@@ -37678,7 +37637,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763136629,
-        "end": null
+        "end": 1763140819
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763140819,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41713,11 +41678,6 @@
     "name": "Rey2Fly",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761930630,
-        "end": 1761943223
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761943223,
         "end": 1761945032
@@ -44051,6 +44011,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763140227,
+        "end": 1763140819,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763140819,
         "end": null,
         "travel_type": "airstrip"
       }
