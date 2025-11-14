@@ -2607,11 +2607,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761929430,
-        "end": 1761930039
-      },
-      {
         "status": "Available",
         "start": 1761930039,
         "end": 1761933639
@@ -5473,11 +5468,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761929430,
-        "end": 1761934831
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761934831,
         "end": 1761936025
@@ -7386,8 +7376,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763136629,
-        "end": null,
+        "end": 1763139638,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1763139638,
+        "end": null
       }
     ]
   },
@@ -13139,12 +13134,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1761929430,
-        "end": 1761931227,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761931227,
         "end": 1761933639
@@ -14148,11 +14137,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761929430,
-        "end": 1761980436
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761980436,
         "end": 1761981628
@@ -14318,11 +14302,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761929430,
-        "end": 1761936025
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761936025,
@@ -15041,11 +15020,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: Partial",
-        "start": 1761929430,
-        "end": 1761931830
-      },
       {
         "status": "Available",
         "start": 1761931830,
@@ -26440,8 +26414,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1763132431,
-        "end": null,
+        "end": 1763139638,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763139638,
+        "end": null
       }
     ]
   },
@@ -27877,8 +27856,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763126419,
-        "end": null,
+        "end": 1763139638,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763139638,
+        "end": null
       }
     ]
   },
@@ -29233,11 +29217,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1761929430,
-        "end": 1761931830
-      },
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1761931830,
@@ -34275,6 +34254,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763137831,
+        "end": 1763139638
+      },
+      {
+        "status": "[United Kingdom] Hospitalized - Revives: OFF",
+        "start": 1763139638,
         "end": null
       }
     ]
@@ -41749,7 +41733,13 @@
       {
         "status": "Available",
         "start": 1763116222,
-        "end": null
+        "end": 1763139638
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763139638,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -44090,6 +44080,11 @@
       {
         "status": "Jail",
         "start": 1763139025,
+        "end": 1763139638
+      },
+      {
+        "status": "Available",
+        "start": 1763139638,
         "end": null
       }
     ]
@@ -44586,11 +44581,6 @@
   "3977638": {
     "name": "Vasapi_Sakti",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1761929430,
-        "end": 1761931227
-      },
       {
         "status": "Available",
         "start": 1761931227,
