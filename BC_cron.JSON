@@ -2776,11 +2776,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761892224,
-        "end": 1761894039
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761894039,
         "end": 1761895223
@@ -4575,11 +4570,6 @@
     "name": "Weasel",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761892224,
-        "end": 1761892819
-      },
-      {
         "status": "Available",
         "start": 1761892819,
         "end": 1761896422
@@ -6009,11 +5999,6 @@
   "2291737": {
     "name": "Special-Needs",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761892224,
-        "end": 1761893426
-      },
       {
         "status": "Available",
         "start": 1761893426,
@@ -10287,6 +10272,11 @@
       {
         "status": "Available",
         "start": 1762997425,
+        "end": 1763102424
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1763102424,
         "end": null
       }
     ]
@@ -11913,11 +11903,6 @@
   "2680449": {
     "name": "BattlePrincess",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761892224,
-        "end": 1761893426
-      },
       {
         "status": "Available",
         "start": 1761893426,
@@ -15856,11 +15841,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761892224,
-        "end": 1761894039
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761894039,
         "end": 1761894626
@@ -16881,11 +16861,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761892224,
-        "end": 1761907227
-      },
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1761907227,
@@ -22075,11 +22050,6 @@
   "3231991": {
     "name": "Osein",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761892224,
-        "end": 1761907227
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761907227,
@@ -31334,7 +31304,13 @@
       {
         "status": "Available",
         "start": 1763049633,
-        "end": null
+        "end": 1763102424
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1763102424,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31396,11 +31372,6 @@
   "3628419": {
     "name": "Littlegman212",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761892224,
-        "end": 1761894039
-      },
       {
         "status": "Available",
         "start": 1761894039,
@@ -34433,7 +34404,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763101827,
-        "end": null
+        "end": 1763102424
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763102424,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34933,11 +34910,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: OFF",
-        "start": 1761892224,
-        "end": 1761892819
-      },
       {
         "status": "Available",
         "start": 1761892819,
@@ -36791,8 +36763,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763091032,
-        "end": null,
+        "end": 1763102424,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763102424,
+        "end": null
       }
     ]
   },
@@ -40490,18 +40467,19 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1763100037,
-        "end": null
+        "end": 1763102424
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1763102424,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761892224,
-        "end": 1761893426
-      },
       {
         "status": "Available",
         "start": 1761893426,
