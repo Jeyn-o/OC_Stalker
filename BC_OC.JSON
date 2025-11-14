@@ -54802,10 +54802,31 @@
   "1023020": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1763220105,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 78,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1763134232,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 78,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1023023": {
     "name": "Blast from the Past",
@@ -54924,7 +54945,7 @@
   "1024523": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": 1763215613,
+    "ready_at": 1763302013,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -54933,6 +54954,14 @@
         "checkpoint_pass_rate": 66,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2680449,
+        "user_name": "BattlePrincess",
+        "checkpoint_pass_rate": 72,
+        "position": "Robber",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -54946,6 +54975,17 @@
         "checkpoint_pass_rate": 66,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1763134232,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2680449,
+        "user_name": "BattlePrincess",
+        "checkpoint_pass_rate": 72,
+        "position": "Robber",
+        "position_number": 2,
         "item_available": true
       }
     ]
