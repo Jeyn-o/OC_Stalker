@@ -734,11 +734,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1761937247,
-        "end": 1761939033
-      },
-      {
         "status": "Available",
         "start": 1761939033,
         "end": 1761939633
@@ -2580,8 +2575,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763141426,
-        "end": null,
+        "end": 1763147426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763147426,
+        "end": null
       }
     ]
   },
@@ -7368,11 +7368,6 @@
   "2414438": {
     "name": "Caross",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761937247,
-        "end": 1761947423
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761947423,
@@ -13977,11 +13972,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761937247,
-        "end": 1761939633
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761939633,
         "end": 1761940835
@@ -17923,7 +17913,13 @@
       {
         "status": "Available",
         "start": 1763124020,
-        "end": null
+        "end": 1763147426
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763147426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19596,8 +19592,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763142623,
-        "end": null,
+        "end": 1763147426,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1763147426,
+        "end": null
       }
     ]
   },
@@ -31947,20 +31948,19 @@
       {
         "status": "[Japan] - Going",
         "start": 1763137831,
-        "end": null,
+        "end": 1763147426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1763147426,
+        "end": null
       }
     ]
   },
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1761937247,
-        "end": 1761938426,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761938426,
@@ -33766,11 +33766,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761937247,
-        "end": 1761938426
-      },
       {
         "status": "Available",
         "start": 1761938426,
@@ -39215,7 +39210,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1763146226,
-        "end": null
+        "end": 1763147426
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763147426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40150,11 +40151,6 @@
   "3932437": {
     "name": "Stealthination",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761937247,
-        "end": 1761982232
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761982232,
@@ -41216,7 +41212,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763146226,
-        "end": null
+        "end": 1763147426
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763147426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -44086,6 +44088,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1763146226,
+        "end": 1763147426,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763147426,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -44094,11 +44102,6 @@
   "3977638": {
     "name": "Vasapi_Sakti",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761937247,
-        "end": 1761940835
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761940835,
