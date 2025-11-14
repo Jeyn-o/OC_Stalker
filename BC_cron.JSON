@@ -3921,11 +3921,6 @@
     "name": "Weasel",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761947423,
-        "end": 1761949231
-      },
-      {
         "status": "Available",
         "start": 1761949231,
         "end": 1761986424
@@ -7110,11 +7105,6 @@
     "name": "iam3vaj",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761947423,
-        "end": 1761949828
-      },
-      {
         "status": "Available",
         "start": 1761949828,
         "end": 1761988226
@@ -7174,11 +7164,6 @@
   "2414438": {
     "name": "Caross",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761947423,
-        "end": 1761949231
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761949231,
@@ -7796,11 +7781,6 @@
   "2541399": {
     "name": "Theurgy",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761947423,
-        "end": 1761949231
-      },
       {
         "status": "Available",
         "start": 1761949231,
@@ -10982,11 +10962,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761947423,
-        "end": 1761949231
-      },
-      {
         "status": "Available",
         "start": 1761949231,
         "end": 1761988226
@@ -12446,11 +12421,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761947423,
-        "end": 1761955302
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761955302,
@@ -17471,7 +17441,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763154036,
-        "end": null
+        "end": 1763157634
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763157634,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20989,6 +20965,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763151020,
+        "end": 1763157634,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763157634,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -21334,11 +21316,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761947423,
-        "end": 1761948627
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761948627,
@@ -28918,11 +28895,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761947423,
-        "end": 1761951027
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761951027,
         "end": 1761952827
@@ -36473,12 +36445,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1761947423,
-        "end": 1761952827,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1761952827,
         "end": 1761958834,
@@ -41512,8 +41478,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763145626,
-        "end": null,
+        "end": 1763157634,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763157634,
+        "end": null
       }
     ]
   },
