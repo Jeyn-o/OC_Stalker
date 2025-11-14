@@ -1745,11 +1745,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1761907836,
-        "end": 1761908439
-      },
-      {
         "status": "Available",
         "start": 1761908439,
         "end": 1761912626
@@ -2703,7 +2698,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763117424,
-        "end": null
+        "end": 1763118036
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763118036,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8022,12 +8023,6 @@
     "name": "Jeyno",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1761907836,
-        "end": 1761919828,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1761919828,
         "end": 1761932429,
@@ -8999,11 +8994,6 @@
   "2611425": {
     "name": "NeshoNeko",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1761907836,
-        "end": 1761914431
-      },
       {
         "status": "[Switzerland] Mugged - Revives: ALL",
         "start": 1761914431,
@@ -11274,11 +11264,6 @@
     "name": "BattlePrincess",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761907836,
-        "end": 1761908439
-      },
-      {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1761908439,
         "end": 1761909628
@@ -12937,11 +12922,6 @@
     "name": "MrPorkenstien",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761907836,
-        "end": 1761908439
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761908439,
         "end": 1761910231
@@ -12991,12 +12971,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1761907836,
-        "end": 1761908439,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761908439,
@@ -13684,7 +13658,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1763117424,
-        "end": null
+        "end": 1763118036
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1763118036,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18574,11 +18554,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761907836,
-        "end": 1761908439
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761908439,
@@ -23500,11 +23475,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761907836,
-        "end": 1761908439
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761908439,
         "end": 1761909027
@@ -24403,8 +24373,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1763109030,
-        "end": null,
+        "end": 1763118036,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763118036,
+        "end": null
       }
     ]
   },
@@ -29470,12 +29445,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1761907836,
-        "end": 1761914431,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1761914431,
         "end": 1761919828
@@ -31366,12 +31335,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761907836,
-        "end": 1761914431,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761914431,
@@ -37079,11 +37042,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761907836,
-        "end": 1761908439
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761908439,
         "end": 1761910231
@@ -38059,11 +38017,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1761907836,
-        "end": 1761908439
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1761908439,
@@ -45811,6 +45764,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1763116819,
+        "end": 1763118036,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1763118036,
         "end": null,
         "travel_type": "airstrip"
       }
