@@ -2606,11 +2606,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761921627,
-        "end": 1761922238
-      },
-      {
         "status": "Available",
         "start": 1761922238,
         "end": 1761922839
@@ -10773,11 +10768,6 @@
     "name": "BattlePrincess",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1761921627,
-        "end": 1761925239
-      },
-      {
         "status": "Available",
         "start": 1761925239,
         "end": 1761926440
@@ -13322,11 +13312,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761921627,
-        "end": 1761924023
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1761924023,
         "end": 1761924639,
@@ -15099,8 +15084,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763120429,
-        "end": null,
+        "end": 1763131819,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763131819,
+        "end": null
       }
     ]
   },
@@ -20253,8 +20243,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763127027,
-        "end": null,
+        "end": 1763131819,
         "travel_type": "standard"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763131819,
+        "end": null
       }
     ]
   },
@@ -20394,11 +20389,6 @@
   "3255591": {
     "name": "xaqf",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761921627,
-        "end": 1761939633
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761939633,
@@ -22187,11 +22177,6 @@
     "name": "Krytical",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761921627,
-        "end": 1761922839
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761922839,
         "end": 1761925239
@@ -23929,11 +23914,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761921627,
-        "end": 1761933040
-      },
       {
         "status": "[Canada] - Going",
         "start": 1761933040,
@@ -26726,6 +26706,11 @@
       {
         "status": "[Switzerland] Mugged - Revives: ALL",
         "start": 1763130022,
+        "end": 1763131819
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1763131819,
         "end": null
       }
     ]
@@ -29226,7 +29211,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1763129425,
-        "end": null
+        "end": 1763131819
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763131819,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32755,11 +32746,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1761921627,
-        "end": 1761922839
-      },
       {
         "status": "[Canada] - Going",
         "start": 1761922839,
