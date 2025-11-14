@@ -54802,7 +54802,7 @@
   "1023020": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": 1763220105,
+    "ready_at": 1763306505,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -54812,6 +54812,14 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 3231991,
+        "user_name": "Osein",
+        "checkpoint_pass_rate": 72,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -54825,6 +54833,17 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1763137229,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3231991,
+        "user_name": "Osein",
+        "checkpoint_pass_rate": 72,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
