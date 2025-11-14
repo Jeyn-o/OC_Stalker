@@ -10512,11 +10512,6 @@
     "name": "ExiledAstronaut",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761903037,
-        "end": 1761910231
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1761910231,
         "end": 1761910822
@@ -15276,8 +15271,13 @@
       {
         "status": "[China] - Going",
         "start": 1763103026,
-        "end": null,
+        "end": 1763113220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763113220,
+        "end": null
       }
     ]
   },
@@ -18369,11 +18369,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761903037,
-        "end": 1761905423
-      },
-      {
         "status": "Available",
         "start": 1761905423,
         "end": 1761906634
@@ -18834,11 +18829,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761903037,
-        "end": 1761906025
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761906025,
@@ -38483,11 +38473,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1761903037,
-        "end": 1761903621
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1761903621,
         "end": 1761904836,
@@ -46264,7 +46249,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763112624,
-        "end": null
+        "end": 1763113220
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763113220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
