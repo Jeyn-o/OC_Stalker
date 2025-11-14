@@ -2612,11 +2612,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761924023,
-        "end": 1761924639
-      },
-      {
         "status": "Available",
         "start": 1761924639,
         "end": 1761925239
@@ -8604,11 +8599,6 @@
     "name": "NeshoNeko",
     "activities": [
       {
-        "status": "[Switzerland] Mugged - Revives: ALL",
-        "start": 1761924023,
-        "end": 1761926440
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1761926440,
         "end": 1761927630
@@ -8689,11 +8679,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "[United Arab Emirates] Mugged - Revives: OFF",
-        "start": 1761924023,
-        "end": 1761925821
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1761925821,
@@ -8972,11 +8957,6 @@
   "2647214": {
     "name": "Balgor",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761924023,
-        "end": 1761927630
-      },
       {
         "status": "Available",
         "start": 1761927630,
@@ -13268,12 +13248,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1761924023,
-        "end": 1761924639,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1761924639,
         "end": 1761925821
@@ -15207,11 +15181,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1761924023,
-        "end": 1761925239
-      },
       {
         "status": "Available",
         "start": 1761925239,
@@ -24531,7 +24500,13 @@
       {
         "status": "Available",
         "start": 1763106626,
-        "end": null
+        "end": 1763134230
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763134230,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25503,12 +25478,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1761924023,
-        "end": 1761931227,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761931227,
@@ -28145,11 +28114,6 @@
     "name": "GoldenVirginia",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761924023,
-        "end": 1761925821
-      },
-      {
         "status": "Available",
         "start": 1761925821,
         "end": 1761931227
@@ -30096,8 +30060,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763121634,
-        "end": null,
+        "end": 1763134230,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763134230,
+        "end": null
       }
     ]
   },
@@ -32220,11 +32189,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761924023,
-        "end": 1761939633
-      },
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761939633,
@@ -44926,6 +44890,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1763127027,
+        "end": 1763134230,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763134230,
         "end": null,
         "travel_type": "airstrip"
       }
