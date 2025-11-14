@@ -50240,9 +50240,9 @@
   },
   "986830": {
     "name": "Bidding War",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1763118790,
-    "executed_at": null,
+    "executed_at": 1763118843,
     "slots": {
       "P4": {
         "user_id": 2937449,
@@ -52410,10 +52410,31 @@
   "1004677": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1763205344,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 3301215,
+        "user_name": "Semykreen",
+        "checkpoint_pass_rate": 73,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1763119228,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3301215,
+        "user_name": "Semykreen",
+        "checkpoint_pass_rate": 73,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1004678": {
     "name": "Honey Trap",
@@ -54769,7 +54790,7 @@
   "1023028": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1763348736,
+    "ready_at": 1763435136,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -54793,6 +54814,14 @@
         "position": "Muscle",
         "position_number": 1,
         "item_available": true
+      },
+      "P4": {
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 73,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -54826,6 +54855,17 @@
         "position": "Muscle",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1763119228,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 73,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
