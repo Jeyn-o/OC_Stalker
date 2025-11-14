@@ -2752,11 +2752,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761900626,
-        "end": 1761908439
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761908439,
         "end": 1761910231
@@ -4636,12 +4631,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761900626,
-        "end": 1761907227,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1761907227,
         "end": 1761909628
@@ -5032,6 +5021,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763103637,
+        "end": 1763110835,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763110835,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -5728,11 +5723,6 @@
   "2289809": {
     "name": "Murder_Hobo",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1761900626,
-        "end": 1761902429
-      },
       {
         "status": "Available",
         "start": 1761902429,
@@ -6634,11 +6624,6 @@
   "2325329": {
     "name": "Crispyfoot",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761900626,
-        "end": 1761902429
-      },
       {
         "status": "Available",
         "start": 1761902429,
@@ -8972,11 +8957,6 @@
   "2583853": {
     "name": "frkn",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761900626,
-        "end": 1761902429
-      },
       {
         "status": "Available",
         "start": 1761902429,
@@ -21750,11 +21730,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761900626,
-        "end": 1761906025
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1761906025,
         "end": 1761907227,
@@ -23502,11 +23477,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "[Switzerland] Lost - Revives: ALL",
-        "start": 1761900626,
-        "end": 1761901234
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1761901234,
@@ -25358,12 +25328,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1761900626,
-        "end": 1761907227,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761907227,
@@ -28747,6 +28711,12 @@
       {
         "status": "[China] - Returning",
         "start": 1763101225,
+        "end": 1763110835,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763110835,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31685,11 +31655,6 @@
     "name": "SN00PYTOBY",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761900626,
-        "end": 1761908439
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761908439,
         "end": 1761910231
@@ -34292,8 +34257,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1763101225,
-        "end": null,
+        "end": 1763110835,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1763110835,
+        "end": null
       }
     ]
   },
@@ -36186,6 +36156,11 @@
       {
         "status": "Available",
         "start": 1763110225,
+        "end": 1763110835
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763110835,
         "end": null
       }
     ]
@@ -46369,7 +46344,13 @@
       {
         "status": "Available",
         "start": 1763109621,
-        "end": null
+        "end": 1763110835
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1763110835,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
