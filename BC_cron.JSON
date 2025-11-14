@@ -711,11 +711,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761884431,
-        "end": 1761886224
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761886224,
         "end": 1761888631
@@ -6816,8 +6811,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763089820,
-        "end": null,
+        "end": 1763094627,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1763094627,
+        "end": null
       }
     ]
   },
@@ -12012,8 +12012,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763088016,
-        "end": null,
+        "end": 1763094627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763094627,
+        "end": null
       }
     ]
   },
@@ -29191,8 +29196,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1763092827,
-        "end": null,
+        "end": 1763094627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1763094627,
+        "end": null
       }
     ]
   },
@@ -46270,7 +46280,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763092223,
-        "end": null
+        "end": 1763094627
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763094627,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
