@@ -1854,11 +1854,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761876624,
-        "end": 1761879026
-      },
-      {
         "status": "Available",
         "start": 1761879026,
         "end": 1761882628
@@ -2319,11 +2314,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761876624,
-        "end": 1761879026
-      },
       {
         "status": "Available",
         "start": 1761879026,
@@ -2905,11 +2895,6 @@
   "1184733": {
     "name": "Pro_eobard",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761876624,
-        "end": 1761877227
-      },
       {
         "status": "Available",
         "start": 1761877227,
@@ -4719,11 +4704,6 @@
   "2080816": {
     "name": "Weasel",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761876624,
-        "end": 1761879026
-      },
       {
         "status": "Available",
         "start": 1761879026,
@@ -8725,11 +8705,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761876624,
-        "end": 1761877826
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761877826,
@@ -13591,11 +13566,6 @@
     "name": "Twitt3y",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761876624,
-        "end": 1761878420
-      },
-      {
         "status": "Available",
         "start": 1761878420,
         "end": 1761886838
@@ -16521,11 +16491,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761876624,
-        "end": 1761877227
-      },
       {
         "status": "Available",
         "start": 1761877227,
@@ -19761,6 +19726,11 @@
       {
         "status": "Available",
         "start": 1763072424,
+        "end": 1763086824
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1763086824,
         "end": null
       }
     ]
@@ -41605,7 +41575,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763086227,
-        "end": null
+        "end": 1763086824
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763086824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
