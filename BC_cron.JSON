@@ -6805,11 +6805,6 @@
     "name": "Jeyno",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761983421,
-        "end": 1761988226
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761988226,
         "end": 1761989424
@@ -7866,11 +7861,6 @@
   "2647214": {
     "name": "Balgor",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761983421,
-        "end": 1761984026
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761984026,
@@ -9334,12 +9324,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1761983421,
-        "end": 1761990628,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1761990628,
@@ -12412,7 +12396,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763193021,
-        "end": null
+        "end": 1763193634
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763193634,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14451,11 +14441,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1761983421,
-        "end": 1761989424
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1761989424,
         "end": 1761996631,
@@ -16301,7 +16286,13 @@
       {
         "status": "Available",
         "start": 1763164219,
-        "end": null
+        "end": 1763193634
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763193634,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27305,11 +27296,6 @@
     "name": "SN00PYTOBY",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761983421,
-        "end": 1761984621
-      },
-      {
         "status": "Available",
         "start": 1761984621,
         "end": 1761992430
@@ -35537,11 +35523,6 @@
     "name": "Gemicide",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761983421,
-        "end": 1761985227
-      },
-      {
         "status": "Available",
         "start": 1761985227,
         "end": 1762039220
@@ -41691,6 +41672,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1763193021,
+        "end": 1763193634
+      },
+      {
+        "status": "Available",
+        "start": 1763193634,
         "end": null
       }
     ]
