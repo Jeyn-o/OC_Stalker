@@ -13733,7 +13733,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763242823,
-        "end": null
+        "end": 1763243420
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763243420,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14502,12 +14508,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1762033223,
-        "end": 1762036222,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1762036222,
@@ -18071,6 +18071,11 @@
       {
         "status": "Available",
         "start": 1763214019,
+        "end": 1763243420
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1763243420,
         "end": null
       }
     ]
@@ -32973,8 +32978,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763241616,
-        "end": null,
+        "end": 1763243420,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763243420,
+        "end": null
       }
     ]
   },
@@ -36276,11 +36286,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762033223,
-        "end": 1762035626
-      },
       {
         "status": "[Canada] - Going",
         "start": 1762035626,
