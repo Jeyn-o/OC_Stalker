@@ -2286,11 +2286,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761996028,
-        "end": 1761997236
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761997236,
         "end": 1761999631
@@ -3549,11 +3544,6 @@
     "name": "Khana",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761996028,
-        "end": 1762003830
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1762003830,
         "end": 1762005634
@@ -3938,8 +3928,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763194216,
-        "end": null,
+        "end": 1763206228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763206228,
+        "end": null
       }
     ]
   },
@@ -7549,11 +7544,6 @@
   "2647214": {
     "name": "Balgor",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761996028,
-        "end": 1761997236
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761997236,
@@ -12719,11 +12709,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761996028,
-        "end": 1762012224
-      },
-      {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1762012224,
         "end": 1762013427
@@ -17596,11 +17581,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761996028,
-        "end": 1762001424
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762001424,
         "end": 1762003229
@@ -19201,11 +19181,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761996028,
-        "end": 1761996631
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761996631,
@@ -21466,7 +21441,13 @@
       {
         "status": "Available",
         "start": 1763184625,
-        "end": null
+        "end": 1763206228
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763206228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21542,12 +21523,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1761996028,
-        "end": 1762003229,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762003229,
@@ -22407,8 +22382,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1763205022,
-        "end": null,
+        "end": 1763206228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1763206228,
+        "end": null
       }
     ]
   },
@@ -25050,7 +25030,13 @@
       {
         "status": "Available",
         "start": 1763086227,
-        "end": null
+        "end": 1763206228
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1763206228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27344,12 +27330,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1761996028,
-        "end": 1762008031,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762008031,
         "end": 1762008620
@@ -29141,11 +29121,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761996028,
-        "end": 1761997236
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761997236,
@@ -31454,11 +31429,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761996028,
-        "end": 1761996631
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761996631,
         "end": 1761997236
@@ -31829,11 +31799,6 @@
   "3820095": {
     "name": "Akijiro",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: Partial",
-        "start": 1761996028,
-        "end": 1761997236
-      },
       {
         "status": "Available",
         "start": 1761997236,
@@ -35894,8 +35859,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763205022,
-        "end": null,
+        "end": 1763206228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1763206228,
+        "end": null
       }
     ]
   },
@@ -37929,6 +37899,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763205022,
+        "end": 1763206228
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: Partial",
+        "start": 1763206228,
         "end": null
       }
     ]
