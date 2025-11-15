@@ -14679,12 +14679,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1761972621,
-        "end": 1761974429,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1761974429,
         "end": 1761976239,
@@ -21595,8 +21589,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1763177421,
-        "end": null,
+        "end": 1763182832,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1763182832,
+        "end": null
       }
     ]
   },
@@ -22356,7 +22355,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763182221,
-        "end": null
+        "end": 1763182832
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763182832,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25828,11 +25833,6 @@
     "name": "GoldenVirginia",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761972621,
-        "end": 1761973238
-      },
-      {
         "status": "Available",
         "start": 1761973238,
         "end": 1761980436
@@ -28376,12 +28376,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1761972621,
-        "end": 1761985227,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1761985227,
         "end": 1761991231
@@ -30188,12 +30182,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1761972621,
-        "end": 1761974429,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1761974429,
         "end": 1761978635
@@ -31935,6 +31923,11 @@
       {
         "status": "Available",
         "start": 1763168436,
+        "end": 1763182832
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763182832,
         "end": null
       }
     ]
@@ -36054,12 +36047,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1761972621,
-        "end": 1761979227,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1761979227,
@@ -40237,12 +40224,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1761972621,
-        "end": 1761984621,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761984621,
