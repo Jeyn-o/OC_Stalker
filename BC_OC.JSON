@@ -54534,10 +54534,29 @@
   "1016993": {
     "name": "Cash Me if You Can",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1763325422,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 69,
+        "position": "Lookout",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1763239229,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 69,
+        "position": "Lookout",
+        "position_number": 1
+      }
+    ]
   },
   "1020907": {
     "name": "Break the Bank",
@@ -54865,7 +54884,7 @@
   "1023018": {
     "name": "Smoke and Wing Mirrors",
     "status": "Recruiting",
-    "ready_at": 1763472594,
+    "ready_at": 1763386194,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -54883,13 +54902,6 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
-      },
-      "P4": {
-        "user_id": 3973984,
-        "user_name": "ssodon",
-        "checkpoint_pass_rate": 50,
-        "position": "Hustler",
-        "position_number": 2
       }
     },
     "action_log": [
@@ -54924,13 +54936,23 @@
         "checkpoint_pass_rate": 50,
         "position": "Hustler",
         "position_number": 2
+      },
+      {
+        "timestamp": 1763239229,
+        "action": "left",
+        "slot": "P4",
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 50,
+        "position": "Hustler",
+        "position_number": 2
       }
     ]
   },
   "1023019": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1763504922,
+    "ready_at": 1763591322,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -54961,6 +54983,13 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
+      },
+      "P4": {
+        "user_id": 3360442,
+        "user_name": "Dunne",
+        "checkpoint_pass_rate": 82,
+        "position": "Muscle",
+        "position_number": 3
       }
     },
     "action_log": [
@@ -55004,6 +55033,16 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1763239229,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3360442,
+        "user_name": "Dunne",
+        "checkpoint_pass_rate": 82,
+        "position": "Muscle",
+        "position_number": 3
       }
     ]
   },
