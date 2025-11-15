@@ -10024,12 +10024,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1762021830,
-        "end": 1762029031,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762029031,
         "end": 1762029617
@@ -16785,12 +16779,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1762021830,
-        "end": 1762023021,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762023021,
         "end": 1762023641
@@ -19514,12 +19502,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1762021830,
-        "end": 1762028429,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762028429,
         "end": 1762029031
@@ -21150,12 +21132,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1762021830,
-        "end": 1762033823,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1762033823,
         "end": 1762041017
@@ -22206,7 +22182,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763230221,
-        "end": null
+        "end": 1763232025
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763232025,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23575,12 +23557,6 @@
   "3619214": {
     "name": "GoldenVirginia",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1762021830,
-        "end": 1762031427,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1762031427,
@@ -27302,8 +27278,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763231431,
-        "end": null,
+        "end": 1763232025,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763232025,
+        "end": null
       }
     ]
   },
@@ -27765,12 +27746,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1762021830,
-        "end": 1762023021,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762023021,
@@ -33131,8 +33106,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1763224819,
-        "end": null,
+        "end": 1763232025,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1763232025,
+        "end": null
       }
     ]
   },
@@ -36427,6 +36407,11 @@
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1763229632,
+        "end": 1763232025
+      },
+      {
+        "status": "Available",
+        "start": 1763232025,
         "end": null
       }
     ]
