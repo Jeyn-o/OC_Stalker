@@ -2371,11 +2371,6 @@
     "name": "---GHOST---",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1762006226,
-        "end": 1762007431
-      },
-      {
         "status": "Available",
         "start": 1762007431,
         "end": 1762427425
@@ -4902,11 +4897,6 @@
     "name": "Litri",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762006226,
-        "end": 1762008620
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762008620,
         "end": 1762010423
@@ -6142,11 +6132,6 @@
     "name": "iam3vaj",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762006226,
-        "end": 1762012224
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1762012224,
         "end": 1762014030
@@ -6181,11 +6166,6 @@
   "2414438": {
     "name": "Caross",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762006226,
-        "end": 1762008620
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762008620,
@@ -6667,11 +6647,6 @@
   "2541399": {
     "name": "Theurgy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762006226,
-        "end": 1762008620
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762008620,
@@ -7192,11 +7167,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762006226,
-        "end": 1762008620
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762008620,
         "end": 1762009826
@@ -7677,11 +7647,6 @@
     "name": "ExiledAstronaut",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1762006226,
-        "end": 1762007431
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1762007431,
         "end": 1762008620
@@ -7806,12 +7771,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762006226,
-        "end": 1762012829,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762012829,
@@ -9159,11 +9118,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762006226,
-        "end": 1762008620
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762008620,
@@ -11382,11 +11336,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762006226,
-        "end": 1762008620
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762008620,
@@ -16746,7 +16695,13 @@
       {
         "status": "Available",
         "start": 1763214624,
-        "end": null
+        "end": 1763216421
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1763216421,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -17244,12 +17199,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1762006226,
-        "end": 1762007431,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762007431,
@@ -20696,8 +20645,13 @@
       {
         "status": "[China] - Going",
         "start": 1763206228,
-        "end": null,
+        "end": 1763216421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763216421,
+        "end": null
       }
     ]
   },
@@ -26511,8 +26465,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763209825,
-        "end": null,
+        "end": 1763216421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763216421,
+        "end": null
       }
     ]
   },
@@ -27833,6 +27792,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763215234,
+        "end": 1763216421,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763216421,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37039,7 +37004,13 @@
       {
         "status": "[United Kingdom] Lost - Revives: Partial",
         "start": 1763214624,
-        "end": null
+        "end": 1763216421
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763216421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
