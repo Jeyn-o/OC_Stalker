@@ -1896,11 +1896,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761959424,
-        "end": 1761961236
-      },
-      {
         "status": "Available",
         "start": 1761961236,
         "end": 1761993625
@@ -2443,11 +2438,6 @@
   "1184733": {
     "name": "Pro_eobard",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761959424,
-        "end": 1761963025
-      },
       {
         "status": "Available",
         "start": 1761963025,
@@ -27496,11 +27486,6 @@
     "name": "Littlegman212",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761959424,
-        "end": 1761975622
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1761975622,
         "end": 1761979822
@@ -29091,11 +29076,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761959424,
-        "end": 1761960019
-      },
-      {
         "status": "Available",
         "start": 1761960019,
         "end": 1761960627
@@ -30388,7 +30368,13 @@
       {
         "status": "Available",
         "start": 1763165417,
-        "end": null
+        "end": 1763169624
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763169624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33864,11 +33850,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761959424,
-        "end": 1761974429
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761974429,
         "end": 1761976239
@@ -35929,7 +35910,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763166024,
-        "end": null
+        "end": 1763169624
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763169624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39990,8 +39977,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763163030,
-        "end": null,
+        "end": 1763169624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763169624,
+        "end": null
       }
     ]
   },
