@@ -2350,11 +2350,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761973238,
-        "end": 1761973824
-      },
-      {
         "status": "Available",
         "start": 1761973824,
         "end": 1761975622
@@ -3776,11 +3771,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761973238,
-        "end": 1761974429
-      },
       {
         "status": "Available",
         "start": 1761974429,
@@ -7976,11 +7966,6 @@
     "name": "Balgor",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761973238,
-        "end": 1761974429
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761974429,
         "end": 1761977428
@@ -8796,12 +8781,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1761973238,
-        "end": 1761979822,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1761979822,
         "end": 1761980436
@@ -9418,11 +9397,6 @@
   "2680449": {
     "name": "BattlePrincess",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1761973238,
-        "end": 1761973824
-      },
       {
         "status": "Available",
         "start": 1761973824,
@@ -13429,11 +13403,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761973238,
-        "end": 1761976828
-      },
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1761976828,
@@ -20024,7 +19993,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763178621,
-        "end": null
+        "end": 1763183428
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763183428,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21595,7 +21570,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1763182832,
-        "end": null
+        "end": 1763183428
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1763183428,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25833,11 +25814,6 @@
     "name": "GoldenVirginia",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761973238,
-        "end": 1761980436
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761980436,
         "end": 1761981628
@@ -27604,7 +27580,13 @@
       {
         "status": "Available",
         "start": 1763165417,
-        "end": null
+        "end": 1763183428
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763183428,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35163,11 +35145,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761973238,
-        "end": 1761975031
-      },
-      {
         "status": "Available",
         "start": 1761975031,
         "end": 1762019421
@@ -35934,11 +35911,6 @@
   "3880785": {
     "name": "Gemicide",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761973238,
-        "end": 1761983421
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761983421,
@@ -37432,6 +37404,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1763178028,
+        "end": 1763183428,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1763183428,
         "end": null,
         "travel_type": "airstrip"
       }
