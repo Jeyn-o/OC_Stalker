@@ -10968,8 +10968,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763224819,
-        "end": null,
+        "end": 1763231431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763231431,
+        "end": null
       }
     ]
   },
@@ -14593,8 +14598,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763224819,
-        "end": null,
+        "end": 1763231431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763231431,
+        "end": null
       }
     ]
   },
@@ -20193,7 +20203,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763230820,
-        "end": null
+        "end": 1763231431
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763231431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20259,12 +20275,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1762021221,
-        "end": 1762028429,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762028429,
@@ -21139,11 +21149,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762021221,
-        "end": 1762021830
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1762021830,
@@ -23570,11 +23575,6 @@
   "3619214": {
     "name": "GoldenVirginia",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1762021221,
-        "end": 1762021830
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1762021830,
@@ -27296,6 +27296,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763230221,
+        "end": 1763231431,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763231431,
         "end": null,
         "travel_type": "airstrip"
       }
