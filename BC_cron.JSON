@@ -723,11 +723,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1761986424,
-        "end": 1761988828
-      },
-      {
         "status": "Available",
         "start": 1761988828,
         "end": 1761990023
@@ -822,12 +817,6 @@
   "446596": {
     "name": "Bucki",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1761986424,
-        "end": 1761993625,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1761993625,
@@ -1385,8 +1374,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763190025,
-        "end": null,
+        "end": 1763196626,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763196626,
+        "end": null
       }
     ]
   },
@@ -3607,11 +3601,6 @@
   "2080816": {
     "name": "Weasel",
     "activities": [
-      {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761986424,
-        "end": 1761989424
-      },
       {
         "status": "Available",
         "start": 1761989424,
@@ -12367,11 +12356,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761986424,
-        "end": 1761987636
-      },
-      {
         "status": "Available",
         "start": 1761987636,
         "end": 1761995427
@@ -12512,11 +12496,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761986424,
-        "end": 1761987636
-      },
       {
         "status": "Available",
         "start": 1761987636,
@@ -13158,11 +13137,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761986424,
-        "end": 1761990628
-      },
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1761990628,
@@ -13940,7 +13914,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763186427,
-        "end": null
+        "end": 1763196626
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763196626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18049,11 +18029,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1761986424,
-        "end": 1761988226
-      },
       {
         "status": "Available",
         "start": 1761988226,
@@ -22944,11 +22919,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "Available",
-        "start": 1761986424,
-        "end": 1761987022
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1761987022,
         "end": 1761988828
@@ -25129,12 +25099,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1761986424,
-        "end": 1761993625,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1761993625,
@@ -29755,11 +29719,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1761986424,
-        "end": 1761987022
-      },
-      {
         "status": "Available",
         "start": 1761987022,
         "end": 1761988226
@@ -33271,11 +33230,6 @@
     "name": "Psyden",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1761986424,
-        "end": 1761987636
-      },
-      {
         "status": "Available",
         "start": 1761987636,
         "end": 1761988828
@@ -33384,11 +33338,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1761986424,
-        "end": 1761991819
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1761991819,
@@ -35486,11 +35435,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761986424,
-        "end": 1761987636
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1761987636,
@@ -38614,19 +38558,19 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763189427,
-        "end": null,
+        "end": 1763196626,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763196626,
+        "end": null
       }
     ]
   },
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761986424,
-        "end": 1761994828
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1761994828,
@@ -41531,6 +41475,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1763194824,
+        "end": 1763196626,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763196626,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -41539,11 +41489,6 @@
   "3977638": {
     "name": "Vasapi_Sakti",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1761986424,
-        "end": 1761988828
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1761988828,
