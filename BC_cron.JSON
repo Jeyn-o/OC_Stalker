@@ -772,11 +772,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1762005634,
-        "end": 1762007431
-      },
-      {
         "status": "Available",
         "start": 1762007431,
         "end": 1762008620
@@ -1337,11 +1332,6 @@
   "517163": {
     "name": "poik9",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762005634,
-        "end": 1762008620
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762008620,
@@ -2220,11 +2210,6 @@
   "1184733": {
     "name": "Pro_eobard",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762005634,
-        "end": 1762008620
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762008620,
@@ -3377,11 +3362,6 @@
   "2154655": {
     "name": "Khana",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762005634,
-        "end": 1762734624
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1762734624,
@@ -7697,11 +7677,6 @@
     "name": "ExiledAstronaut",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762005634,
-        "end": 1762006226
-      },
-      {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1762006226,
         "end": 1762007431
@@ -9184,11 +9159,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1762005634,
-        "end": 1762006226
-      },
       {
         "status": "Available",
         "start": 1762006226,
@@ -14335,11 +14305,6 @@
     "name": "Khallie",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762005634,
-        "end": 1762009826
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762009826,
         "end": 1762015825,
@@ -18474,6 +18439,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1763214019,
+        "end": 1763215820,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763215820,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -21676,11 +21647,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762005634,
-        "end": 1762009826
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1762009826,
@@ -25820,8 +25786,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763205022,
-        "end": null,
+        "end": 1763215820,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763215820,
+        "end": null
       }
     ]
   },
@@ -28340,12 +28311,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1762005634,
-        "end": 1762006820,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762006820,
@@ -31831,11 +31796,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762005634,
-        "end": 1762007431
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762007431,
         "end": 1762009237
@@ -33038,7 +32998,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763214019,
-        "end": null
+        "end": 1763215820
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763215820,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39408,7 +39374,13 @@
       {
         "status": "Available",
         "start": 1763215234,
-        "end": null
+        "end": 1763215820
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1763215820,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
