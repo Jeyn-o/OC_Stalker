@@ -761,11 +761,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762099234,
-        "end": 1762102837
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762102837,
         "end": 1762109425,
@@ -5897,7 +5892,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763290222,
-        "end": null
+        "end": 1763309421
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763309421,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -7892,6 +7893,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763302219,
+        "end": 1763309421,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763309421,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14318,8 +14325,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763302820,
-        "end": null,
+        "end": 1763309421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763309421,
+        "end": null
       }
     ]
   },
@@ -22456,11 +22468,6 @@
     "name": "Mr_jeff14574",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1762099234,
-        "end": 1762102837
-      },
-      {
         "status": "Available",
         "start": 1762102837,
         "end": 1762131628
@@ -27161,12 +27168,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1762099234,
-        "end": 1762106430,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762106430,
         "end": 1762125626
@@ -27566,11 +27567,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762099234,
-        "end": 1762102223
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762102223,
@@ -39142,6 +39138,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763302219,
+        "end": 1763309421,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763309421,
         "end": null,
         "travel_type": "airstrip"
       }
