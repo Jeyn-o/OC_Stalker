@@ -3553,12 +3553,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1762096822,
-        "end": 1762104019,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1762104019,
         "end": 1762111828,
@@ -19226,8 +19220,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763294440,
-        "end": null,
+        "end": 1763307023,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763307023,
+        "end": null
       }
     ]
   },
@@ -19995,12 +19994,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762096822,
-        "end": 1762104019,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762104019,
@@ -27577,11 +27570,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762096822,
-        "end": 1762097423
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1762097423,
         "end": 1762098625
@@ -30694,8 +30682,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763299826,
-        "end": null,
+        "end": 1763307023,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763307023,
+        "end": null
       }
     ]
   },
@@ -30892,12 +30885,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762096822,
-        "end": 1762103426,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762103426,
@@ -32909,7 +32896,13 @@
       {
         "status": "Available",
         "start": 1763269822,
-        "end": null
+        "end": 1763307023
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1763307023,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34119,6 +34112,11 @@
       {
         "status": "Available",
         "start": 1763302219,
+        "end": 1763307023
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1763307023,
         "end": null
       }
     ]
