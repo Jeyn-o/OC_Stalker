@@ -4675,7 +4675,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763314823,
-        "end": null
+        "end": 1763316624
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763316624,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -8895,7 +8901,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763308829,
-        "end": null
+        "end": 1763316624
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763316624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9730,12 +9742,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1762106430,
-        "end": 1762108227,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762108227,
@@ -17840,11 +17846,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762106430,
-        "end": 1762143021
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1762143021,
         "end": 1762155029,
@@ -20822,11 +20823,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1762106430,
-        "end": 1762107623
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762107623,
         "end": 1762120228,
@@ -22973,11 +22969,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762106430,
-        "end": 1762109425
-      },
       {
         "status": "[China] - Going",
         "start": 1762109425,
@@ -27146,11 +27137,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762106430,
-        "end": 1762125626
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1762125626,
         "end": 1762127428,
@@ -27545,11 +27531,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762106430,
-        "end": 1762108818
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1762108818,
@@ -32024,8 +32005,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763305817,
-        "end": null,
+        "end": 1763316624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763316624,
+        "end": null
       }
     ]
   },
@@ -39013,7 +38999,13 @@
       {
         "status": "Available",
         "start": 1763316031,
-        "end": null
+        "end": 1763316624
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1763316624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
