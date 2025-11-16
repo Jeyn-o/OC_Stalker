@@ -10,6 +10,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763332225,
+        "end": 1763332827
+      },
+      {
+        "status": "Available",
+        "start": 1763332827,
         "end": null
       }
     ]
@@ -697,7 +702,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763326828,
-        "end": null
+        "end": 1763332827
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763332827,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -1338,11 +1349,6 @@
   "914683": {
     "name": "Droq",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762122629,
-        "end": 1762252231
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1762252231,
@@ -9666,12 +9672,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1762122629,
-        "end": 1762123822,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762123822,
         "end": 1762153825
@@ -13371,8 +13371,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763320219,
-        "end": null,
+        "end": 1763332827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763332827,
+        "end": null
       }
     ]
   },
@@ -17456,11 +17461,6 @@
     "name": "Krytical",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1762122629,
-        "end": 1762123219
-      },
-      {
         "status": "Available",
         "start": 1762123219,
         "end": 1762127428
@@ -19057,11 +19057,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1762122629,
-        "end": 1762131025
-      },
       {
         "status": "[Cayman Islands] Mugged - Revives: Partial",
         "start": 1762131025,
@@ -20694,8 +20689,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763326828,
-        "end": null,
+        "end": 1763332827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763332827,
+        "end": null
       }
     ]
   },
