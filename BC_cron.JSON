@@ -10584,6 +10584,11 @@
       {
         "status": "Available",
         "start": 1763323817,
+        "end": 1763333422
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763333422,
         "end": null
       }
     ]
@@ -13385,11 +13390,6 @@
     "name": "Khallie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762123219,
-        "end": 1762123822
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762123822,
         "end": 1762130426,
@@ -14157,11 +14157,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762123219,
-        "end": 1762125027
-      },
       {
         "status": "[China] - Going",
         "start": 1762125027,
@@ -15760,8 +15755,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763322019,
-        "end": null,
+        "end": 1763333422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763333422,
+        "end": null
       }
     ]
   },
@@ -17460,11 +17460,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762123219,
-        "end": 1762127428
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762127428,
@@ -19751,7 +19746,13 @@
       {
         "status": "Available",
         "start": 1763326828,
-        "end": null
+        "end": 1763333422
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763333422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29907,8 +29908,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763320817,
-        "end": null,
+        "end": 1763333422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763333422,
+        "end": null
       }
     ]
   },
