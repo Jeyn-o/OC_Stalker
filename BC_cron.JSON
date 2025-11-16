@@ -10858,11 +10858,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1762095635,
-        "end": 1762098024
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762098024,
         "end": 1762109425,
@@ -12530,7 +12525,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763304616,
-        "end": null
+        "end": 1763305817
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763305817,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24216,8 +24217,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1763304616,
-        "end": null,
+        "end": 1763305817,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1763305817,
+        "end": null
       }
     ]
   },
@@ -27580,12 +27586,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1762095635,
-        "end": 1762096822,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762096822,
@@ -32117,7 +32117,13 @@
       {
         "status": "Available",
         "start": 1763301633,
-        "end": null
+        "end": 1763305817
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1763305817,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
