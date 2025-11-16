@@ -8584,12 +8584,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1762085422,
-        "end": 1762092626,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1762092626,
         "end": 1762099825,
@@ -14363,6 +14357,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763289028,
+        "end": 1763295619,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763295619,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -20027,11 +20027,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762085422,
-        "end": 1762089032
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762089032,
         "end": 1762096226,
@@ -23316,7 +23311,13 @@
       {
         "status": "Available",
         "start": 1763174419,
-        "end": null
+        "end": 1763295619
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1763295619,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29236,6 +29237,11 @@
       {
         "status": "Available",
         "start": 1763294440,
+        "end": 1763295619
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763295619,
         "end": null
       }
     ]
@@ -34494,8 +34500,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1763290222,
-        "end": null,
+        "end": 1763295619,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763295619,
+        "end": null
       }
     ]
   },
@@ -37106,11 +37117,6 @@
     "name": "Icks-B",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762085422,
-        "end": 1762086627
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1762086627,
         "end": 1762093830,
@@ -39106,8 +39112,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1763294440,
-        "end": null,
+        "end": 1763295619,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1763295619,
+        "end": null
       }
     ]
   },
