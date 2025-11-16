@@ -7995,6 +7995,11 @@
       {
         "status": "Available",
         "start": 1762628433,
+        "end": 1763260823
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1763260823,
         "end": null
       }
     ]
@@ -24473,11 +24478,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762050634,
-        "end": 1762055426
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1762055426,
         "end": 1762066836,
@@ -25109,11 +25109,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762050634,
-        "end": 1762074627
-      },
       {
         "status": "Jail",
         "start": 1762074627,
@@ -27154,6 +27149,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763260229,
+        "end": 1763260823,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763260823,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34170,7 +34171,13 @@
       {
         "status": "Available",
         "start": 1763260229,
-        "end": null
+        "end": 1763260823
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1763260823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
