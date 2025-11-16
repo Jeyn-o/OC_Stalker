@@ -748,6 +748,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763248218,
+        "end": 1763268620
+      },
+      {
+        "status": "Available",
+        "start": 1763268620,
         "end": null
       }
     ]
@@ -14495,11 +14500,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1762058423,
-        "end": 1762084231
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762084231,
         "end": 1762089627,
@@ -27197,6 +27197,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763267430,
+        "end": 1763268620,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763268620,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33088,12 +33094,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762058423,
-        "end": 1762065029,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762065029,
         "end": 1762071643,
@@ -34215,7 +34215,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1763268025,
-        "end": null
+        "end": 1763268620
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763268620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36339,11 +36345,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1762058423,
-        "end": 1762059026
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1762059026,
