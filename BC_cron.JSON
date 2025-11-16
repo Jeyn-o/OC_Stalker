@@ -756,12 +756,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762073426,
-        "end": 1762080622,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762080622,
         "end": 1762092626
@@ -1257,7 +1251,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763283022,
-        "end": null
+        "end": 1763283636
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763283636,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4784,11 +4784,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1762073426,
-        "end": 1762092626
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1762092626,
@@ -10831,11 +10826,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1762073426,
-        "end": 1762074034
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1762074034,
         "end": 1762081235,
@@ -11381,11 +11371,6 @@
     "name": "Neodork",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762073426,
-        "end": 1762155628
-      },
-      {
         "status": "Jail",
         "start": 1762155628,
         "end": 1762157425
@@ -11425,11 +11410,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1762073426,
-        "end": 1762074627
-      },
       {
         "status": "[United Arab Emirates] Mugged - Revives: Partial",
         "start": 1762074627,
@@ -13247,6 +13227,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1763281832,
+        "end": 1763283636,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763283636,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34138,6 +34124,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1763276434,
+        "end": 1763283636,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763283636,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35028,7 +35020,13 @@
       {
         "status": "Available",
         "start": 1763269230,
-        "end": null
+        "end": 1763283636
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763283636,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
