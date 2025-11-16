@@ -1311,7 +1311,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763301633,
-        "end": null
+        "end": 1763302219
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763302219,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6349,8 +6355,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763290222,
-        "end": null,
+        "end": 1763302219,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763302219,
+        "end": null
       }
     ]
   },
@@ -7888,7 +7899,13 @@
       {
         "status": "Available",
         "start": 1763287234,
-        "end": null
+        "end": 1763302219
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763302219,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14325,8 +14342,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763295619,
-        "end": null,
+        "end": 1763302219,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763302219,
+        "end": null
       }
     ]
   },
@@ -16454,8 +16476,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763295028,
-        "end": null,
+        "end": 1763302219,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763302219,
+        "end": null
       }
     ]
   },
@@ -23020,11 +23047,6 @@
     "name": "highfishM",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1762092032,
-        "end": 1762094426
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762094426,
         "end": 1762106430,
@@ -27137,12 +27159,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1762092032,
-        "end": 1762099234,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1762099234,
         "end": 1762106430,
@@ -29246,6 +29262,11 @@
       {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1763300419,
+        "end": 1763302219
+      },
+      {
+        "status": "Available",
+        "start": 1763302219,
         "end": null
       }
     ]
@@ -29253,11 +29274,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762092032,
-        "end": 1762092626
-      },
       {
         "status": "[China] - Going",
         "start": 1762092626,
@@ -30230,12 +30246,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762092032,
-        "end": 1762098625,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762098625,
@@ -34120,8 +34130,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1763296821,
-        "end": null,
+        "end": 1763302219,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763302219,
+        "end": null
       }
     ]
   },
@@ -39148,7 +39163,13 @@
       {
         "status": "Available",
         "start": 1763297424,
-        "end": null
+        "end": 1763302219
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763302219,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
