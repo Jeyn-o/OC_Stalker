@@ -7973,12 +7973,6 @@
     "name": "Hussc-",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1762086024,
-        "end": 1762087224,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1762087224,
         "end": 1762088432,
@@ -12140,8 +12134,13 @@
       {
         "status": "[China] - Going",
         "start": 1763286019,
-        "end": null,
+        "end": 1763296226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763296226,
+        "end": null
       }
     ]
   },
@@ -29242,6 +29241,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763295619,
+        "end": 1763296226
+      },
+      {
+        "status": "[Hospital] Lost - Revives: OFF",
+        "start": 1763296226,
         "end": null
       }
     ]
@@ -32995,11 +32999,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762086024,
-        "end": 1762086627
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762086627,
@@ -39118,7 +39117,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763295619,
-        "end": null
+        "end": 1763296226
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763296226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
