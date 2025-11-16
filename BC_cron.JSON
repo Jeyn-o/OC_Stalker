@@ -7005,11 +7005,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1762116020,
-        "end": 1762176024
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762176024,
         "end": 1762189239,
@@ -11164,11 +11159,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762116020,
-        "end": 1762153238
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1762153238,
@@ -22898,6 +22888,11 @@
       {
         "status": "[South Africa] Lost - Revives: ALL",
         "start": 1763325026,
+        "end": 1763326222
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763326222,
         "end": null
       }
     ]
@@ -34893,8 +34888,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763319633,
-        "end": null,
+        "end": 1763326222,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763326222,
+        "end": null
       }
     ]
   },
@@ -36904,11 +36904,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762116020,
-        "end": 1762120228
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1762120228,
@@ -38963,8 +38958,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763325026,
-        "end": null,
+        "end": 1763326222,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763326222,
+        "end": null
       }
     ]
   },
