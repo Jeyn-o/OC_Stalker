@@ -761,11 +761,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762109425,
-        "end": 1762110624
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762110624,
         "end": 1762114825
@@ -7299,12 +7294,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1762109425,
-        "end": 1762117238,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762117238,
         "end": 1762151428
@@ -9722,11 +9711,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762109425,
-        "end": 1762117826
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762117826,
         "end": 1762118418
@@ -10755,11 +10739,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762109425,
-        "end": 1762113018
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762113018,
         "end": 1762115425
@@ -11200,12 +11179,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762109425,
-        "end": 1762116020,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762116020,
@@ -15871,8 +15844,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763314823,
-        "end": null,
+        "end": 1763319633,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1763319633,
+        "end": null
       }
     ]
   },
@@ -16351,7 +16329,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763302219,
-        "end": null
+        "end": 1763319633
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763319633,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18639,6 +18623,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763318419,
+        "end": 1763319633,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763319633,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -19861,7 +19851,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763317824,
-        "end": null
+        "end": 1763319633
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763319633,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22954,12 +22950,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1762109425,
-        "end": 1762120228,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1762120228,
@@ -32007,6 +31997,11 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1763317824,
+        "end": 1763319633
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763319633,
         "end": null
       }
     ]
@@ -32802,6 +32797,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763307023,
+        "end": 1763319633,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763319633,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34940,7 +34941,13 @@
       {
         "status": "Available",
         "start": 1763300419,
-        "end": null
+        "end": 1763319633
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763319633,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
