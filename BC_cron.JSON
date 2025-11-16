@@ -1575,11 +1575,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762090232,
-        "end": 1762104628
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762104628,
         "end": 1762111224,
@@ -6024,11 +6019,6 @@
     "name": "Jeyno",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762090232,
-        "end": 1762091430
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1762091430,
         "end": 1762103426,
@@ -7039,11 +7029,6 @@
   "2659592": {
     "name": "HanXeng",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1762090232,
-        "end": 1762090822
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1762090822,
@@ -14362,12 +14347,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1762090232,
-        "end": 1762093224,
-        "travel_type": "standard"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1762093224,
         "end": 1762094426
@@ -17668,8 +17647,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763293220,
-        "end": null,
+        "end": 1763300419,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1763300419,
+        "end": null
       }
     ]
   },
@@ -23483,12 +23467,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1762090232,
-        "end": 1762097423,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762097423,
         "end": 1762132829
@@ -27131,6 +27109,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763299826,
+        "end": 1763300419,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763300419,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29250,6 +29234,11 @@
       {
         "status": "Available",
         "start": 1763298030,
+        "end": 1763300419
+      },
+      {
+        "status": "[Hospital] Lost - Revives: OFF",
+        "start": 1763300419,
         "end": null
       }
     ]
@@ -30914,12 +30903,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1762090232,
-        "end": 1762096822,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762096822,
@@ -35065,8 +35048,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763293824,
-        "end": null,
+        "end": 1763300419,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763300419,
+        "end": null
       }
     ]
   },
