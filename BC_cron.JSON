@@ -13,12 +13,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1762121419,
-        "end": 1762133441,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1762133441,
         "end": 1762134623
@@ -4634,7 +4628,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763327421,
-        "end": null
+        "end": 1763331616
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763331616,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -9660,12 +9660,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1762121419,
-        "end": 1762122629,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1762122629,
@@ -31934,6 +31928,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763328620,
+        "end": 1763331616
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1763331616,
         "end": null
       }
     ]
@@ -38190,8 +38189,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763325618,
-        "end": null,
+        "end": 1763331616,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763331616,
+        "end": null
       }
     ]
   },
