@@ -10794,11 +10794,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762081235,
-        "end": 1762387824
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1762387824,
         "end": 1762392625
@@ -23492,11 +23487,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1762081235,
-        "end": 1762090232
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1762090232,
         "end": 1762097423,
@@ -24217,8 +24207,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1763284221,
-        "end": null,
+        "end": 1763291421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763291421,
+        "end": null
       }
     ]
   },
@@ -30880,11 +30875,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762081235,
-        "end": 1762083620
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762083620,
         "end": 1762090232,
@@ -36262,8 +36252,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763284822,
-        "end": null,
+        "end": 1763291421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763291421,
+        "end": null
       }
     ]
   },
@@ -38444,7 +38439,13 @@
       {
         "status": "Available",
         "start": 1763287820,
-        "end": null
+        "end": 1763291421
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763291421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
