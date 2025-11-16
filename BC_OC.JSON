@@ -53577,9 +53577,9 @@
   },
   "1010948": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1763275363,
-    "executed_at": null,
+    "executed_at": 1763275384,
     "slots": {
       "P6": {
         "user_id": 2647214,
@@ -55364,7 +55364,7 @@
   "1023030": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1763335596,
+    "ready_at": 1763421996,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -55374,6 +55374,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 75,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -55387,6 +55394,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1763275822,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 75,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     ]
   },
