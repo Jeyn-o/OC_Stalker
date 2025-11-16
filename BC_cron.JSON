@@ -5947,11 +5947,6 @@
     "name": "iam3vaj",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1762057825,
-        "end": 1762059632
-      },
-      {
         "status": "Available",
         "start": 1762059632,
         "end": 1762101024
@@ -6458,11 +6453,6 @@
   "2541399": {
     "name": "Theurgy",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1762057825,
-        "end": 1762060220
-      },
       {
         "status": "Available",
         "start": 1762060220,
@@ -8682,11 +8672,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1762057825,
-        "end": 1762060826
-      },
       {
         "status": "Available",
         "start": 1762060826,
@@ -34224,8 +34209,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1763260823,
-        "end": null,
+        "end": 1763268025,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1763268025,
+        "end": null
       }
     ]
   },
@@ -37182,7 +37172,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763265629,
-        "end": null
+        "end": 1763268025
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763268025,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38552,7 +38548,13 @@
       {
         "status": "Available",
         "start": 1763256035,
-        "end": null
+        "end": 1763268025
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763268025,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
