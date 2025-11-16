@@ -7963,11 +7963,6 @@
     "name": "Hussc-",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1762088432,
-        "end": 1762093224
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1762093224,
         "end": 1762093830,
@@ -16144,11 +16139,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762088432,
-        "end": 1762139422
-      },
       {
         "status": "[Japan] - Going",
         "start": 1762139422,
@@ -27156,7 +27146,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763298030,
-        "end": null
+        "end": 1763298624
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763298624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30729,8 +30725,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763292025,
-        "end": null,
+        "end": 1763298624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763298624,
+        "end": null
       }
     ]
   },
@@ -36323,8 +36324,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763292025,
-        "end": null,
+        "end": 1763298624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763298624,
+        "end": null
       }
     ]
   },
@@ -38505,7 +38511,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763298030,
-        "end": null
+        "end": 1763298624
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763298624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
