@@ -1251,7 +1251,13 @@
       {
         "status": "Available",
         "start": 1763205626,
-        "end": null
+        "end": 1763275820
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1763275820,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2355,12 +2361,6 @@
     "name": "gajeela09",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1762065624,
-        "end": 1762066836,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Idle",
         "start": 1762066836,
         "end": 1762078220
@@ -2769,11 +2769,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[South Africa] Mugged - Revives: OFF",
-        "start": 1762065624,
-        "end": 1762067429
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1762067429,
@@ -5922,8 +5917,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763271027,
-        "end": null,
+        "end": 1763275820,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763275820,
+        "end": null
       }
     ]
   },
@@ -9722,7 +9722,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763265629,
-        "end": null
+        "end": 1763275820
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763275820,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18788,8 +18794,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763275220,
-        "end": null,
+        "end": 1763275820,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763275820,
+        "end": null
       }
     ]
   },
@@ -21948,8 +21959,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763269230,
-        "end": null,
+        "end": 1763275820,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763275820,
+        "end": null
       }
     ]
   },
@@ -34125,8 +34141,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1763268620,
-        "end": null,
+        "end": 1763275820,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763275820,
+        "end": null
       }
     ]
   },
@@ -34480,6 +34501,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1763270423,
+        "end": 1763275820,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1763275820,
         "end": null,
         "travel_type": "airstrip"
       }
