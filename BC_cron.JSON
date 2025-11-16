@@ -16479,12 +16479,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762095022,
-        "end": 1762102223,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1762102223,
         "end": 1762114825,
@@ -18733,7 +18727,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763304616,
-        "end": null
+        "end": 1763305231
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763305231,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23477,8 +23477,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1763295028,
-        "end": null,
+        "end": 1763305231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763305231,
+        "end": null
       }
     ]
   },
@@ -25666,7 +25671,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763303429,
-        "end": null
+        "end": 1763305231
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763305231,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27150,8 +27161,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763304022,
-        "end": null,
+        "end": 1763305231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763305231,
+        "end": null
       }
     ]
   },
