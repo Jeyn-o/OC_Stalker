@@ -4099,7 +4099,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763256035,
-        "end": null
+        "end": 1763258442
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763258442,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5917,8 +5923,13 @@
       {
         "status": "[China] - Going",
         "start": 1763254229,
-        "end": null,
+        "end": 1763258442,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763258442,
+        "end": null
       }
     ]
   },
@@ -18827,12 +18838,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1762048828,
-        "end": 1762054225,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1762054225,
@@ -35169,12 +35174,6 @@
     "name": "Stealthination",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762048828,
-        "end": 1762060220,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762060220,
         "end": 1762071019,
@@ -36279,12 +36278,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1762048828,
-        "end": 1762050024,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1762050024,
