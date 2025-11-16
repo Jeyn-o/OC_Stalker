@@ -55439,8 +55439,8 @@
   },
   "1023030": {
     "name": "Clinical Precision",
-    "status": "Planning",
-    "ready_at": 1763594796,
+    "status": "Recruiting",
+    "ready_at": 1763508396,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -55450,13 +55450,6 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
-      },
-      "P2": {
-        "user_id": 2069227,
-        "user_name": "GOTOYOURHOME",
-        "checkpoint_pass_rate": 75,
-        "position": "Cat Burglar",
-        "position_number": 1
       },
       "P4": {
         "user_id": 2621654,
@@ -55518,6 +55511,16 @@
         "position": "Assassin",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1763302220,
+        "action": "left",
+        "slot": "P2",
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 75,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     ]
   },
@@ -55826,7 +55829,7 @@
   "1029903": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1763364962,
+    "ready_at": 1763451362,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -55836,6 +55839,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 75,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -55849,6 +55859,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1763302220,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 75,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     ]
   },
