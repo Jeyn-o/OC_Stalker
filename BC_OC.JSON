@@ -56191,18 +56191,19 @@
         "position_number": 1,
         "item_available": true
       },
-      "P2": {
-        "user_id": 2069227,
-        "user_name": "GOTOYOURHOME",
-        "checkpoint_pass_rate": 75,
-        "position": "Cat Burglar",
-        "position_number": 1
-      },
       "P4": {
         "user_id": 2080816,
         "user_name": "Weasel",
         "checkpoint_pass_rate": 64,
         "position": "Cleaner",
+        "position_number": 1,
+        "item_available": false
+      },
+      "P3": {
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 72,
+        "position": "Assassin",
         "position_number": 1,
         "item_available": false
       }
@@ -56237,6 +56238,27 @@
         "user_name": "Weasel",
         "checkpoint_pass_rate": 64,
         "position": "Cleaner",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1763389837,
+        "action": "left",
+        "slot": "P2",
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 75,
+        "position": "Cat Burglar",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1763389837,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 72,
+        "position": "Assassin",
         "position_number": 1,
         "item_available": false
       }
