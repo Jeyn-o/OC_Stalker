@@ -3505,12 +3505,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1762187430,
-        "end": 1762200043,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762200043,
         "end": 1762212024,
@@ -6679,12 +6673,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1762187430,
-        "end": 1762200043,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762200043,
         "end": 1762230019
@@ -9580,12 +9568,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1762187430,
-        "end": 1762198225,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1762198225,
@@ -14224,7 +14206,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763397029,
-        "end": null
+        "end": 1763397622
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763397622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24741,7 +24729,13 @@
       {
         "status": "Available",
         "start": 1763379620,
-        "end": null
+        "end": 1763397622
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763397622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27125,6 +27119,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763396423,
+        "end": 1763397622,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763397622,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29127,6 +29127,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763396423,
+        "end": 1763397622
+      },
+      {
+        "status": "Available",
+        "start": 1763397622,
         "end": null
       }
     ]
@@ -29970,11 +29975,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762187430,
-        "end": 1762188021
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762188021,
