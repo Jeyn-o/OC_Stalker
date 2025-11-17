@@ -4749,11 +4749,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1762131025,
-        "end": 1762134027
-      },
-      {
         "status": "[China] - Returning",
         "start": 1762134027,
         "end": 1762138225,
@@ -13431,6 +13426,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763334084,
+        "end": 1763341233,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763341233,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -19064,11 +19065,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Cayman Islands] Mugged - Revives: Partial",
-        "start": 1762131025,
-        "end": 1762133441
-      },
-      {
         "status": "[Cayman Islands] - Idle",
         "start": 1762133441,
         "end": 1762134027
@@ -22873,8 +22869,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763329221,
-        "end": null,
+        "end": 1763341233,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763341233,
+        "end": null
       }
     ]
   },
@@ -24894,11 +24895,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1762131025,
-        "end": 1762132829
-      },
       {
         "status": "Available",
         "start": 1762132829,
@@ -31936,7 +31932,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763339426,
-        "end": null
+        "end": 1763341233
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763341233,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34857,6 +34859,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1763338825,
+        "end": 1763341233
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763341233,
         "end": null
       }
     ]
@@ -38190,7 +38197,13 @@
       {
         "status": "Available",
         "start": 1763340022,
-        "end": null
+        "end": 1763341233
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763341233,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
