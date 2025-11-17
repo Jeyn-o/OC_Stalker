@@ -2122,6 +2122,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763372423,
+        "end": 1763379034,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763379034,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7235,12 +7241,6 @@
     "name": "ExiledAstronaut",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1762168822,
-        "end": 1762182032,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762182032,
         "end": 1762188626
@@ -8861,11 +8861,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762168822,
-        "end": 1762169433
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1762169433,
@@ -10678,11 +10673,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1762168822,
-        "end": 1762170018
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762170018,
         "end": 1762181422,
@@ -12457,6 +12447,11 @@
       {
         "status": "Available",
         "start": 1763317223,
+        "end": 1763379034
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1763379034,
         "end": null
       }
     ]
@@ -15862,7 +15857,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763370039,
-        "end": null
+        "end": 1763379034
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763379034,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19900,11 +19901,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762168822,
-        "end": 1762170018
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762170018,
@@ -24313,12 +24309,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762168822,
-        "end": 1762180224,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762180224,
         "end": 1762180823
@@ -25571,6 +25561,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763372423,
+        "end": 1763379034,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763379034,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30096,12 +30092,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1762168822,
-        "end": 1762175427,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762175427,
@@ -36299,8 +36289,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763372423,
-        "end": null,
+        "end": 1763379034,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763379034,
+        "end": null
       }
     ]
   },
