@@ -4757,11 +4757,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762194024,
-        "end": 1762197022
-      },
-      {
         "status": "[China] - Going",
         "start": 1762197022,
         "end": 1762201220,
@@ -17471,6 +17466,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763403627,
+        "end": 1763404231,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763404231,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -19769,8 +19770,13 @@
       {
         "status": "[China] - Going",
         "start": 1763394625,
-        "end": null,
+        "end": 1763404231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763404231,
+        "end": null
       }
     ]
   },
@@ -22840,8 +22846,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763397029,
-        "end": null,
+        "end": 1763404231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763404231,
+        "end": null
       }
     ]
   },
@@ -23313,12 +23324,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1762194024,
-        "end": 1762201220,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1762201220,
@@ -27181,8 +27186,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763403020,
-        "end": null,
+        "end": 1763404231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763404231,
+        "end": null
       }
     ]
   },
@@ -35081,6 +35091,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1763401221,
+        "end": 1763404231
+      },
+      {
+        "status": "Available",
+        "start": 1763404231,
         "end": null
       }
     ]
