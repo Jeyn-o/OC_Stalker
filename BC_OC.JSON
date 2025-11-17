@@ -55287,8 +55287,8 @@
   },
   "1023019": {
     "name": "Stage Fright",
-    "status": "Planning",
-    "ready_at": 1763677722,
+    "status": "Recruiting",
+    "ready_at": 1763591322,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -55319,13 +55319,6 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
-      },
-      "P4": {
-        "user_id": 3360442,
-        "user_name": "Dunne",
-        "checkpoint_pass_rate": 82,
-        "position": "Muscle",
-        "position_number": 3
       },
       "P6": {
         "user_id": 3628419,
@@ -55396,6 +55389,16 @@
         "checkpoint_pass_rate": 75,
         "position": "Sniper",
         "position_number": 1
+      },
+      {
+        "timestamp": 1763391030,
+        "action": "left",
+        "slot": "P4",
+        "user_id": 3360442,
+        "user_name": "Dunne",
+        "checkpoint_pass_rate": 82,
+        "position": "Muscle",
+        "position_number": 3
       }
     ]
   },
@@ -56315,10 +56318,31 @@
   "1032978": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1763476923,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 3139132,
+        "user_name": "JuanPaulo",
+        "checkpoint_pass_rate": 73,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1763391030,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3139132,
+        "user_name": "JuanPaulo",
+        "checkpoint_pass_rate": 73,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1032979": {
     "name": "Counter Offer",
