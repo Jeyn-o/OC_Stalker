@@ -3194,12 +3194,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1762153825,
-        "end": 1762166422,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762166422,
         "end": 1762179030,
@@ -5954,8 +5948,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763358632,
-        "end": null,
+        "end": 1763364026,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763364026,
+        "end": null
       }
     ]
   },
@@ -9690,12 +9689,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762153825,
-        "end": 1762165833,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762165833,
@@ -24900,8 +24893,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763352625,
-        "end": null,
+        "end": 1763364026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763364026,
+        "end": null
       }
     ]
   },
@@ -29254,7 +29252,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763362224,
-        "end": null
+        "end": 1763364026
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763364026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30141,11 +30145,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1762153825,
-        "end": 1762155029
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1762155029,
         "end": 1762156234,
@@ -30622,7 +30621,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763362833,
-        "end": null
+        "end": 1763364026
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763364026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32878,6 +32883,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763362833,
+        "end": 1763364026,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763364026,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -39101,7 +39112,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1763363421,
-        "end": null
+        "end": 1763364026
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1763364026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
