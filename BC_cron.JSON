@@ -6672,11 +6672,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1762162821,
-        "end": 1762163422
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1762163422,
         "end": 1762164624,
@@ -7966,12 +7961,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1762162821,
-        "end": 1762173031,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1762173031,
@@ -10621,6 +10610,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1763371829,
+        "end": 1763373023,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1763373023,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -19048,8 +19043,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1763365821,
-        "end": null,
+        "end": 1763373023,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763373023,
+        "end": null
       }
     ]
   },
@@ -24967,11 +24967,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762162821,
-        "end": 1762163422
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762163422,
@@ -34515,7 +34510,13 @@
       {
         "status": "Available",
         "start": 1763372423,
-        "end": null
+        "end": 1763373023
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1763373023,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
