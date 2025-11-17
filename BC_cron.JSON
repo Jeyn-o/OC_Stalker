@@ -1272,7 +1272,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763367622,
-        "end": null
+        "end": 1763368228
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763368228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6656,11 +6662,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762158027,
-        "end": 1762161023
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1762161023,
         "end": 1762162821,
@@ -11123,8 +11124,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763356832,
-        "end": null,
+        "end": 1763368228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763368228,
+        "end": null
       }
     ]
   },
@@ -11161,7 +11167,13 @@
       {
         "status": "Available",
         "start": 1763355634,
-        "end": null
+        "end": 1763368228
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1763368228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24897,7 +24909,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763367018,
-        "end": null
+        "end": 1763368228
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763368228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27627,12 +27645,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1762158027,
-        "end": 1762159824,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1762159824,
         "end": 1762161620,
@@ -30056,11 +30068,6 @@
   "3820095": {
     "name": "Akijiro",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762158027,
-        "end": 1762209623
-      },
       {
         "status": "[Hospital] Lost - Revives: Partial",
         "start": 1762209623,
