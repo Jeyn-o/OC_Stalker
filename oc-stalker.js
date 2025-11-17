@@ -6,6 +6,8 @@ const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
 
+const { logError } = require("./errorHandler");
+
 const API_KEY = process.env.API_KEY;
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
@@ -287,20 +289,39 @@ function reduceStatus(description, details, reviveSetting, state) {
 
 // === FETCH TORN API ===
 async function fetchData() {
-  const [crimesRes, membersRes] = await Promise.all([
-    fetch(CRIMES_API_URL),
-    fetch(MEMBERS_API_URL)
-  ]);
+    try {
+        const [crimesRes, membersRes] = await Promise.all([
+            fetch(CRIMES_API_URL),
+            fetch(MEMBERS_API_URL)
+        ]);
 
-  const [crimesData, membersData] = await Promise.all([
-    crimesRes.json(),
-    membersRes.json()
-  ]);
+        const [crimesData, membersData] = await Promise.all([
+            crimesRes.json(),
+            membersRes.json()
+        ]);
 
-  return {
-    crimes: crimesData.crimes || [],
-    members: membersData.members || []
-  };
+        // Check for API errors
+        if (membersData.error) {
+            logError(membersData.error.error || "Unknown error", membersData.error.code);
+            return { crimes: [], members: [] }; // skip processing
+        }
+
+        if (crimesData.error) {
+            logError(crimesData.error.error || "Unknown error", crimesData.error.code);
+            return { crimes: [], members: [] }; // skip processing
+        }
+
+        // Ensure expected structure
+        const crimes = Array.isArray(crimesData.crimes) ? crimesData.crimes : [];
+        const members = Array.isArray(membersData.members) ? membersData.members : [];
+
+        return { crimes, members };
+
+    } catch (err) {
+        // Network or parsing error
+        logError(err.message, null);
+        return { crimes: [], members: [] };
+    }
 }
 
 // === ACTIVITY TRACKER ===
