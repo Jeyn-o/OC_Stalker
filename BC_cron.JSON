@@ -3171,12 +3171,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1762190423,
-        "end": 1762197626,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762197626,
         "end": 1762239026
@@ -3501,7 +3495,13 @@
       {
         "status": "Available",
         "start": 1763389224,
-        "end": null
+        "end": 1763400628
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1763400628,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4141,12 +4141,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762190423,
-        "end": 1762198823,
-        "travel_type": "private"
-      },
       {
         "status": "Available",
         "start": 1762198823,
@@ -7810,7 +7804,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763398225,
-        "end": null
+        "end": 1763400628
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763400628,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10988,7 +10988,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763388625,
-        "end": null
+        "end": 1763400628
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763400628,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11091,8 +11097,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1763399424,
-        "end": null,
+        "end": 1763400628,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1763400628,
+        "end": null
       }
     ]
   },
@@ -17435,7 +17446,13 @@
       {
         "status": "Available",
         "start": 1763395821,
-        "end": null
+        "end": 1763400628
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763400628,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23265,11 +23282,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762190423,
-        "end": 1762194024
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1762194024,
         "end": 1762201220,
@@ -27124,6 +27136,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763399424,
+        "end": 1763400628,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763400628,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -27538,11 +27556,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1762190423,
-        "end": 1762191033
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762191033,
@@ -29629,11 +29642,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762190423,
-        "end": 1762239632
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1762239632,
@@ -31839,11 +31847,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762190423,
-        "end": 1762191033
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1762191033,
@@ -36778,6 +36781,11 @@
       {
         "status": "[South Africa] Mugged - Revives: ALL",
         "start": 1763398831,
+        "end": 1763400628
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763400628,
         "end": null
       }
     ]
