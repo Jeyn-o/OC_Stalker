@@ -1337,7 +1337,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763338222,
-        "end": null
+        "end": 1763338825
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763338825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3106,6 +3112,11 @@
       {
         "status": "Available",
         "start": 1763301633,
+        "end": 1763338825
+      },
+      {
+        "status": "Jail",
+        "start": 1763338825,
         "end": null
       }
     ]
@@ -4655,7 +4666,13 @@
       {
         "status": "Available",
         "start": 1763336419,
-        "end": null
+        "end": 1763338825
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763338825,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -21775,12 +21792,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1762128625,
-        "end": 1762138834,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1762138834,
         "end": 1762149020
@@ -29921,11 +29932,6 @@
     "name": "Akijiro",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: Partial",
-        "start": 1762128625,
-        "end": 1762130426
-      },
-      {
         "status": "Available",
         "start": 1762130426,
         "end": 1762136427
@@ -34858,6 +34864,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763326222,
+        "end": 1763338825
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1763338825,
         "end": null
       }
     ]
@@ -38187,6 +38198,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763338222,
+        "end": 1763338825
+      },
+      {
+        "status": "Available",
+        "start": 1763338825,
         "end": null
       }
     ]
