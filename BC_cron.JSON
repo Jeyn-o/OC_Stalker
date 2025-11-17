@@ -781,11 +781,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762167026,
-        "end": 1762174836
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762174836,
         "end": 1762181422,
@@ -3523,7 +3518,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763371829,
-        "end": null
+        "end": 1763377231
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763377231,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8854,11 +8855,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1762167026,
-        "end": 1762167634
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1762167634,
@@ -18594,7 +18590,13 @@
       {
         "status": "Available",
         "start": 1763376023,
-        "end": null
+        "end": 1763377231
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763377231,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38371,8 +38373,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1763370039,
-        "end": null,
+        "end": 1763377231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763377231,
+        "end": null
       }
     ]
   },
