@@ -33,11 +33,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1762133441,
-        "end": 1762134623
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762134623,
         "end": 1762147217,
@@ -4676,8 +4671,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763338825,
-        "end": null,
+        "end": 1763343633,
         "travel_type": "private"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763343633,
+        "end": null
       }
     ]
   },
@@ -17506,11 +17506,6 @@
     "name": "Krytical",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1762133441,
-        "end": 1762136427
-      },
-      {
         "status": "Available",
         "start": 1762136427,
         "end": 1762176024
@@ -19082,11 +19077,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1762133441,
-        "end": 1762134027
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762134027,
@@ -22327,7 +22317,13 @@
       {
         "status": "Available",
         "start": 1763314823,
-        "end": null
+        "end": 1763343633
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763343633,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34318,6 +34314,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1763338222,
+        "end": 1763343633,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1763343633,
         "end": null,
         "travel_type": "airstrip"
       }
