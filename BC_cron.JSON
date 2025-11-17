@@ -2290,6 +2290,11 @@
       {
         "status": "Available",
         "start": 1763339426,
+        "end": 1763349018
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1763349018,
         "end": null
       }
     ]
@@ -11980,7 +11985,13 @@
       {
         "status": "Available",
         "start": 1763347820,
-        "end": null
+        "end": 1763349018
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1763349018,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15828,6 +15839,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763347820,
+        "end": 1763349018,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763349018,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -21788,19 +21805,19 @@
       {
         "status": "[Argentina] - Going",
         "start": 1763341821,
-        "end": null,
+        "end": 1763349018,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1763349018,
+        "end": null
       }
     ]
   },
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1762138834,
-        "end": 1762149020
-      },
       {
         "status": "[China] - Returning",
         "start": 1762149020,
@@ -27097,8 +27114,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763348435,
-        "end": null,
+        "end": 1763349018,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763349018,
+        "end": null
       }
     ]
   },
@@ -36111,11 +36133,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762138834,
-        "end": 1762139422
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762139422,
