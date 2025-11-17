@@ -5976,7 +5976,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763388029,
-        "end": null
+        "end": 1763388625
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763388625,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -9446,7 +9452,13 @@
       {
         "status": "Available",
         "start": 1763386228,
-        "end": null
+        "end": 1763388625
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763388625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10536,7 +10548,13 @@
       {
         "status": "Available",
         "start": 1763388029,
-        "end": null
+        "end": 1763388625
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1763388625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11043,8 +11061,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763376624,
-        "end": null,
+        "end": 1763388625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763388625,
+        "end": null
       }
     ]
   },
@@ -12446,6 +12469,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1763387421,
+        "end": 1763388625
+      },
+      {
+        "status": "Available",
+        "start": 1763388625,
         "end": null
       }
     ]
@@ -17473,6 +17501,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763382029,
+        "end": 1763388625,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763388625,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -17481,11 +17515,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762178434,
-        "end": 1762261238
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1762261238,
@@ -27109,8 +27138,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763387421,
-        "end": null,
+        "end": 1763388625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763388625,
+        "end": null
       }
     ]
   },
@@ -27528,12 +27562,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1762178434,
-        "end": 1762180224,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762180224,
@@ -32733,11 +32761,6 @@
     "name": "Gemicide",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762178434,
-        "end": 1762485626
-      },
-      {
         "status": "Jail",
         "start": 1762485626,
         "end": 1762486234
@@ -36171,12 +36194,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1762178434,
-        "end": 1762179635,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1762179635,
