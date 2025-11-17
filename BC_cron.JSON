@@ -5970,8 +5970,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763385019,
-        "end": null,
+        "end": 1763388029,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1763388029,
+        "end": null
       }
     ]
   },
@@ -10526,6 +10531,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763383821,
+        "end": 1763388029
+      },
+      {
+        "status": "Available",
+        "start": 1763388029,
         "end": null
       }
     ]
@@ -11128,11 +11138,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762177824,
-        "end": 1762179030
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762179030,
@@ -12448,12 +12453,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1762177824,
-        "end": 1762189817,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762189817,
@@ -27530,11 +27529,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Canada] - Idle",
-        "start": 1762177824,
-        "end": 1762178434
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1762178434,
         "end": 1762180224,
@@ -31887,7 +31881,13 @@
       {
         "status": "Available",
         "start": 1763383821,
-        "end": null
+        "end": 1763388029
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763388029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32732,11 +32732,6 @@
   "3880785": {
     "name": "Gemicide",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1762177824,
-        "end": 1762178434
-      },
       {
         "status": "Available",
         "start": 1762178434,
@@ -38246,6 +38241,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1763381427,
+        "end": 1763388029,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763388029,
         "end": null,
         "travel_type": "airstrip"
       }
