@@ -5943,7 +5943,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763364026,
-        "end": null
+        "end": 1763370626
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763370626,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -6429,6 +6435,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763370039,
+        "end": 1763370626
+      },
+      {
+        "status": "Available",
+        "start": 1763370626,
         "end": null
       }
     ]
@@ -30794,11 +30805,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1762160450,
-        "end": 1762162229
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762162229,
