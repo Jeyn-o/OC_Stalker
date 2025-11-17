@@ -705,12 +705,9 @@ async function pingWithTimeout(url, timeoutMs = 10000) {
 
 // === MAIN FUNCTION ===
 (async function run() {
+  // DISCORD SHENANIGANS
+  pingWithTimeout('https://turtlebot-d89u.onrender.com/');
 
-//////////////////////////////////////
-//DISCORD SHENANIGANS
-pingWithTimeout('https://turtlebot-d89u.onrender.com/');
-
-	
   try {
     const delay = Math.floor(Math.random() * 5000);
     console.log(`⏳ Delay: ${delay / 1000}s`);
@@ -718,14 +715,23 @@ pingWithTimeout('https://turtlebot-d89u.onrender.com/');
 
     console.log(`🚀 Running at ${new Date().toISOString()}`);
 
-    const { members, crimes } = await fetchData();
+    const { members, crimes, error } = await fetchData();
+
+    // ✅ Safety check
+    if (error) {
+      // Import and call your errorHandler
+      const errorHandler = require('./errorHandler.js');
+      await errorHandler(error.code, error.error); 
+      console.log('⚠ API error detected. Skipping all updates.');
+      return; // exit early
+    }
+
     console.log(`🕵️ Fetched ${crimes.length} crimes.`);
 
     const membersById = Object.fromEntries(members.map(m => [m.id, m]));
-
     const userDb = await loadDb('userDb');
-	
-	// 🧠 Update CPR and Names databases
+
+    // 🧠 Update CPR and Names databases
     const cprDb = await loadDb('CprDb');
     const updatedCpr = updateCprDatabase(cprDb, crimes);
     await saveDb('CprDb', updatedCpr);
@@ -733,35 +739,27 @@ pingWithTimeout('https://turtlebot-d89u.onrender.com/');
     const namesDb = await loadDb('NamesDb');
     const updatedNames = updateNamesDatabase(namesDb, members);
     await saveDb('NamesDb', updatedNames);
-	//end CPR and names
-	  //insert prune
-		const updatedUsers = updateActivityDatabase(userDb, members);
-		const prunedUsers = pruneOldActivities(updatedUsers);
-		await saveDb('userDb', prunedUsers);
-	  //end prune
-	//const updatedUsers = updateActivityDatabase(userDb, members); //without prune
-    //await saveDb('userDb', updatedUsers); //without prune
 
-    // 🔄 Only update BC_OC and BC_naughty once per half hour
+    // Insert prune
+    const updatedUsers = updateActivityDatabase(userDb, members);
+    const prunedUsers = pruneOldActivities(updatedUsers);
+    await saveDb('userDb', prunedUsers);
+
+    // 🔄 Update crimes and naughty list
     const now = getUnixTime();
     const lastCrimeUpdate = await getLastCrimeUpdateTimeFromGitHub();
     const oneHour = 3600;
 
-    //if (now - lastCrimeUpdate >= (oneHour/2)) { //half hour
-    //  console.log("🕐 It's time to update crimes and naughty list.");
+    const crimeDb = await loadDb('crimesDb');
+    const updatedCrimes = updateCrimesDatabase(crimeDb, crimes, membersById);
+    await saveDb('crimesDb', updatedCrimes);
 
-      const crimeDb = await loadDb('crimesDb');
-      const updatedCrimes = updateCrimesDatabase(crimeDb, crimes, membersById);
-      await saveDb('crimesDb', updatedCrimes);
-
-      const naughtyDb = await loadDb('naughtyDb');
-      const updatedNaughty = updateNaughtyList(naughtyDb, updatedCrimes, updatedUsers);
-      await saveDb('naughtyDb', updatedNaughty);
-    //} else {
-    //  console.log("⏩ Skipping crimes and naughty updates — less than 30 minutes since last update.");
-    //}
+    const naughtyDb = await loadDb('naughtyDb');
+    const updatedNaughty = updateNaughtyList(naughtyDb, updatedCrimes, updatedUsers);
+    await saveDb('naughtyDb', updatedNaughty);
 
   } catch (err) {
     console.error('❌ Script error:', err);
   }
 })();
+
