@@ -1617,12 +1617,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762165220,
-        "end": 1762171822,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762171822,
         "end": 1762172428
@@ -7328,11 +7322,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762165220,
-        "end": 1762169433
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762169433,
         "end": 1762176024,
@@ -11191,11 +11180,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1762165220,
-        "end": 1762165833
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1762165833,
@@ -16358,12 +16342,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1762165220,
-        "end": 1762171822,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1762171822,
@@ -22387,8 +22365,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763365821,
-        "end": null,
+        "end": 1763375425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763375425,
+        "end": null
       }
     ]
   },
@@ -29250,6 +29233,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763374827,
+        "end": 1763375425
+      },
+      {
+        "status": "Available",
+        "start": 1763375425,
         "end": null
       }
     ]
@@ -34045,8 +34033,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1763368823,
-        "end": null,
+        "end": 1763375425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763375425,
+        "end": null
       }
     ]
   },
