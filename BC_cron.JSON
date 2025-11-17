@@ -33,12 +33,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1762134623,
-        "end": 1762147217,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762147217,
         "end": 1762166422
@@ -2399,11 +2393,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762134623,
-        "end": 1762143628
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1762143628,
@@ -11961,8 +11950,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1763343022,
-        "end": null,
+        "end": 1763344833,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1763344833,
+        "end": null
       }
     ]
   },
@@ -19770,6 +19764,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763338222,
+        "end": 1763344833,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763344833,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25533,11 +25533,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762134623,
-        "end": 1762200623
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1762200623,
         "end": 1762207822,
@@ -27071,7 +27066,13 @@
       {
         "status": "Available",
         "start": 1763344229,
-        "end": null
+        "end": 1763344833
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763344833,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32721,7 +32722,13 @@
       {
         "status": "Available",
         "start": 1763343022,
-        "end": null
+        "end": 1763344833
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1763344833,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
