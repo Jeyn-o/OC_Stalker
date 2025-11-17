@@ -718,7 +718,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763358037,
-        "end": null
+        "end": 1763374827
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763374827,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -1266,8 +1272,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763368228,
-        "end": null,
+        "end": 1763374827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763374827,
+        "end": null
       }
     ]
   },
@@ -1605,11 +1616,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762164624,
-        "end": 1762165220
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762165220,
@@ -6672,11 +6678,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762164624,
-        "end": 1762173031
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1762173031,
         "end": 1762185020,
@@ -10605,8 +10606,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763373023,
-        "end": null,
+        "end": 1763374827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763374827,
+        "end": null
       }
     ]
   },
@@ -14276,7 +14282,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763371829,
-        "end": null
+        "end": 1763374827
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763374827,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20812,12 +20824,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1762164624,
-        "end": 1762171822,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762171822,
         "end": 1762174222
@@ -23395,12 +23401,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1762164624,
-        "end": 1762171822,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762171822,
         "end": 1762176629
@@ -24117,8 +24117,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1763367622,
-        "end": null,
+        "end": 1763374827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763374827,
+        "end": null
       }
     ]
   },
@@ -29240,6 +29245,11 @@
       {
         "status": "Available",
         "start": 1763373634,
+        "end": 1763374827
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763374827,
         "end": null
       }
     ]
