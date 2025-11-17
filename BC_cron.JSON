@@ -8717,8 +8717,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763402446,
-        "end": null,
+        "end": 1763414422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763414422,
+        "end": null
       }
     ]
   },
@@ -10464,7 +10469,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763413822,
-        "end": null
+        "end": 1763414422
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763414422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11110,11 +11121,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762204225,
-        "end": 1762222228
-      },
       {
         "status": "Jail",
         "start": 1762222228,
@@ -13436,7 +13442,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763394020,
-        "end": null
+        "end": 1763414422
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763414422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19850,12 +19862,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1762204225,
-        "end": 1762205423,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762205423,
         "end": 1762241422
@@ -24200,12 +24206,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762204225,
-        "end": 1762215025,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762215025,
         "end": 1762228831
@@ -27183,8 +27183,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763413240,
-        "end": null,
+        "end": 1763414422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763414422,
+        "end": null
       }
     ]
   },
@@ -29151,6 +29156,11 @@
       {
         "status": "Available",
         "start": 1763410221,
+        "end": 1763414422
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1763414422,
         "end": null
       }
     ]
