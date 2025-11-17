@@ -1606,11 +1606,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762186226,
-        "end": 1762191033
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762191033,
         "end": 1762197626,
@@ -2141,11 +2136,6 @@
   "1184733": {
     "name": "Pro_eobard",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1762186226,
-        "end": 1762186822
-      },
       {
         "status": "Available",
         "start": 1762186822,
@@ -6095,12 +6085,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1762186226,
-        "end": 1762198225,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762198225,
@@ -13047,7 +13031,13 @@
       {
         "status": "[China] - Idle",
         "start": 1763395233,
-        "end": null
+        "end": 1763396423
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763396423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22817,8 +22807,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763389834,
-        "end": null,
+        "end": 1763396423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763396423,
+        "end": null
       }
     ]
   },
@@ -27118,7 +27113,13 @@
       {
         "status": "Available",
         "start": 1763394625,
-        "end": null
+        "end": 1763396423
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763396423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27526,12 +27527,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1762186226,
-        "end": 1762188021,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762188021,
@@ -29114,8 +29109,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1763394625,
-        "end": null,
+        "end": 1763396423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763396423,
+        "end": null
       }
     ]
   },
@@ -29958,12 +29958,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1762186226,
-        "end": 1762187430,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762187430,
@@ -38156,7 +38150,13 @@
       {
         "status": "Available",
         "start": 1763395233,
-        "end": null
+        "end": 1763396423
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763396423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38919,7 +38919,13 @@
       {
         "status": "Available",
         "start": 1763391637,
-        "end": null
+        "end": 1763396423
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1763396423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
