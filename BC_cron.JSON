@@ -7935,6 +7935,11 @@
       {
         "status": "Available",
         "start": 1763262033,
+        "end": 1763350820
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1763350820,
         "end": null
       }
     ]
@@ -7942,12 +7947,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1762140627,
-        "end": 1762150825,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1762150825,
@@ -12000,8 +11999,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1763349018,
-        "end": null,
+        "end": 1763350820,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] Mugged - Revives: Partial",
+        "start": 1763350820,
+        "end": null
       }
     ]
   },
@@ -27532,12 +27536,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1762140627,
-        "end": 1762147820,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1762147820,
         "end": 1762149020
@@ -30725,12 +30723,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1762140627,
-        "end": 1762147217,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762147217,
@@ -36867,7 +36859,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763350227,
-        "end": null
+        "end": 1763350820
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763350820,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38222,6 +38220,12 @@
       {
         "status": "[China] - Going",
         "start": 1763341233,
+        "end": 1763350820,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763350820,
         "end": null,
         "travel_type": "airstrip"
       }
