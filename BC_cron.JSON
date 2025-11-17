@@ -781,12 +781,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1762159824,
-        "end": 1762167026,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762167026,
         "end": 1762174836
@@ -1594,6 +1588,11 @@
       {
         "status": "Available",
         "start": 1762911028,
+        "end": 1763370039
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1763370039,
         "end": null
       }
     ]
@@ -2706,11 +2705,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762159824,
-        "end": 1762236621
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1762236621,
@@ -6430,6 +6424,11 @@
       {
         "status": "Available",
         "start": 1763015424,
+        "end": 1763370039
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763370039,
         "end": null
       }
     ]
@@ -11145,8 +11144,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1763368228,
-        "end": null,
+        "end": 1763370039,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1763370039,
+        "end": null
       }
     ]
   },
@@ -12453,12 +12457,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1762159824,
-        "end": 1762172428,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1762172428,
@@ -15867,8 +15865,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763357432,
-        "end": null,
+        "end": 1763370039,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763370039,
+        "end": null
       }
     ]
   },
@@ -24332,11 +24335,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[United Arab Emirates] Mugged - Revives: ALL",
-        "start": 1762159824,
-        "end": 1762162229
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762162229,
         "end": 1762168822
@@ -27624,12 +27622,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1762159824,
-        "end": 1762161620,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1762161620,
@@ -32050,6 +32042,11 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1763367622,
+        "end": 1763370039
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763370039,
         "end": null
       }
     ]
@@ -32883,6 +32880,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1763369421,
+        "end": 1763370039
+      },
+      {
+        "status": "Available",
+        "start": 1763370039,
         "end": null
       }
     ]
@@ -38380,6 +38382,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1763362833,
+        "end": 1763370039,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763370039,
         "end": null,
         "travel_type": "airstrip"
       }
