@@ -2420,12 +2420,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1762143628,
-        "end": 1762155628,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1762155628,
         "end": 1762158624
@@ -6376,7 +6370,13 @@
       {
         "status": "Available",
         "start": 1763315421,
-        "end": null
+        "end": 1763353826
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1763353826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11133,8 +11133,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763343022,
-        "end": null,
+        "end": 1763353826,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763353826,
+        "end": null
       }
     ]
   },
@@ -11170,7 +11175,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763342420,
-        "end": null
+        "end": 1763353826
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763353826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
