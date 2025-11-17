@@ -2295,6 +2295,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1763349018,
+        "end": 1763349622
+      },
+      {
+        "status": "Available",
+        "start": 1763349622,
         "end": null
       }
     ]
@@ -5928,8 +5933,13 @@
       {
         "status": "[China] - Going",
         "start": 1763345418,
-        "end": null,
+        "end": 1763349622,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763349622,
+        "end": null
       }
     ]
   },
@@ -5946,11 +5956,6 @@
   "2414438": {
     "name": "Caross",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762139422,
-        "end": 1762549228
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1762549228,
@@ -15944,12 +15949,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1762139422,
-        "end": 1762149020,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1762149020,
@@ -34352,8 +34351,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1763343633,
-        "end": null,
+        "end": 1763349622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763349622,
+        "end": null
       }
     ]
   },
@@ -36125,20 +36129,19 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763343022,
-        "end": null,
+        "end": 1763349622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763349622,
+        "end": null
       }
     ]
   },
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1762139422,
-        "end": 1762141222,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1762141222,
