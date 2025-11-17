@@ -781,12 +781,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1762151428,
-        "end": 1762158624,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1762158624,
         "end": 1762159824
@@ -7335,11 +7329,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1762151428,
-        "end": 1762152030
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762152030,
@@ -16036,12 +16025,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1762151428,
-        "end": 1762161023,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762161023,
         "end": 1762303224
@@ -19193,11 +19176,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1762151428,
-        "end": 1762169433
-      },
       {
         "status": "[Cayman Islands] Mugged - Revives: Partial",
         "start": 1762169433,
@@ -22434,11 +22412,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762151428,
-        "end": 1762174836
-      },
       {
         "status": "[China] - Going",
         "start": 1762174836,
@@ -27241,7 +27214,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763358632,
-        "end": null
+        "end": 1763361620
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763361620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29800,11 +29779,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762151428,
-        "end": 1762182032
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1762182032,
         "end": 1762190423
@@ -30630,7 +30604,13 @@
       {
         "status": "Available",
         "start": 1763315421,
-        "end": null
+        "end": 1763361620
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763361620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34050,8 +34030,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1763354427,
-        "end": null,
+        "end": 1763361620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763361620,
+        "end": null
       }
     ]
   },
