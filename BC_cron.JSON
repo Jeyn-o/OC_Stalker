@@ -2123,7 +2123,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763385619,
-        "end": null
+        "end": 1763386228
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763386228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4764,12 +4770,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1762176024,
-        "end": 1762181422,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1762181422,
         "end": 1762185642
@@ -7059,12 +7059,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1762176024,
-        "end": 1762189239,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762189239,
         "end": 1762456820
@@ -7315,11 +7309,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762176024,
-        "end": 1762185020
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762185020,
@@ -9441,8 +9430,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1763376624,
-        "end": null,
+        "end": 1763386228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763386228,
+        "end": null
       }
     ]
   },
@@ -17474,11 +17468,6 @@
     "name": "Krytical",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1762176024,
-        "end": 1762176629
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1762176629,
         "end": 1762178434
@@ -21766,6 +21755,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763379620,
+        "end": 1763386228,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763386228,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -23100,8 +23095,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763373634,
-        "end": null,
+        "end": 1763386228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763386228,
+        "end": null
       }
     ]
   },
@@ -27531,12 +27531,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1762176024,
-        "end": 1762177824,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1762177824,
         "end": 1762178434
@@ -29158,11 +29152,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762176024,
-        "end": 1762181422
-      },
       {
         "status": "[China] - Going",
         "start": 1762181422,
@@ -33913,7 +33902,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1763385019,
-        "end": null
+        "end": 1763386228
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763386228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36181,6 +36176,11 @@
       {
         "status": "Available",
         "start": 1763379034,
+        "end": 1763386228
+      },
+      {
+        "status": "[Hospital] Event - Revives: Partial",
+        "start": 1763386228,
         "end": null
       }
     ]
@@ -36886,7 +36886,13 @@
       {
         "status": "Available",
         "start": 1763363421,
-        "end": null
+        "end": 1763386228
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1763386228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
