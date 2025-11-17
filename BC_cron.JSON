@@ -33,11 +33,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762192226,
-        "end": 1762208422
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1762208422,
         "end": 1762220426,
@@ -2133,7 +2128,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763400021,
-        "end": null
+        "end": 1763402446
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763402446,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3494,8 +3495,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1763400628,
-        "end": null,
+        "end": 1763402446,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1763402446,
+        "end": null
       }
     ]
   },
@@ -4678,7 +4684,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763398225,
-        "end": null
+        "end": 1763402446
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763402446,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -8752,7 +8764,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763401824,
-        "end": null
+        "end": 1763402446
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763402446,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12431,11 +12449,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1762192226,
-        "end": 1762193420
-      },
       {
         "status": "Available",
         "start": 1762193420,
@@ -24207,11 +24220,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1762192226,
-        "end": 1762202425
-      },
-      {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1762202425,
         "end": 1762204225
@@ -27575,16 +27583,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1762192226,
-        "end": 1762192831
-      },
-      {
-        "status": "Available",
-        "start": 1762192831,
-        "end": 1762196433
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762196433,
         "end": 1762197022
@@ -29146,6 +29144,11 @@
       {
         "status": "Available",
         "start": 1763401824,
+        "end": 1763402446
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763402446,
         "end": null
       }
     ]
@@ -30518,8 +30521,13 @@
       {
         "status": "[Traveling] - Going",
         "start": 1763400021,
-        "end": null,
+        "end": 1763402446,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1763402446,
+        "end": null
       }
     ]
   },
@@ -32735,11 +32743,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1762192226,
-        "end": 1762215025
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1762215025,
