@@ -7840,6 +7840,11 @@
       {
         "status": "Available",
         "start": 1763352031,
+        "end": 1763425218
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1763425218,
         "end": null
       }
     ]
@@ -8701,7 +8706,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1763424619,
-        "end": null
+        "end": 1763425218
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763425218,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17502,6 +17513,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1763424619,
+        "end": 1763425218,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1763425218,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -19828,7 +19845,13 @@
       {
         "status": "Available",
         "start": 1763422233,
-        "end": null
+        "end": 1763425218
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1763425218,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20752,11 +20775,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1762215025,
-        "end": 1762215623
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1762215623,
@@ -22283,12 +22301,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1762215025,
-        "end": 1762224624,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762224624,
@@ -24213,11 +24225,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762215025,
-        "end": 1762228831
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762228831,
@@ -29175,12 +29182,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1762215025,
-        "end": 1762224024,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762224024,
         "end": 1762246842
@@ -30519,7 +30520,13 @@
       {
         "status": "[Abroad] - Idle",
         "start": 1763424619,
-        "end": null
+        "end": 1763425218
+      },
+      {
+        "status": "[Traveling] - Going",
+        "start": 1763425218,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -30620,11 +30627,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762215025,
-        "end": 1762218034
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762218034,
@@ -32731,12 +32733,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1762215025,
-        "end": 1762224624,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762224624,
         "end": 1762225234
@@ -33850,7 +33846,13 @@
       {
         "status": "[Argentina] Mugged - Revives: ALL",
         "start": 1763422819,
-        "end": null
+        "end": 1763425218
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763425218,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34343,11 +34345,6 @@
   "3915266": {
     "name": "Lucifixion",
     "activities": [
-      {
-        "status": "[United Kingdom] Mugged - Revives: ALL",
-        "start": 1762215025,
-        "end": 1762216829
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762216829,
@@ -35125,12 +35122,6 @@
   "3943448": {
     "name": "Maddog1997",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762215025,
-        "end": 1762221637,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762221637,
@@ -36166,6 +36157,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763418628,
+        "end": 1763425218,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763425218,
         "end": null,
         "travel_type": "airstrip"
       }
