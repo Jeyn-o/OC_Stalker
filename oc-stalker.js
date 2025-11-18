@@ -654,6 +654,8 @@ function updateCprDatabase(existingCprDb, crimes, validStatuses = ['Planning', '
   return updatedCprDb;
 }
 
+//Before adding re-join remove "Former Member" entry
+/*
 function updateNamesDatabase(existingNamesDb, membersList) {
   const updated = { ...existingNamesDb };
 
@@ -685,7 +687,58 @@ function updateNamesDatabase(existingNamesDb, membersList) {
 
   return updated;
 }
+*/
+function updateNamesDatabase(existingNamesDb, membersList) {
+  const updated = { ...existingNamesDb };
 
+  // Track current member IDs and names
+  const currentIds = new Set();
+  const currentNames = {};
+
+  // === 1. Process current members ===
+  for (const member of membersList) {
+    const { id, name } = member;
+    if (id == null || !name) continue;
+
+    const stringId = String(id);
+    currentIds.add(stringId);
+    currentNames[stringId] = name;
+
+    if (!updated[stringId]) {
+      // Brand-new user
+      updated[stringId] = [name];
+    } else if (!updated[stringId].includes(name)) {
+      // Known user but changed name
+      updated[stringId].push(name);
+    }
+  }
+
+  // === 2. Handle former / returning members ===
+  for (const id in updated) {
+    const isCurrent = currentIds.has(id);
+    const nameList = updated[id];
+    const hasFormerFlag = nameList.includes("Former Member");
+
+    // Case A: User was marked Former Member but is back → remove flag
+    if (hasFormerFlag && isCurrent) {
+      // Remove Former Member
+      updated[id] = nameList.filter(n => n !== "Former Member");
+
+      // Add their current name if it's new
+      const currentName = currentNames[id];
+      if (currentName && !updated[id].includes(currentName)) {
+        updated[id].push(currentName);
+      }
+    }
+
+    // Case B: User not in API list and not yet marked → add Former Member
+    else if (!isCurrent && !hasFormerFlag) {
+      updated[id].push("Former Member");
+    }
+  }
+
+  return updated;
+}
 
 
 ///////////////////////////////////
