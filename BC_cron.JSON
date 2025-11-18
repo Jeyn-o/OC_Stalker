@@ -4708,7 +4708,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763426423,
-        "end": null
+        "end": 1763428220
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763428220,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -4774,11 +4780,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1762218034,
-        "end": 1762218620
-      },
       {
         "status": "[China] - Returning",
         "start": 1762218620,
@@ -30647,12 +30648,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762218034,
-        "end": 1762224624,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762224624,
         "end": 1762227032
@@ -31877,12 +31872,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1762218034,
-        "end": 1762230629,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1762230629,
         "end": 1762232432,
@@ -32689,6 +32678,12 @@
       {
         "status": "[China] - Going",
         "start": 1763418022,
+        "end": 1763428220,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763428220,
         "end": null,
         "travel_type": "airstrip"
       }
