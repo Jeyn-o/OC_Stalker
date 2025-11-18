@@ -4781,12 +4781,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1762218620,
-        "end": 1762223431,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1762223431,
         "end": 1762240825
@@ -5987,8 +5981,13 @@
       {
         "status": "[China] - Going",
         "start": 1763424619,
-        "end": null,
+        "end": 1763428819,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763428819,
+        "end": null
       }
     ]
   },
@@ -24793,8 +24792,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763418628,
-        "end": null,
+        "end": 1763428819,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763428819,
+        "end": null
       }
     ]
   },
@@ -29184,6 +29188,11 @@
       {
         "status": "Available",
         "start": 1763416833,
+        "end": 1763428819
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763428819,
         "end": null
       }
     ]
