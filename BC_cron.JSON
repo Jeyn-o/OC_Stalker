@@ -8676,12 +8676,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1762254038,
-        "end": 1762261238,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762261238,
         "end": 1762261821
@@ -9280,6 +9274,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1763455223,
+        "end": 1763464225,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1763464225,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14189,8 +14189,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763457620,
-        "end": null,
+        "end": 1763464225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763464225,
+        "end": null
       }
     ]
   },
@@ -19881,11 +19886,6 @@
     "name": "Jordanw1",
     "activities": [
       {
-        "status": "[United Arab Emirates] Mugged - Revives: ALL",
-        "start": 1762254038,
-        "end": 1762257020
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762257020,
         "end": 1762278624
@@ -20773,8 +20773,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1763457024,
-        "end": null,
+        "end": 1763464225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763464225,
+        "end": null
       }
     ]
   },
@@ -25432,19 +25437,19 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763457620,
-        "end": null,
+        "end": 1763464225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763464225,
+        "end": null
       }
     ]
   },
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762254038,
-        "end": 1762258230
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762258230,
