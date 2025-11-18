@@ -5976,7 +5976,13 @@
       {
         "status": "[China] - Idle",
         "start": 1763428819,
-        "end": null
+        "end": 1763439625
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763439625,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -7769,8 +7775,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763433024,
-        "end": null,
+        "end": 1763439625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763439625,
+        "end": null
       }
     ]
   },
@@ -15830,7 +15841,13 @@
       {
         "status": "Available",
         "start": 1763437223,
-        "end": null
+        "end": 1763439625
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1763439625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27236,6 +27253,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763438430,
+        "end": 1763439625,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763439625,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -32781,12 +32804,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1762229423,
-        "end": 1762231222,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762231222,
         "end": 1762237222
@@ -36192,19 +36209,19 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763433024,
-        "end": null,
+        "end": 1763439625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763439625,
+        "end": null
       }
     ]
   },
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762229423,
-        "end": 1762257634
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1762257634,
