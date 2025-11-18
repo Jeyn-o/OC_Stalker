@@ -3969,6 +3969,12 @@
       {
         "status": "[China] - Going",
         "start": 1763476833,
+        "end": 1763481634,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763481634,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4678,7 +4684,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763479225,
-        "end": null
+        "end": 1763481634
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763481634,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -4744,11 +4756,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1762271431,
-        "end": 1762273225
-      },
       {
         "status": "[China] - Returning",
         "start": 1762273225,
@@ -7829,11 +7836,6 @@
     "name": "Hussc-",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762271431,
-        "end": 1762290623
-      },
-      {
         "status": "Jail",
         "start": 1762290623,
         "end": 1762297231
@@ -10880,8 +10882,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763469626,
-        "end": null,
+        "end": 1763481634,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763481634,
+        "end": null
       }
     ]
   },
@@ -19857,7 +19864,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763476833,
-        "end": null
+        "end": 1763481634
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763481634,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27202,7 +27215,13 @@
       {
         "status": "Available",
         "start": 1763470221,
-        "end": null
+        "end": 1763481634
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763481634,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30349,7 +30368,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763481022,
-        "end": null
+        "end": 1763481634
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763481634,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31790,20 +31815,19 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1763480421,
-        "end": null,
+        "end": 1763481634,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1763481634,
+        "end": null
       }
     ]
   },
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762271431,
-        "end": 1762283419,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762283419,
@@ -35097,11 +35121,6 @@
     "name": "Maddog1997",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762271431,
-        "end": 1762272033
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762272033,
         "end": 1762278018,
@@ -38228,7 +38247,13 @@
       {
         "status": "Available",
         "start": 1763479830,
-        "end": null
+        "end": 1763481634
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763481634,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
