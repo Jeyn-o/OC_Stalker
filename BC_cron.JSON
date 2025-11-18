@@ -6106,7 +6106,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763468426,
-        "end": null
+        "end": 1763470828
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763470828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7842,12 +7848,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1762260629,
-        "end": 1762271431,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762271431,
@@ -23313,12 +23313,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1762260629,
-        "end": 1762267223,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762267223,
         "end": 1762289424
@@ -30032,12 +30026,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762260629,
-        "end": 1762267223,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762267223,
         "end": 1762267828
@@ -34447,8 +34435,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1763465431,
-        "end": null,
+        "end": 1763470828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763470828,
+        "end": null
       }
     ]
   },
