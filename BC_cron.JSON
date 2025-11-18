@@ -2130,8 +2130,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763458821,
-        "end": null,
+        "end": 1763465431,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763465431,
+        "end": null
       }
     ]
   },
@@ -9444,12 +9449,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1762255224,
-        "end": 1762265423,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Returning",
         "start": 1762265423,
         "end": 1762275636,
@@ -15794,7 +15793,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763452221,
-        "end": null
+        "end": 1763465431
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763465431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19917,12 +19922,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1762255224,
-        "end": 1762261821,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762261821,
@@ -30444,7 +30443,13 @@
       {
         "status": "Available",
         "start": 1763452221,
-        "end": null
+        "end": 1763465431
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763465431,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30668,11 +30673,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762255224,
-        "end": 1762257020
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762257020,
@@ -34434,6 +34434,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1763459424,
+        "end": 1763465431,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1763465431,
         "end": null,
         "travel_type": "airstrip"
       }
