@@ -2655,11 +2655,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1762270234,
-        "end": 1762273225
-      },
-      {
         "status": "Available",
         "start": 1762273225,
         "end": 1762303819
@@ -3466,19 +3461,19 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763460040,
-        "end": null
+        "end": 1763480421
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763480421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "2184227": {
     "name": "SassyMcSlacker",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762270234,
-        "end": 1762281624,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762281624,
@@ -10382,6 +10377,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1763479225,
+        "end": 1763480421,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1763480421,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14181,11 +14182,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762270234,
-        "end": 1762272033
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762272033,
@@ -24158,11 +24154,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762270234,
-        "end": 1762284027
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1762284027,
         "end": 1762295422,
@@ -27627,11 +27618,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1762270234,
-        "end": 1762270827
-      },
-      {
         "status": "Available",
         "start": 1762270827,
         "end": 1762272033
@@ -29183,6 +29169,11 @@
       {
         "status": "Available",
         "start": 1763479830,
+        "end": 1763480421
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763480421,
         "end": null
       }
     ]
@@ -31799,7 +31790,13 @@
       {
         "status": "Available",
         "start": 1763479830,
-        "end": null
+        "end": 1763480421
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1763480421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
