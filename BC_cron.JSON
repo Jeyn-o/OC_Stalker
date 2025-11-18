@@ -4792,12 +4792,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1762282228,
-        "end": 1762286438,
-        "travel_type": "standard"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1762286438,
         "end": 1762287024
@@ -10358,8 +10352,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763485832,
-        "end": null,
+        "end": 1763492434,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763492434,
+        "end": null
       }
     ]
   },
@@ -11886,7 +11885,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763476833,
-        "end": null
+        "end": 1763492434
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763492434,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14159,12 +14164,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762282228,
-        "end": 1762287024,
-        "travel_type": "standard"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762287024,
@@ -18493,7 +18492,13 @@
       {
         "status": "Available",
         "start": 1763491828,
-        "end": null
+        "end": 1763492434
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763492434,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31762,6 +31767,11 @@
       {
         "status": "[Cayman Islands] Mugged - Revives: ALL",
         "start": 1763490622,
+        "end": 1763492434
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1763492434,
         "end": null
       }
     ]
