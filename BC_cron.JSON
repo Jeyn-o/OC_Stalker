@@ -1277,8 +1277,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763446824,
-        "end": null,
+        "end": 1763453427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763453427,
+        "end": null
       }
     ]
   },
@@ -2640,8 +2645,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763440226,
-        "end": null,
+        "end": 1763453427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763453427,
+        "end": null
       }
     ]
   },
@@ -3098,8 +3108,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763440817,
-        "end": null,
+        "end": 1763453427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763453427,
+        "end": null
       }
     ]
   },
@@ -5987,8 +6002,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763447424,
-        "end": null,
+        "end": 1763453427,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763453427,
+        "end": null
       }
     ]
   },
@@ -9474,12 +9494,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1762243232,
-        "end": 1762250442,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762250442,
@@ -34480,6 +34494,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1763448026,
+        "end": 1763453427,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1763453427,
         "end": null,
         "travel_type": "airstrip"
       }
