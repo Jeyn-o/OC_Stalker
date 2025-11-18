@@ -8703,11 +8703,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1762227032,
-        "end": 1762231222
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762231222,
         "end": 1762243822,
@@ -15834,8 +15829,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1763430021,
-        "end": null,
+        "end": 1763437223,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763437223,
+        "end": null
       }
     ]
   },
@@ -19001,6 +19001,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1763435424,
+        "end": 1763437223,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763437223,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -19134,11 +19140,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1762227032,
-        "end": 1762227625
-      },
       {
         "status": "[China] - Returning",
         "start": 1762227625,
@@ -27234,6 +27235,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763436017,
+        "end": 1763437223,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763437223,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30663,12 +30670,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762227032,
-        "end": 1762233622,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762233622,
         "end": 1762240825
@@ -32762,11 +32763,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Canada] Hospitalized - Revives: ALL",
-        "start": 1762227032,
-        "end": 1762229423
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1762229423,
@@ -36884,7 +36880,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763434832,
-        "end": null
+        "end": 1763437223
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763437223,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
