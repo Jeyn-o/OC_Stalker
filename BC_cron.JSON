@@ -6693,12 +6693,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1762272033,
-        "end": 1762272629,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1762272629,
         "end": 1762273836,
@@ -8297,12 +8291,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1762272033,
-        "end": 1762278624,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762278624,
@@ -10385,8 +10373,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763480421,
-        "end": null,
+        "end": 1763482234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763482234,
+        "end": null
       }
     ]
   },
@@ -12974,8 +12967,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763469626,
-        "end": null,
+        "end": 1763482234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763482234,
+        "end": null
       }
     ]
   },
@@ -14189,12 +14187,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762272033,
-        "end": 1762276829,
-        "travel_type": "standard"
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762276829,
@@ -24744,11 +24736,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1762272033,
-        "end": 1762272629
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762272629,
         "end": 1762279826,
@@ -27220,8 +27207,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763481634,
-        "end": null,
+        "end": 1763482234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1763482234,
+        "end": null
       }
     ]
   },
@@ -27624,6 +27616,11 @@
       {
         "status": "[Japan] Mugged - Revives: Partial",
         "start": 1763479830,
+        "end": 1763482234
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1763482234,
         "end": null
       }
     ]
@@ -27631,12 +27628,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1762272033,
-        "end": 1762273836,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1762273836,
@@ -29183,6 +29174,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763480421,
+        "end": 1763482234
+      },
+      {
+        "status": "Available",
+        "start": 1763482234,
         "end": null
       }
     ]
@@ -31821,6 +31817,11 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1763481634,
+        "end": 1763482234
+      },
+      {
+        "status": "[Cayman Islands] Mugged - Revives: ALL",
+        "start": 1763482234,
         "end": null
       }
     ]
@@ -34369,8 +34370,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1763476833,
-        "end": null,
+        "end": 1763482234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763482234,
+        "end": null
       }
     ]
   },
@@ -35120,12 +35126,6 @@
   "3943448": {
     "name": "Maddog1997",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762272033,
-        "end": 1762278018,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762278018,
@@ -39075,6 +39075,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763469626,
+        "end": 1763482234,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763482234,
         "end": null,
         "travel_type": "airstrip"
       }
