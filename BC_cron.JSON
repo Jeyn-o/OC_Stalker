@@ -1274,7 +1274,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763481022,
-        "end": null
+        "end": 1763482824
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763482824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5963,8 +5969,13 @@
       {
         "status": "[China] - Going",
         "start": 1763478619,
-        "end": null,
+        "end": 1763482824,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763482824,
+        "end": null
       }
     ]
   },
@@ -6103,8 +6114,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763470828,
-        "end": null,
+        "end": 1763482824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763482824,
+        "end": null
       }
     ]
   },
@@ -6630,11 +6646,6 @@
     "name": "frkn",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1762272629,
-        "end": 1762284027
-      },
-      {
         "status": "[Switzerland] Mugged - Revives: ALL",
         "start": 1762284027,
         "end": 1762286438
@@ -6692,12 +6703,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1762272629,
-        "end": 1762273836,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762273836,
@@ -8638,7 +8643,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763481022,
-        "end": null
+        "end": 1763482824
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763482824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16247,11 +16258,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762272629,
-        "end": 1762273225
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1762273225,
         "end": 1762274422,
@@ -17471,8 +17477,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763481022,
-        "end": null,
+        "end": 1763482824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763482824,
+        "end": null
       }
     ]
   },
@@ -19903,12 +19914,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762272629,
-        "end": 1762279240,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762279240,
         "end": 1762280426
@@ -21755,8 +21760,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763470221,
-        "end": null,
+        "end": 1763482824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763482824,
+        "end": null
       }
     ]
   },
@@ -22260,12 +22270,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1762272629,
-        "end": 1762279826,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1762279826,
@@ -24735,12 +24739,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1762272629,
-        "end": 1762279826,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762279826,
@@ -27213,7 +27211,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763482234,
-        "end": null
+        "end": 1763482824
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763482824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36875,6 +36879,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763481022,
+        "end": 1763482824
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: ALL",
+        "start": 1763482824,
         "end": null
       }
     ]
