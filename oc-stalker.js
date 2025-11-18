@@ -318,10 +318,19 @@ async function fetchData() {
         return { crimes, members };
 
     } catch (err) {
-        // Network or parsing error
-        logError(err.message, null);
-        return { crimes: [], members: [] };
-    }
+    logError(err.message, null);
+
+    return { 
+        error: {
+            code: null,
+            error: err.message,
+            type: "malformed_json"
+        },
+        crimes: [],
+        members: []
+    };
+	}
+
 }
 
 // === ACTIVITY TRACKER ===
