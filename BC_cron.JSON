@@ -10473,6 +10473,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763424619,
+        "end": 1763427022
+      },
+      {
+        "status": "Available",
+        "start": 1763427022,
         "end": null
       }
     ]
@@ -13465,8 +13470,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763414422,
-        "end": null,
+        "end": 1763427022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763427022,
+        "end": null
       }
     ]
   },
@@ -17528,6 +17538,12 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763425218,
+        "end": 1763427022,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1763427022,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -19147,12 +19163,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1762216829,
-        "end": 1762227032,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1762227032,
@@ -27620,12 +27630,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1762216829,
-        "end": 1762223431,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762223431,
         "end": 1762231827
@@ -30524,8 +30528,13 @@
       {
         "status": "[Traveling] - Going",
         "start": 1763425218,
-        "end": null,
+        "end": 1763427022,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1763427022,
+        "end": null
       }
     ]
   },
@@ -34344,11 +34353,6 @@
   "3915266": {
     "name": "Lucifixion",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762216829,
-        "end": 1762221021
-      },
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1762221021,
