@@ -7147,12 +7147,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762342824,
-        "end": 1762350028,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762350028,
         "end": 1762377019
@@ -9050,8 +9044,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1763545823,
-        "end": null,
+        "end": 1763553026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763553026,
+        "end": null
       }
     ]
   },
@@ -10189,7 +10188,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763552421,
-        "end": null
+        "end": 1763553026
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763553026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18785,11 +18790,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1762342824,
-        "end": 1762343426
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1762343426,
         "end": 1762345222,
@@ -24862,6 +24862,12 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1763545823,
+        "end": 1763553026,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763553026,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -28710,6 +28716,11 @@
       {
         "status": "[Mexico] Hospitalized - Revives: OFF",
         "start": 1763552421,
+        "end": 1763553026
+      },
+      {
+        "status": "[Mexico] Hospitalized - Revives: ALL",
+        "start": 1763553026,
         "end": null
       }
     ]
@@ -35738,8 +35749,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763546439,
-        "end": null,
+        "end": 1763553026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763553026,
+        "end": null
       }
     ]
   },
