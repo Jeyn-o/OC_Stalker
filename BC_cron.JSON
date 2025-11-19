@@ -15609,7 +15609,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1763520617,
-        "end": null
+        "end": 1763521821
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1763521821,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26935,6 +26941,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763521233,
+        "end": 1763521821,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763521821,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -27318,8 +27330,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1763512827,
-        "end": null,
+        "end": 1763521821,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763521821,
+        "end": null
       }
     ]
   },
@@ -28896,6 +28913,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1763518217,
+        "end": 1763521821
+      },
+      {
+        "status": "Available",
+        "start": 1763521821,
         "end": null
       }
     ]
@@ -31515,11 +31537,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1762311635,
-        "end": 1762314625
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1762314625,
         "end": 1762323629,
@@ -32401,11 +32418,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1762311635,
-        "end": 1762312219
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1762312219,
@@ -35908,8 +35920,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763515229,
-        "end": null,
+        "end": 1763521821,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763521821,
+        "end": null
       }
     ]
   },
@@ -36630,7 +36647,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763521233,
-        "end": null
+        "end": 1763521821
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763521821,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
