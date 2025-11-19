@@ -866,11 +866,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762376433,
-        "end": 1762379425
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762379425,
         "end": 1762380625
@@ -8071,11 +8066,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762376433,
-        "end": 1762379425
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1762379425,
         "end": 1762381222,
@@ -11635,6 +11625,11 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: Partial",
         "start": 1763584232,
+        "end": 1763586622
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763586622,
         "end": null
       }
     ]
@@ -13854,12 +13849,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1762376433,
-        "end": 1762380625,
-        "travel_type": "standard"
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1762380625,
@@ -19315,7 +19304,13 @@
       {
         "status": "[China] - Idle",
         "start": 1763580025,
-        "end": null
+        "end": 1763586622
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763586622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19344,11 +19339,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762376433,
-        "end": 1762404030
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1762404030,
@@ -22231,11 +22221,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762376433,
-        "end": 1762407628
-      },
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1762407628,
@@ -26721,11 +26706,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762376433,
-        "end": 1762389029
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1762389029,
@@ -38566,8 +38546,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763585423,
-        "end": null,
+        "end": 1763586622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763586622,
+        "end": null
       }
     ]
   },
