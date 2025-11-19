@@ -1467,12 +1467,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1762359022,
-        "end": 1762371620,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1762371620,
         "end": 1762384222,
@@ -2496,6 +2490,11 @@
       {
         "status": "Available",
         "start": 1763126419,
+        "end": 1763569226
+      },
+      {
+        "status": "Jail",
+        "start": 1763569226,
         "end": null
       }
     ]
@@ -5973,8 +5972,13 @@
       {
         "status": "[China] - Going",
         "start": 1763564440,
-        "end": null,
+        "end": 1763569226,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763569226,
+        "end": null
       }
     ]
   },
@@ -8481,19 +8485,19 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763568622,
-        "end": null
+        "end": 1763569226
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763569226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1762359022,
-        "end": 1762368620,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762368620,
@@ -21727,7 +21731,13 @@
       {
         "status": "Available",
         "start": 1763561425,
-        "end": null
+        "end": 1763569226
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763569226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30028,11 +30038,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[Cayman Islands] Mugged - Revives: ALL",
-        "start": 1762359022,
-        "end": 1762361428
-      },
-      {
         "status": "[Cayman Islands] - Idle",
         "start": 1762361428,
         "end": 1762383029
@@ -34593,12 +34598,6 @@
     "name": "Maddog1997",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762359022,
-        "end": 1762365644,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] Lost - Revives: Partial",
         "start": 1762365644,
         "end": 1762366831
@@ -35681,11 +35680,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762359022,
-        "end": 1762359630
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762359630,
@@ -37756,8 +37750,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763558422,
-        "end": null,
+        "end": 1763569226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763569226,
+        "end": null
       }
     ]
   },
