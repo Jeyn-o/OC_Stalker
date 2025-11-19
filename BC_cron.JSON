@@ -6125,7 +6125,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763547627,
-        "end": null
+        "end": 1763556027
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763556027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7671,8 +7677,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763549428,
-        "end": null,
+        "end": 1763556027,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763556027,
+        "end": null
       }
     ]
   },
@@ -9154,11 +9165,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762345828,
-        "end": 1762347024
-      },
-      {
         "status": "[China] - Going",
         "start": 1762347024,
         "end": 1762357225,
@@ -10189,6 +10195,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763554834,
+        "end": 1763556027,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763556027,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -17162,6 +17174,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1763554224,
+        "end": 1763556027,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763556027,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33877,6 +33895,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763548821,
+        "end": 1763556027,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763556027,
         "end": null,
         "travel_type": "airstrip"
       }
