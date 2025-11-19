@@ -2215,8 +2215,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763565631,
-        "end": null,
+        "end": 1763572226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763572226,
+        "end": null
       }
     ]
   },
@@ -6515,7 +6520,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763570426,
-        "end": null
+        "end": 1763572226
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763572226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8133,11 +8144,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762362039,
-        "end": 1762368620
-      },
       {
         "status": "[Canada] - Going",
         "start": 1762368620,
@@ -12181,11 +12187,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762362039,
-        "end": 1762362622
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1762362622,
@@ -22325,6 +22326,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763564440,
+        "end": 1763572226,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763572226,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -26762,8 +26769,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763571028,
-        "end": null,
+        "end": 1763572226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1763572226,
+        "end": null
       }
     ]
   },
