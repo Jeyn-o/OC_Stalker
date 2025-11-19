@@ -872,11 +872,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762380625,
-        "end": 1762410633
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762410633,
         "end": 1762417826,
@@ -5918,7 +5913,13 @@
       {
         "status": "[China] - Idle",
         "start": 1763584822,
-        "end": null
+        "end": 1763590824
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763590824,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -10085,8 +10086,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1763584232,
-        "end": null,
+        "end": 1763590824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763590824,
+        "end": null
       }
     ]
   },
@@ -13807,12 +13813,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1762380625,
-        "end": 1762384831,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1762384831,
         "end": 1762385430
@@ -15305,7 +15305,13 @@
       {
         "status": "Available",
         "start": 1763585423,
-        "end": null
+        "end": 1763590824
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1763590824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22670,6 +22676,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1763581823,
+        "end": 1763590824,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1763590824,
         "end": null,
         "travel_type": "airstrip"
       }
