@@ -18270,12 +18270,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762327223,
-        "end": 1762334430,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762334430,
         "end": 1762335033
@@ -23551,8 +23545,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1763530819,
-        "end": null,
+        "end": 1763537430,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1763537430,
+        "end": null
       }
     ]
   },
@@ -28765,6 +28764,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1763532620,
+        "end": 1763537430
+      },
+      {
+        "status": "Available",
+        "start": 1763537430,
         "end": null
       }
     ]
@@ -29501,11 +29505,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1762327223,
-        "end": 1762328422
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1762328422,
         "end": 1762329029,
@@ -29937,7 +29936,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763536226,
-        "end": null
+        "end": 1763537430
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763537430,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31384,6 +31389,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1763535638,
+        "end": 1763537430
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763537430,
         "end": null
       }
     ]
