@@ -6135,8 +6135,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763556027,
-        "end": null,
+        "end": 1763568622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763568622,
+        "end": null
       }
     ]
   },
@@ -8470,8 +8475,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1763566824,
-        "end": null,
+        "end": 1763568622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1763568622,
+        "end": null
       }
     ]
   },
@@ -13940,12 +13950,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1762358433,
-        "end": 1762362622,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Idle",
         "start": 1762362622,
@@ -22793,12 +22797,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1762358433,
-        "end": 1762365021,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762365021,
         "end": 1762402220
@@ -24178,11 +24176,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762358433,
-        "end": 1762413020
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762413020,
         "end": 1762419634,
@@ -24796,12 +24789,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1762358433,
-        "end": 1762359630,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762359630,
@@ -26729,6 +26716,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763568036,
+        "end": 1763568622,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763568622,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -28690,6 +28683,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1763568036,
+        "end": 1763568622
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763568622,
         "end": null
       }
     ]
@@ -29966,7 +29964,13 @@
       {
         "status": "Available",
         "start": 1763502622,
-        "end": null
+        "end": 1763568622
+      },
+      {
+        "status": "[Traveling] - Going",
+        "start": 1763568622,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -32041,7 +32045,13 @@
       {
         "status": "Available",
         "start": 1763535638,
-        "end": null
+        "end": 1763568622
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763568622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
