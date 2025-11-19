@@ -1452,12 +1452,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1762384831,
-        "end": 1762397424,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762397424,
         "end": 1762431022
@@ -5913,8 +5907,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763590824,
-        "end": null,
+        "end": 1763595029,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1763595029,
+        "end": null
       }
     ]
   },
@@ -8949,7 +8948,13 @@
       {
         "status": "Available",
         "start": 1763578838,
-        "end": null
+        "end": 1763595029
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1763595029,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13786,11 +13791,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762384831,
-        "end": 1762385430
-      },
-      {
         "status": "[China] - Going",
         "start": 1762385430,
         "end": 1762389621,
@@ -15294,8 +15294,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1763593824,
-        "end": null,
+        "end": 1763595029,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763595029,
+        "end": null
       }
     ]
   },
@@ -23526,11 +23531,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762384831,
-        "end": 1762426832
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1762426832,
         "end": 1762437644,
@@ -28638,6 +28638,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1763594419,
+        "end": 1763595029
+      },
+      {
+        "status": "Available",
+        "start": 1763595029,
         "end": null
       }
     ]
@@ -29960,11 +29965,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762384831,
-        "end": 1762386015
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762386015,
@@ -34507,12 +34507,6 @@
     "name": "Maddog1997",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1762384831,
-        "end": 1762386015,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1762386015,
         "end": 1762387824,
@@ -38526,6 +38520,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1763589637,
+        "end": 1763595029
+      },
+      {
+        "status": "Available",
+        "start": 1763595029,
         "end": null
       }
     ]
