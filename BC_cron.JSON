@@ -126,12 +126,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1762339223,
-        "end": 1762351229,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762351229,
         "end": 1762357225
@@ -1384,8 +1378,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763542219,
-        "end": null,
+        "end": 1763549428,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763549428,
+        "end": null
       }
     ]
   },
@@ -7135,11 +7134,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762339223,
-        "end": 1762342824
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762342824,
         "end": 1762350028,
@@ -7675,7 +7669,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763546439,
-        "end": null
+        "end": 1763549428
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763549428,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21337,12 +21337,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1762339223,
-        "end": 1762350028,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762350028,
         "end": 1762350623
@@ -23719,12 +23713,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762339223,
-        "end": 1762350028,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762350028,
@@ -34434,6 +34422,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1763548821,
+        "end": 1763549428
+      },
+      {
+        "status": "Available",
+        "start": 1763549428,
         "end": null
       }
     ]
