@@ -2779,11 +2779,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762334430,
-        "end": 1762389029
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1762389029,
         "end": 1762401631,
@@ -6704,11 +6699,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762334430,
-        "end": 1762415425
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1762415425,
         "end": 1762422623,
@@ -6789,7 +6779,13 @@
       {
         "status": "Available",
         "start": 1762618221,
-        "end": null
+        "end": 1763544631
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1763544631,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7748,11 +7744,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1762334430,
-        "end": 1762335033
-      },
       {
         "status": "[China] - Returning",
         "start": 1762335033,
@@ -10150,8 +10141,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763543421,
-        "end": null,
+        "end": 1763544631,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1763544631,
+        "end": null
       }
     ]
   },
@@ -15951,12 +15947,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762334430,
-        "end": 1762341025,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762341025,
         "end": 1762342228
@@ -17366,11 +17356,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762334430,
-        "end": 1762335033
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762335033,
         "end": 1762341619,
@@ -18248,11 +18233,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762334430,
-        "end": 1762335033
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762335033,
@@ -22412,12 +22392,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1762334430,
-        "end": 1762347024,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1762347024,
@@ -35773,8 +35747,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763538021,
-        "end": null,
+        "end": 1763544631,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] Lost - Revives: Partial",
+        "start": 1763544631,
+        "end": null
       }
     ]
   },
