@@ -97,6 +97,11 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1763511021,
+        "end": 1763517625
+      },
+      {
+        "status": "[Hawaii] Lost - Revives: OFF",
+        "start": 1763517625,
         "end": null
       }
     ]
@@ -808,7 +813,13 @@
       {
         "status": "Available",
         "start": 1763515229,
-        "end": null
+        "end": 1763517625
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1763517625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7800,11 +7811,6 @@
     "name": "Hussc-",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1762307426,
-        "end": 1762309832
-      },
-      {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1762309832,
         "end": 1762312219
@@ -14048,8 +14054,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763511021,
-        "end": null,
+        "end": 1763517625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763517625,
+        "end": null
       }
     ]
   },
@@ -22526,6 +22537,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763505625,
+        "end": 1763517625,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763517625,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -23876,11 +23893,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762307426,
-        "end": 1762313425
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762313425,
@@ -28870,6 +28882,11 @@
       {
         "status": "Available",
         "start": 1763516422,
+        "end": 1763517625
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1763517625,
         "end": null
       }
     ]
@@ -33499,7 +33516,13 @@
       {
         "status": "Available",
         "start": 1763516422,
-        "end": null
+        "end": 1763517625
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1763517625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
