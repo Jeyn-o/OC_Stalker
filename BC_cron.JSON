@@ -2481,12 +2481,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1762316419,
-        "end": 1762329029,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762329029,
         "end": 1762341619,
@@ -2754,11 +2748,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1762316419,
-        "end": 1762319425
-      },
       {
         "status": "[South Africa] Mugged - Revives: OFF",
         "start": 1762319425,
@@ -4125,12 +4114,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1762316419,
-        "end": 1762317628,
-        "travel_type": "private"
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1762317628,
@@ -8540,12 +8523,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1762316419,
-        "end": 1762329029,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Jail",
         "start": 1762329029,
@@ -21432,7 +21409,13 @@
       {
         "status": "[China] - Idle",
         "start": 1763525421,
-        "end": null
+        "end": 1763526624
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763526624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24997,12 +24980,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1762316419,
-        "end": 1762317628,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762317628,
         "end": 1762357225
@@ -26873,6 +26850,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763525421,
+        "end": 1763526624,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763526624,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -27247,11 +27230,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1762316419,
-        "end": 1762317029
-      },
       {
         "status": "Available",
         "start": 1762317029,
@@ -31433,6 +31411,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763523624,
+        "end": 1763526624
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1763526624,
         "end": null
       }
     ]
