@@ -126,11 +126,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1762333822,
-        "end": 1762339223
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762339223,
         "end": 1762351229,
@@ -3177,8 +3172,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763531419,
-        "end": null,
+        "end": 1763544021,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763544021,
+        "end": null
       }
     ]
   },
@@ -4793,11 +4793,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1762333822,
-        "end": 1762348219
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1762348219,
@@ -6708,12 +6703,6 @@
   "2621654": {
     "name": "Hstains",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1762333822,
-        "end": 1762334430,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762334430,
@@ -10811,12 +10800,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1762333822,
-        "end": 1762340437,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762340437,
@@ -17174,6 +17157,12 @@
       {
         "status": "[China] - Going",
         "start": 1763533832,
+        "end": 1763544021,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763544021,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -21349,7 +21338,13 @@
       {
         "status": "Available",
         "start": 1763536822,
-        "end": null
+        "end": 1763544021
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763544021,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28745,6 +28740,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1763543421,
+        "end": 1763544021
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763544021,
         "end": null
       }
     ]
@@ -32248,12 +32248,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1762333822,
-        "end": 1762340437,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1762340437,
