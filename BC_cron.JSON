@@ -4735,7 +4735,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763560224,
-        "end": null
+        "end": 1763562030
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763562030,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -12774,6 +12780,11 @@
       {
         "status": "Available",
         "start": 1763527226,
+        "end": 1763562030
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1763562030,
         "end": null
       }
     ]
@@ -24198,12 +24209,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762351823,
-        "end": 1762358433,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762358433,
@@ -36412,8 +36417,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763555434,
-        "end": null,
+        "end": 1763562030,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763562030,
+        "end": null
       }
     ]
   },
