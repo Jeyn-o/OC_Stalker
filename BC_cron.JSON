@@ -132,12 +132,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1762383631,
-        "end": 1762396225,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1762396225,
         "end": 1762396826
@@ -813,8 +807,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763581823,
-        "end": null,
+        "end": 1763593824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763593824,
+        "end": null
       }
     ]
   },
@@ -10708,7 +10707,13 @@
       {
         "status": "Available",
         "start": 1763476833,
-        "end": null
+        "end": 1763593824
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1763593824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15283,7 +15288,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763592621,
-        "end": null
+        "end": 1763593824
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763593824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29874,8 +29885,13 @@
       {
         "status": "[Traveling] - Going",
         "start": 1763568622,
-        "end": null,
+        "end": 1763593824,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1763593824,
+        "end": null
       }
     ]
   },
