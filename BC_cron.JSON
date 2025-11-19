@@ -91,8 +91,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1763505029,
-        "end": null,
+        "end": 1763511021,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1763511021,
+        "end": null
       }
     ]
   },
@@ -4115,11 +4120,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1762300860,
-        "end": 1762305626
-      },
       {
         "status": "[China] - Returning",
         "start": 1762305626,
@@ -14081,7 +14081,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763509819,
-        "end": null
+        "end": 1763511021
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763511021,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18993,11 +18999,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762300221,
-        "end": 1762304430
-      },
       {
         "status": "[China] - Going",
         "start": 1762304430,
@@ -30327,11 +30328,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[Cayman Islands] Mugged - Revives: ALL",
-        "start": 1762300860,
-        "end": 1762303224
-      },
-      {
         "status": "[Cayman Islands] - Idle",
         "start": 1762303224,
         "end": 1762311025
@@ -31567,11 +31563,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762300860,
-        "end": 1762302624
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1762302624,
         "end": 1762311635,
@@ -32379,6 +32370,12 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763508628,
+        "end": 1763511021,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763511021,
         "end": null,
         "travel_type": "airstrip"
       }
