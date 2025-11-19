@@ -55882,9 +55882,9 @@
   },
   "1023030": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1763594796,
-    "executed_at": null,
+    "executed_at": 1763594825,
     "slots": {
       "P1": {
         "user_id": 2671608,
@@ -56651,7 +56651,7 @@
   "1029997": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1763839105,
+    "ready_at": 1763925505,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -56683,6 +56683,14 @@
         "user_name": "Bucki",
         "checkpoint_pass_rate": 62,
         "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 68,
+        "position": "Muscle",
         "position_number": 1,
         "item_available": true
       }
@@ -56751,6 +56759,17 @@
         "user_name": "Bucki",
         "checkpoint_pass_rate": 62,
         "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1763595032,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 68,
+        "position": "Muscle",
         "position_number": 1,
         "item_available": true
       }
@@ -56841,7 +56860,7 @@
   "1032979": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1763649051,
+    "ready_at": 1763735451,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -56857,6 +56876,14 @@
         "user_name": "Excaliber_13",
         "checkpoint_pass_rate": 84,
         "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 86,
+        "position": "Hacker",
         "position_number": 1,
         "item_available": true
       }
@@ -56881,6 +56908,17 @@
         "user_name": "Excaliber_13",
         "checkpoint_pass_rate": 84,
         "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1763595032,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 86,
+        "position": "Hacker",
         "position_number": 1,
         "item_available": true
       }
@@ -57137,10 +57175,31 @@
   "1039511": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1763681307,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 2671608,
+        "user_name": "AlfieG",
+        "checkpoint_pass_rate": 66,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1763595032,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2671608,
+        "user_name": "AlfieG",
+        "checkpoint_pass_rate": 66,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1039853": {
     "name": "Bidding War",
