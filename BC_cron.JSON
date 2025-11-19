@@ -813,7 +813,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763530227,
-        "end": null
+        "end": 1763550626
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763550626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2749,6 +2755,12 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1763542835,
+        "end": 1763550626,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763550626,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -3568,7 +3580,13 @@
       {
         "status": "[China] - Idle",
         "start": 1763546439,
-        "end": null
+        "end": 1763550626
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763550626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8472,12 +8490,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1762340437,
-        "end": 1762347634,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762347634,
         "end": 1762349434
@@ -10160,7 +10172,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763550034,
-        "end": null
+        "end": 1763550626
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763550626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10815,11 +10833,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762340437,
-        "end": 1762344623
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762344623,
@@ -18799,11 +18812,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1762340437,
-        "end": 1762341025
-      },
-      {
         "status": "[Cayman Islands] Mugged - Revives: Partial",
         "start": 1762341025,
         "end": 1762342824
@@ -20347,6 +20355,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763538021,
+        "end": 1763550626,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763550626,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -27152,12 +27166,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1762340437,
-        "end": 1762342228,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1762342228,
         "end": 1762344040,
@@ -28724,6 +28732,11 @@
       {
         "status": "Available",
         "start": 1763550034,
+        "end": 1763550626
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1763550626,
         "end": null
       }
     ]
@@ -29880,7 +29893,13 @@
       {
         "status": "Available",
         "start": 1763538021,
-        "end": null
+        "end": 1763550626
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763550626,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32199,11 +32218,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1762340437,
-        "end": 1762342228
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1762342228,
@@ -39008,8 +39022,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763540424,
-        "end": null,
+        "end": 1763550626,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763550626,
+        "end": null
       }
     ]
   },
