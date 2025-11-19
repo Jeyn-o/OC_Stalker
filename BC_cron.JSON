@@ -1384,7 +1384,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763541620,
-        "end": null
+        "end": 1763542219
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763542219,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6697,12 +6703,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1762332027,
-        "end": 1762333237,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1762333237,
         "end": 1762333822
@@ -10154,6 +10154,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1763540424,
+        "end": 1763542219,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1763542219,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -10645,8 +10651,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763530819,
-        "end": null,
+        "end": 1763542219,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763542219,
+        "end": null
       }
     ]
   },
@@ -10799,11 +10810,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762332027,
-        "end": 1762333822
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762333822,
@@ -18667,8 +18673,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1763536226,
-        "end": null,
+        "end": 1763542219,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763542219,
+        "end": null
       }
     ]
   },
@@ -22698,11 +22709,6 @@
   "3619214": {
     "name": "GoldenVirginia",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762332027,
-        "end": 1762543825
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1762543825,
@@ -36523,12 +36529,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762332027,
-        "end": 1762338633,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762338633,
