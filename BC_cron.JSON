@@ -7058,6 +7058,11 @@
       {
         "status": "Available",
         "start": 1763490622,
+        "end": 1763587825
+      },
+      {
+        "status": "Jail",
+        "start": 1763587825,
         "end": null
       }
     ]
@@ -7117,11 +7122,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762377624,
-        "end": 1762521624
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762521624,
@@ -7720,11 +7720,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1762377624,
-        "end": 1762383029
-      },
       {
         "status": "[China] - Returning",
         "start": 1762383029,
@@ -8432,12 +8427,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1762377624,
-        "end": 1762390219,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1762390219,
         "end": 1762402822
@@ -9109,12 +9098,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1762377624,
-        "end": 1762379425,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762379425,
@@ -10240,12 +10223,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762377624,
-        "end": 1762389029,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762389029,
@@ -37646,7 +37623,13 @@
       {
         "status": "Available",
         "start": 1763584232,
-        "end": null
+        "end": 1763587825
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1763587825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
