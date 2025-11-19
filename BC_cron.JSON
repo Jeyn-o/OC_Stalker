@@ -13059,11 +13059,6 @@
     "name": "Khallie",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1762380032,
-        "end": 1762407019
-      },
-      {
         "status": "Available",
         "start": 1762407019,
         "end": 1762408223
@@ -15771,12 +15766,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1762380032,
-        "end": 1762386625,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762386625,
@@ -20149,11 +20138,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762380032,
-        "end": 1762383029
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1762383029,
         "end": 1762390219,
@@ -21621,6 +21605,11 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1763588429,
+        "end": 1763590227
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763590227,
         "end": null
       }
     ]
@@ -29766,8 +29755,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1763588429,
-        "end": null,
+        "end": 1763590227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763590227,
+        "end": null
       }
     ]
   },
@@ -31141,7 +31135,13 @@
       {
         "status": "Available",
         "start": 1763545222,
-        "end": null
+        "end": 1763590227
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763590227,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36256,8 +36256,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763583625,
-        "end": null,
+        "end": 1763590227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763590227,
+        "end": null
       }
     ]
   },
