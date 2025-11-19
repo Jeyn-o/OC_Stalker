@@ -2239,7 +2239,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763565021,
-        "end": null
+        "end": 1763565631
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763565631,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4804,12 +4810,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1762355432,
-        "end": 1762359630,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Idle",
         "start": 1762359630,
@@ -11716,6 +11716,12 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763552421,
+        "end": 1763565631,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1763565631,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -17166,6 +17172,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763557836,
+        "end": 1763565631,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763565631,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -17358,12 +17370,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762355432,
-        "end": 1762362622,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762362622,
@@ -26750,6 +26756,11 @@
       {
         "status": "Jail",
         "start": 1763565021,
+        "end": 1763565631
+      },
+      {
+        "status": "Available",
+        "start": 1763565631,
         "end": null
       }
     ]
@@ -28700,6 +28711,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763565021,
+        "end": 1763565631
+      },
+      {
+        "status": "Available",
+        "start": 1763565631,
         "end": null
       }
     ]
