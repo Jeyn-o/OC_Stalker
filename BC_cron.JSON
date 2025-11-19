@@ -126,12 +126,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1762369829,
-        "end": 1762382425,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762382425,
         "end": 1762383631
@@ -2466,6 +2460,11 @@
       {
         "status": "Jail",
         "start": 1763569226,
+        "end": 1763580025
+      },
+      {
+        "status": "Available",
+        "start": 1763580025,
         "end": null
       }
     ]
@@ -5928,7 +5927,13 @@
       {
         "status": "Available",
         "start": 1763574626,
-        "end": null
+        "end": 1763580025
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763580025,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -6102,12 +6107,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1762369829,
-        "end": 1762383029,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762383029,
@@ -9126,12 +9125,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1762369829,
-        "end": 1762371620,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762371620,
@@ -15876,11 +15869,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762369829,
-        "end": 1762372836
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1762372836,
         "end": 1762380032,
@@ -19379,8 +19367,13 @@
       {
         "status": "[China] - Going",
         "start": 1763569829,
-        "end": null,
+        "end": 1763580025,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763580025,
+        "end": null
       }
     ]
   },
@@ -24802,12 +24795,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1762369829,
-        "end": 1762371026,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762371026,
         "end": 1762373431
@@ -26779,7 +26766,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763578838,
-        "end": null
+        "end": 1763580025
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763580025,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28733,6 +28726,11 @@
       {
         "status": "Available",
         "start": 1763579422,
+        "end": 1763580025
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1763580025,
         "end": null
       }
     ]
@@ -33836,12 +33834,6 @@
   "3915266": {
     "name": "Lucifixion",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1762369829,
-        "end": 1762377019,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1762377019,
