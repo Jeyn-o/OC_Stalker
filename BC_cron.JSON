@@ -2678,7 +2678,13 @@
       {
         "status": "Available",
         "start": 1763564440,
-        "end": null
+        "end": 1763618432
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763618432,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5883,7 +5889,13 @@
       {
         "status": "Available",
         "start": 1763605223,
-        "end": null
+        "end": 1763618432
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1763618432,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -10114,6 +10126,11 @@
       {
         "status": "Jail",
         "start": 1763608220,
+        "end": 1763618432
+      },
+      {
+        "status": "Available",
+        "start": 1763618432,
         "end": null
       }
     ]
@@ -12560,11 +12577,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762408223,
-        "end": 1762429823
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1762429823,
         "end": 1762441242,
@@ -12957,11 +12969,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1762408223,
-        "end": 1762413628
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762413628,
@@ -26960,11 +26967,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762408223,
-        "end": 1762409421
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1762409421,
         "end": 1762410633,
@@ -28564,8 +28566,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1763617222,
-        "end": null,
+        "end": 1763618432,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763618432,
+        "end": null
       }
     ]
   },
@@ -31076,12 +31083,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1762408223,
-        "end": 1762413628,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762413628,
         "end": 1762449626
@@ -33091,6 +33092,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1763613025,
+        "end": 1763618432,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1763618432,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34486,12 +34493,6 @@
   "3943448": {
     "name": "Maddog1997",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1762408223,
-        "end": 1762414822,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] Lost - Revives: Partial",
         "start": 1762414822,
