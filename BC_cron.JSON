@@ -1462,11 +1462,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762397424,
-        "end": 1762431022
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1762431022,
         "end": 1762443619,
@@ -15701,6 +15696,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763600432,
+        "end": 1763607632,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763607632,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -17975,12 +17976,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1762397424,
-        "end": 1762399224,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1762399224,
         "end": 1762404619
@@ -20063,11 +20058,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762397424,
-        "end": 1762398628
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1762398628,
         "end": 1762399832,
@@ -21043,12 +21033,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1762397424,
-        "end": 1762407628,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762407628,
@@ -26997,8 +26981,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1763598631,
-        "end": null,
+        "end": 1763607632,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1763607632,
+        "end": null
       }
     ]
   },
@@ -36301,8 +36290,13 @@
       {
         "status": "[China] - Going",
         "start": 1763596836,
-        "end": null,
+        "end": 1763607632,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763607632,
+        "end": null
       }
     ]
   },
