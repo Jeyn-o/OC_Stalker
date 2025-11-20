@@ -57061,8 +57061,8 @@
   },
   "1032980": {
     "name": "Stage Fright",
-    "status": "Recruiting",
-    "ready_at": 1763935534,
+    "status": "Planning",
+    "ready_at": 1764021934,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -57100,6 +57100,13 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 3656242,
+        "user_name": "jonasgrind",
+        "checkpoint_pass_rate": 82,
+        "position": "Muscle",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -57153,6 +57160,16 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1763659224,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3656242,
+        "user_name": "jonasgrind",
+        "checkpoint_pass_rate": 82,
+        "position": "Muscle",
+        "position_number": 2
       }
     ]
   },
@@ -57653,7 +57670,7 @@
         "checkpoint_pass_rate": 70,
         "position": "Hacker",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
