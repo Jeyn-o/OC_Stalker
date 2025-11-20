@@ -834,6 +834,12 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763652634,
+        "end": 1763665237,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1763665237,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -10114,6 +10120,12 @@
       {
         "status": "[China] - Going",
         "start": 1763655028,
+        "end": 1763665237,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763665237,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -17046,11 +17058,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762455024,
-        "end": 1762492821
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762492821,
         "end": 1762499428,
@@ -19184,12 +19191,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1762455024,
-        "end": 1762456820,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1762456820,
@@ -29814,7 +29815,13 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1763662819,
-        "end": null
+        "end": 1763665237
+      },
+      {
+        "status": "[Traveling] - Going",
+        "start": 1763665237,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -30998,8 +31005,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763654436,
-        "end": null,
+        "end": 1763665237,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763665237,
+        "end": null
       }
     ]
   },
@@ -33057,6 +33069,11 @@
       {
         "status": "[Japan] Mugged - Revives: OFF",
         "start": 1763663429,
+        "end": 1763665237
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1763665237,
         "end": null
       }
     ]
@@ -36293,12 +36310,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762455024,
-        "end": 1762466435,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762466435,
