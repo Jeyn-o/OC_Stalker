@@ -2700,6 +2700,11 @@
       {
         "status": "Jail",
         "start": 1763608220,
+        "end": 1763660459
+      },
+      {
+        "status": "Available",
+        "start": 1763660459,
         "end": null
       }
     ]
@@ -4649,8 +4654,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763655028,
-        "end": null,
+        "end": 1763660459,
         "travel_type": "private"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1763660459,
+        "end": null
       }
     ]
   },
@@ -15155,7 +15165,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763659839,
-        "end": null
+        "end": 1763660459
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763660459,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23159,6 +23175,11 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1763658627,
+        "end": 1763660459
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763660459,
         "end": null
       }
     ]
@@ -23166,11 +23187,6 @@
   "3628419": {
     "name": "Littlegman212",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1762450823,
-        "end": 1762451424
-      },
       {
         "status": "Available",
         "start": 1762451424,
@@ -29572,7 +29588,13 @@
       {
         "status": "Available",
         "start": 1763658037,
-        "end": null
+        "end": 1763660459
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763660459,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
