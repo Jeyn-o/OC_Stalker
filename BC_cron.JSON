@@ -2722,12 +2722,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1762417225,
-        "end": 1762429823,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762429823,
         "end": 1762442430,
@@ -6753,7 +6747,13 @@
       {
         "status": "Available",
         "start": 1763626823,
-        "end": null
+        "end": 1763627427
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1763627427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10649,7 +10649,13 @@
       {
         "status": "Available",
         "start": 1763598631,
-        "end": null
+        "end": 1763627427
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1763627427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19990,12 +19996,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762417225,
-        "end": 1762428624,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762428624,
@@ -29895,11 +29895,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[Japan] Mugged - Revives: ALL",
-        "start": 1762417225,
-        "end": 1762420245
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1762420245,
         "end": 1762429823,
@@ -34517,12 +34512,6 @@
     "name": "Maddog1997",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762417225,
-        "end": 1762423828,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762423828,
         "end": 1762425628
@@ -38554,8 +38543,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763616021,
-        "end": null,
+        "end": 1763627427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763627427,
+        "end": null
       }
     ]
   },
