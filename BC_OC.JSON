@@ -57621,8 +57621,8 @@
   },
   "1040153": {
     "name": "Sneaky Git Grab",
-    "status": "Recruiting",
-    "ready_at": 1763870380,
+    "status": "Planning",
+    "ready_at": 1763956780,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -57646,6 +57646,14 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 70,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -57679,6 +57687,17 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1763658042,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 70,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
