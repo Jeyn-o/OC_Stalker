@@ -15222,12 +15222,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1762418423,
-        "end": 1762426227,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1762426227,
         "end": 1762433425,
@@ -16993,12 +16987,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762418423,
-        "end": 1762425022,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762425022,
@@ -19161,12 +19149,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1762418423,
-        "end": 1762425628,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1762425628,
@@ -29834,11 +29816,6 @@
     "name": "Psyden",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1762418423,
-        "end": 1762420245
-      },
-      {
         "status": "Available",
         "start": 1762420245,
         "end": 1762422623
@@ -36266,6 +36243,11 @@
       {
         "status": "[China] - Idle",
         "start": 1763614218,
+        "end": 1763628624
+      },
+      {
+        "status": "[China] Mugged - Revives: OFF",
+        "start": 1763628624,
         "end": null
       }
     ]
@@ -38533,7 +38515,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763627427,
-        "end": null
+        "end": 1763628624
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763628624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
