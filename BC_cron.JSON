@@ -3113,11 +3113,6 @@
     "name": "Weasel",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762390827,
-        "end": 1762536628
-      },
-      {
         "status": "Jail",
         "start": 1762536628,
         "end": 1762551627
@@ -5901,8 +5896,13 @@
       {
         "status": "[China] - Going",
         "start": 1763596227,
-        "end": null,
+        "end": 1763600432,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763600432,
+        "end": null
       }
     ]
   },
@@ -7612,7 +7612,13 @@
       {
         "status": "Available",
         "start": 1763556027,
-        "end": null
+        "end": 1763600432
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763600432,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8025,11 +8031,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762390827,
-        "end": 1762395625
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1762395625,
         "end": 1762402822,
@@ -8367,11 +8368,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1762390219,
-        "end": 1762402822
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1762402822,
@@ -13771,11 +13767,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1762390219,
-        "end": 1762392026
-      },
-      {
         "status": "[China] - Idle",
         "start": 1762392026,
         "end": 1762393220
@@ -15723,19 +15714,19 @@
       {
         "status": "Available",
         "start": 1763547627,
-        "end": null
+        "end": 1763600432
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763600432,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1762390827,
-        "end": 1762392625,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1762392625,
@@ -20101,12 +20092,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1762390219,
-        "end": 1762397424,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762397424,
@@ -31155,12 +31140,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762390827,
-        "end": 1762402220,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762402220,
         "end": 1762402822
@@ -32004,6 +31983,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763599223,
+        "end": 1763600432,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1763600432,
         "end": null,
         "travel_type": "airstrip"
       }
