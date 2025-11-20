@@ -1391,7 +1391,13 @@
       {
         "status": "Available",
         "start": 1763662222,
-        "end": null
+        "end": 1763663429
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763663429,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -4670,7 +4676,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763660459,
-        "end": null
+        "end": 1763663429
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763663429,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -7751,11 +7763,6 @@
     "name": "Hussc-",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1762453222,
-        "end": 1762469419
-      },
-      {
         "status": "[China] - Returning",
         "start": 1762469419,
         "end": 1762480227,
@@ -9070,12 +9077,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1762453222,
-        "end": 1762460417,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] Attacked - Revives: OFF",
         "start": 1762460417,
@@ -13744,12 +13745,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762453222,
-        "end": 1762458022,
-        "travel_type": "standard"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762458022,
@@ -20977,6 +20972,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763650836,
+        "end": 1763663429,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763663429,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33025,6 +33026,11 @@
       {
         "status": "[Japan] - Idle",
         "start": 1763661634,
+        "end": 1763663429
+      },
+      {
+        "status": "[Japan] Mugged - Revives: OFF",
+        "start": 1763663429,
         "end": null
       }
     ]
