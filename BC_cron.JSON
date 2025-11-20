@@ -3962,8 +3962,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1763669421,
-        "end": null,
+        "end": 1763676036,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1763676036,
+        "end": null
       }
     ]
   },
@@ -4661,8 +4666,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763670636,
-        "end": null,
+        "end": 1763676036,
         "travel_type": "private"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1763676036,
+        "end": null
       }
     ]
   },
@@ -8054,12 +8064,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1762465830,
-        "end": 1762473022,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1762473022,
         "end": 1762480227,
@@ -10101,6 +10105,11 @@
       {
         "status": "Available",
         "start": 1763675424,
+        "end": 1763676036
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763676036,
         "end": null
       }
     ]
@@ -11570,7 +11579,13 @@
       {
         "status": "Available",
         "start": 1763646622,
-        "end": null
+        "end": 1763676036
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1763676036,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18392,11 +18407,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762465830,
-        "end": 1762474223
-      },
-      {
         "status": "[China] - Going",
         "start": 1762474223,
         "end": 1762484439,
@@ -20975,8 +20985,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763663429,
-        "end": null,
+        "end": 1763676036,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763676036,
+        "end": null
       }
     ]
   },
@@ -23447,6 +23462,11 @@
       {
         "status": "Available",
         "start": 1763592621,
+        "end": 1763676036
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1763676036,
         "end": null
       }
     ]
@@ -24636,12 +24656,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1762465830,
-        "end": 1762467624,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762467624,
@@ -33091,7 +33105,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1763668222,
-        "end": null
+        "end": 1763676036
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1763676036,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34543,12 +34563,6 @@
   "3943448": {
     "name": "Maddog1997",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1762465830,
-        "end": 1762472420,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762472420,
