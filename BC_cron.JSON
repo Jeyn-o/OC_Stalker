@@ -4072,11 +4072,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762467624,
-        "end": 1762543223
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762543223,
         "end": 1762548018,
@@ -4677,7 +4672,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763676036,
-        "end": null
+        "end": 1763677829
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763677829,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -10121,6 +10122,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763676036,
+        "end": 1763677829
+      },
+      {
+        "status": "Available",
+        "start": 1763677829,
         "end": null
       }
     ]
@@ -10738,18 +10744,19 @@
       {
         "status": "Available",
         "start": 1763638228,
-        "end": null
+        "end": 1763677829
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1763677829,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1762467624,
-        "end": 1762470625
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762470625,
@@ -12983,12 +12990,6 @@
     "name": "Khallie",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762467624,
-        "end": 1762474223,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762474223,
         "end": 1762537221
@@ -13742,12 +13743,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762467624,
-        "end": 1762472420,
-        "travel_type": "standard"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762472420,
@@ -24679,11 +24674,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762467624,
-        "end": 1762476020
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762476020,
         "end": 1762477232
@@ -29895,12 +29885,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1762467624,
-        "end": 1762469419,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1762469419,
