@@ -1502,11 +1502,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762456225,
-        "end": 1762461027
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1762461027,
         "end": 1762473022,
@@ -6117,8 +6112,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763653821,
-        "end": null,
+        "end": 1763666422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763666422,
+        "end": null
       }
     ]
   },
@@ -6493,8 +6493,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763654436,
-        "end": null,
+        "end": 1763666422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763666422,
+        "end": null
       }
     ]
   },
@@ -8057,12 +8062,6 @@
   "2740246": {
     "name": "Bub92278",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1762456225,
-        "end": 1762462830,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762462830,
@@ -11639,11 +11638,6 @@
   "3156041": {
     "name": "Googer",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762456225,
-        "end": 1762503038
-      },
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1762503038,
@@ -16849,7 +16843,13 @@
       {
         "status": "Available",
         "start": 1763665823,
-        "end": null
+        "end": 1763666422
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763666422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19138,8 +19138,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763659839,
-        "end": null,
+        "end": 1763666422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1763666422,
+        "end": null
       }
     ]
   },
@@ -23981,11 +23986,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762456225,
-        "end": 1762501819
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762501819,
@@ -31880,6 +31880,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1763661022,
+        "end": 1763666422,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1763666422,
         "end": null,
         "travel_type": "airstrip"
       }
