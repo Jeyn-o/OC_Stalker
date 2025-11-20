@@ -4062,11 +4062,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1762464625,
-        "end": 1762467624
-      },
-      {
         "status": "Available",
         "start": 1762467624,
         "end": 1762543223
@@ -19109,7 +19104,13 @@
       {
         "status": "Available",
         "start": 1763674224,
-        "end": null
+        "end": 1763674827
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1763674827,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24595,20 +24596,19 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763668222,
-        "end": null,
+        "end": 1763674827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763674827,
+        "end": null
       }
     ]
   },
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1762464625,
-        "end": 1762465830,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762465830,
@@ -26986,11 +26986,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762464625,
-        "end": 1762480227
-      },
       {
         "status": "[Canada] - Going",
         "start": 1762480227,
@@ -35544,7 +35539,13 @@
       {
         "status": "Available",
         "start": 1763643641,
-        "end": null
+        "end": 1763674827
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763674827,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38619,6 +38620,11 @@
       {
         "status": "Available",
         "start": 1763671224,
+        "end": 1763674827
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1763674827,
         "end": null
       }
     ]
