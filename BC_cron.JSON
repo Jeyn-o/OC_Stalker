@@ -4057,12 +4057,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762401021,
-        "end": 1762405824,
-        "travel_type": "private"
-      },
-      {
         "status": "Available",
         "start": 1762405824,
         "end": 1762455635
@@ -12057,12 +12051,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1762401021,
-        "end": 1762413628,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762413628,
         "end": 1762416032
@@ -13805,12 +13793,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1762401021,
-        "end": 1762402220,
-        "travel_type": "standard"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1762402220,
@@ -20116,11 +20098,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762401021,
-        "end": 1762405236
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1762405236,
         "end": 1762417225,
@@ -21580,8 +21557,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763601021,
-        "end": null,
+        "end": 1763611234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763611234,
+        "end": null
       }
     ]
   },
@@ -23293,8 +23275,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763604029,
-        "end": null,
+        "end": 1763611234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1763611234,
+        "end": null
       }
     ]
   },
@@ -29924,7 +29911,13 @@
       {
         "status": "[Abroad] - Idle",
         "start": 1763609427,
-        "end": null
+        "end": 1763611234
+      },
+      {
+        "status": "[Traveling] - Going",
+        "start": 1763611234,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -29976,12 +29969,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1762401021,
-        "end": 1762410633,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1762410633,
@@ -33802,6 +33789,12 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1763604029,
+        "end": 1763611234,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1763611234,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35606,7 +35599,13 @@
       {
         "status": "Available",
         "start": 1763610020,
-        "end": null
+        "end": 1763611234
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763611234,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
