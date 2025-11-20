@@ -2458,11 +2458,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1762415425,
-        "end": 1762416032
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762416032,
         "end": 1762428025,
@@ -2683,6 +2678,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763618432,
+        "end": 1763625631,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763625631,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -6650,12 +6651,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1762415425,
-        "end": 1762422623,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1762422623,
         "end": 1762423828
@@ -8337,11 +8332,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762415425,
-        "end": 1762419020
-      },
       {
         "status": "[Japan] - Going",
         "start": 1762419020,
@@ -10678,12 +10668,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762415425,
-        "end": 1762426832,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762426832,
@@ -26648,11 +26632,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1762415425,
-        "end": 1762429221
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762429221,
         "end": 1762440029,
@@ -29707,8 +29686,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763623830,
-        "end": null,
+        "end": 1763625631,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763625631,
+        "end": null
       }
     ]
   },
