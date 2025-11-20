@@ -11594,8 +11594,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763610020,
-        "end": null,
+        "end": 1763610622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763610622,
+        "end": null
       }
     ]
   },
@@ -13800,12 +13805,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1762400419,
-        "end": 1762401021,
-        "travel_type": "standard"
-      },
       {
         "status": "[Canada] - Going",
         "start": 1762401021,
@@ -19240,7 +19239,13 @@
       {
         "status": "[China] - Idle",
         "start": 1763610020,
-        "end": null
+        "end": 1763610622
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763610622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28637,7 +28642,13 @@
       {
         "status": "Available",
         "start": 1763595029,
-        "end": null
+        "end": 1763610622
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1763610622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29965,11 +29976,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762400419,
-        "end": 1762401021
-      },
       {
         "status": "[Japan] - Going",
         "start": 1762401021,
@@ -32019,6 +32025,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1763605223,
+        "end": 1763610622,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1763610622,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37686,8 +37698,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763599223,
-        "end": null,
+        "end": 1763610622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763610622,
+        "end": null
       }
     ]
   },
