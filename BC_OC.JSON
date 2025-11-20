@@ -55762,9 +55762,9 @@
   },
   "1023028": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1763607936,
-    "executed_at": null,
+    "executed_at": 1763607964,
     "slots": {
       "P1": {
         "user_id": 2802632,
@@ -57083,7 +57083,7 @@
   "1034019": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": 1763752944,
+    "ready_at": 1763839344,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -57109,6 +57109,13 @@
         "position": "Robber",
         "position_number": 3,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 914683,
+        "user_name": "Droq",
+        "checkpoint_pass_rate": 77,
+        "position": "Driver",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -57144,6 +57151,16 @@
         "position": "Robber",
         "position_number": 3,
         "item_available": true
+      },
+      {
+        "timestamp": 1763608222,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 914683,
+        "user_name": "Droq",
+        "checkpoint_pass_rate": 77,
+        "position": "Driver",
+        "position_number": 1
       }
     ]
   },
