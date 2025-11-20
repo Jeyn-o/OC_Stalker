@@ -1647,11 +1647,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762419634,
-        "end": 1762422018
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762422018,
         "end": 1762428624,
@@ -3151,12 +3146,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1762419634,
-        "end": 1762429221,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762429221,
@@ -6764,7 +6753,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763629237,
-        "end": null
+        "end": 1763629837
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763629837,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16810,8 +16805,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763619023,
-        "end": null,
+        "end": 1763629837,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763629837,
+        "end": null
       }
     ]
   },
@@ -23955,11 +23955,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762419634,
-        "end": 1762420245
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762420245,
         "end": 1762426832,
@@ -24587,6 +24582,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763623223,
+        "end": 1763629837,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763629837,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -26949,11 +26950,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762419634,
-        "end": 1762423828
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762423828,
