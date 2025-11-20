@@ -10010,6 +10010,12 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763646024,
+        "end": 1763647235,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1763647235,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -16767,6 +16773,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763640622,
+        "end": 1763647235,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763647235,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22520,12 +22532,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1762437018,
-        "end": 1762443619,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762443619,
@@ -29130,11 +29136,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1762437018,
-        "end": 1762440029
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1762440029,
@@ -36217,7 +36218,13 @@
       {
         "status": "[China] - Idle",
         "start": 1763639417,
-        "end": null
+        "end": 1763647235
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763647235,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
