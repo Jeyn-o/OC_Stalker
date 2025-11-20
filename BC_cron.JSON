@@ -1479,12 +1479,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1762431022,
-        "end": 1762443619,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762443619,
         "end": 1762456225,
@@ -3106,6 +3100,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763640034,
+        "end": 1763641229
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: OFF",
+        "start": 1763641229,
         "end": null
       }
     ]
@@ -6052,7 +6051,13 @@
       {
         "status": "Available",
         "start": 1763568622,
-        "end": null
+        "end": 1763641229
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1763641229,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6625,11 +6630,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762431022,
-        "end": 1762488028
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1762488028,
         "end": 1762495258,
@@ -6744,7 +6744,13 @@
       {
         "status": "Available",
         "start": 1763631624,
-        "end": null
+        "end": 1763641229
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763641229,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9985,8 +9991,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1763634022,
-        "end": null,
+        "end": 1763641229,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763641229,
+        "end": null
       }
     ]
   },
@@ -17874,11 +17885,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762431022,
-        "end": 1762487420
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762487420,
         "end": 1762494021,
@@ -19957,8 +19963,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763631624,
-        "end": null,
+        "end": 1763641229,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763641229,
+        "end": null
       }
     ]
   },
@@ -20946,11 +20957,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1762431022,
-        "end": 1762432821
-      },
       {
         "status": "[China] - Returning",
         "start": 1762432821,
