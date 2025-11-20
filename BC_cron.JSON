@@ -4026,6 +4026,11 @@
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1763614834,
+        "end": 1763616624
+      },
+      {
+        "status": "Available",
+        "start": 1763616624,
         "end": null
       }
     ]
@@ -6784,11 +6789,6 @@
     "name": "Vampire-Catgirl",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762406428,
-        "end": 1762684224
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1762684224,
         "end": 1762685425
@@ -8883,7 +8883,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763607024,
-        "end": null
+        "end": 1763616624
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763616624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10120,12 +10126,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762406428,
-        "end": 1762417826,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762417826,
@@ -17927,11 +17927,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762406428,
-        "end": 1762417826
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762417826,
         "end": 1762424428,
@@ -22594,12 +22589,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1762406428,
-        "end": 1762413628,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1762413628,
         "end": 1762420829,
@@ -26644,8 +26633,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763615424,
-        "end": null,
+        "end": 1763616624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763616624,
+        "end": null
       }
     ]
   },
@@ -26990,12 +26984,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1762406428,
-        "end": 1762408223,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762408223,
@@ -32036,12 +32024,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1762406428,
-        "end": 1762413628,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1762413628,
         "end": 1762420829,
@@ -36321,12 +36303,6 @@
     "name": "Icks-B",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1762406428,
-        "end": 1762419020,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762419020,
         "end": 1762420829
@@ -37663,7 +37639,13 @@
       {
         "status": "Available",
         "start": 1763610622,
-        "end": null
+        "end": 1763616624
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763616624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
