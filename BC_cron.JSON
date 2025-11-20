@@ -10042,11 +10042,6 @@
     "name": "Piraterer",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762392625,
-        "end": 1762416660
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1762416660,
         "end": 1762423828,
@@ -15260,8 +15255,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1763596227,
-        "end": null,
+        "end": 1763602821,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1763602821,
+        "end": null
       }
     ]
   },
@@ -15722,12 +15722,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1762392625,
-        "end": 1762394433,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762394433,
@@ -35559,6 +35553,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763596227,
+        "end": 1763602821,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763602821,
         "end": null,
         "travel_type": "airstrip"
       }
