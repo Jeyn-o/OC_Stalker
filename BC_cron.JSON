@@ -1549,6 +1549,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763745619,
+        "end": 1763757623,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763757623,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -12725,12 +12731,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762547427,
-        "end": 1762559438,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762559438,
         "end": 1762570835,
@@ -13049,6 +13049,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763745021,
+        "end": 1763757623,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763757623,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22463,7 +22469,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1763757030,
-        "end": null
+        "end": 1763757623
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1763757623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23139,7 +23151,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763755231,
-        "end": null
+        "end": 1763757623
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763757623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29556,8 +29574,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763751016,
-        "end": null,
+        "end": 1763757623,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763757623,
+        "end": null
       }
     ]
   },
@@ -33069,6 +33092,11 @@
       {
         "status": "[Japan] - Idle",
         "start": 1763755819,
+        "end": 1763757623
+      },
+      {
+        "status": "[Japan] Mugged - Revives: OFF",
+        "start": 1763757623,
         "end": null
       }
     ]
@@ -37701,8 +37729,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1763755819,
-        "end": null,
+        "end": 1763757623,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763757623,
+        "end": null
       }
     ]
   },
