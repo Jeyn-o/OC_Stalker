@@ -6804,12 +6804,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762518627,
-        "end": 1762530029,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762530029,
         "end": 1762584624
@@ -9022,8 +9016,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1763719237,
-        "end": null,
+        "end": 1763728827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1763728827,
+        "end": null
       }
     ]
   },
@@ -17836,12 +17835,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762518627,
-        "end": 1762525220,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762525220,
         "end": 1762590628
@@ -18212,8 +18205,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763721629,
-        "end": null,
+        "end": 1763728827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763728827,
+        "end": null
       }
     ]
   },
@@ -21482,8 +21480,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763718023,
-        "end": null,
+        "end": 1763728827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763728827,
+        "end": null
       }
     ]
   },
@@ -24554,6 +24557,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763722226,
+        "end": 1763728827,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763728827,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29539,6 +29548,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763722226,
+        "end": 1763728827,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763728827,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33036,7 +33051,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1763728231,
-        "end": null
+        "end": 1763728827
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1763728827,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
