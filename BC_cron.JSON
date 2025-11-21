@@ -921,12 +921,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762503618,
-        "end": 1762510232,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762510232,
         "end": 1762583426
@@ -6208,6 +6202,11 @@
       {
         "status": "Available",
         "start": 1763666422,
+        "end": 1763713826
+      },
+      {
+        "status": "Jail",
+        "start": 1763713826,
         "end": null
       }
     ]
@@ -9137,12 +9136,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1762503618,
-        "end": 1762513819,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Returning",
         "start": 1762513819,
@@ -18224,7 +18217,13 @@
       {
         "status": "Available",
         "start": 1763713224,
-        "end": null
+        "end": 1763713826
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763713826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19119,7 +19118,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763710822,
-        "end": null
+        "end": 1763713826
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763713826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29510,7 +29515,13 @@
       {
         "status": "Available",
         "start": 1763677218,
-        "end": null
+        "end": 1763713826
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763713826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
