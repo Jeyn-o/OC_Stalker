@@ -10862,6 +10862,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1763758834,
+        "end": 1763760627,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763760627,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -13053,12 +13059,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762550424,
-        "end": 1762556429,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762556429,
@@ -19990,11 +19990,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762550424,
-        "end": 1762559438
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1762559438,
@@ -29602,8 +29597,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1763758834,
-        "end": null,
+        "end": 1763760627,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1763760627,
+        "end": null
       }
     ]
   },
