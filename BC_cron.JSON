@@ -6947,7 +6947,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763724629,
-        "end": null
+        "end": 1763725224
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763725224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7227,8 +7233,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1763717433,
-        "end": null,
+        "end": 1763725224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763725224,
+        "end": null
       }
     ]
   },
@@ -10776,11 +10787,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Arab Emirates] Mugged - Revives: Partial",
-        "start": 1762515032,
-        "end": 1762516838
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762516838,
         "end": 1762519822
@@ -13760,12 +13766,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1762515032,
-        "end": 1762515624,
-        "travel_type": "standard"
-      },
-      {
         "status": "[Canada] - Idle",
         "start": 1762515624,
         "end": 1762516217
@@ -15578,11 +15578,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762515032,
-        "end": 1762516217
-      },
       {
         "status": "[China] - Going",
         "start": 1762516217,
@@ -28612,6 +28607,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763724629,
+        "end": 1763725224
+      },
+      {
+        "status": "Available",
+        "start": 1763725224,
         "end": null
       }
     ]
@@ -30946,8 +30946,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763714420,
-        "end": null,
+        "end": 1763725224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763725224,
+        "end": null
       }
     ]
   },
@@ -35574,8 +35579,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763718023,
-        "end": null,
+        "end": 1763725224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763725224,
+        "end": null
       }
     ]
   },
@@ -37670,6 +37680,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763718623,
+        "end": 1763725224,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763725224,
         "end": null,
         "travel_type": "airstrip"
       }
