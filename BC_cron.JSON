@@ -1530,12 +1530,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1762510825,
-        "end": 1762523426,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762523426,
         "end": 1762536024,
@@ -6918,8 +6912,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763710822,
-        "end": null,
+        "end": 1763721026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763721026,
+        "end": null
       }
     ]
   },
@@ -10244,12 +10243,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762510825,
-        "end": 1762521624,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762521624,
         "end": 1762522820
@@ -12599,8 +12592,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763710822,
-        "end": null,
+        "end": 1763721026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763721026,
+        "end": null
       }
     ]
   },
@@ -15520,6 +15518,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763714420,
+        "end": 1763721026,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763721026,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -16745,8 +16749,13 @@
       {
         "status": "[China] - Going",
         "start": 1763710822,
-        "end": null,
+        "end": 1763721026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763721026,
+        "end": null
       }
     ]
   },
@@ -23128,6 +23137,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763719829,
+        "end": 1763721026
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1763721026,
         "end": null
       }
     ]
@@ -28509,7 +28523,13 @@
       {
         "status": "Available",
         "start": 1763718023,
-        "end": null
+        "end": 1763721026
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1763721026,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
