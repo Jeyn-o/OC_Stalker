@@ -4725,6 +4725,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1763761835,
+        "end": 1763766621,
+        "travel_type": "private"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763766621,
         "end": null,
         "travel_type": "private"
       }
@@ -26622,8 +26628,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763765420,
-        "end": null,
+        "end": 1763766621,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763766621,
+        "end": null
       }
     ]
   },
@@ -29615,6 +29626,11 @@
       {
         "status": "Available",
         "start": 1763765420,
+        "end": 1763766621
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1763766621,
         "end": null
       }
     ]
