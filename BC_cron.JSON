@@ -13772,11 +13772,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762486234,
-        "end": 1762487420
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1762487420,
         "end": 1762488028,
@@ -26673,8 +26668,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763695224,
-        "end": null,
+        "end": 1763696419,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763696419,
+        "end": null
       }
     ]
   },
@@ -27034,7 +27034,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763685629,
-        "end": null
+        "end": 1763696419
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763696419,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31888,19 +31894,19 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763685629,
-        "end": null,
+        "end": 1763696419,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763696419,
+        "end": null
       }
     ]
   },
   "3880785": {
     "name": "Gemicide",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762486234,
-        "end": 1762560627
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1762560627,
@@ -34530,12 +34536,6 @@
     "name": "Maddog1997",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762486234,
-        "end": 1762492821,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1762492821,
         "end": 1762493427
@@ -35556,7 +35556,13 @@
       {
         "status": "Available",
         "start": 1763694617,
-        "end": null
+        "end": 1763696419
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763696419,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
