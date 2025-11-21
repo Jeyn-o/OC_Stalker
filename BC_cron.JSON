@@ -862,7 +862,13 @@
       {
         "status": "Available",
         "start": 1763691019,
-        "end": null
+        "end": 1763691622
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1763691622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3520,11 +3526,6 @@
   "2184227": {
     "name": "SassyMcSlacker",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762482016,
-        "end": 1762521624
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762521624,
@@ -10790,11 +10791,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762482016,
-        "end": 1762485626
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1762485626,
         "end": 1762497025,
@@ -15207,8 +15203,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763690434,
-        "end": null,
+        "end": 1763691622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763691622,
+        "end": null
       }
     ]
   },
@@ -16867,8 +16868,13 @@
       {
         "status": "[China] - Going",
         "start": 1763681426,
-        "end": null,
+        "end": 1763691622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763691622,
+        "end": null
       }
     ]
   },
@@ -19199,16 +19205,6 @@
       }
     ]
   },
-  "3447443": {
-    "name": "Jordanw1",
-    "activities": [
-      {
-        "status": "Available",
-        "start": 1762482016,
-        "end": null
-      }
-    ]
-  },
   "3449771": {
     "name": "Driccy",
     "activities": [
@@ -21026,8 +21022,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1763684423,
-        "end": null,
+        "end": 1763691622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763691622,
+        "end": null
       }
     ]
   },
@@ -21543,17 +21544,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1762481425,
-        "end": 1762482016
-      },
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1762482016,
-        "end": 1762483222,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1762483222,
@@ -24674,12 +24664,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1762481425,
-        "end": 1762483222,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1762483222,
         "end": 1762484439,
@@ -27056,12 +27040,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1762482016,
-        "end": 1762483825,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762483825,
@@ -33109,6 +33087,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1763686225,
+        "end": 1763691622,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1763691622,
         "end": null,
         "travel_type": "airstrip"
       }
