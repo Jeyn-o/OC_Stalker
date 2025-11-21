@@ -1540,11 +1540,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762485031,
-        "end": 1762510825
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1762510825,
         "end": 1762523426,
@@ -15214,8 +15209,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763694037,
-        "end": null,
+        "end": 1763695224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1763695224,
+        "end": null
       }
     ]
   },
@@ -23489,12 +23489,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762485031,
-        "end": 1762495819,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762495819,
         "end": 1762497630
@@ -26680,7 +26674,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763694617,
-        "end": null
+        "end": 1763695224
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763695224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27047,11 +27047,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1762485031,
-        "end": 1762485626
-      },
       {
         "status": "Available",
         "start": 1762485626,
@@ -31022,8 +31017,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763694037,
-        "end": null,
+        "end": 1763695224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763695224,
+        "end": null
       }
     ]
   },
@@ -36317,8 +36317,13 @@
       {
         "status": "[China] - Going",
         "start": 1763685025,
-        "end": null,
+        "end": 1763695224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763695224,
+        "end": null
       }
     ]
   },
