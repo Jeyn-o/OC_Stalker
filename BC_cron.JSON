@@ -3099,6 +3099,16 @@
       }
     ]
   },
+  "2080816": {
+    "name": "Weasel",
+    "activities": [
+      {
+        "status": "Available",
+        "start": 1763762436,
+        "end": null
+      }
+    ]
+  },
   "2154655": {
     "name": "Khana",
     "activities": [
@@ -7133,6 +7143,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763754620,
+        "end": 1763762436,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763762436,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -10847,8 +10863,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1763760627,
-        "end": null,
+        "end": 1763762436,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763762436,
+        "end": null
       }
     ]
   },
@@ -21936,8 +21957,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763751637,
-        "end": null,
+        "end": 1763762436,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763762436,
+        "end": null
       }
     ]
   },
@@ -35596,7 +35622,13 @@
       {
         "status": "Available",
         "start": 1763733634,
-        "end": null
+        "end": 1763762436
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1763762436,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
