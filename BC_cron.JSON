@@ -1686,12 +1686,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762513232,
-        "end": 1762520432,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762520432,
         "end": 1762527027,
@@ -3537,7 +3531,13 @@
       {
         "status": "Available",
         "start": 1763719829,
-        "end": null
+        "end": 1763723421
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763723421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15165,7 +15165,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763710228,
-        "end": null
+        "end": 1763723421
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763723421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20011,12 +20017,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1762513232,
-        "end": 1762519822,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762519822,
         "end": 1762520432
@@ -21014,12 +21014,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1762513232,
-        "end": 1762523426,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1762523426,
@@ -23194,6 +23188,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763722838,
+        "end": 1763723421
+      },
+      {
+        "status": "[United Arab Emirates] Attacked - Revives: ALL",
+        "start": 1763723421,
         "end": null
       }
     ]
@@ -28592,7 +28591,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1763722838,
-        "end": null
+        "end": 1763723421
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1763723421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34358,11 +34363,6 @@
   "3926163": {
     "name": "J-Donuts",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1762513232,
-        "end": 1762517422
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1762517422,
