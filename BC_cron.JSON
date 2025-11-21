@@ -862,6 +862,12 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763751016,
+        "end": 1763763619,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1763763619,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -3506,7 +3512,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763763022,
-        "end": null
+        "end": 1763763619
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763763619,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10876,11 +10888,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762553419,
-        "end": 1762554629
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762554629,
         "end": 1762561226,
@@ -15571,12 +15578,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1762553419,
-        "end": 1762563021,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1762563021,
         "end": 1762566625
@@ -16799,7 +16800,13 @@
       {
         "status": "Available",
         "start": 1763763022,
-        "end": null
+        "end": 1763763619
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1763763619,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23918,7 +23925,13 @@
       {
         "status": "Available",
         "start": 1763759421,
-        "end": null
+        "end": 1763763619
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1763763619,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24561,8 +24574,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763753432,
-        "end": null,
+        "end": 1763763619,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763763619,
+        "end": null
       }
     ]
   },
@@ -26625,8 +26643,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763757030,
-        "end": null,
+        "end": 1763763619,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763763619,
+        "end": null
       }
     ]
   },
@@ -29601,7 +29624,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763760627,
-        "end": null
+        "end": 1763763619
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763763619,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30961,12 +30990,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1762553419,
-        "end": 1762555223,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762555223,
