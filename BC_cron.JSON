@@ -11624,6 +11624,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763676036,
+        "end": 1763687421,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763687421,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15644,12 +15650,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1762477232,
-        "end": 1762483825,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762483825,
@@ -21535,11 +21535,6 @@
     "name": "Mr_jeff14574",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1762477232,
-        "end": 1762477825
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1762477825,
         "end": 1762479033,
@@ -22102,8 +22097,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763686225,
-        "end": null,
+        "end": 1763687421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763687421,
+        "end": null
       }
     ]
   },
@@ -24671,11 +24671,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762477232,
-        "end": 1762481425
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1762481425,
         "end": 1762483222,
@@ -26680,7 +26675,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763684423,
-        "end": null
+        "end": 1763687421
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763687421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28616,6 +28617,11 @@
       {
         "status": "Available",
         "start": 1763672439,
+        "end": 1763687421
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1763687421,
         "end": null
       }
     ]
@@ -29889,11 +29895,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762477232,
-        "end": 1762480227
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762480227,
         "end": 1762486823,
@@ -31047,11 +31048,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762477232,
-        "end": 1762479033
-      },
       {
         "status": "[China] - Going",
         "start": 1762479033,
@@ -35600,7 +35596,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763681426,
-        "end": null
+        "end": 1763687421
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763687421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
