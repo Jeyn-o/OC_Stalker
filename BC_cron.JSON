@@ -3526,7 +3526,13 @@
       {
         "status": "Available",
         "start": 1763737233,
-        "end": null
+        "end": 1763755819
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1763755819,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6030,7 +6036,13 @@
       {
         "status": "Available",
         "start": 1763752222,
-        "end": null
+        "end": 1763755819
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763755819,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -7014,8 +7026,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1763754620,
-        "end": null,
+        "end": 1763755819,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1763755819,
+        "end": null
       }
     ]
   },
@@ -15567,12 +15584,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1762545637,
-        "end": 1762552829,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762552829,
         "end": 1762553419
@@ -19111,8 +19122,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1763748622,
-        "end": null,
+        "end": 1763755819,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763755819,
+        "end": null
       }
     ]
   },
@@ -19129,11 +19145,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762545637,
-        "end": 1762588229
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762588229,
@@ -20950,11 +20961,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762545637,
-        "end": 1762649425
-      },
       {
         "status": "[China] - Going",
         "start": 1762649425,
@@ -23913,12 +23919,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1762545637,
-        "end": 1762552219,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762552219,
@@ -30907,8 +30907,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763744438,
-        "end": null,
+        "end": 1763755819,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763755819,
+        "end": null
       }
     ]
   },
@@ -33062,6 +33067,11 @@
       {
         "status": "[Japan] Mugged - Revives: OFF",
         "start": 1763752821,
+        "end": 1763755819
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1763755819,
         "end": null
       }
     ]
@@ -37699,6 +37709,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1763754022,
+        "end": 1763755819,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763755819,
         "end": null,
         "travel_type": "airstrip"
       }
