@@ -4100,12 +4100,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762543223,
-        "end": 1762548018,
-        "travel_type": "private"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762548018,
         "end": 1762552219
@@ -6694,8 +6688,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763746227,
-        "end": null,
+        "end": 1763753432,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1763753432,
+        "end": null
       }
     ]
   },
@@ -16959,11 +16958,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762543223,
-        "end": 1762584624
-      },
-      {
         "status": "[China] - Going",
         "start": 1762584624,
         "end": 1762594819,
@@ -19952,12 +19946,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1762543223,
-        "end": 1762550424,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762550424,
@@ -24521,7 +24509,13 @@
       {
         "status": "[China] - Idle",
         "start": 1763746821,
-        "end": null
+        "end": 1763753432
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763753432,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28590,8 +28584,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1763751637,
-        "end": null,
+        "end": 1763753432,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1763753432,
+        "end": null
       }
     ]
   },
@@ -33770,6 +33769,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1763752222,
+        "end": 1763753432
+      },
+      {
+        "status": "Available",
+        "start": 1763753432,
         "end": null
       }
     ]
@@ -37678,8 +37682,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763743222,
-        "end": null,
+        "end": 1763753432,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763753432,
+        "end": null
       }
     ]
   },
