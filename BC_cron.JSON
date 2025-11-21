@@ -3137,6 +3137,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763704220,
+        "end": 1763710228
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: OFF",
+        "start": 1763710228,
         "end": null
       }
     ]
@@ -7188,7 +7193,13 @@
       {
         "status": "Available",
         "start": 1763581823,
-        "end": null
+        "end": 1763710228
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1763710228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -8430,12 +8441,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1762500021,
-        "end": 1762509635,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1762509635,
@@ -12618,8 +12623,13 @@
       {
         "status": "[China] - Going",
         "start": 1763700026,
-        "end": null,
+        "end": 1763710228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763710228,
+        "end": null
       }
     ]
   },
@@ -15150,8 +15160,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763698223,
-        "end": null,
+        "end": 1763710228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763710228,
+        "end": null
       }
     ]
   },
@@ -15196,11 +15211,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762500021,
-        "end": 1762564222
-      },
       {
         "status": "[Japan] - Going",
         "start": 1762564222,
@@ -16993,12 +17003,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762500021,
-        "end": 1762506629,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762506629,
@@ -19138,12 +19142,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1762500021,
-        "end": 1762507228,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1762507228,
@@ -28521,12 +28519,6 @@
     "name": "RandomName1",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1762500021,
-        "end": 1762510232,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1762510232,
         "end": 1762512019
@@ -33003,8 +32995,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1763704833,
-        "end": null,
+        "end": 1763710228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763710228,
+        "end": null
       }
     ]
   },
@@ -34470,12 +34467,6 @@
     "name": "Maddog1997",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762500021,
-        "end": 1762506629,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762506629,
         "end": 1762507825
@@ -35485,7 +35476,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763703026,
-        "end": null
+        "end": 1763710228
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763710228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
