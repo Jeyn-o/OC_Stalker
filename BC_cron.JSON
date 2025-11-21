@@ -4016,6 +4016,12 @@
       {
         "status": "[China] - Going",
         "start": 1763731827,
+        "end": 1763742022,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763742022,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -6046,7 +6052,13 @@
       {
         "status": "Available",
         "start": 1763738425,
-        "end": null
+        "end": 1763742022
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763742022,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -7863,12 +7875,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1762531821,
-        "end": 1762542040,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1762542040,
@@ -22165,7 +22171,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763740840,
-        "end": null
+        "end": 1763742022
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763742022,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23071,8 +23083,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763730032,
-        "end": null,
+        "end": 1763742022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763742022,
+        "end": null
       }
     ]
   },
@@ -24474,11 +24491,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762531821,
-        "end": 1762576232
-      },
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762576232,
