@@ -170,12 +170,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1762527027,
-        "end": 1762539626,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762539626,
         "end": 1762552219,
@@ -1691,11 +1685,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762527027,
-        "end": 1762533028
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762533028,
         "end": 1762539626,
@@ -2454,11 +2443,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1762527027,
-        "end": 1762528229
-      },
       {
         "status": "[China] - Returning",
         "start": 1762528229,
@@ -3545,8 +3529,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763730032,
-        "end": null,
+        "end": 1763737233,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763737233,
+        "end": null
       }
     ]
   },
@@ -6968,6 +6957,12 @@
       {
         "status": "[China] - Going",
         "start": 1763727027,
+        "end": 1763737233,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763737233,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -9192,11 +9187,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1762527027,
-        "end": 1762528229
-      },
-      {
         "status": "Available",
         "start": 1762528229,
         "end": 1762528831
@@ -10192,6 +10182,12 @@
       {
         "status": "[China] - Going",
         "start": 1763727027,
+        "end": 1763737233,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763737233,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -13756,11 +13752,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762527027,
-        "end": 1762530029
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1762530029,
         "end": 1762534831,
@@ -15524,12 +15515,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1762527027,
-        "end": 1762537221,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1762537221,
         "end": 1762544451,
@@ -16754,11 +16739,6 @@
   "3342314": {
     "name": "Krytical",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1762527027,
-        "end": 1762527637
-      },
       {
         "status": "Available",
         "start": 1762527637,
@@ -26924,11 +26904,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762527027,
-        "end": 1762527637
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762527637,
         "end": 1762528831
@@ -28528,6 +28503,12 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763735430,
+        "end": 1763737233,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1763737233,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29038,12 +29019,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762527027,
-        "end": 1762533628,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762533628,
         "end": 1762694428
@@ -29481,7 +29456,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763735430,
-        "end": null
+        "end": 1763737233
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763737233,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34294,7 +34275,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763732423,
-        "end": null
+        "end": 1763737233
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763737233,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
