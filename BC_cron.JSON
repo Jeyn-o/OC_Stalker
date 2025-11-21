@@ -6013,7 +6013,13 @@
       {
         "status": "[China] - Idle",
         "start": 1763760026,
-        "end": null
+        "end": 1763768420
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763768420,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -6030,11 +6036,6 @@
   "2414438": {
     "name": "Caross",
     "activities": [
-      {
-        "status": "[Switzerland] Mugged - Revives: ALL",
-        "start": 1762558228,
-        "end": 1762560627
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1762560627,
@@ -18287,11 +18288,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1762558228,
-        "end": 1762559438
-      },
-      {
         "status": "[China] - Returning",
         "start": 1762559438,
         "end": 1762569617,
@@ -22218,11 +22214,6 @@
     "name": "GoldenVirginia",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762558228,
-        "end": 1762559438
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1762559438,
         "end": 1762570835,
@@ -23143,8 +23134,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763757623,
-        "end": null,
+        "end": 1763768420,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763768420,
+        "end": null
       }
     ]
   },
@@ -26640,6 +26636,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763767216,
+        "end": 1763768420,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763768420,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30999,12 +31001,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1762558228,
-        "end": 1762560627,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762560627,
