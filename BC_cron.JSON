@@ -2386,11 +2386,6 @@
     "name": "---GHOST---",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762519822,
-        "end": 1762944024
-      },
-      {
         "status": "Jail",
         "start": 1762944024,
         "end": 1762944620
@@ -3535,6 +3530,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763723421,
+        "end": 1763730032,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763730032,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -10792,12 +10793,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762519822,
-        "end": 1762531234,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762531234,
@@ -19988,11 +19983,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762519822,
-        "end": 1762520432
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1762520432,
         "end": 1762527637,
@@ -23170,7 +23160,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763724629,
-        "end": null
+        "end": 1763730032
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763730032,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36292,7 +36288,13 @@
       {
         "status": "Available",
         "start": 1763705417,
-        "end": null
+        "end": 1763730032
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763730032,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
