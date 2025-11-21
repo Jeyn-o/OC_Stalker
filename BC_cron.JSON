@@ -6022,6 +6022,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763731827,
+        "end": 1763734823,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763734823,
         "end": null,
         "travel_type": "standard"
       }
@@ -10252,8 +10258,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1763727027,
-        "end": null,
+        "end": 1763734823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763734823,
+        "end": null
       }
     ]
   },
@@ -11624,11 +11635,6 @@
   "3156041": {
     "name": "Googer",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762524621,
-        "end": 1762535423
-      },
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1762535423,
@@ -13717,12 +13723,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1762524621,
-        "end": 1762525220,
-        "travel_type": "standard"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1762525220,
