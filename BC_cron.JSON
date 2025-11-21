@@ -1424,8 +1424,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763710822,
-        "end": null,
+        "end": 1763717433,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763717433,
+        "end": null
       }
     ]
   },
@@ -7188,6 +7193,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763710228,
+        "end": 1763717433,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763717433,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7816,12 +7827,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1762507228,
-        "end": 1762516838,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1762516838,
@@ -12013,11 +12018,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1762507228,
-        "end": 1762508422
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1762508422,
@@ -19120,11 +19120,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[Argentina] - Idle",
-        "start": 1762507228,
-        "end": 1762507825
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1762507825,
         "end": 1762514421,
@@ -23145,6 +23140,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763709023,
+        "end": 1763717433
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: ALL",
+        "start": 1763717433,
         "end": null
       }
     ]
@@ -29727,11 +29727,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762507228,
-        "end": 1762507825
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762507825,
         "end": 1762514421,
@@ -35493,8 +35488,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763710228,
-        "end": null,
+        "end": 1763717433,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763717433,
+        "end": null
       }
     ]
   },
@@ -36230,12 +36230,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1762507228,
-        "end": 1762517422,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1762517422,
