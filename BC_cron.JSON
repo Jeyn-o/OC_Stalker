@@ -2445,12 +2445,6 @@
     "name": "gypo",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1762506040,
-        "end": 1762516838,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Going",
         "start": 1762516838,
         "end": 1762527027,
@@ -4809,8 +4803,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1763709023,
-        "end": null,
+        "end": 1763716226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763716226,
+        "end": null
       }
     ]
   },
@@ -8980,8 +8979,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763704220,
-        "end": null,
+        "end": 1763716226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763716226,
+        "end": null
       }
     ]
   },
@@ -10152,11 +10156,6 @@
   "2937449": {
     "name": "Piraterer",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1762506040,
-        "end": 1762508422
-      },
       {
         "status": "Available",
         "start": 1762508422,
@@ -13727,12 +13726,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1762506040,
-        "end": 1762511426,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1762511426,
@@ -20980,6 +20973,11 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1763714420,
+        "end": 1763716226
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763716226,
         "end": null
       }
     ]
@@ -22513,11 +22511,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762506040,
-        "end": 1762516217
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1762516217,
@@ -28522,7 +28515,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763714420,
-        "end": null
+        "end": 1763716226
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763716226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
