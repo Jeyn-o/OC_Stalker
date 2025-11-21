@@ -3544,12 +3544,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762533628,
-        "end": 1762545017,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762545017,
         "end": 1762546227
@@ -8134,7 +8128,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763741425,
-        "end": null
+        "end": 1763743820
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763743820,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26903,11 +26903,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762533628,
-        "end": 1762534831
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1762534831,
         "end": 1762537221
@@ -29004,11 +28999,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762533628,
-        "end": 1762694428
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762694428,
         "end": 1762696837
@@ -29446,6 +29436,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763737233,
+        "end": 1763743820,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763743820,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34254,8 +34250,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763737233,
-        "end": null,
+        "end": 1763743820,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763743820,
+        "end": null
       }
     ]
   },
