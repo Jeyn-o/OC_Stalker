@@ -187,6 +187,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763838626,
+        "end": 1763842830
+      },
+      {
+        "status": "Available",
+        "start": 1763842830,
         "end": null
       }
     ]
@@ -841,6 +846,11 @@
       {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1763840423,
+        "end": 1763842830
+      },
+      {
+        "status": "Available",
+        "start": 1763842830,
         "end": null
       }
     ]
@@ -3061,6 +3071,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763839222,
+        "end": 1763842830
+      },
+      {
+        "status": "Available",
+        "start": 1763842830,
         "end": null
       }
     ]
@@ -7451,11 +7466,6 @@
     "name": "ExiledAstronaut",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762632626,
-        "end": 1763575228
-      },
-      {
         "status": "Jail",
         "start": 1763575228,
         "end": 1763581823
@@ -8044,6 +8054,11 @@
       {
         "status": "Available",
         "start": 1763841021,
+        "end": 1763842830
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763842830,
         "end": null
       }
     ]
@@ -13353,7 +13368,13 @@
       {
         "status": "Available",
         "start": 1763833824,
-        "end": null
+        "end": 1763842830
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1763842830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17059,7 +17080,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763842225,
-        "end": null
+        "end": 1763842830
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763842830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18553,12 +18580,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1762632626,
-        "end": 1762643419,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762643419,
@@ -29059,8 +29080,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763841021,
-        "end": null,
+        "end": 1763842830,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763842830,
+        "end": null
       }
     ]
   },
@@ -29247,11 +29273,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762632626,
-        "end": 1762633228
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762633228,
@@ -30274,6 +30295,11 @@
       {
         "status": "Available",
         "start": 1763841021,
+        "end": 1763842830
+      },
+      {
+        "status": "[Hospital] Lost - Revives: OFF",
+        "start": 1763842830,
         "end": null
       }
     ]
@@ -30281,12 +30307,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762632626,
-        "end": 1762644020,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1762644020,
@@ -31387,12 +31407,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762632626,
-        "end": 1762643419,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762643419,
@@ -36723,11 +36737,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762632626,
-        "end": 1762641626
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1762641626,
