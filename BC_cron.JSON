@@ -7313,12 +7313,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762588836,
-        "end": 1762596032,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762596032,
         "end": 1762597830
@@ -24546,7 +24540,13 @@
       {
         "status": "Available",
         "start": 1763763619,
-        "end": null
+        "end": 1763799023
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763799023,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27119,12 +27119,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1762588836,
-        "end": 1762590038,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1762590038,
         "end": 1762591231,
@@ -28763,8 +28757,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763797224,
-        "end": null,
+        "end": 1763799023,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763799023,
+        "end": null
       }
     ]
   },
@@ -36403,12 +36402,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1762588836,
-        "end": 1762596032,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762596032,
