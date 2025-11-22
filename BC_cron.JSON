@@ -1615,12 +1615,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762602035,
-        "end": 1762608020,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762608020,
         "end": 1762771222
@@ -8562,8 +8556,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763805017,
-        "end": null,
+        "end": 1763812226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1763812226,
+        "end": null
       }
     ]
   },
@@ -15525,6 +15524,11 @@
       {
         "status": "Available",
         "start": 1763796624,
+        "end": 1763812226
+      },
+      {
+        "status": "Jail",
+        "start": 1763812226,
         "end": null
       }
     ]
@@ -19930,8 +19934,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1763805017,
-        "end": null,
+        "end": 1763812226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763812226,
+        "end": null
       }
     ]
   },
@@ -22136,11 +22145,6 @@
     "name": "GoldenVirginia",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1762602035,
-        "end": 1762610436
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762610436,
         "end": 1762622422,
@@ -23038,7 +23042,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763807425,
-        "end": null
+        "end": 1763812226
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763812226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27016,11 +27026,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1762602035,
-        "end": 1762606837
-      },
-      {
         "status": "Available",
         "start": 1762606837,
         "end": 1762613424
@@ -28656,6 +28661,11 @@
       {
         "status": "Available",
         "start": 1763811623,
+        "end": 1763812226
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763812226,
         "end": null
       }
     ]
@@ -29594,8 +29604,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763806227,
-        "end": null,
+        "end": 1763812226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763812226,
+        "end": null
       }
     ]
   },
@@ -30936,8 +30951,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763800829,
-        "end": null,
+        "end": 1763812226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763812226,
+        "end": null
       }
     ]
   },
@@ -33033,6 +33053,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1763806227,
+        "end": 1763812226,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1763812226,
         "end": null,
         "travel_type": "airstrip"
       }
