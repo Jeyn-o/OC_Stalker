@@ -1510,12 +1510,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1762599026,
-        "end": 1762611623,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1762611623,
         "end": 1762614029
@@ -3029,8 +3023,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763797224,
-        "end": null,
+        "end": 1763809233,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763809233,
+        "end": null
       }
     ]
   },
@@ -4781,11 +4780,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1762599026,
-        "end": 1762600222
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1762600222,
@@ -8574,12 +8568,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1762599026,
-        "end": 1762600222,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762600222,
         "end": 1762723226
@@ -9310,12 +9298,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1762599026,
-        "end": 1762608632,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762608632,
@@ -13847,12 +13829,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1762599026,
-        "end": 1762602635,
-        "travel_type": "standard"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1762602635,
         "end": 1762604426
@@ -17787,12 +17763,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1762599026,
-        "end": 1762606223,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762606223,
@@ -22421,11 +22391,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762599026,
-        "end": 1762599633
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1762599633,
         "end": 1762601426,
@@ -24502,8 +24467,13 @@
       {
         "status": "[China] - Going",
         "start": 1763799023,
-        "end": null,
+        "end": 1763809233,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763809233,
+        "end": null
       }
     ]
   },
@@ -27081,11 +27051,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762599026,
-        "end": 1762602035
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762602035,
         "end": 1762606837
@@ -28709,6 +28674,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1763807425,
+        "end": 1763809233,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1763809233,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33856,6 +33827,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763802037,
+        "end": 1763809233,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763809233,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35574,11 +35551,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762599026,
-        "end": 1762614627
-      },
       {
         "status": "[United Kingdom] Attacked - Revives: ALL",
         "start": 1762614627,
@@ -37707,7 +37679,13 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1763808021,
-        "end": null
+        "end": 1763809233
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1763809233,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
