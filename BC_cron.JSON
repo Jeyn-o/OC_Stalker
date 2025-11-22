@@ -175,12 +175,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1762622422,
-        "end": 1762634420,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762634420,
         "end": 1762647027,
@@ -857,6 +851,11 @@
       {
         "status": "Available",
         "start": 1763268620,
+        "end": 1763832628
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1763832628,
         "end": null
       }
     ]
@@ -1379,8 +1378,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763831425,
-        "end": null,
+        "end": 1763832628,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763832628,
+        "end": null
       }
     ]
   },
@@ -7878,6 +7882,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763829030,
+        "end": 1763832628
+      },
+      {
+        "status": "Available",
+        "start": 1763832628,
         "end": null
       }
     ]
@@ -11785,7 +11794,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763829624,
-        "end": null
+        "end": 1763832628
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763832628,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13121,7 +13136,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763832023,
-        "end": null
+        "end": 1763832628
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763832628,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15573,6 +15594,11 @@
       {
         "status": "Available",
         "start": 1763812831,
+        "end": 1763832628
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1763832628,
         "end": null
       }
     ]
@@ -22234,11 +22260,6 @@
     "name": "GoldenVirginia",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762622422,
-        "end": 1762985421
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1762985421,
         "end": 1762997425,
@@ -26657,6 +26678,11 @@
       {
         "status": "Available",
         "start": 1763832023,
+        "end": 1763832628
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: Partial",
+        "start": 1763832628,
         "end": null
       }
     ]
@@ -28945,12 +28971,6 @@
   "3805208": {
     "name": "AuntGoo",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1762622422,
-        "end": 1762632626,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762632626,
@@ -34517,11 +34537,6 @@
   "3926163": {
     "name": "J-Donuts",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1762622422,
-        "end": 1762625425
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1762625425,
