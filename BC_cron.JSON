@@ -6976,6 +6976,12 @@
       {
         "status": "[China] - Going",
         "start": 1763805635,
+        "end": 1763815220,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763815220,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -16895,11 +16901,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762605026,
-        "end": 1762606837
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762606837,
         "end": 1762613424,
@@ -19922,8 +19923,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1763814021,
-        "end": null,
+        "end": 1763815220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1763815220,
+        "end": null
       }
     ]
   },
