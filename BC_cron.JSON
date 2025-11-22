@@ -202,6 +202,11 @@
       {
         "status": "Available",
         "start": 1763847026,
+        "end": 1763850024
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763850024,
         "end": null
       }
     ]
@@ -1548,12 +1553,6 @@
   "914683": {
     "name": "Droq",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1762639825,
-        "end": 1762652425,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762652425,
@@ -8072,6 +8071,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763842830,
+        "end": 1763850024
+      },
+      {
+        "status": "Available",
+        "start": 1763850024,
         "end": null
       }
     ]
@@ -8119,11 +8123,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1762639825,
-        "end": 1762642832
-      },
       {
         "status": "[China] - Returning",
         "start": 1762642832,
@@ -12008,7 +12007,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763848831,
-        "end": null
+        "end": 1763850024
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763850024,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17115,8 +17120,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1763842830,
-        "end": null,
+        "end": 1763850024,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763850024,
+        "end": null
       }
     ]
   },
@@ -27053,8 +27063,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763849423,
-        "end": null,
+        "end": 1763850024,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1763850024,
+        "end": null
       }
     ]
   },
@@ -27527,6 +27542,11 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1763848831,
+        "end": 1763850024
+      },
+      {
+        "status": "[Hawaii] Mugged - Revives: OFF",
+        "start": 1763850024,
         "end": null
       }
     ]
@@ -29390,11 +29410,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762639825,
-        "end": 1762640418
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762640418,
         "end": 1762647027,
@@ -29613,6 +29628,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1763848831,
+        "end": 1763850024
+      },
+      {
+        "status": "Available",
+        "start": 1763850024,
         "end": null
       }
     ]
@@ -30375,7 +30395,13 @@
       {
         "status": "Available",
         "start": 1763845821,
-        "end": null
+        "end": 1763850024
+      },
+      {
+        "status": "[Traveling] - Going",
+        "start": 1763850024,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -36178,12 +36204,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762639825,
-        "end": 1762646442,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762646442,
