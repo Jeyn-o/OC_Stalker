@@ -6022,7 +6022,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763785221,
-        "end": null
+        "end": 1763803223
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763803223,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6240,12 +6246,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1762593025,
-        "end": 1762605625,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1762605625,
@@ -10401,11 +10401,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1762593025,
-        "end": 1762597220
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762597220,
@@ -21445,6 +21440,12 @@
       {
         "status": "[China] - Going",
         "start": 1763793039,
+        "end": 1763803223,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763803223,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -27105,11 +27106,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1762593025,
-        "end": 1762595417
-      },
-      {
         "status": "Available",
         "start": 1762595417,
         "end": 1762596032
@@ -28743,6 +28739,11 @@
       {
         "status": "Available",
         "start": 1763802037,
+        "end": 1763803223
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763803223,
         "end": null
       }
     ]
@@ -34490,11 +34491,6 @@
     "name": "J-Donuts",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762593025,
-        "end": 1762603234
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1762603234,
         "end": 1762617020,
@@ -35618,11 +35614,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[United Kingdom] Mugged - Revives: ALL",
-        "start": 1762593025,
-        "end": 1762595417
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762595417,
