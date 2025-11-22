@@ -901,11 +901,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762596623,
-        "end": 1762606223
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762606223,
         "end": 1762612828,
@@ -6816,11 +6811,6 @@
     "name": "Hstains",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1762596623,
-        "end": 1762606837
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762606837,
         "end": 1762618221,
@@ -10891,12 +10881,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1762596623,
-        "end": 1762609220,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1762609220,
@@ -20014,11 +19998,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1762596623,
-        "end": 1762601426
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762601426,
@@ -37767,8 +37746,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763796624,
-        "end": null,
+        "end": 1763806819,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763806819,
+        "end": null
       }
     ]
   },
@@ -38778,6 +38762,11 @@
       {
         "status": "Available",
         "start": 1763806227,
+        "end": 1763806819
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763806819,
         "end": null
       }
     ]
