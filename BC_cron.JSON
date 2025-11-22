@@ -1499,12 +1499,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1762626631,
-        "end": 1762639825,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762639825,
         "end": 1762652425,
@@ -2561,6 +2555,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763833222,
+        "end": 1763836816
+      },
+      {
+        "status": "Available",
+        "start": 1763836816,
         "end": null
       }
     ]
@@ -3461,7 +3460,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763827817,
-        "end": null
+        "end": 1763836816
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763836816,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19228,12 +19233,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762626631,
-        "end": 1762633228,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762633228,
         "end": 1762633832
@@ -21035,8 +21034,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1763831425,
-        "end": null,
+        "end": 1763836816,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763836816,
+        "end": null
       }
     ]
   },
@@ -22541,6 +22545,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1763827817,
+        "end": 1763836816,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1763836816,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -24003,12 +24013,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1762626631,
-        "end": 1762633832,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762633832,
@@ -27223,11 +27227,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762626631,
-        "end": 1762669829
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1762669829,
         "end": 1762674619
@@ -29805,6 +29804,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1763835026,
+        "end": 1763836816,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763836816,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34064,12 +34069,6 @@
   "3915266": {
     "name": "Lucifixion",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762626631,
-        "end": 1762633228,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762633228,
@@ -38925,8 +38924,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1763835026,
-        "end": null,
+        "end": 1763836816,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763836816,
+        "end": null
       }
     ]
   },
