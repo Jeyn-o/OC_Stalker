@@ -4142,11 +4142,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762645219,
-        "end": 1762651826
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762651826,
         "end": 1762656625,
@@ -10620,6 +10615,11 @@
       {
         "status": "Available",
         "start": 1763854818,
+        "end": 1763855419
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763855419,
         "end": null
       }
     ]
@@ -12504,12 +12504,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1762645219,
-        "end": 1762646442,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1762646442,
@@ -30298,7 +30292,13 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1763853024,
-        "end": null
+        "end": 1763855419
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1763855419,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36319,6 +36319,11 @@
       {
         "status": "Available",
         "start": 1763854226,
+        "end": 1763855419
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1763855419,
         "end": null
       }
     ]
@@ -39488,6 +39493,11 @@
       {
         "status": "Available",
         "start": 1763853626,
+        "end": 1763855419
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1763855419,
         "end": null
       }
     ]
@@ -39825,6 +39835,11 @@
       {
         "status": "Available",
         "start": 1763854226,
+        "end": 1763855419
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1763855419,
         "end": null
       }
     ]
