@@ -1585,11 +1585,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762608020,
-        "end": 1762771222
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762771222,
         "end": 1762778428,
@@ -7197,16 +7192,6 @@
       {
         "status": "Available",
         "start": 1763589637,
-        "end": null
-      }
-    ]
-  },
-  "2671608": {
-    "name": "AlfieG",
-    "activities": [
-      {
-        "status": "Available",
-        "start": 1762608020,
         "end": null
       }
     ]
@@ -13792,20 +13777,19 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763807425,
-        "end": null,
+        "end": 1763818230,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763818230,
+        "end": null
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1762608020,
-        "end": 1762608632,
-        "travel_type": "standard"
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1762608632,
@@ -19915,7 +19899,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763815220,
-        "end": null
+        "end": 1763818230
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763818230,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23254,11 +23244,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1762608020,
-        "end": 1762609220
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762609220,
         "end": 1762620621,
@@ -26563,8 +26548,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763817018,
-        "end": null,
+        "end": 1763818230,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763818230,
+        "end": null
       }
     ]
   },
@@ -28638,6 +28628,11 @@
       {
         "status": "Available",
         "start": 1763817622,
+        "end": 1763818230
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1763818230,
         "end": null
       }
     ]
@@ -38637,6 +38632,11 @@
       {
         "status": "Available",
         "start": 1763817622,
+        "end": 1763818230
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763818230,
         "end": null
       }
     ]
