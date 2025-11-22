@@ -13050,7 +13050,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763784623,
-        "end": null
+        "end": 1763791231
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763791231,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35631,12 +35637,6 @@
     "name": "Rey2Fly",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762581019,
-        "end": 1762587620,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762587620,
         "end": 1762593025
@@ -38802,6 +38802,11 @@
       {
         "status": "Available",
         "start": 1763740840,
+        "end": 1763791231
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763791231,
         "end": null
       }
     ]
