@@ -5991,8 +5991,13 @@
       {
         "status": "[China] - Going",
         "start": 1763779220,
-        "end": null,
+        "end": 1763783419,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763783419,
+        "end": null
       }
     ]
   },
@@ -8172,8 +8177,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1763781621,
-        "end": null,
+        "end": 1763783419,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1763783419,
+        "end": null
       }
     ]
   },
@@ -26611,6 +26621,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763782228,
+        "end": 1763783419,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763783419,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -27016,7 +27032,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763779816,
-        "end": null
+        "end": 1763783419
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763783419,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31874,12 +31896,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1762573223,
-        "end": 1762579222,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1762579222,
@@ -37700,7 +37716,13 @@
       {
         "status": "Available",
         "start": 1763781621,
-        "end": null
+        "end": 1763783419
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763783419,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
