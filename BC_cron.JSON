@@ -4785,6 +4785,11 @@
       {
         "status": "Available",
         "start": 1763340622,
+        "end": 1763795421
+      },
+      {
+        "status": "Jail",
+        "start": 1763795421,
         "end": null
       }
     ]
@@ -7833,6 +7838,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1763792422,
+        "end": 1763795421
+      },
+      {
+        "status": "Available",
+        "start": 1763795421,
         "end": null
       }
     ]
@@ -8132,8 +8142,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1763785826,
-        "end": null,
+        "end": 1763795421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763795421,
+        "end": null
       }
     ]
   },
@@ -12708,7 +12723,13 @@
       {
         "status": "[China] - Idle",
         "start": 1763792422,
-        "end": null
+        "end": 1763795421
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763795421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15162,11 +15183,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762585233,
-        "end": 1762647027
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1762647027,
@@ -23102,7 +23118,13 @@
       {
         "status": "Available",
         "start": 1763794835,
-        "end": null
+        "end": 1763795421
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1763795421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27089,12 +27111,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1762585233,
-        "end": 1762587027,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762587027,
         "end": 1762587620
@@ -31023,8 +31039,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763784035,
-        "end": null,
+        "end": 1763795421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763795421,
+        "end": null
       }
     ]
   },
@@ -31956,12 +31977,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1762585233,
-        "end": 1762590628,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Idle",
         "start": 1762590628,
