@@ -5997,7 +5997,13 @@
       {
         "status": "[China] - Idle",
         "start": 1763783419,
-        "end": null
+        "end": 1763784035
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763784035,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -6020,11 +6026,6 @@
   "2414438": {
     "name": "Caross",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762573827,
-        "end": 1763257822
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1763257822,
@@ -15132,11 +15133,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1762573827,
-        "end": 1762575629
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1762575629,
@@ -28672,8 +28668,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1763782825,
-        "end": null,
+        "end": 1763784035,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1763784035,
+        "end": null
       }
     ]
   },
@@ -30959,7 +30960,13 @@
       {
         "status": "Available",
         "start": 1763779220,
-        "end": null
+        "end": 1763784035
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1763784035,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37721,6 +37728,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763783419,
+        "end": 1763784035,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763784035,
         "end": null,
         "travel_type": "airstrip"
       }
