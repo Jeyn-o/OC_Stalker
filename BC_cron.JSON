@@ -205,12 +205,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1762634420,
-        "end": 1762647027,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762647027,
         "end": 1762651224
@@ -10534,6 +10528,11 @@
       {
         "status": "Available",
         "start": 1763844022,
+        "end": 1763844624
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763844624,
         "end": null
       }
     ]
@@ -13387,8 +13386,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1763842830,
-        "end": null,
+        "end": 1763844624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1763844624,
+        "end": null
       }
     ]
   },
@@ -26986,8 +26990,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763843427,
-        "end": null,
+        "end": 1763844624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763844624,
+        "end": null
       }
     ]
   },
@@ -34998,6 +35007,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1763844022,
+        "end": 1763844624
+      },
+      {
+        "status": "Available",
+        "start": 1763844624,
         "end": null
       }
     ]
