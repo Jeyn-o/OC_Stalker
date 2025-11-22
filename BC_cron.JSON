@@ -4042,12 +4042,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762625425,
-        "end": 1762630231,
-        "travel_type": "private"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762630231,
         "end": 1762632031
@@ -6850,6 +6844,11 @@
       {
         "status": "Available",
         "start": 1763651445,
+        "end": 1763835620
+      },
+      {
+        "status": "Jail",
+        "start": 1763835620,
         "end": null
       }
     ]
@@ -7338,12 +7337,6 @@
   "2675301": {
     "name": "ExiledAstronaut",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1762625425,
-        "end": 1762632626,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762632626,
@@ -7930,11 +7923,6 @@
   "2680449": {
     "name": "BattlePrincess",
     "activities": [
-      {
-        "status": "Jail",
-        "start": 1762625425,
-        "end": 1762628433
-      },
       {
         "status": "Available",
         "start": 1762628433,
@@ -10946,12 +10934,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762625425,
-        "end": 1762632031,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762632031,
         "end": 1762635020
@@ -11857,8 +11839,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1763834436,
-        "end": null,
+        "end": 1763835620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1763835620,
+        "end": null
       }
     ]
   },
@@ -13993,12 +13980,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762625425,
-        "end": 1762630231,
-        "travel_type": "standard"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762630231,
@@ -26782,6 +26763,11 @@
       {
         "status": "Available",
         "start": 1763835026,
+        "end": 1763835620
+      },
+      {
+        "status": "[Hospital] Lost - Revives: Partial",
+        "start": 1763835620,
         "end": null
       }
     ]
@@ -34650,12 +34636,6 @@
     "name": "J-Donuts",
     "activities": [
       {
-        "status": "[Japan] - Returning",
-        "start": 1762625425,
-        "end": 1762639228,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1762639228,
         "end": 1762664436
@@ -36529,7 +36509,13 @@
       {
         "status": "Available",
         "start": 1763829030,
-        "end": null
+        "end": 1763835620
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763835620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
