@@ -167,6 +167,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763832023,
+        "end": 1763833222
+      },
+      {
+        "status": "Available",
+        "start": 1763833222,
         "end": null
       }
     ]
@@ -856,6 +861,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1763832628,
+        "end": 1763833222
+      },
+      {
+        "status": "Available",
+        "start": 1763833222,
         "end": null
       }
     ]
@@ -2541,6 +2551,11 @@
       {
         "status": "Available",
         "start": 1763832023,
+        "end": 1763833222
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763833222,
         "end": null
       }
     ]
@@ -15194,6 +15209,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1763832023,
+        "end": 1763833222
+      },
+      {
+        "status": "Available",
+        "start": 1763833222,
         "end": null
       }
     ]
@@ -15599,6 +15619,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1763832628,
+        "end": 1763833222
+      },
+      {
+        "status": "Available",
+        "start": 1763833222,
         "end": null
       }
     ]
@@ -16835,7 +16860,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1763831425,
-        "end": null
+        "end": 1763833222
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1763833222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21498,7 +21529,13 @@
       {
         "status": "[China] - Idle",
         "start": 1763827229,
-        "end": null
+        "end": 1763833222
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763833222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21975,6 +22012,11 @@
       {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1763832023,
+        "end": 1763833222
+      },
+      {
+        "status": "Available",
+        "start": 1763833222,
         "end": null
       }
     ]
@@ -29171,6 +29213,11 @@
       {
         "status": "Available",
         "start": 1763830841,
+        "end": 1763833222
+      },
+      {
+        "status": "[Hospital] Lost - Revives: OFF",
+        "start": 1763833222,
         "end": null
       }
     ]
@@ -31997,11 +32044,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1762623025,
-        "end": 1762629031
-      },
       {
         "status": "[Argentina] Attacked - Revives: ALL",
         "start": 1762629031,
@@ -35675,11 +35717,6 @@
     "name": "Rey2Fly",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762623025,
-        "end": 1762624218
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762624218,
         "end": 1762630818,
@@ -38823,7 +38860,13 @@
       {
         "status": "Available",
         "start": 1763827229,
-        "end": null
+        "end": 1763833222
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1763833222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
