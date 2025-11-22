@@ -1506,7 +1506,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1763838626,
-        "end": null
+        "end": 1763839828
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1763839828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6091,7 +6097,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763836228,
-        "end": null
+        "end": 1763839828
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763839828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7390,6 +7402,11 @@
       {
         "status": "Available",
         "start": 1763818821,
+        "end": 1763839828
+      },
+      {
+        "status": "[Hospital] Lost - Revives: OFF",
+        "start": 1763839828,
         "end": null
       }
     ]
@@ -9301,8 +9318,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763828424,
-        "end": null,
+        "end": 1763839828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763839828,
+        "end": null
       }
     ]
   },
@@ -9464,12 +9486,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1762629627,
-        "end": 1762639228,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Returning",
         "start": 1762639228,
@@ -14032,8 +14048,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763828424,
-        "end": null,
+        "end": 1763839828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763839828,
+        "end": null
       }
     ]
   },
@@ -19265,8 +19286,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763827229,
-        "end": null,
+        "end": 1763839828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763839828,
+        "end": null
       }
     ]
   },
@@ -29327,6 +29353,11 @@
       {
         "status": "Available",
         "start": 1763834436,
+        "end": 1763839828
+      },
+      {
+        "status": "[Hospital] Lost - Revives: OFF",
+        "start": 1763839828,
         "end": null
       }
     ]
