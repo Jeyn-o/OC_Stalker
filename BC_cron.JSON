@@ -1655,6 +1655,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763849423,
+        "end": 1763852428
+      },
+      {
+        "status": "Available",
+        "start": 1763852428,
         "end": null
       }
     ]
@@ -4060,7 +4065,13 @@
       {
         "status": "Available",
         "start": 1763392829,
-        "end": null
+        "end": 1763852428
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1763852428,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6887,7 +6898,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763851218,
-        "end": null
+        "end": 1763852428
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763852428,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9395,8 +9412,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763840423,
-        "end": null,
+        "end": 1763852428,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763852428,
+        "end": null
       }
     ]
   },
@@ -13430,8 +13452,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1763850629,
-        "end": null,
+        "end": 1763852428,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1763852428,
+        "end": null
       }
     ]
   },
@@ -21250,8 +21277,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763845821,
-        "end": null,
+        "end": 1763852428,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763852428,
+        "end": null
       }
     ]
   },
@@ -21794,11 +21826,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1762642220,
-        "end": 1762647624
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1762647624,
@@ -32496,11 +32523,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1762642220,
-        "end": 1762650621
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1762650621,
