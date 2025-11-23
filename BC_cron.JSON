@@ -8359,11 +8359,6 @@
     "name": "Hussc-",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1762715421,
-        "end": 1762733419
-      },
-      {
         "status": "[China] - Returning",
         "start": 1762733419,
         "end": 1762743631,
@@ -10789,8 +10784,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763924436,
-        "end": null,
+        "end": 1763925624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763925624,
+        "end": null
       }
     ]
   },
@@ -13663,7 +13663,13 @@
       {
         "status": "Available",
         "start": 1763865024,
-        "end": null
+        "end": 1763925624
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1763925624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14467,20 +14473,19 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763914217,
-        "end": null,
+        "end": 1763925624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763925624,
+        "end": null
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1762715421,
-        "end": 1762716022,
-        "travel_type": "standard"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1762716022,
@@ -23650,6 +23655,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1763923819,
+        "end": 1763925624
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: OFF",
+        "start": 1763925624,
         "end": null
       }
     ]
@@ -35889,6 +35899,11 @@
       {
         "status": "Available",
         "start": 1763863229,
+        "end": 1763925624
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1763925624,
         "end": null
       }
     ]
