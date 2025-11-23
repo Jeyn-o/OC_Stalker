@@ -1464,7 +1464,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763889019,
-        "end": null
+        "end": 1763889620
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763889620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2670,6 +2676,11 @@
       {
         "status": "Available",
         "start": 1763863826,
+        "end": 1763889620
+      },
+      {
+        "status": "Jail",
+        "start": 1763889620,
         "end": null
       }
     ]
@@ -6114,8 +6125,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763884217,
-        "end": null,
+        "end": 1763889620,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763889620,
+        "end": null
       }
     ]
   },
@@ -7639,11 +7655,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762679425,
-        "end": 1762680030
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762680030,
@@ -14382,7 +14393,13 @@
       {
         "status": "Available",
         "start": 1763861425,
-        "end": null
+        "end": 1763889620
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1763889620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35536,11 +35553,6 @@
   "3943448": {
     "name": "Maddog1997",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762679425,
-        "end": 1762686030
-      },
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1762686030,
