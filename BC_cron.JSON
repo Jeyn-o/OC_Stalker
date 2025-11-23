@@ -949,12 +949,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1762692628,
-        "end": 1762699823,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762699823,
         "end": 1762756825
@@ -14407,7 +14401,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763901620,
-        "end": null
+        "end": 1763902836
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763902836,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21942,7 +21942,13 @@
       {
         "status": "Available",
         "start": 1763895020,
-        "end": null
+        "end": 1763902836
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763902836,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22918,8 +22924,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1763893824,
-        "end": null,
+        "end": 1763902836,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1763902836,
+        "end": null
       }
     ]
   },
@@ -24912,6 +24923,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763896218,
+        "end": 1763902836,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763902836,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -27699,11 +27716,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762692628,
-        "end": 1762696837
-      },
       {
         "status": "[Canada] - Going",
         "start": 1762696837,
@@ -30790,12 +30802,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1762692628,
-        "end": 1762699823,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762699823,
@@ -35602,11 +35608,6 @@
     "name": "Maddog1997",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762692628,
-        "end": 1762727425
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762727425,
         "end": 1762734025,
@@ -38656,8 +38657,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763892622,
-        "end": null,
+        "end": 1763902836,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763902836,
+        "end": null
       }
     ]
   },
