@@ -6125,8 +6125,13 @@
       {
         "status": "[China] - Going",
         "start": 1763865620,
-        "end": null,
+        "end": 1763869821,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763869821,
+        "end": null
       }
     ]
   },
@@ -8164,6 +8169,11 @@
       {
         "status": "[China] - Idle",
         "start": 1763869220,
+        "end": 1763869821
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1763869821,
         "end": null
       }
     ]
@@ -21424,11 +21434,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1762659623,
-        "end": 1762667420
-      },
-      {
         "status": "[China] - Returning",
         "start": 1762667420,
         "end": 1762677029,
@@ -27221,6 +27226,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763868626,
+        "end": 1763869821,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763869821,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29414,6 +29425,12 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763868022,
+        "end": 1763869821,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1763869821,
         "end": null,
         "travel_type": "airstrip"
       }
