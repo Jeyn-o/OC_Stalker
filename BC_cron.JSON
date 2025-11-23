@@ -5006,6 +5006,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1763915431,
+        "end": 1763917824
+      },
+      {
+        "status": "Available",
+        "start": 1763917824,
         "end": null
       }
     ]
@@ -6201,8 +6206,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763914217,
-        "end": null,
+        "end": 1763917824,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1763917824,
+        "end": null
       }
     ]
   },
@@ -8920,7 +8930,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1763911825,
-        "end": null
+        "end": 1763917824
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763917824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9569,8 +9585,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1763908237,
-        "end": null,
+        "end": 1763917824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763917824,
+        "end": null
       }
     ]
   },
@@ -10719,8 +10740,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763911232,
-        "end": null,
+        "end": 1763917824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763917824,
+        "end": null
       }
     ]
   },
@@ -11294,11 +11320,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: Partial",
-        "start": 1762707638,
-        "end": 1762708227
-      },
       {
         "status": "Available",
         "start": 1762708227,
@@ -16029,12 +16050,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1762707638,
-        "end": 1762708823,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762708823,
@@ -27770,11 +27785,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1762707638,
-        "end": 1762711241
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1762711241,
         "end": 1762711825
@@ -29537,8 +29547,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1763916622,
-        "end": null,
+        "end": 1763917824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1763917824,
+        "end": null
       }
     ]
   },
@@ -30532,11 +30547,6 @@
     "name": "Sleepy_Skyes",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762707638,
-        "end": 1762833634
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762833634,
         "end": 1762836020
@@ -30762,6 +30772,11 @@
       {
         "status": "[Abroad] - Idle",
         "start": 1763910626,
+        "end": 1763917824
+      },
+      {
+        "status": "[Switzerland] Mugged - Revives: ALL",
+        "start": 1763917824,
         "end": null
       }
     ]
@@ -37446,6 +37461,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763914823,
+        "end": 1763917824
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: OFF",
+        "start": 1763917824,
         "end": null
       }
     ]
