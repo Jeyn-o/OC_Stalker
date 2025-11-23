@@ -2702,12 +2702,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1762655428,
-        "end": 1762668027,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1762668027,
         "end": 1762668618
@@ -4831,7 +4825,13 @@
       {
         "status": "[China] - Idle",
         "start": 1763863229,
-        "end": null
+        "end": 1763865620
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763865620,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -6147,7 +6147,13 @@
       {
         "status": "Available",
         "start": 1763865024,
-        "end": null
+        "end": 1763865620
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763865620,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -6422,8 +6428,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763854226,
-        "end": null,
+        "end": 1763865620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763865620,
+        "end": null
       }
     ]
   },
@@ -19640,7 +19651,13 @@
       {
         "status": "Available",
         "start": 1763839828,
-        "end": null
+        "end": 1763865620
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763865620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20506,11 +20523,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762655428,
-        "end": 1762657227
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1762657227,
