@@ -14405,11 +14405,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: Partial",
-        "start": 1762690222,
-        "end": 1762690822
-      },
-      {
         "status": "Available",
         "start": 1762690822,
         "end": 1762692020
@@ -17279,6 +17274,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1763893224,
+        "end": 1763900421,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763900421,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -23797,12 +23798,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762690222,
-        "end": 1762701636,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762701636,
         "end": 1762786234
@@ -27193,8 +27188,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763899234,
-        "end": null,
+        "end": 1763900421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1763900421,
+        "end": null
       }
     ]
   },
@@ -29448,7 +29448,13 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1763899821,
-        "end": null
+        "end": 1763900421
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1763900421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37351,12 +37357,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1762690222,
-        "end": 1762697415,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762697415,
