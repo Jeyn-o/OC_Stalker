@@ -5040,11 +5040,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762713026,
-        "end": 1762717221
-      },
-      {
         "status": "[China] - Going",
         "start": 1762717221,
         "end": 1762722033,
@@ -6233,6 +6228,12 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1763920220,
+        "end": 1763923219,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763923219,
         "end": null,
         "travel_type": "standard"
       }
@@ -9822,12 +9823,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1762713026,
-        "end": 1762714224,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762714224,
@@ -19628,8 +19623,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763912422,
-        "end": null,
+        "end": 1763923219,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763923219,
+        "end": null
       }
     ]
   },
@@ -27385,6 +27385,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763922022,
+        "end": 1763923219,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763923219,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29668,20 +29674,19 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763921422,
-        "end": null,
+        "end": 1763923219,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763923219,
+        "end": null
       }
     ]
   },
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1762713026,
-        "end": 1762723226,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Returning",
         "start": 1762723226,
@@ -30665,6 +30670,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1763922022,
+        "end": 1763923219,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1763923219,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -38893,8 +38904,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763916622,
-        "end": null,
+        "end": 1763923219,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763923219,
+        "end": null
       }
     ]
   },
