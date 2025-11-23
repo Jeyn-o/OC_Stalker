@@ -8268,12 +8268,6 @@
     "name": "Hussc-",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1762695621,
-        "end": 1762705223,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Going",
         "start": 1762705223,
         "end": 1762715421,
@@ -9558,11 +9552,6 @@
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: Partial",
-        "start": 1762695621,
-        "end": 1762696837
-      },
       {
         "status": "Available",
         "start": 1762696837,
@@ -19619,6 +19608,11 @@
       {
         "status": "[China] - Idle",
         "start": 1763892032,
+        "end": 1763905819
+      },
+      {
+        "status": "[China] Mugged - Revives: Partial",
+        "start": 1763905819,
         "end": null
       }
     ]
@@ -22702,8 +22696,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763893824,
-        "end": null,
+        "end": 1763905819,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763905819,
+        "end": null
       }
     ]
   },
@@ -24356,11 +24355,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762695621,
-        "end": 1762761023
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762761023,
@@ -27242,6 +27236,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763904633,
+        "end": 1763905819,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763905819,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34032,8 +34032,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1763899821,
-        "end": null,
+        "end": 1763905819,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763905819,
+        "end": null
       }
     ]
   },
@@ -38712,12 +38717,6 @@
   "3973984": {
     "name": "ssodon",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1762695621,
-        "end": 1762702228,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1762702228,
