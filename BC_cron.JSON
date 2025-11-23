@@ -2246,6 +2246,11 @@
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1763910626,
+        "end": 1763911232
+      },
+      {
+        "status": "Available",
+        "start": 1763911232,
         "end": null
       }
     ]
@@ -9751,12 +9756,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1762701017,
-        "end": 1762702228,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1762702228,
         "end": 1762704031,
@@ -10734,6 +10733,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763904633,
+        "end": 1763911232,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763911232,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -27254,7 +27259,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763910626,
-        "end": null
+        "end": 1763911232
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763911232,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39800,8 +39811,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763899821,
-        "end": null,
+        "end": 1763911232,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763911232,
+        "end": null
       }
     ]
   },
