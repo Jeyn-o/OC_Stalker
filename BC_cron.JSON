@@ -927,11 +927,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1762652425,
-        "end": 1762668027
-      },
-      {
         "status": "Available",
         "start": 1762668027,
         "end": 1762684818
@@ -1562,11 +1557,6 @@
   "914683": {
     "name": "Droq",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762652425,
-        "end": 1762653024
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1762653024,
@@ -3113,6 +3103,11 @@
       {
         "status": "Available",
         "start": 1763857223,
+        "end": 1763862621
+      },
+      {
+        "status": "Jail",
+        "start": 1763862621,
         "end": null
       }
     ]
@@ -4923,12 +4918,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1762652425,
-        "end": 1762656625,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1762656625,
@@ -8206,12 +8195,6 @@
     "name": "Hussc-",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1762652425,
-        "end": 1762662625,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Returning",
         "start": 1762662625,
         "end": 1762672823,
@@ -8879,6 +8862,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1763862022,
+        "end": 1763862621
+      },
+      {
+        "status": "Available",
+        "start": 1763862621,
         "end": null
       }
     ]
@@ -12135,7 +12123,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763857833,
-        "end": null
+        "end": 1763862621
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763862621,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13548,6 +13542,11 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763852428,
+        "end": 1763862621
+      },
+      {
+        "status": "[Canada] Attacked - Revives: OFF",
+        "start": 1763862621,
         "end": null
       }
     ]
@@ -30609,6 +30608,11 @@
       {
         "status": "Available",
         "start": 1763861425,
+        "end": 1763862621
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1763862621,
         "end": null
       }
     ]
@@ -35283,6 +35287,11 @@
       {
         "status": "Available",
         "start": 1763862022,
+        "end": 1763862621
+      },
+      {
+        "status": "[Hospital] Event - Revives: Partial",
+        "start": 1763862621,
         "end": null
       }
     ]
@@ -40051,6 +40060,11 @@
       {
         "status": "Available",
         "start": 1763861425,
+        "end": 1763862621
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: ALL",
+        "start": 1763862621,
         "end": null
       }
     ]
