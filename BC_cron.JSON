@@ -2697,12 +2697,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1762668618,
-        "end": 1762680625,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762680625,
         "end": 1762735219
@@ -12572,11 +12566,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1762668618,
-        "end": 1762669224
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1762669224,
         "end": 1762676419,
@@ -18243,6 +18232,12 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763877629,
+        "end": 1763878826,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1763878826,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -21902,8 +21897,13 @@
       {
         "status": "[China] - Going",
         "start": 1763868626,
-        "end": null,
+        "end": 1763878826,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763878826,
+        "end": null
       }
     ]
   },
@@ -33902,8 +33902,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1763873421,
-        "end": null,
+        "end": 1763878826,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763878826,
+        "end": null
       }
     ]
   },
@@ -34732,8 +34737,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763871620,
-        "end": null,
+        "end": 1763878826,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1763878826,
+        "end": null
       }
     ]
   },
