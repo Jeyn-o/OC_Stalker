@@ -57646,8 +57646,8 @@
   },
   "1037978": {
     "name": "Clinical Precision",
-    "status": "Recruiting",
-    "ready_at": 1764013270,
+    "status": "Planning",
+    "ready_at": 1764099670,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -57670,6 +57670,14 @@
         "user_name": "xyicah",
         "checkpoint_pass_rate": 63,
         "position": "Assassin",
+        "position_number": 1,
+        "item_available": false
+      },
+      "P4": {
+        "user_id": 2655203,
+        "user_name": "FluffyVixen",
+        "checkpoint_pass_rate": 67,
+        "position": "Cleaner",
         "position_number": 1,
         "item_available": false
       }
@@ -57706,16 +57714,48 @@
         "position": "Assassin",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1763921424,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2655203,
+        "user_name": "FluffyVixen",
+        "checkpoint_pass_rate": 67,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
   "1037979": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1764007343,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 74,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1763921424,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 74,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
+      }
+    ]
   },
   "1037980": {
     "name": "Blast from the Past",
