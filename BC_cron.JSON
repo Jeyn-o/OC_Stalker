@@ -7569,12 +7569,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1762648826,
-        "end": 1762656625,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1762656625,
         "end": 1762657820
@@ -8449,7 +8443,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763783419,
-        "end": null
+        "end": 1763859024
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763859024,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10626,6 +10626,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763855419,
+        "end": 1763859024
+      },
+      {
+        "status": "Available",
+        "start": 1763859024,
         "end": null
       }
     ]
@@ -11212,6 +11217,11 @@
       {
         "status": "Available",
         "start": 1763845821,
+        "end": 1763859024
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: Partial",
+        "start": 1763859024,
         "end": null
       }
     ]
@@ -14290,6 +14300,11 @@
       {
         "status": "Available",
         "start": 1763854226,
+        "end": 1763859024
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: Partial",
+        "start": 1763859024,
         "end": null
       }
     ]
@@ -15945,6 +15960,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1763857223,
+        "end": 1763859024,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763859024,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -21878,11 +21899,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762648826,
-        "end": 1762657820
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1762657820,
@@ -29730,6 +29746,11 @@
       {
         "status": "Available",
         "start": 1763853626,
+        "end": 1763859024
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1763859024,
         "end": null
       }
     ]
@@ -30579,20 +30600,19 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763849423,
-        "end": null,
+        "end": 1763859024,
         "travel_type": "standard"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763859024,
+        "end": null
       }
     ]
   },
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762648826,
-        "end": 1762660223,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762660223,
@@ -35297,6 +35317,11 @@
       {
         "status": "Available",
         "start": 1763854226,
+        "end": 1763859024
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1763859024,
         "end": null
       }
     ]
@@ -37091,12 +37116,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1762648826,
-        "end": 1762656021,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762656021,
@@ -39889,6 +39908,11 @@
       {
         "status": "Available",
         "start": 1763858418,
+        "end": 1763859024
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1763859024,
         "end": null
       }
     ]
