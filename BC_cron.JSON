@@ -14407,11 +14407,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1762697415,
-        "end": 1762698625
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762698625,
         "end": 1762703421,
@@ -17265,6 +17260,12 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1763900421,
+        "end": 1763907621,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763907621,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -18272,8 +18273,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763895020,
-        "end": null,
+        "end": 1763907621,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763907621,
+        "end": null
       }
     ]
   },
@@ -30475,7 +30481,13 @@
       {
         "status": "Available",
         "start": 1763905218,
-        "end": null
+        "end": 1763907621
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763907621,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37386,6 +37398,11 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: OFF",
         "start": 1763905218,
+        "end": 1763907621
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763907621,
         "end": null
       }
     ]
@@ -37393,12 +37410,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762697415,
-        "end": 1762704031,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762704031,
