@@ -1545,8 +1545,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1763924436,
-        "end": null,
+        "end": 1763931632,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763931632,
+        "end": null
       }
     ]
   },
@@ -10810,7 +10815,13 @@
       {
         "status": "Available",
         "start": 1763925624,
-        "end": null
+        "end": 1763931632
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763931632,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17293,6 +17304,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1763924436,
+        "end": 1763931632,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763931632,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31019,19 +31036,19 @@
       {
         "status": "[Traveling] - Going",
         "start": 1763924436,
-        "end": null,
+        "end": 1763931632,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1763931632,
+        "end": null
       }
     ]
   },
   "3851236": {
     "name": "Psyden",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762721416,
-        "end": 1763040633
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1763040633,
@@ -40091,11 +40108,6 @@
   "3977638": {
     "name": "Vasapi_Sakti",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: OFF",
-        "start": 1762721416,
-        "end": 1762723226
-      },
       {
         "status": "Available",
         "start": 1762723226,
