@@ -8168,8 +8168,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763871017,
-        "end": null,
+        "end": 1763884837,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1763884837,
+        "end": null
       }
     ]
   },
@@ -8216,11 +8221,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[Canada] - Idle",
-        "start": 1762674619,
-        "end": 1762680625
-      },
       {
         "status": "[Canada] - Returning",
         "start": 1762680625,
@@ -11281,12 +11281,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1762674619,
-        "end": 1762687223,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1762687223,
         "end": 1762689628
@@ -12226,7 +12220,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763861425,
-        "end": null
+        "end": 1763884837
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763884837,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21941,7 +21941,13 @@
       {
         "status": "[China] - Idle",
         "start": 1763878826,
-        "end": null
+        "end": 1763884837
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763884837,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27686,11 +27692,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762674619,
-        "end": 1762689016
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762689016,
