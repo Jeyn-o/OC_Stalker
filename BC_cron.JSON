@@ -217,6 +217,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763861425,
+        "end": 1763863229
+      },
+      {
+        "status": "Available",
+        "start": 1763863229,
         "end": null
       }
     ]
@@ -1558,11 +1563,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1762653024,
-        "end": 1762654825
-      },
-      {
         "status": "Available",
         "start": 1762654825,
         "end": 1762705824
@@ -2638,6 +2638,11 @@
       {
         "status": "Available",
         "start": 1763836816,
+        "end": 1763863229
+      },
+      {
+        "status": "Jail",
+        "start": 1763863229,
         "end": null
       }
     ]
@@ -3108,6 +3113,11 @@
       {
         "status": "Jail",
         "start": 1763862621,
+        "end": 1763863229
+      },
+      {
+        "status": "Available",
+        "start": 1763863229,
         "end": null
       }
     ]
@@ -4799,8 +4809,13 @@
       {
         "status": "[China] - Going",
         "start": 1763856618,
-        "end": null,
+        "end": 1763863229,
         "travel_type": "private"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763863229,
+        "end": null
       }
     ]
   },
@@ -6382,11 +6397,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762653024,
-        "end": 1762776625
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1762776625,
@@ -13547,7 +13557,13 @@
       {
         "status": "[Canada] Attacked - Revives: OFF",
         "start": 1763862621,
-        "end": null
+        "end": 1763863229
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763863229,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35434,6 +35450,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763859631,
+        "end": 1763863229
+      },
+      {
+        "status": "Available",
+        "start": 1763863229,
         "end": null
       }
     ]
@@ -36506,6 +36527,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1763862022,
+        "end": 1763863229
+      },
+      {
+        "status": "Available",
+        "start": 1763863229,
         "end": null
       }
     ]
@@ -40065,6 +40091,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1763862621,
+        "end": 1763863229
+      },
+      {
+        "status": "Available",
+        "start": 1763863229,
         "end": null
       }
     ]
