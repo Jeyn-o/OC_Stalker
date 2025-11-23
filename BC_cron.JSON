@@ -20467,7 +20467,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763904633,
-        "end": null
+        "end": 1763905218
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763905218,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30486,8 +30492,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763898619,
-        "end": null,
+        "end": 1763905218,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763905218,
+        "end": null
       }
     ]
   },
@@ -37388,6 +37399,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763893224,
+        "end": 1763905218
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: OFF",
+        "start": 1763905218,
         "end": null
       }
     ]
@@ -38696,11 +38712,6 @@
   "3973984": {
     "name": "ssodon",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762695025,
-        "end": 1762695621
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1762695621,
