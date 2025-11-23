@@ -2235,7 +2235,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763896218,
-        "end": null
+        "end": 1763897427
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763897427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6441,8 +6447,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763886020,
-        "end": null,
+        "end": 1763897427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763897427,
+        "end": null
       }
     ]
   },
@@ -11311,11 +11322,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1762687223,
-        "end": 1762689628
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762689628,
         "end": 1762701636,
@@ -12178,7 +12184,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763887825,
-        "end": null
+        "end": 1763897427
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763897427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12273,12 +12285,6 @@
   "3156041": {
     "name": "Googer",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762687223,
-        "end": 1762698625,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762698625,
@@ -14398,11 +14404,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762687223,
-        "end": 1762688420
-      },
       {
         "status": "[Hospital] Lost - Revives: Partial",
         "start": 1762688420,
@@ -27202,6 +27203,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763896822,
+        "end": 1763897427,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763897427,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37338,12 +37345,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1762687223,
-        "end": 1762688420,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1762688420,
