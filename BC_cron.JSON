@@ -3201,7 +3201,13 @@
       {
         "status": "[China] - Idle",
         "start": 1763837423,
-        "end": null
+        "end": 1763891420
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1763891420,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24356,12 +24362,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762681224,
-        "end": 1762687826,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762687826,
         "end": 1762688420
@@ -30428,7 +30428,13 @@
       {
         "status": "Available",
         "start": 1763888431,
-        "end": null
+        "end": 1763891420
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763891420,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33951,8 +33957,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1763886020,
-        "end": null,
+        "end": 1763891420,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763891420,
+        "end": null
       }
     ]
   },
@@ -37306,6 +37317,11 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763890228,
+        "end": 1763891420
+      },
+      {
+        "status": "[United Arab Emirates] Mugged - Revives: OFF",
+        "start": 1763891420,
         "end": null
       }
     ]
@@ -38641,11 +38657,6 @@
   "3973984": {
     "name": "ssodon",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762681224,
-        "end": 1762683626
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1762683626,
