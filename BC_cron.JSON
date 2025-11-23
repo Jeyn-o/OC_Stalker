@@ -7531,6 +7531,11 @@
       {
         "status": "Available",
         "start": 1763770219,
+        "end": 1763920837
+      },
+      {
+        "status": "Jail",
+        "start": 1763920837,
         "end": null
       }
     ]
@@ -12651,8 +12656,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763909423,
-        "end": null,
+        "end": 1763920837,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763920837,
+        "end": null
       }
     ]
   },
@@ -14426,12 +14436,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762710622,
-        "end": 1762714830,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1762714830,
         "end": 1762715421
@@ -16045,11 +16049,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762710622,
-        "end": 1762714224
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762714224,
@@ -20457,7 +20456,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1763920220,
-        "end": null
+        "end": 1763920837
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763920837,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30582,8 +30587,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763914217,
-        "end": null,
+        "end": 1763920837,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763920837,
+        "end": null
       }
     ]
   },
