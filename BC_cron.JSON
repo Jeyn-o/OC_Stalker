@@ -3730,11 +3730,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762725630,
-        "end": 1762770627
-      },
-      {
         "status": "Jail",
         "start": 1762770627,
         "end": 1762795831
@@ -15658,7 +15653,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1763934019,
-        "end": null
+        "end": 1763935822
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763935822,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -19680,7 +19681,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763935232,
-        "end": null
+        "end": 1763935822
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763935822,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36961,7 +36968,13 @@
       {
         "status": "Available",
         "start": 1763899821,
-        "end": null
+        "end": 1763935822
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763935822,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37721,8 +37734,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763925022,
-        "end": null,
+        "end": 1763935822,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763935822,
+        "end": null
       }
     ]
   },
