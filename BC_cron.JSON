@@ -1569,11 +1569,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762654825,
-        "end": 1762705824
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1762705824,
         "end": 1762707028
@@ -6146,8 +6141,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763864423,
-        "end": null,
+        "end": 1763865024,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1763865024,
+        "end": null
       }
     ]
   },
@@ -13610,8 +13610,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1763863229,
-        "end": null,
+        "end": 1763865024,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763865024,
+        "end": null
       }
     ]
   },
@@ -15653,12 +15658,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1762654825,
-        "end": 1762662023,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762662023,
         "end": 1762735219
@@ -16066,7 +16065,13 @@
       {
         "status": "Available",
         "start": 1763860820,
-        "end": null
+        "end": 1763865024
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763865024,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17318,8 +17323,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1763857833,
-        "end": null,
+        "end": 1763865024,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763865024,
+        "end": null
       }
     ]
   },
@@ -27284,6 +27294,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763863826,
+        "end": 1763865024,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763865024,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29459,6 +29475,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1763863826,
+        "end": 1763865024,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1763865024,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30770,6 +30792,11 @@
       {
         "status": "[United Kingdom] Attacked - Revives: OFF",
         "start": 1763864423,
+        "end": 1763865024
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763865024,
         "end": null
       }
     ]
@@ -35527,11 +35554,6 @@
     "name": "Maddog1997",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762654825,
-        "end": 1762656021
-      },
-      {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1762656021,
         "end": 1762657820
@@ -36596,6 +36618,11 @@
       {
         "status": "Available",
         "start": 1763863229,
+        "end": 1763865024
+      },
+      {
+        "status": "[Hospital] Lost - Revives: OFF",
+        "start": 1763865024,
         "end": null
       }
     ]
@@ -36603,11 +36630,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1762654825,
-        "end": 1762660830
-      },
       {
         "status": "[Argentina] Attacked - Revives: ALL",
         "start": 1762660830,
