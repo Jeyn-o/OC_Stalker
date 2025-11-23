@@ -6233,8 +6233,13 @@
       {
         "status": "[China] - Going",
         "start": 1763923219,
-        "end": null,
+        "end": 1763928028,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763928028,
+        "end": null
       }
     ]
   },
@@ -7472,12 +7477,6 @@
   "2655203": {
     "name": "Vampire-Catgirl",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1762717822,
-        "end": 1762725022,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1762725022,
@@ -14479,18 +14478,19 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763925624,
-        "end": null
+        "end": 1763928028
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763928028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762717822,
-        "end": 1762720822
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1762720822,
@@ -19636,7 +19636,13 @@
       {
         "status": "Available",
         "start": 1763923219,
-        "end": null
+        "end": 1763928028
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1763928028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23649,6 +23655,11 @@
       {
         "status": "[Argentina] Mugged - Revives: OFF",
         "start": 1763925624,
+        "end": 1763928028
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1763928028,
         "end": null
       }
     ]
@@ -27939,11 +27950,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: OFF",
-        "start": 1762717822,
-        "end": 1762719026
-      },
-      {
         "status": "Available",
         "start": 1762719026,
         "end": 1762729232
@@ -29720,6 +29726,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763923219,
+        "end": 1763928028
+      },
+      {
+        "status": "Available",
+        "start": 1763928028,
         "end": null
       }
     ]
@@ -34302,8 +34313,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1763922022,
-        "end": null,
+        "end": 1763928028,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763928028,
+        "end": null
       }
     ]
   },
@@ -35173,12 +35189,6 @@
   "3915266": {
     "name": "Lucifixion",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762717822,
-        "end": 1762724422,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762724422,
