@@ -4309,12 +4309,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762728022,
-        "end": 1762732854,
-        "travel_type": "private"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762732854,
         "end": 1762741826
@@ -8993,7 +8987,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763937032,
-        "end": null
+        "end": 1763938228
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763938228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9642,7 +9642,13 @@
       {
         "status": "Available",
         "start": 1763917824,
-        "end": null
+        "end": 1763938228
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1763938228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12744,12 +12750,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1762728022,
-        "end": 1762734624,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762734624,
         "end": 1762788021
@@ -13685,6 +13685,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763925624,
+        "end": 1763938228,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763938228,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14492,12 +14498,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762728022,
-        "end": 1762732854,
-        "travel_type": "standard"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762732854,
@@ -32252,20 +32252,19 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763926823,
-        "end": null,
+        "end": 1763938228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763938228,
+        "end": null
       }
     ]
   },
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1762728022,
-        "end": 1762729232,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1762729232,
