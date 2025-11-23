@@ -930,6 +930,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1763877629,
+        "end": 1763880028
+      },
+      {
+        "status": "Available",
+        "start": 1763880028,
         "end": null
       }
     ]
@@ -20400,12 +20405,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1762669829,
-        "end": 1762682434,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762682434,
         "end": 1762683023
@@ -27643,11 +27642,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1762669829,
-        "end": 1762674619
-      },
-      {
         "status": "Available",
         "start": 1762674619,
         "end": 1762689016
@@ -33903,7 +33897,13 @@
       {
         "status": "Available",
         "start": 1763878826,
-        "end": null
+        "end": 1763880028
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1763880028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34738,7 +34738,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763878826,
-        "end": null
+        "end": 1763880028
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763880028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
