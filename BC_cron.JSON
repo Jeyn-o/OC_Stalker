@@ -3172,8 +3172,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763901620,
-        "end": null,
+        "end": 1763911825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763911825,
+        "end": null
       }
     ]
   },
@@ -8915,8 +8920,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1763904633,
-        "end": null,
+        "end": 1763911825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1763911825,
+        "end": null
       }
     ]
   },
@@ -11319,11 +11329,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762701636,
-        "end": 1762707638
-      },
       {
         "status": "[Hospital] Lost - Revives: Partial",
         "start": 1762707638,
@@ -23799,11 +23804,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762701636,
-        "end": 1762786234
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1762786234,
         "end": 1762797023,
@@ -27264,6 +27264,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763911232,
+        "end": 1763911825,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763911825,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34033,7 +34039,13 @@
       {
         "status": "Available",
         "start": 1763905819,
-        "end": null
+        "end": 1763911825
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1763911825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
