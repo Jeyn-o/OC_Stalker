@@ -885,7 +885,13 @@
       {
         "status": "Available",
         "start": 1763906430,
-        "end": null
+        "end": 1763909423
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1763909423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -1463,7 +1469,13 @@
       {
         "status": "Available",
         "start": 1763895632,
-        "end": null
+        "end": 1763909423
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763909423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3633,8 +3645,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763908237,
-        "end": null,
+        "end": 1763909423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1763909423,
+        "end": null
       }
     ]
   },
@@ -9740,12 +9757,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1762699220,
-        "end": 1762701017,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1762701017,
         "end": 1762702228,
@@ -12634,7 +12645,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763908819,
-        "end": null
+        "end": 1763909423
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763909423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17420,12 +17437,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762699220,
-        "end": 1762705824,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762705824,
@@ -24912,8 +24923,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763902836,
-        "end": null,
+        "end": 1763909423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763909423,
+        "end": null
       }
     ]
   },
@@ -27227,6 +27243,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763908237,
+        "end": 1763909423,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763909423,
         "end": null,
         "travel_type": "airstrip"
       }
