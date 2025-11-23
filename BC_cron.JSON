@@ -6217,7 +6217,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763917824,
-        "end": null
+        "end": 1763920220
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763920220,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -9790,11 +9796,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1762710026,
-        "end": 1762713026
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762713026,
@@ -14424,11 +14425,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1762710026,
-        "end": 1762710622
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762710622,
@@ -20455,8 +20451,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763919622,
-        "end": null,
+        "end": 1763920220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1763920220,
+        "end": null
       }
     ]
   },
@@ -22951,7 +22952,13 @@
       {
         "status": "[Japan] Mugged - Revives: ALL",
         "start": 1763917236,
-        "end": null
+        "end": 1763920220
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1763920220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27298,6 +27305,11 @@
       {
         "status": "[Hospital] Mugged - Revives: Partial",
         "start": 1763919622,
+        "end": 1763920220
+      },
+      {
+        "status": "Available",
+        "start": 1763920220,
         "end": null
       }
     ]
@@ -29579,7 +29591,13 @@
       {
         "status": "Available",
         "start": 1763919622,
-        "end": null
+        "end": 1763920220
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1763920220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30803,6 +30821,11 @@
       {
         "status": "[Switzerland] Mugged - Revives: ALL",
         "start": 1763917824,
+        "end": 1763920220
+      },
+      {
+        "status": "[Abroad] - Idle",
+        "start": 1763920220,
         "end": null
       }
     ]
@@ -34967,12 +34990,6 @@
     "name": "Lucifixion",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762710026,
-        "end": 1762716629,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762716629,
         "end": 1762717822
@@ -37487,6 +37504,11 @@
       {
         "status": "[United Arab Emirates] Mugged - Revives: OFF",
         "start": 1763917824,
+        "end": 1763920220
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763920220,
         "end": null
       }
     ]
