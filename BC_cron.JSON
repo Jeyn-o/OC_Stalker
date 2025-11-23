@@ -8591,11 +8591,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762714830,
-        "end": 1762933825
-      },
-      {
         "status": "Jail",
         "start": 1762933825,
         "end": 1762934432
@@ -14480,11 +14475,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762714830,
-        "end": 1762715421
-      },
       {
         "status": "[Canada] - Going",
         "start": 1762715421,
@@ -30720,8 +30710,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763923219,
-        "end": null,
+        "end": 1763925022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763925022,
+        "end": null
       }
     ]
   },
@@ -31082,6 +31077,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763914823,
+        "end": 1763925022,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763925022,
         "end": null,
         "travel_type": "standard"
       }
@@ -33072,7 +33073,13 @@
       {
         "status": "Available",
         "start": 1763866835,
-        "end": null
+        "end": 1763925022
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1763925022,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37674,7 +37681,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763920220,
-        "end": null
+        "end": 1763925022
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763925022,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
