@@ -6092,8 +6092,13 @@
       {
         "status": "[China] - Returning",
         "start": 1763876418,
-        "end": null,
+        "end": 1763880621,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1763880621,
+        "end": null
       }
     ]
   },
@@ -6759,7 +6764,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1763862022,
-        "end": null
+        "end": 1763880621
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1763880621,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11253,11 +11264,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762670424,
-        "end": 1762674619
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1762674619,
@@ -17386,12 +17392,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762670424,
-        "end": 1762677029,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762677029,
         "end": 1762677625
@@ -18232,6 +18232,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1763878826,
+        "end": 1763880621,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1763880621,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29378,20 +29384,19 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763879426,
-        "end": null,
+        "end": 1763880621,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1763880621,
+        "end": null
       }
     ]
   },
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1762670424,
-        "end": 1762671631,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1762671631,
@@ -30711,11 +30716,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762670424,
-        "end": 1762676419
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762676419,
