@@ -8269,11 +8269,6 @@
     "name": "Hussc-",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1762693232,
-        "end": 1762695621
-      },
-      {
         "status": "[China] - Returning",
         "start": 1762695621,
         "end": 1762705223,
@@ -18799,12 +18794,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1762693232,
-        "end": 1762694428,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762694428,
         "end": 1762765825
@@ -27214,6 +27203,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763902217,
+        "end": 1763903420,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763903420,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29475,8 +29470,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763902217,
-        "end": null,
+        "end": 1763903420,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763903420,
+        "end": null
       }
     ]
   },
@@ -30698,7 +30698,13 @@
       {
         "status": "Available",
         "start": 1763863826,
-        "end": null
+        "end": 1763903420
+      },
+      {
+        "status": "[Traveling] - Going",
+        "start": 1763903420,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -32818,12 +32824,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1762693232,
-        "end": 1762700444,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762700444,
