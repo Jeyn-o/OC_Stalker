@@ -6981,11 +6981,6 @@
     "name": "Theurgy",
     "activities": [
       {
-        "status": "[United Kingdom] Mugged - Revives: ALL",
-        "start": 1762816825,
-        "end": 1762819239
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762819239,
         "end": 1762863018
@@ -7787,12 +7782,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1762816825,
-        "end": 1762824020,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762824020,
@@ -15579,7 +15568,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764022222,
-        "end": null
+        "end": 1764027031
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764027031,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -22195,8 +22190,13 @@
       {
         "status": "[China] - Going",
         "start": 1764016823,
-        "end": null,
+        "end": 1764027031,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1764027031,
+        "end": null
       }
     ]
   },
@@ -33389,12 +33389,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1762816825,
-        "end": 1762824020,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1762824020,
