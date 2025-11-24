@@ -878,6 +878,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764007820,
+        "end": 1764015024,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764015024,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -11324,12 +11330,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762804833,
-        "end": 1762812030,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762812030,
         "end": 1762813825
@@ -14411,12 +14411,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762804833,
-        "end": 1762810228,
-        "travel_type": "standard"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762810228,
         "end": 1762810818
@@ -17261,6 +17255,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764013825,
+        "end": 1764015024,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764015024,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -27568,8 +27568,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764013825,
-        "end": null,
+        "end": 1764015024,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764015024,
+        "end": null
       }
     ]
   },
@@ -29919,19 +29924,19 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1764013825,
-        "end": null
+        "end": 1764015024
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764015024,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1762804833,
-        "end": 1762815020,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Returning",
         "start": 1762815020,
@@ -37132,12 +37137,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1762804833,
-        "end": 1762811420,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1762811420,
