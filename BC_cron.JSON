@@ -9808,11 +9808,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Cayman Islands] - Idle",
-        "start": 1762798827,
-        "end": 1762799432
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1762799432,
         "end": 1762800624,
@@ -12663,11 +12658,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1762798827,
-        "end": 1762800024
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762800024,
@@ -21545,8 +21535,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764001828,
-        "end": null,
+        "end": 1764009031,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764009031,
+        "end": null
       }
     ]
   },
@@ -27567,6 +27562,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764007820,
+        "end": 1764009031,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764009031,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -28066,11 +28067,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: OFF",
-        "start": 1762798827,
-        "end": 1762805420
-      },
       {
         "status": "Available",
         "start": 1762805420,
@@ -29907,8 +29903,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1764007240,
-        "end": null,
+        "end": 1764009031,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764009031,
+        "end": null
       }
     ]
   },
@@ -31272,12 +31273,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762798827,
-        "end": 1762810818,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762810818,
@@ -35923,11 +35918,6 @@
     "name": "Stealthination",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1762798827,
-        "end": 1762801231
-      },
-      {
         "status": "Available",
         "start": 1762801231,
         "end": 1762904423
@@ -39108,7 +39098,13 @@
       {
         "status": "Available",
         "start": 1764004223,
-        "end": null
+        "end": 1764009031
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764009031,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
