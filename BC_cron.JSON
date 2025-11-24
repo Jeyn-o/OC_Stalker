@@ -1679,11 +1679,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762800624,
-        "end": 1762801231
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762801231,
         "end": 1762808436,
@@ -6500,6 +6495,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763998821,
+        "end": 1764010834,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764010834,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -6891,8 +6892,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763998821,
-        "end": null,
+        "end": 1764010834,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764010834,
+        "end": null
       }
     ]
   },
@@ -8973,7 +8979,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764007240,
-        "end": null
+        "end": 1764010834
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764010834,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9619,11 +9631,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762800624,
-        "end": 1762864227
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1762864227,
         "end": 1762875618,
@@ -9798,11 +9805,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762800624,
-        "end": 1762840831
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1762840831,
@@ -14390,6 +14392,11 @@
       {
         "status": "[Hospital] Attacked - Revives: Partial",
         "start": 1764010228,
+        "end": 1764010834
+      },
+      {
+        "status": "Available",
+        "start": 1764010834,
         "end": null
       }
     ]
@@ -14397,11 +14404,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762800624,
-        "end": 1762804833
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762804833,
@@ -17215,6 +17217,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764009624,
+        "end": 1764010834,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764010834,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -17397,12 +17405,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1762800624,
-        "end": 1762801823,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762801823,
@@ -22545,11 +22547,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1762800624,
-        "end": 1762804221
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1762804221,
@@ -30859,8 +30856,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764004223,
-        "end": null,
+        "end": 1764010834,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764010834,
+        "end": null
       }
     ]
   },
