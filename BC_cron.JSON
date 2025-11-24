@@ -1679,12 +1679,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762801231,
-        "end": 1762808436,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762808436,
         "end": 1762849220
@@ -4228,11 +4222,6 @@
     "name": "Murder_Hobo",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762801231,
-        "end": 1763822421
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1763822421,
         "end": 1763835026,
@@ -4907,8 +4896,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1764010228,
-        "end": null,
+        "end": 1764011421,
         "travel_type": "private"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1764011421,
+        "end": null
       }
     ]
   },
@@ -20587,11 +20581,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1762801231,
-        "end": 1762803033
-      },
-      {
         "status": "[China] - Returning",
         "start": 1762803033,
         "end": 1762813228,
@@ -27549,6 +27538,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764010228,
+        "end": 1764011421,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764011421,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29889,8 +29884,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764010228,
-        "end": null,
+        "end": 1764011421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] Mugged - Revives: OFF",
+        "start": 1764011421,
+        "end": null
       }
     ]
   },
@@ -30862,7 +30862,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764010834,
-        "end": null
+        "end": 1764011421
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764011421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35904,11 +35910,6 @@
     "name": "Stealthination",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762801231,
-        "end": 1762904423
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762904423,
         "end": 1762906816
@@ -37090,7 +37091,13 @@
       {
         "status": "Available",
         "start": 1764005428,
-        "end": null
+        "end": 1764011421
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1764011421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
