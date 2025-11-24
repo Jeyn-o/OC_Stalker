@@ -230,11 +230,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1762763426,
-        "end": 1762771820
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762771820,
         "end": 1762783825,
@@ -952,11 +947,6 @@
   "446596": {
     "name": "Bucki",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762763426,
-        "end": 1762764626
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762764626,
@@ -2767,8 +2757,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763961020,
-        "end": null,
+        "end": 1763973624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763973624,
+        "end": null
       }
     ]
   },
@@ -4290,6 +4285,11 @@
       {
         "status": "Available",
         "start": 1763616624,
+        "end": 1763973624
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1763973624,
         "end": null
       }
     ]
@@ -6194,7 +6194,13 @@
       {
         "status": "Available",
         "start": 1763965225,
-        "end": null
+        "end": 1763973624
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1763973624,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -27534,11 +27540,6 @@
     "name": "Downtowndave20",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1762763426,
-        "end": 1762782021
-      },
-      {
         "status": "[Japan] Mugged - Revives: Partial",
         "start": 1762782021,
         "end": 1762783825
@@ -29819,6 +29820,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1763971821,
+        "end": 1763973624,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1763973624,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40017,18 +40024,19 @@
       {
         "status": "Available",
         "start": 1763951425,
-        "end": null
+        "end": 1763973624
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1763973624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3977638": {
     "name": "Vasapi_Sakti",
     "activities": [
-      {
-        "status": "[Mexico] Mugged - Revives: OFF",
-        "start": 1762763426,
-        "end": 1762765825
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1762765825,
