@@ -7462,8 +7462,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763979027,
-        "end": null,
+        "end": 1763980229,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763980229,
+        "end": null
       }
     ]
   },
@@ -11371,7 +11376,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1763979623,
-        "end": null
+        "end": 1763980229
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1763980229,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13669,12 +13680,6 @@
     "name": "Khallie",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762770021,
-        "end": 1762776625,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762776625,
         "end": 1762783231,
@@ -15599,6 +15604,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763965225,
+        "end": 1763980229
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: ALL",
+        "start": 1763980229,
         "end": null
       }
     ]
@@ -20602,7 +20612,13 @@
       {
         "status": "Available",
         "start": 1763979623,
-        "end": null
+        "end": 1763980229
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1763980229,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25138,11 +25154,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1762770021,
-        "end": 1762770627
-      },
-      {
         "status": "Available",
         "start": 1762770627,
         "end": 1762771222
@@ -28085,11 +28096,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Hospitalized - Revives: ALL",
-        "start": 1762770021,
-        "end": 1762771820
-      },
       {
         "status": "Available",
         "start": 1762771820,
@@ -32327,7 +32333,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1763979623,
-        "end": null
+        "end": 1763980229
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1763980229,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
