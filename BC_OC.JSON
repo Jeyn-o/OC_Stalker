@@ -58993,10 +58993,31 @@
   "1048803": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1764100171,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P6": {
+        "user_id": 446596,
+        "user_name": "Bucki",
+        "checkpoint_pass_rate": 63,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1764013828,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 446596,
+        "user_name": "Bucki",
+        "checkpoint_pass_rate": 63,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": true
+      }
+    ]
   },
   "1048804": {
     "name": "Gaslight the Way",
@@ -59262,8 +59283,8 @@
   },
   "1050165": {
     "name": "Break the Bank",
-    "status": "Recruiting",
-    "ready_at": 1764389666,
+    "status": "Planning",
+    "ready_at": 1764476066,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -59304,6 +59325,14 @@
         "checkpoint_pass_rate": 69,
         "position": "Muscle",
         "position_number": 2,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 69,
+        "position": "Muscle",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -59361,6 +59390,17 @@
         "checkpoint_pass_rate": 69,
         "position": "Muscle",
         "position_number": 2,
+        "item_available": true
+      },
+      {
+        "timestamp": 1764013828,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 69,
+        "position": "Muscle",
+        "position_number": 1,
         "item_available": true
       }
     ]
