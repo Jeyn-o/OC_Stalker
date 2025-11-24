@@ -4897,8 +4897,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1764024626,
-        "end": null,
+        "end": 1764025824,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1764025824,
+        "end": null
       }
     ]
   },
@@ -6171,7 +6176,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764016823,
-        "end": null
+        "end": 1764025824
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764025824,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -11097,6 +11108,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1764024024,
+        "end": 1764025824
+      },
+      {
+        "status": "Available",
+        "start": 1764025824,
         "end": null
       }
     ]
@@ -14432,12 +14448,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762815634,
-        "end": 1762820424,
-        "travel_type": "standard"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762820424,
