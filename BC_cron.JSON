@@ -7541,11 +7541,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1762744222,
-        "end": 1762787424
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762787424,
         "end": 1762800024,
@@ -8310,12 +8305,6 @@
   "2708168": {
     "name": "Hussc-",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1762744222,
-        "end": 1762751424,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1762751424,
@@ -15585,8 +15574,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763949632,
-        "end": null,
+        "end": 1763954424,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1763954424,
+        "end": null
       }
     ]
   },
@@ -27487,6 +27481,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763953236,
+        "end": 1763954424,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1763954424,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29782,6 +29782,11 @@
       {
         "status": "Available",
         "start": 1763950823,
+        "end": 1763954424
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1763954424,
         "end": null
       }
     ]
