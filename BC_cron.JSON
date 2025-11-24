@@ -8273,6 +8273,11 @@
       {
         "status": "Jail",
         "start": 1764024626,
+        "end": 1764025234
+      },
+      {
+        "status": "Available",
+        "start": 1764025234,
         "end": null
       }
     ]
@@ -12662,12 +12667,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762815020,
-        "end": 1762821621,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762821621,
         "end": 1762828819,
@@ -14420,18 +14419,19 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764022822,
-        "end": null
+        "end": 1764025234
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764025234,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762815020,
-        "end": 1762815634
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762815634,
@@ -17282,8 +17282,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1764018030,
-        "end": null,
+        "end": 1764025234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: ALL",
+        "start": 1764025234,
+        "end": null
       }
     ]
   },
@@ -27627,7 +27632,13 @@
       {
         "status": "Available",
         "start": 1764020425,
-        "end": null
+        "end": 1764025234
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764025234,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30007,12 +30018,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1762815020,
-        "end": 1762825228,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762825228,
@@ -35455,12 +35460,6 @@
     "name": "Lucifixion",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762815020,
-        "end": 1762821621,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762821621,
         "end": 1762828230,
@@ -37199,8 +37198,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1764018621,
-        "end": null,
+        "end": 1764025234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764025234,
+        "end": null
       }
     ]
   },
