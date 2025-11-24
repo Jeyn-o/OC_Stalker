@@ -1696,12 +1696,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762778428,
-        "end": 1762785039,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762785039,
         "end": 1762794036
@@ -2535,11 +2529,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762778428,
-        "end": 1762781427
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1762781427,
@@ -9624,8 +9613,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1763979623,
-        "end": null,
+        "end": 1763988623,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1763988623,
+        "end": null
       }
     ]
   },
@@ -14473,12 +14467,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762778428,
-        "end": 1762783231,
-        "travel_type": "standard"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762783231,
@@ -19663,6 +19651,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763976025,
+        "end": 1763988623,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763988623,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -24519,11 +24513,6 @@
     "name": "SN00PYTOBY",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1762778428,
-        "end": 1762780821
-      },
-      {
         "status": "Available",
         "start": 1762780821,
         "end": null
@@ -25151,12 +25140,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1762778428,
-        "end": 1762779633,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1762779633,
@@ -27593,8 +27576,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763988029,
-        "end": null,
+        "end": 1763988623,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763988623,
+        "end": null
       }
     ]
   },
