@@ -953,11 +953,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762785621,
-        "end": 1762786831
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762786831,
         "end": 1762793421,
@@ -9606,7 +9601,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1763988623,
-        "end": null
+        "end": 1763995825
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1763995825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12693,7 +12694,13 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1763995222,
-        "end": null
+        "end": 1763995825
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1763995825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17246,7 +17253,13 @@
       {
         "status": "Available",
         "start": 1763995222,
-        "end": null
+        "end": 1763995825
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763995825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20619,12 +20632,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1762785621,
-        "end": 1762786831,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1762786831,
         "end": 1762788630,
@@ -22872,7 +22879,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763982040,
-        "end": null
+        "end": 1763995825
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763995825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29903,6 +29916,12 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763994020,
+        "end": 1763995825,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1763995825,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30864,8 +30883,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763989237,
-        "end": null,
+        "end": 1763995825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763995825,
+        "end": null
       }
     ]
   },
@@ -33220,7 +33244,13 @@
       {
         "status": "Available",
         "start": 1763966421,
-        "end": null
+        "end": 1763995825
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1763995825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40440,6 +40470,11 @@
       {
         "status": "[China] - Idle",
         "start": 1763994020,
+        "end": 1763995825
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1763995825,
         "end": null
       }
     ]
