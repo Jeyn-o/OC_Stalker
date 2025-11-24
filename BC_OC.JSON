@@ -57451,9 +57451,9 @@
   },
   "1034019": {
     "name": "Bidding War",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1764012144,
-    "executed_at": null,
+    "executed_at": 1764012185,
     "slots": {
       "P1": {
         "user_id": 3018158,
@@ -57750,7 +57750,7 @@
   "1037979": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1764093743,
+    "ready_at": 1764180143,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -57767,6 +57767,14 @@
         "checkpoint_pass_rate": 76,
         "position": "Picklock",
         "position_number": 1
+      },
+      "P4": {
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 73,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -57790,6 +57798,17 @@
         "checkpoint_pass_rate": 76,
         "position": "Picklock",
         "position_number": 1
+      },
+      {
+        "timestamp": 1764012634,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 73,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -59227,7 +59246,7 @@
   "1050165": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1764303266,
+    "ready_at": 1764389666,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -59260,6 +59279,14 @@
         "checkpoint_pass_rate": 65,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 1166445,
+        "user_name": "Top",
+        "checkpoint_pass_rate": 69,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -59306,6 +59333,17 @@
         "checkpoint_pass_rate": 65,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1764012634,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 1166445,
+        "user_name": "Top",
+        "checkpoint_pass_rate": 69,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     ]
@@ -59372,10 +59410,29 @@
   "1053995": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1764098610,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 75,
+        "position": "Pickpocket",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1764012634,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 75,
+        "position": "Pickpocket",
+        "position_number": 1
+      }
+    ]
   },
   "1053997": {
     "name": "Stage Fright",
