@@ -6242,7 +6242,13 @@
       {
         "status": "Available",
         "start": 1763933429,
-        "end": null
+        "end": 1763950823
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763950823,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -9613,8 +9619,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1763938228,
-        "end": null,
+        "end": 1763950823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1763950823,
+        "end": null
       }
     ]
   },
@@ -13656,6 +13667,12 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763938228,
+        "end": 1763950823,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1763950823,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -16052,8 +16069,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763944224,
-        "end": null,
+        "end": 1763950823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763950823,
+        "end": null
       }
     ]
   },
@@ -27492,7 +27514,13 @@
       {
         "status": "Available",
         "start": 1763946031,
-        "end": null
+        "end": 1763950823
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1763950823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29792,6 +29820,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763946031,
+        "end": 1763950823
+      },
+      {
+        "status": "Available",
+        "start": 1763950823,
         "end": null
       }
     ]
@@ -37652,12 +37685,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1762740623,
-        "end": 1762747819,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1762747819,
