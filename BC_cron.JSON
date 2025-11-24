@@ -962,6 +962,11 @@
       {
         "status": "Available",
         "start": 1764007240,
+        "end": 1764026417
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1764026417,
         "end": null
       }
     ]
@@ -1677,6 +1682,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764014438,
+        "end": 1764026417,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764026417,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -6887,8 +6898,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764013825,
-        "end": null,
+        "end": 1764026417,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764026417,
+        "end": null
       }
     ]
   },
@@ -11377,11 +11393,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762816224,
-        "end": 1762817426
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762817426,
         "end": 1762824020,
@@ -13624,11 +13635,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762816224,
-        "end": 1762856422
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1762856422,
@@ -19671,7 +19677,13 @@
       {
         "status": "Available",
         "start": 1764001236,
-        "end": null
+        "end": 1764026417
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764026417,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20676,6 +20688,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764024626,
+        "end": 1764026417,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764026417,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -22642,11 +22660,6 @@
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762816224,
-        "end": 1762857617
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1762857617,
@@ -27647,6 +27660,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764025234,
+        "end": 1764026417,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764026417,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30300,11 +30319,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1762816224,
-        "end": 1762818022
-      },
-      {
         "status": "Available",
         "start": 1762818022,
         "end": 1763122224
@@ -32498,12 +32512,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762816224,
-        "end": 1762827623,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762827623,
@@ -40627,8 +40635,13 @@
       {
         "status": "[China] - Returning",
         "start": 1764016823,
-        "end": null,
+        "end": 1764026417,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764026417,
+        "end": null
       }
     ]
   },
