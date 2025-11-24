@@ -878,7 +878,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763989237,
-        "end": null
+        "end": 1763995222
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763995222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -1683,11 +1689,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762785039,
-        "end": 1762794036
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762794036,
@@ -2738,8 +2739,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1763982628,
-        "end": null,
+        "end": 1763995222,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763995222,
+        "end": null
       }
     ]
   },
@@ -4199,7 +4205,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763989818,
-        "end": null
+        "end": 1763995222
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763995222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -6176,7 +6188,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763979027,
-        "end": null
+        "end": 1763995222
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763995222,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -8958,12 +8976,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1762785039,
-        "end": 1762786234,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1762786234,
         "end": 1762787424,
@@ -9601,11 +9613,6 @@
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1762785039,
-        "end": 1762786831
-      },
       {
         "status": "[United Arab Emirates] Mugged - Revives: Partial",
         "start": 1762786831,
@@ -12681,6 +12688,11 @@
       {
         "status": "Available",
         "start": 1763920837,
+        "end": 1763995222
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1763995222,
         "end": null
       }
     ]
@@ -17228,8 +17240,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1763994020,
-        "end": null,
+        "end": 1763995222,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763995222,
+        "end": null
       }
     ]
   },
@@ -27548,6 +27565,11 @@
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1763994634,
+        "end": 1763995222
+      },
+      {
+        "status": "Available",
+        "start": 1763995222,
         "end": null
       }
     ]
@@ -33228,12 +33250,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1762785039,
-        "end": 1762791627,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1762791627,
         "end": 1762796423
@@ -37030,6 +37046,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1763992224,
+        "end": 1763995222
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763995222,
         "end": null
       }
     ]
