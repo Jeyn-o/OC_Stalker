@@ -8958,8 +8958,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763938228,
-        "end": null,
+        "end": 1763949632,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763949632,
+        "end": null
       }
     ]
   },
@@ -15591,7 +15596,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763946624,
-        "end": null
+        "end": 1763949632
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763949632,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -18645,6 +18656,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1763942437,
+        "end": 1763949632,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1763949632,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -20548,11 +20565,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762739422,
-        "end": 1762758040
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762758040,
@@ -23040,8 +23052,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763938837,
-        "end": null,
+        "end": 1763949632,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763949632,
+        "end": null
       }
     ]
   },
@@ -23684,11 +23701,6 @@
   "3628419": {
     "name": "Littlegman212",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762739422,
-        "end": 1762752023
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1762752023,
@@ -25061,11 +25073,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762739422,
-        "end": 1762740030
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1762740030,
@@ -36870,19 +36877,19 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763943025,
-        "end": null,
+        "end": 1763949632,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763949632,
+        "end": null
       }
     ]
   },
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[Argentina] Mugged - Revives: ALL",
-        "start": 1762739422,
-        "end": 1762741826
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1762741826,
@@ -37631,6 +37638,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763937621,
+        "end": 1763949632,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1763949632,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37639,11 +37652,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762739422,
-        "end": 1762740623
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1762740623,
@@ -40000,6 +40008,11 @@
       {
         "status": "Available",
         "start": 1763929829,
+        "end": 1763949632
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1763949632,
         "end": null
       }
     ]
