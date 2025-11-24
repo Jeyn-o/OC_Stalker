@@ -950,7 +950,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1763998821,
-        "end": null
+        "end": 1764000039
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764000039,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10807,7 +10813,13 @@
       {
         "status": "Available",
         "start": 1763998821,
-        "end": null
+        "end": 1764000039
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764000039,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14452,12 +14464,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762789829,
-        "end": 1762794619,
-        "travel_type": "standard"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762794619,
         "end": 1762795831
@@ -17446,11 +17452,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] Mugged - Revives: ALL",
-        "start": 1762789829,
-        "end": 1762791627
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762791627,
@@ -21556,8 +21557,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763998821,
-        "end": null,
+        "end": 1764000039,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764000039,
+        "end": null
       }
     ]
   },
@@ -23163,11 +23169,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1762789829,
-        "end": 1762791025
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1762791025,
@@ -29909,11 +29910,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: ALL",
-        "start": 1762789829,
-        "end": 1762792229
-      },
       {
         "status": "[China] - Idle",
         "start": 1762792229,
@@ -37815,12 +37811,6 @@
     "name": "Icks-B",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1762789829,
-        "end": 1762791025,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1762791025,
         "end": 1762792229,
@@ -40476,6 +40466,11 @@
       {
         "status": "[China] - Idle",
         "start": 1763998227,
+        "end": 1764000039
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1764000039,
         "end": null
       }
     ]
