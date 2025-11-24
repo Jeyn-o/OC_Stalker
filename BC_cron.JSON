@@ -2794,11 +2794,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1762779633,
-        "end": 1762787424
-      },
-      {
         "status": "Available",
         "start": 1762787424,
         "end": 1762821621
@@ -4215,8 +4210,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763982040,
-        "end": null,
+        "end": 1763989818,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1763989818,
+        "end": null
       }
     ]
   },
@@ -18297,7 +18297,13 @@
       {
         "status": "Available",
         "start": 1763987429,
-        "end": null
+        "end": 1763989818
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763989818,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25145,12 +25151,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1762779633,
-        "end": 1762780821,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1762780821,
@@ -39037,20 +39037,19 @@
       {
         "status": "[Japan] - Returning",
         "start": 1763980829,
-        "end": null,
+        "end": 1763989818,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763989818,
+        "end": null
       }
     ]
   },
   "3973984": {
     "name": "ssodon",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1762779633,
-        "end": 1762786234,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1762786234,
