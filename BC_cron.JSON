@@ -2289,8 +2289,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763985021,
-        "end": null,
+        "end": 1763991624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763991624,
+        "end": null
       }
     ]
   },
@@ -2534,12 +2539,6 @@
   "1897963": {
     "name": "gypo",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1762781427,
-        "end": 1762794036,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1762794036,
@@ -6965,12 +6964,6 @@
     "name": "Theurgy",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762781427,
-        "end": 1762788630,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762788630,
         "end": 1762794619
@@ -7474,8 +7467,13 @@
       {
         "status": "[China] - Going",
         "start": 1763981423,
-        "end": null,
+        "end": 1763991624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763991624,
+        "end": null
       }
     ]
   },
@@ -7787,12 +7785,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1762781427,
-        "end": 1762788021,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762788021,
@@ -8219,7 +8211,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763989237,
-        "end": null
+        "end": 1763991624
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1763991624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9821,11 +9819,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1762781427,
-        "end": 1762782021
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1762782021,
@@ -15585,7 +15578,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1763982040,
-        "end": null
+        "end": 1763991624
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1763991624,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -17432,11 +17431,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762781427,
-        "end": 1762783231
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762783231,
@@ -24524,11 +24518,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762781427,
-        "end": 1762782021
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762782021,
         "end": 1762789221,
@@ -25139,7 +25128,13 @@
       {
         "status": "Available",
         "start": 1763991033,
-        "end": null
+        "end": 1763991624
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1763991624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27581,8 +27576,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1763990419,
-        "end": null,
+        "end": 1763991624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1763991624,
+        "end": null
       }
     ]
   },
@@ -29903,6 +29903,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1763991033,
+        "end": 1763991624
+      },
+      {
+        "status": "Available",
+        "start": 1763991624,
         "end": null
       }
     ]
@@ -33248,11 +33253,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762781427,
-        "end": 1762782021
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1762782021,
         "end": 1762782630,
@@ -34429,6 +34429,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1763986225,
+        "end": 1763991624,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1763991624,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37065,8 +37071,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1763985021,
-        "end": null,
+        "end": 1763991624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1763991624,
+        "end": null
       }
     ]
   },
