@@ -9806,6 +9806,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1763944224,
+        "end": 1763946624
+      },
+      {
+        "status": "Available",
+        "start": 1763946624,
         "end": null
       }
     ]
@@ -12240,7 +12245,13 @@
       {
         "status": "Available",
         "start": 1763932819,
-        "end": null
+        "end": 1763946624
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1763946624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15591,8 +15602,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763941824,
-        "end": null,
+        "end": 1763946624,
         "travel_type": "standard"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1763946624,
+        "end": null
       }
     ]
   },
@@ -33111,12 +33127,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1762736428,
-        "end": 1762743631,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] Mugged - Revives: ALL",
         "start": 1762743631,
