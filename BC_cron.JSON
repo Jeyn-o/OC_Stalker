@@ -2805,11 +2805,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1762747819,
-        "end": 1762751424
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762751424,
         "end": 1762764626,
@@ -8909,6 +8904,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1763956829,
+        "end": 1763958019
+      },
+      {
+        "status": "Available",
+        "start": 1763958019,
         "end": null
       }
     ]
@@ -13618,6 +13618,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1763950823,
+        "end": 1763958019,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1763958019,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14425,12 +14431,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1762747819,
-        "end": 1762753224,
-        "travel_type": "standard"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1762753224,
@@ -27478,8 +27478,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1763957422,
-        "end": null,
+        "end": 1763958019,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1763958019,
+        "end": null
       }
     ]
   },
@@ -37630,12 +37635,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1762747819,
-        "end": 1762755024,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762755024,
