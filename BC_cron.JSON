@@ -6220,8 +6220,13 @@
       {
         "status": "[China] - Going",
         "start": 1763950823,
-        "end": null,
+        "end": 1763955028,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1763955028,
+        "end": null
       }
     ]
   },
@@ -25059,12 +25064,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1762744820,
-        "end": 1762746023,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1762746023,
         "end": 1762747233,
@@ -32225,11 +32224,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762744820,
-        "end": 1762760419
-      },
-      {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1762760419,
         "end": 1762761023
@@ -38911,7 +38905,13 @@
       {
         "status": "Available",
         "start": 1763949015,
-        "end": null
+        "end": 1763955028
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1763955028,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
