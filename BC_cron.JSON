@@ -978,6 +978,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1764026417,
+        "end": 1764030624
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1764030624,
         "end": null
       }
     ]
@@ -3216,6 +3221,11 @@
       {
         "status": "Jail",
         "start": 1764030025,
+        "end": 1764030624
+      },
+      {
+        "status": "Available",
+        "start": 1764030624,
         "end": null
       }
     ]
@@ -4925,7 +4935,13 @@
       {
         "status": "Available",
         "start": 1764025824,
-        "end": null
+        "end": 1764030624
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1764030624,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -6198,8 +6214,13 @@
       {
         "status": "[China] - Returning",
         "start": 1764025824,
-        "end": null,
+        "end": 1764030624,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1764030624,
+        "end": null
       }
     ]
   },
@@ -10924,6 +10945,11 @@
       {
         "status": "Available",
         "start": 1763734823,
+        "end": 1764030624
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1764030624,
         "end": null
       }
     ]
@@ -13628,7 +13654,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764030025,
-        "end": null
+        "end": 1764030624
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764030624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14454,11 +14486,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1762820424,
-        "end": 1762823427
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762823427,
@@ -21644,8 +21671,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764024024,
-        "end": null,
+        "end": 1764030624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764030624,
+        "end": null
       }
     ]
   },
@@ -22232,12 +22264,6 @@
     "name": "Mr_jeff14574",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762820424,
-        "end": 1762827023,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762827023,
         "end": 1762833634,
@@ -22680,6 +22706,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1764018621,
+        "end": 1764030624,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764030624,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35513,7 +35545,13 @@
       {
         "status": "Available",
         "start": 1763990419,
-        "end": null
+        "end": 1764030624
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1764030624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
