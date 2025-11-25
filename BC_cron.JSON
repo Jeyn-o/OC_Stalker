@@ -7066,12 +7066,6 @@
     "name": "Theurgy",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762863018,
-        "end": 1762869632,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762869632,
         "end": 1762951227
@@ -12427,12 +12421,6 @@
   "3156041": {
     "name": "Googer",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762863018,
-        "end": 1762875030,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762875030,
@@ -23098,7 +23086,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764072622,
-        "end": null
+        "end": 1764073224
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764073224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30253,6 +30247,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764071420,
+        "end": 1764073224,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764073224,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31237,7 +31237,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764071420,
-        "end": null
+        "end": 1764073224
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764073224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40512,11 +40518,6 @@
   "3977638": {
     "name": "Vasapi_Sakti",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: OFF",
-        "start": 1762863018,
-        "end": 1762865426
-      },
       {
         "status": "[China] - Idle",
         "start": 1762865426,
