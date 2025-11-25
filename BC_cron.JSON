@@ -890,7 +890,13 @@
       {
         "status": "Available",
         "start": 1764022222,
-        "end": null
+        "end": 1764039023
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764039023,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -1703,8 +1709,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1764026417,
-        "end": null,
+        "end": 1764039023,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764039023,
+        "end": null
       }
     ]
   },
@@ -6241,8 +6252,13 @@
       {
         "status": "[China] - Going",
         "start": 1764034824,
-        "end": null,
+        "end": 1764039023,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1764039023,
+        "end": null
       }
     ]
   },
@@ -7827,12 +7843,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762828819,
-        "end": 1762835425,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762835425,
         "end": 1762865426
@@ -8588,6 +8598,11 @@
       {
         "status": "Available",
         "start": 1763860820,
+        "end": 1764039023
+      },
+      {
+        "status": "Jail",
+        "start": 1764039023,
         "end": null
       }
     ]
@@ -12743,11 +12758,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762828819,
-        "end": 1762866619
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1762866619,
         "end": 1762879225,
@@ -16150,6 +16160,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764032438,
+        "end": 1764039023,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764039023,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -19765,7 +19781,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764038423,
-        "end": null
+        "end": 1764039023
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764039023,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33511,7 +33533,13 @@
       {
         "status": "Available",
         "start": 1764038423,
-        "end": null
+        "end": 1764039023
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1764039023,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
