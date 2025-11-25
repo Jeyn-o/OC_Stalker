@@ -1490,7 +1490,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764058822,
-        "end": null
+        "end": 1764060025
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764060025,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23117,7 +23123,13 @@
       {
         "status": "Available",
         "start": 1764007820,
-        "end": null
+        "end": 1764060025
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764060025,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24007,6 +24019,11 @@
       {
         "status": "[Argentina] Mugged - Revives: OFF",
         "start": 1764057639,
+        "end": 1764060025
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1764060025,
         "end": null
       }
     ]
@@ -28393,11 +28410,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762849825,
-        "end": 1762852819
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1762852819,
         "end": 1762855236
@@ -31660,11 +31672,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762849825,
-        "end": 1762859424
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762859424,
         "end": 1762866030,
@@ -34863,12 +34870,6 @@
   "3903942": {
     "name": "RouRonin",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1762849825,
-        "end": 1762855236,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1762855236,
@@ -38213,8 +38214,13 @@
       {
         "status": "[China] - Going",
         "start": 1764049824,
-        "end": null,
+        "end": 1764060025,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1764060025,
+        "end": null
       }
     ]
   },
@@ -40537,11 +40543,6 @@
   "3977638": {
     "name": "Vasapi_Sakti",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1762849825,
-        "end": 1762850417
-      },
       {
         "status": "[China] Mugged - Revives: OFF",
         "start": 1762850417,
