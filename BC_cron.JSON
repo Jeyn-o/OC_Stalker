@@ -20860,12 +20860,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1762868421,
-        "end": 1762870221,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762870221,
         "end": 1762873240
@@ -27894,8 +27888,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764077435,
-        "end": null,
+        "end": 1764078617,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Event - Revives: Partial",
+        "start": 1764078617,
+        "end": null
       }
     ]
   },
@@ -30315,11 +30314,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1762868421,
-        "end": 1762869632
-      },
-      {
         "status": "Available",
         "start": 1762869632,
         "end": 1762878628
@@ -31654,8 +31648,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1764076218,
-        "end": null,
+        "end": 1764078617,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1764078617,
+        "end": null
       }
     ]
   },
@@ -32770,8 +32769,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764072036,
-        "end": null,
+        "end": 1764078617,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764078617,
+        "end": null
       }
     ]
   },
@@ -33672,12 +33676,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1762868421,
-        "end": 1762875030,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1762875030,
@@ -35750,8 +35748,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1764071420,
-        "end": null,
+        "end": 1764078617,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764078617,
+        "end": null
       }
     ]
   },
@@ -38228,6 +38231,11 @@
       {
         "status": "[China] - Idle",
         "start": 1764069023,
+        "end": 1764078617
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1764078617,
         "end": null
       }
     ]
