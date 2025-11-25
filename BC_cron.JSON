@@ -15726,11 +15726,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1762831835,
-        "end": 1762833026
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1762833026,
         "end": 1762842635,
@@ -21740,8 +21735,13 @@
       {
         "status": "[China] - Going",
         "start": 1764031824,
-        "end": null,
+        "end": 1764042020,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1764042020,
+        "end": null
       }
     ]
   },
@@ -22781,8 +22781,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1764030624,
-        "end": null,
+        "end": 1764042020,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764042020,
+        "end": null
       }
     ]
   },
@@ -23964,7 +23969,13 @@
       {
         "status": "Available",
         "start": 1763976025,
-        "end": null
+        "end": 1764042020
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1764042020,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27863,6 +27874,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764040825,
+        "end": 1764042020,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764042020,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30253,6 +30270,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1764041427,
+        "end": 1764042020
+      },
+      {
+        "status": "Available",
+        "start": 1764042020,
         "end": null
       }
     ]
@@ -39405,7 +39427,13 @@
       {
         "status": "Available",
         "start": 1764033621,
-        "end": null
+        "end": 1764042020
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1764042020,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40454,11 +40482,6 @@
   "3977638": {
     "name": "Vasapi_Sakti",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762831835,
-        "end": 1762832426
-      },
       {
         "status": "[China] - Going",
         "start": 1762832426,
