@@ -18495,12 +18495,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762858834,
-        "end": 1762866030,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762866030,
         "end": 1762895420
@@ -19802,11 +19796,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762858834,
-        "end": 1762860027
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1762860027,
@@ -22306,6 +22295,11 @@
       {
         "status": "[China] - Idle",
         "start": 1764063621,
+        "end": 1764069023
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1764069023,
         "end": null
       }
     ]
@@ -23944,8 +23938,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1764061821,
-        "end": null,
+        "end": 1764069023,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764069023,
+        "end": null
       }
     ]
   },
@@ -25208,6 +25207,12 @@
       {
         "status": "[China] - Going",
         "start": 1764059429,
+        "end": 1764069023,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764069023,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25216,11 +25221,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Japan] Mugged - Revives: ALL",
-        "start": 1762858834,
-        "end": 1762860027
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1762860027,
@@ -33590,12 +33590,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1762858834,
-        "end": 1762865426,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762865426,
         "end": 1762868421
@@ -36355,11 +36349,6 @@
     "name": "Maddog1997",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762858834,
-        "end": 1762859424
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762859424,
         "end": 1762866030,
@@ -37403,7 +37392,13 @@
       {
         "status": "Available",
         "start": 1764066018,
-        "end": null
+        "end": 1764069023
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1764069023,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38133,6 +38128,11 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1764066628,
+        "end": 1764069023
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1764069023,
         "end": null
       }
     ]
