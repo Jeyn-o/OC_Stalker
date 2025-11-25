@@ -1745,11 +1745,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762878019,
-        "end": 1762881629
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762881629,
         "end": 1762888220,
@@ -4200,7 +4195,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1764087027,
-        "end": null
+        "end": 1764088232
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764088232,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12382,8 +12383,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1764077435,
-        "end": null,
+        "end": 1764088232,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764088232,
+        "end": null
       }
     ]
   },
@@ -12488,12 +12494,6 @@
   "3156041": {
     "name": "Googer",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762878019,
-        "end": 1762889427,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762889427,
@@ -15811,8 +15811,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1764083421,
-        "end": null,
+        "end": 1764088232,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1764088232,
+        "end": null
       }
     ]
   },
@@ -16298,12 +16303,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762878019,
-        "end": 1762884624,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762884624,
@@ -30422,11 +30421,6 @@
   "3760809": {
     "name": "RandomName1",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762878019,
-        "end": 1762878628
-      },
       {
         "status": "[China] - Going",
         "start": 1762878628,
