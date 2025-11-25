@@ -3230,6 +3230,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764031824,
+        "end": 1764045027,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764045027,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -4974,7 +4980,13 @@
       {
         "status": "Available",
         "start": 1764037827,
-        "end": null
+        "end": 1764045027
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1764045027,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -8523,7 +8535,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764015622,
-        "end": null
+        "end": 1764045027
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764045027,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33573,6 +33591,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1764039023,
+        "end": 1764045027,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1764045027,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37413,11 +37437,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762834823,
-        "end": 1762837824
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1762837824,
