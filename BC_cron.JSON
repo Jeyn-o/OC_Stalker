@@ -2326,11 +2326,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1762903225,
-        "end": 1762906227
-      },
-      {
         "status": "Available",
         "start": 1762906227,
         "end": 1762910422
@@ -9906,11 +9901,6 @@
     "name": "Hoboblue",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762903225,
-        "end": 1763119826
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1763119826,
         "end": 1763127027,
@@ -11145,8 +11135,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764106227,
-        "end": null,
+        "end": 1764113429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1764113429,
+        "end": null
       }
     ]
   },
@@ -28748,7 +28743,13 @@
       {
         "status": "Available",
         "start": 1764111024,
-        "end": null
+        "end": 1764113429
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1764113429,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33231,18 +33232,19 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1764112221,
-        "end": null
+        "end": 1764113429
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764113429,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762903225,
-        "end": 1762903826
-      },
       {
         "status": "[China] - Going",
         "start": 1762903826,
@@ -34137,6 +34139,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764112221,
+        "end": 1764113429,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764113429,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -36920,12 +36928,6 @@
   "3943448": {
     "name": "Maddog1997",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1762903225,
-        "end": 1762909818,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762909818,
