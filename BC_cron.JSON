@@ -9242,8 +9242,13 @@
       {
         "status": "[China] - Going",
         "start": 1764102631,
-        "end": null,
+        "end": 1764112821,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1764112821,
+        "end": null
       }
     ]
   },
@@ -14731,7 +14736,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764110422,
-        "end": null
+        "end": 1764112821
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764112821,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17678,7 +17689,13 @@
       {
         "status": "Available",
         "start": 1764111024,
-        "end": null
+        "end": 1764112821
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1764112821,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18959,7 +18976,13 @@
       {
         "status": "Available",
         "start": 1763956829,
-        "end": null
+        "end": 1764112821
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1764112821,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30718,6 +30741,11 @@
       {
         "status": "Available",
         "start": 1764109223,
+        "end": 1764112821
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1764112821,
         "end": null
       }
     ]
@@ -32112,11 +32140,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762902626,
-        "end": 1762903826
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762903826,
@@ -37985,6 +38008,12 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1764111639,
+        "end": 1764112821,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764112821,
         "end": null,
         "travel_type": "airstrip"
       }
