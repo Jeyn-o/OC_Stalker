@@ -1734,11 +1734,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762862439,
-        "end": 1762864227
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762864227,
         "end": 1762871432,
@@ -2306,7 +2301,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764072036,
-        "end": null
+        "end": 1764072622
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764072622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3242,7 +3243,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764072036,
-        "end": null
+        "end": 1764072622
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764072622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13745,7 +13752,13 @@
       {
         "status": "Available",
         "start": 1764042619,
-        "end": null
+        "end": 1764072622
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764072622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14573,20 +14586,19 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1764061236,
-        "end": null,
+        "end": 1764072622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1764072622,
+        "end": null
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762862439,
-        "end": 1762867230,
-        "travel_type": "standard"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762867230,
@@ -20818,18 +20830,19 @@
       {
         "status": "Available",
         "start": 1764072036,
-        "end": null
+        "end": 1764072622
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1764072622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762862439,
-        "end": 1762863623
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1762863623,
@@ -23079,8 +23092,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764060025,
-        "end": null,
+        "end": 1764072622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764072622,
+        "end": null
       }
     ]
   },
@@ -23372,6 +23390,11 @@
       {
         "status": "[Japan] - Idle",
         "start": 1764070229,
+        "end": 1764072622
+      },
+      {
+        "status": "[Japan] Mugged - Revives: ALL",
+        "start": 1764072622,
         "end": null
       }
     ]
@@ -28325,11 +28348,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762862439,
-        "end": 1762864227
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762864227,
@@ -40494,11 +40512,6 @@
   "3977638": {
     "name": "Vasapi_Sakti",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1762862439,
-        "end": 1762863018
-      },
       {
         "status": "[China] Mugged - Revives: OFF",
         "start": 1762863018,
