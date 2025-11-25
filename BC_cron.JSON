@@ -6258,7 +6258,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764039023,
-        "end": null
+        "end": 1764039636
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764039636,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -6974,8 +6980,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1764027622,
-        "end": null,
+        "end": 1764039636,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764039636,
+        "end": null
       }
     ]
   },
@@ -20812,12 +20823,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1762829439,
-        "end": 1762837233,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762837233,
         "end": 1762847421
@@ -27851,6 +27856,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764038423,
+        "end": 1764039636,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764039636,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35658,7 +35669,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1764037827,
-        "end": null
+        "end": 1764039636
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764039636,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
