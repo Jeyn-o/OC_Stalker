@@ -2317,7 +2317,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764089423,
-        "end": null
+        "end": 1764090035
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764090035,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -5037,7 +5043,13 @@
       {
         "status": "Available",
         "start": 1764084018,
-        "end": null
+        "end": 1764090035
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1764090035,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -6315,8 +6327,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764086428,
-        "end": null,
+        "end": 1764090035,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1764090035,
+        "end": null
       }
     ]
   },
@@ -8619,11 +8636,6 @@
   "2736671": {
     "name": "Twitt3y",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1762879826,
-        "end": 1762882828
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1762882828,
@@ -10985,8 +10997,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764083421,
-        "end": null,
+        "end": 1764090035,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764090035,
+        "end": null
       }
     ]
   },
@@ -27998,8 +28015,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764088820,
-        "end": null,
+        "end": 1764090035,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764090035,
+        "end": null
       }
     ]
   },
