@@ -233,7 +233,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1764028218,
-        "end": null
+        "end": 1764030025
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1764030025,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3205,6 +3211,11 @@
       {
         "status": "Available",
         "start": 1764000622,
+        "end": 1764030025
+      },
+      {
+        "status": "Jail",
+        "start": 1764030025,
         "end": null
       }
     ]
@@ -13611,8 +13622,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764017422,
-        "end": null,
+        "end": 1764030025,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764030025,
+        "end": null
       }
     ]
   },
@@ -15568,6 +15584,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764027031,
+        "end": 1764030025,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1764030025,
         "end": null,
         "travel_type": "standard"
       }
@@ -22197,6 +22219,11 @@
       {
         "status": "[China] - Idle",
         "start": 1764027031,
+        "end": 1764030025
+      },
+      {
+        "status": "[China] Attacked - Revives: ALL",
+        "start": 1764030025,
         "end": null
       }
     ]
@@ -30046,6 +30073,11 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1764024024,
+        "end": 1764030025
+      },
+      {
+        "status": "[Cayman Islands] Mugged - Revives: OFF",
+        "start": 1764030025,
         "end": null
       }
     ]
@@ -34567,6 +34599,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1764029422,
+        "end": 1764030025
+      },
+      {
+        "status": "Available",
+        "start": 1764030025,
         "end": null
       }
     ]
