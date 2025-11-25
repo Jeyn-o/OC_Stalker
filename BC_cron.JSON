@@ -1001,11 +1001,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762873240,
-        "end": 1762873820
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762873820,
         "end": 1762880434,
@@ -10960,7 +10955,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764082833,
-        "end": null
+        "end": 1764083421
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764083421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15776,7 +15777,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1764082833,
-        "end": null
+        "end": 1764083421
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764083421,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -17689,11 +17696,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762873240,
-        "end": 1762873820
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762873820,
         "end": 1762880434,
@@ -18559,7 +18561,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1764082833,
-        "end": null
+        "end": 1764083421
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1764083421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20906,12 +20914,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1762873240,
-        "end": 1762883420,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1762883420,
         "end": 1762897822
@@ -22840,7 +22842,13 @@
       {
         "status": "Available",
         "start": 1764042020,
-        "end": null
+        "end": 1764083421
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1764083421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31336,8 +31344,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1764081620,
-        "end": null,
+        "end": 1764083421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764083421,
+        "end": null
       }
     ]
   },
