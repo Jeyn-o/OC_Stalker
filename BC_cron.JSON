@@ -252,11 +252,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] Lost - Revives: OFF",
-        "start": 1762884624,
-        "end": 1762886419
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762886419,
         "end": 1762899028,
@@ -2325,11 +2320,6 @@
   "1184733": {
     "name": "Pro_eobard",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1762884624,
-        "end": 1762887634
-      },
       {
         "status": "Available",
         "start": 1762887634,
@@ -6333,7 +6323,13 @@
       {
         "status": "Available",
         "start": 1764094222,
-        "end": null
+        "end": 1764094824
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1764094824,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -6647,6 +6643,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764082226,
+        "end": 1764094824,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764094824,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -9843,6 +9845,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764087625,
+        "end": 1764094824,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764094824,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -16316,11 +16324,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762884624,
-        "end": 1762885223
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762885223,
         "end": 1762891818,
@@ -17568,11 +17571,6 @@
     "name": "Krytical",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762884624,
-        "end": 1762904423
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1762904423,
         "end": 1762905018
@@ -18603,8 +18601,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764093630,
-        "end": null,
+        "end": 1764094824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764094824,
+        "end": null
       }
     ]
   },
@@ -22906,19 +22909,19 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1764083421,
-        "end": null,
+        "end": 1764094824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1764094824,
+        "end": null
       }
     ]
   },
   "3575675": {
     "name": "highfishM",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762884624,
-        "end": 1763034620
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1763034620,
@@ -28052,8 +28055,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764093630,
-        "end": null,
+        "end": 1764094824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764094824,
+        "end": null
       }
     ]
   },
@@ -38500,6 +38508,11 @@
       {
         "status": "[China] - Idle",
         "start": 1764087625,
+        "end": 1764094824
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1764094824,
         "end": null
       }
     ]
@@ -39758,6 +39771,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1764093019,
+        "end": 1764094824,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1764094824,
         "end": null,
         "travel_type": "airstrip"
       }
