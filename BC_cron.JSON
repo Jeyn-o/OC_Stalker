@@ -2300,8 +2300,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764065429,
-        "end": null,
+        "end": 1764072036,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764072036,
+        "end": null
       }
     ]
   },
@@ -3231,8 +3236,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764059429,
-        "end": null,
+        "end": 1764072036,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764072036,
+        "end": null
       }
     ]
   },
@@ -12771,7 +12781,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1764069624,
-        "end": null
+        "end": 1764072036
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764072036,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20796,8 +20812,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764071420,
-        "end": null,
+        "end": 1764072036,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764072036,
+        "end": null
       }
     ]
   },
@@ -24158,11 +24179,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1762861823,
-        "end": 1762874421
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762874421,
@@ -32697,6 +32713,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764065429,
+        "end": 1764072036,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764072036,
         "end": null,
         "travel_type": "airstrip"
       }
