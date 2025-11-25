@@ -1728,11 +1728,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762855236,
-        "end": 1762855826
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762855826,
         "end": 1762862439,
@@ -2300,7 +2295,13 @@
       {
         "status": "Available",
         "start": 1764003646,
-        "end": null
+        "end": 1764065429
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764065429,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28355,11 +28356,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762855236,
-        "end": 1762860027
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1762860027,
         "end": 1762862439
@@ -32729,6 +32725,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764058226,
+        "end": 1764065429,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764065429,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34820,12 +34822,6 @@
   "3903942": {
     "name": "RouRonin",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1762855236,
-        "end": 1762860627,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1762860627,
