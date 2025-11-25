@@ -4962,6 +4962,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1764035423,
+        "end": 1764036622,
+        "travel_type": "private"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1764036622,
         "end": null,
         "travel_type": "private"
       }
@@ -7645,12 +7651,6 @@
     "name": "HanXeng",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1762826437,
-        "end": 1762838422,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1762838422,
         "end": 1762854622
@@ -9051,7 +9051,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764034226,
-        "end": null
+        "end": 1764036622
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764036622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -27801,8 +27807,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764035423,
-        "end": null,
+        "end": 1764036622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764036622,
+        "end": null
       }
     ]
   },
@@ -31524,12 +31535,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762826437,
-        "end": 1762833026,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762833026,
         "end": 1762833634
@@ -34704,12 +34709,6 @@
     "name": "RouRonin",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1762826437,
-        "end": 1762832426,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Going",
         "start": 1762832426,
         "end": 1762838422,
@@ -36269,11 +36268,6 @@
   "3943448": {
     "name": "Maddog1997",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762826437,
-        "end": 1762827023
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1762827023,
