@@ -1741,11 +1741,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762888220,
-        "end": 1762888818
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762888818,
         "end": 1762895420,
@@ -7681,8 +7676,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1764096625,
-        "end": null,
+        "end": 1764098422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764098422,
+        "end": null
       }
     ]
   },
@@ -12415,7 +12415,13 @@
       {
         "status": "Available",
         "start": 1764088232,
-        "end": null
+        "end": 1764098422
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764098422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17568,6 +17574,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1764091218,
+        "end": 1764098422,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1764098422,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -17730,12 +17742,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1762888220,
-        "end": 1762889427,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1762889427,
@@ -19911,12 +19917,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1762888220,
-        "end": 1762889427,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762889427,
@@ -30517,12 +30517,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1762888220,
-        "end": 1762898436,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762898436,
         "end": 1762899028
@@ -38529,12 +38523,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1762888220,
-        "end": 1762890022,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762890022,
