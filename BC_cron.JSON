@@ -1490,6 +1490,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764087027,
+        "end": 1764093630,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764093630,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -3744,8 +3750,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1764087027,
-        "end": null,
+        "end": 1764093630,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764093630,
+        "end": null
       }
     ]
   },
@@ -8624,7 +8635,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764087625,
-        "end": null
+        "end": 1764093630
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764093630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9988,12 +10005,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1762883420,
-        "end": 1762890627,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1762890627,
@@ -13815,11 +13826,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762883420,
-        "end": 1762909818
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762909818,
@@ -18591,6 +18597,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764093019,
+        "end": 1764093630,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764093630,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -20960,11 +20972,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1762883420,
-        "end": 1762897822
-      },
       {
         "status": "[China] - Returning",
         "start": 1762897822,
@@ -23515,7 +23522,13 @@
       {
         "status": "[Japan] Mugged - Revives: ALL",
         "start": 1764091218,
-        "end": null
+        "end": 1764093630
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1764093630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28038,6 +28051,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764092421,
+        "end": 1764093630,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764093630,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30482,6 +30501,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1764093019,
+        "end": 1764093630
+      },
+      {
+        "status": "Available",
+        "start": 1764093630,
         "end": null
       }
     ]
@@ -35050,8 +35074,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1764087625,
-        "end": null,
+        "end": 1764093630,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764093630,
+        "end": null
       }
     ]
   },
