@@ -9229,6 +9229,11 @@
       {
         "status": "Jail",
         "start": 1764100224,
+        "end": 1764101424
+      },
+      {
+        "status": "Available",
+        "start": 1764101424,
         "end": null
       }
     ]
@@ -13416,7 +13421,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764100836,
-        "end": null
+        "end": 1764101424
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764101424,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -17752,11 +17763,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762891233,
-        "end": 1762927821
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1762927821,
@@ -22460,12 +22466,6 @@
   "3540076": {
     "name": "Mr_jeff14574",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1762891233,
-        "end": 1762901424,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762901424,
@@ -37799,7 +37799,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1764099035,
-        "end": null
+        "end": 1764101424
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1764101424,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
