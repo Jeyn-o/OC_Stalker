@@ -252,12 +252,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1762971621,
-        "end": 1762984219,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1762984219,
         "end": 1762986630
@@ -6328,8 +6322,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1764178824,
-        "end": null,
+        "end": 1764181828,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1764181828,
+        "end": null
       }
     ]
   },
@@ -14829,12 +14828,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1762971621,
-        "end": 1762976426,
-        "travel_type": "standard"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762976426,
         "end": 1762978818
@@ -17969,6 +17962,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1764179427,
+        "end": 1764181828
+      },
+      {
+        "status": "Available",
+        "start": 1764181828,
         "end": null
       }
     ]
@@ -21210,12 +21208,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1762971621,
-        "end": 1762981822,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762981822,
         "end": 1763010034
@@ -23798,7 +23790,13 @@
       {
         "status": "Available",
         "start": 1764146424,
-        "end": null
+        "end": 1764181828
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1764181828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -28395,7 +28393,13 @@
       {
         "status": "[Switzerland] Mugged - Revives: ALL",
         "start": 1764180031,
-        "end": null
+        "end": 1764181828
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764181828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
