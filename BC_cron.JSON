@@ -3757,12 +3757,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1762981235,
-        "end": 1762983024,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762983024,
         "end": 1762986020
@@ -10149,7 +10143,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1764189619,
-        "end": null
+        "end": 1764191424
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764191424,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -21279,8 +21279,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1764189619,
-        "end": null,
+        "end": 1764191424,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764191424,
+        "end": null
       }
     ]
   },
@@ -22711,11 +22716,6 @@
     "name": "Mr_jeff14574",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1762981235,
-        "end": 1762985421
-      },
-      {
         "status": "Available",
         "start": 1762985421,
         "end": 1763001622
@@ -23870,6 +23870,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1764181828,
+        "end": 1764191424,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1764191424,
         "end": null,
         "travel_type": "airstrip"
       }
