@@ -6665,12 +6665,6 @@
     "name": "Jeyno",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1762917619,
-        "end": 1762924822,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1762924822,
         "end": 1762932025,
@@ -19017,8 +19011,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1764120633,
-        "end": null,
+        "end": 1764127828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764127828,
+        "end": null
       }
     ]
   },
@@ -19150,11 +19149,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762917619,
-        "end": 1762925428
-      },
       {
         "status": "[China] - Going",
         "start": 1762925428,
@@ -23736,6 +23730,11 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1764126630,
+        "end": 1764127828
+      },
+      {
+        "status": "[Mexico] Mugged - Revives: ALL",
+        "start": 1764127828,
         "end": null
       }
     ]
@@ -28355,6 +28354,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764126630,
+        "end": 1764127828,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764127828,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35472,7 +35477,13 @@
       {
         "status": "Available",
         "start": 1764123025,
-        "end": null
+        "end": 1764127828
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764127828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
