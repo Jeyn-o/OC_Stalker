@@ -3211,7 +3211,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764128419,
-        "end": null
+        "end": 1764129020
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764129020,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11151,6 +11157,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1764124823,
+        "end": 1764129020
+      },
+      {
+        "status": "Available",
+        "start": 1764129020,
         "end": null
       }
     ]
@@ -11610,11 +11621,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1762918819,
-        "end": 1762924822
-      },
       {
         "status": "[United Arab Emirates] Mugged - Revives: Partial",
         "start": 1762924822,
@@ -28365,6 +28371,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764127828,
+        "end": 1764129020,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764129020,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33375,8 +33387,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764122429,
-        "end": null,
+        "end": 1764129020,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764129020,
+        "end": null
       }
     ]
   },
@@ -35493,6 +35510,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764127828,
+        "end": 1764129020,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764129020,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35501,12 +35524,6 @@
   "3903942": {
     "name": "RouRonin",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1762918819,
-        "end": 1762924822,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1762924822,
