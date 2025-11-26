@@ -4195,6 +4195,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1764186025,
+        "end": 1764187817,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1764187817,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -6677,6 +6683,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764175224,
+        "end": 1764187817,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764187817,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -7063,8 +7075,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1764175224,
-        "end": null,
+        "end": 1764187817,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764187817,
+        "end": null
       }
     ]
   },
@@ -7836,8 +7853,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1764180031,
-        "end": null,
+        "end": 1764187817,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764187817,
+        "end": null
       }
     ]
   },
@@ -9271,7 +9293,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764186617,
-        "end": null
+        "end": 1764187817
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764187817,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13990,8 +14018,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1764175224,
-        "end": null,
+        "end": 1764187817,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764187817,
+        "end": null
       }
     ]
   },
@@ -21187,7 +21220,13 @@
       {
         "status": "Available",
         "start": 1764168020,
-        "end": null
+        "end": 1764187817
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1764187817,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23052,6 +23091,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764181220,
+        "end": 1764187817,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764187817,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -24558,6 +24603,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1764187234,
+        "end": 1764187817
+      },
+      {
+        "status": "Available",
+        "start": 1764187817,
         "end": null
       }
     ]
@@ -40599,11 +40649,6 @@
   "3973984": {
     "name": "ssodon",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762977627,
-        "end": 1763017233
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1763017233,
