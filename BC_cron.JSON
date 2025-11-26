@@ -3224,8 +3224,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764142822,
-        "end": null,
+        "end": 1764155420,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764155420,
+        "end": null
       }
     ]
   },
@@ -3720,7 +3725,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764147634,
-        "end": null
+        "end": 1764155420
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764155420,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11078,6 +11089,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764148822,
+        "end": 1764155420,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764155420,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -11649,12 +11666,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1762945239,
-        "end": 1762951824,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762951824,
@@ -24365,7 +24376,13 @@
       {
         "status": "Available",
         "start": 1764153634,
-        "end": null
+        "end": 1764155420
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1764155420,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33425,8 +33442,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764148822,
-        "end": null,
+        "end": 1764155420,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764155420,
+        "end": null
       }
     ]
   },
@@ -37024,6 +37046,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1764153634,
+        "end": 1764155420
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764155420,
         "end": null
       }
     ]
@@ -38270,7 +38297,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1764154218,
-        "end": null
+        "end": 1764155420
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764155420,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40317,7 +40350,13 @@
       {
         "status": "Available",
         "start": 1764154218,
-        "end": null
+        "end": 1764155420
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1764155420,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
