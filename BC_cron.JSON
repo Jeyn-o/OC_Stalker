@@ -8737,11 +8737,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762934432,
-        "end": 1762950633
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1762950633,
         "end": 1762952431,
@@ -9907,7 +9902,13 @@
       {
         "status": "Available",
         "start": 1764144030,
-        "end": null
+        "end": 1764144622
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1764144622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23777,11 +23778,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762934432,
-        "end": 1762935618
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1762935618,
         "end": 1762937418,
@@ -28847,19 +28843,19 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1764133238,
-        "end": null,
+        "end": 1764144622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764144622,
+        "end": null
       }
     ]
   },
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1762934432,
-        "end": 1762935028
-      },
       {
         "status": "Available",
         "start": 1762935028,
@@ -31887,6 +31883,11 @@
       {
         "status": "[Cayman Islands] Mugged - Revives: ALL",
         "start": 1764142228,
+        "end": 1764144622
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1764144622,
         "end": null
       }
     ]
@@ -36971,7 +36972,13 @@
       {
         "status": "Available",
         "start": 1764143425,
-        "end": null
+        "end": 1764144622
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764144622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38952,8 +38959,13 @@
       {
         "status": "[China] - Going",
         "start": 1764135026,
-        "end": null,
+        "end": 1764144622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1764144622,
+        "end": null
       }
     ]
   },
