@@ -2456,11 +2456,6 @@
     "name": "---GHOST---",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: Partial",
-        "start": 1762953630,
-        "end": 1762954822
-      },
-      {
         "status": "Available",
         "start": 1762954822,
         "end": 1762969822
@@ -2752,8 +2747,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1764151234,
-        "end": null,
+        "end": 1764163829,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764163829,
+        "end": null
       }
     ]
   },
@@ -7254,11 +7254,6 @@
     "name": "frkn",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1762953630,
-        "end": 1762959635
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1762959635,
         "end": 1762966839,
@@ -10062,8 +10057,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764162635,
-        "end": null,
+        "end": 1764163829,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1764163829,
+        "end": null
       }
     ]
   },
@@ -17804,6 +17804,12 @@
       {
         "status": "[China] - Returning",
         "start": 1764153031,
+        "end": 1764163829,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764163829,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35602,11 +35608,6 @@
   "3903942": {
     "name": "RouRonin",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762953630,
-        "end": 1762998016
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1762998016,
