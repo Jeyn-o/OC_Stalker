@@ -3762,12 +3762,6 @@
     "name": "SassyMcSlacker",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1762986020,
-        "end": 1762991422,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1762991422,
         "end": 1762996817,
@@ -5055,8 +5049,13 @@
       {
         "status": "[China] - Returning",
         "start": 1764189619,
-        "end": null,
+        "end": 1764196226,
         "travel_type": "private"
+      },
+      {
+        "status": "Available",
+        "start": 1764196226,
+        "end": null
       }
     ]
   },
@@ -5172,12 +5171,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1762986020,
-        "end": 1762990231,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1762990231,
@@ -7911,6 +7904,11 @@
       {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1764195627,
+        "end": 1764196226
+      },
+      {
+        "status": "Available",
+        "start": 1764196226,
         "end": null
       }
     ]
@@ -11772,8 +11770,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764190833,
-        "end": null,
+        "end": 1764196226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764196226,
+        "end": null
       }
     ]
   },
@@ -17881,6 +17884,12 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764189026,
+        "end": 1764196226,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Going",
+        "start": 1764196226,
         "end": null,
         "travel_type": "airstrip"
       }
