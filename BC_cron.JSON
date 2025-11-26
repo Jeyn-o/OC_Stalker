@@ -1630,11 +1630,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1762910422,
-        "end": 1762911028
-      },
-      {
         "status": "Available",
         "start": 1762911028,
         "end": 1763370039
@@ -2332,11 +2327,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1762910422,
-        "end": 1762912831
-      },
-      {
         "status": "Available",
         "start": 1762912831,
         "end": 1762921220
@@ -2786,12 +2776,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1762910422,
-        "end": 1762923023,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1762923023,
@@ -4178,8 +4162,13 @@
       {
         "status": "[China] - Returning",
         "start": 1764110422,
-        "end": null,
+        "end": 1764120633,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764120633,
+        "end": null
       }
     ]
   },
@@ -6341,7 +6330,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764114020,
-        "end": null
+        "end": 1764120633
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764120633,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -15948,8 +15943,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1764115822,
-        "end": null,
+        "end": 1764120633,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1764120633,
+        "end": null
       }
     ]
   },
@@ -19018,7 +19018,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1764119421,
-        "end": null
+        "end": 1764120633
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1764120633,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24511,6 +24517,11 @@
       {
         "status": "Available",
         "start": 1764108038,
+        "end": 1764120633
+      },
+      {
+        "status": "[Hospital] Lost - Revives: OFF",
+        "start": 1764120633,
         "end": null
       }
     ]
@@ -30807,12 +30818,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762910422,
-        "end": 1762921220,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762921220,
         "end": 1762935618
@@ -32188,11 +32193,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762910422,
-        "end": 1762911621
-      },
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1762911621,
