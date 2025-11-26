@@ -2445,11 +2445,6 @@
     "name": "---GHOST---",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762944620,
-        "end": 1762953630
-      },
-      {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1762953630,
         "end": 1762954822
@@ -4355,6 +4350,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1764152423,
+        "end": 1764154837
+      },
+      {
+        "status": "Available",
+        "start": 1764154837,
         "end": null
       }
     ]
@@ -16490,8 +16490,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1764145225,
-        "end": null,
+        "end": 1764154837,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1764154837,
+        "end": null
       }
     ]
   },
@@ -19073,11 +19078,6 @@
     "name": "Dunne",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762944620,
-        "end": 1762980028
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1762980028,
         "end": 1762992623,
@@ -21170,7 +21170,13 @@
       {
         "status": "Available",
         "start": 1764154218,
-        "end": null
+        "end": 1764154837
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764154837,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -30901,6 +30907,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764153031,
+        "end": 1764154837,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764154837,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -36433,6 +36445,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764147023,
+        "end": 1764154837,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764154837,
         "end": null,
         "travel_type": "airstrip"
       }
