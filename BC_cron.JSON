@@ -2353,11 +2353,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: ALL",
-        "start": 1762958436,
-        "end": 1762960218
-      },
-      {
         "status": "Available",
         "start": 1762960218,
         "end": 1763095822
@@ -4201,12 +4196,6 @@
     "name": "Ronskip",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1762958436,
-        "end": 1762966221,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762966221,
         "end": 1763377822
@@ -4374,12 +4363,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1762958436,
-        "end": 1762962626,
-        "travel_type": "private"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762962626,
@@ -5197,12 +5180,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1762958436,
-        "end": 1762963236,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1762963236,
@@ -11694,12 +11671,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762958436,
-        "end": 1762965028,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762965028,
@@ -18828,7 +18799,13 @@
       {
         "status": "Available",
         "start": 1764168020,
-        "end": null
+        "end": 1764168625
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764168625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23808,12 +23785,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1762958436,
-        "end": 1762965028,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762965028,
@@ -33517,7 +33488,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764165021,
-        "end": null
+        "end": 1764168625
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764168625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36549,8 +36526,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1764166828,
-        "end": null,
+        "end": 1764168625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764168625,
+        "end": null
       }
     ]
   },
@@ -39205,6 +39187,11 @@
       {
         "status": "[China] - Idle",
         "start": 1764157823,
+        "end": 1764168625
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1764168625,
         "end": null
       }
     ]
