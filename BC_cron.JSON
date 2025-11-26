@@ -1773,11 +1773,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1762976426,
-        "end": 1762996225
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1762996225,
         "end": 1763002830,
@@ -2355,6 +2350,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764180031,
+        "end": 1764186617,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764186617,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -9259,8 +9260,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764174025,
-        "end": null,
+        "end": 1764186617,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764186617,
+        "end": null
       }
     ]
   },
@@ -12526,8 +12532,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764180031,
-        "end": null,
+        "end": 1764186617,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764186617,
+        "end": null
       }
     ]
   },
@@ -14827,11 +14838,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1762976426,
-        "end": 1762978818
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1762978818,
@@ -25630,18 +25636,19 @@
       {
         "status": "Available",
         "start": 1764186025,
-        "end": null
+        "end": 1764186617
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764186617,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762976426,
-        "end": 1762993224
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1762993224,
@@ -33559,12 +33566,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762976426,
-        "end": 1762987822,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762987822,
         "end": 1762990825
@@ -39324,11 +39325,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762976426,
-        "end": 1762978818
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762978818,
