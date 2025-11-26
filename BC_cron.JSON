@@ -17748,11 +17748,6 @@
     "name": "Krytical",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762917024,
-        "end": 1763161826
-      },
-      {
         "status": "[Hospital] Mugged - Revives: ALL",
         "start": 1763161826,
         "end": 1763162418
@@ -20020,8 +20015,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764114620,
-        "end": null,
+        "end": 1764126630,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764126630,
+        "end": null
       }
     ]
   },
@@ -23720,6 +23720,11 @@
       {
         "status": "[Mexico] Hospitalized - Revives: ALL",
         "start": 1764111024,
+        "end": 1764126630
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1764126630,
         "end": null
       }
     ]
@@ -24341,12 +24346,6 @@
   "3628419": {
     "name": "Littlegman212",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1762917024,
-        "end": 1762929626,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762929626,
@@ -28339,6 +28338,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764125424,
+        "end": 1764126630,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764126630,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -30835,7 +30840,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1764126037,
-        "end": null
+        "end": 1764126630
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764126630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
