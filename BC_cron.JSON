@@ -11607,11 +11607,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Arab Emirates] Mugged - Revives: Partial",
-        "start": 1762916428,
-        "end": 1762918819
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1762918819,
         "end": 1762924822
@@ -15947,6 +15942,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1764121217,
+        "end": 1764126037,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764126037,
         "end": null,
         "travel_type": "standard"
       }
@@ -15985,12 +15986,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1762916428,
-        "end": 1762924222,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Idle",
         "start": 1762924222,
@@ -24347,11 +24342,6 @@
     "name": "Littlegman212",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1762916428,
-        "end": 1762917024
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1762917024,
         "end": 1762929626,
@@ -25614,12 +25604,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1762916428,
-        "end": 1762923631,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762923631,
@@ -30845,8 +30829,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764125424,
-        "end": null,
+        "end": 1764126037,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1764126037,
+        "end": null
       }
     ]
   },
@@ -31051,8 +31040,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764124823,
-        "end": null,
+        "end": 1764126037,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764126037,
+        "end": null
       }
     ]
   },
@@ -34246,8 +34240,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764124823,
-        "end": null,
+        "end": 1764126037,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764126037,
+        "end": null
       }
     ]
   },
@@ -36361,11 +36360,6 @@
     "name": "Lucifixion",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762915836,
-        "end": 1762970433
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1762970433,
         "end": 1762977019,
@@ -36882,7 +36876,13 @@
       {
         "status": "Available",
         "start": 1764076826,
-        "end": null
+        "end": 1764126037
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764126037,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37001,11 +37001,6 @@
   "3943448": {
     "name": "Maddog1997",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762916428,
-        "end": 1762931442
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762931442,
