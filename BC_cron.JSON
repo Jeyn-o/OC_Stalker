@@ -252,11 +252,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762967419,
-        "end": 1762971621
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1762971621,
         "end": 1762984219,
@@ -1517,8 +1512,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764170425,
-        "end": null,
+        "end": 1764177621,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764177621,
+        "end": null
       }
     ]
   },
@@ -1773,11 +1773,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762967419,
-        "end": 1762969822
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1762969822,
@@ -2356,8 +2351,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764171027,
-        "end": null,
+        "end": 1764177621,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764177621,
+        "end": null
       }
     ]
   },
@@ -11143,8 +11143,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764171027,
-        "end": null,
+        "end": 1764177621,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764177621,
+        "end": null
       }
     ]
   },
@@ -16572,12 +16577,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1762967419,
-        "end": 1762968631,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1762968631,
         "end": 1762969223
@@ -20121,7 +20120,13 @@
       {
         "status": "Available",
         "start": 1764175224,
-        "end": null
+        "end": 1764177621
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764177621,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22112,8 +22117,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764171027,
-        "end": null,
+        "end": 1764177621,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764177621,
+        "end": null
       }
     ]
   },
@@ -37187,7 +37197,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764177025,
-        "end": null
+        "end": 1764177621
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764177621,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
