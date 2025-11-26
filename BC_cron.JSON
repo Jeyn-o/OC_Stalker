@@ -252,12 +252,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1762911621,
-        "end": 1762924222,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762924222,
         "end": 1762942822
@@ -901,8 +895,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764109223,
-        "end": null,
+        "end": 1764121827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764121827,
+        "end": null
       }
     ]
   },
@@ -11142,8 +11141,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1764114620,
-        "end": null,
+        "end": 1764121827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764121827,
+        "end": null
       }
     ]
   },
@@ -16451,12 +16455,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1762911621,
-        "end": 1762924222,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1762924222,
@@ -24522,6 +24520,11 @@
       {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1764120633,
+        "end": 1764121827
+      },
+      {
+        "status": "Available",
+        "start": 1764121827,
         "end": null
       }
     ]
@@ -28326,6 +28329,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1764120020,
+        "end": 1764121827
+      },
+      {
+        "status": "Available",
+        "start": 1764121827,
         "end": null
       }
     ]
@@ -32194,11 +32202,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[United Kingdom] Mugged - Revives: ALL",
-        "start": 1762911621,
-        "end": 1762914021
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762914021,
         "end": 1762914632
@@ -35408,6 +35411,11 @@
       {
         "status": "Available",
         "start": 1764093630,
+        "end": 1764121827
+      },
+      {
+        "status": "[Hospital] Lost - Revives: OFF",
+        "start": 1764121827,
         "end": null
       }
     ]
