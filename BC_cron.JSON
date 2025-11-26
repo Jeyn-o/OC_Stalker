@@ -1007,12 +1007,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762935028,
-        "end": 1762942222,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762942222,
         "end": 1763014816
@@ -1501,8 +1495,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764138628,
-        "end": null,
+        "end": 1764145225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764145225,
+        "end": null
       }
     ]
   },
@@ -9251,8 +9250,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764133238,
-        "end": null,
+        "end": 1764145225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764145225,
+        "end": null
       }
     ]
   },
@@ -16477,7 +16481,13 @@
       {
         "status": "Available",
         "start": 1764133238,
-        "end": null
+        "end": 1764145225
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1764145225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19184,11 +19194,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1762935028,
-        "end": 1762935618
-      },
       {
         "status": "[China] - Returning",
         "start": 1762935618,
@@ -23770,7 +23775,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1764141023,
-        "end": null
+        "end": 1764145225
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764145225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24367,8 +24378,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1764138021,
-        "end": null,
+        "end": 1764145225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1764145225,
+        "end": null
       }
     ]
   },
@@ -28857,11 +28873,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762935028,
-        "end": 1762935618
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1762935618,
         "end": 1762938033
@@ -30881,6 +30892,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1764143425,
+        "end": 1764145225
+      },
+      {
+        "status": "Available",
+        "start": 1764145225,
         "end": null
       }
     ]
@@ -31888,7 +31904,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1764144622,
-        "end": null
+        "end": 1764145225
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764145225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35514,6 +35536,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1764144030,
+        "end": 1764145225,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1764145225,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40225,11 +40253,6 @@
   "3973984": {
     "name": "ssodon",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1762935028,
-        "end": 1762935618
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1762935618,
