@@ -2353,11 +2353,6 @@
     "name": "Pro_eobard",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1762956628,
-        "end": 1762958436
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1762958436,
         "end": 1762960218
@@ -10068,8 +10063,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764166222,
-        "end": null,
+        "end": 1764166828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1764166828,
+        "end": null
       }
     ]
   },
@@ -13505,7 +13505,13 @@
       {
         "status": "Available",
         "start": 1764136219,
-        "end": null
+        "end": 1764166828
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764166828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14820,8 +14826,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764159626,
-        "end": null,
+        "end": 1764166828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764166828,
+        "end": null
       }
     ]
   },
@@ -16537,8 +16548,13 @@
       {
         "status": "[Japan] - Returning",
         "start": 1764157221,
-        "end": null,
+        "end": 1764166828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764166828,
+        "end": null
       }
     ]
   },
@@ -19214,11 +19230,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1762956628,
-        "end": 1762959048
-      },
-      {
         "status": "[China] - Returning",
         "start": 1762959048,
         "end": 1762969822,
@@ -21203,12 +21214,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1762956628,
-        "end": 1762957223,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762957223,
@@ -36534,6 +36539,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764165640,
+        "end": 1764166828,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764166828,
         "end": null,
         "travel_type": "airstrip"
       }
