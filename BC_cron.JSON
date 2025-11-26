@@ -18735,6 +18735,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764130221,
+        "end": 1764137418,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764137418,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -23722,12 +23728,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1762927231,
-        "end": 1762934432,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762934432,
         "end": 1762935618
@@ -25585,12 +25585,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1762927231,
-        "end": 1762928425,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762928425,
@@ -30840,7 +30834,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1764134421,
-        "end": null
+        "end": 1764137418
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1764137418,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
