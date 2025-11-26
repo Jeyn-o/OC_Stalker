@@ -8780,11 +8780,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762954231,
-        "end": 1763127027
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1763127027,
         "end": 1763133617,
@@ -10063,7 +10058,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1764163829,
-        "end": null
+        "end": 1764164420
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764164420,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16042,7 +16043,13 @@
       {
         "status": "Available",
         "start": 1764162036,
-        "end": null
+        "end": 1764164420
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1764164420,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -21191,11 +21198,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762954231,
-        "end": 1762955421
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1762955421,
@@ -30948,6 +30950,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1764162036,
+        "end": 1764164420
+      },
+      {
+        "status": "Available",
+        "start": 1764164420,
         "end": null
       }
     ]
@@ -31972,8 +31979,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764157823,
-        "end": null,
+        "end": 1764164420,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764164420,
+        "end": null
       }
     ]
   },
@@ -40414,6 +40426,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1764155420,
+        "end": 1764164420,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1764164420,
         "end": null,
         "travel_type": "airstrip"
       }
