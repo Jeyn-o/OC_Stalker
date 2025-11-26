@@ -1500,8 +1500,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764162036,
-        "end": null,
+        "end": 1764169237,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764169237,
+        "end": null
       }
     ]
   },
@@ -16023,6 +16028,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1764164420,
+        "end": 1764169237,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764169237,
         "end": null,
         "travel_type": "standard"
       }
@@ -17957,12 +17968,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1762959048,
-        "end": 1762966221,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762966221,
         "end": 1762972225
@@ -19210,12 +19215,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1762959048,
-        "end": 1762969822,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762969822,
@@ -23385,8 +23384,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764156628,
-        "end": null,
+        "end": 1764169237,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764169237,
+        "end": null
       }
     ]
   },
@@ -25638,12 +25642,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1762959048,
-        "end": 1762965624,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1762965624,
@@ -32393,6 +32391,11 @@
       {
         "status": "Available",
         "start": 1764084632,
+        "end": 1764169237
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1764169237,
         "end": null
       }
     ]
@@ -36532,6 +36535,11 @@
       {
         "status": "Available",
         "start": 1764168625,
+        "end": 1764169237
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1764169237,
         "end": null
       }
     ]
