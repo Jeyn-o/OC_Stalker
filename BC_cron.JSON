@@ -1774,12 +1774,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1762969822,
-        "end": 1762976426,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1762976426,
         "end": 1762996225
@@ -2357,7 +2351,13 @@
       {
         "status": "Available",
         "start": 1764177621,
-        "end": null
+        "end": 1764180031
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764180031,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2451,11 +2451,6 @@
   "1387584": {
     "name": "---GHOST---",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: Partial",
-        "start": 1762969822,
-        "end": 1762971023
-      },
       {
         "status": "Available",
         "start": 1762971023,
@@ -3307,11 +3302,6 @@
   "2162860": {
     "name": "daddyg",
     "activities": [
-      {
-        "status": "[Japan] - Idle",
-        "start": 1762969822,
-        "end": 1762974032
-      },
       {
         "status": "[Japan] - Returning",
         "start": 1762974032,
@@ -7829,6 +7819,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764172834,
+        "end": 1764180031,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764180031,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -12532,7 +12528,13 @@
       {
         "status": "Available",
         "start": 1764153634,
-        "end": null
+        "end": 1764180031
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764180031,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12988,12 +12990,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1762969822,
-        "end": 1762981822,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1762981822,
@@ -16578,11 +16574,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762969822,
-        "end": 1762971023
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1762971023,
         "end": 1762972225,
@@ -19245,11 +19236,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762969822,
-        "end": 1762985421
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1762985421,
@@ -28410,6 +28396,11 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1764178230,
+        "end": 1764180031
+      },
+      {
+        "status": "[Switzerland] Mugged - Revives: ALL",
+        "start": 1764180031,
         "end": null
       }
     ]
@@ -39319,7 +39310,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764178230,
-        "end": null
+        "end": 1764180031
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764180031,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
