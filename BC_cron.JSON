@@ -11223,12 +11223,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1762941630,
-        "end": 1762953020,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1762953020,
         "end": 1763015424
@@ -22065,7 +22059,13 @@
       {
         "status": "Available",
         "start": 1764142822,
-        "end": null
+        "end": 1764151825
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764151825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23771,11 +23771,6 @@
   "3625719": {
     "name": "Raie",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762941630,
-        "end": 1762951824
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1762951824,
@@ -25606,8 +25601,13 @@
       {
         "status": "[China] - Going",
         "start": 1764141624,
-        "end": null,
+        "end": 1764151825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1764151825,
+        "end": null
       }
     ]
   },
@@ -30877,7 +30877,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1764151234,
-        "end": null
+        "end": 1764151825
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764151825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36986,8 +36992,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764144622,
-        "end": null,
+        "end": 1764151825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764151825,
+        "end": null
       }
     ]
   },
@@ -39000,6 +39011,11 @@
       {
         "status": "[China] Mugged - Revives: ALL",
         "start": 1764150024,
+        "end": 1764151825
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1764151825,
         "end": null
       }
     ]
