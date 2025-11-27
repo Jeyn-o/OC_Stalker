@@ -2434,11 +2434,6 @@
     "name": "---GHOST---",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: Partial",
-        "start": 1763040021,
-        "end": 1763041823
-      },
-      {
         "status": "Available",
         "start": 1763041823,
         "end": 1763113822
@@ -6762,12 +6757,6 @@
   "2419133": {
     "name": "Jeyno",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1763040021,
-        "end": 1763052625,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763052625,
@@ -14990,11 +14979,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763040021,
-        "end": 1763051426
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1763051426,
         "end": 1763056218,
@@ -16247,7 +16231,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764225617,
-        "end": null
+        "end": 1764250232
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764250232,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -18180,12 +18170,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763040021,
-        "end": 1763046626,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763046626,
@@ -40844,8 +40828,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764243622,
-        "end": null,
+        "end": 1764250232,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764250232,
+        "end": null
       }
     ]
   },
