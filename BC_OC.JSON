@@ -58831,9 +58831,9 @@
   },
   "1044150": {
     "name": "No Reserve",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1764221824,
-    "executed_at": null,
+    "executed_at": 1764221884,
     "slots": {
       "P2": {
         "user_id": 3343429,
@@ -60368,8 +60368,8 @@
   },
   "1058212": {
     "name": "No Reserve",
-    "status": "Recruiting",
-    "ready_at": 1764349825,
+    "status": "Planning",
+    "ready_at": 1764436225,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -60385,6 +60385,14 @@
         "user_name": "poik9",
         "checkpoint_pass_rate": 77,
         "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 81,
+        "position": "Car Thief",
         "position_number": 1,
         "item_available": true
       }
@@ -60409,6 +60417,17 @@
         "user_name": "poik9",
         "checkpoint_pass_rate": 77,
         "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1764222027,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 81,
+        "position": "Car Thief",
         "position_number": 1,
         "item_available": true
       }
@@ -60680,6 +60699,14 @@
   },
   "1062308": {
     "name": "Stage Fright",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1063224": {
+    "name": "Bidding War",
     "status": "Recruiting",
     "ready_at": null,
     "executed_at": null,
