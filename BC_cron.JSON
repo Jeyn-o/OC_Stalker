@@ -252,11 +252,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] Lost - Revives: OFF",
-        "start": 1763029224,
-        "end": 1763030423
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1763030423,
         "end": 1763033423
@@ -9316,12 +9311,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1763029224,
-        "end": 1763036439,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1763036439,
         "end": 1763037621,
@@ -10197,6 +10186,11 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1764238826,
+        "end": 1764239432
+      },
+      {
+        "status": "[Switzerland] Mugged - Revives: ALL",
+        "start": 1764239432,
         "end": null
       }
     ]
@@ -24398,7 +24392,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1764232819,
-        "end": null
+        "end": 1764239432
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1764239432,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33697,8 +33697,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764232819,
-        "end": null,
+        "end": 1764239432,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1764239432,
+        "end": null
       }
     ]
   },
@@ -35833,6 +35838,12 @@
       {
         "status": "[Japan] - Returning",
         "start": 1764229824,
+        "end": 1764239432,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1764239432,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37341,6 +37352,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1764237635,
+        "end": 1764239432,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1764239432,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -38687,6 +38704,11 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1764238225,
+        "end": 1764239432
+      },
+      {
+        "status": "[Cayman Islands] Lost - Revives: ALL",
+        "start": 1764239432,
         "end": null
       }
     ]
