@@ -8375,6 +8375,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764230433,
+        "end": 1764237033,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764237033,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -10266,11 +10272,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1763026824,
-        "end": 1763028032
-      },
       {
         "status": "[China] - Returning",
         "start": 1763028032,
@@ -14111,11 +14112,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1763026824,
-        "end": 1763027428
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763027428,
@@ -22179,7 +22175,13 @@
       {
         "status": "Available",
         "start": 1764214231,
-        "end": null
+        "end": 1764237033
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764237033,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31171,8 +31173,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764235829,
-        "end": null,
+        "end": 1764237033,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1764237033,
+        "end": null
       }
     ]
   },
@@ -35866,12 +35873,6 @@
     "name": "RouRonin",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1763026824,
-        "end": 1763032226,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763032226,
         "end": 1763037621
@@ -37534,11 +37535,6 @@
     "name": "Maddog1997",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1763026824,
-        "end": 1763027428
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1763027428,
         "end": 1763034019,
@@ -38710,6 +38706,12 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1764235228,
+        "end": 1764237033,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1764237033,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40804,7 +40806,13 @@
       {
         "status": "Available",
         "start": 1764235829,
-        "end": null
+        "end": 1764237033
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764237033,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
