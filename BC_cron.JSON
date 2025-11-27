@@ -7181,12 +7181,6 @@
     "name": "Theurgy",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763026232,
-        "end": 1763032226,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763032226,
         "end": 1763608220
@@ -16709,8 +16703,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764229225,
-        "end": null,
+        "end": 1764236420,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764236420,
+        "end": null
       }
     ]
   },
@@ -18137,12 +18136,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763026232,
-        "end": 1763032823,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763032823,
@@ -22194,12 +22187,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1763026232,
-        "end": 1763035824,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1763035824,
         "end": 1763039425
@@ -25703,6 +25690,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764229225,
+        "end": 1764236420,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764236420,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37527,7 +37520,13 @@
       {
         "status": "Available",
         "start": 1764235829,
-        "end": null
+        "end": 1764236420
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1764236420,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
