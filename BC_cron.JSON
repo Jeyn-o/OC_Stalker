@@ -1491,8 +1491,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764225617,
-        "end": null,
+        "end": 1764233423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1764233423,
+        "end": null
       }
     ]
   },
@@ -2722,6 +2727,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764221432,
+        "end": 1764233423,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764233423,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -6716,7 +6727,13 @@
       {
         "status": "Available",
         "start": 1764200417,
-        "end": null
+        "end": 1764233423
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764233423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23441,12 +23458,6 @@
     "name": "GoldenVirginia",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1763023227,
-        "end": 1763034620,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763034620,
         "end": 1763037031
@@ -28944,11 +28955,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1763023227,
-        "end": 1763028627
-      },
       {
         "status": "Available",
         "start": 1763028627,
@@ -38655,7 +38661,13 @@
       {
         "status": "Available",
         "start": 1764232228,
-        "end": null
+        "end": 1764233423
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1764233423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -41735,6 +41747,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1764221432,
+        "end": 1764233423,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764233423,
         "end": null,
         "travel_type": "airstrip"
       }
