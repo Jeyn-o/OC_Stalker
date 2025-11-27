@@ -4342,6 +4342,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1764207027,
+        "end": 1764208221
+      },
+      {
+        "status": "Available",
+        "start": 1764208221,
         "end": null
       }
     ]
@@ -25770,12 +25775,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1762998016,
-        "end": 1762999234,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1762999234,
         "end": 1763000427,
@@ -28494,8 +28493,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764207618,
-        "end": null,
+        "end": 1764208221,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1764208221,
+        "end": null
       }
     ]
   },
@@ -33723,8 +33727,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764201023,
-        "end": null,
+        "end": 1764208221,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764208221,
+        "end": null
       }
     ]
   },
@@ -35878,12 +35887,6 @@
   "3903942": {
     "name": "RouRonin",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1762998016,
-        "end": 1763003421,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1763003421,
