@@ -1571,11 +1571,6 @@
     "name": "Davie_Corleone",
     "activities": [
       {
-        "status": "[Hospital] Hospitalized - Revives: OFF",
-        "start": 1763007624,
-        "end": 1763024433
-      },
-      {
         "status": "Available",
         "start": 1763024433,
         "end": 1763745619
@@ -3216,8 +3211,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764205232,
-        "end": null,
+        "end": 1764217826,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764217826,
+        "end": null
       }
     ]
   },
@@ -6723,12 +6723,6 @@
     "name": "Jeyno",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1763007624,
-        "end": 1763019620,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763019620,
         "end": 1763028032
@@ -7102,12 +7096,6 @@
   "2427687": {
     "name": "Jubjub82180",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1763007624,
-        "end": 1763015424,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763015424,
@@ -9304,12 +9292,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1763007624,
-        "end": 1763020221,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763020221,
         "end": 1763021417
@@ -9941,7 +9923,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764207027,
-        "end": null
+        "end": 1764217826
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764217826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19225,11 +19213,6 @@
   "3360442": {
     "name": "Dunne",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763007624,
-        "end": 1763023824
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763023824,
@@ -36857,7 +36840,13 @@
       {
         "status": "Available",
         "start": 1764217223,
-        "end": null
+        "end": 1764217826
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1764217826,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
