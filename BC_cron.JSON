@@ -6417,8 +6417,13 @@
       {
         "status": "[China] - Going",
         "start": 1764271217,
-        "end": null,
+        "end": 1764276019,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1764276019,
+        "end": null
       }
     ]
   },
@@ -11356,6 +11361,11 @@
       {
         "status": "Available",
         "start": 1764262835,
+        "end": 1764276019
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1764276019,
         "end": null
       }
     ]
@@ -11907,6 +11917,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1764274224,
+        "end": 1764276019,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1764276019,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15040,7 +15056,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764272422,
-        "end": null
+        "end": 1764276019
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764276019,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16830,12 +16852,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1763065829,
-        "end": 1763077224,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763077224,
@@ -28387,7 +28403,13 @@
       {
         "status": "Available",
         "start": 1764274224,
-        "end": null
+        "end": 1764276019
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764276019,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31196,6 +31218,11 @@
       {
         "status": "Available",
         "start": 1764275429,
+        "end": 1764276019
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: ALL",
+        "start": 1764276019,
         "end": null
       }
     ]
@@ -32345,6 +32372,11 @@
       {
         "status": "Available",
         "start": 1764272422,
+        "end": 1764276019
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1764276019,
         "end": null
       }
     ]
@@ -39677,11 +39709,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763065829,
-        "end": 1763068234
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1763068234,
