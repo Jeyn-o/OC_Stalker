@@ -3740,7 +3740,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1764235228,
-        "end": null
+        "end": 1764242417
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1764242417,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7176,11 +7182,6 @@
     "name": "Theurgy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763032226,
-        "end": 1763608220
-      },
-      {
         "status": "Jail",
         "start": 1763608220,
         "end": 1763608827
@@ -7247,8 +7248,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764235829,
-        "end": null,
+        "end": 1764242417,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764242417,
+        "end": null
       }
     ]
   },
@@ -7762,8 +7768,13 @@
       {
         "status": "[China] - Returning",
         "start": 1764231628,
-        "end": null,
+        "end": 1764242417,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764242417,
+        "end": null
       }
     ]
   },
@@ -18930,12 +18941,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1763032226,
-        "end": 1763037621,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763037621,
         "end": 1763079019
@@ -25698,12 +25703,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1763032226,
-        "end": 1763033423,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1763033423,
@@ -35878,11 +35877,6 @@
     "name": "RouRonin",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763032226,
-        "end": 1763037621
-      },
-      {
         "status": "[Hawaii] - Going",
         "start": 1763037621,
         "end": 1763043621,
@@ -36795,6 +36789,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764235228,
+        "end": 1764242417,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764242417,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -38744,8 +38744,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1764241241,
-        "end": null,
+        "end": 1764242417,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764242417,
+        "end": null
       }
     ]
   },
