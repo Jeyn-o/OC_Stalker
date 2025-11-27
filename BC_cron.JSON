@@ -252,11 +252,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1763030423,
-        "end": 1763033423
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1763033423,
         "end": 1763046029,
@@ -880,7 +875,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764222024,
-        "end": null
+        "end": 1764240622
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764240622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2321,8 +2322,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764232819,
-        "end": null,
+        "end": 1764240622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1764240622,
+        "end": null
       }
     ]
   },
@@ -12776,12 +12782,6 @@
   "3156041": {
     "name": "Googer",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1763030423,
-        "end": 1763037621,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763037621,
