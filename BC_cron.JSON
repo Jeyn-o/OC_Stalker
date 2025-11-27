@@ -898,11 +898,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762995637,
-        "end": 1763248218
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763248218,
         "end": 1763268620
@@ -16175,8 +16170,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1764201023,
-        "end": null,
+        "end": 1764205822,
         "travel_type": "standard"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1764205822,
+        "end": null
       }
     ]
   },
@@ -25800,11 +25800,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1762995637,
-        "end": 1762998016
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1762998016,
         "end": 1762999234,
@@ -28512,6 +28507,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764205232,
+        "end": 1764205822,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764205822,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31169,7 +31170,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1764202823,
-        "end": null
+        "end": 1764205822
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764205822,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40796,6 +40803,11 @@
       {
         "status": "[South Africa] Mugged - Revives: OFF",
         "start": 1764204024,
+        "end": 1764205822
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764205822,
         "end": null
       }
     ]
