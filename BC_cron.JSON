@@ -2760,11 +2760,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763022024,
-        "end": 1763082033
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763082033,
         "end": 1763084422
@@ -11239,7 +11234,13 @@
       {
         "status": "Available",
         "start": 1764185431,
-        "end": null
+        "end": 1764232228
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764232228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12663,7 +12664,13 @@
       {
         "status": "Available",
         "start": 1764226220,
-        "end": null
+        "end": 1764232228
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1764232228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18906,12 +18913,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1763022024,
-        "end": 1763027428,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1763027428,
         "end": 1763032226
@@ -21284,12 +21285,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1763022024,
-        "end": 1763023824,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1763023824,
@@ -31152,6 +31147,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1764229225,
+        "end": 1764232228
+      },
+      {
+        "status": "Available",
+        "start": 1764232228,
         "end": null
       }
     ]
@@ -34628,12 +34628,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1763022024,
-        "end": 1763028627,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763028627,
@@ -38651,8 +38645,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1764230433,
-        "end": null,
+        "end": 1764232228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764232228,
+        "end": null
       }
     ]
   },
