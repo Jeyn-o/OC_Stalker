@@ -3313,12 +3313,6 @@
     "name": "daddyg",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1763043023,
-        "end": 1763050225,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1763050225,
         "end": 1763055627
@@ -18023,6 +18017,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764246624,
+        "end": 1764253220,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764253220,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -20214,11 +20214,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763043023,
-        "end": 1763043621
-      },
-      {
         "status": "[China] - Going",
         "start": 1763043621,
         "end": 1763053242,
@@ -21326,7 +21321,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764252033,
-        "end": null
+        "end": 1764253220
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764253220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31154,7 +31155,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1764252623,
-        "end": null
+        "end": 1764253220
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764253220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
