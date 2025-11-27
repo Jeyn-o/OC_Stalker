@@ -58528,9 +58528,9 @@
   },
   "1041185": {
     "name": "Stage Fright",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1764275502,
-    "executed_at": null,
+    "executed_at": 1764275523,
     "slots": {
       "P1": {
         "user_id": 3838831,
@@ -60059,8 +60059,8 @@
   },
   "1053997": {
     "name": "Stage Fright",
-    "status": "Recruiting",
-    "ready_at": 1764505466,
+    "status": "Planning",
+    "ready_at": 1764591866,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -60098,6 +60098,13 @@
         "checkpoint_pass_rate": 86,
         "position": "Enforcer",
         "position_number": 1
+      },
+      "P4": {
+        "user_id": 3838831,
+        "user_name": "Lev_Bron",
+        "checkpoint_pass_rate": 80,
+        "position": "Muscle",
+        "position_number": 3
       }
     },
     "action_log": [
@@ -60151,6 +60158,16 @@
         "checkpoint_pass_rate": 86,
         "position": "Enforcer",
         "position_number": 1
+      },
+      {
+        "timestamp": 1764276021,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3838831,
+        "user_name": "Lev_Bron",
+        "checkpoint_pass_rate": 80,
+        "position": "Muscle",
+        "position_number": 3
       }
     ]
   },
