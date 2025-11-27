@@ -3287,11 +3287,6 @@
     "name": "Khana",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: Partial",
-        "start": 1763059222,
-        "end": 1763061623
-      },
-      {
         "status": "Available",
         "start": 1763061623,
         "end": 1763827229
@@ -4213,8 +4208,13 @@
       {
         "status": "[China] - Returning",
         "start": 1764259232,
-        "end": null,
+        "end": 1764269423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764269423,
+        "end": null
       }
     ]
   },
@@ -5089,8 +5089,13 @@
       {
         "status": "[China] - Going",
         "start": 1764262225,
-        "end": null,
+        "end": 1764269423,
         "travel_type": "private"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1764269423,
+        "end": null
       }
     ]
   },
@@ -10350,12 +10355,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1763059222,
-        "end": 1763066421,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1763066421,
         "end": 1763067631
@@ -11916,11 +11915,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763059222,
-        "end": 1763081416
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1763081416,
         "end": 1763088624,
@@ -12857,12 +12851,6 @@
   "3156041": {
     "name": "Googer",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1763059222,
-        "end": 1763070619,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763070619,
@@ -14171,12 +14159,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763059222,
-        "end": 1763066421,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763066421,
@@ -31123,6 +31105,11 @@
       {
         "status": "Available",
         "start": 1764267625,
+        "end": 1764269423
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1764269423,
         "end": null
       }
     ]
