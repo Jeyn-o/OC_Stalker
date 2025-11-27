@@ -3757,8 +3757,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764264021,
-        "end": null,
+        "end": 1764270620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764270620,
+        "end": null
       }
     ]
   },
@@ -12784,7 +12789,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1764270038,
-        "end": null
+        "end": 1764270620
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764270620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18083,7 +18094,13 @@
       {
         "status": "Available",
         "start": 1764267625,
-        "end": null
+        "end": 1764270620
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1764270620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34634,16 +34651,6 @@
       }
     ]
   },
-  "3880785": {
-    "name": "Gemicide",
-    "activities": [
-      {
-        "status": "Available",
-        "start": 1763060433,
-        "end": null
-      }
-    ]
-  },
   "3900691": {
     "name": "Akytaro",
     "activities": [
@@ -40902,11 +40909,6 @@
   "3973984": {
     "name": "ssodon",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763060433,
-        "end": 1763061025
-      },
       {
         "status": "[Canada] - Going",
         "start": 1763061025,
