@@ -2723,6 +2723,11 @@
       {
         "status": "Jail",
         "start": 1764215421,
+        "end": 1764216040
+      },
+      {
+        "status": "Available",
+        "start": 1764216040,
         "end": null
       }
     ]
@@ -5050,7 +5055,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764209421,
-        "end": null
+        "end": 1764216040
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764216040,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -7091,11 +7102,6 @@
   "2427687": {
     "name": "Jubjub82180",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1763006432,
-        "end": 1763007624
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1763007624,
@@ -22716,11 +22722,6 @@
     "name": "Mr_jeff14574",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763006432,
-        "end": 1763070030
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1763070030,
         "end": 1763076630,
@@ -25770,12 +25771,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1763005818,
-        "end": 1763007021,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1763007021,
         "end": 1763008221,
@@ -28518,8 +28513,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764215421,
-        "end": null,
+        "end": 1764216040,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764216040,
+        "end": null
       }
     ]
   },
@@ -31204,8 +31204,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1764214231,
-        "end": null,
+        "end": 1764216040,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764216040,
+        "end": null
       }
     ]
   },
@@ -32288,12 +32293,6 @@
   "3841404": {
     "name": "Sleepy_Skyes",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1763005818,
-        "end": 1763007021,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1763007021,
@@ -33771,7 +33770,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764215421,
-        "end": null
+        "end": 1764216040
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764216040,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34714,11 +34719,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1763006432,
-        "end": 1763007021
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1763007021,
@@ -35923,8 +35923,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1764210625,
-        "end": null,
+        "end": 1764216040,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764216040,
+        "end": null
       }
     ]
   },
@@ -37567,12 +37572,6 @@
     "name": "Maddog1997",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763006432,
-        "end": 1763013023,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763013023,
         "end": 1763020221
@@ -38728,11 +38727,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1763005818,
-        "end": 1763010626
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1763010626,
