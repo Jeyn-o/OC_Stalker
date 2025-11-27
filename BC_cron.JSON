@@ -3287,11 +3287,6 @@
     "name": "Khana",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763061623,
-        "end": 1763827229
-      },
-      {
         "status": "[China] - Going",
         "start": 1763827229,
         "end": 1763837423,
@@ -4224,6 +4219,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1764270038,
+        "end": 1764271827,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1764271827,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -5222,11 +5223,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763061623,
-        "end": 1763064621
-      },
       {
         "status": "[China] - Going",
         "start": 1763064621,
@@ -7161,8 +7157,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1764259824,
-        "end": null,
+        "end": 1764271827,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764271827,
+        "end": null
       }
     ]
   },
@@ -25747,7 +25748,13 @@
       {
         "status": "Available",
         "start": 1764265821,
-        "end": null
+        "end": 1764271827
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764271827,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
