@@ -252,11 +252,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763046029,
-        "end": 1763054425
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1763054425,
         "end": 1763067022,
@@ -2344,8 +2339,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764249022,
-        "end": null,
+        "end": 1764255636,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764255636,
+        "end": null
       }
     ]
   },
@@ -14948,8 +14948,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1764244219,
-        "end": null,
+        "end": 1764255636,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764255636,
+        "end": null
       }
     ]
   },
@@ -24992,11 +24997,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763046029,
-        "end": 1763046626
-      },
-      {
         "status": "[China] - Going",
         "start": 1763046626,
         "end": 1763056834,
@@ -25676,19 +25676,19 @@
       {
         "status": "[China] - Idle",
         "start": 1764253829,
-        "end": null
+        "end": 1764255636
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764255636,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1763046029,
-        "end": 1763047227,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Idle",
         "start": 1763047227,
@@ -31338,7 +31338,13 @@
       {
         "status": "Available",
         "start": 1764212438,
-        "end": null
+        "end": 1764255636
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1764255636,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34613,12 +34619,6 @@
   "3880785": {
     "name": "Gemicide",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1763046029,
-        "end": 1763053242,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1763053242,
@@ -40848,19 +40848,19 @@
       {
         "status": "Available",
         "start": 1764253829,
-        "end": null
+        "end": 1764255636
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1764255636,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3973984": {
     "name": "ssodon",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1763046029,
-        "end": 1763053242,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763053242,
@@ -41835,6 +41835,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1764244835,
+        "end": 1764255636,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764255636,
         "end": null,
         "travel_type": "airstrip"
       }
