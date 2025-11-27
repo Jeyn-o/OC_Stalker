@@ -1497,7 +1497,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1764233423,
-        "end": null
+        "end": 1764234034
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764234034,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2459,6 +2465,11 @@
       {
         "status": "Jail",
         "start": 1764223825,
+        "end": 1764234034
+      },
+      {
+        "status": "Available",
+        "start": 1764234034,
         "end": null
       }
     ]
@@ -8026,11 +8037,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763023824,
-        "end": 1763037621
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1763037621,
@@ -13637,7 +13643,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764231628,
-        "end": null
+        "end": 1764234034
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764234034,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18904,6 +18916,12 @@
       {
         "status": "[China] - Going",
         "start": 1764223825,
+        "end": 1764234034,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764234034,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -19211,12 +19229,6 @@
   "3360442": {
     "name": "Dunne",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1763023824,
-        "end": 1763035235,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763035235,
@@ -21277,20 +21289,19 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764226834,
-        "end": null,
+        "end": 1764234034,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1764234034,
+        "end": null
       }
     ]
   },
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1763023824,
-        "end": 1763025021,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763025021,
@@ -22170,11 +22181,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763023824,
-        "end": 1763026232
-      },
       {
         "status": "[China] - Going",
         "start": 1763026232,
@@ -31151,6 +31157,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1764232819,
+        "end": 1764234034
+      },
+      {
+        "status": "Available",
+        "start": 1764234034,
         "end": null
       }
     ]
