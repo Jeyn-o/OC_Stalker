@@ -884,6 +884,12 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1764197426,
+        "end": 1764209421,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764209421,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -5044,8 +5050,13 @@
       {
         "status": "[China] - Going",
         "start": 1764202216,
-        "end": null,
+        "end": 1764209421,
         "travel_type": "private"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1764209421,
+        "end": null
       }
     ]
   },
@@ -6339,8 +6350,13 @@
       {
         "status": "[China] - Going",
         "start": 1764205232,
-        "end": null,
+        "end": 1764209421,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1764209421,
+        "end": null
       }
     ]
   },
@@ -8002,11 +8018,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1762999234,
-        "end": 1763009423
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1763009423,
@@ -12610,8 +12621,13 @@
       {
         "status": "[Argentina] - Going",
         "start": 1764202216,
-        "end": null,
+        "end": 1764209421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1764209421,
+        "end": null
       }
     ]
   },
@@ -25764,12 +25780,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1762999234,
-        "end": 1763000427,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763000427,
         "end": 1763004624
@@ -28493,6 +28503,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764208839,
+        "end": 1764209421,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764209421,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31156,7 +31172,13 @@
       {
         "status": "Available",
         "start": 1764207027,
-        "end": null
+        "end": 1764209421
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1764209421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
