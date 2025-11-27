@@ -25055,11 +25055,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1763056834,
-        "end": 1763058632
-      },
-      {
         "status": "[China] - Returning",
         "start": 1763058632,
         "end": 1763069427,
@@ -25746,11 +25741,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1763056834,
-        "end": 1763057422
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1763057422,
@@ -31152,6 +31142,11 @@
       {
         "status": "Available",
         "start": 1764264626,
+        "end": 1764267024
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1764267024,
         "end": null
       }
     ]
@@ -40925,11 +40920,6 @@
     "name": "ssodon",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763056834,
-        "end": 1763057422
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1763057422,
         "end": 1763058632,
@@ -41887,8 +41877,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1764255636,
-        "end": null,
+        "end": 1764267024,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764267024,
+        "end": null
       }
     ]
   },
