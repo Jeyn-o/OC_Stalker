@@ -2718,6 +2718,11 @@
       {
         "status": "Available",
         "start": 1764189026,
+        "end": 1764215421
+      },
+      {
+        "status": "Jail",
+        "start": 1764215421,
         "end": null
       }
     ]
@@ -28507,6 +28512,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764214231,
+        "end": 1764215421,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764215421,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29018,11 +29029,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1763005217,
-        "end": 1763008221
-      },
       {
         "status": "[Cayman Islands] - Going",
         "start": 1763008221,
@@ -33759,8 +33765,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764208839,
-        "end": null,
+        "end": 1764215421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764215421,
+        "end": null
       }
     ]
   },
@@ -39534,8 +39545,13 @@
       {
         "status": "[China] - Returning",
         "start": 1764204623,
-        "end": null,
+        "end": 1764215421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764215421,
+        "end": null
       }
     ]
   },
