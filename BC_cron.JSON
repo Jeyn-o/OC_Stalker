@@ -1730,12 +1730,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763155826,
-        "end": 1763161826,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763161826,
         "end": 1763197822
@@ -4214,8 +4208,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1764354626,
-        "end": null,
+        "end": 1764366022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764366022,
+        "end": null
       }
     ]
   },
@@ -4395,12 +4394,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1763155826,
-        "end": 1763160622,
-        "travel_type": "private"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763160622,
@@ -8841,7 +8834,13 @@
       {
         "status": "Available",
         "start": 1764309636,
-        "end": null
+        "end": 1764366022
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1764366022,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9505,11 +9504,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1763155826,
-        "end": 1763156421
-      },
       {
         "status": "Available",
         "start": 1763156421,
@@ -15281,11 +15275,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[United Arab Emirates] Attacked - Revives: ALL",
-        "start": 1763155826,
-        "end": 1763157022
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763157022,
         "end": 1763158224
@@ -19573,6 +19562,11 @@
       {
         "status": "[United Kingdom] Attacked - Revives: OFF",
         "start": 1764364221,
+        "end": 1764366022
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764366022,
         "end": null
       }
     ]
@@ -34047,12 +34041,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1763155826,
-        "end": 1763157022,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1763157022,
         "end": 1763158224,
@@ -37590,8 +37578,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764358824,
-        "end": null,
+        "end": 1764366022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764366022,
+        "end": null
       }
     ]
   },
