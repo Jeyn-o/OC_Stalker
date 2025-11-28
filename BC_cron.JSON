@@ -1725,11 +1725,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1763117424,
-        "end": 1763118036
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1763118036,
         "end": 1763125235,
@@ -9497,11 +9492,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Japan] - Idle",
-        "start": 1763117424,
-        "end": 1763118036
-      },
-      {
         "status": "[Japan] - Returning",
         "start": 1763118036,
         "end": 1763127624,
@@ -10456,12 +10446,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1763117424,
-        "end": 1763127624,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763127624,
@@ -13380,8 +13364,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1764316834,
-        "end": null,
+        "end": 1764327637,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764327637,
+        "end": null
       }
     ]
   },
@@ -15201,12 +15190,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1763117424,
-        "end": 1763122224,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1763122224,
@@ -25240,11 +25223,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[United Kingdom] Mugged - Revives: ALL",
-        "start": 1763117424,
-        "end": 1763119826
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763119826,
@@ -36093,12 +36071,6 @@
     "name": "RouRonin",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1763117424,
-        "end": 1763122819,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Idle",
         "start": 1763122819,
         "end": 1763123429
@@ -39057,8 +39029,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764326420,
-        "end": null,
+        "end": 1764327637,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764327637,
+        "end": null
       }
     ]
   },
@@ -39854,6 +39831,11 @@
       {
         "status": "[China] - Idle",
         "start": 1764322824,
+        "end": 1764327637
+      },
+      {
+        "status": "[China] Mugged - Revives: ALL",
+        "start": 1764327637,
         "end": null
       }
     ]
