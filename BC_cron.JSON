@@ -2771,11 +2771,6 @@
     "name": "smyles",
     "activities": [
       {
-        "status": "Jail",
-        "start": 1763088624,
-        "end": 1763146226
-      },
-      {
         "status": "Available",
         "start": 1763146226,
         "end": 1763407827
@@ -4396,11 +4391,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1763088624,
-        "end": 1763089820
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763089820,
@@ -6413,8 +6403,13 @@
       {
         "status": "[China] - Going",
         "start": 1764294623,
-        "end": null,
+        "end": 1764298835,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1764298835,
+        "end": null
       }
     ]
   },
@@ -12002,11 +11997,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1763088624,
-        "end": 1763089234
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1763089234,
         "end": 1763095822,
@@ -16926,12 +16916,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1763088624,
-        "end": 1763098823,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1763098823,
         "end": 1763099422
@@ -21577,11 +21561,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763088624,
-        "end": 1763092827
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1763092827,
         "end": 1763094627,
@@ -22448,7 +22427,13 @@
       {
         "status": "Available",
         "start": 1764298222,
-        "end": null
+        "end": 1764298835
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1764298835,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25921,11 +25906,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Idle",
-        "start": 1763088624,
-        "end": 1763091623
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1763091623,
@@ -39056,8 +39036,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764297621,
-        "end": null,
+        "end": 1764298835,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764298835,
+        "end": null
       }
     ]
   },
