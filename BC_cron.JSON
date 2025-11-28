@@ -2814,11 +2814,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1763101225,
-        "end": 1763110225
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1763110225,
         "end": 1763123429,
@@ -6475,6 +6470,11 @@
       {
         "status": "Available",
         "start": 1763841021,
+        "end": 1764311427
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1764311427,
         "end": null
       }
     ]
@@ -8445,7 +8445,13 @@
       {
         "status": "Available",
         "start": 1764244219,
-        "end": null
+        "end": 1764311427
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764311427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9437,8 +9443,13 @@
       {
         "status": "[China] - Returning",
         "start": 1764301219,
-        "end": null,
+        "end": 1764311427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764311427,
+        "end": null
       }
     ]
   },
@@ -12934,8 +12945,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764304224,
-        "end": null,
+        "end": 1764311427,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1764311427,
+        "end": null
       }
     ]
   },
@@ -19447,12 +19463,6 @@
     "name": "Dunne",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1763101225,
-        "end": 1763112624,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763112624,
         "end": 1763121024
@@ -22471,12 +22481,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1763101225,
-        "end": 1763110835,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Going",
         "start": 1763110835,
@@ -25923,12 +25927,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1763101225,
-        "end": 1763101827,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Idle",
         "start": 1763101827,
         "end": 1763102424
@@ -28482,12 +28480,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[Japan] - Going",
-        "start": 1763101225,
-        "end": 1763110835,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Japan] - Idle",
         "start": 1763110835,
