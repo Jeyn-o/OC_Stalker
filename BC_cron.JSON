@@ -6427,8 +6427,13 @@
       {
         "status": "[China] - Going",
         "start": 1764350419,
-        "end": null,
+        "end": 1764355224,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1764355224,
+        "end": null
       }
     ]
   },
@@ -8958,11 +8963,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763145029,
-        "end": 1763151020
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1763151020,
         "end": 1763158224,
@@ -10356,8 +10356,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764348618,
-        "end": null,
+        "end": 1764355224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764355224,
+        "end": null
       }
     ]
   },
@@ -10500,11 +10505,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763145029,
-        "end": 1763158829
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1763158829,
@@ -21717,12 +21717,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1763145029,
-        "end": 1763151616,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1763151616,
         "end": 1763158224,
@@ -31374,6 +31368,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764353423,
+        "end": 1764355224,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764355224,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37889,6 +37889,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764354626,
+        "end": 1764355224,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764355224,
         "end": null,
         "travel_type": "airstrip"
       }
