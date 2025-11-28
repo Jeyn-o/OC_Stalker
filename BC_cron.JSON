@@ -2366,6 +2366,16 @@
       }
     ]
   },
+  "1184733": {
+    "name": "Pro_eobard",
+    "activities": [
+      {
+        "status": "Available",
+        "start": 1764308424,
+        "end": null
+      }
+    ]
+  },
   "1300665": {
     "name": "Savoie",
     "activities": [
@@ -6405,7 +6415,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764298835,
-        "end": null
+        "end": 1764308424
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764308424,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -15147,11 +15163,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1763098224,
-        "end": 1763117424
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1763117424,
         "end": 1763122224,
@@ -18252,8 +18263,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1764297031,
-        "end": null,
+        "end": 1764308424,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764308424,
+        "end": null
       }
     ]
   },
@@ -19168,7 +19184,13 @@
       {
         "status": "Available",
         "start": 1764265223,
-        "end": null
+        "end": 1764308424
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764308424,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25907,12 +25929,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1763098224,
-        "end": 1763099422,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1763099422,
         "end": 1763100624,
@@ -31332,6 +31348,11 @@
       {
         "status": "Available",
         "start": 1764304224,
+        "end": 1764308424
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1764308424,
         "end": null
       }
     ]
@@ -39835,19 +39856,19 @@
       {
         "status": "Available",
         "start": 1764291021,
-        "end": null
+        "end": 1764308424
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1764308424,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1763098224,
-        "end": 1763104223,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1763104223,
