@@ -947,12 +947,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1763127027,
-        "end": 1763134822,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1763134822,
         "end": 1763142027,
@@ -8949,12 +8943,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1763127027,
-        "end": 1763133617,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1763133617,
         "end": 1763134822
@@ -10170,11 +10158,6 @@
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1763127027,
-        "end": 1763127624
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1763127624,
@@ -11464,6 +11447,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764330026,
+        "end": 1764337222,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764337222,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -13009,7 +12998,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1764311427,
-        "end": null
+        "end": 1764337222
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764337222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15262,6 +15257,11 @@
       {
         "status": "Available",
         "start": 1764336631,
+        "end": 1764337222
+      },
+      {
+        "status": "Jail",
+        "start": 1764337222,
         "end": null
       }
     ]
@@ -15269,12 +15269,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1763127027,
-        "end": 1763131819,
-        "travel_type": "standard"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763131819,
@@ -18365,8 +18359,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764330625,
-        "end": null,
+        "end": 1764337222,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764337222,
+        "end": null
       }
     ]
   },
@@ -20514,11 +20513,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763127027,
-        "end": 1763127624
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1763127624,
         "end": 1763129425,
@@ -21686,6 +21680,12 @@
       {
         "status": "[Canada] - Going",
         "start": 1764336020,
+        "end": 1764337222,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1764337222,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29072,11 +29072,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1763127027,
-        "end": 1763129425
-      },
-      {
         "status": "Available",
         "start": 1763129425,
         "end": 1763131226
@@ -31622,6 +31617,11 @@
       {
         "status": "Available",
         "start": 1764270038,
+        "end": 1764337222
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1764337222,
         "end": null
       }
     ]
@@ -41218,12 +41218,6 @@
   "3973984": {
     "name": "ssodon",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1763127027,
-        "end": 1763134230,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1763134230,
