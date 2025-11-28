@@ -1741,11 +1741,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1763140227,
-        "end": 1763141426
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1763141426,
         "end": 1763147426,
@@ -6444,7 +6439,13 @@
       {
         "status": "Available",
         "start": 1764348021,
-        "end": null
+        "end": 1764350419
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1764350419,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -12082,12 +12083,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1763140227,
-        "end": 1763146226,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763146226,
@@ -18559,12 +18554,6 @@
     "name": "Znowhite",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1763140227,
-        "end": 1763141426,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1763141426,
         "end": 1763142623,
@@ -23487,8 +23476,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764343222,
-        "end": null,
+        "end": 1764350419,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1764350419,
+        "end": null
       }
     ]
   },
@@ -31356,6 +31350,11 @@
       {
         "status": "Available",
         "start": 1764344421,
+        "end": 1764350419
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1764350419,
         "end": null
       }
     ]
@@ -37565,6 +37564,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764343834,
+        "end": 1764350419,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764350419,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37841,7 +37846,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1764349239,
-        "end": null
+        "end": 1764350419
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1764350419,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39947,12 +39958,6 @@
     "name": "Icks-B",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1763140227,
-        "end": 1763140819,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1763140819,
         "end": 1763142027,
@@ -42052,6 +42057,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764343834,
+        "end": 1764350419,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764350419,
         "end": null,
         "travel_type": "airstrip"
       }
