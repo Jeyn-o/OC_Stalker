@@ -850,8 +850,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1764336020,
-        "end": null,
+        "end": 1764348618,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764348618,
+        "end": null
       }
     ]
   },
@@ -7261,6 +7266,11 @@
       {
         "status": "Available",
         "start": 1764231628,
+        "end": 1764348618
+      },
+      {
+        "status": "[Hospital] Hospitalized - Revives: OFF",
+        "start": 1764348618,
         "end": null
       }
     ]
@@ -10356,7 +10366,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764348021,
-        "end": null
+        "end": 1764348618
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764348618,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10499,12 +10515,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1763138422,
-        "end": 1763145029,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763145029,
@@ -23787,6 +23797,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764346821,
+        "end": 1764348618
+      },
+      {
+        "status": "[South Africa] Mugged - Revives: ALL",
+        "start": 1764348618,
         "end": null
       }
     ]
