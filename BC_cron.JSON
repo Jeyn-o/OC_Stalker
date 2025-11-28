@@ -2761,7 +2761,13 @@
       {
         "status": "Available",
         "start": 1764328226,
-        "end": null
+        "end": 1764330625
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764330625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -3774,8 +3780,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1764328822,
-        "end": null,
+        "end": 1764330625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764330625,
+        "end": null
       }
     ]
   },
@@ -10147,7 +10158,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1764330026,
-        "end": null
+        "end": 1764330625
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764330625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11578,12 +11595,6 @@
   "3018158": {
     "name": "Stevan01",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1763120429,
-        "end": 1763131819,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763131819,
@@ -13410,7 +13421,13 @@
       {
         "status": "Available",
         "start": 1764327637,
-        "end": null
+        "end": 1764330625
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1764330625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18342,6 +18359,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764324033,
+        "end": 1764330625,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764330625,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29051,11 +29074,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763120429,
-        "end": 1763121634
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763121634,
         "end": 1763122224
@@ -31384,8 +31402,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764330026,
-        "end": null,
+        "end": 1764330625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764330625,
+        "end": null
       }
     ]
   },
