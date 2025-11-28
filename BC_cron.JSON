@@ -5095,8 +5095,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1764367236,
-        "end": null,
+        "end": 1764369034,
         "travel_type": "private"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1764369034,
+        "end": null
       }
     ]
   },
@@ -6406,7 +6411,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764367236,
-        "end": null
+        "end": 1764369034
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764369034,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -10481,11 +10492,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1763158829,
-        "end": 1763160025
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763160025,
         "end": 1763161826
@@ -11438,8 +11444,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764362422,
-        "end": null,
+        "end": 1764369034,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764369034,
+        "end": null
       }
     ]
   },
@@ -19622,12 +19633,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1763158829,
-        "end": 1763168436,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1763168436,
@@ -34029,11 +34034,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1763158829,
-        "end": 1763159430
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1763159430,
         "end": 1763166633,
@@ -34896,12 +34896,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Argentina] - Going",
-        "start": 1763158829,
-        "end": 1763165417,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Argentina] - Idle",
         "start": 1763165417,
