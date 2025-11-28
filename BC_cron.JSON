@@ -2801,12 +2801,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1763089234,
-        "end": 1763101225,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1763101225,
         "end": 1763110225
@@ -11997,12 +11991,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763089234,
-        "end": 1763095822,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763095822,
         "end": 1763140227
@@ -12910,7 +12898,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1764297621,
-        "end": null
+        "end": 1764299419
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764299419,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13312,12 +13306,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1763089234,
-        "end": 1763101827,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1763101827,
@@ -14298,11 +14286,6 @@
     "name": "Khallie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763089234,
-        "end": 1763106020
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1763106020,
         "end": 1763112624,
@@ -15126,12 +15109,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1763089234,
-        "end": 1763092223,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1763092223,
@@ -16395,8 +16372,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1764294025,
-        "end": null,
+        "end": 1764299419,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1764299419,
+        "end": null
       }
     ]
   },
