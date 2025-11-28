@@ -2806,11 +2806,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763084422,
-        "end": 1763089234
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1763089234,
         "end": 1763101225,
@@ -5108,7 +5103,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764293430,
-        "end": null
+        "end": 1764294623
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764294623,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -6407,7 +6408,13 @@
       {
         "status": "Available",
         "start": 1764285024,
-        "end": null
+        "end": 1764294623
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1764294623,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -8124,11 +8131,6 @@
   "2677851": {
     "name": "Morot",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1763084422,
-        "end": 1763088016
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763088016,
@@ -12898,7 +12900,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1764292221,
-        "end": null
+        "end": 1764294623
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764294623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15114,11 +15122,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763084422,
-        "end": 1763086227
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1763086227,
@@ -19133,11 +19136,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "[Hawaii] - Idle",
-        "start": 1763084422,
-        "end": 1763085035
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1763085035,
@@ -28490,6 +28488,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764293430,
+        "end": 1764294623,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764294623,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31311,6 +31315,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: ALL",
         "start": 1764276019,
+        "end": 1764294623
+      },
+      {
+        "status": "Available",
+        "start": 1764294623,
         "end": null
       }
     ]
@@ -37821,11 +37830,6 @@
   "3943448": {
     "name": "Maddog1997",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1763084422,
-        "end": 1763086227
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763086227,
