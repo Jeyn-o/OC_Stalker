@@ -941,12 +941,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1763134822,
-        "end": 1763142027,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763142027,
         "end": 1763190025
@@ -1472,6 +1466,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764338438,
+        "end": 1764345026,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764345026,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -5132,8 +5132,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1764343834,
-        "end": null,
+        "end": 1764345026,
         "travel_type": "private"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1764345026,
+        "end": null
       }
     ]
   },
@@ -8959,12 +8964,6 @@
     "name": "Bub92278",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1763134822,
-        "end": 1763141426,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763141426,
         "end": 1763144430
@@ -10180,11 +10179,6 @@
   "2802632": {
     "name": "Hoboblue",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763134822,
-        "end": 1763608220
-      },
       {
         "status": "Jail",
         "start": 1763608220,
@@ -14453,8 +14447,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764332424,
-        "end": null,
+        "end": 1764345026,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764345026,
+        "end": null
       }
     ]
   },
@@ -16581,7 +16580,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1764343834,
-        "end": null
+        "end": 1764345026
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764345026,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -18391,6 +18396,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1764337823,
+        "end": 1764345026,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1764345026,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -20517,6 +20528,11 @@
       {
         "status": "[South Africa] Mugged - Revives: Partial",
         "start": 1764343834,
+        "end": 1764345026
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764345026,
         "end": null
       }
     ]
@@ -32536,6 +32552,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1764344421,
+        "end": 1764345026
+      },
+      {
+        "status": "Available",
+        "start": 1764345026,
         "end": null
       }
     ]
