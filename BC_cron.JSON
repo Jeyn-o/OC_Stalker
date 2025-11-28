@@ -1725,12 +1725,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1763118036,
-        "end": 1763125235,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763125235,
         "end": 1763133617
@@ -2755,8 +2749,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1764321021,
-        "end": null,
+        "end": 1764328226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764328226,
+        "end": null
       }
     ]
   },
@@ -3262,8 +3261,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764316225,
-        "end": null,
+        "end": 1764328226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764328226,
+        "end": null
       }
     ]
   },
@@ -6412,7 +6416,13 @@
       {
         "status": "Available",
         "start": 1764312624,
-        "end": null
+        "end": 1764328226
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764328226,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -6782,7 +6792,13 @@
       {
         "status": "Available",
         "start": 1764258620,
-        "end": null
+        "end": 1764328226
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764328226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -7145,7 +7161,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764325827,
-        "end": null
+        "end": 1764328226
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764328226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9491,12 +9513,6 @@
   "2801440": {
     "name": "joschlumpf",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1763118036,
-        "end": 1763127624,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763127624,
@@ -15182,8 +15198,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764321629,
-        "end": null,
+        "end": 1764328226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764328226,
+        "end": null
       }
     ]
   },
@@ -18443,11 +18464,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763118036,
-        "end": 1763119225
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1763119225,
@@ -31319,8 +31335,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1764326420,
-        "end": null,
+        "end": 1764328226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764328226,
+        "end": null
       }
     ]
   },
@@ -36960,6 +36981,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764320437,
+        "end": 1764328226,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764328226,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -39843,12 +39870,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1763118036,
-        "end": 1763119826,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763119826,
