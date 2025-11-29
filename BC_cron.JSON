@@ -5204,11 +5204,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1763224819,
-        "end": 1763236222
-      },
-      {
         "status": "[China] - Returning",
         "start": 1763236222,
         "end": 1763240433,
@@ -10599,12 +10594,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763224819,
-        "end": 1763231431,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763231431,
         "end": 1763235623
@@ -11642,6 +11631,11 @@
       {
         "status": "Available",
         "start": 1764129020,
+        "end": 1764435020
+      },
+      {
+        "status": "Jail",
+        "start": 1764435020,
         "end": null
       }
     ]
@@ -14604,12 +14598,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763224819,
-        "end": 1763231431,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763231431,
@@ -19432,8 +19420,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1764433220,
-        "end": null,
+        "end": 1764435020,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764435020,
+        "end": null
       }
     ]
   },
@@ -28556,7 +28549,13 @@
       {
         "status": "Available",
         "start": 1764434423,
-        "end": null
+        "end": 1764435020
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764435020,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34246,12 +34245,6 @@
     "name": "McJoey",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1763224819,
-        "end": 1763232025,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1763232025,
         "end": 1763232618
@@ -35131,11 +35124,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763224819,
-        "end": 1763246423
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1763246423,
@@ -40297,12 +40285,6 @@
     "name": "Icks-B",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1763224819,
-        "end": 1763226627,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763226627,
         "end": 1763227222
@@ -42272,6 +42254,11 @@
       {
         "status": "Available",
         "start": 1764434423,
+        "end": 1764435020
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1764435020,
         "end": null
       }
     ]
