@@ -1000,6 +1000,11 @@
       {
         "status": "[Hawaii] Mugged - Revives: OFF",
         "start": 1764454828,
+        "end": 1764457235
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1764457235,
         "end": null
       }
     ]
@@ -1810,8 +1815,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764444629,
-        "end": null,
+        "end": 1764457235,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764457235,
+        "end": null
       }
     ]
   },
@@ -14235,7 +14245,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764456025,
-        "end": null
+        "end": 1764457235
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764457235,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20737,8 +20753,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764444629,
-        "end": null,
+        "end": 1764457235,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764457235,
+        "end": null
       }
     ]
   },
@@ -24070,7 +24091,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764455422,
-        "end": null
+        "end": 1764457235
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764457235,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26221,12 +26248,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1763247018,
-        "end": 1763248218,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1763248218,
@@ -28736,8 +28757,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764456622,
-        "end": null,
+        "end": 1764457235,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764457235,
+        "end": null
       }
     ]
   },
