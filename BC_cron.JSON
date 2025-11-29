@@ -4390,11 +4390,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1763220175,
-        "end": 1763220628
-      },
-      {
         "status": "Available",
         "start": 1763220628,
         "end": 1763222434
@@ -5208,12 +5203,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1763220175,
-        "end": 1763224819,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Idle",
         "start": 1763224819,
@@ -21852,7 +21841,13 @@
       {
         "status": "Available",
         "start": 1764426020,
-        "end": null
+        "end": 1764430227
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764430227,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29077,11 +29072,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763220175,
-        "end": 1763223624
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763223624,
         "end": 1763227828
@@ -32746,8 +32736,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764423619,
-        "end": null,
+        "end": 1764430227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764430227,
+        "end": null
       }
     ]
   },
@@ -36269,12 +36264,6 @@
     "name": "RouRonin",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1763220175,
-        "end": 1763225423,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763225423,
         "end": 1763254828
@@ -38152,6 +38141,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764423619,
+        "end": 1764430227,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764430227,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -42217,6 +42212,11 @@
       {
         "status": "Available",
         "start": 1764429624,
+        "end": 1764430227
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1764430227,
         "end": null
       }
     ]
