@@ -13633,12 +13633,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Argentina] - Going",
-        "start": 1763241017,
-        "end": 1763248218,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Argentina] - Returning",
         "start": 1763248218,
         "end": 1763255424,
@@ -16827,7 +16821,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1764450620,
-        "end": null
+        "end": 1764451221
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764451221,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -31681,6 +31681,11 @@
       {
         "status": "Available",
         "start": 1764448824,
+        "end": 1764451221
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1764451221,
         "end": null
       }
     ]
@@ -33296,11 +33301,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1763241017,
-        "end": 1763245219
-      },
       {
         "status": "[United Arab Emirates] Mugged - Revives: ALL",
         "start": 1763245219,
@@ -35316,8 +35316,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1764450032,
-        "end": null,
+        "end": 1764451221,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764451221,
+        "end": null
       }
     ]
   },
