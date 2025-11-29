@@ -8063,6 +8063,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1764391820,
+        "end": 1764393023
+      },
+      {
+        "status": "Available",
+        "start": 1764393023,
         "end": null
       }
     ]
@@ -16704,7 +16709,13 @@
       {
         "status": "Available",
         "start": 1764391820,
-        "end": null
+        "end": 1764393023
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764393023,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -19407,11 +19418,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Hawaii] - Idle",
-        "start": 1763182832,
-        "end": 1763183428
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1763183428,
         "end": 1763188825,
@@ -19767,12 +19773,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1763182832,
-        "end": 1763184625,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763184625,
@@ -24867,6 +24867,11 @@
       {
         "status": "[Argentina] Hospitalized - Revives: OFF",
         "start": 1764379219,
+        "end": 1764393023
+      },
+      {
+        "status": "[Argentina] - Idle",
+        "start": 1764393023,
         "end": null
       }
     ]
@@ -29071,18 +29076,19 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1764392435,
-        "end": null
+        "end": 1764393023
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764393023,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1763182832,
-        "end": 1763184030
-      },
       {
         "status": "Available",
         "start": 1763184030,
