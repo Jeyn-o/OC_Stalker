@@ -14471,7 +14471,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764376227,
-        "end": null
+        "end": 1764376823
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764376823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31388,6 +31394,11 @@
       {
         "status": "Available",
         "start": 1764376227,
+        "end": 1764376823
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1764376823,
         "end": null
       }
     ]
@@ -34035,20 +34046,19 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1764365426,
-        "end": null,
+        "end": 1764376823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764376823,
+        "end": null
       }
     ]
   },
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1763166633,
-        "end": 1763173218,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763173218,
@@ -34900,12 +34910,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1763166633,
-        "end": 1763173830,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763173830,
