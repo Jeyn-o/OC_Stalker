@@ -13493,7 +13493,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1764416420,
-        "end": null
+        "end": 1764417637
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764417637,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19748,6 +19754,11 @@
       {
         "status": "Jail",
         "start": 1764417022,
+        "end": 1764417637
+      },
+      {
+        "status": "Available",
+        "start": 1764417637,
         "end": null
       }
     ]
@@ -19755,12 +19766,6 @@
   "3360442": {
     "name": "Dunne",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1763207422,
-        "end": 1763218222,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763218222,
@@ -20671,12 +20676,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1763207422,
-        "end": 1763209238,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763209238,
@@ -29076,11 +29075,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763207422,
-        "end": 1763209825
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1763209825,
         "end": 1763210420
@@ -31504,8 +31498,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1764415826,
-        "end": null,
+        "end": 1764417637,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1764417637,
+        "end": null
       }
     ]
   },
@@ -35074,12 +35073,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1763207422,
-        "end": 1763208033,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763208033,
         "end": 1763211017
@@ -36253,20 +36246,19 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1764410434,
-        "end": null,
+        "end": 1764417637,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764417637,
+        "end": null
       }
     ]
   },
   "3903942": {
     "name": "RouRonin",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1763207422,
-        "end": 1763212825,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763212825,
@@ -41412,8 +41404,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1764410434,
-        "end": null,
+        "end": 1764417637,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764417637,
+        "end": null
       }
     ]
   },
