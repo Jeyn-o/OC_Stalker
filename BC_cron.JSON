@@ -264,12 +264,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1763248218,
-        "end": 1763260229,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763260229,
         "end": 1763292025
@@ -888,11 +882,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1763248218,
-        "end": 1763268620
-      },
-      {
         "status": "Available",
         "start": 1763268620,
         "end": 1763832628
@@ -1005,6 +994,11 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1764457235,
+        "end": 1764458422
+      },
+      {
+        "status": "[Hawaii] Mugged - Revives: OFF",
+        "start": 1764458422,
         "end": null
       }
     ]
@@ -8689,11 +8683,6 @@
     "name": "TsanMan",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1763248218,
-        "end": 1763257822
-      },
-      {
         "status": "Available",
         "start": 1763257822,
         "end": 1763793621
@@ -12255,7 +12244,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764453633,
-        "end": null
+        "end": 1764458422
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764458422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13691,12 +13686,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1763248218,
-        "end": 1763255424,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763255424,
@@ -15576,8 +15565,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764451828,
-        "end": null,
+        "end": 1764458422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764458422,
+        "end": null
       }
     ]
   },
@@ -26250,12 +26244,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1763248218,
-        "end": 1763249426,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763249426,
         "end": 1763255424
@@ -28769,8 +28757,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764457821,
-        "end": null,
+        "end": 1764458422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1764458422,
+        "end": null
       }
     ]
   },
@@ -33413,12 +33406,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1763248218,
-        "end": 1763259623,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763259623,
@@ -40622,8 +40609,13 @@
       {
         "status": "[China] - Going",
         "start": 1764448227,
-        "end": null,
+        "end": 1764458422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1764458422,
+        "end": null
       }
     ]
   },
