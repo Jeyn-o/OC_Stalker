@@ -8283,6 +8283,11 @@
       {
         "status": "Jail",
         "start": 1764438626,
+        "end": 1764448824
+      },
+      {
+        "status": "Available",
+        "start": 1764448824,
         "end": null
       }
     ]
@@ -10664,11 +10669,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763238625,
-        "end": 1763278821
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1763278821,
@@ -21900,7 +21900,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764447620,
-        "end": null
+        "end": 1764448824
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764448824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31658,6 +31664,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1764447620,
+        "end": 1764448824
+      },
+      {
+        "status": "Available",
+        "start": 1764448824,
         "end": null
       }
     ]
@@ -38392,8 +38403,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1764437427,
-        "end": null,
+        "end": 1764448824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1764448824,
+        "end": null
       }
     ]
   },
@@ -41574,11 +41590,6 @@
   "3973984": {
     "name": "ssodon",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763238625,
-        "end": 1763278821
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1763278821,
