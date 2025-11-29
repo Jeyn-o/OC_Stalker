@@ -60799,9 +60799,9 @@
   },
   "1058216": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1764386335,
-    "executed_at": null,
+    "executed_at": 1764386345,
     "slots": {
       "P3": {
         "user_id": 1184733,
@@ -61232,7 +61232,7 @@
   "1062308": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1764622225,
+    "ready_at": 1764708625,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -61262,6 +61262,14 @@
         "checkpoint_pass_rate": 75,
         "position": "Muscle",
         "position_number": 3
+      },
+      "P5": {
+        "user_id": 3759168,
+        "user_name": "AIshen",
+        "checkpoint_pass_rate": 75,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -61326,6 +61334,17 @@
         "checkpoint_pass_rate": 75,
         "position": "Muscle",
         "position_number": 3
+      },
+      {
+        "timestamp": 1764386424,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3759168,
+        "user_name": "AIshen",
+        "checkpoint_pass_rate": 75,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
