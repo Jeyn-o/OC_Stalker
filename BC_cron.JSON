@@ -258,12 +258,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1763235623,
-        "end": 1763248218,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1763248218,
         "end": 1763260229,
@@ -1791,12 +1785,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763235623,
-        "end": 1763242226,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763242226,
@@ -3826,12 +3814,6 @@
   "2184227": {
     "name": "SassyMcSlacker",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1763235623,
-        "end": 1763245824,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763245824,
@@ -10682,12 +10664,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1763235623,
-        "end": 1763236836,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] - Returning",
         "start": 1763236836,
         "end": 1763238625,
@@ -16833,7 +16809,13 @@
       {
         "status": "Available",
         "start": 1764429030,
-        "end": null
+        "end": 1764445824
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1764445824,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -18620,8 +18602,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764439231,
-        "end": null,
+        "end": 1764445824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764445824,
+        "end": null
       }
     ]
   },
@@ -20739,12 +20726,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763235623,
-        "end": 1763242226,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763242226,
@@ -26167,7 +26148,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764441620,
-        "end": null
+        "end": 1764445824
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764445824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35256,8 +35243,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764444629,
-        "end": null,
+        "end": 1764445824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1764445824,
+        "end": null
       }
     ]
   },
