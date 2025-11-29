@@ -3296,7 +3296,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764418826,
-        "end": null
+        "end": 1764419425
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764419425,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14549,11 +14555,6 @@
     "name": "Khallie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763209238,
-        "end": 1763217624
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1763217624,
         "end": 1763224226,
@@ -17233,6 +17234,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1764418224,
+        "end": 1764419425
+      },
+      {
+        "status": "Available",
+        "start": 1764419425,
         "end": null
       }
     ]
@@ -20656,6 +20662,11 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764412228,
+        "end": 1764419425
+      },
+      {
+        "status": "[South Africa] Attacked - Revives: Partial",
+        "start": 1764419425,
         "end": null
       }
     ]
@@ -20683,11 +20694,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763209238,
-        "end": 1763212219
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1763212219,
@@ -24869,8 +24875,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764412228,
-        "end": null,
+        "end": 1764419425,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1764419425,
+        "end": null
       }
     ]
   },
@@ -41414,11 +41425,6 @@
   "3973984": {
     "name": "ssodon",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763209238,
-        "end": 1763214624
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1763214624,
