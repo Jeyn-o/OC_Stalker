@@ -10515,12 +10515,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1763187026,
-        "end": 1763193021,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1763193021,
         "end": 1763193634
@@ -26035,11 +26029,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763187026,
-        "end": 1763215234
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1763215234,
         "end": 1763216421,
@@ -31408,6 +31397,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764395419,
+        "end": 1764397224,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764397224,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37603,8 +37598,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764390628,
-        "end": null,
+        "end": 1764397224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764397224,
+        "end": null
       }
     ]
   },
