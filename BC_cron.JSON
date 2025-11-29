@@ -10537,12 +10537,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763193634,
-        "end": 1763200219,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763200219,
         "end": 1763203825
@@ -14525,12 +14519,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1763193634,
-        "end": 1763200832,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763200832,
@@ -18522,7 +18510,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764402619,
-        "end": null
+        "end": 1764403821
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764403821,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39297,8 +39291,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764396621,
-        "end": null,
+        "end": 1764403821,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] Lost - Revives: ALL",
+        "start": 1764403821,
+        "end": null
       }
     ]
   },
@@ -41314,11 +41313,6 @@
   "3973984": {
     "name": "ssodon",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763193634,
-        "end": 1763194824
-      },
       {
         "status": "[Canada] - Going",
         "start": 1763194824,
