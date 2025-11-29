@@ -5209,12 +5209,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1763172043,
-        "end": 1763176817,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1763176817,
         "end": 1763188825
@@ -6408,7 +6402,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764378033,
-        "end": null
+        "end": 1764382220
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764382220,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -26043,11 +26043,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763172043,
-        "end": 1763176220
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1763176220,
         "end": 1763177421,
@@ -31428,12 +31423,6 @@
     "name": "AuntGoo",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1763172043,
-        "end": 1763178621,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763178621,
         "end": 1763308829
@@ -36104,6 +36093,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1764376227,
+        "end": 1764382220,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1764382220,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -39171,6 +39166,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1764375019,
+        "end": 1764382220,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1764382220,
         "end": null,
         "travel_type": "airstrip"
       }
