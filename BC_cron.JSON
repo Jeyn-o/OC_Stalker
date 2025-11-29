@@ -936,11 +936,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1763196626,
-        "end": 1763198418
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1763198418,
         "end": 1763205626,
@@ -1473,7 +1468,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764405623,
-        "end": null
+        "end": 1764406834
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764406834,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2777,6 +2778,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1764395419,
+        "end": 1764406834
+      },
+      {
+        "status": "Available",
+        "start": 1764406834,
         "end": null
       }
     ]
@@ -12114,12 +12120,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763196626,
-        "end": 1763203219,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763203219,
@@ -31465,8 +31465,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764405031,
-        "end": null,
+        "end": 1764406834,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1764406834,
+        "end": null
       }
     ]
   },
@@ -32672,8 +32677,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764400224,
-        "end": null,
+        "end": 1764406834,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764406834,
+        "end": null
       }
     ]
   },
@@ -38059,11 +38069,6 @@
     "name": "Maddog1997",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763196626,
-        "end": 1763198418
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1763198418,
         "end": 1763205022,
@@ -41346,12 +41351,6 @@
   "3973984": {
     "name": "ssodon",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1763196626,
-        "end": 1763198418,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763198418,
