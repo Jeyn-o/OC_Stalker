@@ -4402,12 +4402,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763169022,
-        "end": 1763173830,
-        "travel_type": "private"
-      },
-      {
         "status": "Available",
         "start": 1763173830,
         "end": 1763220175
@@ -12054,8 +12048,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1764377424,
-        "end": null,
+        "end": 1764379219,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764379219,
+        "end": null
       }
     ]
   },
@@ -13994,6 +13993,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764366623,
+        "end": 1764379219,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764379219,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -19717,12 +19722,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1763169022,
-        "end": 1763178621,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763178621,
         "end": 1763181032
@@ -24832,6 +24831,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1764370223,
+        "end": 1764379219
+      },
+      {
+        "status": "[Argentina] Hospitalized - Revives: OFF",
+        "start": 1764379219,
         "end": null
       }
     ]
