@@ -15514,11 +15514,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1763233228,
-        "end": 1763234425
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763234425,
         "end": 1763239226,
@@ -20722,11 +20717,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1763233228,
-        "end": 1763235623
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1763235623,
         "end": 1763242226,
@@ -22741,8 +22731,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764431423,
-        "end": null,
+        "end": 1764443426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764443426,
+        "end": null
       }
     ]
   },
@@ -23993,7 +23988,13 @@
       {
         "status": "Available",
         "start": 1764438626,
-        "end": null
+        "end": 1764443426
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764443426,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31603,6 +31604,11 @@
       {
         "status": "Available",
         "start": 1764429030,
+        "end": 1764443426
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1764443426,
         "end": null
       }
     ]
@@ -35189,8 +35195,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1764442225,
-        "end": null,
+        "end": 1764443426,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764443426,
+        "end": null
       }
     ]
   },
