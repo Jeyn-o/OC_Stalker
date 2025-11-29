@@ -1737,12 +1737,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1763197822,
-        "end": 1763204434,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1763204434,
         "end": 1763205022
@@ -5224,12 +5218,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1763197822,
-        "end": 1763203219,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1763203219,
@@ -36197,8 +36185,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764399632,
-        "end": null,
+        "end": 1764407432,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1764407432,
+        "end": null
       }
     ]
   },
@@ -38060,8 +38053,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1764396030,
-        "end": null,
+        "end": 1764407432,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764407432,
+        "end": null
       }
     ]
   },
@@ -42179,6 +42177,11 @@
       {
         "status": "Available",
         "start": 1764405623,
+        "end": 1764407432
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1764407432,
         "end": null
       }
     ]
