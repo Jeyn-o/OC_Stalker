@@ -21819,12 +21819,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763185818,
-        "end": 1763192424,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763192424,
         "end": 1763201423
@@ -26050,12 +26044,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1763185818,
-        "end": 1763187026,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763187026,
@@ -37978,7 +37966,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1764390628,
-        "end": null
+        "end": 1764396030
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764396030,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -39251,8 +39245,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764394824,
-        "end": null,
+        "end": 1764396030,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764396030,
+        "end": null
       }
     ]
   },
