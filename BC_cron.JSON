@@ -4220,6 +4220,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764370829,
+        "end": 1764378033,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764378033,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -6413,8 +6419,13 @@
       {
         "status": "[China] - Going",
         "start": 1764373823,
-        "end": null,
+        "end": 1764378033,
         "travel_type": "standard"
+      },
+      {
+        "status": "[China] - Idle",
+        "start": 1764378033,
+        "end": null
       }
     ]
   },
@@ -6558,8 +6569,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1764370829,
-        "end": null,
+        "end": 1764378033,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764378033,
+        "end": null
       }
     ]
   },
@@ -31405,6 +31421,11 @@
       {
         "status": "[Hospital] Attacked - Revives: OFF",
         "start": 1764376823,
+        "end": 1764378033
+      },
+      {
+        "status": "Available",
+        "start": 1764378033,
         "end": null
       }
     ]
@@ -34908,8 +34929,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1764366623,
-        "end": null,
+        "end": 1764378033,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1764378033,
+        "end": null
       }
     ]
   },
