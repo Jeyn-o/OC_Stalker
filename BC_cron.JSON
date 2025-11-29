@@ -2363,6 +2363,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764436224,
+        "end": 1764442830,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764442830,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -5120,7 +5126,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1764430821,
-        "end": null
+        "end": 1764442830
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1764442830,
+        "end": null,
+        "travel_type": "private"
       }
     ]
   },
@@ -12207,18 +12219,19 @@
       {
         "status": "Available",
         "start": 1764295231,
-        "end": null
+        "end": 1764442830
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1764442830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763232618,
-        "end": 1763249426
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1763249426,
@@ -14667,12 +14680,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1763232618,
-        "end": 1763239226,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763239226,
@@ -19853,11 +19860,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763232618,
-        "end": 1763235025
-      },
       {
         "status": "[Switzerland] - Going",
         "start": 1763235025,
@@ -28612,6 +28614,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764442225,
+        "end": 1764442830,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764442830,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34293,12 +34301,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1763232618,
-        "end": 1763239226,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763239226,
