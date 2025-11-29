@@ -1467,8 +1467,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764399017,
-        "end": null,
+        "end": 1764405623,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764405623,
+        "end": null
       }
     ]
   },
@@ -20654,11 +20659,6 @@
     "name": "Driccy",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1763195428,
-        "end": 1763196016
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1763196016,
         "end": 1763203219,
@@ -35006,12 +35006,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1763195428,
-        "end": 1763202624,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763202624,
         "end": 1763205022
@@ -36195,12 +36189,6 @@
     "name": "RouRonin",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1763195428,
-        "end": 1763200832,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763200832,
         "end": 1763201423
@@ -37073,8 +37061,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1764398420,
-        "end": null,
+        "end": 1764405623,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764405623,
+        "end": null
       }
     ]
   },
@@ -37680,6 +37673,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764399017,
+        "end": 1764405623,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764405623,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -42169,6 +42168,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1764398420,
+        "end": 1764405623
+      },
+      {
+        "status": "Available",
+        "start": 1764405623,
         "end": null
       }
     ]
