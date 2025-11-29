@@ -17261,11 +17261,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763213427,
-        "end": 1763214019
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1763214019,
         "end": 1763215820,
@@ -24888,7 +24883,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1764419425,
-        "end": null
+        "end": 1764423619
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764423619,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31518,6 +31519,11 @@
       {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1764422419,
+        "end": 1764423619
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1764423619,
         "end": null
       }
     ]
@@ -32746,6 +32752,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764417022,
+        "end": 1764423619,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764423619,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -38148,7 +38160,13 @@
       {
         "status": "Available",
         "start": 1764423025,
-        "end": null
+        "end": 1764423619
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764423619,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
