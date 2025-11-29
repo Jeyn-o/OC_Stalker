@@ -12138,12 +12138,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1763215234,
-        "end": 1763221827,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1763221827,
         "end": 1763225423
@@ -14577,7 +14571,13 @@
       {
         "status": "Available",
         "start": 1764424830,
-        "end": null
+        "end": 1764425421
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764425421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -16802,12 +16802,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763215234,
-        "end": 1763222434,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763222434,
         "end": 1763274627
@@ -18567,6 +18561,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764418826,
+        "end": 1764425421,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764425421,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -21866,11 +21866,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763215234,
-        "end": 1763217031
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1763217031,
         "end": 1763218831,
@@ -23950,8 +23945,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764413422,
-        "end": null,
+        "end": 1764425421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764425421,
+        "end": null
       }
     ]
   },
@@ -26098,12 +26098,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1763215234,
-        "end": 1763216421,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1763216421,
@@ -31523,6 +31517,11 @@
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1764423619,
+        "end": 1764425421
+      },
+      {
+        "status": "Available",
+        "start": 1764425421,
         "end": null
       }
     ]
@@ -31743,12 +31742,6 @@
   "3838831": {
     "name": "Lev_Bron",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1763215234,
-        "end": 1763222434,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1763222434,
@@ -40248,11 +40241,6 @@
     "name": "Icks-B",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763215234,
-        "end": 1763215820
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1763215820,
         "end": 1763217031,
@@ -41394,7 +41382,13 @@
       {
         "status": "Available",
         "start": 1764417637,
-        "end": null
+        "end": 1764425421
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1764425421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
