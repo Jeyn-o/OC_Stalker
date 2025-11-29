@@ -1774,12 +1774,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1763229017,
-        "end": 1763235623,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1763235623,
         "end": 1763242226,
@@ -6861,8 +6855,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1764426628,
-        "end": null,
+        "end": 1764439231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764439231,
+        "end": null
       }
     ]
   },
@@ -18568,6 +18567,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764432627,
+        "end": 1764439231,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764439231,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -19826,11 +19831,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763229017,
-        "end": 1763229632
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1763229632,
@@ -28597,6 +28597,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764438028,
+        "end": 1764439231,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764439231,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29158,11 +29164,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763229017,
-        "end": 1763238021
-      },
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1763238021,
@@ -35156,6 +35157,11 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1764438626,
+        "end": 1764439231
+      },
+      {
+        "status": "[Cayman Islands] Mugged - Revives: OFF",
+        "start": 1764439231,
         "end": null
       }
     ]
@@ -41425,8 +41431,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1764432032,
-        "end": null,
+        "end": 1764439231,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764439231,
+        "end": null
       }
     ]
   },
