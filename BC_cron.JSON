@@ -2816,11 +2816,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763202020,
-        "end": 1763252426
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1763252426,
         "end": 1763259623,
@@ -15395,7 +15390,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764411021,
-        "end": null
+        "end": 1764412228
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764412228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20643,6 +20644,11 @@
       {
         "status": "[South Africa] Mugged - Revives: Partial",
         "start": 1764409830,
+        "end": 1764412228
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764412228,
         "end": null
       }
     ]
@@ -24862,7 +24868,13 @@
       {
         "status": "Available",
         "start": 1764408021,
-        "end": null
+        "end": 1764412228
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1764412228,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31469,8 +31481,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1764410434,
-        "end": null,
+        "end": 1764412228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764412228,
+        "end": null
       }
     ]
   },
@@ -39372,8 +39389,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1764405031,
-        "end": null,
+        "end": 1764412228,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764412228,
+        "end": null
       }
     ]
   },
