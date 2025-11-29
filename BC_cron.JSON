@@ -24856,7 +24856,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1764393023,
-        "end": null
+        "end": 1764400824
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1764400824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31441,6 +31447,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764399632,
+        "end": 1764400824,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764400824,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34083,8 +34095,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764394230,
-        "end": null,
+        "end": 1764400824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764400824,
+        "end": null
       }
     ]
   },
@@ -41301,11 +41318,6 @@
   "3973984": {
     "name": "ssodon",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1763190627,
-        "end": 1763191219
-      },
       {
         "status": "Available",
         "start": 1763191219,
