@@ -10608,11 +10608,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763217624,
-        "end": 1763218222
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1763218222,
         "end": 1763224819,
@@ -14611,12 +14606,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1763217624,
-        "end": 1763224226,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763224226,
@@ -20685,7 +20674,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764420621,
-        "end": null
+        "end": 1764427819
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764427819,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26100,11 +26095,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763217624,
-        "end": 1763225423
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1763225423,
         "end": 1763226627,
@@ -29080,7 +29070,13 @@
       {
         "status": "Available",
         "start": 1764404421,
-        "end": null
+        "end": 1764427819
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1764427819,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -31523,7 +31519,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1764427219,
-        "end": null
+        "end": 1764427819
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764427819,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35091,12 +35093,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Argentina] - Returning",
-        "start": 1763217624,
-        "end": 1763224819,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763224819,
@@ -42228,8 +42224,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1764420621,
-        "end": null,
+        "end": 1764427819,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764427819,
+        "end": null
       }
     ]
   },
