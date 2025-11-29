@@ -989,8 +989,13 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1764446428,
-        "end": null,
+        "end": 1764452424,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Idle",
+        "start": 1764452424,
+        "end": null
       }
     ]
   },
@@ -1808,11 +1813,6 @@
   "1166445": {
     "name": "Top",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763242226,
-        "end": 1763287234
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1763287234,
@@ -7320,8 +7320,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1764439834,
-        "end": null,
+        "end": 1764452424,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764452424,
+        "end": null
       }
     ]
   },
@@ -11579,6 +11584,11 @@
       {
         "status": "Available",
         "start": 1764436224,
+        "end": 1764452424
+      },
+      {
+        "status": "[Hospital] Attacked - Revives: OFF",
+        "start": 1764452424,
         "end": null
       }
     ]
@@ -19895,11 +19905,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1763242226,
-        "end": 1763244638
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1763244638,
         "end": 1763252426,
@@ -20755,11 +20760,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763242226,
-        "end": 1763278238
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763278238,
@@ -28695,6 +28695,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764451828,
+        "end": 1764452424,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764452424,
         "end": null,
         "travel_type": "airstrip"
       }
