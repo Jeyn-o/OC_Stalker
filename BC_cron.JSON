@@ -857,6 +857,11 @@
       {
         "status": "Available",
         "start": 1764436823,
+        "end": 1764437427
+      },
+      {
+        "status": "Jail",
+        "start": 1764437427,
         "end": null
       }
     ]
@@ -6419,7 +6424,13 @@
       {
         "status": "[Switzerland] - Idle",
         "start": 1764436224,
-        "end": null
+        "end": 1764437427
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764437427,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -14599,6 +14610,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764425421,
+        "end": 1764437427,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764437427,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -21871,7 +21888,13 @@
       {
         "status": "Available",
         "start": 1764436823,
-        "end": null
+        "end": 1764437427
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1764437427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23620,7 +23643,13 @@
       {
         "status": "Available",
         "start": 1764395419,
-        "end": null
+        "end": 1764437427
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764437427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24291,7 +24320,13 @@
       {
         "status": "Available",
         "start": 1764288624,
-        "end": null
+        "end": 1764437427
+      },
+      {
+        "status": "[Japan] - Going",
+        "start": 1764437427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35120,7 +35155,13 @@
       {
         "status": "Available",
         "start": 1764397825,
-        "end": null
+        "end": 1764437427
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1764437427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38205,7 +38246,13 @@
       {
         "status": "Available",
         "start": 1764436823,
-        "end": null
+        "end": 1764437427
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1764437427,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40287,12 +40334,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1763227222,
-        "end": 1763233819,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763233819,
