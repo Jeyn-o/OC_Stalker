@@ -1852,6 +1852,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764502829,
+        "end": 1764515423,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764515423,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -6992,7 +6998,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764514838,
-        "end": null
+        "end": 1764515423
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764515423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15674,8 +15686,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764509431,
-        "end": null,
+        "end": 1764515423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764515423,
+        "end": null
       }
     ]
   },
@@ -17023,7 +17040,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1764514838,
-        "end": null
+        "end": 1764515423
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764515423,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -18876,12 +18899,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763305231,
-        "end": 1763311225,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763311225,
@@ -24203,11 +24220,6 @@
     "name": "GoldenVirginia",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763305231,
-        "end": 1763504427
-      },
-      {
         "status": "[Japan] - Going",
         "start": 1763504427,
         "end": 1763514622,
@@ -25640,12 +25652,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763305231,
-        "end": 1763312429,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763312429,
         "end": 1763315421
@@ -26342,11 +26348,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763305231,
-        "end": 1763317824
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1763317824,
@@ -28902,6 +28903,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764514229,
+        "end": 1764515423,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764515423,
         "end": null,
         "travel_type": "airstrip"
       }
