@@ -893,11 +893,6 @@
     "name": "BeardedBenny",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763268620,
-        "end": 1763832628
-      },
-      {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1763832628,
         "end": 1763833222
@@ -26384,12 +26379,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1763268620,
-        "end": 1763269822,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763269822,
         "end": 1763296821
@@ -28960,7 +28949,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1764478217,
-        "end": null
+        "end": 1764478838
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764478838,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -35705,12 +35700,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1763268620,
-        "end": 1763275820,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763275820,
         "end": 1763276434
@@ -37743,8 +37732,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1764471022,
-        "end": null,
+        "end": 1764478838,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764478838,
+        "end": null
       }
     ]
   },
@@ -40105,8 +40099,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764477623,
-        "end": null,
+        "end": 1764478838,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764478838,
+        "end": null
       }
     ]
   },
