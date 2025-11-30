@@ -5347,12 +5347,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Returning",
-        "start": 1763259018,
-        "end": 1763263221,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1763263221,
         "end": 1763271027
@@ -6546,7 +6540,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764451828,
-        "end": null
+        "end": 1764469224
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764469224,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -12301,19 +12301,19 @@
       {
         "status": "[China] - Returning",
         "start": 1764458422,
-        "end": null,
+        "end": 1764469224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764469224,
+        "end": null
       }
     ]
   },
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] Mugged - Revives: Partial",
-        "start": 1763259018,
-        "end": 1763261419
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763261419,
@@ -14280,8 +14280,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1764457235,
-        "end": null,
+        "end": 1764469224,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764469224,
+        "end": null
       }
     ]
   },
@@ -19971,6 +19976,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1764462018,
+        "end": 1764469224,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1764469224,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -28852,6 +28863,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764468027,
+        "end": 1764469224,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764469224,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -31857,6 +31874,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764468027,
+        "end": 1764469224,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764469224,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -34610,11 +34633,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1763259018,
-        "end": 1763262622
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1763262622,
@@ -39935,7 +39953,13 @@
       {
         "status": "Available",
         "start": 1764468620,
-        "end": null
+        "end": 1764469224
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764469224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
