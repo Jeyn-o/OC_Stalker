@@ -1855,12 +1855,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1763287234,
-        "end": 1763293824,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1763293824,
         "end": 1763301021,
@@ -8463,11 +8457,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763287234,
-        "end": 1763302219
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1763302219,
         "end": 1763309421,
@@ -14333,8 +14322,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1764490823,
-        "end": null,
+        "end": 1764497421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764497421,
+        "end": null
       }
     ]
   },
@@ -18838,7 +18832,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764493822,
-        "end": null
+        "end": 1764497421
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764497421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22994,7 +22994,13 @@
       {
         "status": "Available",
         "start": 1764487828,
-        "end": null
+        "end": 1764497421
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1764497421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
