@@ -8455,7 +8455,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764505221,
-        "end": null
+        "end": 1764507636
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764507636,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10772,12 +10778,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1763297424,
-        "end": 1763304022,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1763304022,
         "end": 1763310624,
@@ -12348,11 +12348,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[China] Mugged - Revives: Partial",
-        "start": 1763297424,
-        "end": 1763299229
-      },
       {
         "status": "[China] - Idle",
         "start": 1763299229,
@@ -15699,12 +15694,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1763297424,
-        "end": 1763302820,
-        "travel_type": "standard"
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763302820,
@@ -19638,8 +19627,13 @@
       {
         "status": "[China] - Returning",
         "start": 1764498018,
-        "end": null,
+        "end": 1764507636,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764507636,
+        "end": null
       }
     ]
   },
@@ -34723,7 +34717,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764502227,
-        "end": null
+        "end": 1764507636
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764507636,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -36889,12 +36889,6 @@
     "name": "RouRonin",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1763297424,
-        "end": 1763302820,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1763302820,
         "end": 1763308829,
@@ -38345,6 +38339,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764500431,
+        "end": 1764507636,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764507636,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -42138,11 +42138,6 @@
   "3973984": {
     "name": "ssodon",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763297424,
-        "end": 1763302219
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1763302219,
