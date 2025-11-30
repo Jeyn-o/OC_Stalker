@@ -2444,6 +2444,11 @@
       {
         "status": "Jail",
         "start": 1764476433,
+        "end": 1764481225
+      },
+      {
+        "status": "Available",
+        "start": 1764481225,
         "end": null
       }
     ]
@@ -5375,12 +5380,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1763271027,
-        "end": 1763275820,
-        "travel_type": "standard"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1763275820,
@@ -14846,6 +14845,11 @@
       {
         "status": "Available",
         "start": 1764480627,
+        "end": 1764481225
+      },
+      {
+        "status": "Jail",
+        "start": 1764481225,
         "end": null
       }
     ]
@@ -18842,7 +18846,13 @@
       {
         "status": "Available",
         "start": 1764476433,
-        "end": null
+        "end": 1764481225
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764481225,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29547,8 +29557,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764474620,
-        "end": null,
+        "end": 1764481225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764481225,
+        "end": null
       }
     ]
   },
@@ -34733,8 +34748,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764480019,
-        "end": null,
+        "end": 1764481225,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1764481225,
+        "end": null
       }
     ]
   },
