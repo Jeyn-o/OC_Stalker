@@ -6572,6 +6572,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764519621,
+        "end": 1764523219,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764523219,
         "end": null,
         "travel_type": "standard"
       }
@@ -11671,7 +11677,13 @@
       {
         "status": "Available",
         "start": 1764454220,
-        "end": null
+        "end": 1764523219
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764523219,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25355,12 +25367,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1763313024,
-        "end": 1763323817,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763323817,
         "end": 1763335224,
@@ -32017,6 +32023,11 @@
       {
         "status": "Available",
         "start": 1764516631,
+        "end": 1764523219
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1764523219,
         "end": null
       }
     ]
@@ -36919,6 +36930,11 @@
       {
         "status": "Available",
         "start": 1764508219,
+        "end": 1764523219
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1764523219,
         "end": null
       }
     ]
