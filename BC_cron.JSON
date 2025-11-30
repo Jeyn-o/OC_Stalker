@@ -5272,12 +5272,6 @@
     "name": "Litri",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1763281832,
-        "end": 1763294440,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1763294440,
         "end": 1763301021
@@ -13794,12 +13788,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1763281832,
-        "end": 1763283636,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1763283636,
         "end": 1763285432,
@@ -15730,12 +15718,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1763281832,
-        "end": 1763286620,
-        "travel_type": "standard"
-      },
-      {
         "status": "Available",
         "start": 1763286620,
         "end": 1763297424
@@ -17119,12 +17101,6 @@
   "3292894": {
     "name": "VEGABABY",
     "activities": [
-      {
-        "status": "[Switzerland] - Returning",
-        "start": 1763281832,
-        "end": 1763289624,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763289624,
@@ -24298,7 +24274,13 @@
       {
         "status": "Available",
         "start": 1764469831,
-        "end": null
+        "end": 1764492023
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764492023,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32060,6 +32042,11 @@
       {
         "status": "Available",
         "start": 1764490823,
+        "end": 1764492023
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1764492023,
         "end": null
       }
     ]
@@ -36972,11 +36959,6 @@
   "3903942": {
     "name": "RouRonin",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763281832,
-        "end": 1763284221
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1763284221,
@@ -42169,6 +42151,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1764485422,
+        "end": 1764492023,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1764492023,
         "end": null,
         "travel_type": "airstrip"
       }
