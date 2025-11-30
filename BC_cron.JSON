@@ -5318,6 +5318,11 @@
       {
         "status": "Jail",
         "start": 1764476433,
+        "end": 1764479422
+      },
+      {
+        "status": "Available",
+        "start": 1764479422,
         "end": null
       }
     ]
@@ -17024,8 +17029,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764474020,
-        "end": null,
+        "end": 1764479422,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764479422,
+        "end": null
       }
     ]
   },
@@ -22130,12 +22140,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763269230,
-        "end": 1763275820,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763275820,
@@ -28954,8 +28958,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764478838,
-        "end": null,
+        "end": 1764479422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764479422,
+        "end": null
       }
     ]
   },
@@ -37738,18 +37747,19 @@
       {
         "status": "Available",
         "start": 1764478838,
-        "end": null
+        "end": 1764479422
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1764479422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3915266": {
     "name": "Lucifixion",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763269230,
-        "end": 1763283636
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1763283636,
