@@ -11883,8 +11883,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1764459625,
-        "end": null,
+        "end": 1764471633,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1764471633,
+        "end": null
       }
     ]
   },
@@ -12308,11 +12313,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1763261419,
-        "end": 1763270423
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763270423,
@@ -16971,7 +16971,13 @@
       {
         "status": "[Hawaii] - Idle",
         "start": 1764471022,
-        "end": null
+        "end": 1764471633
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1764471633,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -28885,7 +28891,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1764471022,
-        "end": null
+        "end": 1764471633
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764471633,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33553,12 +33565,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Going",
-        "start": 1763261419,
-        "end": 1763263221,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1763263221,
@@ -39973,6 +39979,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764470421,
+        "end": 1764471633,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764471633,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40804,8 +40816,13 @@
       {
         "status": "[China] - Returning",
         "start": 1764461423,
-        "end": null,
+        "end": 1764471633,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764471633,
+        "end": null
       }
     ]
   },
