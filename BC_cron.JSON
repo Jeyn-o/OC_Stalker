@@ -890,7 +890,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764480019,
-        "end": null
+        "end": 1764499222
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764499222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -2960,12 +2966,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1763289028,
-        "end": 1763301633,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763301633,
@@ -9784,11 +9784,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: ALL",
-        "start": 1763289028,
-        "end": 1763289624
-      },
-      {
         "status": "Available",
         "start": 1763289624,
         "end": 1763292626
@@ -13250,7 +13245,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1764474620,
-        "end": null
+        "end": 1764499222
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764499222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14854,12 +14855,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1763289028,
-        "end": 1763295619,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763295619,
@@ -40245,6 +40240,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764498018,
+        "end": 1764499222,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764499222,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -42175,8 +42176,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1764492023,
-        "end": null,
+        "end": 1764499222,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764499222,
+        "end": null
       }
     ]
   },
