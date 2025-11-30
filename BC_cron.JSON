@@ -1874,6 +1874,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764528022,
+        "end": 1764529234,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764529234,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -6998,7 +7004,13 @@
       {
         "status": "Available",
         "start": 1764528022,
-        "end": null
+        "end": 1764529234
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764529234,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20867,7 +20879,13 @@
       {
         "status": "Available",
         "start": 1764501022,
-        "end": null
+        "end": 1764529234
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764529234,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -20894,12 +20912,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1763319022,
-        "end": 1763325618,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763325618,
@@ -26352,11 +26364,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Idle",
-        "start": 1763319022,
-        "end": 1763323242
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1763323242,
         "end": 1763324425,
@@ -28978,8 +28985,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764528623,
-        "end": null,
+        "end": 1764529234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1764529234,
+        "end": null
       }
     ]
   },
