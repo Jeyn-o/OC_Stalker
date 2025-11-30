@@ -269,12 +269,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1763292025,
-        "end": 1763299826,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1763299826,
         "end": 1763307618,
@@ -10750,11 +10744,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763292025,
-        "end": 1763297424
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1763297424,
         "end": 1763304022,
@@ -20039,11 +20028,6 @@
   "3360442": {
     "name": "Dunne",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1763292025,
-        "end": 1763294440
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1763294440,
@@ -32238,12 +32222,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763292025,
-        "end": 1763298624,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763298624,
         "end": 1763299826
@@ -34733,6 +34711,11 @@
       {
         "status": "[United Kingdom] Attacked - Revives: OFF",
         "start": 1764501022,
+        "end": 1764502227
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764502227,
         "end": null
       }
     ]
@@ -37743,8 +37726,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764494422,
-        "end": null,
+        "end": 1764502227,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1764502227,
+        "end": null
       }
     ]
   },
@@ -38822,12 +38810,6 @@
   "3943448": {
     "name": "Maddog1997",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763292025,
-        "end": 1763298624,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763298624,
@@ -42131,7 +42113,13 @@
       {
         "status": "Available",
         "start": 1764499222,
-        "end": null
+        "end": 1764502227
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1764502227,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
