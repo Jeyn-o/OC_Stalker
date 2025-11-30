@@ -8444,8 +8444,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764493233,
-        "end": null,
+        "end": 1764505221,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764505221,
+        "end": null
       }
     ]
   },
@@ -17069,12 +17074,6 @@
     "name": "VEGABABY",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1763295028,
-        "end": 1763302219,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1763302219,
         "end": 1763319633
@@ -22946,7 +22945,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1764504623,
-        "end": null
+        "end": 1764505221
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1764505221,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24213,19 +24218,19 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764504623,
-        "end": null
+        "end": 1764505221
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764505221,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
   "3619214": {
     "name": "GoldenVirginia",
     "activities": [
-      {
-        "status": "[Japan] - Returning",
-        "start": 1763295028,
-        "end": 1763305231,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763305231,
@@ -31976,7 +31981,13 @@
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1764504623,
-        "end": null
+        "end": 1764505221
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764505221,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -33270,7 +33281,13 @@
       {
         "status": "Available",
         "start": 1764501022,
-        "end": null
+        "end": 1764505221
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764505221,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38810,6 +38827,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764498018,
+        "end": 1764505221,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764505221,
         "end": null,
         "travel_type": "airstrip"
       }
