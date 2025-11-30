@@ -2502,11 +2502,6 @@
     "name": "Savoie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763267430,
-        "end": 1763315421
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1763315421,
         "end": 1763327421,
@@ -3453,6 +3448,11 @@
       {
         "status": "Jail",
         "start": 1764476433,
+        "end": 1764477623
+      },
+      {
+        "status": "Available",
+        "start": 1764477623,
         "end": null
       }
     ]
@@ -14322,8 +14322,13 @@
       {
         "status": "[Canada] - Returning",
         "start": 1764475818,
-        "end": null,
+        "end": 1764477623,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764477623,
+        "end": null
       }
     ]
   },
@@ -15672,12 +15677,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1763267430,
-        "end": 1763272836,
-        "travel_type": "standard"
-      },
       {
         "status": "[South Africa] - Idle",
         "start": 1763272836,
@@ -17519,6 +17518,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764470421,
+        "end": 1764477623,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764477623,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -23866,7 +23871,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764477029,
-        "end": null
+        "end": 1764477623
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764477623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26361,12 +26372,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1763267430,
-        "end": 1763268620,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1763268620,
@@ -28933,7 +28938,13 @@
       {
         "status": "Available",
         "start": 1764477029,
-        "end": null
+        "end": 1764477623
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764477623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40072,7 +40083,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1764477029,
-        "end": null
+        "end": 1764477623
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764477623,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
