@@ -2442,8 +2442,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764503418,
-        "end": null,
+        "end": 1764510625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764510625,
+        "end": null
       }
     ]
   },
@@ -17561,11 +17566,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1763300419,
-        "end": 1763301633
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1763301633,
         "end": 1763308829,
@@ -22111,8 +22111,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1764498018,
-        "end": null,
+        "end": 1764510625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764510625,
+        "end": null
       }
     ]
   },
@@ -26392,20 +26397,19 @@
       {
         "status": "[China] - Returning",
         "start": 1764501022,
-        "end": null,
+        "end": 1764510625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764510625,
+        "end": null
       }
     ]
   },
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1763300419,
-        "end": 1763301633,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763301633,
@@ -28959,6 +28963,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764509431,
+        "end": 1764510625,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764510625,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29558,11 +29568,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: OFF",
-        "start": 1763300419,
-        "end": 1763302219
-      },
       {
         "status": "Available",
         "start": 1763302219,
@@ -31999,6 +32004,11 @@
       {
         "status": "Available",
         "start": 1764510019,
+        "end": 1764510625
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1764510625,
         "end": null
       }
     ]
@@ -37782,11 +37792,6 @@
     "name": "Lucifixion",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763300419,
-        "end": 1763319633
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1763319633,
         "end": 1763326222,
@@ -43020,7 +43025,13 @@
       {
         "status": "Available",
         "start": 1764506422,
-        "end": null
+        "end": 1764510625
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1764510625,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
