@@ -3,11 +3,6 @@
     "name": "Charbon",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763332827,
-        "end": 1763335830
-      },
-      {
         "status": "[Hospital] Lost - Revives: OFF",
         "start": 1763335830,
         "end": 1763337021
@@ -280,12 +275,6 @@
   "182040": {
     "name": "Excaliber_13",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1763332827,
-        "end": 1763345418,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763345418,
@@ -1936,6 +1925,12 @@
       {
         "status": "[Hawaii] - Going",
         "start": 1764537616,
+        "end": 1764543022,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hawaii] - Returning",
+        "start": 1764543022,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14471,11 +14466,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763332827,
-        "end": 1763334084
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1763334084,
         "end": 1763341233,
@@ -21025,11 +21015,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763332827,
-        "end": 1763362833
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1763362833,
@@ -29153,6 +29138,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764541831,
+        "end": 1764543022,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764543022,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -32485,7 +32476,13 @@
       {
         "status": "[Mexico] - Idle",
         "start": 1764542423,
-        "end": null
+        "end": 1764543022
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764543022,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38660,8 +38657,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764536436,
-        "end": null,
+        "end": 1764543022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764543022,
+        "end": null
       }
     ]
   },
