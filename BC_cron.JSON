@@ -1035,11 +1035,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763290830,
-        "end": 1763304616
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1763304616,
         "end": 1763311225,
@@ -17522,12 +17517,6 @@
     "name": "Semykreen",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1763290830,
-        "end": 1763292626,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763292626,
         "end": 1763293220
@@ -18906,12 +18895,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763290830,
-        "end": 1763298030,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1763298030,
@@ -20889,6 +20872,11 @@
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1764481823,
+        "end": 1764501022
+      },
+      {
+        "status": "Available",
+        "start": 1764501022,
         "end": null
       }
     ]
@@ -20916,12 +20904,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1763290830,
-        "end": 1763301633,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763301633,
@@ -22972,12 +22954,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1763290830,
-        "end": 1763301021,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[China] - Idle",
         "start": 1763301021,
@@ -26368,7 +26344,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764499823,
-        "end": null
+        "end": 1764501022
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764501022,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29551,12 +29533,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Canada] - Going",
-        "start": 1763290830,
-        "end": 1763292626,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Canada] - Returning",
         "start": 1763292626,
         "end": 1763294440,
@@ -32251,11 +32227,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1763290830,
-        "end": 1763292025
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1763292025,
         "end": 1763298624,
@@ -33290,8 +33261,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764495024,
-        "end": null,
+        "end": 1764501022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764501022,
+        "end": null
       }
     ]
   },
@@ -34741,6 +34717,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764496234,
+        "end": 1764501022
+      },
+      {
+        "status": "[United Kingdom] Attacked - Revives: OFF",
+        "start": 1764501022,
         "end": null
       }
     ]
@@ -35719,12 +35700,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1763290830,
-        "end": 1763296821,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1763296821,
@@ -40215,8 +40190,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1764499222,
-        "end": null,
+        "end": 1764501022,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764501022,
+        "end": null
       }
     ]
   },
