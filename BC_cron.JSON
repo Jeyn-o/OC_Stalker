@@ -1029,12 +1029,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1763283636,
-        "end": 1763290830,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763290830,
         "end": 1763304616
@@ -13789,12 +13783,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1763283636,
-        "end": 1763285432,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763285432,
         "end": 1763329820
@@ -18856,8 +18844,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764481225,
-        "end": null,
+        "end": 1764493822,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764493822,
+        "end": null
       }
     ]
   },
@@ -35768,12 +35761,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1763283636,
-        "end": 1763290830,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Going",
         "start": 1763290830,
         "end": 1763296821,
@@ -37815,12 +37802,6 @@
     "name": "Lucifixion",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1763283636,
-        "end": 1763290222,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1763290222,
         "end": 1763293824
@@ -38424,7 +38405,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764488416,
-        "end": null
+        "end": 1764493822
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764493822,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
