@@ -12363,6 +12363,11 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1764532835,
+        "end": 1764534628
+      },
+      {
+        "status": "Available",
+        "start": 1764534628,
         "end": null
       }
     ]
@@ -14988,12 +14993,6 @@
     "name": "Khallie",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1763324425,
-        "end": 1763331019,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1763331019,
         "end": 1763335224
@@ -17184,7 +17183,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1764534027,
-        "end": null
+        "end": 1764534628
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1764534628,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -26417,11 +26422,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763324425,
-        "end": 1763325618
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1763325618,
         "end": 1763326828,
@@ -29060,6 +29060,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764533423,
+        "end": 1764534628,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764534628,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35850,7 +35856,13 @@
       {
         "status": "Available",
         "start": 1764531621,
-        "end": null
+        "end": 1764534628
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1764534628,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
