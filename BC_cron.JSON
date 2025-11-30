@@ -10422,7 +10422,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764474620,
-        "end": null
+        "end": 1764490823
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764490823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -14347,7 +14353,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1764490221,
-        "end": null
+        "end": 1764490823
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1764490823,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -24644,11 +24656,6 @@
     "name": "Raie",
     "activities": [
       {
-        "status": "[Argentina] Mugged - Revives: ALL",
-        "start": 1763280623,
-        "end": 1763282423
-      },
-      {
         "status": "[Argentina] - Idle",
         "start": 1763282423,
         "end": 1763284221
@@ -32047,8 +32054,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1764489021,
-        "end": null,
+        "end": 1764490823,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764490823,
+        "end": null
       }
     ]
   },
@@ -33701,11 +33713,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763280623,
-        "end": 1763287820
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1763287820,
