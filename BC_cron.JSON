@@ -1582,7 +1582,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764519020,
-        "end": null
+        "end": 1764520825
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764520825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -9809,7 +9815,13 @@
       {
         "status": "Available",
         "start": 1764519020,
-        "end": null
+        "end": 1764520825
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764520825,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -10427,8 +10439,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1764509431,
-        "end": null,
+        "end": 1764520825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1764520825,
+        "end": null
       }
     ]
   },
@@ -10787,12 +10804,6 @@
   "2932114": {
     "name": "Nitrx",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1763310624,
-        "end": 1763317223,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763317223,
@@ -20077,12 +20088,6 @@
     "name": "Lockets",
     "activities": [
       {
-        "status": "[Switzerland] - Going",
-        "start": 1763310624,
-        "end": 1763317824,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Switzerland] - Idle",
         "start": 1763317824,
         "end": 1763319633
@@ -20915,11 +20920,6 @@
   "3449771": {
     "name": "Driccy",
     "activities": [
-      {
-        "status": "[United Kingdom] - Idle",
-        "start": 1763310624,
-        "end": 1763311225
-      },
       {
         "status": "[United Kingdom] - Returning",
         "start": 1763311225,
@@ -25192,6 +25192,11 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1764516020,
+        "end": 1764520825
+      },
+      {
+        "status": "[Argentina] Mugged - Revives: OFF",
+        "start": 1764520825,
         "end": null
       }
     ]
@@ -28974,8 +28979,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764520224,
-        "end": null,
+        "end": 1764520825,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1764520825,
+        "end": null
       }
     ]
   },
@@ -29579,12 +29589,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Switzerland] - Going",
-        "start": 1763310624,
-        "end": 1763317824,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1763317824,
@@ -35757,11 +35761,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763310624,
-        "end": 1763346019
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1763346019,
         "end": 1763353223,
@@ -40264,12 +40263,6 @@
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[South Africa] - Going",
-        "start": 1763310624,
-        "end": 1763323242,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1763323242,
