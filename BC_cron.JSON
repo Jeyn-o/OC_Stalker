@@ -269,11 +269,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763260229,
-        "end": 1763292025
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1763292025,
         "end": 1763299826,
@@ -3448,6 +3443,11 @@
       {
         "status": "Available",
         "start": 1763762436,
+        "end": 1764470421
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: ALL",
+        "start": 1764470421,
         "end": null
       }
     ]
@@ -17454,7 +17454,13 @@
       {
         "status": "Available",
         "start": 1764419425,
-        "end": null
+        "end": 1764470421
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1764470421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -23812,7 +23818,13 @@
       {
         "status": "Available",
         "start": 1764453633,
-        "end": null
+        "end": 1764470421
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764470421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -26306,12 +26318,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1763260229,
-        "end": 1763260823,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1763260823,
@@ -28862,6 +28868,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764469224,
+        "end": 1764470421,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764470421,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29437,8 +29449,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764463820,
-        "end": null,
+        "end": 1764470421,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764470421,
+        "end": null
       }
     ]
   },
@@ -35588,11 +35605,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763260229,
-        "end": 1763260823
-      },
-      {
         "status": "[Argentina] - Going",
         "start": 1763260823,
         "end": 1763268025,
@@ -36779,12 +36791,6 @@
   "3903942": {
     "name": "RouRonin",
     "activities": [
-      {
-        "status": "[Hawaii] - Returning",
-        "start": 1763260229,
-        "end": 1763266227,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763266227,
@@ -39946,6 +39952,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764469224,
+        "end": 1764470421,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764470421,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -42980,7 +42992,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764468027,
-        "end": null
+        "end": 1764470421
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764470421,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   }
