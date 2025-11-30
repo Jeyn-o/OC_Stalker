@@ -2930,6 +2930,11 @@
       {
         "status": "Available",
         "start": 1764406834,
+        "end": 1764483022
+      },
+      {
+        "status": "Jail",
+        "start": 1764483022,
         "end": null
       }
     ]
@@ -6658,11 +6663,6 @@
     "name": "Caross",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763272836,
-        "end": 1763707821
-      },
-      {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1763707821,
         "end": 1763708434
@@ -9092,7 +9092,13 @@
       {
         "status": "Available",
         "start": 1764405031,
-        "end": null
+        "end": 1764483022
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1764483022,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13794,12 +13800,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "[Switzerland] - Returning",
-        "start": 1763272836,
-        "end": 1763280038,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763280038,
         "end": 1763281832
@@ -15717,11 +15717,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[South Africa] - Idle",
-        "start": 1763272836,
-        "end": 1763281832
-      },
       {
         "status": "[South Africa] - Returning",
         "start": 1763281832,
@@ -40159,6 +40154,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764481823,
+        "end": 1764483022,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764483022,
         "end": null,
         "travel_type": "airstrip"
       }
