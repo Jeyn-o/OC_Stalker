@@ -10782,12 +10782,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763285432,
-        "end": 1763292025,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763292025,
         "end": 1763297424
@@ -12359,12 +12353,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[China] - Going",
-        "start": 1763286019,
-        "end": 1763296226,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[China] - Idle",
         "start": 1763296226,
         "end": 1763297424
@@ -13788,11 +13776,6 @@
     "name": "Anri_of_Astora",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763285432,
-        "end": 1763329820
-      },
-      {
         "status": "[China] - Going",
         "start": 1763329820,
         "end": 1763339426,
@@ -14867,11 +14850,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763285432,
-        "end": 1763289028
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1763289028,
@@ -20058,6 +20036,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764487828,
+        "end": 1764495648,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764495648,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -20087,11 +20071,6 @@
   "3442152": {
     "name": "Lockets",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1763285432,
-        "end": 1763293220
-      },
       {
         "status": "[Switzerland] Mugged - Revives: Partial",
         "start": 1763293220,
@@ -29570,16 +29549,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763285432,
-        "end": 1763286019
-      },
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1763286019,
-        "end": 1763288419
-      },
-      {
         "status": "[Hospital] Mugged - Revives: OFF",
         "start": 1763288419,
         "end": 1763290830
@@ -36928,8 +36897,13 @@
       {
         "status": "[Hawaii] - Returning",
         "start": 1764490221,
-        "end": null,
+        "end": 1764495648,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764495648,
+        "end": null
       }
     ]
   },
@@ -40210,8 +40184,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764494422,
-        "end": null,
+        "end": 1764495648,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1764495648,
+        "end": null
       }
     ]
   },
