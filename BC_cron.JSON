@@ -9777,7 +9777,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764496830,
-        "end": null
+        "end": 1764506422
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764506422,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12337,11 +12343,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[China] - Idle",
-        "start": 1763296226,
-        "end": 1763297424
-      },
       {
         "status": "[China] Mugged - Revives: Partial",
         "start": 1763297424,
@@ -29535,11 +29536,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: OFF",
-        "start": 1763296226,
-        "end": 1763298030
-      },
-      {
         "status": "Available",
         "start": 1763298030,
         "end": 1763300419
@@ -42141,12 +42137,6 @@
     "name": "ssodon",
     "activities": [
       {
-        "status": "[Canada] - Returning",
-        "start": 1763296226,
-        "end": 1763297424,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763297424,
         "end": 1763302219
@@ -42991,8 +42981,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1764495024,
-        "end": null,
+        "end": 1764506422,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764506422,
+        "end": null
       }
     ]
   },
