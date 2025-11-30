@@ -280,12 +280,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1763314823,
-        "end": 1763326828,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1763326828,
         "end": 1763332827
@@ -4582,11 +4576,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[Switzerland] - Idle",
-        "start": 1763314823,
-        "end": 1763316624
-      },
       {
         "status": "[Switzerland] - Returning",
         "start": 1763316624,
@@ -13297,6 +13286,11 @@
       {
         "status": "[Switzerland] Mugged - Revives: OFF",
         "start": 1764522033,
+        "end": 1764525023
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1764525023,
         "end": null
       }
     ]
@@ -15752,20 +15746,19 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764518433,
-        "end": null,
+        "end": 1764525023,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764525023,
+        "end": null
       }
     ]
   },
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1763314823,
-        "end": 1763319633,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1763319633,
@@ -17101,8 +17094,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1764520224,
-        "end": null,
+        "end": 1764525023,
         "travel_type": "standard"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1764525023,
+        "end": null
       }
     ]
   },
@@ -17592,12 +17590,6 @@
   "3301215": {
     "name": "Semykreen",
     "activities": [
-      {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1763314823,
-        "end": 1763316031,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763316031,
@@ -18845,8 +18837,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1764517818,
-        "end": null,
+        "end": 1764525023,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764525023,
+        "end": null
       }
     ]
   },
@@ -22994,11 +22991,6 @@
   "3529909": {
     "name": "For5aken",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763314823,
-        "end": 1763343633
-      },
       {
         "status": "[China] - Going",
         "start": 1763343633,
@@ -29587,8 +29579,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1764513032,
-        "end": null,
+        "end": 1764525023,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1764525023,
+        "end": null
       }
     ]
   },
@@ -36962,7 +36959,13 @@
       {
         "status": "Available",
         "start": 1764524422,
-        "end": null
+        "end": 1764525023
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1764525023,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
