@@ -1590,11 +1590,6 @@
     "name": "poik9",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763310021,
-        "end": 1763329820
-      },
-      {
         "status": "[Switzerland] - Going",
         "start": 1763329820,
         "end": 1763338222,
@@ -11954,6 +11949,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1764518433,
+        "end": 1764520224
+      },
+      {
+        "status": "Available",
+        "start": 1764520224,
         "end": null
       }
     ]
@@ -13790,7 +13790,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1764519621,
-        "end": null
+        "end": 1764520224
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764520224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15737,12 +15743,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1763310021,
-        "end": 1763314823,
-        "travel_type": "standard"
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763314823,
         "end": 1763319633,
@@ -17077,6 +17077,12 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1764515423,
+        "end": 1764520224,
+        "travel_type": "standard"
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1764520224,
         "end": null,
         "travel_type": "standard"
       }
@@ -28962,6 +28968,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764519020,
+        "end": 1764520224,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764520224,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -35731,7 +35743,13 @@
       {
         "status": "Available",
         "start": 1764480627,
-        "end": null
+        "end": 1764520224
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1764520224,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
