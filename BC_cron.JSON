@@ -3,11 +3,6 @@
     "name": "Charbon",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1763332225,
-        "end": 1763332827
-      },
-      {
         "status": "Available",
         "start": 1763332827,
         "end": 1763335830
@@ -2548,6 +2543,11 @@
       {
         "status": "Jail",
         "start": 1764537616,
+        "end": 1764542423
+      },
+      {
+        "status": "Available",
+        "start": 1764542423,
         "end": null
       }
     ]
@@ -7026,6 +7026,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764529234,
+        "end": 1764542423,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764542423,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -15851,7 +15857,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764540033,
-        "end": null
+        "end": 1764542423
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764542423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22198,6 +22210,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764541221,
+        "end": 1764542423,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764542423,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -26460,6 +26478,11 @@
       {
         "status": "[China] - Idle",
         "start": 1764537616,
+        "end": 1764542423
+      },
+      {
+        "status": "[China] Mugged - Revives: Partial",
+        "start": 1764542423,
         "end": null
       }
     ]
@@ -32456,8 +32479,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764541221,
-        "end": null,
+        "end": 1764542423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1764542423,
+        "end": null
       }
     ]
   },
@@ -34969,11 +34997,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763332225,
-        "end": 1763341821
-      },
       {
         "status": "Jail",
         "start": 1763341821,
@@ -40500,7 +40523,13 @@
       {
         "status": "Available",
         "start": 1764507022,
-        "end": null
+        "end": 1764542423
+      },
+      {
+        "status": "[Argentina] - Going",
+        "start": 1764542423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
