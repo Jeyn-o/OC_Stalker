@@ -12392,12 +12392,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1763354427,
-        "end": 1763355634,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763355634,
         "end": 1763359828
@@ -26395,12 +26389,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Going",
-        "start": 1763354427,
-        "end": 1763355634,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Mexico] - Returning",
         "start": 1763355634,
         "end": 1763356832,
@@ -29122,8 +29110,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764563433,
-        "end": null,
+        "end": 1764564622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764564622,
+        "end": null
       }
     ]
   },
@@ -29738,11 +29731,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763354427,
-        "end": 1763358632
-      },
       {
         "status": "[Canada] - Going",
         "start": 1763358632,
@@ -35949,12 +35937,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1763354427,
-        "end": 1763361620,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763361620,
         "end": 1763362224
@@ -40540,6 +40522,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764562818,
+        "end": 1764564622,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764564622,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -41354,8 +41342,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764551421,
-        "end": null,
+        "end": 1764564622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764564622,
+        "end": null
       }
     ]
   },
