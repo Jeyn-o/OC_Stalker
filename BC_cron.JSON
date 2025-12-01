@@ -271,12 +271,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1763387421,
-        "end": 1763400021,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1763400021,
         "end": 1763406032
@@ -1911,7 +1905,13 @@
       {
         "status": "[Argentina] - Idle",
         "start": 1764597022,
-        "end": null
+        "end": 1764597632
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1764597632,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11689,8 +11689,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764591022,
-        "end": null,
+        "end": 1764597632,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764597632,
+        "end": null
       }
     ]
   },
@@ -12366,11 +12371,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763387421,
-        "end": 1763389834
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763389834,
@@ -13331,11 +13331,6 @@
   "3156041": {
     "name": "Googer",
     "activities": [
-      {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1763387421,
-        "end": 1763388625
-      },
       {
         "status": "Available",
         "start": 1763388625,
@@ -26421,12 +26416,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1763387421,
-        "end": 1763388625,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763388625,
