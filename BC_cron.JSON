@@ -14401,11 +14401,6 @@
     "name": "Rubadubb",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763348435,
-        "end": 1763381427
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1763381427,
         "end": 1763394020,
@@ -23914,6 +23909,12 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764552017,
+        "end": 1764558621,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764558621,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -26421,12 +26422,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1763348435,
-        "end": 1763349018,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763349018,
@@ -29137,6 +29132,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764557423,
+        "end": 1764558621,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764558621,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29747,11 +29748,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763348435,
-        "end": 1763353223
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763353223,
@@ -34965,8 +34961,13 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764557423,
-        "end": null,
+        "end": 1764558621,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Idle",
+        "start": 1764558621,
+        "end": null
       }
     ]
   },
@@ -38643,6 +38644,11 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764543022,
+        "end": 1764558621
+      },
+      {
+        "status": "[United Kingdom] Mugged - Revives: ALL",
+        "start": 1764558621,
         "end": null
       }
     ]
