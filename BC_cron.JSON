@@ -1919,12 +1919,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1763393431,
-        "end": 1763400021,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1763400021,
         "end": 1763402446
@@ -4622,12 +4616,6 @@
   "2302062": {
     "name": "BoozHound",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1763393431,
-        "end": 1763398225,
-        "travel_type": "private"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763398225,
@@ -13271,12 +13259,6 @@
     "name": "Googer",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1763393431,
-        "end": 1763404820,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763404820,
         "end": 1763416220,
@@ -14811,8 +14793,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764591022,
-        "end": null,
+        "end": 1764603625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764603625,
+        "end": null
       }
     ]
   },
@@ -17042,7 +17029,13 @@
       {
         "status": "Available",
         "start": 1764598826,
-        "end": null
+        "end": 1764603625
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1764603625,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -26346,12 +26339,6 @@
     "name": "RubyFalls",
     "activities": [
       {
-        "status": "[Mexico] - Returning",
-        "start": 1763393431,
-        "end": 1763394625,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763394625,
         "end": 1763396423
@@ -29052,6 +29039,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764602425,
+        "end": 1764603625,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764603625,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -32154,8 +32147,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1764601825,
-        "end": null,
+        "end": 1764603625,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764603625,
+        "end": null
       }
     ]
   },
@@ -35913,11 +35911,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763393431,
-        "end": 1763394020
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1763394020,
@@ -41378,6 +41371,12 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764591022,
+        "end": 1764603625,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764603625,
         "end": null,
         "travel_type": "airstrip"
       }
