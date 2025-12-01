@@ -1913,12 +1913,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1763379034,
-        "end": 1763385619,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1763385619,
         "end": 1763386228
@@ -10443,6 +10437,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1764577222,
+        "end": 1764589226,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764589226,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -10734,7 +10734,13 @@
       {
         "status": "Available",
         "start": 1764423025,
-        "end": null
+        "end": 1764589226
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1764589226,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13304,11 +13310,6 @@
     "name": "Googer",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1763379034,
-        "end": 1763380221
-      },
-      {
         "status": "Available",
         "start": 1763380221,
         "end": 1763387421
@@ -13732,6 +13733,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1764577827,
+        "end": 1764589226,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764589226,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -14310,8 +14317,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1764576623,
-        "end": null,
+        "end": 1764589226,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764589226,
+        "end": null
       }
     ]
   },
@@ -15678,12 +15690,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1763379034,
-        "end": 1763391637,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763391637,
@@ -25653,12 +25659,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1763379034,
-        "end": 1763385619,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1763385619,
         "end": 1763392226,
@@ -32178,6 +32178,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764588019,
+        "end": 1764589226,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764589226,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -39089,11 +39095,6 @@
   "3943448": {
     "name": "Maddog1997",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763379034,
-        "end": 1763386228
-      },
       {
         "status": "[Hospital] Event - Revives: Partial",
         "start": 1763386228,
