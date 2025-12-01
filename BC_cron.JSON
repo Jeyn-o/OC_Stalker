@@ -3050,12 +3050,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Returning",
-        "start": 1763355634,
-        "end": 1763367622,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763367622,
         "end": 1763425827
@@ -11977,11 +11971,6 @@
     "name": "Neodork",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763355634,
-        "end": 1763368228
-      },
-      {
         "status": "[Canada] - Going",
         "start": 1763368228,
         "end": 1763370039,
@@ -12407,11 +12396,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763355634,
-        "end": 1763359828
-      },
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1763359828,
@@ -22128,12 +22112,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1763355634,
-        "end": 1763362833,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763362833,
         "end": 1763379620
@@ -26401,6 +26379,11 @@
       {
         "status": "[China] - Idle",
         "start": 1764565232,
+        "end": 1764565828
+      },
+      {
+        "status": "[China] Mugged - Revives: Partial",
+        "start": 1764565828,
         "end": null
       }
     ]
@@ -26408,12 +26391,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1763355634,
-        "end": 1763356832,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763356832,
@@ -29143,12 +29120,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Going",
-        "start": 1763355634,
-        "end": 1763366429,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763366429,
@@ -37175,12 +37146,6 @@
     "name": "RouRonin",
     "activities": [
       {
-        "status": "[Hawaii] - Returning",
-        "start": 1763355634,
-        "end": 1763361029,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Going",
         "start": 1763361029,
         "end": 1763367018,
@@ -40543,8 +40508,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1764564622,
-        "end": null,
+        "end": 1764565828,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764565828,
+        "end": null
       }
     ]
   },
@@ -41363,7 +41333,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764564622,
-        "end": null
+        "end": 1764565828
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764565828,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
