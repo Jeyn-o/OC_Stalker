@@ -1919,12 +1919,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763372423,
-        "end": 1763379034,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1763379034,
         "end": 1763385619,
@@ -2516,7 +2510,13 @@
       {
         "status": "Available",
         "start": 1764542423,
-        "end": null
+        "end": 1764582620
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764582620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18875,8 +18875,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764570627,
-        "end": null,
+        "end": 1764582620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764582620,
+        "end": null
       }
     ]
   },
@@ -19680,8 +19685,13 @@
       {
         "status": "[United Kingdom] - Returning",
         "start": 1764576037,
-        "end": null,
+        "end": 1764582620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764582620,
+        "end": null
       }
     ]
   },
@@ -25659,12 +25669,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763372423,
-        "end": 1763379034,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1763379034,
         "end": 1763385619,
@@ -29106,6 +29110,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764581429,
+        "end": 1764582620,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764582620,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -33836,12 +33846,6 @@
     "name": "DMG-",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1763372423,
-        "end": 1763383821,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763383821,
         "end": 1763388029
@@ -37083,6 +37087,12 @@
       {
         "status": "[Japan] - Going",
         "start": 1764573618,
+        "end": 1764582620,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1764582620,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37091,11 +37101,6 @@
   "3903942": {
     "name": "RouRonin",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763372423,
-        "end": 1763373023
-      },
       {
         "status": "[Hawaii] - Going",
         "start": 1763373023,
@@ -39053,12 +39058,6 @@
     "name": "Maddog1997",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763372423,
-        "end": 1763379034,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763379034,
         "end": 1763386228
@@ -40494,8 +40493,13 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764582028,
-        "end": null,
+        "end": 1764582620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764582620,
+        "end": null
       }
     ]
   },
