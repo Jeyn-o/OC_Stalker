@@ -1591,6 +1591,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764571222,
+        "end": 1764579022,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764579022,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29723,11 +29729,6 @@
     "name": "AIshen",
     "activities": [
       {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1763368823,
-        "end": 1763373634
-      },
-      {
         "status": "Available",
         "start": 1763373634,
         "end": 1763374827
@@ -35877,12 +35878,6 @@
     "name": "Akytaro",
     "activities": [
       {
-        "status": "[Argentina] - Returning",
-        "start": 1763368823,
-        "end": 1763375425,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763375425,
         "end": 1763377822
@@ -37937,6 +37932,12 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1764571222,
+        "end": 1764579022,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1764579022,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40480,7 +40481,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1764578423,
-        "end": null
+        "end": 1764579022
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1764579022,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
