@@ -2503,8 +2503,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764582620,
-        "end": null,
+        "end": 1764589824,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764589824,
+        "end": null
       }
     ]
   },
@@ -8713,7 +8718,13 @@
       {
         "status": "[United Kingdom] - Idle",
         "start": 1764563433,
-        "end": null
+        "end": 1764589824
+      },
+      {
+        "status": "[United Kingdom] - Returning",
+        "start": 1764589824,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -11940,12 +11951,6 @@
   "3026725": {
     "name": "Neodork",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1763379620,
-        "end": 1763380835,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1763380835,
@@ -22122,12 +22127,6 @@
     "name": "BadalaKingkong",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1763379620,
-        "end": 1763386228,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1763386228,
         "end": 1763392829,
@@ -25393,11 +25392,6 @@
   "3643062": {
     "name": "K3llogg",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763379620,
-        "end": 1763397622
-      },
       {
         "status": "[China] - Going",
         "start": 1763397622,
