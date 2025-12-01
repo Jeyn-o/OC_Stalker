@@ -3044,12 +3044,6 @@
     "name": "GOTOYOURHOME",
     "activities": [
       {
-        "status": "[South Africa] - Going",
-        "start": 1763340022,
-        "end": 1763352031,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[South Africa] - Idle",
         "start": 1763352031,
         "end": 1763355634
@@ -5390,12 +5384,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1763340022,
-        "end": 1763344229,
-        "travel_type": "standard"
-      },
       {
         "status": "Available",
         "start": 1763344229,
@@ -8493,12 +8481,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1763340022,
-        "end": 1763346627,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1763346627,
         "end": 1763352031
@@ -9859,11 +9841,6 @@
     "name": "joschlumpf",
     "activities": [
       {
-        "status": "[South Africa] - Idle",
-        "start": 1763340022,
-        "end": 1763353223
-      },
-      {
         "status": "[South Africa] - Returning",
         "start": 1763353223,
         "end": 1763365821,
@@ -10490,8 +10467,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764537616,
-        "end": null,
+        "end": 1764550218,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764550218,
+        "end": null
       }
     ]
   },
@@ -29155,6 +29137,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764549028,
+        "end": 1764550218,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764550218,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -41373,11 +41361,6 @@
     "name": "Icks-B",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763340022,
-        "end": 1763341233
-      },
-      {
         "status": "[China] - Going",
         "start": 1763341233,
         "end": 1763350820,
@@ -42432,8 +42415,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1764538822,
-        "end": null,
+        "end": 1764550218,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Event - Revives: OFF",
+        "start": 1764550218,
+        "end": null
       }
     ]
   },
