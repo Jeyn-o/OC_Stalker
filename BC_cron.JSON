@@ -8465,11 +8465,6 @@
     "name": "Morot",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1763346627,
-        "end": 1763352031
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1763352031,
         "end": 1763358632,
@@ -8747,7 +8742,13 @@
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1764555617,
-        "end": null
+        "end": 1764556822
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764556822,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -15777,11 +15778,6 @@
     "name": "xyicah",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763346627,
-        "end": 1763347820
-      },
-      {
         "status": "[Mexico] - Going",
         "start": 1763347820,
         "end": 1763349018,
@@ -17161,8 +17157,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1764552017,
-        "end": null,
+        "end": 1764556822,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1764556822,
+        "end": null
       }
     ]
   },
@@ -40509,8 +40510,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1764549620,
-        "end": null,
+        "end": 1764556822,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Hospital] Lost - Revives: ALL",
+        "start": 1764556822,
+        "end": null
       }
     ]
   },
