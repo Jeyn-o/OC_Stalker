@@ -17597,8 +17597,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764578423,
-        "end": null,
+        "end": 1764585624,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764585624,
+        "end": null
       }
     ]
   },
@@ -22988,11 +22993,6 @@
     "name": "For5aken",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763375425,
-        "end": 1763385019
-      },
-      {
         "status": "[China] - Going",
         "start": 1763385019,
         "end": 1763395233,
@@ -26382,7 +26382,13 @@
       {
         "status": "Available",
         "start": 1764585024,
-        "end": null
+        "end": 1764585624
+      },
+      {
+        "status": "[China] - Going",
+        "start": 1764585624,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -29113,6 +29119,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764584423,
+        "end": 1764585624,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764585624,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29723,11 +29735,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763375425,
-        "end": 1763376624
-      },
       {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763376624,
@@ -35885,11 +35892,6 @@
   "3900691": {
     "name": "Akytaro",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763375425,
-        "end": 1763377822
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1763377822,
