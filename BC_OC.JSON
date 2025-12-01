@@ -61616,7 +61616,7 @@
   "1065030": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1764749113,
+    "ready_at": 1764662713,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -61626,14 +61626,6 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": true
-      },
-      "P4": {
-        "user_id": 2655203,
-        "user_name": "FluffyVixen",
-        "checkpoint_pass_rate": 76,
-        "position": "Bomber",
-        "position_number": 1,
-        "item_available": false
       },
       "P5": {
         "user_id": 2419133,
@@ -61675,6 +61667,17 @@
         "user_name": "Jeyno",
         "checkpoint_pass_rate": 83,
         "position": "Muscle",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1764609029,
+        "action": "left",
+        "slot": "P4",
+        "user_id": 2655203,
+        "user_name": "FluffyVixen",
+        "checkpoint_pass_rate": 76,
+        "position": "Bomber",
         "position_number": 1,
         "item_available": false
       }
@@ -61802,8 +61805,8 @@
   },
   "1065112": {
     "name": "Bidding War",
-    "status": "Recruiting",
-    "ready_at": 1764775578,
+    "status": "Planning",
+    "ready_at": 1764861978,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -61845,6 +61848,13 @@
         "position": "Bomber",
         "position_number": 2,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 2655203,
+        "user_name": "FluffyVixen",
+        "checkpoint_pass_rate": 79,
+        "position": "Driver",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -61902,6 +61912,16 @@
         "position": "Bomber",
         "position_number": 2,
         "item_available": true
+      },
+      {
+        "timestamp": 1764609029,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2655203,
+        "user_name": "FluffyVixen",
+        "checkpoint_pass_rate": 79,
+        "position": "Driver",
+        "position_number": 1
       }
     ]
   },
