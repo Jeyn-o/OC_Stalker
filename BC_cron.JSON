@@ -1919,11 +1919,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Idle",
-        "start": 1763385619,
-        "end": 1763386228
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1763386228,
         "end": 1763392829,
@@ -6475,7 +6470,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764575418,
-        "end": null
+        "end": 1764595832
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764595832,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -18873,8 +18874,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1764583234,
-        "end": null,
+        "end": 1764595832,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764595832,
+        "end": null
       }
     ]
   },
@@ -25658,12 +25664,6 @@
     "name": "jonasgrind",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763385619,
-        "end": 1763392226,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763392226,
         "end": 1763392829
@@ -26390,6 +26390,12 @@
       {
         "status": "[China] - Going",
         "start": 1764585624,
+        "end": 1764595832,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764595832,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29141,12 +29147,6 @@
   "3703949": {
     "name": "Downtowndave20",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1763385619,
-        "end": 1763397029,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763397029,
