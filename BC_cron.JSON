@@ -2595,11 +2595,6 @@
     "name": "Savoie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763349622,
-        "end": 1763853626
-      },
-      {
         "status": "[Hospital] Event - Revives: OFF",
         "start": 1763853626,
         "end": 1763857223
@@ -5369,11 +5364,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1763349622,
-        "end": 1763353223
-      },
-      {
         "status": "[China] - Returning",
         "start": 1763353223,
         "end": 1763358037,
@@ -7467,8 +7457,13 @@
       {
         "status": "[Switzerland] - Returning",
         "start": 1764552628,
-        "end": null,
+        "end": 1764559830,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764559830,
+        "end": null
       }
     ]
   },
@@ -17623,7 +17618,13 @@
       {
         "status": "[Japan] - Idle",
         "start": 1764558033,
-        "end": null
+        "end": 1764559830
+      },
+      {
+        "status": "[Japan] - Returning",
+        "start": 1764559830,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18877,6 +18878,12 @@
       {
         "status": "[China] - Going",
         "start": 1764549028,
+        "end": 1764559830,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764559830,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -29122,6 +29129,12 @@
       {
         "status": "[Mexico] - Returning",
         "start": 1764558621,
+        "end": 1764559830,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Going",
+        "start": 1764559830,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37176,11 +37189,6 @@
     "name": "RouRonin",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763349622,
-        "end": 1763350227
-      },
-      {
         "status": "[Hawaii] - Going",
         "start": 1763350227,
         "end": 1763355634,
@@ -39138,11 +39146,6 @@
     "name": "Maddog1997",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763349622,
-        "end": 1763350227
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1763350227,
         "end": 1763356832,
@@ -40526,6 +40529,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764558033,
+        "end": 1764559830,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764559830,
         "end": null,
         "travel_type": "airstrip"
       }
