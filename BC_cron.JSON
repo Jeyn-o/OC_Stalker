@@ -1934,12 +1934,6 @@
     "name": "Top",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1763365228,
-        "end": 1763372423,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Returning",
         "start": 1763372423,
         "end": 1763379034,
@@ -6487,8 +6481,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764570021,
-        "end": null,
+        "end": 1764575418,
         "travel_type": "standard"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764575418,
+        "end": null
       }
     ]
   },
@@ -10458,8 +10457,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1764563433,
-        "end": null,
+        "end": 1764575418,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764575418,
+        "end": null
       }
     ]
   },
@@ -14897,12 +14901,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1763365228,
-        "end": 1763371829,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763371829,
@@ -19711,11 +19709,6 @@
     "name": "shrigma",
     "activities": [
       {
-        "status": "[Switzerland] - Idle",
-        "start": 1763365228,
-        "end": 1763365821
-      },
-      {
         "status": "[Switzerland] - Returning",
         "start": 1763365821,
         "end": 1763373023,
@@ -20917,6 +20910,12 @@
       {
         "status": "[Canada] - Returning",
         "start": 1764573618,
+        "end": 1764575418,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764575418,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -25423,11 +25422,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[United Arab Emirates] Mugged - Revives: ALL",
-        "start": 1763365228,
-        "end": 1763367018
-      },
-      {
         "status": "[United Arab Emirates] - Idle",
         "start": 1763367018,
         "end": 1763368228
@@ -25703,12 +25697,6 @@
   "3656242": {
     "name": "jonasgrind",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1763365228,
-        "end": 1763371829,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763371829,
@@ -26443,7 +26431,13 @@
       {
         "status": "[China] - Idle",
         "start": 1764574821,
-        "end": null
+        "end": 1764575418
+      },
+      {
+        "status": "[China] - Returning",
+        "start": 1764575418,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32470,11 +32464,6 @@
     "name": "Lev_Bron",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763365228,
-        "end": 1763395233
-      },
-      {
         "status": "[United Kingdom] - Going",
         "start": 1763395233,
         "end": 1763401824,
@@ -34949,11 +34938,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763365228,
-        "end": 1763369421
-      },
       {
         "status": "[Hospital] Event - Revives: ALL",
         "start": 1763369421,
@@ -39100,11 +39084,6 @@
   "3943448": {
     "name": "Maddog1997",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763365228,
-        "end": 1763365821
-      },
       {
         "status": "[United Kingdom] - Going",
         "start": 1763365821,
