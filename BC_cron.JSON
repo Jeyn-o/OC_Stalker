@@ -271,11 +271,6 @@
     "name": "Excaliber_13",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763345418,
-        "end": 1763346019
-      },
-      {
         "status": "[South Africa] - Going",
         "start": 1763346019,
         "end": 1763358037,
@@ -4653,12 +4648,6 @@
     "name": "BoozHound",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763345418,
-        "end": 1763350227,
-        "travel_type": "private"
-      },
-      {
         "status": "Available",
         "start": 1763350227,
         "end": 1763393431
@@ -5395,12 +5384,6 @@
   "2335586": {
     "name": "Poundthatass",
     "activities": [
-      {
-        "status": "[China] - Going",
-        "start": 1763345418,
-        "end": 1763349622,
-        "travel_type": "standard"
-      },
       {
         "status": "[China] - Idle",
         "start": 1763349622,
@@ -8770,6 +8753,11 @@
       {
         "status": "Available",
         "start": 1764526819,
+        "end": 1764555617
+      },
+      {
+        "status": "[Hospital] Event - Revives: ALL",
+        "start": 1764555617,
         "end": null
       }
     ]
@@ -12431,6 +12419,11 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1764553826,
+        "end": 1764555617
+      },
+      {
+        "status": "Available",
+        "start": 1764555617,
         "end": null
       }
     ]
@@ -20932,6 +20925,11 @@
       {
         "status": "[South Africa] Mugged - Revives: Partial",
         "start": 1764553222,
+        "end": 1764555617
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764555617,
         "end": null
       }
     ]
@@ -42420,7 +42418,13 @@
       {
         "status": "Available",
         "start": 1764550837,
-        "end": null
+        "end": 1764555617
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764555617,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
