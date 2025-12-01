@@ -10811,12 +10811,6 @@
     "name": "Nitrx",
     "activities": [
       {
-        "status": "[Cayman Islands] - Returning",
-        "start": 1763373023,
-        "end": 1763374827,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763374827,
         "end": 1763383821
@@ -18881,7 +18875,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764582620,
-        "end": null
+        "end": 1764583234
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764583234,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -19698,11 +19698,6 @@
   "3348136": {
     "name": "shrigma",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763373023,
-        "end": 1763435424
-      },
       {
         "status": "[Canada] - Going",
         "start": 1763435424,
@@ -32168,8 +32163,13 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1764582028,
-        "end": null,
+        "end": 1764583234,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764583234,
+        "end": null
       }
     ]
   },
@@ -37101,12 +37101,6 @@
   "3903942": {
     "name": "RouRonin",
     "activities": [
-      {
-        "status": "[Hawaii] - Going",
-        "start": 1763373023,
-        "end": 1763378424,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Hawaii] - Returning",
         "start": 1763378424,
