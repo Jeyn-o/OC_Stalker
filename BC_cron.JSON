@@ -9802,8 +9802,13 @@
       {
         "status": "[South Africa] - Going",
         "start": 1764549620,
-        "end": null,
+        "end": 1764561630,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[South Africa] - Idle",
+        "start": 1764561630,
+        "end": null
       }
     ]
   },
@@ -17121,7 +17126,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1764561024,
-        "end": null
+        "end": 1764561630
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1764561630,
+        "end": null,
+        "travel_type": "standard"
       }
     ]
   },
@@ -29740,7 +29751,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1764559220,
-        "end": null
+        "end": 1764561630
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764561630,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -34973,11 +34990,6 @@
   "3877112": {
     "name": "McJoey",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1763351419,
-        "end": 1763352031
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1763352031,
