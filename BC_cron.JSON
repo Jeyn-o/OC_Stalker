@@ -1699,11 +1699,6 @@
     "name": "Droq",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763371226,
-        "end": 1763608220
-      },
-      {
         "status": "Jail",
         "start": 1763608220,
         "end": 1763637026
@@ -4012,7 +4007,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764580820,
-        "end": null
+        "end": 1764581429
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764581429,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12389,11 +12390,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1763371226,
-        "end": 1763376023
-      },
-      {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763376023,
         "end": 1763387421,
@@ -13259,7 +13255,13 @@
       {
         "status": "Available",
         "start": 1764580226,
-        "end": null
+        "end": 1764581429
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764581429,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25241,8 +25243,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1764571824,
-        "end": null,
+        "end": 1764581429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1764581429,
+        "end": null
       }
     ]
   },
@@ -29120,6 +29127,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764580226,
+        "end": 1764581429,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764581429,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -32161,8 +32174,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764580226,
-        "end": null,
+        "end": 1764581429,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1764581429,
+        "end": null
       }
     ]
   },
