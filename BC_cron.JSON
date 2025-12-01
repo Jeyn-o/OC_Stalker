@@ -1046,12 +1046,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Going",
-        "start": 1763361029,
-        "end": 1763367622,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[United Kingdom] - Idle",
         "start": 1763367622,
         "end": 1763368228
@@ -1603,7 +1597,13 @@
       {
         "status": "Available",
         "start": 1764538822,
-        "end": null
+        "end": 1764571222
+      },
+      {
+        "status": "[Switzerland] - Going",
+        "start": 1764571222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -12303,7 +12303,13 @@
       {
         "status": "[Canada] - Idle",
         "start": 1764553222,
-        "end": null
+        "end": 1764571222
+      },
+      {
+        "status": "[Canada] - Returning",
+        "start": 1764571222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -18964,12 +18970,6 @@
   "3343429": {
     "name": "Znowhite",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1763361029,
-        "end": 1763362224,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763362224,
@@ -26387,6 +26387,11 @@
       {
         "status": "[China] - Idle",
         "start": 1764568223,
+        "end": 1764571222
+      },
+      {
+        "status": "[China] Mugged - Revives: Partial",
+        "start": 1764571222,
         "end": null
       }
     ]
@@ -29709,11 +29714,6 @@
   "3759168": {
     "name": "AIshen",
     "activities": [
-      {
-        "status": "[Canada] Attacked - Revives: OFF",
-        "start": 1763361029,
-        "end": 1763362224
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1763362224,
@@ -33482,7 +33482,13 @@
       {
         "status": "Available",
         "start": 1764535219,
-        "end": null
+        "end": 1764571222
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764571222,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -37134,12 +37140,6 @@
     "name": "RouRonin",
     "activities": [
       {
-        "status": "[Hawaii] - Going",
-        "start": 1763361029,
-        "end": 1763367018,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Hawaii] - Returning",
         "start": 1763367018,
         "end": 1763372423,
@@ -37976,6 +37976,12 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764564026,
+        "end": 1764571222,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Returning",
+        "start": 1764571222,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -41345,11 +41351,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763361029,
-        "end": 1763362833
-      },
       {
         "status": "[Argentina] - Going",
         "start": 1763362833,
