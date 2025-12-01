@@ -8823,11 +8823,6 @@
     "name": "BattlePrincess",
     "activities": [
       {
-        "status": "[Hospital] Attacked - Revives: OFF",
-        "start": 1763350820,
-        "end": 1763352031
-      },
-      {
         "status": "Available",
         "start": 1763352031,
         "end": 1763425218
@@ -12412,11 +12407,6 @@
   "3116621": {
     "name": "BBCliff",
     "activities": [
-      {
-        "status": "[Cayman Islands] Mugged - Revives: Partial",
-        "start": 1763350820,
-        "end": 1763353223
-      },
       {
         "status": "[Cayman Islands] - Idle",
         "start": 1763353223,
@@ -17125,8 +17115,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1764560421,
-        "end": null,
+        "end": 1764561024,
         "travel_type": "standard"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1764561024,
+        "end": null
       }
     ]
   },
@@ -29131,6 +29126,12 @@
       {
         "status": "[Mexico] - Going",
         "start": 1764559830,
+        "end": 1764561024,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Mexico] - Returning",
+        "start": 1764561024,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -37182,7 +37183,13 @@
       {
         "status": "Available",
         "start": 1764553826,
-        "end": null
+        "end": 1764561024
+      },
+      {
+        "status": "[Hawaii] - Going",
+        "start": 1764561024,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -38641,6 +38648,11 @@
       {
         "status": "[United Kingdom] Mugged - Revives: ALL",
         "start": 1764558621,
+        "end": 1764561024
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764561024,
         "end": null
       }
     ]
@@ -39132,6 +39144,12 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1764549620,
+        "end": 1764561024,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764561024,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40524,20 +40542,19 @@
       {
         "status": "[Cayman Islands] - Returning",
         "start": 1764559830,
-        "end": null,
+        "end": 1764561024,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764561024,
+        "end": null
       }
     ]
   },
   "3945856": {
     "name": "Rey2Fly",
     "activities": [
-      {
-        "status": "[South Africa] - Returning",
-        "start": 1763350820,
-        "end": 1763363421,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763363421,
@@ -41352,12 +41369,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1763350820,
-        "end": 1763361029,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763361029,
@@ -43237,7 +43248,13 @@
       {
         "status": "Available",
         "start": 1764532222,
-        "end": null
+        "end": 1764561024
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1764561024,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
