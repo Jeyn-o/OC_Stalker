@@ -1575,8 +1575,13 @@
       {
         "status": "[United Kingdom] - Going",
         "start": 1764594034,
-        "end": null,
+        "end": 1764600622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Kingdom] - Idle",
+        "start": 1764600622,
+        "end": null
       }
     ]
   },
@@ -5259,8 +5264,13 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764599429,
-        "end": null,
+        "end": 1764600622,
         "travel_type": "private"
+      },
+      {
+        "status": "[Cayman Islands] - Idle",
+        "start": 1764600622,
+        "end": null
       }
     ]
   },
@@ -6465,8 +6475,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1764595832,
-        "end": null,
+        "end": 1764600622,
         "travel_type": "standard"
+      },
+      {
+        "status": "Available",
+        "start": 1764600622,
+        "end": null
       }
     ]
   },
@@ -8143,8 +8158,13 @@
       {
         "status": "[Argentina] - Returning",
         "start": 1764594034,
-        "end": null,
+        "end": 1764600622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764600622,
+        "end": null
       }
     ]
   },
@@ -10437,8 +10457,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1764589226,
-        "end": null,
+        "end": 1764600622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764600622,
+        "end": null
       }
     ]
   },
@@ -11940,12 +11965,6 @@
   "3026725": {
     "name": "Neodork",
     "activities": [
-      {
-        "status": "[Canada] - Returning",
-        "start": 1763390421,
-        "end": 1763392226,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763392226,
@@ -13696,8 +13715,13 @@
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1764589226,
-        "end": null,
+        "end": 1764600622,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764600622,
+        "end": null
       }
     ]
   },
@@ -14819,12 +14843,6 @@
   "3178876": {
     "name": "Khallie",
     "activities": [
-      {
-        "status": "[United Kingdom] - Going",
-        "start": 1763390421,
-        "end": 1763397029,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[United Kingdom] - Idle",
         "start": 1763397029,
@@ -29687,7 +29705,13 @@
       {
         "status": "[United Arab Emirates] - Idle",
         "start": 1764598226,
-        "end": null
+        "end": 1764600622
+      },
+      {
+        "status": "[United Arab Emirates] - Returning",
+        "start": 1764600622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -32180,7 +32204,13 @@
       {
         "status": "Available",
         "start": 1764599429,
-        "end": null
+        "end": 1764600622
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1764600622,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -42458,6 +42488,11 @@
       {
         "status": "[Hospital] Hospitalized - Revives: OFF",
         "start": 1764600025,
+        "end": 1764600622
+      },
+      {
+        "status": "Available",
+        "start": 1764600622,
         "end": null
       }
     ]
