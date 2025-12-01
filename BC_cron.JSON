@@ -2595,11 +2595,6 @@
     "name": "Savoie",
     "activities": [
       {
-        "status": "[Hospital] Lost - Revives: ALL",
-        "start": 1763349018,
-        "end": 1763349622
-      },
-      {
         "status": "Available",
         "start": 1763349622,
         "end": 1763853626
@@ -12428,12 +12423,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "[Cayman Islands] - Going",
-        "start": 1763349018,
-        "end": 1763350820,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "[Cayman Islands] Mugged - Revives: Partial",
         "start": 1763350820,
         "end": 1763353223
@@ -15772,12 +15761,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Mexico] - Returning",
-        "start": 1763349018,
-        "end": 1763350227,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763350227,
@@ -20919,7 +20902,13 @@
       {
         "status": "[South Africa] - Idle",
         "start": 1764555617,
-        "end": null
+        "end": 1764559220
+      },
+      {
+        "status": "[South Africa] - Returning",
+        "start": 1764559220,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -22145,11 +22134,6 @@
   "3476243": {
     "name": "BadalaKingkong",
     "activities": [
-      {
-        "status": "[Argentina] - Idle",
-        "start": 1763349018,
-        "end": 1763355634
-      },
       {
         "status": "[Argentina] - Returning",
         "start": 1763355634,
@@ -24297,8 +24281,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1764546623,
-        "end": null,
+        "end": 1764559220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764559220,
+        "end": null
       }
     ]
   },
@@ -26422,11 +26411,6 @@
   "3679190": {
     "name": "RubyFalls",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763349018,
-        "end": 1763352031
-      },
       {
         "status": "[Mexico] - Going",
         "start": 1763352031,
@@ -29740,8 +29724,13 @@
       {
         "status": "[United Arab Emirates] - Going",
         "start": 1764547825,
-        "end": null,
+        "end": 1764559220,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[United Arab Emirates] - Idle",
+        "start": 1764559220,
+        "end": null
       }
     ]
   },
