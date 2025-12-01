@@ -2590,11 +2590,6 @@
     "name": "Savoie",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763339426,
-        "end": 1763349018
-      },
-      {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1763349018,
         "end": 1763349622
@@ -2637,6 +2632,11 @@
       {
         "status": "[Hospital] Attacked - Revives: ALL",
         "start": 1764549028,
+        "end": 1764549620
+      },
+      {
+        "status": "Available",
+        "start": 1764549620,
         "end": null
       }
     ]
@@ -3043,11 +3043,6 @@
   "2069227": {
     "name": "GOTOYOURHOME",
     "activities": [
-      {
-        "status": "Available",
-        "start": 1763339426,
-        "end": 1763340022
-      },
       {
         "status": "[South Africa] - Going",
         "start": 1763340022,
@@ -5396,11 +5391,6 @@
     "name": "Poundthatass",
     "activities": [
       {
-        "status": "[China] - Idle",
-        "start": 1763339426,
-        "end": 1763340022
-      },
-      {
         "status": "[China] - Returning",
         "start": 1763340022,
         "end": 1763344229,
@@ -7500,8 +7490,13 @@
       {
         "status": "[Switzerland] - Going",
         "start": 1764541831,
-        "end": null,
+        "end": 1764549620,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Switzerland] - Idle",
+        "start": 1764549620,
+        "end": null
       }
     ]
   },
@@ -9850,7 +9845,13 @@
       {
         "status": "Available",
         "start": 1764547825,
-        "end": null
+        "end": 1764549620
+      },
+      {
+        "status": "[South Africa] - Going",
+        "start": 1764549620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -13870,12 +13871,6 @@
   "3160215": {
     "name": "Anri_of_Astora",
     "activities": [
-      {
-        "status": "[China] - Returning",
-        "start": 1763339426,
-        "end": 1763350227,
-        "travel_type": "airstrip"
-      },
       {
         "status": "Available",
         "start": 1763350227,
@@ -32230,6 +32225,11 @@
       {
         "status": "Available",
         "start": 1764534027,
+        "end": 1764549620
+      },
+      {
+        "status": "[Hospital] Mugged - Revives: OFF",
+        "start": 1764549620,
         "end": null
       }
     ]
@@ -33911,11 +33911,6 @@
   "3852779": {
     "name": "DMG-",
     "activities": [
-      {
-        "status": "[United Arab Emirates] - Idle",
-        "start": 1763339426,
-        "end": 1763341233
-      },
       {
         "status": "[United Arab Emirates] - Returning",
         "start": 1763341233,
@@ -39153,7 +39148,13 @@
       {
         "status": "Available",
         "start": 1764535823,
-        "end": null
+        "end": 1764549620
+      },
+      {
+        "status": "[United Arab Emirates] - Going",
+        "start": 1764549620,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -40538,6 +40539,12 @@
       {
         "status": "[Argentina] - Going",
         "start": 1764542423,
+        "end": 1764549620,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Argentina] - Returning",
+        "start": 1764549620,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -41365,11 +41372,6 @@
   "3967366": {
     "name": "Icks-B",
     "activities": [
-      {
-        "status": "[Hospital] Event - Revives: OFF",
-        "start": 1763339426,
-        "end": 1763340022
-      },
       {
         "status": "Available",
         "start": 1763340022,
@@ -42438,11 +42440,6 @@
   "3973984": {
     "name": "ssodon",
     "activities": [
-      {
-        "status": "[Hospital] Mugged - Revives: ALL",
-        "start": 1763339426,
-        "end": 1763341821
-      },
       {
         "status": "Available",
         "start": 1763341821,
