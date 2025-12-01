@@ -1046,12 +1046,6 @@
     "name": "Bucki",
     "activities": [
       {
-        "status": "[United Kingdom] - Returning",
-        "start": 1763368228,
-        "end": 1763374827,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763374827,
         "end": 1763383225
@@ -11828,11 +11822,6 @@
     "name": "Stevan01",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763368228,
-        "end": 1763376624
-      },
-      {
         "status": "[United Arab Emirates] - Going",
         "start": 1763376624,
         "end": 1763388625,
@@ -11965,12 +11954,6 @@
   "3026725": {
     "name": "Neodork",
     "activities": [
-      {
-        "status": "[Canada] - Going",
-        "start": 1763368228,
-        "end": 1763370039,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Canada] - Idle",
         "start": 1763370039,
@@ -17648,7 +17631,13 @@
       {
         "status": "Available",
         "start": 1764569425,
-        "end": null
+        "end": 1764578423
+      },
+      {
+        "status": "[United Kingdom] - Going",
+        "start": 1764578423,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
@@ -25418,12 +25407,6 @@
     "name": "K3llogg",
     "activities": [
       {
-        "status": "[United Arab Emirates] - Returning",
-        "start": 1763368228,
-        "end": 1763379620,
-        "travel_type": "airstrip"
-      },
-      {
         "status": "Available",
         "start": 1763379620,
         "end": 1763397622
@@ -32163,6 +32146,12 @@
       {
         "status": "[Cayman Islands] - Going",
         "start": 1764576623,
+        "end": 1764578423,
+        "travel_type": "airstrip"
+      },
+      {
+        "status": "[Cayman Islands] - Returning",
+        "start": 1764578423,
         "end": null,
         "travel_type": "airstrip"
       }
@@ -40485,8 +40474,13 @@
       {
         "status": "[Canada] - Going",
         "start": 1764576623,
-        "end": null,
+        "end": 1764578423,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Canada] - Idle",
+        "start": 1764578423,
+        "end": null
       }
     ]
   },
