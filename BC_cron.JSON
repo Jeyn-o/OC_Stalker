@@ -12428,11 +12428,6 @@
     "name": "BBCliff",
     "activities": [
       {
-        "status": "Available",
-        "start": 1763347820,
-        "end": 1763349018
-      },
-      {
         "status": "[Cayman Islands] - Going",
         "start": 1763349018,
         "end": 1763350820,
@@ -14392,8 +14387,13 @@
       {
         "status": "[South Africa] - Returning",
         "start": 1764546025,
-        "end": null,
+        "end": 1764558033,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "Available",
+        "start": 1764558033,
+        "end": null
       }
     ]
   },
@@ -15777,12 +15777,6 @@
   "3193353": {
     "name": "xyicah",
     "activities": [
-      {
-        "status": "[Mexico] - Going",
-        "start": 1763347820,
-        "end": 1763349018,
-        "travel_type": "airstrip"
-      },
       {
         "status": "[Mexico] - Returning",
         "start": 1763349018,
@@ -17645,8 +17639,13 @@
       {
         "status": "[Japan] - Going",
         "start": 1764549028,
-        "end": null,
+        "end": 1764558033,
         "travel_type": "airstrip"
+      },
+      {
+        "status": "[Japan] - Idle",
+        "start": 1764558033,
+        "end": null
       }
     ]
   },
@@ -40527,7 +40526,13 @@
       {
         "status": "[Hospital] Lost - Revives: ALL",
         "start": 1764556822,
-        "end": null
+        "end": 1764558033
+      },
+      {
+        "status": "[Cayman Islands] - Going",
+        "start": 1764558033,
+        "end": null,
+        "travel_type": "airstrip"
       }
     ]
   },
