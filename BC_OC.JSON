@@ -60803,9 +60803,9 @@
   },
   "1058214": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1764687779,
-    "executed_at": null,
+    "executed_at": 1764687784,
     "slots": {
       "P3": {
         "user_id": 1184733,
@@ -61656,8 +61656,8 @@
   },
   "1065030": {
     "name": "Blast from the Past",
-    "status": "Recruiting",
-    "ready_at": 1764929313,
+    "status": "Planning",
+    "ready_at": 1765015713,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -61695,6 +61695,14 @@
         "user_name": "Ronskip",
         "checkpoint_pass_rate": 72,
         "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 914683,
+        "user_name": "Droq",
+        "checkpoint_pass_rate": 75,
+        "position": "Bomber",
         "position_number": 1,
         "item_available": true
       }
@@ -61772,6 +61780,17 @@
         "user_name": "Ronskip",
         "checkpoint_pass_rate": 72,
         "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1764688228,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 914683,
+        "user_name": "Droq",
+        "checkpoint_pass_rate": 75,
+        "position": "Bomber",
         "position_number": 1,
         "item_available": true
       }
@@ -62392,7 +62411,7 @@
   "1068384": {
     "name": "Mob Mentality",
     "status": "Recruiting",
-    "ready_at": 1764639051,
+    "ready_at": 1764774505,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -62410,6 +62429,13 @@
         "position": "Looter",
         "position_number": 3,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3945856,
+        "user_name": "Rey2Fly",
+        "checkpoint_pass_rate": 88,
+        "position": "Looter",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -62434,6 +62460,16 @@
         "position": "Looter",
         "position_number": 3,
         "item_available": true
+      },
+      {
+        "timestamp": 1764688228,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3945856,
+        "user_name": "Rey2Fly",
+        "checkpoint_pass_rate": 88,
+        "position": "Looter",
+        "position_number": 2
       }
     ]
   },
