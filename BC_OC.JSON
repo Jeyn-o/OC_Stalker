@@ -61648,8 +61648,8 @@
   },
   "1065029": {
     "name": "Blast from the Past",
-    "status": "Recruiting",
-    "ready_at": 1765109932,
+    "status": "Planning",
+    "ready_at": 1765196332,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -61687,6 +61687,14 @@
         "user_name": "Theurgy",
         "checkpoint_pass_rate": 74,
         "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 2289809,
+        "user_name": "Murder_Hobo",
+        "checkpoint_pass_rate": 63,
+        "position": "Bomber",
         "position_number": 1,
         "item_available": true
       }
@@ -61742,6 +61750,17 @@
         "user_name": "Theurgy",
         "checkpoint_pass_rate": 74,
         "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1764730224,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2289809,
+        "user_name": "Murder_Hobo",
+        "checkpoint_pass_rate": 63,
+        "position": "Bomber",
         "position_number": 1,
         "item_available": true
       }
@@ -63204,10 +63223,29 @@
   "1080897": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1764816365,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 2671530,
+        "user_name": "windyswag",
+        "checkpoint_pass_rate": 77,
+        "position": "Picklock",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1764730224,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2671530,
+        "user_name": "windyswag",
+        "checkpoint_pass_rate": 77,
+        "position": "Picklock",
+        "position_number": 1
+      }
+    ]
   },
   "1080898": {
     "name": "Break the Bank",
