@@ -62728,9 +62728,9 @@
   },
   "1069472": {
     "name": "Sneaky Git Grab",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1764781877,
-    "executed_at": null,
+    "executed_at": 1764781924,
     "slots": {
       "P2": {
         "user_id": 3343429,
@@ -62989,7 +62989,7 @@
   "1072247": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": 1765060529,
+    "ready_at": 1765146929,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -63023,6 +63023,14 @@
         "position": "Bomber",
         "position_number": 2,
         "item_available": false
+      },
+      "P5": {
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 74,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -63069,6 +63077,17 @@
         "position": "Bomber",
         "position_number": 2,
         "item_available": false
+      },
+      {
+        "timestamp": 1764782425,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 74,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
