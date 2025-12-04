@@ -63094,13 +63094,12 @@
     "ready_at": 1764953128,
     "executed_at": null,
     "slots": {
-      "P1": {
+      "P2": {
         "user_id": 2655203,
         "user_name": "FluffyVixen",
-        "checkpoint_pass_rate": 84,
-        "position": "Robber",
-        "position_number": 1,
-        "item_available": true
+        "checkpoint_pass_rate": 79,
+        "position": "Driver",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -63114,6 +63113,27 @@
         "position": "Robber",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1764867642,
+        "action": "left",
+        "slot": "P1",
+        "user_id": 2655203,
+        "user_name": "FluffyVixen",
+        "checkpoint_pass_rate": 84,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1764867642,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2655203,
+        "user_name": "FluffyVixen",
+        "checkpoint_pass_rate": 79,
+        "position": "Driver",
+        "position_number": 1
       }
     ]
   },
@@ -63727,8 +63747,8 @@
   },
   "1081892": {
     "name": "Stage Fright",
-    "status": "Recruiting",
-    "ready_at": 1765235882,
+    "status": "Planning",
+    "ready_at": 1765322282,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -63766,6 +63786,13 @@
         "checkpoint_pass_rate": 84,
         "position": "Sniper",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 3028402,
+        "user_name": "Benji_beanz",
+        "checkpoint_pass_rate": 81,
+        "position": "Muscle",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -63819,6 +63846,16 @@
         "checkpoint_pass_rate": 84,
         "position": "Sniper",
         "position_number": 1
+      },
+      {
+        "timestamp": 1764867642,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3028402,
+        "user_name": "Benji_beanz",
+        "checkpoint_pass_rate": 81,
+        "position": "Muscle",
+        "position_number": 2
       }
     ]
   },
