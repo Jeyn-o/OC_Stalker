@@ -63619,9 +63619,9 @@
   },
   "1078747": {
     "name": "Cash Me if You Can",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1764974869,
-    "executed_at": null,
+    "executed_at": 1764974886,
     "slots": {
       "P3": {
         "user_id": 3977638,
@@ -63684,8 +63684,8 @@
   },
   "1080897": {
     "name": "Blast from the Past",
-    "status": "Recruiting",
-    "ready_at": 1765161965,
+    "status": "Planning",
+    "ready_at": 1765248365,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -63723,6 +63723,14 @@
         "user_name": "TsanMan",
         "checkpoint_pass_rate": 75,
         "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 14922,
+        "user_name": "Charbon",
+        "checkpoint_pass_rate": 64,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
@@ -63780,6 +63788,17 @@
         "position": "Muscle",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1764975027,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 14922,
+        "user_name": "Charbon",
+        "checkpoint_pass_rate": 64,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
