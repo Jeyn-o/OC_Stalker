@@ -63251,9 +63251,9 @@
   },
   "1072247": {
     "name": "Bidding War",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1765233329,
-    "executed_at": null,
+    "executed_at": 1765233364,
     "slots": {
       "P3": {
         "user_id": 2154655,
@@ -65590,9 +65590,26 @@
   "1098636": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": 1765312206,
+    "ready_at": 1765406230,
     "executed_at": null,
-    "slots": {},
+    "slots": {
+      "P3": {
+        "user_id": 2154655,
+        "user_name": "Khana",
+        "checkpoint_pass_rate": 75,
+        "position": "Robber",
+        "position_number": 2,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 3301215,
+        "user_name": "Semykreen",
+        "checkpoint_pass_rate": 74,
+        "position": "Robber",
+        "position_number": 3,
+        "item_available": true
+      }
+    },
     "action_log": [
       {
         "timestamp": 1765225829,
@@ -65614,6 +65631,28 @@
         "checkpoint_pass_rate": 65,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1765233628,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2154655,
+        "user_name": "Khana",
+        "checkpoint_pass_rate": 75,
+        "position": "Robber",
+        "position_number": 2,
+        "item_available": true
+      },
+      {
+        "timestamp": 1765233628,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3301215,
+        "user_name": "Semykreen",
+        "checkpoint_pass_rate": 74,
+        "position": "Robber",
+        "position_number": 3,
         "item_available": true
       }
     ]
