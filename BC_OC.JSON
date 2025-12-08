@@ -63108,7 +63108,7 @@
   "1070561": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": 1765212328,
+    "ready_at": 1765298728,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -63140,6 +63140,14 @@
         "checkpoint_pass_rate": 66,
         "position": "Robber",
         "position_number": 2,
+        "item_available": true
+      },
+      "P5": {
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 67,
+        "position": "Bomber",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -63207,6 +63215,17 @@
         "checkpoint_pass_rate": 66,
         "position": "Robber",
         "position_number": 2,
+        "item_available": true
+      },
+      {
+        "timestamp": 1765178422,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 67,
+        "position": "Bomber",
+        "position_number": 1,
         "item_available": true
       }
     ]
@@ -65041,13 +65060,13 @@
     "ready_at": 1765264182,
     "executed_at": null,
     "slots": {
-      "P4": {
+      "P1": {
         "user_id": 2675301,
         "user_name": "ExiledAstronaut",
         "checkpoint_pass_rate": 69,
-        "position": "Cleaner",
+        "position": "Imitator",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -65061,6 +65080,28 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1765178422,
+        "action": "left",
+        "slot": "P4",
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 69,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1765178422,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 69,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
