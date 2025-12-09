@@ -63741,9 +63741,9 @@
   },
   "1080897": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1765248365,
-    "executed_at": null,
+    "executed_at": 1765248425,
     "slots": {
       "P1": {
         "user_id": 2671530,
@@ -65487,7 +65487,7 @@
   "1097613": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1765461125,
+    "ready_at": 1765547525,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -65513,6 +65513,14 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": false
+      },
+      "P3": {
+        "user_id": 14922,
+        "user_name": "Charbon",
+        "checkpoint_pass_rate": 64,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -65548,6 +65556,17 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1765248622,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 14922,
+        "user_name": "Charbon",
+        "checkpoint_pass_rate": 64,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -65617,8 +65636,8 @@
   },
   "1097617": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1765411133,
+    "status": "Planning",
+    "ready_at": 1765497533,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -65634,6 +65653,14 @@
         "checkpoint_pass_rate": 76,
         "position": "Enforcer",
         "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 3139132,
+        "user_name": "JuanPaulo",
+        "checkpoint_pass_rate": 67,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -65657,6 +65684,17 @@
         "checkpoint_pass_rate": 76,
         "position": "Enforcer",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1765248622,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3139132,
+        "user_name": "JuanPaulo",
+        "checkpoint_pass_rate": 67,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     ]
