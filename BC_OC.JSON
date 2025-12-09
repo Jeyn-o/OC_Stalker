@@ -65071,10 +65071,29 @@
   "1088081": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1765344348,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 78,
+        "position": "Pickpocket",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1765258230,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 78,
+        "position": "Pickpocket",
+        "position_number": 1
+      }
+    ]
   },
   "1088082": {
     "name": "No Reserve",
@@ -65252,7 +65271,7 @@
   "1090119": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1765422050,
+    "ready_at": 1765508450,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -65267,6 +65286,14 @@
         "user_name": "joschlumpf",
         "checkpoint_pass_rate": 70,
         "position": "Assassin",
+        "position_number": 1,
+        "item_available": false
+      },
+      "P4": {
+        "user_id": 2679269,
+        "user_name": "TsanMan",
+        "checkpoint_pass_rate": 67,
+        "position": "Cleaner",
         "position_number": 1,
         "item_available": false
       }
@@ -65290,6 +65317,17 @@
         "user_name": "joschlumpf",
         "checkpoint_pass_rate": 70,
         "position": "Assassin",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1765258230,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2679269,
+        "user_name": "TsanMan",
+        "checkpoint_pass_rate": 67,
+        "position": "Cleaner",
         "position_number": 1,
         "item_available": false
       }
