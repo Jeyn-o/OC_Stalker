@@ -63861,9 +63861,9 @@
   },
   "1080898": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1765392792,
-    "executed_at": null,
+    "executed_at": 1765400704,
     "slots": {
       "P3": {
         "user_id": 2080816,
@@ -64353,8 +64353,8 @@
   },
   "1081894": {
     "name": "Gaslight the Way",
-    "status": "Recruiting",
-    "ready_at": 1765454149,
+    "status": "Planning",
+    "ready_at": 1765540549,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -64393,6 +64393,14 @@
         "checkpoint_pass_rate": 84,
         "position": "Looter",
         "position_number": 1
+      },
+      "P5": {
+        "user_id": 3028402,
+        "user_name": "Benji_beanz",
+        "checkpoint_pass_rate": 87,
+        "position": "Imitator",
+        "position_number": 3,
+        "item_available": true
       }
     },
     "action_log": [
@@ -64489,6 +64497,17 @@
         "checkpoint_pass_rate": 84,
         "position": "Looter",
         "position_number": 1
+      },
+      {
+        "timestamp": 1765401039,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3028402,
+        "user_name": "Benji_beanz",
+        "checkpoint_pass_rate": 87,
+        "position": "Imitator",
+        "position_number": 3,
+        "item_available": true
       }
     ]
   },
@@ -66557,8 +66576,8 @@
   },
   "1101537": {
     "name": "Clinical Precision",
-    "status": "Recruiting",
-    "ready_at": 1765476848,
+    "status": "Planning",
+    "ready_at": 1765649648,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -66575,6 +66594,22 @@
         "position": "Assassin",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 2621654,
+        "user_name": "Hstains",
+        "checkpoint_pass_rate": 73,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 60,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -66598,6 +66633,28 @@
         "position": "Assassin",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1765401039,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2621654,
+        "user_name": "Hstains",
+        "checkpoint_pass_rate": 73,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1765401039,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 60,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   }
