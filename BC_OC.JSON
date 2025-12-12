@@ -67151,10 +67151,31 @@
   "1108736": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1765636742,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 3139132,
+        "user_name": "JuanPaulo",
+        "checkpoint_pass_rate": 70,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1765550428,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3139132,
+        "user_name": "JuanPaulo",
+        "checkpoint_pass_rate": 70,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1108738": {
     "name": "Stage Fright",
@@ -67218,7 +67239,7 @@
   "1109207": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1765630105,
+    "ready_at": 1765716505,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -67227,6 +67248,14 @@
         "checkpoint_pass_rate": 69,
         "position": "Muscle",
         "position_number": 3,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 2315415,
+        "user_name": "Litri",
+        "checkpoint_pass_rate": 65,
+        "position": "Muscle",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -67240,6 +67269,17 @@
         "checkpoint_pass_rate": 69,
         "position": "Muscle",
         "position_number": 3,
+        "item_available": true
+      },
+      {
+        "timestamp": 1765550428,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2315415,
+        "user_name": "Litri",
+        "checkpoint_pass_rate": 65,
+        "position": "Muscle",
+        "position_number": 1,
         "item_available": true
       }
     ]
