@@ -67029,7 +67029,7 @@
   "1108033": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": 1765586089,
+    "ready_at": 1765672489,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -67039,6 +67039,13 @@
         "position": "Robber",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 2250222,
+        "user_name": "Ronskip",
+        "checkpoint_pass_rate": 76,
+        "position": "Driver",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -67052,6 +67059,16 @@
         "position": "Robber",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1765566623,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2250222,
+        "user_name": "Ronskip",
+        "checkpoint_pass_rate": 76,
+        "position": "Driver",
+        "position_number": 1
       }
     ]
   },
@@ -67411,6 +67428,43 @@
         "checkpoint_pass_rate": 63,
         "position": "Muscle",
         "position_number": 2,
+        "item_available": true
+      }
+    ]
+  },
+  "1110166": {
+    "name": "Blast from the Past",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1110167": {
+    "name": "Break the Bank",
+    "status": "Recruiting",
+    "ready_at": 1765652652,
+    "executed_at": null,
+    "slots": {
+      "P5": {
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 68,
+        "position": "Muscle",
+        "position_number": 3,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1765566623,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 68,
+        "position": "Muscle",
+        "position_number": 3,
         "item_available": true
       }
     ]
