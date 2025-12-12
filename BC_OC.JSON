@@ -64513,9 +64513,9 @@
   },
   "1083417": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1765540218,
-    "executed_at": null,
+    "executed_at": 1765561925,
     "slots": {
       "P3": {
         "user_id": 2250222,
@@ -67313,7 +67313,7 @@
   "1109207": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1765802905,
+    "ready_at": 1765889305,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -67338,6 +67338,14 @@
         "checkpoint_pass_rate": 61,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      "P6": {
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 61,
+        "position": "Thief",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -67373,6 +67381,17 @@
         "checkpoint_pass_rate": 61,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1765562438,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 61,
+        "position": "Thief",
+        "position_number": 2,
         "item_available": true
       }
     ]
