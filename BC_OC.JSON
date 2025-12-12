@@ -64716,7 +64716,7 @@
   "1085003": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": 1765577809,
+    "ready_at": 1765664209,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -64733,6 +64733,13 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 71,
+        "position": "Imitator",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -64756,6 +64763,16 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1765500024,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 71,
+        "position": "Imitator",
+        "position_number": 1
       }
     ]
   },
@@ -66083,9 +66100,9 @@
   },
   "1097615": {
     "name": "No Reserve",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1765485220,
-    "executed_at": null,
+    "executed_at": 1765499646,
     "slots": {
       "P2": {
         "user_id": 3540076,
@@ -66215,9 +66232,9 @@
   },
   "1097617": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1765497533,
-    "executed_at": null,
+    "executed_at": 1765499827,
     "slots": {
       "P2": {
         "user_id": 1184733,
@@ -66860,6 +66877,35 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": false
+      }
+    ]
+  },
+  "1108033": {
+    "name": "Bidding War",
+    "status": "Recruiting",
+    "ready_at": 1765586089,
+    "executed_at": null,
+    "slots": {
+      "P1": {
+        "user_id": 3540076,
+        "user_name": "Mr_jeff14574",
+        "checkpoint_pass_rate": 65,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1765500024,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3540076,
+        "user_name": "Mr_jeff14574",
+        "checkpoint_pass_rate": 65,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   }
