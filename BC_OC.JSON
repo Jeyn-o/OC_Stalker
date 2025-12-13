@@ -67394,12 +67394,13 @@
         "position_number": 1,
         "item_available": true
       },
-      "P2": {
+      "P4": {
         "user_id": 3943448,
         "user_name": "Maddog1997",
         "checkpoint_pass_rate": 83,
-        "position": "Car Thief",
-        "position_number": 1
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -67433,6 +67434,27 @@
         "checkpoint_pass_rate": 83,
         "position": "Car Thief",
         "position_number": 1
+      },
+      {
+        "timestamp": 1765624825,
+        "action": "left",
+        "slot": "P2",
+        "user_id": 3943448,
+        "user_name": "Maddog1997",
+        "checkpoint_pass_rate": 83,
+        "position": "Car Thief",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1765624825,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3943448,
+        "user_name": "Maddog1997",
+        "checkpoint_pass_rate": 83,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
