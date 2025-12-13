@@ -65877,7 +65877,7 @@
         "checkpoint_pass_rate": 80,
         "position": "Arsonist",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -67473,7 +67473,7 @@
   "1110166": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1765664959,
+    "ready_at": 1765751359,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -67483,6 +67483,13 @@
         "position": "Bomber",
         "position_number": 1,
         "item_available": true
+      },
+      "P6": {
+        "user_id": 2802632,
+        "user_name": "Hoboblue",
+        "checkpoint_pass_rate": 74,
+        "position": "Picklock",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -67496,6 +67503,16 @@
         "position": "Bomber",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1765590621,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 2802632,
+        "user_name": "Hoboblue",
+        "checkpoint_pass_rate": 74,
+        "position": "Picklock",
+        "position_number": 2
       }
     ]
   },
