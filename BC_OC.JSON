@@ -66480,8 +66480,8 @@
   },
   "1099190": {
     "name": "Bidding War",
-    "status": "Recruiting",
-    "ready_at": 1766114376,
+    "status": "Planning",
+    "ready_at": 1766200776,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -66523,6 +66523,13 @@
         "position": "Robber",
         "position_number": 3,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 1300665,
+        "user_name": "Savoie",
+        "checkpoint_pass_rate": 67,
+        "position": "Driver",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -66580,6 +66587,16 @@
         "position": "Robber",
         "position_number": 3,
         "item_available": false
+      },
+      {
+        "timestamp": 1765743023,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 1300665,
+        "user_name": "Savoie",
+        "checkpoint_pass_rate": 67,
+        "position": "Driver",
+        "position_number": 1
       }
     ]
   },
@@ -67276,7 +67293,7 @@
   "1108733": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1765985325,
+    "ready_at": 1765898925,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -67293,14 +67310,6 @@
         "checkpoint_pass_rate": 72,
         "position": "Picklock",
         "position_number": 2
-      },
-      "P3": {
-        "user_id": 1300665,
-        "user_name": "Savoie",
-        "checkpoint_pass_rate": 64,
-        "position": "Engineer",
-        "position_number": 1,
-        "item_available": true
       }
     },
     "action_log": [
@@ -67328,6 +67337,17 @@
       {
         "timestamp": 1765742433,
         "action": "joined",
+        "slot": "P3",
+        "user_id": 1300665,
+        "user_name": "Savoie",
+        "checkpoint_pass_rate": 64,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1765743023,
+        "action": "left",
         "slot": "P3",
         "user_id": 1300665,
         "user_name": "Savoie",
