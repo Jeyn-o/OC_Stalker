@@ -64715,17 +64715,10 @@
   },
   "1085003": {
     "name": "Sneaky Git Grab",
-    "status": "Planning",
-    "ready_at": 1765750609,
+    "status": "Recruiting",
+    "ready_at": 1765675277,
     "executed_at": null,
     "slots": {
-      "P2": {
-        "user_id": 446596,
-        "user_name": "Bucki",
-        "checkpoint_pass_rate": 86,
-        "position": "Pickpocket",
-        "position_number": 1
-      },
       "P4": {
         "user_id": 2730718,
         "user_name": "Haungpeary",
@@ -64792,6 +64785,16 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1765698024,
+        "action": "left",
+        "slot": "P2",
+        "user_id": 446596,
+        "user_name": "Bucki",
+        "checkpoint_pass_rate": 86,
+        "position": "Pickpocket",
+        "position_number": 1
       }
     ]
   },
@@ -68001,8 +68004,8 @@
   },
   "1110167": {
     "name": "Break the Bank",
-    "status": "Recruiting",
-    "ready_at": 1765998252,
+    "status": "Planning",
+    "ready_at": 1766084652,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -68044,6 +68047,14 @@
         "position": "Robber",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 446596,
+        "user_name": "Bucki",
+        "checkpoint_pass_rate": 61,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
       }
     },
     "action_log": [
@@ -68101,6 +68112,17 @@
         "position": "Robber",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1765698024,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 446596,
+        "user_name": "Bucki",
+        "checkpoint_pass_rate": 61,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
       }
     ]
   },
