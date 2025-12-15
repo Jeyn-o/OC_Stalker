@@ -67585,9 +67585,9 @@
   },
   "1108736": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1765809542,
-    "executed_at": null,
+    "executed_at": 1765809606,
     "slots": {
       "P1": {
         "user_id": 3139132,
@@ -68538,8 +68538,8 @@
   },
   "1118252": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1765974541,
+    "status": "Planning",
+    "ready_at": 1766060941,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -68556,6 +68556,14 @@
         "checkpoint_pass_rate": 73,
         "position": "Muscle",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": true
       }
     },
     "action_log": [
@@ -68579,6 +68587,17 @@
         "checkpoint_pass_rate": 73,
         "position": "Muscle",
         "position_number": 1
+      },
+      {
+        "timestamp": 1765809624,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": true
       }
     ]
   }
