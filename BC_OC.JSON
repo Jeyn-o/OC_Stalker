@@ -68086,16 +68086,7 @@
     "status": "Recruiting",
     "ready_at": 1765958882,
     "executed_at": null,
-    "slots": {
-      "P3": {
-        "user_id": 3967366,
-        "user_name": "Icks-B",
-        "checkpoint_pass_rate": 87,
-        "position": "Picklock",
-        "position_number": 1,
-        "item_available": true
-      }
-    },
+    "slots": {},
     "action_log": [
       {
         "timestamp": 1765872627,
@@ -68122,6 +68113,17 @@
       {
         "timestamp": 1765878625,
         "action": "joined",
+        "slot": "P3",
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 87,
+        "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1765906830,
+        "action": "left",
         "slot": "P3",
         "user_id": 3967366,
         "user_name": "Icks-B",
@@ -69183,7 +69185,7 @@
   "1121289": {
     "name": "Smoke and Wing Mirrors",
     "status": "Recruiting",
-    "ready_at": 1765982576,
+    "ready_at": 1766068976,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -69193,6 +69195,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P4": {
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 68,
+        "position": "Hustler",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -69206,6 +69215,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1765906830,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 68,
+        "position": "Hustler",
+        "position_number": 2
       }
     ]
   },
