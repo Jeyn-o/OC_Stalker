@@ -68588,7 +68588,7 @@
         "checkpoint_pass_rate": 72,
         "position": "Looter",
         "position_number": 1,
-        "item_available": true
+        "item_available": false
       },
       "P5": {
         "user_id": 3759168,
@@ -68774,8 +68774,8 @@
   },
   "1118249": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1765984478,
+    "status": "Planning",
+    "ready_at": 1766070878,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -68793,6 +68793,13 @@
         "position": "Enforcer",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 1184733,
+        "user_name": "Pro_eobard",
+        "checkpoint_pass_rate": 66,
+        "position": "Muscle",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -68817,6 +68824,16 @@
         "position": "Enforcer",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1765849831,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 1184733,
+        "user_name": "Pro_eobard",
+        "checkpoint_pass_rate": 66,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   },
