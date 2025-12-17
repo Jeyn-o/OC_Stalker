@@ -11168,5 +11168,47 @@
       }
     },
     "delay_time": 348
+  },
+  "1766005835": {
+    "crime_id": 1116408,
+    "crime_name": "No Reserve",
+    "created_at": null,
+    "planning_at": null,
+    "ready_at": 1766004986,
+    "executed_at": 1766005835,
+    "crime_participants": {
+      "P3": {
+        "user_id": 3342314,
+        "user_name": "Krytical",
+        "checkpoint_pass_rate": 79,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 84,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 914683,
+        "user_name": "Droq",
+        "checkpoint_pass_rate": 85,
+        "position": "Car Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "slackers": {
+      "914683": {
+        "status": "pending",
+        "handled_by": null,
+        "notes": []
+      }
+    },
+    "delay_time": 849
   }
 }
