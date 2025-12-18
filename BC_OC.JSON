@@ -69945,10 +69945,29 @@
   "1127296": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1766177254,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 2647214,
+        "user_name": "Balgor",
+        "checkpoint_pass_rate": 68,
+        "position": "Cat Burglar",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1766091029,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2647214,
+        "user_name": "Balgor",
+        "checkpoint_pass_rate": 68,
+        "position": "Cat Burglar",
+        "position_number": 1
+      }
+    ]
   },
   "1127340": {
     "name": "Best of the Lot",
@@ -69960,8 +69979,8 @@
   },
   "1127692": {
     "name": "Clinical Precision",
-    "status": "Recruiting",
-    "ready_at": 1766344992,
+    "status": "Planning",
+    "ready_at": 1766431392,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -69986,6 +70005,14 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": false
+      },
+      "P3": {
+        "user_id": 2621654,
+        "user_name": "Hstains",
+        "checkpoint_pass_rate": 75,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -70020,6 +70047,17 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1766091029,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2621654,
+        "user_name": "Hstains",
+        "checkpoint_pass_rate": 75,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
