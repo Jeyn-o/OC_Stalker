@@ -68875,7 +68875,7 @@
   "1113721": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1766218754,
+    "ready_at": 1766305154,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -68893,6 +68893,14 @@
         "position": "Robber",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 63,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
       }
     },
     "action_log": [
@@ -68917,6 +68925,17 @@
         "position": "Robber",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1766049631,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 63,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
       }
     ]
   },
@@ -69574,5 +69593,21 @@
         "item_available": true
       }
     ]
+  },
+  "1127295": {
+    "name": "Blast from the Past",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1127296": {
+    "name": "Clinical Precision",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
   }
 }
