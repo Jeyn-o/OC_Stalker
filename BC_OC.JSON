@@ -68459,7 +68459,7 @@
         "checkpoint_pass_rate": 76,
         "position": "Engineer",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -69961,10 +69961,29 @@
   "1127692": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1766172192,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 70,
+        "position": "Cat Burglar",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1766086230,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 70,
+        "position": "Cat Burglar",
+        "position_number": 1
+      }
+    ]
   },
   "1127693": {
     "name": "Clinical Precision",
