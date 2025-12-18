@@ -69065,7 +69065,7 @@
         "checkpoint_pass_rate": 72,
         "position": "Looter",
         "position_number": 1,
-        "item_available": true
+        "item_available": false
       },
       "P1": {
         "user_id": 3322561,
@@ -69591,7 +69591,7 @@
   "1121290": {
     "name": "Snow Blind",
     "status": "Recruiting",
-    "ready_at": 1766155828,
+    "ready_at": 1766242228,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -69608,6 +69608,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": false
+      },
+      "P4": {
+        "user_id": 3619214,
+        "user_name": "GoldenVirginia",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -69631,6 +69638,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1766073028,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3619214,
+        "user_name": "GoldenVirginia",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 2
       }
     ]
   },
@@ -69916,7 +69933,7 @@
   "1127693": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1766235568,
+    "ready_at": 1766321968,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -69934,6 +69951,13 @@
         "position": "Assassin",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 66,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -69958,6 +69982,16 @@
         "position": "Assassin",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1766073028,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 66,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     ]
   }
