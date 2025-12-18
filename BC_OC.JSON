@@ -70040,7 +70040,7 @@
   "1127296": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1766177254,
+    "ready_at": 1766263654,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -70049,6 +70049,14 @@
         "checkpoint_pass_rate": 68,
         "position": "Cat Burglar",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 65,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -70061,6 +70069,17 @@
         "checkpoint_pass_rate": 68,
         "position": "Cat Burglar",
         "position_number": 1
+      },
+      {
+        "timestamp": 1766097626,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 65,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -70243,7 +70262,7 @@
   "1128769": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1766179006,
+    "ready_at": 1766265406,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -70252,6 +70271,14 @@
         "checkpoint_pass_rate": 64,
         "position": "Thief",
         "position_number": 2,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 2335586,
+        "user_name": "Poundthatass",
+        "checkpoint_pass_rate": 63,
+        "position": "Thief",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -70265,6 +70292,17 @@
         "checkpoint_pass_rate": 64,
         "position": "Thief",
         "position_number": 2,
+        "item_available": true
+      },
+      {
+        "timestamp": 1766097626,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2335586,
+        "user_name": "Poundthatass",
+        "checkpoint_pass_rate": 63,
+        "position": "Thief",
+        "position_number": 1,
         "item_available": true
       }
     ]
