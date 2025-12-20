@@ -68754,9 +68754,9 @@
   },
   "1113716": {
     "name": "Stage Fright",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1766236942,
-    "executed_at": null,
+    "executed_at": 1766236985,
     "slots": {
       "P4": {
         "user_id": 3161450,
@@ -71017,7 +71017,7 @@
   "1131274": {
     "name": "Snow Blind",
     "status": "Recruiting",
-    "ready_at": 1766384829,
+    "ready_at": 1766471229,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -71034,6 +71034,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P4": {
+        "user_id": 3852779,
+        "user_name": "DMG-",
+        "checkpoint_pass_rate": 66,
+        "position": "Muscle",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -71057,6 +71064,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1766237432,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3852779,
+        "user_name": "DMG-",
+        "checkpoint_pass_rate": 66,
+        "position": "Muscle",
+        "position_number": 2
       }
     ]
   }
