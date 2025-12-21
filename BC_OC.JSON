@@ -69487,10 +69487,31 @@
   "1118245": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1766414270,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3575675,
+        "user_name": "highfishM",
+        "checkpoint_pass_rate": 67,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1766328033,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3575675,
+        "user_name": "highfishM",
+        "checkpoint_pass_rate": 67,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1118249": {
     "name": "Honey Trap",
@@ -69938,8 +69959,8 @@
   },
   "1122598": {
     "name": "Sneaky Git Grab",
-    "status": "Recruiting",
-    "ready_at": 1766518184,
+    "status": "Planning",
+    "ready_at": 1766604584,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -69964,6 +69985,13 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 79,
+        "position": "Imitator",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -69998,6 +70026,16 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1766328033,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 79,
+        "position": "Imitator",
+        "position_number": 1
       }
     ]
   },
