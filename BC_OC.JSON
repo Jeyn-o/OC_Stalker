@@ -70947,8 +70947,8 @@
   },
   "1127692": {
     "name": "Clinical Precision",
-    "status": "Recruiting",
-    "ready_at": 1766344992,
+    "status": "Planning",
+    "ready_at": 1766518282,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -70971,6 +70971,14 @@
         "user_name": "Hstains",
         "checkpoint_pass_rate": 75,
         "position": "Assassin",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 2315415,
+        "user_name": "Litri",
+        "checkpoint_pass_rate": 71,
+        "position": "Cleaner",
         "position_number": 1,
         "item_available": true
       }
@@ -71029,6 +71037,17 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1766432433,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2315415,
+        "user_name": "Litri",
+        "checkpoint_pass_rate": 71,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -71119,7 +71138,7 @@
   "1128769": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1766351806,
+    "ready_at": 1766604909,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -71144,6 +71163,22 @@
         "checkpoint_pass_rate": 63,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 2418838,
+        "user_name": "Meeip",
+        "checkpoint_pass_rate": 67,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P5": {
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 68,
+        "position": "Muscle",
+        "position_number": 3,
         "item_available": true
       }
     },
@@ -71179,6 +71214,28 @@
         "checkpoint_pass_rate": 63,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1766432433,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2418838,
+        "user_name": "Meeip",
+        "checkpoint_pass_rate": 67,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1766432433,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 68,
+        "position": "Muscle",
+        "position_number": 3,
         "item_available": true
       }
     ]
