@@ -71442,9 +71442,9 @@
   },
   "1131274": {
     "name": "Snow Blind",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1766557629,
-    "executed_at": null,
+    "executed_at": 1766561525,
     "slots": {
       "P3": {
         "user_id": 3759168,
@@ -72526,7 +72526,7 @@
   "1144057": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1766696418,
+    "ready_at": 1766869218,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -72542,6 +72542,21 @@
         "checkpoint_pass_rate": 87,
         "position": "Enforcer",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 3838394,
+        "user_name": "Retr0Rat",
+        "checkpoint_pass_rate": 80,
+        "position": "Muscle",
+        "position_number": 2
+      },
+      "P5": {
+        "user_id": 3759168,
+        "user_name": "AIshen",
+        "checkpoint_pass_rate": 79,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -72564,6 +72579,27 @@
         "checkpoint_pass_rate": 87,
         "position": "Enforcer",
         "position_number": 1
+      },
+      {
+        "timestamp": 1766562025,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3838394,
+        "user_name": "Retr0Rat",
+        "checkpoint_pass_rate": 80,
+        "position": "Muscle",
+        "position_number": 2
+      },
+      {
+        "timestamp": 1766562025,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3759168,
+        "user_name": "AIshen",
+        "checkpoint_pass_rate": 79,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
