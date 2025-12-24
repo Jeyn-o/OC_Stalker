@@ -68950,9 +68950,9 @@
   },
   "1113721": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1766564431,
-    "executed_at": null,
+    "executed_at": 1766564464,
     "slots": {
       "P2": {
         "user_id": 2184227,
@@ -72543,7 +72543,7 @@
   "1144057": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1766869218,
+    "ready_at": 1766955618,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -72574,6 +72574,13 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
+      },
+      "P6": {
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 89,
+        "position": "Sniper",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -72617,6 +72624,16 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1766565039,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 89,
+        "position": "Sniper",
+        "position_number": 1
       }
     ]
   },
@@ -72655,10 +72672,31 @@
   "1144129": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1766651117,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 65,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1766565039,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 65,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1145250": {
     "name": "Snow Blind",
