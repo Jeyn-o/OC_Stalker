@@ -71523,10 +71523,31 @@
   "1134592": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1766743674,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 3292894,
+        "user_name": "VEGABABY",
+        "checkpoint_pass_rate": 76,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1766657424,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3292894,
+        "user_name": "VEGABABY",
+        "checkpoint_pass_rate": 76,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1134593": {
     "name": "Honey Trap",
@@ -72962,7 +72983,7 @@
   "1144128": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1767058680,
+    "ready_at": 1766972280,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -72980,13 +73001,6 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
-      },
-      "P1": {
-        "user_id": 3292894,
-        "user_name": "VEGABABY",
-        "checkpoint_pass_rate": 68,
-        "position": "Picklock",
-        "position_number": 1
       },
       "P2": {
         "user_id": 2302062,
@@ -73057,6 +73071,16 @@
         "checkpoint_pass_rate": 65,
         "position": "Picklock",
         "position_number": 2
+      },
+      {
+        "timestamp": 1766657424,
+        "action": "left",
+        "slot": "P1",
+        "user_id": 3292894,
+        "user_name": "VEGABABY",
+        "checkpoint_pass_rate": 68,
+        "position": "Picklock",
+        "position_number": 1
       }
     ]
   },
