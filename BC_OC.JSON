@@ -73545,7 +73545,7 @@
   "1147328": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1766957040,
+    "ready_at": 1767043440,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -73560,6 +73560,14 @@
         "user_name": "Piraterer",
         "checkpoint_pass_rate": 64,
         "position": "Assassin",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 914683,
+        "user_name": "Droq",
+        "checkpoint_pass_rate": 65,
+        "position": "Imitator",
         "position_number": 1,
         "item_available": true
       }
@@ -73583,6 +73591,17 @@
         "user_name": "Piraterer",
         "checkpoint_pass_rate": 64,
         "position": "Assassin",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1766791224,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 914683,
+        "user_name": "Droq",
+        "checkpoint_pass_rate": 65,
+        "position": "Imitator",
         "position_number": 1,
         "item_available": true
       }
@@ -73799,7 +73818,7 @@
   "1150959": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1766864770,
+    "ready_at": 1766951170,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -73809,6 +73828,13 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": false
+      },
+      "P2": {
+        "user_id": 3322561,
+        "user_name": "Eudoralero",
+        "checkpoint_pass_rate": 85,
+        "position": "Muscle",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -73822,6 +73848,16 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1766791224,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3322561,
+        "user_name": "Eudoralero",
+        "checkpoint_pass_rate": 85,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   },
