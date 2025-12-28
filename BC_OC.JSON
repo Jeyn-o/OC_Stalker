@@ -72191,7 +72191,7 @@
         "checkpoint_pass_rate": 75,
         "position": "Hacker",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P4": {
         "user_id": 2162860,
@@ -73476,7 +73476,7 @@
         "checkpoint_pass_rate": 61,
         "position": "Muscle",
         "position_number": 2,
-        "item_available": false
+        "item_available": true
       },
       "P6": {
         "user_id": 2419133,
@@ -74279,8 +74279,8 @@
   },
   "1155827": {
     "name": "Sneaky Git Grab",
-    "status": "Recruiting",
-    "ready_at": 1767128740,
+    "status": "Planning",
+    "ready_at": 1767215140,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -74305,6 +74305,13 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 2289809,
+        "user_name": "Murder_Hobo",
+        "checkpoint_pass_rate": 81,
+        "position": "Pickpocket",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -74339,6 +74346,16 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1766885432,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2289809,
+        "user_name": "Murder_Hobo",
+        "checkpoint_pass_rate": 81,
+        "position": "Pickpocket",
+        "position_number": 1
       }
     ]
   },
