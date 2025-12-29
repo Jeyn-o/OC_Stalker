@@ -74820,7 +74820,7 @@
   "1156111": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1766957756,
+    "ready_at": 1767058824,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -74829,6 +74829,13 @@
         "checkpoint_pass_rate": 69,
         "position": "Looter",
         "position_number": 1
+      },
+      "P4": {
+        "user_id": 2291737,
+        "user_name": "Special-Needs",
+        "checkpoint_pass_rate": 90,
+        "position": "Looter",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -74841,16 +74848,47 @@
         "checkpoint_pass_rate": 69,
         "position": "Looter",
         "position_number": 1
+      },
+      {
+        "timestamp": 1766973023,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2291737,
+        "user_name": "Special-Needs",
+        "checkpoint_pass_rate": 90,
+        "position": "Looter",
+        "position_number": 2
       }
     ]
   },
   "1158885": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1767059058,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 2730718,
+        "user_name": "Haungpeary",
+        "checkpoint_pass_rate": 79,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1766973023,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2730718,
+        "user_name": "Haungpeary",
+        "checkpoint_pass_rate": 79,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1158886": {
     "name": "Stage Fright",
