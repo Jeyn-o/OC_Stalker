@@ -73676,9 +73676,9 @@
   },
   "1147328": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1767129840,
-    "executed_at": null,
+    "executed_at": 1767129845,
     "slots": {
       "P2": {
         "user_id": 2080816,
@@ -75285,8 +75285,8 @@
   },
   "1159525": {
     "name": "Break the Bank",
-    "status": "Recruiting",
-    "ready_at": 1767472548,
+    "status": "Planning",
+    "ready_at": 1767558948,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -75327,6 +75327,14 @@
         "checkpoint_pass_rate": 67,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      "P5": {
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 61,
+        "position": "Muscle",
+        "position_number": 3,
         "item_available": true
       }
     },
@@ -75384,6 +75392,17 @@
         "checkpoint_pass_rate": 67,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1767130230,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 61,
+        "position": "Muscle",
+        "position_number": 3,
         "item_available": true
       }
     ]
