@@ -74176,9 +74176,9 @@
   },
   "1150960": {
     "name": "Sneaky Git Grab",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1767209817,
-    "executed_at": null,
+    "executed_at": 1767209825,
     "slots": {
       "P2": {
         "user_id": 3343429,
@@ -75207,8 +75207,8 @@
   },
   "1158885": {
     "name": "Sneaky Git Grab",
-    "status": "Recruiting",
-    "ready_at": 1767319546,
+    "status": "Planning",
+    "ready_at": 1767405946,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -75232,6 +75232,14 @@
         "checkpoint_pass_rate": 77,
         "position": "Pickpocket",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 81,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -75265,6 +75273,17 @@
         "checkpoint_pass_rate": 77,
         "position": "Pickpocket",
         "position_number": 1
+      },
+      {
+        "timestamp": 1767210023,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 81,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
