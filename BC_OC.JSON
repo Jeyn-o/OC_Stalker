@@ -74318,9 +74318,9 @@
   },
   "1150961": {
     "name": "Guardian Ángels",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1767301461,
-    "executed_at": null,
+    "executed_at": 1767301506,
     "slots": {
       "P3": {
         "user_id": 3679190,
@@ -74834,7 +74834,7 @@
   "1156107": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1767316960,
+    "ready_at": 1767403360,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -74852,6 +74852,14 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 71,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -74876,6 +74884,17 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1767301829,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 71,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
