@@ -74833,8 +74833,8 @@
   },
   "1156107": {
     "name": "Counter Offer",
-    "status": "Recruiting",
-    "ready_at": 1767489760,
+    "status": "Planning",
+    "ready_at": 1767576160,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -74866,6 +74866,14 @@
         "user_name": "Davie_Corleone",
         "checkpoint_pass_rate": 78,
         "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 80,
+        "position": "Hacker",
         "position_number": 1,
         "item_available": true
       }
@@ -74912,6 +74920,17 @@
         "user_name": "Davie_Corleone",
         "checkpoint_pass_rate": 78,
         "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1767345027,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 80,
+        "position": "Hacker",
         "position_number": 1,
         "item_available": true
       }
@@ -76135,10 +76154,31 @@
   "1167042": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1767430897,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 3656242,
+        "user_name": "jonasgrind",
+        "checkpoint_pass_rate": 75,
+        "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1767345027,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3656242,
+        "user_name": "jonasgrind",
+        "checkpoint_pass_rate": 75,
+        "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1167043": {
     "name": "Sneaky Git Grab",
