@@ -74062,9 +74062,9 @@
   },
   "1150959": {
     "name": "Stage Fright",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1767385887,
-    "executed_at": null,
+    "executed_at": 1767385924,
     "slots": {
       "P5": {
         "user_id": 2659592,
@@ -75643,8 +75643,8 @@
   },
   "1163844": {
     "name": "Clinical Precision",
-    "status": "Recruiting",
-    "ready_at": 1767537703,
+    "status": "Planning",
+    "ready_at": 1767710503,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -75662,6 +75662,21 @@
         "position": "Assassin",
         "position_number": 1,
         "item_available": false
+      },
+      "P1": {
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 63,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": false
+      },
+      "P2": {
+        "user_id": 2647214,
+        "user_name": "Balgor",
+        "checkpoint_pass_rate": 68,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -75686,13 +75701,34 @@
         "position": "Assassin",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1767386430,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 63,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1767386430,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2647214,
+        "user_name": "Balgor",
+        "checkpoint_pass_rate": 68,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     ]
   },
   "1163845": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1767471572,
+    "ready_at": 1767557972,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -75701,6 +75737,14 @@
         "checkpoint_pass_rate": 69,
         "position": "Muscle",
         "position_number": 3,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 2671530,
+        "user_name": "windyswag",
+        "checkpoint_pass_rate": 64,
+        "position": "Thief",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -75714,6 +75758,17 @@
         "checkpoint_pass_rate": 69,
         "position": "Muscle",
         "position_number": 3,
+        "item_available": true
+      },
+      {
+        "timestamp": 1767386430,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2671530,
+        "user_name": "windyswag",
+        "checkpoint_pass_rate": 64,
+        "position": "Thief",
+        "position_number": 1,
         "item_available": true
       }
     ]
@@ -76214,8 +76269,8 @@
   },
   "1167042": {
     "name": "Counter Offer",
-    "status": "Recruiting",
-    "ready_at": 1767690097,
+    "status": "Planning",
+    "ready_at": 1767776497,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -76247,6 +76302,14 @@
         "user_name": "Raie",
         "checkpoint_pass_rate": 80,
         "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 85,
+        "position": "Hacker",
         "position_number": 1,
         "item_available": true
       }
@@ -76293,6 +76356,17 @@
         "user_name": "Raie",
         "checkpoint_pass_rate": 80,
         "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1767386430,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 85,
+        "position": "Hacker",
         "position_number": 1,
         "item_available": true
       }
