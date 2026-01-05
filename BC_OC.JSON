@@ -74833,9 +74833,9 @@
   },
   "1156107": {
     "name": "Counter Offer",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1767576160,
-    "executed_at": null,
+    "executed_at": 1767576185,
     "slots": {
       "P2": {
         "user_id": 3342314,
@@ -77712,10 +77712,31 @@
   "1178711": {
     "name": "Guardian Ángels",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1767662652,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 74,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1767576635,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 74,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1178713": {
     "name": "Honey Trap",
@@ -77728,7 +77749,7 @@
   "1178714": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": 1767733560,
+    "ready_at": 1767819960,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -77744,6 +77765,14 @@
         "checkpoint_pass_rate": 71,
         "position": "Pickpocket",
         "position_number": 1
+      },
+      "P4": {
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 64,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -77766,6 +77795,17 @@
         "checkpoint_pass_rate": 71,
         "position": "Pickpocket",
         "position_number": 1
+      },
+      {
+        "timestamp": 1767576635,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 64,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   }
