@@ -78334,14 +78334,6 @@
         "position": "Picklock",
         "position_number": 2
       },
-      "P2": {
-        "user_id": 2154655,
-        "user_name": "Khana",
-        "checkpoint_pass_rate": 70,
-        "position": "Hacker",
-        "position_number": 1,
-        "item_available": false
-      },
       "P3": {
         "user_id": 2325329,
         "user_name": "Crispyfoot",
@@ -78349,6 +78341,13 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 2154655,
+        "user_name": "Khana",
+        "checkpoint_pass_rate": 68,
+        "position": "Picklock",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -78394,6 +78393,27 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1767723037,
+        "action": "left",
+        "slot": "P2",
+        "user_id": 2154655,
+        "user_name": "Khana",
+        "checkpoint_pass_rate": 70,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1767723037,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2154655,
+        "user_name": "Khana",
+        "checkpoint_pass_rate": 68,
+        "position": "Picklock",
+        "position_number": 1
       }
     ]
   },
