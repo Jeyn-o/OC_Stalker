@@ -76419,9 +76419,9 @@
   },
   "1167041": {
     "name": "Sneaky Git Grab",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1767767658,
-    "executed_at": null,
+    "executed_at": 1767767705,
     "slots": {
       "P2": {
         "user_id": 3343429,
@@ -78748,8 +78748,8 @@
   },
   "1186539": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1767830614,
+    "status": "Planning",
+    "ready_at": 1768003414,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -78759,6 +78759,21 @@
         "position": "Muscle",
         "position_number": 2,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 3540076,
+        "user_name": "Mr_jeff14574",
+        "checkpoint_pass_rate": 71,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": false
+      },
+      "P2": {
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 74,
+        "position": "Muscle",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -78772,6 +78787,27 @@
         "position": "Muscle",
         "position_number": 2,
         "item_available": true
+      },
+      {
+        "timestamp": 1767768027,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3540076,
+        "user_name": "Mr_jeff14574",
+        "checkpoint_pass_rate": 71,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1767768027,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 74,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   }
