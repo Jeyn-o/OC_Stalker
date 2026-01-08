@@ -77121,9 +77121,9 @@
   },
   "1172896": {
     "name": "Market Forces",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1767893506,
-    "executed_at": null,
+    "executed_at": 1767893525,
     "slots": {
       "P3": {
         "user_id": 3841404,
@@ -78395,7 +78395,7 @@
   "1181821": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1768078567,
+    "ready_at": 1768164967,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -78426,6 +78426,13 @@
         "checkpoint_pass_rate": 78,
         "position": "Muscle",
         "position_number": 2
+      },
+      "P4": {
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 70,
+        "position": "Muscle",
+        "position_number": 3
       }
     },
     "action_log": [
@@ -78469,6 +78476,16 @@
         "checkpoint_pass_rate": 78,
         "position": "Muscle",
         "position_number": 2
+      },
+      {
+        "timestamp": 1767894028,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 70,
+        "position": "Muscle",
+        "position_number": 3
       }
     ]
   },
@@ -78477,20 +78494,22 @@
     "status": "Recruiting",
     "ready_at": 1767745646,
     "executed_at": null,
-    "slots": {
-      "P5": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1767659435,
+        "action": "joined",
+        "slot": "P5",
         "user_id": 3178876,
         "user_name": "Khallie",
         "checkpoint_pass_rate": 73,
         "position": "Imitator",
         "position_number": 3,
         "item_available": false
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1767659435,
-        "action": "joined",
+        "timestamp": 1767894028,
+        "action": "left",
         "slot": "P5",
         "user_id": 3178876,
         "user_name": "Khallie",
@@ -79120,10 +79139,29 @@
   "1186537": {
     "name": "Market Forces",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1767980175,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 3915266,
+        "user_name": "Lucifixion",
+        "checkpoint_pass_rate": 65,
+        "position": "Enforcer",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1767894028,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3915266,
+        "user_name": "Lucifixion",
+        "checkpoint_pass_rate": 65,
+        "position": "Enforcer",
+        "position_number": 1
+      }
+    ]
   },
   "1186538": {
     "name": "Snow Blind",
