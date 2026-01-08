@@ -77235,7 +77235,7 @@
   "1172899": {
     "name": "Pet Project",
     "status": "Recruiting",
-    "ready_at": 1767892029,
+    "ready_at": 1767978429,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -77245,6 +77245,14 @@
         "position": "Kidnapper",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 4044077,
+        "user_name": "DaddyMon11",
+        "checkpoint_pass_rate": 34,
+        "position": "Picklock",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -77258,6 +77266,17 @@
         "position": "Kidnapper",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1767867022,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 4044077,
+        "user_name": "DaddyMon11",
+        "checkpoint_pass_rate": 34,
+        "position": "Picklock",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -79005,8 +79024,8 @@
   },
   "1186535": {
     "name": "Honey Trap",
-    "status": "Planning",
-    "ready_at": 1768046189,
+    "status": "Recruiting",
+    "ready_at": 1767959789,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -79023,14 +79042,6 @@
         "checkpoint_pass_rate": 68,
         "position": "Muscle",
         "position_number": 1
-      },
-      "P3": {
-        "user_id": 4044077,
-        "user_name": "DaddyMon11",
-        "checkpoint_pass_rate": 10,
-        "position": "Muscle",
-        "position_number": 2,
-        "item_available": false
       }
     },
     "action_log": [
@@ -79058,6 +79069,17 @@
       {
         "timestamp": 1767866447,
         "action": "joined",
+        "slot": "P3",
+        "user_id": 4044077,
+        "user_name": "DaddyMon11",
+        "checkpoint_pass_rate": 10,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
+      },
+      {
+        "timestamp": 1767867022,
+        "action": "left",
         "slot": "P3",
         "user_id": 4044077,
         "user_name": "DaddyMon11",
