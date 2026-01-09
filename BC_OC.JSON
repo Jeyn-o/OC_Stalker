@@ -77320,9 +77320,9 @@
   },
   "1172900": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1767940056,
-    "executed_at": null,
+    "executed_at": 1767946025,
     "slots": {
       "P6": {
         "user_id": 3116621,
@@ -79682,7 +79682,7 @@
   "1192985": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1768269306,
+    "ready_at": 1768355706,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -79715,6 +79715,13 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": false
+      },
+      "P6": {
+        "user_id": 2655203,
+        "user_name": "Vampire-Catgirl",
+        "checkpoint_pass_rate": 77,
+        "position": "Picklock",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -79760,6 +79767,16 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1767946227,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 2655203,
+        "user_name": "Vampire-Catgirl",
+        "checkpoint_pass_rate": 77,
+        "position": "Picklock",
+        "position_number": 2
       }
     ]
   },
