@@ -77253,8 +77253,8 @@
   },
   "1172899": {
     "name": "Pet Project",
-    "status": "Recruiting",
-    "ready_at": 1767978429,
+    "status": "Planning",
+    "ready_at": 1768064829,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -77270,6 +77270,14 @@
         "user_name": "DaddyMon11",
         "checkpoint_pass_rate": 34,
         "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 3903942,
+        "user_name": "RouRonin",
+        "checkpoint_pass_rate": 89,
+        "position": "Muscle",
         "position_number": 1,
         "item_available": true
       }
@@ -77296,6 +77304,17 @@
         "position": "Picklock",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1767918630,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3903942,
+        "user_name": "RouRonin",
+        "checkpoint_pass_rate": 89,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -79466,7 +79485,7 @@
   "1192980": {
     "name": "Guardian Ángels",
     "status": "Recruiting",
-    "ready_at": 1767997950,
+    "ready_at": 1768084350,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -79476,6 +79495,13 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 2835333,
+        "user_name": "Somnum",
+        "checkpoint_pass_rate": 82,
+        "position": "Enforcer",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -79489,6 +79515,16 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1767918630,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2835333,
+        "user_name": "Somnum",
+        "checkpoint_pass_rate": 82,
+        "position": "Enforcer",
+        "position_number": 1
       }
     ]
   },
