@@ -78640,9 +78640,17 @@
   "1181822": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1767745646,
+    "ready_at": 1768143803,
     "executed_at": null,
-    "slots": {},
+    "slots": {
+      "P2": {
+        "user_id": 3932437,
+        "user_name": "Stealthination",
+        "checkpoint_pass_rate": 72,
+        "position": "Looter",
+        "position_number": 1
+      }
+    },
     "action_log": [
       {
         "timestamp": 1767659435,
@@ -78665,6 +78673,16 @@
         "position": "Imitator",
         "position_number": 3,
         "item_available": false
+      },
+      {
+        "timestamp": 1768057823,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3932437,
+        "user_name": "Stealthination",
+        "checkpoint_pass_rate": 72,
+        "position": "Looter",
+        "position_number": 1
       }
     ]
   },
