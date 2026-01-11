@@ -78948,9 +78948,9 @@
   },
   "1182761": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1768144422,
-    "executed_at": null,
+    "executed_at": 1768144446,
     "slots": {
       "P5": {
         "user_id": 2419133,
@@ -79771,7 +79771,7 @@
   "1191228": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1768227092,
+    "ready_at": 1768313492,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -79780,6 +79780,14 @@
         "checkpoint_pass_rate": 69,
         "position": "Cat Burglar",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 66,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -79792,6 +79800,17 @@
         "checkpoint_pass_rate": 69,
         "position": "Cat Burglar",
         "position_number": 1
+      },
+      {
+        "timestamp": 1768144824,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 66,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -80729,5 +80748,77 @@
     "executed_at": null,
     "slots": {},
     "action_log": []
+  },
+  "1201186": {
+    "name": "Blast from the Past",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1201187": {
+    "name": "Clinical Precision",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1201188": {
+    "name": "Blast from the Past",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1201189": {
+    "name": "Clinical Precision",
+    "status": "Recruiting",
+    "ready_at": 1768317565,
+    "executed_at": null,
+    "slots": {
+      "P1": {
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 76,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 2418838,
+        "user_name": "Meeip",
+        "checkpoint_pass_rate": 75,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": false
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1768144824,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 76,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1768144824,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2418838,
+        "user_name": "Meeip",
+        "checkpoint_pass_rate": 75,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": false
+      }
+    ]
   }
 }
