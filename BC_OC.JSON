@@ -77226,9 +77226,9 @@
   },
   "1172898": {
     "name": "Best of the Lot",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1768239627,
-    "executed_at": null,
+    "executed_at": 1768239665,
     "slots": {
       "P2": {
         "user_id": 3178876,
@@ -81080,7 +81080,7 @@
   "1201187": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1768253363,
+    "ready_at": 1768339763,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -81090,6 +81090,14 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 71,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -81103,6 +81111,17 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1768240232,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 71,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
