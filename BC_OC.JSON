@@ -78601,9 +78601,9 @@
   },
   "1181821": {
     "name": "Stage Fright",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1768251367,
-    "executed_at": null,
+    "executed_at": 1768251425,
     "slots": {
       "P1": {
         "user_id": 2920790,
@@ -81473,7 +81473,7 @@
   "1203346": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1768378844,
+    "ready_at": 1768465244,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -81489,6 +81489,14 @@
         "user_name": "highfishM",
         "checkpoint_pass_rate": 75,
         "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 3838831,
+        "user_name": "Lev_Bron",
+        "checkpoint_pass_rate": 72,
+        "position": "Looter",
         "position_number": 1,
         "item_available": true
       }
@@ -81515,6 +81523,17 @@
         "position": "Robber",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1768251636,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3838831,
+        "user_name": "Lev_Bron",
+        "checkpoint_pass_rate": 72,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -81529,7 +81548,7 @@
   "1203348": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1768291871,
+    "ready_at": 1768378271,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -81538,6 +81557,13 @@
         "checkpoint_pass_rate": 83,
         "position": "Muscle",
         "position_number": 3
+      },
+      "P1": {
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 73,
+        "position": "Enforcer",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -81550,6 +81576,16 @@
         "checkpoint_pass_rate": 83,
         "position": "Muscle",
         "position_number": 3
+      },
+      {
+        "timestamp": 1768251636,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 73,
+        "position": "Enforcer",
+        "position_number": 1
       }
     ]
   }
