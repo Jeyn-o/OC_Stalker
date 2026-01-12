@@ -80790,7 +80790,7 @@
   "1197359": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": 1768613209,
+    "ready_at": 1768526809,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -80824,13 +80824,6 @@
         "position": "Bomber",
         "position_number": 1,
         "item_available": false
-      },
-      "P2": {
-        "user_id": 3292894,
-        "user_name": "VEGABABY",
-        "checkpoint_pass_rate": 70,
-        "position": "Driver",
-        "position_number": 1
       }
     },
     "action_log": [
@@ -80881,6 +80874,16 @@
       {
         "timestamp": 1768205429,
         "action": "joined",
+        "slot": "P2",
+        "user_id": 3292894,
+        "user_name": "VEGABABY",
+        "checkpoint_pass_rate": 70,
+        "position": "Driver",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1768227034,
+        "action": "left",
         "slot": "P2",
         "user_id": 3292894,
         "user_name": "VEGABABY",
@@ -81198,7 +81201,7 @@
   "1203341": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1768379418,
+    "ready_at": 1768465818,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -81214,6 +81217,14 @@
         "checkpoint_pass_rate": 75,
         "position": "Picklock",
         "position_number": 2
+      },
+      "P4": {
+        "user_id": 3292894,
+        "user_name": "VEGABABY",
+        "checkpoint_pass_rate": 68,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -81236,6 +81247,17 @@
         "checkpoint_pass_rate": 75,
         "position": "Picklock",
         "position_number": 2
+      },
+      {
+        "timestamp": 1768227034,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3292894,
+        "user_name": "VEGABABY",
+        "checkpoint_pass_rate": 68,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
