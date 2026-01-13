@@ -79976,9 +79976,9 @@
   },
   "1192979": {
     "name": "Guardian Ángels",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1768326840,
-    "executed_at": null,
+    "executed_at": 1768326846,
     "slots": {
       "P1": {
         "user_id": 3442152,
@@ -80641,8 +80641,8 @@
   },
   "1194221": {
     "name": "Pet Project",
-    "status": "Recruiting",
-    "ready_at": 1768378406,
+    "status": "Planning",
+    "ready_at": 1768464806,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -80660,6 +80660,14 @@
         "position": "Picklock",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 3943448,
+        "user_name": "Maddog1997",
+        "checkpoint_pass_rate": 89,
+        "position": "Kidnapper",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -80684,6 +80692,17 @@
         "position": "Picklock",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1768327243,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3943448,
+        "user_name": "Maddog1997",
+        "checkpoint_pass_rate": 89,
+        "position": "Kidnapper",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -80917,8 +80936,8 @@
   },
   "1197613": {
     "name": "Market Forces",
-    "status": "Recruiting",
-    "ready_at": 1768516921,
+    "status": "Planning",
+    "ready_at": 1768603321,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -80948,6 +80967,13 @@
         "user_name": "Somnum",
         "checkpoint_pass_rate": 88,
         "position": "Enforcer",
+        "position_number": 1
+      },
+      "P2": {
+        "user_id": 3915266,
+        "user_name": "Lucifixion",
+        "checkpoint_pass_rate": 64,
+        "position": "Negotiator",
         "position_number": 1
       }
     },
@@ -80991,6 +81017,16 @@
         "user_name": "Somnum",
         "checkpoint_pass_rate": 88,
         "position": "Enforcer",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1768327243,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3915266,
+        "user_name": "Lucifixion",
+        "checkpoint_pass_rate": 64,
+        "position": "Negotiator",
         "position_number": 1
       }
     ]
@@ -81851,9 +81887,30 @@
   "1206385": {
     "name": "Guardian Ángels",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1768413464,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 65,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1768327243,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 65,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   }
 }
