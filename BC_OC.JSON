@@ -78754,7 +78754,7 @@
         "checkpoint_pass_rate": 80,
         "position": "Imitator",
         "position_number": 2,
-        "item_available": false
+        "item_available": true
       },
       "P5": {
         "user_id": 3852779,
@@ -78762,7 +78762,7 @@
         "checkpoint_pass_rate": 83,
         "position": "Imitator",
         "position_number": 3,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -79921,7 +79921,7 @@
         "checkpoint_pass_rate": 66,
         "position": "Assassin",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P4": {
         "user_id": 2080816,
@@ -81268,7 +81268,7 @@
         "checkpoint_pass_rate": 71,
         "position": "Assassin",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P4": {
         "user_id": 2740246,
@@ -81360,7 +81360,7 @@
         "checkpoint_pass_rate": 75,
         "position": "Cleaner",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P2": {
         "user_id": 2675301,
@@ -81670,8 +81670,8 @@
   },
   "1203343": {
     "name": "Sneaky Git Grab",
-    "status": "Recruiting",
-    "ready_at": 1768613888,
+    "status": "Planning",
+    "ready_at": 1768700288,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -81695,6 +81695,14 @@
         "checkpoint_pass_rate": 80,
         "position": "Pickpocket",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 2325329,
+        "user_name": "Crispyfoot",
+        "checkpoint_pass_rate": 83,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -81728,6 +81736,17 @@
         "checkpoint_pass_rate": 80,
         "position": "Pickpocket",
         "position_number": 1
+      },
+      {
+        "timestamp": 1768431023,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2325329,
+        "user_name": "Crispyfoot",
+        "checkpoint_pass_rate": 83,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -81808,7 +81827,7 @@
         "checkpoint_pass_rate": 66,
         "position": "Hacker",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P4": {
         "user_id": 3018158,
