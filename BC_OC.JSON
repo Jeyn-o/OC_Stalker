@@ -79577,8 +79577,8 @@
   },
   "1186536": {
     "name": "Smoke and Wing Mirrors",
-    "status": "Recruiting",
-    "ready_at": 1768590243,
+    "status": "Planning",
+    "ready_at": 1768676643,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -79602,6 +79602,14 @@
         "checkpoint_pass_rate": 86,
         "position": "Hustler",
         "position_number": 2
+      },
+      "P1": {
+        "user_id": 3805208,
+        "user_name": "AuntGoo",
+        "checkpoint_pass_rate": 83,
+        "position": "Car Thief",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -79657,6 +79665,17 @@
         "checkpoint_pass_rate": 86,
         "position": "Hustler",
         "position_number": 2
+      },
+      {
+        "timestamp": 1768449640,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3805208,
+        "user_name": "AuntGoo",
+        "checkpoint_pass_rate": 83,
+        "position": "Car Thief",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -82373,10 +82392,31 @@
   "1210010": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1768535766,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3476243,
+        "user_name": "BadalaKingkong",
+        "checkpoint_pass_rate": 84,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": false
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1768449640,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3476243,
+        "user_name": "BadalaKingkong",
+        "checkpoint_pass_rate": 84,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": false
+      }
+    ]
   },
   "1210011": {
     "name": "No Reserve",
