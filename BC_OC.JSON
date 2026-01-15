@@ -80326,9 +80326,9 @@
   },
   "1192983": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1768491777,
-    "executed_at": null,
+    "executed_at": 1768491784,
     "slots": {
       "P1": {
         "user_id": 3116621,
@@ -82631,7 +82631,7 @@
   "1212823": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1768576873,
+    "ready_at": 1768749673,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -82640,6 +82640,22 @@
         "checkpoint_pass_rate": 64,
         "position": "Muscle",
         "position_number": 1,
+        "item_available": true
+      },
+      "P5": {
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 69,
+        "position": "Muscle",
+        "position_number": 3,
+        "item_available": true
+      },
+      "P6": {
+        "user_id": 2418838,
+        "user_name": "Meeip",
+        "checkpoint_pass_rate": 70,
+        "position": "Thief",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -82653,6 +82669,28 @@
         "checkpoint_pass_rate": 64,
         "position": "Muscle",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1768492235,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 69,
+        "position": "Muscle",
+        "position_number": 3,
+        "item_available": true
+      },
+      {
+        "timestamp": 1768492235,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 2418838,
+        "user_name": "Meeip",
+        "checkpoint_pass_rate": 70,
+        "position": "Thief",
+        "position_number": 2,
         "item_available": true
       }
     ]
