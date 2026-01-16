@@ -81492,7 +81492,7 @@
         "checkpoint_pass_rate": 76,
         "position": "Hacker",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P4": {
         "user_id": 3193353,
@@ -82062,9 +82062,9 @@
   },
   "1203345": {
     "name": "Sneaky Git Grab",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1768555120,
-    "executed_at": null,
+    "executed_at": 1768569186,
     "slots": {
       "P3": {
         "user_id": 3625719,
@@ -82735,7 +82735,7 @@
   "1212822": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1768861062,
+    "ready_at": 1768947462,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -82768,6 +82768,13 @@
         "checkpoint_pass_rate": 66,
         "position": "Picklock",
         "position_number": 1
+      },
+      "P6": {
+        "user_id": 3301215,
+        "user_name": "Semykreen",
+        "checkpoint_pass_rate": 68,
+        "position": "Picklock",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -82813,6 +82820,16 @@
         "checkpoint_pass_rate": 66,
         "position": "Picklock",
         "position_number": 1
+      },
+      {
+        "timestamp": 1768569625,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3301215,
+        "user_name": "Semykreen",
+        "checkpoint_pass_rate": 68,
+        "position": "Picklock",
+        "position_number": 2
       }
     ]
   },
