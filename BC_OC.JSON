@@ -82771,10 +82771,31 @@
   "1210009": {
     "name": "Guardian Ángels",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1768685643,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 66,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1768599622,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 66,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1210010": {
     "name": "Leave No Trace",
@@ -82788,7 +82809,7 @@
         "checkpoint_pass_rate": 84,
         "position": "Imitator",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P1": {
         "user_id": 541960,
