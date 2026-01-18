@@ -81554,7 +81554,7 @@
   "1201186": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1768623162,
+    "ready_at": 1768786793,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -81564,6 +81564,14 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": false
+      },
+      "P3": {
+        "user_id": 2325329,
+        "user_name": "Crispyfoot",
+        "checkpoint_pass_rate": 69,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -81577,6 +81585,17 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1768700425,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2325329,
+        "user_name": "Crispyfoot",
+        "checkpoint_pass_rate": 69,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -82114,9 +82133,9 @@
   },
   "1203343": {
     "name": "Sneaky Git Grab",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1768700288,
-    "executed_at": null,
+    "executed_at": 1768700346,
     "slots": {
       "P1": {
         "user_id": 3348136,
