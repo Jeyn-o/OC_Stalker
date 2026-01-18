@@ -82534,9 +82534,9 @@
   },
   "1203348": {
     "name": "Stage Fright",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1768723871,
-    "executed_at": null,
+    "executed_at": 1768745826,
     "slots": {
       "P4": {
         "user_id": 3161450,
@@ -82720,7 +82720,7 @@
   "1208129": {
     "name": "Smoke and Wing Mirrors",
     "status": "Recruiting",
-    "ready_at": 1768852422,
+    "ready_at": 1768938822,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -82738,6 +82738,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 83,
+        "position": "Hustler",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -82762,6 +82769,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1768746023,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 83,
+        "position": "Hustler",
+        "position_number": 1
       }
     ]
   },
@@ -83127,7 +83144,7 @@
         "checkpoint_pass_rate": 67,
         "position": "Engineer",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
