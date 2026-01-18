@@ -83190,9 +83190,9 @@
   },
   "1210011": {
     "name": "No Reserve",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1768774923,
-    "executed_at": null,
+    "executed_at": 1768774987,
     "slots": {
       "P2": {
         "user_id": 3231991,
@@ -84161,7 +84161,7 @@
   "1222625": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1768839292,
+    "ready_at": 1768925692,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -84169,6 +84169,14 @@
         "user_name": "emp0p",
         "checkpoint_pass_rate": 70,
         "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P5": {
+        "user_id": 1300665,
+        "user_name": "Savoie",
+        "checkpoint_pass_rate": 67,
+        "position": "Muscle",
         "position_number": 1,
         "item_available": true
       }
@@ -84182,6 +84190,17 @@
         "user_name": "emp0p",
         "checkpoint_pass_rate": 70,
         "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1768775431,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 1300665,
+        "user_name": "Savoie",
+        "checkpoint_pass_rate": 67,
+        "position": "Muscle",
         "position_number": 1,
         "item_available": true
       }
@@ -84272,6 +84291,14 @@
   },
   "1223784": {
     "name": "Honey Trap",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1223817": {
+    "name": "Bidding War",
     "status": "Recruiting",
     "ready_at": null,
     "executed_at": null,
