@@ -81047,18 +81047,10 @@
   },
   "1196167": {
     "name": "Market Forces",
-    "status": "Planning",
-    "ready_at": 1769008886,
+    "status": "Recruiting",
+    "ready_at": 1768923572,
     "executed_at": null,
     "slots": {
-      "P4": {
-        "user_id": 3903942,
-        "user_name": "RouRonin",
-        "checkpoint_pass_rate": 78,
-        "position": "Arsonist",
-        "position_number": 1,
-        "item_available": true
-      },
       "P3": {
         "user_id": 3937363,
         "user_name": "jGafito",
@@ -81139,6 +81131,17 @@
         "checkpoint_pass_rate": 84,
         "position": "Negotiator",
         "position_number": 1
+      },
+      {
+        "timestamp": 1768803024,
+        "action": "left",
+        "slot": "P4",
+        "user_id": 3903942,
+        "user_name": "RouRonin",
+        "checkpoint_pass_rate": 78,
+        "position": "Arsonist",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -83081,8 +83084,8 @@
   },
   "1210009": {
     "name": "Guardian Ángels",
-    "status": "Planning",
-    "ready_at": 1768858443,
+    "status": "Recruiting",
+    "ready_at": 1768772043,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -83092,13 +83095,6 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
-      },
-      "P1": {
-        "user_id": 3322561,
-        "user_name": "Eudoralero",
-        "checkpoint_pass_rate": 76,
-        "position": "Enforcer",
-        "position_number": 1
       },
       "P2": {
         "user_id": 2835333,
@@ -83138,6 +83134,16 @@
         "user_name": "Somnum",
         "checkpoint_pass_rate": 81,
         "position": "Hustler",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1768803024,
+        "action": "left",
+        "slot": "P1",
+        "user_id": 3322561,
+        "user_name": "Eudoralero",
+        "checkpoint_pass_rate": 76,
+        "position": "Enforcer",
         "position_number": 1
       }
     ]
@@ -84169,20 +84175,22 @@
     "status": "Recruiting",
     "ready_at": 1768869101,
     "executed_at": null,
-    "slots": {
-      "P3": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1768783223,
+        "action": "joined",
+        "slot": "P3",
         "user_id": 4044077,
         "user_name": "DaddyMon11",
         "checkpoint_pass_rate": 62,
         "position": "Picklock",
         "position_number": 1,
         "item_available": true
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1768783223,
-        "action": "joined",
+        "timestamp": 1768803024,
+        "action": "left",
         "slot": "P3",
         "user_id": 4044077,
         "user_name": "DaddyMon11",
