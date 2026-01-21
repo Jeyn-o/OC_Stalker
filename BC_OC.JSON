@@ -83905,7 +83905,7 @@
   "1212825": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": 1769058001,
+    "ready_at": 1769144401,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -83915,6 +83915,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 76,
+        "position": "Techie",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -83928,6 +83935,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1769010647,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 76,
+        "position": "Techie",
+        "position_number": 1
       }
     ]
   },
@@ -84708,8 +84725,8 @@
   },
   "1223783": {
     "name": "Counter Offer",
-    "status": "Recruiting",
-    "ready_at": 1769256282,
+    "status": "Planning",
+    "ready_at": 1769342682,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -84741,6 +84758,14 @@
         "user_name": "Spoon",
         "checkpoint_pass_rate": 83,
         "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 85,
+        "position": "Looter",
         "position_number": 1,
         "item_available": true
       }
@@ -84787,6 +84812,17 @@
         "user_name": "Spoon",
         "checkpoint_pass_rate": 83,
         "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1769010647,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 85,
+        "position": "Looter",
         "position_number": 1,
         "item_available": true
       }
@@ -84860,7 +84896,7 @@
   "1223817": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": 1769229196,
+    "ready_at": 1769142796,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -84884,14 +84920,6 @@
         "user_name": "Haungpeary",
         "checkpoint_pass_rate": 74,
         "position": "Robber",
-        "position_number": 1,
-        "item_available": true
-      },
-      "P5": {
-        "user_id": 3348136,
-        "user_name": "shrigma",
-        "checkpoint_pass_rate": 71,
-        "position": "Bomber",
         "position_number": 1,
         "item_available": true
       },
@@ -84979,6 +85007,17 @@
         "position": "Bomber",
         "position_number": 2,
         "item_available": false
+      },
+      {
+        "timestamp": 1769010647,
+        "action": "left",
+        "slot": "P5",
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 71,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -85078,7 +85117,7 @@
   "1231340": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1769268181,
+    "ready_at": 1769440981,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -85103,6 +85142,22 @@
         "checkpoint_pass_rate": 70,
         "position": "Thief",
         "position_number": 2,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 64,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 62,
+        "position": "Thief",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -85138,6 +85193,28 @@
         "checkpoint_pass_rate": 70,
         "position": "Thief",
         "position_number": 2,
+        "item_available": true
+      },
+      {
+        "timestamp": 1769010647,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 64,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1769010647,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 62,
+        "position": "Thief",
+        "position_number": 1,
         "item_available": true
       }
     ]
