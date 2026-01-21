@@ -83656,9 +83656,9 @@
   },
   "1212823": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1769008873,
-    "executed_at": null,
+    "executed_at": 1769008925,
     "slots": {
       "P2": {
         "user_id": 2675301,
@@ -85078,10 +85078,69 @@
   "1231340": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1769268181,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 69,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": true
+      },
+      "P5": {
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 69,
+        "position": "Muscle",
+        "position_number": 3,
+        "item_available": true
+      },
+      "P6": {
+        "user_id": 2418838,
+        "user_name": "Meeip",
+        "checkpoint_pass_rate": 70,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1769009435,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 69,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": true
+      },
+      {
+        "timestamp": 1769009435,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 69,
+        "position": "Muscle",
+        "position_number": 3,
+        "item_available": true
+      },
+      {
+        "timestamp": 1769009435,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 2418838,
+        "user_name": "Meeip",
+        "checkpoint_pass_rate": 70,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": true
+      }
+    ]
   },
   "1231341": {
     "name": "Honey Trap",
