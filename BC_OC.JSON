@@ -85702,10 +85702,31 @@
   "1233186": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1769165509,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3680760,
+        "user_name": "Friendly_Derek",
+        "checkpoint_pass_rate": 63,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1769079639,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3680760,
+        "user_name": "Friendly_Derek",
+        "checkpoint_pass_rate": 63,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1233189": {
     "name": "Market Forces",
@@ -85718,7 +85739,7 @@
   "1233190": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1769330035,
+    "ready_at": 1769416435,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -85742,6 +85763,13 @@
         "checkpoint_pass_rate": 67,
         "position": "Muscle",
         "position_number": 2
+      },
+      "P2": {
+        "user_id": 3759168,
+        "user_name": "AIshen",
+        "checkpoint_pass_rate": 81,
+        "position": "Muscle",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -85775,6 +85803,16 @@
         "checkpoint_pass_rate": 67,
         "position": "Muscle",
         "position_number": 2
+      },
+      {
+        "timestamp": 1769079639,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3759168,
+        "user_name": "AIshen",
+        "checkpoint_pass_rate": 81,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   },
