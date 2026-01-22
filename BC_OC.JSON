@@ -84410,7 +84410,7 @@
   "1222620": {
     "name": "Mob Mentality",
     "status": "Recruiting",
-    "ready_at": 1769203308,
+    "ready_at": 1769289708,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -84419,7 +84419,14 @@
         "checkpoint_pass_rate": 78,
         "position": "Looter",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 3943448,
+        "user_name": "Maddog1997",
+        "checkpoint_pass_rate": 92,
+        "position": "Looter",
+        "position_number": 4
       }
     },
     "action_log": [
@@ -84433,6 +84440,16 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1769119240,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3943448,
+        "user_name": "Maddog1997",
+        "checkpoint_pass_rate": 92,
+        "position": "Looter",
+        "position_number": 4
       }
     ]
   },
@@ -86040,9 +86057,30 @@
   "1234455": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1769205450,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 2240841,
+        "user_name": "Timotheous",
+        "checkpoint_pass_rate": 65,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1769119240,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2240841,
+        "user_name": "Timotheous",
+        "checkpoint_pass_rate": 65,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   }
 }
