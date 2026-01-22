@@ -85241,8 +85241,8 @@
   },
   "1228182": {
     "name": "Break the Bank",
-    "status": "Recruiting",
-    "ready_at": 1769466831,
+    "status": "Planning",
+    "ready_at": 1769553231,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -85283,6 +85283,14 @@
         "checkpoint_pass_rate": 64,
         "position": "Muscle",
         "position_number": 3,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 62,
+        "position": "Thief",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -85340,6 +85348,17 @@
         "checkpoint_pass_rate": 64,
         "position": "Muscle",
         "position_number": 3,
+        "item_available": true
+      },
+      {
+        "timestamp": 1769100625,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 62,
+        "position": "Thief",
+        "position_number": 1,
         "item_available": true
       }
     ]
@@ -85400,9 +85419,9 @@
         "position_number": 1
       },
       "P4": {
-        "user_id": 3977638,
-        "user_name": "Vasavi_shakti",
-        "checkpoint_pass_rate": 63,
+        "user_id": 3680760,
+        "user_name": "Friendly_Derek",
+        "checkpoint_pass_rate": 80,
         "position": "Muscle",
         "position_number": 2
       }
@@ -85466,6 +85485,26 @@
         "user_id": 3977638,
         "user_name": "Vasavi_shakti",
         "checkpoint_pass_rate": 63,
+        "position": "Muscle",
+        "position_number": 2
+      },
+      {
+        "timestamp": 1769100625,
+        "action": "left",
+        "slot": "P4",
+        "user_id": 3977638,
+        "user_name": "Vasavi_shakti",
+        "checkpoint_pass_rate": 63,
+        "position": "Muscle",
+        "position_number": 2
+      },
+      {
+        "timestamp": 1769100625,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3680760,
+        "user_name": "Friendly_Derek",
+        "checkpoint_pass_rate": 80,
         "position": "Muscle",
         "position_number": 2
       }
@@ -85723,20 +85762,22 @@
     "status": "Recruiting",
     "ready_at": 1769165509,
     "executed_at": null,
-    "slots": {
-      "P3": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1769079639,
+        "action": "joined",
+        "slot": "P3",
         "user_id": 3680760,
         "user_name": "Friendly_Derek",
         "checkpoint_pass_rate": 63,
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1769079639,
-        "action": "joined",
+        "timestamp": 1769100625,
+        "action": "left",
         "slot": "P3",
         "user_id": 3680760,
         "user_name": "Friendly_Derek",
