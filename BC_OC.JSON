@@ -84410,7 +84410,7 @@
   "1222620": {
     "name": "Mob Mentality",
     "status": "Recruiting",
-    "ready_at": 1769289708,
+    "ready_at": 1769203308,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -84420,13 +84420,6 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": true
-      },
-      "P4": {
-        "user_id": 3943448,
-        "user_name": "Maddog1997",
-        "checkpoint_pass_rate": 92,
-        "position": "Looter",
-        "position_number": 4
       }
     },
     "action_log": [
@@ -84444,6 +84437,16 @@
       {
         "timestamp": 1769119240,
         "action": "joined",
+        "slot": "P4",
+        "user_id": 3943448,
+        "user_name": "Maddog1997",
+        "checkpoint_pass_rate": 92,
+        "position": "Looter",
+        "position_number": 4
+      },
+      {
+        "timestamp": 1769191239,
+        "action": "left",
         "slot": "P4",
         "user_id": 3943448,
         "user_name": "Maddog1997",
@@ -86335,7 +86338,7 @@
   "1236523": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1769338512,
+    "ready_at": 1769424912,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -86351,6 +86354,14 @@
         "checkpoint_pass_rate": 80,
         "position": "Enforcer",
         "position_number": 1
+      },
+      "P5": {
+        "user_id": 3943448,
+        "user_name": "Maddog1997",
+        "checkpoint_pass_rate": 77,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -86373,6 +86384,17 @@
         "checkpoint_pass_rate": 80,
         "position": "Enforcer",
         "position_number": 1
+      },
+      {
+        "timestamp": 1769191239,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3943448,
+        "user_name": "Maddog1997",
+        "checkpoint_pass_rate": 77,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
