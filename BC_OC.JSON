@@ -84476,7 +84476,7 @@
   "1222622": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1769241957,
+    "ready_at": 1769357926,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -84486,6 +84486,14 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": false
+      },
+      "P5": {
+        "user_id": 1300665,
+        "user_name": "Savoie",
+        "checkpoint_pass_rate": 67,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -84499,6 +84507,17 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1769271632,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 1300665,
+        "user_name": "Savoie",
+        "checkpoint_pass_rate": 67,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -84624,9 +84643,9 @@
   },
   "1222625": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1769271292,
-    "executed_at": null,
+    "executed_at": 1769271307,
     "slots": {
       "P4": {
         "user_id": 2914279,
