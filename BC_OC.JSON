@@ -86616,8 +86616,8 @@
   },
   "1236523": {
     "name": "Stage Fright",
-    "status": "Recruiting",
-    "ready_at": 1769597712,
+    "status": "Planning",
+    "ready_at": 1769684112,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -86655,6 +86655,13 @@
         "checkpoint_pass_rate": 82,
         "position": "Muscle",
         "position_number": 2
+      },
+      "P6": {
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 90,
+        "position": "Sniper",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -86708,16 +86715,47 @@
         "checkpoint_pass_rate": 82,
         "position": "Muscle",
         "position_number": 2
+      },
+      {
+        "timestamp": 1769344825,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 90,
+        "position": "Sniper",
+        "position_number": 1
       }
     ]
   },
   "1236526": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1769430659,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 182040,
+        "user_name": "Excaliber_13",
+        "checkpoint_pass_rate": 80,
+        "position": "Negotiator",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1769344825,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 182040,
+        "user_name": "Excaliber_13",
+        "checkpoint_pass_rate": 80,
+        "position": "Negotiator",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1236527": {
     "name": "No Reserve",
