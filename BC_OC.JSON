@@ -84413,7 +84413,7 @@
   "1222620": {
     "name": "Mob Mentality",
     "status": "Recruiting",
-    "ready_at": 1769348773,
+    "ready_at": 1769438594,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -84430,6 +84430,14 @@
         "checkpoint_pass_rate": 91,
         "position": "Looter",
         "position_number": 2
+      },
+      "P3": {
+        "user_id": 3178876,
+        "user_name": "Khallie",
+        "checkpoint_pass_rate": 88,
+        "position": "Looter",
+        "position_number": 3,
+        "item_available": false
       }
     },
     "action_log": [
@@ -84473,6 +84481,17 @@
         "checkpoint_pass_rate": 91,
         "position": "Looter",
         "position_number": 2
+      },
+      {
+        "timestamp": 1769352624,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3178876,
+        "user_name": "Khallie",
+        "checkpoint_pass_rate": 88,
+        "position": "Looter",
+        "position_number": 3,
+        "item_available": false
       }
     ]
   },
@@ -86595,19 +86614,21 @@
     "status": "Recruiting",
     "ready_at": 1769211228,
     "executed_at": null,
-    "slots": {
-      "P5": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1769125220,
+        "action": "joined",
+        "slot": "P5",
         "user_id": 3178876,
         "user_name": "Khallie",
         "checkpoint_pass_rate": 74,
         "position": "Muscle",
         "position_number": 1
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1769125220,
-        "action": "joined",
+        "timestamp": 1769352624,
+        "action": "left",
         "slot": "P5",
         "user_id": 3178876,
         "user_name": "Khallie",
