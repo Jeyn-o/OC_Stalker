@@ -84248,9 +84248,9 @@
   },
   "1222522": {
     "name": "Stage Fright",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1769457452,
-    "executed_at": null,
+    "executed_at": 1769457845,
     "slots": {
       "P5": {
         "user_id": 3703949,
@@ -87243,7 +87243,7 @@
   "1239453": {
     "name": "Snow Blind",
     "status": "Recruiting",
-    "ready_at": 1769458818,
+    "ready_at": 1769631618,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -87252,6 +87252,21 @@
         "checkpoint_pass_rate": 76,
         "position": "Muscle",
         "position_number": 1
+      },
+      "P2": {
+        "user_id": 3680760,
+        "user_name": "Friendly_Derek",
+        "checkpoint_pass_rate": 79,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": false
+      },
+      "P4": {
+        "user_id": 3703949,
+        "user_name": "Downtowndave20",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -87264,6 +87279,27 @@
         "checkpoint_pass_rate": 76,
         "position": "Muscle",
         "position_number": 1
+      },
+      {
+        "timestamp": 1769458226,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3680760,
+        "user_name": "Friendly_Derek",
+        "checkpoint_pass_rate": 79,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1769458226,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3703949,
+        "user_name": "Downtowndave20",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
+        "position_number": 2
       }
     ]
   },
