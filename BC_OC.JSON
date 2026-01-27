@@ -87790,7 +87790,7 @@
   "1249340": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1769688234,
+    "ready_at": 1769774634,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -87806,6 +87806,14 @@
         "user_name": "Crispyfoot",
         "checkpoint_pass_rate": 69,
         "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2250222,
+        "user_name": "Ronskip",
+        "checkpoint_pass_rate": 73,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
@@ -87830,6 +87838,17 @@
         "user_name": "Crispyfoot",
         "checkpoint_pass_rate": 69,
         "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1769550028,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2250222,
+        "user_name": "Ronskip",
+        "checkpoint_pass_rate": 73,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
@@ -87940,10 +87959,31 @@
   "1249348": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1769635853,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 3575675,
+        "user_name": "highfishM",
+        "checkpoint_pass_rate": 77,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1769550028,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3575675,
+        "user_name": "highfishM",
+        "checkpoint_pass_rate": 77,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1251206": {
     "name": "Smoke and Wing Mirrors",
