@@ -87252,7 +87252,7 @@
   "1239451": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1769434561,
+    "ready_at": 1769701617,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -87262,6 +87262,22 @@
         "position": "Thief",
         "position_number": 2,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 64,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 61,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
       }
     },
     "action_log": [
@@ -87275,6 +87291,28 @@
         "position": "Thief",
         "position_number": 2,
         "item_available": true
+      },
+      {
+        "timestamp": 1769529023,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 64,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1769529023,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 61,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
       }
     ]
   },
