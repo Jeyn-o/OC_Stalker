@@ -87251,8 +87251,8 @@
   },
   "1239451": {
     "name": "Break the Bank",
-    "status": "Recruiting",
-    "ready_at": 1769874417,
+    "status": "Planning",
+    "ready_at": 1769960817,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -87292,6 +87292,14 @@
         "user_name": "Poundthatass",
         "checkpoint_pass_rate": 63,
         "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 214123,
+        "user_name": "JerseyJay",
+        "checkpoint_pass_rate": 72,
+        "position": "Thief",
         "position_number": 1,
         "item_available": true
       }
@@ -87349,6 +87357,17 @@
         "user_name": "Poundthatass",
         "checkpoint_pass_rate": 63,
         "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1769536842,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 214123,
+        "user_name": "JerseyJay",
+        "checkpoint_pass_rate": 72,
+        "position": "Thief",
         "position_number": 1,
         "item_available": true
       }
@@ -87742,10 +87761,31 @@
   "1249339": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1769622697,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 442690,
+        "user_name": "BeardedBenny",
+        "checkpoint_pass_rate": 70,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1769536842,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 442690,
+        "user_name": "BeardedBenny",
+        "checkpoint_pass_rate": 70,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
+      }
+    ]
   },
   "1249340": {
     "name": "Blast from the Past",
