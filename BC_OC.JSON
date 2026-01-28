@@ -86358,9 +86358,9 @@
   },
   "1233190": {
     "name": "Stage Fright",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1769589235,
-    "executed_at": null,
+    "executed_at": 1769597525,
     "slots": {
       "P1": {
         "user_id": 3838831,
@@ -88244,8 +88244,8 @@
   },
   "1251207": {
     "name": "Plucking the Lotus Petal",
-    "status": "Recruiting",
-    "ready_at": 1769785597,
+    "status": "Planning",
+    "ready_at": 1769871997,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -88269,6 +88269,13 @@
         "checkpoint_pass_rate": 66,
         "position": "Robber",
         "position_number": 2
+      },
+      "P1": {
+        "user_id": 3759168,
+        "user_name": "AIshen",
+        "checkpoint_pass_rate": 78,
+        "position": "Robber",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -88302,16 +88309,64 @@
         "checkpoint_pass_rate": 66,
         "position": "Robber",
         "position_number": 2
+      },
+      {
+        "timestamp": 1769598038,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3759168,
+        "user_name": "AIshen",
+        "checkpoint_pass_rate": 78,
+        "position": "Robber",
+        "position_number": 1
       }
     ]
   },
   "1251868": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1769770417,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3937363,
+        "user_name": "jGafito",
+        "checkpoint_pass_rate": 69,
+        "position": "Muscle",
+        "position_number": 2
+      },
+      "P5": {
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 74,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1769598038,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3937363,
+        "user_name": "jGafito",
+        "checkpoint_pass_rate": 69,
+        "position": "Muscle",
+        "position_number": 2
+      },
+      {
+        "timestamp": 1769598038,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 74,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1251878": {
     "name": "Blast from the Past",
