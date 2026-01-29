@@ -87419,9 +87419,9 @@
   },
   "1239453": {
     "name": "Snow Blind",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1769718018,
-    "executed_at": null,
+    "executed_at": 1769718065,
     "slots": {
       "P3": {
         "user_id": 3805208,
@@ -87771,8 +87771,8 @@
   },
   "1244495": {
     "name": "Sneaky Git Grab",
-    "status": "Planning",
-    "ready_at": 1769711103,
+    "status": "Recruiting",
+    "ready_at": 1769624703,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -87796,14 +87796,6 @@
         "checkpoint_pass_rate": 67,
         "position": "Imitator",
         "position_number": 1
-      },
-      "P3": {
-        "user_id": 2302062,
-        "user_name": "BoozHound",
-        "checkpoint_pass_rate": 86,
-        "position": "Hacker",
-        "position_number": 1,
-        "item_available": true
       }
     },
     "action_log": [
@@ -87841,6 +87833,17 @@
       {
         "timestamp": 1769522443,
         "action": "joined",
+        "slot": "P3",
+        "user_id": 2302062,
+        "user_name": "BoozHound",
+        "checkpoint_pass_rate": 86,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1769718634,
+        "action": "left",
         "slot": "P3",
         "user_id": 2302062,
         "user_name": "BoozHound",
@@ -88850,8 +88853,8 @@
   },
   "1252597": {
     "name": "Guardian Ángels",
-    "status": "Recruiting",
-    "ready_at": 1769816801,
+    "status": "Planning",
+    "ready_at": 1769903201,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -88867,6 +88870,13 @@
         "user_name": "shrigma",
         "checkpoint_pass_rate": 87,
         "position": "Hustler",
+        "position_number": 1
+      },
+      "P1": {
+        "user_id": 3680760,
+        "user_name": "Friendly_Derek",
+        "checkpoint_pass_rate": 73,
+        "position": "Enforcer",
         "position_number": 1
       }
     },
@@ -88890,6 +88900,16 @@
         "user_name": "shrigma",
         "checkpoint_pass_rate": 87,
         "position": "Hustler",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1769718634,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3680760,
+        "user_name": "Friendly_Derek",
+        "checkpoint_pass_rate": 73,
+        "position": "Enforcer",
         "position_number": 1
       }
     ]
