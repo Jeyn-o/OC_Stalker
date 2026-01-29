@@ -86719,9 +86719,18 @@
   "1236521": {
     "name": "Market Forces",
     "status": "Recruiting",
-    "ready_at": 1769211228,
+    "ready_at": 1769812709,
     "executed_at": null,
-    "slots": {},
+    "slots": {
+      "P4": {
+        "user_id": 3841404,
+        "user_name": "Sleepy_Skyes",
+        "checkpoint_pass_rate": 79,
+        "position": "Arsonist",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
     "action_log": [
       {
         "timestamp": 1769125220,
@@ -86742,6 +86751,17 @@
         "checkpoint_pass_rate": 74,
         "position": "Muscle",
         "position_number": 1
+      },
+      {
+        "timestamp": 1769726426,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3841404,
+        "user_name": "Sleepy_Skyes",
+        "checkpoint_pass_rate": 79,
+        "position": "Arsonist",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -88643,8 +88663,8 @@
   },
   "1251868": {
     "name": "Stage Fright",
-    "status": "Recruiting",
-    "ready_at": 1770029617,
+    "status": "Planning",
+    "ready_at": 1770116017,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -88682,6 +88702,13 @@
         "checkpoint_pass_rate": 82,
         "position": "Muscle",
         "position_number": 3
+      },
+      "P6": {
+        "user_id": 541960,
+        "user_name": "Davie_Corleone",
+        "checkpoint_pass_rate": 86,
+        "position": "Sniper",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -88757,6 +88784,16 @@
         "checkpoint_pass_rate": 82,
         "position": "Muscle",
         "position_number": 3
+      },
+      {
+        "timestamp": 1769726426,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 541960,
+        "user_name": "Davie_Corleone",
+        "checkpoint_pass_rate": 86,
+        "position": "Sniper",
+        "position_number": 1
       }
     ]
   },
