@@ -88638,8 +88638,8 @@
   },
   "1251879": {
     "name": "Clinical Precision",
-    "status": "Recruiting",
-    "ready_at": 1769878490,
+    "status": "Planning",
+    "ready_at": 1769964890,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -88664,6 +88664,14 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 71,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -88698,6 +88706,17 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1769714426,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 71,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -88864,10 +88883,29 @@
   "1257721": {
     "name": "Snow Blind",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1769800590,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3161450,
+        "user_name": "Rubadubb",
+        "checkpoint_pass_rate": 80,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1769714426,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3161450,
+        "user_name": "Rubadubb",
+        "checkpoint_pass_rate": 80,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    ]
   },
   "1257722": {
     "name": "Pet Project",
