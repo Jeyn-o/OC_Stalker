@@ -88142,8 +88142,8 @@
   },
   "1249344": {
     "name": "Mob Mentality",
-    "status": "Planning",
-    "ready_at": 1769845330,
+    "status": "Recruiting",
+    "ready_at": 1769758930,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -88168,13 +88168,6 @@
         "position": "Looter",
         "position_number": 3,
         "item_available": true
-      },
-      "P4": {
-        "user_id": 3846586,
-        "user_name": "Autlast",
-        "checkpoint_pass_rate": 92,
-        "position": "Looter",
-        "position_number": 4
       }
     },
     "action_log": [
@@ -88213,6 +88206,16 @@
       {
         "timestamp": 1769656227,
         "action": "joined",
+        "slot": "P4",
+        "user_id": 3846586,
+        "user_name": "Autlast",
+        "checkpoint_pass_rate": 92,
+        "position": "Looter",
+        "position_number": 4
+      },
+      {
+        "timestamp": 1769661623,
+        "action": "left",
         "slot": "P4",
         "user_id": 3846586,
         "user_name": "Autlast",
@@ -88492,7 +88495,7 @@
   "1251868": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1769684017,
+    "ready_at": 1769770417,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -88501,6 +88504,14 @@
         "checkpoint_pass_rate": 69,
         "position": "Muscle",
         "position_number": 2
+      },
+      "P5": {
+        "user_id": 3846586,
+        "user_name": "Autlast",
+        "checkpoint_pass_rate": 78,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -88532,6 +88543,17 @@
         "user_id": 3967366,
         "user_name": "Icks-B",
         "checkpoint_pass_rate": 74,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1769661623,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3846586,
+        "user_name": "Autlast",
+        "checkpoint_pass_rate": 78,
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
