@@ -86472,9 +86472,9 @@
   },
   "1234401": {
     "name": "Bidding War",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1769721535,
-    "executed_at": null,
+    "executed_at": 1769721544,
     "slots": {
       "P1": {
         "user_id": 3018158,
@@ -87771,8 +87771,8 @@
   },
   "1244495": {
     "name": "Sneaky Git Grab",
-    "status": "Recruiting",
-    "ready_at": 1769624703,
+    "status": "Planning",
+    "ready_at": 1769807957,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -87796,6 +87796,14 @@
         "checkpoint_pass_rate": 67,
         "position": "Imitator",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 78,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -87851,6 +87859,17 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1769721631,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 78,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -88997,8 +89016,8 @@
   },
   "1257721": {
     "name": "Snow Blind",
-    "status": "Recruiting",
-    "ready_at": 1769973390,
+    "status": "Planning",
+    "ready_at": 1770059790,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -89022,6 +89041,13 @@
         "checkpoint_pass_rate": 76,
         "position": "Muscle",
         "position_number": 2
+      },
+      "P1": {
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 85,
+        "position": "Hustler",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -89055,6 +89081,16 @@
         "checkpoint_pass_rate": 76,
         "position": "Muscle",
         "position_number": 2
+      },
+      {
+        "timestamp": 1769721631,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 85,
+        "position": "Hustler",
+        "position_number": 1
       }
     ]
   },
