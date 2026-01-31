@@ -88670,7 +88670,7 @@
         "checkpoint_pass_rate": 75,
         "position": "Imitator",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P4": {
         "user_id": 3915266,
@@ -88999,7 +88999,7 @@
         "checkpoint_pass_rate": 71,
         "position": "Assassin",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -89535,10 +89535,29 @@
   "1262696": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1769930287,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3932437,
+        "user_name": "Stealthination",
+        "checkpoint_pass_rate": 77,
+        "position": "Looter",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1769844025,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3932437,
+        "user_name": "Stealthination",
+        "checkpoint_pass_rate": 77,
+        "position": "Looter",
+        "position_number": 1
+      }
+    ]
   },
   "1262697": {
     "name": "Gaslight the Way",
