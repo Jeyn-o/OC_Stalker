@@ -88465,19 +88465,21 @@
     "status": "Recruiting",
     "ready_at": 1769954194,
     "executed_at": null,
-    "slots": {
-      "P2": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1769868037,
+        "action": "joined",
+        "slot": "P2",
         "user_id": 3155088,
         "user_name": "Army_b0i",
         "checkpoint_pass_rate": 72,
         "position": "Car Thief",
         "position_number": 1
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1769868037,
-        "action": "joined",
+        "timestamp": 1769964628,
+        "action": "left",
         "slot": "P2",
         "user_id": 3155088,
         "user_name": "Army_b0i",
@@ -90174,10 +90176,29 @@
   "1266075": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1770050909,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P6": {
+        "user_id": 2154655,
+        "user_name": "Khana",
+        "checkpoint_pass_rate": 69,
+        "position": "Picklock",
+        "position_number": 2
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1769964628,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 2154655,
+        "user_name": "Khana",
+        "checkpoint_pass_rate": 69,
+        "position": "Picklock",
+        "position_number": 2
+      }
+    ]
   },
   "1266076": {
     "name": "Clinical Precision",
