@@ -90260,8 +90260,8 @@
   },
   "1266076": {
     "name": "Clinical Precision",
-    "status": "Recruiting",
-    "ready_at": 1770220791,
+    "status": "Planning",
+    "ready_at": 1770307191,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -90286,6 +90286,14 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": false
+      },
+      "P1": {
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 68,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -90320,6 +90328,17 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1769976627,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 68,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   }
