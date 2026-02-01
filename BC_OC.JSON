@@ -89012,7 +89012,7 @@
         "checkpoint_pass_rate": 71,
         "position": "Cleaner",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P2": {
         "user_id": 3193353,
@@ -89168,8 +89168,8 @@
   },
   "1252594": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1769990120,
+    "status": "Planning",
+    "ready_at": 1770076520,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -89186,6 +89186,14 @@
         "checkpoint_pass_rate": 69,
         "position": "Muscle",
         "position_number": 1
+      },
+      "P1": {
+        "user_id": 2730718,
+        "user_name": "Haungpeary",
+        "checkpoint_pass_rate": 70,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -89209,6 +89217,17 @@
         "checkpoint_pass_rate": 69,
         "position": "Muscle",
         "position_number": 1
+      },
+      {
+        "timestamp": 1769929820,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2730718,
+        "user_name": "Haungpeary",
+        "checkpoint_pass_rate": 70,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -89877,17 +89896,9 @@
   "1262702": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": 1770020173,
+    "ready_at": 1770015919,
     "executed_at": null,
     "slots": {
-      "P3": {
-        "user_id": 2570952,
-        "user_name": "BordlandsMoe",
-        "checkpoint_pass_rate": 73,
-        "position": "Engineer",
-        "position_number": 1,
-        "item_available": true
-      },
       "P2": {
         "user_id": 3348136,
         "user_name": "shrigma",
@@ -89917,6 +89928,17 @@
         "user_name": "shrigma",
         "checkpoint_pass_rate": 82,
         "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1769929820,
+        "action": "left",
+        "slot": "P3",
+        "user_id": 2570952,
+        "user_name": "BordlandsMoe",
+        "checkpoint_pass_rate": 73,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
