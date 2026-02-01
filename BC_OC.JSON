@@ -87841,7 +87841,7 @@
         "checkpoint_pass_rate": 67,
         "position": "Techie",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P2": {
         "user_id": 3139132,
@@ -88228,7 +88228,7 @@
         "checkpoint_pass_rate": 71,
         "position": "Hacker",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P5": {
         "user_id": 2325329,
@@ -88633,7 +88633,7 @@
         "checkpoint_pass_rate": 70,
         "position": "Hacker",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -89096,7 +89096,7 @@
         "checkpoint_pass_rate": 68,
         "position": "Hacker",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P4": {
         "user_id": 2835333,
@@ -89828,7 +89828,7 @@
   "1262698": {
     "name": "Snow Blind",
     "status": "Recruiting",
-    "ready_at": 1770048602,
+    "ready_at": 1770135002,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -89844,6 +89844,13 @@
         "checkpoint_pass_rate": 65,
         "position": "Muscle",
         "position_number": 2
+      },
+      "P3": {
+        "user_id": 2570952,
+        "user_name": "BordlandsMoe",
+        "checkpoint_pass_rate": 83,
+        "position": "Muscle",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -89866,6 +89873,16 @@
         "checkpoint_pass_rate": 65,
         "position": "Muscle",
         "position_number": 2
+      },
+      {
+        "timestamp": 1769930425,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2570952,
+        "user_name": "BordlandsMoe",
+        "checkpoint_pass_rate": 83,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   },
@@ -89943,5 +89960,21 @@
         "item_available": true
       }
     ]
+  },
+  "1266075": {
+    "name": "Blast from the Past",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1266076": {
+    "name": "Clinical Precision",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
   }
 }
