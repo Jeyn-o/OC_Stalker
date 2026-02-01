@@ -88593,9 +88593,9 @@
   },
   "1249348": {
     "name": "Counter Offer",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1769981453,
-    "executed_at": null,
+    "executed_at": 1769981466,
     "slots": {
       "P1": {
         "user_id": 3575675,
@@ -89912,8 +89912,8 @@
   },
   "1262696": {
     "name": "Gaslight the Way",
-    "status": "Recruiting",
-    "ready_at": 1770275887,
+    "status": "Planning",
+    "ready_at": 1770362287,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -89952,6 +89952,14 @@
         "checkpoint_pass_rate": 84,
         "position": "Looter",
         "position_number": 3
+      },
+      "P5": {
+        "user_id": 3838831,
+        "user_name": "Lev_Bron",
+        "checkpoint_pass_rate": 89,
+        "position": "Imitator",
+        "position_number": 3,
+        "item_available": true
       }
     },
     "action_log": [
@@ -90046,6 +90054,17 @@
         "checkpoint_pass_rate": 84,
         "position": "Looter",
         "position_number": 3
+      },
+      {
+        "timestamp": 1769982024,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3838831,
+        "user_name": "Lev_Bron",
+        "checkpoint_pass_rate": 89,
+        "position": "Imitator",
+        "position_number": 3,
+        "item_available": true
       }
     ]
   },
