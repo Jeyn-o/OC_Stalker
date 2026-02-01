@@ -89766,15 +89766,36 @@
   "1262695": {
     "name": "Market Forces",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1770024444,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 3915266,
+        "user_name": "Lucifixion",
+        "checkpoint_pass_rate": 76,
+        "position": "Arsonist",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1769938230,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3915266,
+        "user_name": "Lucifixion",
+        "checkpoint_pass_rate": 76,
+        "position": "Arsonist",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1262696": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1770189487,
+    "ready_at": 1770103087,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -89799,13 +89820,6 @@
         "position": "Imitator",
         "position_number": 2,
         "item_available": false
-      },
-      "P4": {
-        "user_id": 3915266,
-        "user_name": "Lucifixion",
-        "checkpoint_pass_rate": 83,
-        "position": "Looter",
-        "position_number": 2
       }
     },
     "action_log": [
@@ -89844,6 +89858,16 @@
       {
         "timestamp": 1769937623,
         "action": "joined",
+        "slot": "P4",
+        "user_id": 3915266,
+        "user_name": "Lucifixion",
+        "checkpoint_pass_rate": 83,
+        "position": "Looter",
+        "position_number": 2
+      },
+      {
+        "timestamp": 1769938230,
+        "action": "left",
         "slot": "P4",
         "user_id": 3915266,
         "user_name": "Lucifixion",
