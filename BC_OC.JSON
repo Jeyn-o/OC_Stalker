@@ -88338,9 +88338,9 @@
   },
   "1249341": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1770048299,
-    "executed_at": null,
+    "executed_at": 1770048306,
     "slots": {
       "P6": {
         "user_id": 2418838,
@@ -89696,8 +89696,8 @@
   },
   "1259902": {
     "name": "Break the Bank",
-    "status": "Recruiting",
-    "ready_at": 1770393079,
+    "status": "Planning",
+    "ready_at": 1770479479,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -89739,6 +89739,14 @@
         "position": "Robber",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 68,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
       }
     },
     "action_log": [
@@ -89796,6 +89804,17 @@
         "position": "Robber",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1770048632,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 68,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
       }
     ]
   },
@@ -90428,7 +90447,7 @@
   "1266075": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1770137309,
+    "ready_at": 1770223709,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -90444,6 +90463,14 @@
         "checkpoint_pass_rate": 70,
         "position": "Picklock",
         "position_number": 1
+      },
+      "P2": {
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 77,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -90466,6 +90493,17 @@
         "checkpoint_pass_rate": 70,
         "position": "Picklock",
         "position_number": 1
+      },
+      {
+        "timestamp": 1770048632,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 77,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -90564,10 +90602,50 @@
   "1269244": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1770221238,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P5": {
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 69,
+        "position": "Muscle",
+        "position_number": 3,
+        "item_available": true
+      },
+      "P6": {
+        "user_id": 2418838,
+        "user_name": "Meeip",
+        "checkpoint_pass_rate": 70,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1770048632,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 69,
+        "position": "Muscle",
+        "position_number": 3,
+        "item_available": true
+      },
+      {
+        "timestamp": 1770048632,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 2418838,
+        "user_name": "Meeip",
+        "checkpoint_pass_rate": 70,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": true
+      }
+    ]
   },
   "1269245": {
     "name": "Gaslight the Way",
