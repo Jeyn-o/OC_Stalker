@@ -91141,8 +91141,8 @@
   },
   "1269248": {
     "name": "Counter Offer",
-    "status": "Recruiting",
-    "ready_at": 1770363357,
+    "status": "Planning",
+    "ready_at": 1770449757,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -91174,6 +91174,14 @@
         "user_name": "AIshen",
         "checkpoint_pass_rate": 66,
         "position": "Robber",
+        "position_number": 1,
+        "item_available": false
+      },
+      "P3": {
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 68,
+        "position": "Hacker",
         "position_number": 1,
         "item_available": false
       }
@@ -91244,6 +91252,17 @@
         "position": "Robber",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1770133235,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 68,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -91266,9 +91285,28 @@
   "1272545": {
     "name": "Plucking the Lotus Petal",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1770219594,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 3846586,
+        "user_name": "Autlast",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1770133235,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3846586,
+        "user_name": "Autlast",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    ]
   }
 }
