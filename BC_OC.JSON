@@ -90913,7 +90913,7 @@
   "1269247": {
     "name": "Snow Blind",
     "status": "Recruiting",
-    "ready_at": 1770155727,
+    "ready_at": 1770242127,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -90922,6 +90922,13 @@
         "checkpoint_pass_rate": 72,
         "position": "Muscle",
         "position_number": 2
+      },
+      "P3": {
+        "user_id": 3805208,
+        "user_name": "AuntGoo",
+        "checkpoint_pass_rate": 76,
+        "position": "Muscle",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -90934,13 +90941,23 @@
         "checkpoint_pass_rate": 72,
         "position": "Muscle",
         "position_number": 2
+      },
+      {
+        "timestamp": 1770081030,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3805208,
+        "user_name": "AuntGoo",
+        "checkpoint_pass_rate": 76,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   },
   "1269248": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1770276957,
+    "ready_at": 1770190557,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -90948,14 +90965,6 @@
         "user_name": "jonasgrind",
         "checkpoint_pass_rate": 79,
         "position": "Picklock",
-        "position_number": 1,
-        "item_available": true
-      },
-      "P2": {
-        "user_id": 3805208,
-        "user_name": "AuntGoo",
-        "checkpoint_pass_rate": 70,
-        "position": "Looter",
         "position_number": 1,
         "item_available": true
       },
@@ -90999,6 +91008,17 @@
         "user_name": "Rubadubb",
         "checkpoint_pass_rate": 72,
         "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1770081030,
+        "action": "left",
+        "slot": "P2",
+        "user_id": 3805208,
+        "user_name": "AuntGoo",
+        "checkpoint_pass_rate": 70,
+        "position": "Looter",
         "position_number": 1,
         "item_available": true
       }
