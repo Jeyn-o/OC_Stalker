@@ -89879,9 +89879,9 @@
   },
   "1259903": {
     "name": "Guardian Ángels",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1770132198,
-    "executed_at": null,
+    "executed_at": 1770132245,
     "slots": {
       "P3": {
         "user_id": 3759168,
@@ -91142,7 +91142,7 @@
   "1269248": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1770276957,
+    "ready_at": 1770363357,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -91168,6 +91168,14 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 3759168,
+        "user_name": "AIshen",
+        "checkpoint_pass_rate": 66,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -91225,6 +91233,17 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1770132662,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3759168,
+        "user_name": "AIshen",
+        "checkpoint_pass_rate": 66,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
