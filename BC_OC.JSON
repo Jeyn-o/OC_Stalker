@@ -89607,10 +89607,31 @@
   "1259900": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1770177561,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P5": {
+        "user_id": 1300665,
+        "user_name": "Savoie",
+        "checkpoint_pass_rate": 68,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": false
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1770091233,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 1300665,
+        "user_name": "Savoie",
+        "checkpoint_pass_rate": 68,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": false
+      }
+    ]
   },
   "1259901": {
     "name": "Blast from the Past",
@@ -90949,16 +90970,9 @@
   "1269247": {
     "name": "Snow Blind",
     "status": "Recruiting",
-    "ready_at": 1770242127,
+    "ready_at": 1770177593,
     "executed_at": null,
     "slots": {
-      "P4": {
-        "user_id": 3703949,
-        "user_name": "Downtowndave20",
-        "checkpoint_pass_rate": 72,
-        "position": "Muscle",
-        "position_number": 2
-      },
       "P3": {
         "user_id": 3805208,
         "user_name": "AuntGoo",
@@ -90987,13 +91001,23 @@
         "checkpoint_pass_rate": 76,
         "position": "Muscle",
         "position_number": 1
+      },
+      {
+        "timestamp": 1770091233,
+        "action": "left",
+        "slot": "P4",
+        "user_id": 3703949,
+        "user_name": "Downtowndave20",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
+        "position_number": 2
       }
     ]
   },
   "1269248": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1770190557,
+    "ready_at": 1770276957,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -91009,6 +91033,14 @@
         "user_name": "Rubadubb",
         "checkpoint_pass_rate": 72,
         "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 3703949,
+        "user_name": "Downtowndave20",
+        "checkpoint_pass_rate": 65,
+        "position": "Looter",
         "position_number": 1,
         "item_available": true
       }
@@ -91054,6 +91086,17 @@
         "user_id": 3805208,
         "user_name": "AuntGoo",
         "checkpoint_pass_rate": 70,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1770091233,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3703949,
+        "user_name": "Downtowndave20",
+        "checkpoint_pass_rate": 65,
         "position": "Looter",
         "position_number": 1,
         "item_available": true
