@@ -89423,20 +89423,22 @@
     "status": "Recruiting",
     "ready_at": 1770329311,
     "executed_at": null,
-    "slots": {
-      "P2": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1770243027,
+        "action": "joined",
+        "slot": "P2",
         "user_id": 2679269,
         "user_name": "TsanMan",
         "checkpoint_pass_rate": 77,
         "position": "Hacker",
         "position_number": 1,
         "item_available": false
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1770243027,
-        "action": "joined",
+        "timestamp": 1770243624,
+        "action": "left",
         "slot": "P2",
         "user_id": 2679269,
         "user_name": "TsanMan",
@@ -91833,7 +91835,7 @@
   "1274981": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1770320743,
+    "ready_at": 1770407143,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -91842,6 +91844,14 @@
         "checkpoint_pass_rate": 66,
         "position": "Muscle",
         "position_number": 1,
+        "item_available": true
+      },
+      "P6": {
+        "user_id": 2679269,
+        "user_name": "TsanMan",
+        "checkpoint_pass_rate": 64,
+        "position": "Thief",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -91855,6 +91865,17 @@
         "checkpoint_pass_rate": 66,
         "position": "Muscle",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1770243624,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 2679269,
+        "user_name": "TsanMan",
+        "checkpoint_pass_rate": 64,
+        "position": "Thief",
+        "position_number": 2,
         "item_available": true
       }
     ]
