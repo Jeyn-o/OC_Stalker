@@ -91734,8 +91734,8 @@
   },
   "1274270": {
     "name": "Leave No Trace",
-    "status": "Recruiting",
-    "ready_at": 1770306901,
+    "status": "Planning",
+    "ready_at": 1770559459,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -91744,6 +91744,22 @@
         "checkpoint_pass_rate": 72,
         "position": "Techie",
         "position_number": 1
+      },
+      "P2": {
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 72,
+        "position": "Negotiator",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2671608,
+        "user_name": "AlfieG",
+        "checkpoint_pass_rate": 84,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -91756,6 +91772,28 @@
         "checkpoint_pass_rate": 72,
         "position": "Techie",
         "position_number": 1
+      },
+      {
+        "timestamp": 1770387028,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 72,
+        "position": "Negotiator",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1770387028,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2671608,
+        "user_name": "AlfieG",
+        "checkpoint_pass_rate": 84,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -92381,10 +92419,31 @@
   "1282359": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1770473072,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3625719,
+        "user_name": "Raie",
+        "checkpoint_pass_rate": 69,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1770387028,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3625719,
+        "user_name": "Raie",
+        "checkpoint_pass_rate": 69,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
+      }
+    ]
   },
   "1282360": {
     "name": "Counter Offer",
