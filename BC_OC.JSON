@@ -91128,7 +91128,7 @@
         "checkpoint_pass_rate": 66,
         "position": "Bomber",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P1": {
         "user_id": 2914279,
@@ -92239,8 +92239,8 @@
   },
   "1278072": {
     "name": "Smoke and Wing Mirrors",
-    "status": "Recruiting",
-    "ready_at": 1770687618,
+    "status": "Planning",
+    "ready_at": 1770774018,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -92265,6 +92265,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P4": {
+        "user_id": 3904499,
+        "user_name": "mmaple",
+        "checkpoint_pass_rate": 75,
+        "position": "Hustler",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -92299,6 +92306,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1770469826,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3904499,
+        "user_name": "mmaple",
+        "checkpoint_pass_rate": 75,
+        "position": "Hustler",
+        "position_number": 2
       }
     ]
   },
