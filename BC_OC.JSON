@@ -93606,7 +93606,7 @@
   "1286459": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1770664739,
+    "ready_at": 1770751139,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -93623,6 +93623,14 @@
         "checkpoint_pass_rate": 88,
         "position": "Looter",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 3680760,
+        "user_name": "Friendly_Derek",
+        "checkpoint_pass_rate": 87,
+        "position": "Imitator",
+        "position_number": 2,
+        "item_available": true
       }
     },
     "action_log": [
@@ -93646,16 +93654,48 @@
         "checkpoint_pass_rate": 88,
         "position": "Looter",
         "position_number": 1
+      },
+      {
+        "timestamp": 1770574226,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3680760,
+        "user_name": "Friendly_Derek",
+        "checkpoint_pass_rate": 87,
+        "position": "Imitator",
+        "position_number": 2,
+        "item_available": true
       }
     ]
   },
   "1288957": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1770660058,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 62,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1770574226,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 62,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": true
+      }
+    ]
   },
   "1288958": {
     "name": "Sneaky Git Grab",
