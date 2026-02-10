@@ -92293,7 +92293,7 @@
   "1278067": {
     "name": "Mob Mentality",
     "status": "Recruiting",
-    "ready_at": 1770776976,
+    "ready_at": 1770863376,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -92303,6 +92303,13 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3841404,
+        "user_name": "Sleepy_Skyes",
+        "checkpoint_pass_rate": 91,
+        "position": "Looter",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -92316,6 +92323,16 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1770751837,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3841404,
+        "user_name": "Sleepy_Skyes",
+        "checkpoint_pass_rate": 91,
+        "position": "Looter",
+        "position_number": 2
       }
     ]
   },
@@ -94028,10 +94045,31 @@
   "1288959": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1770837920,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 76,
+        "position": "Car Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1770751837,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 76,
+        "position": "Car Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1288960": {
     "name": "Smoke and Wing Mirrors",
