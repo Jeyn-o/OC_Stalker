@@ -92545,9 +92545,9 @@
   },
   "1278073": {
     "name": "Stage Fright",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1770903699,
-    "executed_at": null,
+    "executed_at": 1770903725,
     "slots": {
       "P1": {
         "user_id": 2932114,
@@ -95023,7 +95023,7 @@
   "1298854": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": 1770896989,
+    "ready_at": 1770990216,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -95033,6 +95033,13 @@
         "position": "Muscle",
         "position_number": 2,
         "item_available": false
+      },
+      "P2": {
+        "user_id": 3656242,
+        "user_name": "jonasgrind",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -95046,6 +95053,16 @@
         "position": "Muscle",
         "position_number": 2,
         "item_available": false
+      },
+      {
+        "timestamp": 1770904228,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3656242,
+        "user_name": "jonasgrind",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   },
