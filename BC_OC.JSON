@@ -94347,8 +94347,8 @@
   },
   "1288961": {
     "name": "Stage Fright",
-    "status": "Planning",
-    "ready_at": 1771114636,
+    "status": "Recruiting",
+    "ready_at": 1771028236,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -94379,13 +94379,6 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
-      },
-      "P6": {
-        "user_id": 3625719,
-        "user_name": "Raie",
-        "checkpoint_pass_rate": 88,
-        "position": "Sniper",
-        "position_number": 1
       },
       "P2": {
         "user_id": 182040,
@@ -94455,6 +94448,16 @@
         "user_name": "Excaliber_13",
         "checkpoint_pass_rate": 88,
         "position": "Muscle",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1770898827,
+        "action": "left",
+        "slot": "P6",
+        "user_id": 3625719,
+        "user_name": "Raie",
+        "checkpoint_pass_rate": 88,
+        "position": "Sniper",
         "position_number": 1
       }
     ]
@@ -94920,8 +94923,8 @@
   },
   "1298853": {
     "name": "Sneaky Git Grab",
-    "status": "Recruiting",
-    "ready_at": 1771053304,
+    "status": "Planning",
+    "ready_at": 1771139704,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -94945,6 +94948,14 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": false
+      },
+      "P4": {
+        "user_id": 3625719,
+        "user_name": "Raie",
+        "checkpoint_pass_rate": 68,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -94978,6 +94989,17 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1770898827,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3625719,
+        "user_name": "Raie",
+        "checkpoint_pass_rate": 68,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
