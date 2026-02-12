@@ -93794,9 +93794,9 @@
   },
   "1286458": {
     "name": "Market Forces",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1770925692,
-    "executed_at": null,
+    "executed_at": 1770925746,
     "slots": {
       "P3": {
         "user_id": 3780352,
@@ -94282,8 +94282,8 @@
   },
   "1288960": {
     "name": "Smoke and Wing Mirrors",
-    "status": "Recruiting",
-    "ready_at": 1771053841,
+    "status": "Planning",
+    "ready_at": 1771140241,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -94308,6 +94308,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P4": {
+        "user_id": 3178876,
+        "user_name": "Khallie",
+        "checkpoint_pass_rate": 76,
+        "position": "Hustler",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -94342,6 +94349,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1770925830,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3178876,
+        "user_name": "Khallie",
+        "checkpoint_pass_rate": 76,
+        "position": "Hustler",
+        "position_number": 2
       }
     ]
   },
