@@ -92162,9 +92162,9 @@
   },
   "1275824": {
     "name": "Bidding War",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1770988539,
-    "executed_at": null,
+    "executed_at": 1770988564,
     "slots": {
       "P4": {
         "user_id": 3343429,
@@ -93623,8 +93623,8 @@
   },
   "1286453": {
     "name": "Leave No Trace",
-    "status": "Recruiting",
-    "ready_at": 1771069692,
+    "status": "Planning",
+    "ready_at": 1771156092,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -93639,6 +93639,14 @@
         "user_name": "Semykreen",
         "checkpoint_pass_rate": 77,
         "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 3476243,
+        "user_name": "BadalaKingkong",
+        "checkpoint_pass_rate": 71,
+        "position": "Negotiator",
         "position_number": 1,
         "item_available": true
       }
@@ -93662,6 +93670,17 @@
         "user_name": "Semykreen",
         "checkpoint_pass_rate": 77,
         "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1770988831,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3476243,
+        "user_name": "BadalaKingkong",
+        "checkpoint_pass_rate": 71,
+        "position": "Negotiator",
         "position_number": 1,
         "item_available": true
       }
@@ -95375,9 +95394,28 @@
   "1303716": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1771075089,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 72,
+        "position": "Pickpocket",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1770988831,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 72,
+        "position": "Pickpocket",
+        "position_number": 1
+      }
+    ]
   }
 }
