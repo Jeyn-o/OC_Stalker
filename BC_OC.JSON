@@ -95656,8 +95656,8 @@
   },
   "1303710": {
     "name": "Break the Bank",
-    "status": "Recruiting",
-    "ready_at": 1771435549,
+    "status": "Planning",
+    "ready_at": 1771521949,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -95698,6 +95698,14 @@
         "checkpoint_pass_rate": 62,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      "P5": {
+        "user_id": 2315415,
+        "user_name": "Litri",
+        "checkpoint_pass_rate": 66,
+        "position": "Muscle",
+        "position_number": 3,
         "item_available": true
       }
     },
@@ -95755,6 +95763,17 @@
         "checkpoint_pass_rate": 62,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1771100422,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2315415,
+        "user_name": "Litri",
+        "checkpoint_pass_rate": 66,
+        "position": "Muscle",
+        "position_number": 3,
         "item_available": true
       }
     ]
@@ -96168,10 +96187,29 @@
   "1307845": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1771186723,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 67,
+        "position": "Cat Burglar",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1771100422,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 67,
+        "position": "Cat Burglar",
+        "position_number": 1
+      }
+    ]
   },
   "1307846": {
     "name": "Blast from the Past",
