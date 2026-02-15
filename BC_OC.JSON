@@ -95163,9 +95163,9 @@
   },
   "1298847": {
     "name": "Snow Blind",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1771159067,
-    "executed_at": null,
+    "executed_at": 1771159086,
     "slots": {
       "P3": {
         "user_id": 3805208,
@@ -95478,8 +95478,8 @@
   },
   "1302342": {
     "name": "Plucking the Lotus Petal",
-    "status": "Recruiting",
-    "ready_at": 1771380246,
+    "status": "Planning",
+    "ready_at": 1771466646,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -95502,6 +95502,14 @@
         "checkpoint_pass_rate": 74,
         "position": "Robber",
         "position_number": 2
+      },
+      "P2": {
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 67,
+        "position": "Hustler",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -95534,6 +95542,17 @@
         "checkpoint_pass_rate": 74,
         "position": "Robber",
         "position_number": 2
+      },
+      {
+        "timestamp": 1771159231,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 67,
+        "position": "Hustler",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
