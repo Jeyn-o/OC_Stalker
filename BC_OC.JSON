@@ -92292,9 +92292,9 @@
   },
   "1278067": {
     "name": "Mob Mentality",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1771201205,
-    "executed_at": null,
+    "executed_at": 1771201264,
     "slots": {
       "P1": {
         "user_id": 3927851,
@@ -96023,8 +96023,8 @@
   },
   "1303712": {
     "name": "No Reserve",
-    "status": "Recruiting",
-    "ready_at": 1771249972,
+    "status": "Planning",
+    "ready_at": 1771336372,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -96040,6 +96040,14 @@
         "user_name": "JuanPaulo",
         "checkpoint_pass_rate": 84,
         "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 3575675,
+        "user_name": "highfishM",
+        "checkpoint_pass_rate": 70,
+        "position": "Car Thief",
         "position_number": 1,
         "item_available": true
       }
@@ -96085,6 +96093,17 @@
         "user_id": 3449771,
         "user_name": "Driccy",
         "checkpoint_pass_rate": 81,
+        "position": "Car Thief",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1771201839,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3575675,
+        "user_name": "highfishM",
+        "checkpoint_pass_rate": 70,
         "position": "Car Thief",
         "position_number": 1,
         "item_available": true
@@ -96792,15 +96811,34 @@
   "1312054": {
     "name": "Smoke and Wing Mirrors",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1771288225,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3927851,
+        "user_name": "haqwpha",
+        "checkpoint_pass_rate": 66,
+        "position": "Hustler",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1771201839,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3927851,
+        "user_name": "haqwpha",
+        "checkpoint_pass_rate": 66,
+        "position": "Hustler",
+        "position_number": 1
+      }
+    ]
   },
   "1312055": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1771263979,
+    "ready_at": 1771436779,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -96808,6 +96846,21 @@
         "user_name": "Shimmer12",
         "checkpoint_pass_rate": 84,
         "position": "Enforcer",
+        "position_number": 1
+      },
+      "P5": {
+        "user_id": 3976308,
+        "user_name": "Bellarin",
+        "checkpoint_pass_rate": 68,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P6": {
+        "user_id": 3846586,
+        "user_name": "Autlast",
+        "checkpoint_pass_rate": 77,
+        "position": "Sniper",
         "position_number": 1
       }
     },
@@ -96821,13 +96874,34 @@
         "checkpoint_pass_rate": 84,
         "position": "Enforcer",
         "position_number": 1
+      },
+      {
+        "timestamp": 1771201839,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3976308,
+        "user_name": "Bellarin",
+        "checkpoint_pass_rate": 68,
+        "position": "Lookout",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1771201839,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3846586,
+        "user_name": "Autlast",
+        "checkpoint_pass_rate": 77,
+        "position": "Sniper",
+        "position_number": 1
       }
     ]
   },
   "1312056": {
     "name": "Guardian Ángels",
-    "status": "Recruiting",
-    "ready_at": 1771332774,
+    "status": "Planning",
+    "ready_at": 1771419174,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -96843,6 +96917,13 @@
         "user_name": "McJoey",
         "checkpoint_pass_rate": 66,
         "position": "Enforcer",
+        "position_number": 1
+      },
+      "P2": {
+        "user_id": 517163,
+        "user_name": "Spoon",
+        "checkpoint_pass_rate": 79,
+        "position": "Hustler",
         "position_number": 1
       }
     },
@@ -96866,6 +96947,16 @@
         "user_name": "McJoey",
         "checkpoint_pass_rate": 66,
         "position": "Enforcer",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1771201839,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 517163,
+        "user_name": "Spoon",
+        "checkpoint_pass_rate": 79,
+        "position": "Hustler",
         "position_number": 1
       }
     ]
