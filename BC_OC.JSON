@@ -97638,8 +97638,8 @@
   },
   "1319096": {
     "name": "No Reserve",
-    "status": "Recruiting",
-    "ready_at": 1771518349,
+    "status": "Planning",
+    "ready_at": 1771604749,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -97657,6 +97657,14 @@
         "position": "Car Thief",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 3680760,
+        "user_name": "Friendly_Derek",
+        "checkpoint_pass_rate": 71,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -97681,6 +97689,17 @@
         "position": "Car Thief",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1771360830,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3680760,
+        "user_name": "Friendly_Derek",
+        "checkpoint_pass_rate": 71,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
