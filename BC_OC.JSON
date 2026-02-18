@@ -97367,10 +97367,31 @@
   "1312067": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1771525987,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 68,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1771440033,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 68,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1312068": {
     "name": "Blast from the Past",
@@ -97398,8 +97419,8 @@
   },
   "1312071": {
     "name": "Blast from the Past",
-    "status": "Recruiting",
-    "ready_at": 1771620823,
+    "status": "Planning",
+    "ready_at": 1771707223,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -97439,6 +97460,14 @@
         "checkpoint_pass_rate": 67,
         "position": "Picklock",
         "position_number": 2
+      },
+      "P4": {
+        "user_id": 2154655,
+        "user_name": "Khana",
+        "checkpoint_pass_rate": 68,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -97494,13 +97523,24 @@
         "checkpoint_pass_rate": 67,
         "position": "Picklock",
         "position_number": 2
+      },
+      {
+        "timestamp": 1771440033,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2154655,
+        "user_name": "Khana",
+        "checkpoint_pass_rate": 68,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
   "1312072": {
     "name": "Break the Bank",
-    "status": "Recruiting",
-    "ready_at": 1771777637,
+    "status": "Planning",
+    "ready_at": 1771864037,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -97541,6 +97581,14 @@
         "checkpoint_pass_rate": 64,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2162860,
+        "user_name": "daddyg",
+        "checkpoint_pass_rate": 63,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -97598,6 +97646,17 @@
         "checkpoint_pass_rate": 64,
         "position": "Robber",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1771440033,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2162860,
+        "user_name": "daddyg",
+        "checkpoint_pass_rate": 63,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     ]
