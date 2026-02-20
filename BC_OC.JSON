@@ -97925,9 +97925,9 @@
   },
   "1319092": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1771596228,
-    "executed_at": null,
+    "executed_at": 1771596366,
     "slots": {
       "P3": {
         "user_id": 3656242,
@@ -97950,7 +97950,7 @@
         "checkpoint_pass_rate": 66,
         "position": "Enforcer",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -98757,10 +98757,31 @@
   "1328812": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1771682922,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 78,
+        "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1771596627,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 78,
+        "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1328827": {
     "name": "Plucking the Lotus Petal",
@@ -98781,9 +98802,30 @@
   "1328893": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1771682904,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 3656242,
+        "user_name": "jonasgrind",
+        "checkpoint_pass_rate": 74,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1771596627,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3656242,
+        "user_name": "jonasgrind",
+        "checkpoint_pass_rate": 74,
+        "position": "Enforcer",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   }
 }
