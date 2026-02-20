@@ -96881,9 +96881,9 @@
   },
   "1307847": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1771622410,
-    "executed_at": null,
+    "executed_at": 1771622466,
     "slots": {
       "P6": {
         "user_id": 2408196,
@@ -98101,7 +98101,7 @@
   "1319567": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": 1771714189,
+    "ready_at": 1771800589,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -98134,6 +98134,14 @@
         "checkpoint_pass_rate": 65,
         "position": "Robber",
         "position_number": 2,
+        "item_available": true
+      },
+      "P5": {
+        "user_id": 2730718,
+        "user_name": "Haungpeary",
+        "checkpoint_pass_rate": 70,
+        "position": "Bomber",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -98180,6 +98188,17 @@
         "checkpoint_pass_rate": 65,
         "position": "Robber",
         "position_number": 2,
+        "item_available": true
+      },
+      {
+        "timestamp": 1771623035,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2730718,
+        "user_name": "Haungpeary",
+        "checkpoint_pass_rate": 70,
+        "position": "Bomber",
+        "position_number": 1,
         "item_available": true
       }
     ]
@@ -98804,10 +98823,31 @@
   "1328811": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1771709072,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 65,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1771623035,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 65,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1328812": {
     "name": "Counter Offer",
@@ -98937,5 +98977,29 @@
         "position_number": 1
       }
     ]
+  },
+  "1330800": {
+    "name": "Sneaky Git Grab",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1330803": {
+    "name": "Leave No Trace",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1330805": {
+    "name": "Guardian Ángels",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
   }
 }
