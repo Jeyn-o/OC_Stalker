@@ -97719,9 +97719,9 @@
   },
   "1312071": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1771707223,
-    "executed_at": null,
+    "executed_at": 1771707246,
     "slots": {
       "P5": {
         "user_id": 2414438,
@@ -99414,7 +99414,7 @@
   "1330800": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": 1771736389,
+    "ready_at": 1771822789,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -99423,6 +99423,14 @@
         "checkpoint_pass_rate": 74,
         "position": "Pickpocket",
         "position_number": 1
+      },
+      "P4": {
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 79,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -99435,6 +99443,17 @@
         "checkpoint_pass_rate": 74,
         "position": "Pickpocket",
         "position_number": 1
+      },
+      {
+        "timestamp": 1771707635,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 79,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
