@@ -98893,7 +98893,7 @@
   "1328810": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1771814123,
+    "ready_at": 1771900523,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -98911,6 +98911,14 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": false
+      },
+      "P4": {
+        "user_id": 2914279,
+        "user_name": "emp0p",
+        "checkpoint_pass_rate": 71,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -98935,13 +98943,24 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1771685425,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2914279,
+        "user_name": "emp0p",
+        "checkpoint_pass_rate": 71,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
   "1328811": {
     "name": "Break the Bank",
-    "status": "Recruiting",
-    "ready_at": 1772054672,
+    "status": "Planning",
+    "ready_at": 1772141072,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -98981,6 +99000,14 @@
         "user_name": "Timotheous",
         "checkpoint_pass_rate": 65,
         "position": "Thief",
+        "position_number": 2,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2408196,
+        "user_name": "iam3vaj",
+        "checkpoint_pass_rate": 67,
+        "position": "Muscle",
         "position_number": 2,
         "item_available": true
       }
@@ -99038,6 +99065,17 @@
         "user_name": "Timotheous",
         "checkpoint_pass_rate": 65,
         "position": "Thief",
+        "position_number": 2,
+        "item_available": true
+      },
+      {
+        "timestamp": 1771685425,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2408196,
+        "user_name": "iam3vaj",
+        "checkpoint_pass_rate": 67,
+        "position": "Muscle",
         "position_number": 2,
         "item_available": true
       }
