@@ -96593,9 +96593,9 @@
   },
   "1307844": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1771788970,
-    "executed_at": null,
+    "executed_at": 1771789026,
     "slots": {
       "P2": {
         "user_id": 1946159,
@@ -99018,8 +99018,8 @@
   },
   "1328809": {
     "name": "Clinical Precision",
-    "status": "Recruiting",
-    "ready_at": 1771897069,
+    "status": "Planning",
+    "ready_at": 1771983469,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -99044,6 +99044,14 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": false
+      },
+      "P1": {
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 68,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -99078,6 +99086,17 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1771789231,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 68,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
