@@ -97218,9 +97218,9 @@
   },
   "1312053": {
     "name": "Cash Me if You Can",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1771851673,
-    "executed_at": null,
+    "executed_at": 1771851725,
     "slots": {
       "P3": {
         "user_id": 3927851,
@@ -99919,7 +99919,7 @@
   "1335422": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1771930804,
+    "ready_at": 1772103604,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -99935,6 +99935,21 @@
         "checkpoint_pass_rate": 80,
         "position": "Looter",
         "position_number": 2
+      },
+      "P1": {
+        "user_id": 3927851,
+        "user_name": "haqwpha",
+        "checkpoint_pass_rate": 75,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P6": {
+        "user_id": 3846586,
+        "user_name": "Autlast",
+        "checkpoint_pass_rate": 86,
+        "position": "Looter",
+        "position_number": 3
       }
     },
     "action_log": [
@@ -99957,6 +99972,27 @@
         "checkpoint_pass_rate": 80,
         "position": "Looter",
         "position_number": 2
+      },
+      {
+        "timestamp": 1771852224,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3927851,
+        "user_name": "haqwpha",
+        "checkpoint_pass_rate": 75,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1771852224,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3846586,
+        "user_name": "Autlast",
+        "checkpoint_pass_rate": 86,
+        "position": "Looter",
+        "position_number": 3
       }
     ]
   },
