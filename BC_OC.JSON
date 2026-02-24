@@ -100494,7 +100494,7 @@
   "1338936": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": 1771973946,
+    "ready_at": 1772060346,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -100504,6 +100504,14 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 78,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -100517,6 +100525,17 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1771909239,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 78,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   }
