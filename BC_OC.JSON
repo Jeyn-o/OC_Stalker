@@ -99402,8 +99402,8 @@
   },
   "1328812": {
     "name": "Counter Offer",
-    "status": "Recruiting",
-    "ready_at": 1771942122,
+    "status": "Planning",
+    "ready_at": 1772037727,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -99437,6 +99437,14 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 517163,
+        "user_name": "Spoon",
+        "checkpoint_pass_rate": 77,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -99505,6 +99513,17 @@
         "position": "Robber",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1771951836,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 517163,
+        "user_name": "Spoon",
+        "checkpoint_pass_rate": 77,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -100092,7 +100111,7 @@
         "checkpoint_pass_rate": 83,
         "position": "Imitator",
         "position_number": 2,
-        "item_available": false
+        "item_available": true
       },
       "P5": {
         "user_id": 2291737,
