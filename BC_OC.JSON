@@ -99482,7 +99482,7 @@
         "checkpoint_pass_rate": 77,
         "position": "Robber",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -100229,10 +100229,31 @@
   "1335438": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1772089608,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P6": {
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 76,
+        "position": "Bomber",
+        "position_number": 2,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1772003420,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 76,
+        "position": "Bomber",
+        "position_number": 2,
+        "item_available": true
+      }
+    ]
   },
   "1337453": {
     "name": "Clinical Precision",
