@@ -101250,19 +101250,21 @@
     "status": "Recruiting",
     "ready_at": 1772125809,
     "executed_at": null,
-    "slots": {
-      "P2": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1772039430,
+        "action": "joined",
+        "slot": "P2",
         "user_id": 3679190,
         "user_name": "RubyFalls",
         "checkpoint_pass_rate": 63,
         "position": "Pickpocket",
         "position_number": 1
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1772039430,
-        "action": "joined",
+        "timestamp": 1772047226,
+        "action": "left",
         "slot": "P2",
         "user_id": 3679190,
         "user_name": "RubyFalls",
@@ -101283,9 +101285,30 @@
   "1346425": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1772133203,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 71,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1772047226,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 71,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
+      }
+    ]
   }
 }
