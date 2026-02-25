@@ -101084,7 +101084,7 @@
   "1346404": {
     "name": "Plucking the Lotus Petal",
     "status": "Recruiting",
-    "ready_at": 1772117547,
+    "ready_at": 1772203947,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -101093,6 +101093,14 @@
         "checkpoint_pass_rate": 74,
         "position": "Muscle",
         "position_number": 1
+      },
+      "P2": {
+        "user_id": 3780352,
+        "user_name": "kipper01",
+        "checkpoint_pass_rate": 67,
+        "position": "Hustler",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -101105,6 +101113,17 @@
         "checkpoint_pass_rate": 74,
         "position": "Muscle",
         "position_number": 1
+      },
+      {
+        "timestamp": 1772039430,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3780352,
+        "user_name": "kipper01",
+        "checkpoint_pass_rate": 67,
+        "position": "Hustler",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -101119,10 +101138,29 @@
   "1346419": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1772125809,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 63,
+        "position": "Pickpocket",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1772039430,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 63,
+        "position": "Pickpocket",
+        "position_number": 1
+      }
+    ]
   },
   "1346422": {
     "name": "Leave No Trace",
