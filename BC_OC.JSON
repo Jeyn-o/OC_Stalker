@@ -99316,9 +99316,9 @@
   },
   "1328811": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1772141072,
-    "executed_at": null,
+    "executed_at": 1772141106,
     "slots": {
       "P2": {
         "user_id": 2675301,
@@ -100276,8 +100276,8 @@
   },
   "1337453": {
     "name": "Clinical Precision",
-    "status": "Recruiting",
-    "ready_at": 1772289721,
+    "status": "Planning",
+    "ready_at": 1772376121,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -100303,6 +100303,13 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 2736671,
+        "user_name": "Twitt3y",
+        "checkpoint_pass_rate": 67,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -100338,6 +100345,16 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1772141430,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2736671,
+        "user_name": "Twitt3y",
+        "checkpoint_pass_rate": 67,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     ]
   },
@@ -101683,7 +101700,7 @@
   "1348034": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1772195628,
+    "ready_at": 1772454828,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -101692,6 +101709,30 @@
         "checkpoint_pass_rate": 65,
         "position": "Thief",
         "position_number": 2,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 2408196,
+        "user_name": "iam3vaj",
+        "checkpoint_pass_rate": 68,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 214123,
+        "user_name": "JerseyJay",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 67,
+        "position": "Thief",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -101705,6 +101746,39 @@
         "checkpoint_pass_rate": 65,
         "position": "Thief",
         "position_number": 2,
+        "item_available": true
+      },
+      {
+        "timestamp": 1772141430,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2408196,
+        "user_name": "iam3vaj",
+        "checkpoint_pass_rate": 68,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1772141430,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 214123,
+        "user_name": "JerseyJay",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1772141430,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 67,
+        "position": "Thief",
+        "position_number": 1,
         "item_available": true
       }
     ]
