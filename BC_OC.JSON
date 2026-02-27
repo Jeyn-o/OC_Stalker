@@ -100229,7 +100229,7 @@
   "1335438": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": 1772361159,
+    "ready_at": 1772447559,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -100262,6 +100262,14 @@
         "checkpoint_pass_rate": 71,
         "position": "Bomber",
         "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2349157,
+        "user_name": "NyanMango",
+        "checkpoint_pass_rate": 78,
+        "position": "Robber",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -100308,6 +100316,17 @@
         "checkpoint_pass_rate": 71,
         "position": "Bomber",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1772232023,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2349157,
+        "user_name": "NyanMango",
+        "checkpoint_pass_rate": 78,
+        "position": "Robber",
+        "position_number": 2,
         "item_available": true
       }
     ]
@@ -102121,20 +102140,22 @@
     "status": "Recruiting",
     "ready_at": 1772240730,
     "executed_at": null,
-    "slots": {
-      "P6": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1772154632,
+        "action": "joined",
+        "slot": "P6",
         "user_id": 2349157,
         "user_name": "NyanMango",
         "checkpoint_pass_rate": 78,
         "position": "Bomber",
         "position_number": 2,
         "item_available": true
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1772154632,
-        "action": "joined",
+        "timestamp": 1772232023,
+        "action": "left",
         "slot": "P6",
         "user_id": 2349157,
         "user_name": "NyanMango",
