@@ -97634,9 +97634,9 @@
   },
   "1312069": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1772237251,
-    "executed_at": null,
+    "executed_at": 1772237283,
     "slots": {
       "P5": {
         "user_id": 2414438,
@@ -102241,7 +102241,7 @@
   "1354543": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1772309054,
+    "ready_at": 1772395454,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -102251,6 +102251,13 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3292894,
+        "user_name": "VEGABABY",
+        "checkpoint_pass_rate": 61,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -102264,6 +102271,16 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1772237421,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3292894,
+        "user_name": "VEGABABY",
+        "checkpoint_pass_rate": 61,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     ]
   }
