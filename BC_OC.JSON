@@ -100417,9 +100417,9 @@
   },
   "1337454": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1772243067,
-    "executed_at": null,
+    "executed_at": 1772243107,
     "slots": {
       "P2": {
         "user_id": 1946159,
@@ -102110,8 +102110,8 @@
   },
   "1348045": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1772289300,
+    "status": "Planning",
+    "ready_at": 1772375700,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -102128,6 +102128,14 @@
         "checkpoint_pass_rate": 73,
         "position": "Muscle",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 87,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
       }
     },
     "action_log": [
@@ -102151,6 +102159,17 @@
         "checkpoint_pass_rate": 73,
         "position": "Muscle",
         "position_number": 1
+      },
+      {
+        "timestamp": 1772243427,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 87,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
       }
     ]
   },
@@ -102260,7 +102279,7 @@
   "1354543": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1772395454,
+    "ready_at": 1772481854,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -102276,6 +102295,14 @@
         "user_name": "VEGABABY",
         "checkpoint_pass_rate": 60,
         "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2325329,
+        "user_name": "Crispyfoot",
+        "checkpoint_pass_rate": 61,
+        "position": "Assassin",
         "position_number": 1,
         "item_available": true
       }
@@ -102320,6 +102347,17 @@
         "user_name": "VEGABABY",
         "checkpoint_pass_rate": 60,
         "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1772243427,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2325329,
+        "user_name": "Crispyfoot",
+        "checkpoint_pass_rate": 61,
+        "position": "Assassin",
         "position_number": 1,
         "item_available": true
       }
