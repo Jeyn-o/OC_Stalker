@@ -101522,7 +101522,7 @@
   "1346402": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1772358791,
+    "ready_at": 1772445191,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -101547,6 +101547,13 @@
         "position": "Imitator",
         "position_number": 2,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3846586,
+        "user_name": "Autlast",
+        "checkpoint_pass_rate": 86,
+        "position": "Looter",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -101599,6 +101606,16 @@
         "user_id": 3851236,
         "user_name": "Psyden",
         "checkpoint_pass_rate": 87,
+        "position": "Looter",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1772290836,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3846586,
+        "user_name": "Autlast",
+        "checkpoint_pass_rate": 86,
         "position": "Looter",
         "position_number": 1
       }
@@ -102579,10 +102596,29 @@
   "1356146": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1772376959,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 69,
+        "position": "Pickpocket",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1772290836,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 69,
+        "position": "Pickpocket",
+        "position_number": 1
+      }
+    ]
   },
   "1356149": {
     "name": "Counter Offer",
