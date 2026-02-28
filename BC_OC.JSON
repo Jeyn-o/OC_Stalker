@@ -101522,7 +101522,7 @@
   "1346402": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1772445191,
+    "ready_at": 1772358791,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -101532,13 +101532,6 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
-      },
-      "P2": {
-        "user_id": 3851236,
-        "user_name": "Psyden",
-        "checkpoint_pass_rate": 87,
-        "position": "Looter",
-        "position_number": 1
       },
       "P6": {
         "user_id": 3161450,
@@ -101598,6 +101591,16 @@
         "position": "Imitator",
         "position_number": 2,
         "item_available": false
+      },
+      {
+        "timestamp": 1772280632,
+        "action": "left",
+        "slot": "P2",
+        "user_id": 3851236,
+        "user_name": "Psyden",
+        "checkpoint_pass_rate": 87,
+        "position": "Looter",
+        "position_number": 1
       }
     ]
   },
@@ -102271,8 +102274,8 @@
   },
   "1352638": {
     "name": "Stage Fright",
-    "status": "Recruiting",
-    "ready_at": 1772614066,
+    "status": "Planning",
+    "ready_at": 1772700466,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -102310,6 +102313,13 @@
         "checkpoint_pass_rate": 81,
         "position": "Sniper",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 3851236,
+        "user_name": "Psyden",
+        "checkpoint_pass_rate": 82,
+        "position": "Muscle",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -102363,6 +102373,16 @@
         "checkpoint_pass_rate": 81,
         "position": "Sniper",
         "position_number": 1
+      },
+      {
+        "timestamp": 1772280632,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3851236,
+        "user_name": "Psyden",
+        "checkpoint_pass_rate": 82,
+        "position": "Muscle",
+        "position_number": 2
       }
     ]
   },
