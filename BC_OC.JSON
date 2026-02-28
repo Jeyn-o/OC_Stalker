@@ -102149,8 +102149,8 @@
   },
   "1348045": {
     "name": "Honey Trap",
-    "status": "Planning",
-    "ready_at": 1772375700,
+    "status": "Recruiting",
+    "ready_at": 1772289300,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -102167,14 +102167,6 @@
         "checkpoint_pass_rate": 73,
         "position": "Muscle",
         "position_number": 1
-      },
-      "P3": {
-        "user_id": 3193353,
-        "user_name": "xyicah",
-        "checkpoint_pass_rate": 87,
-        "position": "Muscle",
-        "position_number": 2,
-        "item_available": false
       }
     },
     "action_log": [
@@ -102202,6 +102194,17 @@
       {
         "timestamp": 1772243427,
         "action": "joined",
+        "slot": "P3",
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 87,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
+      },
+      {
+        "timestamp": 1772284822,
+        "action": "left",
         "slot": "P3",
         "user_id": 3193353,
         "user_name": "xyicah",
@@ -102246,7 +102249,7 @@
   "1352637": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1772287396,
+    "ready_at": 1772373796,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -102255,6 +102258,14 @@
         "checkpoint_pass_rate": 70,
         "position": "Muscle",
         "position_number": 3,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 62,
+        "position": "Thief",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -102268,6 +102279,17 @@
         "checkpoint_pass_rate": 70,
         "position": "Muscle",
         "position_number": 3,
+        "item_available": true
+      },
+      {
+        "timestamp": 1772284822,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 62,
+        "position": "Thief",
+        "position_number": 1,
         "item_available": true
       }
     ]
