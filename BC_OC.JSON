@@ -102720,7 +102720,7 @@
   "1353500": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1772676168,
+    "ready_at": 1772589768,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -102746,13 +102746,6 @@
         "position": "Muscle",
         "position_number": 1,
         "item_available": true
-      },
-      "P1": {
-        "user_id": 2671530,
-        "user_name": "windyswag",
-        "checkpoint_pass_rate": 80,
-        "position": "Picklock",
-        "position_number": 1
       },
       "P6": {
         "user_id": 2914279,
@@ -102837,6 +102830,16 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1772463644,
+        "action": "left",
+        "slot": "P1",
+        "user_id": 2671530,
+        "user_name": "windyswag",
+        "checkpoint_pass_rate": 80,
+        "position": "Picklock",
+        "position_number": 1
       }
     ]
   },
@@ -103405,8 +103408,8 @@
   },
   "1359589": {
     "name": "Break the Bank",
-    "status": "Recruiting",
-    "ready_at": 1772821321,
+    "status": "Planning",
+    "ready_at": 1772907721,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -103447,6 +103450,14 @@
         "checkpoint_pass_rate": 66,
         "position": "Muscle",
         "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2671530,
+        "user_name": "windyswag",
+        "checkpoint_pass_rate": 63,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -103504,6 +103515,17 @@
         "checkpoint_pass_rate": 66,
         "position": "Muscle",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1772463644,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2671530,
+        "user_name": "windyswag",
+        "checkpoint_pass_rate": 63,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     ]
