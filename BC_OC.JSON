@@ -102271,7 +102271,7 @@
   "1348033": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1772716812,
+    "ready_at": 1772630412,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -102281,13 +102281,6 @@
         "position": "Muscle",
         "position_number": 1,
         "item_available": false
-      },
-      "P6": {
-        "user_id": 3292894,
-        "user_name": "VEGABABY",
-        "checkpoint_pass_rate": 71,
-        "position": "Picklock",
-        "position_number": 2
       }
     },
     "action_log": [
@@ -102305,6 +102298,16 @@
       {
         "timestamp": 1772570426,
         "action": "joined",
+        "slot": "P6",
+        "user_id": 3292894,
+        "user_name": "VEGABABY",
+        "checkpoint_pass_rate": 71,
+        "position": "Picklock",
+        "position_number": 2
+      },
+      {
+        "timestamp": 1772577627,
+        "action": "left",
         "slot": "P6",
         "user_id": 3292894,
         "user_name": "VEGABABY",
@@ -104131,7 +104134,7 @@
   "1366542": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1772716061,
+    "ready_at": 1772802461,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -104148,6 +104151,14 @@
         "checkpoint_pass_rate": 69,
         "position": "Cat Burglar",
         "position_number": 1
+      },
+      "P1": {
+        "user_id": 3292894,
+        "user_name": "VEGABABY",
+        "checkpoint_pass_rate": 60,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -104171,6 +104182,17 @@
         "checkpoint_pass_rate": 69,
         "position": "Cat Burglar",
         "position_number": 1
+      },
+      {
+        "timestamp": 1772577627,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3292894,
+        "user_name": "VEGABABY",
+        "checkpoint_pass_rate": 60,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   }
