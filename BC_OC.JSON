@@ -103799,7 +103799,7 @@
   "1359586": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1773151516,
+    "ready_at": 1773065116,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -103832,14 +103832,6 @@
         "checkpoint_pass_rate": 66,
         "position": "Thief",
         "position_number": 2,
-        "item_available": true
-      },
-      "P4": {
-        "user_id": 3193353,
-        "user_name": "xyicah",
-        "checkpoint_pass_rate": 62,
-        "position": "Thief",
-        "position_number": 1,
         "item_available": true
       }
     },
@@ -103891,6 +103883,17 @@
       {
         "timestamp": 1772723433,
         "action": "joined",
+        "slot": "P4",
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 62,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1772805639,
+        "action": "left",
         "slot": "P4",
         "user_id": 3193353,
         "user_name": "xyicah",
@@ -105177,7 +105180,7 @@
   "1375665": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1772831733,
+    "ready_at": 1772918133,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -105187,6 +105190,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 67,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -105200,6 +105210,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1772805639,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 67,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     ]
   },
