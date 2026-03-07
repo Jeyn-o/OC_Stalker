@@ -16222,5 +16222,57 @@
       }
     },
     "delay_time": 672
+  },
+  "1772901034": {
+    "crime_id": 1365608,
+    "crime_name": "Market Forces",
+    "created_at": null,
+    "planning_at": null,
+    "ready_at": 1772844280,
+    "executed_at": 1772901034,
+    "crime_participants": {
+      "P3": {
+        "user_id": 3904499,
+        "user_name": "mmaple",
+        "checkpoint_pass_rate": 81,
+        "position": "Lookout",
+        "position_number": 1
+      },
+      "P5": {
+        "user_id": 2291737,
+        "user_name": "Special-Needs",
+        "checkpoint_pass_rate": 88,
+        "position": "Muscle",
+        "position_number": 1
+      },
+      "P4": {
+        "user_id": 3969644,
+        "user_name": "DungeonCrawler",
+        "checkpoint_pass_rate": 75,
+        "position": "Arsonist",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 517163,
+        "user_name": "Spoon",
+        "checkpoint_pass_rate": 86,
+        "position": "Negotiator",
+        "position_number": 1
+      }
+    },
+    "slackers": {
+      "2291737": {
+        "status": "pending",
+        "handled_by": null,
+        "notes": []
+      },
+      "3969644": {
+        "status": "pending",
+        "handled_by": null,
+        "notes": []
+      }
+    },
+    "delay_time": 56754
   }
 }
