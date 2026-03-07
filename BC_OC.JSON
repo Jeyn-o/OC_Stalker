@@ -105141,20 +105141,22 @@
     "status": "Recruiting",
     "ready_at": 1772809518,
     "executed_at": null,
-    "slots": {
-      "P4": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1772723433,
+        "action": "joined",
+        "slot": "P4",
         "user_id": 3976308,
         "user_name": "Bellarin",
         "checkpoint_pass_rate": 79,
         "position": "Arsonist",
         "position_number": 1,
         "item_available": true
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1772723433,
-        "action": "joined",
+        "timestamp": 1772879430,
+        "action": "left",
         "slot": "P4",
         "user_id": 3976308,
         "user_name": "Bellarin",
@@ -105626,7 +105628,7 @@
   "1380701": {
     "name": "Plucking the Lotus Petal",
     "status": "Recruiting",
-    "ready_at": 1772958549,
+    "ready_at": 1773044949,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -105635,6 +105637,13 @@
         "checkpoint_pass_rate": 70,
         "position": "Muscle",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 3976308,
+        "user_name": "Bellarin",
+        "checkpoint_pass_rate": 66,
+        "position": "Robber",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -105647,6 +105656,16 @@
         "checkpoint_pass_rate": 70,
         "position": "Muscle",
         "position_number": 1
+      },
+      {
+        "timestamp": 1772879430,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3976308,
+        "user_name": "Bellarin",
+        "checkpoint_pass_rate": 66,
+        "position": "Robber",
+        "position_number": 2
       }
     ]
   }
