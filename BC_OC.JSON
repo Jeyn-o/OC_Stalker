@@ -106869,7 +106869,7 @@
   "1389411": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1773266968,
+    "ready_at": 1773353368,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -106884,6 +106884,14 @@
         "user_name": "smyles",
         "checkpoint_pass_rate": 67,
         "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 2240841,
+        "user_name": "Timotheous",
+        "checkpoint_pass_rate": 71,
+        "position": "Cleaner",
         "position_number": 1,
         "item_available": true
       }
@@ -106907,6 +106915,17 @@
         "user_name": "smyles",
         "checkpoint_pass_rate": 67,
         "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1773147217,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2240841,
+        "user_name": "Timotheous",
+        "checkpoint_pass_rate": 71,
+        "position": "Cleaner",
         "position_number": 1,
         "item_available": true
       }
@@ -106971,9 +106990,30 @@
   "1391952": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1773233001,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P6": {
+        "user_id": 2427687,
+        "user_name": "Jubjub82180",
+        "checkpoint_pass_rate": 65,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1773147217,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 2427687,
+        "user_name": "Jubjub82180",
+        "checkpoint_pass_rate": 65,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": true
+      }
+    ]
   }
 }
