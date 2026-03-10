@@ -106868,8 +106868,8 @@
   },
   "1389411": {
     "name": "Clinical Precision",
-    "status": "Recruiting",
-    "ready_at": 1773353368,
+    "status": "Planning",
+    "ready_at": 1773439768,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -106894,6 +106894,14 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 66,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -106928,6 +106936,17 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1773147638,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 66,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -106990,7 +107009,7 @@
   "1391952": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1773233001,
+    "ready_at": 1773319401,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -106999,6 +107018,14 @@
         "checkpoint_pass_rate": 65,
         "position": "Thief",
         "position_number": 2,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 67,
+        "position": "Thief",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -107012,6 +107039,17 @@
         "checkpoint_pass_rate": 65,
         "position": "Thief",
         "position_number": 2,
+        "item_available": true
+      },
+      {
+        "timestamp": 1773147638,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 67,
+        "position": "Thief",
+        "position_number": 1,
         "item_available": true
       }
     ]
