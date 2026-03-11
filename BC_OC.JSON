@@ -103872,9 +103872,9 @@
   },
   "1359586": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1773237931,
-    "executed_at": null,
+    "executed_at": 1773237964,
     "slots": {
       "P2": {
         "user_id": 2069227,
@@ -106159,7 +106159,7 @@
   "1379070": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1773391338,
+    "ready_at": 1773477738,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -106184,6 +106184,13 @@
         "position": "Bomber",
         "position_number": 1,
         "item_available": false
+      },
+      "P1": {
+        "user_id": 2621654,
+        "user_name": "Hstains",
+        "checkpoint_pass_rate": 85,
+        "position": "Picklock",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -106218,6 +106225,16 @@
         "position": "Bomber",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1773238235,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2621654,
+        "user_name": "Hstains",
+        "checkpoint_pass_rate": 85,
+        "position": "Picklock",
+        "position_number": 1
       }
     ]
   },
@@ -107270,8 +107287,8 @@
   },
   "1391952": {
     "name": "Break the Bank",
-    "status": "Recruiting",
-    "ready_at": 1773578601,
+    "status": "Planning",
+    "ready_at": 1773665001,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -107313,6 +107330,14 @@
         "position": "Muscle",
         "position_number": 2,
         "item_available": false
+      },
+      "P5": {
+        "user_id": 2740246,
+        "user_name": "Bub92278",
+        "checkpoint_pass_rate": 66,
+        "position": "Muscle",
+        "position_number": 3,
+        "item_available": true
       }
     },
     "action_log": [
@@ -107370,6 +107395,17 @@
         "position": "Muscle",
         "position_number": 2,
         "item_available": false
+      },
+      {
+        "timestamp": 1773238235,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2740246,
+        "user_name": "Bub92278",
+        "checkpoint_pass_rate": 66,
+        "position": "Muscle",
+        "position_number": 3,
+        "item_available": true
       }
     ]
   },
