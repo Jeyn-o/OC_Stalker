@@ -105538,7 +105538,7 @@
   "1374292": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1773612218,
+    "ready_at": 1773525818,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -105554,13 +105554,6 @@
         "checkpoint_pass_rate": 83,
         "position": "Looter",
         "position_number": 3
-      },
-      "P4": {
-        "user_id": 3178876,
-        "user_name": "Khallie",
-        "checkpoint_pass_rate": 84,
-        "position": "Looter",
-        "position_number": 2
       },
       "P3": {
         "user_id": 3932437,
@@ -105612,6 +105605,16 @@
         "position": "Imitator",
         "position_number": 2,
         "item_available": false
+      },
+      {
+        "timestamp": 1773423628,
+        "action": "left",
+        "slot": "P4",
+        "user_id": 3178876,
+        "user_name": "Khallie",
+        "checkpoint_pass_rate": 84,
+        "position": "Looter",
+        "position_number": 2
       }
     ]
   },
@@ -108494,8 +108497,8 @@
   },
   "1402151": {
     "name": "Plucking the Lotus Petal",
-    "status": "Recruiting",
-    "ready_at": 1773644045,
+    "status": "Planning",
+    "ready_at": 1773730445,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -108518,6 +108521,14 @@
         "checkpoint_pass_rate": 60,
         "position": "Robber",
         "position_number": 2
+      },
+      "P2": {
+        "user_id": 3178876,
+        "user_name": "Khallie",
+        "checkpoint_pass_rate": 65,
+        "position": "Hustler",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -108550,6 +108561,17 @@
         "checkpoint_pass_rate": 60,
         "position": "Robber",
         "position_number": 2
+      },
+      {
+        "timestamp": 1773423628,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3178876,
+        "user_name": "Khallie",
+        "checkpoint_pass_rate": 65,
+        "position": "Hustler",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
