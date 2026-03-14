@@ -107348,9 +107348,9 @@
   },
   "1387682": {
     "name": "Counter Offer",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1773492329,
-    "executed_at": null,
+    "executed_at": 1773492365,
     "slots": {
       "P2": {
         "user_id": 3973984,
@@ -108366,8 +108366,8 @@
   },
   "1399992": {
     "name": "Guardian Ángels",
-    "status": "Recruiting",
-    "ready_at": 1773494705,
+    "status": "Planning",
+    "ready_at": 1773667505,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -108377,6 +108377,20 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 71,
+        "position": "Enforcer",
+        "position_number": 1
+      },
+      "P2": {
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 90,
+        "position": "Hustler",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -108409,6 +108423,26 @@
         "user_name": "Mihawk",
         "checkpoint_pass_rate": 86,
         "position": "Enforcer",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1773492626,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 71,
+        "position": "Enforcer",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1773492626,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 90,
+        "position": "Hustler",
         "position_number": 1
       }
     ]
