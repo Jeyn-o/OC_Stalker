@@ -108367,7 +108367,7 @@
   "1399992": {
     "name": "Guardian Ángels",
     "status": "Recruiting",
-    "ready_at": 1773581105,
+    "ready_at": 1773494705,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -108377,13 +108377,6 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
-      },
-      "P1": {
-        "user_id": 2163292,
-        "user_name": "Mihawk",
-        "checkpoint_pass_rate": 86,
-        "position": "Enforcer",
-        "position_number": 1
       }
     },
     "action_log": [
@@ -108401,6 +108394,16 @@
       {
         "timestamp": 1773421238,
         "action": "joined",
+        "slot": "P1",
+        "user_id": 2163292,
+        "user_name": "Mihawk",
+        "checkpoint_pass_rate": 86,
+        "position": "Enforcer",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1773487829,
+        "action": "left",
         "slot": "P1",
         "user_id": 2163292,
         "user_name": "Mihawk",
@@ -108798,7 +108801,7 @@
   "1404734": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": 1773624911,
+    "ready_at": 1773711311,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -108815,6 +108818,14 @@
         "checkpoint_pass_rate": 74,
         "position": "Imitator",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 2163292,
+        "user_name": "Mihawk",
+        "checkpoint_pass_rate": 76,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -108838,6 +108849,17 @@
         "checkpoint_pass_rate": 74,
         "position": "Imitator",
         "position_number": 1
+      },
+      {
+        "timestamp": 1773487829,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2163292,
+        "user_name": "Mihawk",
+        "checkpoint_pass_rate": 76,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   }
