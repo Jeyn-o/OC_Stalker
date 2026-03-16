@@ -109656,8 +109656,8 @@
   },
   "1412696": {
     "name": "Plucking the Lotus Petal",
-    "status": "Recruiting",
-    "ready_at": 1773941009,
+    "status": "Planning",
+    "ready_at": 1774027409,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -109669,9 +109669,9 @@
         "item_available": true
       },
       "P4": {
-        "user_id": 3937363,
-        "user_name": "jGafito",
-        "checkpoint_pass_rate": 72,
+        "user_id": 3977638,
+        "user_name": "Vasavi_shakti",
+        "checkpoint_pass_rate": 77,
         "position": "Muscle",
         "position_number": 1
       },
@@ -109681,6 +109681,13 @@
         "checkpoint_pass_rate": 73,
         "position": "Robber",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 3937363,
+        "user_name": "jGafito",
+        "checkpoint_pass_rate": 71,
+        "position": "Robber",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -109714,6 +109721,36 @@
         "checkpoint_pass_rate": 73,
         "position": "Robber",
         "position_number": 1
+      },
+      {
+        "timestamp": 1773698440,
+        "action": "left",
+        "slot": "P4",
+        "user_id": 3937363,
+        "user_name": "jGafito",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1773698440,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3977638,
+        "user_name": "Vasavi_shakti",
+        "checkpoint_pass_rate": 77,
+        "position": "Muscle",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1773698440,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3937363,
+        "user_name": "jGafito",
+        "checkpoint_pass_rate": 71,
+        "position": "Robber",
+        "position_number": 2
       }
     ]
   },
@@ -109919,9 +109956,30 @@
   "1415192": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1773784258,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 2427687,
+        "user_name": "Jubjub82180",
+        "checkpoint_pass_rate": 65,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1773698440,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2427687,
+        "user_name": "Jubjub82180",
+        "checkpoint_pass_rate": 65,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   }
 }
