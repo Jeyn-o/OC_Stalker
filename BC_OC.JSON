@@ -109012,7 +109012,7 @@
   "1404163": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1773832506,
+    "ready_at": 1773918906,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -109029,6 +109029,13 @@
         "position": "Muscle",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 77,
+        "position": "Picklock",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -109052,6 +109059,16 @@
         "position": "Muscle",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1773675041,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 77,
+        "position": "Picklock",
+        "position_number": 1
       }
     ]
   },
@@ -109590,8 +109607,8 @@
   },
   "1412697": {
     "name": "Plucking the Lotus Petal",
-    "status": "Recruiting",
-    "ready_at": 1773900025,
+    "status": "Planning",
+    "ready_at": 1773986425,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -109614,6 +109631,14 @@
         "checkpoint_pass_rate": 77,
         "position": "Robber",
         "position_number": 2
+      },
+      "P2": {
+        "user_id": 3703949,
+        "user_name": "Downtowndave20",
+        "checkpoint_pass_rate": 76,
+        "position": "Hustler",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -109646,6 +109671,17 @@
         "checkpoint_pass_rate": 77,
         "position": "Robber",
         "position_number": 2
+      },
+      {
+        "timestamp": 1773675041,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3703949,
+        "user_name": "Downtowndave20",
+        "checkpoint_pass_rate": 76,
+        "position": "Hustler",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -109732,5 +109768,13 @@
         "item_available": false
       }
     ]
+  },
+  "1414138": {
+    "name": "Sneaky Git Grab",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
   }
 }
