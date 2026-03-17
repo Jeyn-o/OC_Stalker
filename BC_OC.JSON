@@ -105576,7 +105576,7 @@
         "checkpoint_pass_rate": 81,
         "position": "Imitator",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P5": {
         "user_id": 2291737,
@@ -107642,7 +107642,7 @@
         "checkpoint_pass_rate": 72,
         "position": "Hacker",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P5": {
         "user_id": 2414438,
@@ -107777,7 +107777,7 @@
         "checkpoint_pass_rate": 70,
         "position": "Hacker",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P6": {
         "user_id": 3116621,
@@ -107882,7 +107882,7 @@
         "checkpoint_pass_rate": 69,
         "position": "Muscle",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P3": {
         "user_id": 2325329,
@@ -107898,7 +107898,7 @@
         "checkpoint_pass_rate": 68,
         "position": "Hacker",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P4": {
         "user_id": 2315415,
@@ -109011,8 +109011,8 @@
   },
   "1404163": {
     "name": "Blast from the Past",
-    "status": "Recruiting",
-    "ready_at": 1774091706,
+    "status": "Planning",
+    "ready_at": 1774178106,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -109052,6 +109052,14 @@
         "position": "Bomber",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 2302062,
+        "user_name": "BoozHound",
+        "checkpoint_pass_rate": 76,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -109107,6 +109115,17 @@
         "position": "Bomber",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1773774629,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2302062,
+        "user_name": "BoozHound",
+        "checkpoint_pass_rate": 76,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -109362,7 +109381,7 @@
         "checkpoint_pass_rate": 76,
         "position": "Hacker",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P2": {
         "user_id": 2677851,
@@ -110150,5 +110169,45 @@
         "item_available": true
       }
     ]
+  },
+  "1418452": {
+    "name": "Sneaky Git Grab",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1418457": {
+    "name": "Blast from the Past",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1418458": {
+    "name": "Blast from the Past",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1418459": {
+    "name": "Blast from the Past",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1418460": {
+    "name": "Break the Bank",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
   }
 }
