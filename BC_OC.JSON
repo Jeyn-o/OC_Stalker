@@ -110561,13 +110561,13 @@
     "ready_at": 1773907263,
     "executed_at": null,
     "slots": {
-      "P3": {
+      "P4": {
         "user_id": 2163292,
         "user_name": "Mihawk",
-        "checkpoint_pass_rate": 76,
-        "position": "Hacker",
+        "checkpoint_pass_rate": 75,
+        "position": "Techie",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -110581,6 +110581,28 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1773826827,
+        "action": "left",
+        "slot": "P3",
+        "user_id": 2163292,
+        "user_name": "Mihawk",
+        "checkpoint_pass_rate": 76,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1773826827,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2163292,
+        "user_name": "Mihawk",
+        "checkpoint_pass_rate": 75,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   }
