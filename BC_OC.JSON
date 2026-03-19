@@ -109843,7 +109843,7 @@
         "checkpoint_pass_rate": 83,
         "position": "Imitator",
         "position_number": 3,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -110537,7 +110537,7 @@
   "1418457": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1774294740,
+    "ready_at": 1774208340,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -110568,14 +110568,6 @@
         "user_name": "TsanMan",
         "checkpoint_pass_rate": 76,
         "position": "Engineer",
-        "position_number": 1,
-        "item_available": true
-      },
-      "P2": {
-        "user_id": 2240841,
-        "user_name": "Timotheous",
-        "checkpoint_pass_rate": 79,
-        "position": "Hacker",
         "position_number": 1,
         "item_available": true
       }
@@ -110627,6 +110619,17 @@
       {
         "timestamp": 1773948028,
         "action": "joined",
+        "slot": "P2",
+        "user_id": 2240841,
+        "user_name": "Timotheous",
+        "checkpoint_pass_rate": 79,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1773960024,
+        "action": "left",
         "slot": "P2",
         "user_id": 2240841,
         "user_name": "Timotheous",
@@ -111402,7 +111405,7 @@
   "1423992": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1774122190,
+    "ready_at": 1774208590,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -111419,6 +111422,14 @@
         "checkpoint_pass_rate": 65,
         "position": "Thief",
         "position_number": 1,
+        "item_available": true
+      },
+      "P6": {
+        "user_id": 2240841,
+        "user_name": "Timotheous",
+        "checkpoint_pass_rate": 66,
+        "position": "Thief",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -111443,6 +111454,17 @@
         "checkpoint_pass_rate": 65,
         "position": "Thief",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1773960024,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 2240841,
+        "user_name": "Timotheous",
+        "checkpoint_pass_rate": 66,
+        "position": "Thief",
+        "position_number": 2,
         "item_available": true
       }
     ]
