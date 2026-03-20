@@ -109588,9 +109588,9 @@
   },
   "1409465": {
     "name": "No Reserve",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1774018588,
-    "executed_at": null,
+    "executed_at": 1774018625,
     "slots": {
       "P3": {
         "user_id": 3680760,
@@ -111641,7 +111641,7 @@
   "1425272": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": 1774026122,
+    "ready_at": 1774112522,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -111651,6 +111651,14 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": false
+      },
+      "P2": {
+        "user_id": 3680760,
+        "user_name": "Friendly_Derek",
+        "checkpoint_pass_rate": 70,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -111664,6 +111672,17 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1774018846,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3680760,
+        "user_name": "Friendly_Derek",
+        "checkpoint_pass_rate": 70,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -111693,6 +111712,14 @@
   },
   "1428073": {
     "name": "Market Forces",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1428559": {
+    "name": "Bidding War",
     "status": "Recruiting",
     "ready_at": null,
     "executed_at": null,
