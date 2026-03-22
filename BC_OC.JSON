@@ -111361,9 +111361,9 @@
   },
   "1421400": {
     "name": "Leave No Trace",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1774193854,
-    "executed_at": null,
+    "executed_at": 1774193886,
     "slots": {
       "P1": {
         "user_id": 2730718,
@@ -112550,6 +112550,35 @@
         "checkpoint_pass_rate": 71,
         "position": "Muscle",
         "position_number": 3,
+        "item_available": true
+      }
+    ]
+  },
+  "1435851": {
+    "name": "No Reserve",
+    "status": "Recruiting",
+    "ready_at": 1774280134,
+    "executed_at": null,
+    "slots": {
+      "P3": {
+        "user_id": 3575675,
+        "user_name": "highfishM",
+        "checkpoint_pass_rate": 76,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1774194028,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3575675,
+        "user_name": "highfishM",
+        "checkpoint_pass_rate": 76,
+        "position": "Engineer",
+        "position_number": 1,
         "item_available": true
       }
     ]
