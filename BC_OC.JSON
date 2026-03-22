@@ -111621,9 +111621,9 @@
   },
   "1423981": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1774186357,
-    "executed_at": null,
+    "executed_at": 1774186387,
     "slots": {
       "P2": {
         "user_id": 3575675,
@@ -112368,7 +112368,7 @@
   "1432981": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1774402303,
+    "ready_at": 1774488703,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -112392,6 +112392,14 @@
         "user_name": "Davie_Corleone",
         "checkpoint_pass_rate": 80,
         "position": "Picklock",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 79,
+        "position": "Robber",
         "position_number": 1,
         "item_available": true
       }
@@ -112429,13 +112437,24 @@
         "position": "Picklock",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1774186830,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 79,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
   "1435341": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1774271006,
+    "ready_at": 1774357406,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -112444,6 +112463,14 @@
         "checkpoint_pass_rate": 63,
         "position": "Thief",
         "position_number": 1,
+        "item_available": true
+      },
+      "P5": {
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 3,
         "item_available": true
       }
     },
@@ -112457,6 +112484,17 @@
         "checkpoint_pass_rate": 63,
         "position": "Thief",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1774186830,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 3,
         "item_available": true
       }
     ]
