@@ -111765,8 +111765,8 @@
   },
   "1423985": {
     "name": "Blast from the Past",
-    "status": "Recruiting",
-    "ready_at": 1774619467,
+    "status": "Planning",
+    "ready_at": 1774705867,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -111804,6 +111804,14 @@
         "user_name": "Khana",
         "checkpoint_pass_rate": 73,
         "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2085973,
+        "user_name": "Zefiris",
+        "checkpoint_pass_rate": 69,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
@@ -111859,6 +111867,17 @@
         "user_name": "Khana",
         "checkpoint_pass_rate": 73,
         "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1774366234,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2085973,
+        "user_name": "Zefiris",
+        "checkpoint_pass_rate": 69,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
@@ -112533,8 +112552,8 @@
   },
   "1429916": {
     "name": "Gaslight the Way",
-    "status": "Recruiting",
-    "ready_at": 1774665849,
+    "status": "Planning",
+    "ready_at": 1774838649,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -112566,6 +112585,21 @@
         "checkpoint_pass_rate": 83,
         "position": "Looter",
         "position_number": 2
+      },
+      "P5": {
+        "user_id": 3900691,
+        "user_name": "Akytaro",
+        "checkpoint_pass_rate": 85,
+        "position": "Imitator",
+        "position_number": 3,
+        "item_available": false
+      },
+      "P6": {
+        "user_id": 3969644,
+        "user_name": "DungeonCrawler",
+        "checkpoint_pass_rate": 84,
+        "position": "Looter",
+        "position_number": 3
       }
     },
     "action_log": [
@@ -112610,6 +112644,27 @@
         "checkpoint_pass_rate": 83,
         "position": "Looter",
         "position_number": 2
+      },
+      {
+        "timestamp": 1774366234,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3900691,
+        "user_name": "Akytaro",
+        "checkpoint_pass_rate": 85,
+        "position": "Imitator",
+        "position_number": 3,
+        "item_available": false
+      },
+      {
+        "timestamp": 1774366234,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3969644,
+        "user_name": "DungeonCrawler",
+        "checkpoint_pass_rate": 84,
+        "position": "Looter",
+        "position_number": 3
       }
     ]
   },
