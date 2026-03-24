@@ -112574,17 +112574,9 @@
   "1429916": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1774752249,
+    "ready_at": 1774683501,
     "executed_at": null,
     "slots": {
-      "P1": {
-        "user_id": 3703949,
-        "user_name": "Downtowndave20",
-        "checkpoint_pass_rate": 85,
-        "position": "Imitator",
-        "position_number": 1,
-        "item_available": false
-      },
       "P2": {
         "user_id": 3976308,
         "user_name": "Bellarin",
@@ -112688,6 +112680,17 @@
         "checkpoint_pass_rate": 85,
         "position": "Imitator",
         "position_number": 3,
+        "item_available": false
+      },
+      {
+        "timestamp": 1774388423,
+        "action": "left",
+        "slot": "P1",
+        "user_id": 3703949,
+        "user_name": "Downtowndave20",
+        "checkpoint_pass_rate": 85,
+        "position": "Imitator",
+        "position_number": 1,
         "item_available": false
       }
     ]
@@ -113401,7 +113404,7 @@
   "1443850": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1774473281,
+    "ready_at": 1774559681,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -113411,6 +113414,13 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 3703949,
+        "user_name": "Downtowndave20",
+        "checkpoint_pass_rate": 81,
+        "position": "Enforcer",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -113424,6 +113434,16 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1774388423,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3703949,
+        "user_name": "Downtowndave20",
+        "checkpoint_pass_rate": 81,
+        "position": "Enforcer",
+        "position_number": 1
       }
     ]
   }
