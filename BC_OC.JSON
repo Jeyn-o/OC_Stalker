@@ -112423,10 +112423,31 @@
   "1428073": {
     "name": "Market Forces",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1774452939,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 3900691,
+        "user_name": "Akytaro",
+        "checkpoint_pass_rate": 84,
+        "position": "Arsonist",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1774366828,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3900691,
+        "user_name": "Akytaro",
+        "checkpoint_pass_rate": 84,
+        "position": "Arsonist",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1428559": {
     "name": "Bidding War",
@@ -112552,8 +112573,8 @@
   },
   "1429916": {
     "name": "Gaslight the Way",
-    "status": "Planning",
-    "ready_at": 1774838649,
+    "status": "Recruiting",
+    "ready_at": 1774752249,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -112585,14 +112606,6 @@
         "checkpoint_pass_rate": 83,
         "position": "Looter",
         "position_number": 2
-      },
-      "P5": {
-        "user_id": 3900691,
-        "user_name": "Akytaro",
-        "checkpoint_pass_rate": 85,
-        "position": "Imitator",
-        "position_number": 3,
-        "item_available": false
       },
       "P6": {
         "user_id": 3969644,
@@ -112665,6 +112678,17 @@
         "checkpoint_pass_rate": 84,
         "position": "Looter",
         "position_number": 3
+      },
+      {
+        "timestamp": 1774366828,
+        "action": "left",
+        "slot": "P5",
+        "user_id": 3900691,
+        "user_name": "Akytaro",
+        "checkpoint_pass_rate": 85,
+        "position": "Imitator",
+        "position_number": 3,
+        "item_available": false
       }
     ]
   },
