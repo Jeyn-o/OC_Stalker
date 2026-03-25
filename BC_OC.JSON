@@ -113591,7 +113591,7 @@
   "1443846": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1774484447,
+    "ready_at": 1774570847,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -113600,6 +113600,14 @@
         "checkpoint_pass_rate": 70,
         "position": "Cat Burglar",
         "position_number": 1
+      },
+      "P1": {
+        "user_id": 2736671,
+        "user_name": "Twitt3y",
+        "checkpoint_pass_rate": 65,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -113612,6 +113620,17 @@
         "checkpoint_pass_rate": 70,
         "position": "Cat Burglar",
         "position_number": 1
+      },
+      {
+        "timestamp": 1774434028,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2736671,
+        "user_name": "Twitt3y",
+        "checkpoint_pass_rate": 65,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -113820,9 +113839,28 @@
   "1446243": {
     "name": "Plucking the Lotus Petal",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1774519360,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 3851236,
+        "user_name": "Psyden",
+        "checkpoint_pass_rate": 80,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1774434028,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3851236,
+        "user_name": "Psyden",
+        "checkpoint_pass_rate": 80,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    ]
   }
 }
