@@ -113767,7 +113767,7 @@
   "1444640": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": 1774516836,
+    "ready_at": 1774603236,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -113777,6 +113777,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 14922,
+        "user_name": "Charbon",
+        "checkpoint_pass_rate": 75,
+        "position": "Techie",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -113790,6 +113797,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1774435829,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 14922,
+        "user_name": "Charbon",
+        "checkpoint_pass_rate": 75,
+        "position": "Techie",
+        "position_number": 1
       }
     ]
   },
