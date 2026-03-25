@@ -113624,8 +113624,8 @@
   },
   "1443846": {
     "name": "Clinical Precision",
-    "status": "Recruiting",
-    "ready_at": 1774657247,
+    "status": "Planning",
+    "ready_at": 1774743647,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -113650,6 +113650,14 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 73,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -113684,6 +113692,17 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1774470629,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 73,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -113912,10 +113931,31 @@
   "1444642": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1774556884,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 65,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1774470629,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 65,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1444643": {
     "name": "No Reserve",
