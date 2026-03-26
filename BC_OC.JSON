@@ -109795,9 +109795,9 @@
   },
   "1412694": {
     "name": "Gaslight the Way",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1774506182,
-    "executed_at": null,
+    "executed_at": 1774536784,
     "slots": {
       "P6": {
         "user_id": 3967366,
@@ -114235,8 +114235,8 @@
   },
   "1446243": {
     "name": "Plucking the Lotus Petal",
-    "status": "Recruiting",
-    "ready_at": 1774605760,
+    "status": "Planning",
+    "ready_at": 1774778560,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -114253,6 +114253,20 @@
         "position": "Hustler",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 79,
+        "position": "Robber",
+        "position_number": 1
+      },
+      "P3": {
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 82,
+        "position": "Robber",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -114276,6 +114290,26 @@
         "position": "Hustler",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1774537248,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 79,
+        "position": "Robber",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1774537248,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 82,
+        "position": "Robber",
+        "position_number": 2
       }
     ]
   },
