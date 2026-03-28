@@ -114446,7 +114446,7 @@
   "1448700": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1774815703,
+    "ready_at": 1774754704,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -114455,14 +114455,6 @@
         "checkpoint_pass_rate": 83,
         "position": "Looter",
         "position_number": 1
-      },
-      "P1": {
-        "user_id": 3977638,
-        "user_name": "Vasavi_shakti",
-        "checkpoint_pass_rate": 85,
-        "position": "Imitator",
-        "position_number": 1,
-        "item_available": true
       },
       "P4": {
         "user_id": 2291737,
@@ -114503,6 +114495,17 @@
         "checkpoint_pass_rate": 90,
         "position": "Looter",
         "position_number": 2
+      },
+      {
+        "timestamp": 1774668630,
+        "action": "left",
+        "slot": "P1",
+        "user_id": 3977638,
+        "user_name": "Vasavi_shakti",
+        "checkpoint_pass_rate": 85,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -114647,7 +114650,7 @@
   "1452402": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1774948616,
+    "ready_at": 1775035016,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -114678,6 +114681,13 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": false
+      },
+      "P1": {
+        "user_id": 3977638,
+        "user_name": "Vasavi_shakti",
+        "checkpoint_pass_rate": 80,
+        "position": "Enforcer",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -114721,6 +114731,16 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1774668630,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3977638,
+        "user_name": "Vasavi_shakti",
+        "checkpoint_pass_rate": 80,
+        "position": "Enforcer",
+        "position_number": 1
       }
     ]
   },
