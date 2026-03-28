@@ -112631,9 +112631,9 @@
   },
   "1428559": {
     "name": "Bidding War",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1774718456,
-    "executed_at": null,
+    "executed_at": 1774718465,
     "slots": {
       "P1": {
         "user_id": 3018158,
@@ -114426,7 +114426,7 @@
   "1446523": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1774830129,
+    "ready_at": 1774916529,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -114451,6 +114451,13 @@
         "checkpoint_pass_rate": 71,
         "position": "Picklock",
         "position_number": 1
+      },
+      "P6": {
+        "user_id": 3476243,
+        "user_name": "BadalaKingkong",
+        "checkpoint_pass_rate": 67,
+        "position": "Picklock",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -114485,6 +114492,16 @@
         "checkpoint_pass_rate": 71,
         "position": "Picklock",
         "position_number": 1
+      },
+      {
+        "timestamp": 1774719029,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3476243,
+        "user_name": "BadalaKingkong",
+        "checkpoint_pass_rate": 67,
+        "position": "Picklock",
+        "position_number": 2
       }
     ]
   },
@@ -114876,10 +114893,29 @@
   "1452406": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1774805410,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 75,
+        "position": "Imitator",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1774719029,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 75,
+        "position": "Imitator",
+        "position_number": 1
+      }
+    ]
   },
   "1456646": {
     "name": "Clinical Precision",
@@ -114900,7 +114936,7 @@
   "1456666": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1774881217,
+    "ready_at": 1774967617,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -114918,6 +114954,13 @@
         "position": "Assassin",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 62,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -114942,6 +114985,16 @@
         "position": "Assassin",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1774719029,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 62,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     ]
   },
