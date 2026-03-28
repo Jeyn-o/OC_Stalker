@@ -111877,9 +111877,9 @@
   },
   "1423985": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1774705867,
-    "executed_at": null,
+    "executed_at": 1774705924,
     "slots": {
       "P1": {
         "user_id": 2914279,
@@ -113309,7 +113309,7 @@
         "checkpoint_pass_rate": 65,
         "position": "Robber",
         "position_number": 2,
-        "item_available": false
+        "item_available": true
       },
       "P6": {
         "user_id": 2325329,
@@ -113942,8 +113942,8 @@
   },
   "1444639": {
     "name": "Leave No Trace",
-    "status": "Recruiting",
-    "ready_at": 1774782999,
+    "status": "Planning",
+    "ready_at": 1774869399,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -113960,6 +113960,14 @@
         "checkpoint_pass_rate": 75,
         "position": "Techie",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 77,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -113983,6 +113991,17 @@
         "checkpoint_pass_rate": 75,
         "position": "Techie",
         "position_number": 1
+      },
+      {
+        "timestamp": 1774706438,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 77,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
