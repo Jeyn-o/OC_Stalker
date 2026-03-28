@@ -114278,9 +114278,9 @@
   },
   "1444643": {
     "name": "No Reserve",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1774719963,
-    "executed_at": null,
+    "executed_at": 1774720027,
     "slots": {
       "P2": {
         "user_id": 3680760,
@@ -114912,7 +114912,7 @@
   "1452406": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": 1774805410,
+    "ready_at": 1774891810,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -114921,6 +114921,14 @@
         "checkpoint_pass_rate": 75,
         "position": "Imitator",
         "position_number": 1
+      },
+      "P4": {
+        "user_id": 2730718,
+        "user_name": "Haungpeary",
+        "checkpoint_pass_rate": 80,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -114933,6 +114941,17 @@
         "checkpoint_pass_rate": 75,
         "position": "Imitator",
         "position_number": 1
+      },
+      {
+        "timestamp": 1774720233,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2730718,
+        "user_name": "Haungpeary",
+        "checkpoint_pass_rate": 80,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -115020,9 +115039,30 @@
   "1458127": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1774806509,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3680760,
+        "user_name": "Friendly_Derek",
+        "checkpoint_pass_rate": 79,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1774720233,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3680760,
+        "user_name": "Friendly_Derek",
+        "checkpoint_pass_rate": 79,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   }
 }
