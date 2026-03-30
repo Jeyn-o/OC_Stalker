@@ -113321,9 +113321,9 @@
   },
   "1436081": {
     "name": "Bidding War",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1774867942,
-    "executed_at": null,
+    "executed_at": 1774882265,
     "slots": {
       "P3": {
         "user_id": 3656242,
@@ -113842,8 +113842,8 @@
   },
   "1443849": {
     "name": "Market Forces",
-    "status": "Recruiting",
-    "ready_at": 1775161282,
+    "status": "Planning",
+    "ready_at": 1775247682,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -113873,6 +113873,13 @@
         "user_name": "haqwpha",
         "checkpoint_pass_rate": 74,
         "position": "Muscle",
+        "position_number": 1
+      },
+      "P2": {
+        "user_id": 3976308,
+        "user_name": "Bellarin",
+        "checkpoint_pass_rate": 77,
+        "position": "Negotiator",
         "position_number": 1
       }
     },
@@ -113916,6 +113923,16 @@
         "user_name": "haqwpha",
         "checkpoint_pass_rate": 74,
         "position": "Muscle",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1774882870,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3976308,
+        "user_name": "Bellarin",
+        "checkpoint_pass_rate": 77,
+        "position": "Negotiator",
         "position_number": 1
       }
     ]
@@ -114723,8 +114740,8 @@
   },
   "1448700": {
     "name": "Gaslight the Way",
-    "status": "Planning",
-    "ready_at": 1775137539,
+    "status": "Recruiting",
+    "ready_at": 1775051139,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -114756,13 +114773,6 @@
         "position": "Imitator",
         "position_number": 2,
         "item_available": false
-      },
-      "P6": {
-        "user_id": 3976308,
-        "user_name": "Bellarin",
-        "checkpoint_pass_rate": 85,
-        "position": "Looter",
-        "position_number": 3
       },
       "P5": {
         "user_id": 3806146,
@@ -114858,6 +114868,16 @@
         "position": "Imitator",
         "position_number": 3,
         "item_available": false
+      },
+      {
+        "timestamp": 1774882870,
+        "action": "left",
+        "slot": "P6",
+        "user_id": 3976308,
+        "user_name": "Bellarin",
+        "checkpoint_pass_rate": 85,
+        "position": "Looter",
+        "position_number": 3
       }
     ]
   },
@@ -115674,10 +115694,31 @@
   "1460183": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1774969064,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 1184733,
+        "user_name": "Pro_eobard",
+        "checkpoint_pass_rate": 68,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1774882870,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 1184733,
+        "user_name": "Pro_eobard",
+        "checkpoint_pass_rate": 68,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1460184": {
     "name": "Window of Opportunity",
