@@ -112775,9 +112775,9 @@
   },
   "1429916": {
     "name": "Gaslight the Way",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1774856301,
-    "executed_at": null,
+    "executed_at": 1774856344,
     "slots": {
       "P2": {
         "user_id": 3976308,
@@ -114673,7 +114673,7 @@
   "1448700": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1774878339,
+    "ready_at": 1775051139,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -114697,6 +114697,21 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 3942148,
+        "user_name": "TreyTheGay",
+        "checkpoint_pass_rate": 84,
+        "position": "Imitator",
+        "position_number": 2,
+        "item_available": false
+      },
+      "P6": {
+        "user_id": 3976308,
+        "user_name": "Bellarin",
+        "checkpoint_pass_rate": 85,
+        "position": "Looter",
+        "position_number": 3
       }
     },
     "action_log": [
@@ -114752,6 +114767,27 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1774856432,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3942148,
+        "user_name": "TreyTheGay",
+        "checkpoint_pass_rate": 84,
+        "position": "Imitator",
+        "position_number": 2,
+        "item_available": false
+      },
+      {
+        "timestamp": 1774856432,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3976308,
+        "user_name": "Bellarin",
+        "checkpoint_pass_rate": 85,
+        "position": "Looter",
+        "position_number": 3
       }
     ]
   },
