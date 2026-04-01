@@ -115497,9 +115497,9 @@
   },
   "1456666": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1775054017,
-    "executed_at": null,
+    "executed_at": 1775054044,
     "slots": {
       "P4": {
         "user_id": 2671608,
@@ -116176,8 +116176,8 @@
   },
   "1463650": {
     "name": "Leave No Trace",
-    "status": "Recruiting",
-    "ready_at": 1775047016,
+    "status": "Planning",
+    "ready_at": 1775140452,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -116195,6 +116195,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 81,
+        "position": "Techie",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -116219,6 +116226,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1775054435,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 81,
+        "position": "Techie",
+        "position_number": 1
       }
     ]
   },
