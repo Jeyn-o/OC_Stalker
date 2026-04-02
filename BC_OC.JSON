@@ -115887,7 +115887,7 @@
         "checkpoint_pass_rate": 75,
         "position": "Muscle",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -116718,7 +116718,7 @@
   "1466645": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": 1775276792,
+    "ready_at": 1775363192,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -116736,6 +116736,14 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 2802632,
+        "user_name": "Hoboblue",
+        "checkpoint_pass_rate": 79,
+        "position": "Looter",
+        "position_number": 2,
+        "item_available": false
       }
     },
     "action_log": [
@@ -116779,6 +116787,17 @@
         "user_id": 3348136,
         "user_name": "shrigma",
         "checkpoint_pass_rate": 69,
+        "position": "Looter",
+        "position_number": 2,
+        "item_available": false
+      },
+      {
+        "timestamp": 1775142631,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2802632,
+        "user_name": "Hoboblue",
+        "checkpoint_pass_rate": 79,
         "position": "Looter",
         "position_number": 2,
         "item_available": false
@@ -117272,7 +117291,7 @@
   "1475484": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1775295228,
+    "ready_at": 1775381628,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -117289,6 +117308,13 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
+      },
+      "P6": {
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 84,
+        "position": "Sniper",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -117312,6 +117338,16 @@
         "position": "Lookout",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1775142631,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 84,
+        "position": "Sniper",
+        "position_number": 1
       }
     ]
   },
