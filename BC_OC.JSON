@@ -115859,9 +115859,18 @@
   "1460182": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1775044871,
+    "ready_at": 1775203502,
     "executed_at": null,
-    "slots": {},
+    "slots": {
+      "P5": {
+        "user_id": 2250222,
+        "user_name": "Ronskip",
+        "checkpoint_pass_rate": 75,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": false
+      }
+    },
     "action_log": [
       {
         "timestamp": 1774959024,
@@ -115882,6 +115891,17 @@
         "checkpoint_pass_rate": 77,
         "position": "Picklock",
         "position_number": 1
+      },
+      {
+        "timestamp": 1775117435,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2250222,
+        "user_name": "Ronskip",
+        "checkpoint_pass_rate": 75,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
