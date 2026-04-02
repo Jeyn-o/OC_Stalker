@@ -116717,8 +116717,8 @@
   },
   "1466645": {
     "name": "Window of Opportunity",
-    "status": "Recruiting",
-    "ready_at": 1775449592,
+    "status": "Planning",
+    "ready_at": 1775535992,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -116751,6 +116751,14 @@
         "checkpoint_pass_rate": 73,
         "position": "Muscle",
         "position_number": 2,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 70,
+        "position": "Muscle",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -116819,6 +116827,17 @@
         "checkpoint_pass_rate": 73,
         "position": "Muscle",
         "position_number": 2,
+        "item_available": true
+      },
+      {
+        "timestamp": 1775170222,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 70,
+        "position": "Muscle",
+        "position_number": 1,
         "item_available": true
       }
     ]
@@ -117548,15 +117567,34 @@
   "1477266": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1775256113,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 66,
+        "position": "Pickpocket",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1775170222,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 66,
+        "position": "Pickpocket",
+        "position_number": 1
+      }
+    ]
   },
   "1477267": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": 1775250325,
+    "ready_at": 1775336725,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -117566,6 +117604,13 @@
         "position": "Enforcer",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3805208,
+        "user_name": "AuntGoo",
+        "checkpoint_pass_rate": 67,
+        "position": "Muscle",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -117579,6 +117624,16 @@
         "position": "Enforcer",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1775170222,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3805208,
+        "user_name": "AuntGoo",
+        "checkpoint_pass_rate": 67,
+        "position": "Muscle",
+        "position_number": 1
       }
     ]
   }
