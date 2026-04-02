@@ -116454,9 +116454,9 @@
   },
   "1463651": {
     "name": "No Reserve",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1775146424,
-    "executed_at": null,
+    "executed_at": 1775146447,
     "slots": {
       "P3": {
         "user_id": 3805208,
@@ -117265,7 +117265,7 @@
   "1475477": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": 1775228110,
+    "ready_at": 1775314510,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -117275,6 +117275,13 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 2570952,
+        "user_name": "BordlandsMoe",
+        "checkpoint_pass_rate": 68,
+        "position": "Pickpocket",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -117288,6 +117295,16 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1775146835,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2570952,
+        "user_name": "BordlandsMoe",
+        "checkpoint_pass_rate": 68,
+        "position": "Pickpocket",
+        "position_number": 1
       }
     ]
   },
