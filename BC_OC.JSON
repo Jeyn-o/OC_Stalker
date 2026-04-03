@@ -115392,9 +115392,9 @@
   },
   "1456647": {
     "name": "Window of Opportunity",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1775181831,
-    "executed_at": null,
+    "executed_at": 1775181845,
     "slots": {
       "P5": {
         "user_id": 2655203,
@@ -115927,7 +115927,7 @@
   "1460183": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": 1775303962,
+    "ready_at": 1775390362,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -115945,6 +115945,14 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      "P5": {
+        "user_id": 2655203,
+        "user_name": "Vampire-Catgirl",
+        "checkpoint_pass_rate": 81,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
       }
     },
     "action_log": [
@@ -115991,6 +115999,17 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1775182234,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2655203,
+        "user_name": "Vampire-Catgirl",
+        "checkpoint_pass_rate": 81,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
       }
     ]
   },
