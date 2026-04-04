@@ -117975,15 +117975,34 @@
   "1479128": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1775376070,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 68,
+        "position": "Cat Burglar",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1775290223,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 68,
+        "position": "Cat Burglar",
+        "position_number": 1
+      }
+    ]
   },
   "1479135": {
     "name": "Break the Bank",
-    "status": "Recruiting",
-    "ready_at": 1775599448,
+    "status": "Planning",
+    "ready_at": 1775772248,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -118015,6 +118034,22 @@
         "user_name": "---GHOST---",
         "checkpoint_pass_rate": 66,
         "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 214123,
+        "user_name": "JerseyJay",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 67,
+        "position": "Thief",
         "position_number": 1,
         "item_available": true
       }
@@ -118061,6 +118096,28 @@
         "user_name": "---GHOST---",
         "checkpoint_pass_rate": 66,
         "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1775290223,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 214123,
+        "user_name": "JerseyJay",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": true
+      },
+      {
+        "timestamp": 1775290223,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 67,
+        "position": "Thief",
         "position_number": 1,
         "item_available": true
       }
