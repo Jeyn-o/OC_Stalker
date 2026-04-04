@@ -115808,9 +115808,9 @@
   },
   "1460181": {
     "name": "Window of Opportunity",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1775320836,
-    "executed_at": null,
+    "executed_at": 1775320865,
     "slots": {
       "P2": {
         "user_id": 1946159,
@@ -115914,7 +115914,7 @@
   "1460182": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1775511613,
+    "ready_at": 1775598013,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -115944,6 +115944,14 @@
         "user_name": "Charbon",
         "checkpoint_pass_rate": 68,
         "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 2679269,
+        "user_name": "TsanMan",
+        "checkpoint_pass_rate": 79,
+        "position": "Bomber",
         "position_number": 1,
         "item_available": true
       }
@@ -116008,6 +116016,17 @@
         "user_name": "Charbon",
         "checkpoint_pass_rate": 68,
         "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1775321425,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2679269,
+        "user_name": "TsanMan",
+        "checkpoint_pass_rate": 79,
+        "position": "Bomber",
         "position_number": 1,
         "item_available": true
       }
