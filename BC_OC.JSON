@@ -117882,20 +117882,22 @@
     "status": "Recruiting",
     "ready_at": 1775409303,
     "executed_at": null,
-    "slots": {
-      "P4": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1775323228,
+        "action": "joined",
+        "slot": "P4",
         "user_id": 3977638,
         "user_name": "Vasavi_shakti",
         "checkpoint_pass_rate": 85,
         "position": "Arsonist",
         "position_number": 1,
         "item_available": true
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1775323228,
-        "action": "joined",
+        "timestamp": 1775418026,
+        "action": "left",
         "slot": "P4",
         "user_id": 3977638,
         "user_name": "Vasavi_shakti",
@@ -118594,7 +118596,7 @@
   "1488433": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1775667274,
+    "ready_at": 1775753674,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -118618,6 +118620,14 @@
         "user_name": "ssodon",
         "checkpoint_pass_rate": 67,
         "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P5": {
+        "user_id": 3977638,
+        "user_name": "Vasavi_shakti",
+        "checkpoint_pass_rate": 69,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
@@ -118653,6 +118663,17 @@
         "user_name": "ssodon",
         "checkpoint_pass_rate": 67,
         "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1775418026,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3977638,
+        "user_name": "Vasavi_shakti",
+        "checkpoint_pass_rate": 69,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
