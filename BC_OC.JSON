@@ -118484,7 +118484,7 @@
   "1486955": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": 1775587950,
+    "ready_at": 1775674350,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -118493,6 +118493,14 @@
         "checkpoint_pass_rate": 68,
         "position": "Techie",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 3447443,
+        "user_name": "Jordanw1",
+        "checkpoint_pass_rate": 68,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -118505,6 +118513,17 @@
         "checkpoint_pass_rate": 68,
         "position": "Techie",
         "position_number": 1
+      },
+      {
+        "timestamp": 1775524830,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3447443,
+        "user_name": "Jordanw1",
+        "checkpoint_pass_rate": 68,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -118574,10 +118593,29 @@
   "1486958": {
     "name": "Market Forces",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1775610909,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3942701,
+        "user_name": "forestryfairy",
+        "checkpoint_pass_rate": 81,
+        "position": "Lookout",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1775524830,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3942701,
+        "user_name": "forestryfairy",
+        "checkpoint_pass_rate": 81,
+        "position": "Lookout",
+        "position_number": 1
+      }
+    ]
   },
   "1486960": {
     "name": "Stage Fright",
@@ -119066,7 +119104,7 @@
   "1492929": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1775854817,
+    "ready_at": 1775941217,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -119099,6 +119137,14 @@
         "checkpoint_pass_rate": 67,
         "position": "Muscle",
         "position_number": 3,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 2240841,
+        "user_name": "Timotheous",
+        "checkpoint_pass_rate": 66,
+        "position": "Robber",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -119145,6 +119191,17 @@
         "checkpoint_pass_rate": 67,
         "position": "Muscle",
         "position_number": 3,
+        "item_available": true
+      },
+      {
+        "timestamp": 1775524830,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2240841,
+        "user_name": "Timotheous",
+        "checkpoint_pass_rate": 66,
+        "position": "Robber",
+        "position_number": 1,
         "item_available": true
       }
     ]
