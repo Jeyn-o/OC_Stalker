@@ -116923,9 +116923,9 @@
   },
   "1466645": {
     "name": "Window of Opportunity",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1775535992,
-    "executed_at": null,
+    "executed_at": 1775536445,
     "slots": {
       "P2": {
         "user_id": 1184733,
@@ -117911,7 +117911,7 @@
   "1477265": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": 1775597659,
+    "ready_at": 1775684059,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -117921,6 +117921,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 1184733,
+        "user_name": "Pro_eobard",
+        "checkpoint_pass_rate": 67,
+        "position": "Techie",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -117934,6 +117941,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1775536828,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 1184733,
+        "user_name": "Pro_eobard",
+        "checkpoint_pass_rate": 67,
+        "position": "Techie",
+        "position_number": 1
       }
     ]
   },
@@ -118886,7 +118903,7 @@
   "1489107": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": 1775532265,
+    "ready_at": 1775622860,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -118896,6 +118913,14 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": false
+      },
+      "P3": {
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 75,
+        "position": "Looter",
+        "position_number": 2,
+        "item_available": true
       }
     },
     "action_log": [
@@ -118909,6 +118934,17 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1775536828,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 75,
+        "position": "Looter",
+        "position_number": 2,
+        "item_available": true
       }
     ]
   },
