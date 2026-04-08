@@ -119315,10 +119315,31 @@
   "1492926": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1775771943,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 2163292,
+        "user_name": "Mihawk",
+        "checkpoint_pass_rate": 65,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1775685635,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2163292,
+        "user_name": "Mihawk",
+        "checkpoint_pass_rate": 65,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1492927": {
     "name": "Blast from the Past",
@@ -119849,16 +119870,9 @@
   "1498356": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": 1775847234,
+    "ready_at": 1775771911,
     "executed_at": null,
     "slots": {
-      "P1": {
-        "user_id": 2163292,
-        "user_name": "Mihawk",
-        "checkpoint_pass_rate": 72,
-        "position": "Techie",
-        "position_number": 1
-      },
       "P3": {
         "user_id": 2730718,
         "user_name": "Haungpeary",
@@ -119889,6 +119903,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1775685635,
+        "action": "left",
+        "slot": "P1",
+        "user_id": 2163292,
+        "user_name": "Mihawk",
+        "checkpoint_pass_rate": 72,
+        "position": "Techie",
+        "position_number": 1
       }
     ]
   },
