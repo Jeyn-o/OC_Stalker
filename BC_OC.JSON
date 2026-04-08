@@ -118227,9 +118227,9 @@
   },
   "1479128": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1775635270,
-    "executed_at": null,
+    "executed_at": 1775635327,
     "slots": {
       "P2": {
         "user_id": 2937449,
@@ -119717,9 +119717,28 @@
   "1498362": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1775722085,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 69,
+        "position": "Cat Burglar",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1775635828,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 69,
+        "position": "Cat Burglar",
+        "position_number": 1
+      }
+    ]
   }
 }
