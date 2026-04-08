@@ -115913,9 +115913,9 @@
   },
   "1460182": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1775684413,
-    "executed_at": null,
+    "executed_at": 1775684464,
     "slots": {
       "P5": {
         "user_id": 2250222,
@@ -119349,8 +119349,8 @@
   },
   "1492928": {
     "name": "Blast from the Past",
-    "status": "Recruiting",
-    "ready_at": 1775988544,
+    "status": "Planning",
+    "ready_at": 1776074944,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -119388,6 +119388,14 @@
         "user_name": "Zefiris",
         "checkpoint_pass_rate": 70,
         "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 14922,
+        "user_name": "Charbon",
+        "checkpoint_pass_rate": 68,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
@@ -119443,6 +119451,17 @@
         "user_name": "Zefiris",
         "checkpoint_pass_rate": 70,
         "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1775685035,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 14922,
+        "user_name": "Charbon",
+        "checkpoint_pass_rate": 68,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
@@ -119830,7 +119849,7 @@
   "1498356": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": 1775760834,
+    "ready_at": 1775847234,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -119839,6 +119858,14 @@
         "checkpoint_pass_rate": 72,
         "position": "Techie",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 2730718,
+        "user_name": "Haungpeary",
+        "checkpoint_pass_rate": 71,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -119851,6 +119878,17 @@
         "checkpoint_pass_rate": 72,
         "position": "Techie",
         "position_number": 1
+      },
+      {
+        "timestamp": 1775685035,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2730718,
+        "user_name": "Haungpeary",
+        "checkpoint_pass_rate": 71,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
