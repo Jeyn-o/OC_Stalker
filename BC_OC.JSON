@@ -118895,8 +118895,8 @@
   },
   "1488432": {
     "name": "Leave No Trace",
-    "status": "Recruiting",
-    "ready_at": 1775587741,
+    "status": "Planning",
+    "ready_at": 1775849548,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -118911,6 +118911,14 @@
         "user_name": "gypo",
         "checkpoint_pass_rate": 72,
         "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 182040,
+        "user_name": "Excaliber_13",
+        "checkpoint_pass_rate": 69,
+        "position": "Negotiator",
         "position_number": 1,
         "item_available": true
       }
@@ -118955,6 +118963,17 @@
         "user_id": 2302062,
         "user_name": "BoozHound",
         "checkpoint_pass_rate": 83,
+        "position": "Negotiator",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1775763631,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 182040,
+        "user_name": "Excaliber_13",
+        "checkpoint_pass_rate": 69,
         "position": "Negotiator",
         "position_number": 1,
         "item_available": true
@@ -119358,7 +119377,7 @@
   "1492924": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1776045457,
+    "ready_at": 1776131857,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -119391,6 +119410,14 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": false
+      },
+      "P3": {
+        "user_id": 1300665,
+        "user_name": "Savoie",
+        "checkpoint_pass_rate": 68,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -119436,6 +119463,17 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1775763631,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 1300665,
+        "user_name": "Savoie",
+        "checkpoint_pass_rate": 68,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
