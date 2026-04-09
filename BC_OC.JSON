@@ -117947,9 +117947,9 @@
   },
   "1477265": {
     "name": "Leave No Trace",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1775770459,
-    "executed_at": null,
+    "executed_at": 1775772424,
     "slots": {
       "P3": {
         "user_id": 3018158,
@@ -118348,9 +118348,9 @@
   },
   "1479135": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1775772248,
-    "executed_at": null,
+    "executed_at": 1775772306,
     "slots": {
       "P6": {
         "user_id": 2418838,
@@ -120391,8 +120391,8 @@
   },
   "1501672": {
     "name": "Sneaky Git Grab",
-    "status": "Recruiting",
-    "ready_at": 1775975349,
+    "status": "Planning",
+    "ready_at": 1776061749,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -120417,6 +120417,13 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 1184733,
+        "user_name": "Pro_eobard",
+        "checkpoint_pass_rate": 77,
+        "position": "Pickpocket",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -120451,6 +120458,16 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1775772628,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 1184733,
+        "user_name": "Pro_eobard",
+        "checkpoint_pass_rate": 77,
+        "position": "Pickpocket",
+        "position_number": 1
       }
     ]
   },
