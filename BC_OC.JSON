@@ -119417,20 +119417,22 @@
     "status": "Recruiting",
     "ready_at": 1775771943,
     "executed_at": null,
-    "slots": {
-      "P1": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1775685635,
+        "action": "joined",
+        "slot": "P1",
         "user_id": 2163292,
         "user_name": "Mihawk",
         "checkpoint_pass_rate": 65,
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1775685635,
-        "action": "joined",
+        "timestamp": 1775739642,
+        "action": "left",
         "slot": "P1",
         "user_id": 2163292,
         "user_name": "Mihawk",
@@ -120275,7 +120277,7 @@
   "1501672": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": 1775802549,
+    "ready_at": 1775888949,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -120284,6 +120286,14 @@
         "checkpoint_pass_rate": 69,
         "position": "Imitator",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 2163292,
+        "user_name": "Mihawk",
+        "checkpoint_pass_rate": 77,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -120296,6 +120306,17 @@
         "checkpoint_pass_rate": 69,
         "position": "Imitator",
         "position_number": 1
+      },
+      {
+        "timestamp": 1775739642,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2163292,
+        "user_name": "Mihawk",
+        "checkpoint_pass_rate": 77,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
