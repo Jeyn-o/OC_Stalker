@@ -120000,9 +120000,9 @@
   },
   "1492929": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1776027617,
-    "executed_at": null,
+    "executed_at": 1776027668,
     "slots": {
       "P6": {
         "user_id": 2408196,
@@ -121881,9 +121881,49 @@
   "1515736": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1776200593,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 65,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 446596,
+        "user_name": "Bucki",
+        "checkpoint_pass_rate": 67,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1776028233,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 65,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1776028233,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 446596,
+        "user_name": "Bucki",
+        "checkpoint_pass_rate": 67,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   }
 }
