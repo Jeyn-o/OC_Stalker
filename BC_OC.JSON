@@ -120853,7 +120853,7 @@
   "1501670": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": 1776067286,
+    "ready_at": 1776156879,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -120868,6 +120868,14 @@
         "user_name": "Haungpeary",
         "checkpoint_pass_rate": 80,
         "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2163292,
+        "user_name": "Mihawk",
+        "checkpoint_pass_rate": 77,
+        "position": "Hacker",
         "position_number": 1,
         "item_available": true
       }
@@ -120913,6 +120921,17 @@
         "checkpoint_pass_rate": 69,
         "position": "Imitator",
         "position_number": 1
+      },
+      {
+        "timestamp": 1776070848,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2163292,
+        "user_name": "Mihawk",
+        "checkpoint_pass_rate": 77,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -121654,7 +121673,7 @@
   "1510347": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": 1776203046,
+    "ready_at": 1776116646,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -121663,14 +121682,6 @@
         "checkpoint_pass_rate": 65,
         "position": "Robber",
         "position_number": 1,
-        "item_available": true
-      },
-      "P3": {
-        "user_id": 2163292,
-        "user_name": "Mihawk",
-        "checkpoint_pass_rate": 74,
-        "position": "Robber",
-        "position_number": 2,
         "item_available": true
       }
     },
@@ -121689,6 +121700,17 @@
       {
         "timestamp": 1776066031,
         "action": "joined",
+        "slot": "P3",
+        "user_id": 2163292,
+        "user_name": "Mihawk",
+        "checkpoint_pass_rate": 74,
+        "position": "Robber",
+        "position_number": 2,
+        "item_available": true
+      },
+      {
+        "timestamp": 1776070848,
+        "action": "left",
         "slot": "P3",
         "user_id": 2163292,
         "user_name": "Mihawk",
