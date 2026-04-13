@@ -120948,8 +120948,8 @@
   },
   "1501670": {
     "name": "Sneaky Git Grab",
-    "status": "Recruiting",
-    "ready_at": 1776156879,
+    "status": "Planning",
+    "ready_at": 1776243279,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -120974,6 +120974,13 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 3625719,
+        "user_name": "Raie",
+        "checkpoint_pass_rate": 72,
+        "position": "Imitator",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -121028,6 +121035,16 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1776090637,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3625719,
+        "user_name": "Raie",
+        "checkpoint_pass_rate": 72,
+        "position": "Imitator",
+        "position_number": 1
       }
     ]
   },
@@ -121906,19 +121923,21 @@
     "status": "Recruiting",
     "ready_at": 1776033835,
     "executed_at": null,
-    "slots": {
-      "P1": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1775947824,
+        "action": "joined",
+        "slot": "P1",
         "user_id": 3625719,
         "user_name": "Raie",
         "checkpoint_pass_rate": 69,
         "position": "Techie",
         "position_number": 1
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1775947824,
-        "action": "joined",
+        "timestamp": 1776090637,
+        "action": "left",
         "slot": "P1",
         "user_id": 3625719,
         "user_name": "Raie",
