@@ -119640,8 +119640,8 @@
   },
   "1492925": {
     "name": "Window of Opportunity",
-    "status": "Recruiting",
-    "ready_at": 1776429141,
+    "status": "Planning",
+    "ready_at": 1776515541,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -119675,6 +119675,14 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": false
+      },
+      "P5": {
+        "user_id": 2085973,
+        "user_name": "Zefiris",
+        "checkpoint_pass_rate": 74,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": true
       }
     },
     "action_log": [
@@ -119743,6 +119751,17 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1776138026,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2085973,
+        "user_name": "Zefiris",
+        "checkpoint_pass_rate": 74,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": true
       }
     ]
   },
@@ -122362,8 +122381,8 @@
   },
   "1517124": {
     "name": "Stage Fright",
-    "status": "Recruiting",
-    "ready_at": 1776498647,
+    "status": "Planning",
+    "ready_at": 1776585047,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -122401,6 +122420,13 @@
         "checkpoint_pass_rate": 82,
         "position": "Muscle",
         "position_number": 2
+      },
+      "P4": {
+        "user_id": 3976308,
+        "user_name": "Bellarin",
+        "checkpoint_pass_rate": 79,
+        "position": "Muscle",
+        "position_number": 3
       }
     },
     "action_log": [
@@ -122454,6 +122480,16 @@
         "checkpoint_pass_rate": 82,
         "position": "Muscle",
         "position_number": 2
+      },
+      {
+        "timestamp": 1776138026,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3976308,
+        "user_name": "Bellarin",
+        "checkpoint_pass_rate": 79,
+        "position": "Muscle",
+        "position_number": 3
       }
     ]
   }
