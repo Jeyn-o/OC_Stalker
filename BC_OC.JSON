@@ -122681,7 +122681,7 @@
   "1521145": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": 1776272429,
+    "ready_at": 1776358829,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -122689,6 +122689,14 @@
         "user_name": "Jordanw1",
         "checkpoint_pass_rate": 63,
         "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 3139132,
+        "user_name": "JuanPaulo",
+        "checkpoint_pass_rate": 66,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
@@ -122702,6 +122710,17 @@
         "user_name": "Jordanw1",
         "checkpoint_pass_rate": 63,
         "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1776193248,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3139132,
+        "user_name": "JuanPaulo",
+        "checkpoint_pass_rate": 66,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
@@ -122718,9 +122737,28 @@
   "1523128": {
     "name": "Plucking the Lotus Petal",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1776279458,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 3945957,
+        "user_name": "Euanfishface",
+        "checkpoint_pass_rate": 78,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1776193248,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3945957,
+        "user_name": "Euanfishface",
+        "checkpoint_pass_rate": 78,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    ]
   }
 }
