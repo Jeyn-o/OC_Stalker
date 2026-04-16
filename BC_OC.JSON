@@ -123447,7 +123447,7 @@
   "1528179": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1776395935,
+    "ready_at": 1776482335,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -123456,6 +123456,14 @@
         "checkpoint_pass_rate": 70,
         "position": "Muscle",
         "position_number": 3,
+        "item_available": true
+      },
+      "P6": {
+        "user_id": 2418838,
+        "user_name": "Meeip",
+        "checkpoint_pass_rate": 71,
+        "position": "Thief",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -123470,13 +123478,24 @@
         "position": "Muscle",
         "position_number": 3,
         "item_available": true
+      },
+      {
+        "timestamp": 1776319239,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 2418838,
+        "user_name": "Meeip",
+        "checkpoint_pass_rate": 71,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": true
       }
     ]
   },
   "1528180": {
     "name": "Clinical Precision",
-    "status": "Recruiting",
-    "ready_at": 1776556864,
+    "status": "Planning",
+    "ready_at": 1776643264,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -123501,6 +123520,14 @@
         "position": "Assassin",
         "position_number": 1,
         "item_available": false
+      },
+      "P4": {
+        "user_id": 2162860,
+        "user_name": "daddyg",
+        "checkpoint_pass_rate": 71,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -123535,6 +123562,17 @@
         "position": "Assassin",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1776319239,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2162860,
+        "user_name": "daddyg",
+        "checkpoint_pass_rate": 71,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   }
