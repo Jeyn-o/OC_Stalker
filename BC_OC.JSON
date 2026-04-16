@@ -122632,7 +122632,7 @@
   "1517123": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1776430914,
+    "ready_at": 1776517314,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -122641,6 +122641,14 @@
         "checkpoint_pass_rate": 85,
         "position": "Looter",
         "position_number": 1
+      },
+      "P1": {
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 87,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -122653,6 +122661,17 @@
         "checkpoint_pass_rate": 85,
         "position": "Looter",
         "position_number": 1
+      },
+      {
+        "timestamp": 1776375039,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 87,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -123892,20 +123911,22 @@
     "status": "Recruiting",
     "ready_at": 1776449861,
     "executed_at": null,
-    "slots": {
-      "P2": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1776363631,
+        "action": "joined",
+        "slot": "P2",
         "user_id": 3877112,
         "user_name": "McJoey",
         "checkpoint_pass_rate": 65,
         "position": "Techie",
         "position_number": 1,
         "item_available": true
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1776363631,
-        "action": "joined",
+        "timestamp": 1776375039,
+        "action": "left",
         "slot": "P2",
         "user_id": 3877112,
         "user_name": "McJoey",
