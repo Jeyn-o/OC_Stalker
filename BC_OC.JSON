@@ -123928,9 +123928,18 @@
   "1530220": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": 1776449861,
+    "ready_at": 1776474932,
     "executed_at": null,
-    "slots": {},
+    "slots": {
+      "P3": {
+        "user_id": 2920790,
+        "user_name": "Shimmer12",
+        "checkpoint_pass_rate": 76,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
     "action_log": [
       {
         "timestamp": 1776363631,
@@ -123951,6 +123960,17 @@
         "user_name": "McJoey",
         "checkpoint_pass_rate": 65,
         "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1776388836,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2920790,
+        "user_name": "Shimmer12",
+        "checkpoint_pass_rate": 76,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
