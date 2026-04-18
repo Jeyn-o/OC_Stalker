@@ -122651,7 +122651,7 @@
   "1517123": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1776776514,
+    "ready_at": 1776690114,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -122668,13 +122668,6 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
-      },
-      "P6": {
-        "user_id": 3178876,
-        "user_name": "Khallie",
-        "checkpoint_pass_rate": 86,
-        "position": "Looter",
-        "position_number": 3
       },
       "P4": {
         "user_id": 3841404,
@@ -122744,6 +122737,16 @@
         "position": "Imitator",
         "position_number": 2,
         "item_available": true
+      },
+      {
+        "timestamp": 1776521430,
+        "action": "left",
+        "slot": "P6",
+        "user_id": 3178876,
+        "user_name": "Khallie",
+        "checkpoint_pass_rate": 86,
+        "position": "Looter",
+        "position_number": 3
       }
     ]
   },
@@ -124333,9 +124336,28 @@
   "1537943": {
     "name": "Snow Blind",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1776607454,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3178876,
+        "user_name": "Khallie",
+        "checkpoint_pass_rate": 73,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1776521430,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3178876,
+        "user_name": "Khallie",
+        "checkpoint_pass_rate": 73,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    ]
   }
 }
