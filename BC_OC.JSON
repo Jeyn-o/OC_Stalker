@@ -123795,19 +123795,19 @@
         "position_number": 1,
         "item_available": true
       },
-      "P3": {
-        "user_id": 2184227,
-        "user_name": "SassyMcSlacker",
-        "checkpoint_pass_rate": 71,
-        "position": "Muscle",
-        "position_number": 2,
-        "item_available": true
-      },
       "P1": {
         "user_id": 2080816,
         "user_name": "Weasel",
         "checkpoint_pass_rate": 63,
         "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
         "position_number": 1,
         "item_available": true
       }
@@ -123865,6 +123865,28 @@
         "user_name": "Weasel",
         "checkpoint_pass_rate": 63,
         "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1776520231,
+        "action": "left",
+        "slot": "P3",
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": true
+      },
+      {
+        "timestamp": 1776520231,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
         "position_number": 1,
         "item_available": true
       }
@@ -124274,9 +124296,30 @@
   "1535638": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1776606493,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 1184733,
+        "user_name": "Pro_eobard",
+        "checkpoint_pass_rate": 72,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1776520231,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 1184733,
+        "user_name": "Pro_eobard",
+        "checkpoint_pass_rate": 72,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   }
 }
