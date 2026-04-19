@@ -123150,9 +123150,9 @@
   },
   "1521145": {
     "name": "Window of Opportunity",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1776618029,
-    "executed_at": null,
+    "executed_at": 1776619386,
     "slots": {
       "P2": {
         "user_id": 3447443,
@@ -123402,8 +123402,8 @@
   },
   "1525351": {
     "name": "Sneaky Git Grab",
-    "status": "Recruiting",
-    "ready_at": 1776820155,
+    "status": "Planning",
+    "ready_at": 1776906555,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -123427,6 +123427,14 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 67,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -123460,6 +123468,17 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1776619838,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 67,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
