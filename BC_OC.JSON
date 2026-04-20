@@ -125220,8 +125220,8 @@
   },
   "1541710": {
     "name": "Sneaky Git Grab",
-    "status": "Planning",
-    "ready_at": 1776955484,
+    "status": "Recruiting",
+    "ready_at": 1776869084,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -125245,14 +125245,6 @@
         "checkpoint_pass_rate": 77,
         "position": "Imitator",
         "position_number": 1
-      },
-      "P4": {
-        "user_id": 3730896,
-        "user_name": "Frengesp",
-        "checkpoint_pass_rate": 67,
-        "position": "Techie",
-        "position_number": 1,
-        "item_available": true
       }
     },
     "action_log": [
@@ -125290,6 +125282,17 @@
       {
         "timestamp": 1776722443,
         "action": "joined",
+        "slot": "P4",
+        "user_id": 3730896,
+        "user_name": "Frengesp",
+        "checkpoint_pass_rate": 67,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1776723025,
+        "action": "left",
         "slot": "P4",
         "user_id": 3730896,
         "user_name": "Frengesp",
@@ -125435,7 +125438,7 @@
   "1543751": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1776768221,
+    "ready_at": 1776854621,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -125443,6 +125446,14 @@
         "user_name": "Benji_beanz",
         "checkpoint_pass_rate": 76,
         "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 3730896,
+        "user_name": "Frengesp",
+        "checkpoint_pass_rate": 83,
+        "position": "Robber",
         "position_number": 1,
         "item_available": true
       }
@@ -125456,6 +125467,17 @@
         "user_name": "Benji_beanz",
         "checkpoint_pass_rate": 76,
         "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1776723025,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3730896,
+        "user_name": "Frengesp",
+        "checkpoint_pass_rate": 83,
+        "position": "Robber",
         "position_number": 1,
         "item_available": true
       }
