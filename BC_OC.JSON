@@ -126066,7 +126066,7 @@
   "1551766": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": 1776926434,
+    "ready_at": 1777012834,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -126075,6 +126075,14 @@
         "checkpoint_pass_rate": 75,
         "position": "Looter",
         "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 76,
+        "position": "Looter",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -126088,6 +126096,17 @@
         "checkpoint_pass_rate": 75,
         "position": "Looter",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1776865837,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 76,
+        "position": "Looter",
+        "position_number": 2,
         "item_available": true
       }
     ]
@@ -126190,13 +126209,12 @@
         "position_number": 1,
         "item_available": true
       },
-      "P4": {
-        "user_id": 3343429,
-        "user_name": "Znowhite",
-        "checkpoint_pass_rate": 64,
-        "position": "Cleaner",
-        "position_number": 1,
-        "item_available": true
+      "P2": {
+        "user_id": 2655203,
+        "user_name": "Vampire-Catgirl",
+        "checkpoint_pass_rate": 70,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -126221,6 +126239,27 @@
         "position": "Cleaner",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1776865837,
+        "action": "left",
+        "slot": "P4",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 64,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1776865837,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2655203,
+        "user_name": "Vampire-Catgirl",
+        "checkpoint_pass_rate": 70,
+        "position": "Cat Burglar",
+        "position_number": 1
       }
     ]
   },
@@ -126235,10 +126274,31 @@
   "1552919": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1776951874,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3838394,
+        "user_name": "Retr0Rat",
+        "checkpoint_pass_rate": 75,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1776865837,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3838394,
+        "user_name": "Retr0Rat",
+        "checkpoint_pass_rate": 75,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1554041": {
     "name": "Bidding War",
