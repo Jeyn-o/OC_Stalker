@@ -125119,9 +125119,9 @@
   },
   "1539283": {
     "name": "Snow Blind",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1776899160,
-    "executed_at": null,
+    "executed_at": 1776899168,
     "slots": {
       "P1": {
         "user_id": 3977638,
@@ -126435,8 +126435,8 @@
   },
   "1552918": {
     "name": "Plucking the Lotus Petal",
-    "status": "Recruiting",
-    "ready_at": 1777048054,
+    "status": "Planning",
+    "ready_at": 1777220854,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -126452,6 +126452,21 @@
         "checkpoint_pass_rate": 78,
         "position": "Robber",
         "position_number": 2
+      },
+      "P1": {
+        "user_id": 3977638,
+        "user_name": "Vasavi_shakti",
+        "checkpoint_pass_rate": 81,
+        "position": "Robber",
+        "position_number": 1
+      },
+      "P2": {
+        "user_id": 3945957,
+        "user_name": "Euanfishface",
+        "checkpoint_pass_rate": 75,
+        "position": "Hustler",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -126474,6 +126489,27 @@
         "checkpoint_pass_rate": 78,
         "position": "Robber",
         "position_number": 2
+      },
+      {
+        "timestamp": 1776899432,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3977638,
+        "user_name": "Vasavi_shakti",
+        "checkpoint_pass_rate": 81,
+        "position": "Robber",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1776899432,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3945957,
+        "user_name": "Euanfishface",
+        "checkpoint_pass_rate": 75,
+        "position": "Hustler",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
