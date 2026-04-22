@@ -124843,9 +124843,9 @@
   },
   "1537943": {
     "name": "Snow Blind",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1776866654,
-    "executed_at": null,
+    "executed_at": 1776869527,
     "slots": {
       "P3": {
         "user_id": 3178876,
@@ -125958,10 +125958,29 @@
   "1548914": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1776955983,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 1946159,
+        "user_name": "smyles",
+        "checkpoint_pass_rate": 68,
+        "position": "Cat Burglar",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1776870061,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 1946159,
+        "user_name": "smyles",
+        "checkpoint_pass_rate": 68,
+        "position": "Cat Burglar",
+        "position_number": 1
+      }
+    ]
   },
   "1548915": {
     "name": "Clinical Precision",
