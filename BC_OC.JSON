@@ -124289,9 +124289,9 @@
   },
   "1530217": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1776864450,
-    "executed_at": null,
+    "executed_at": 1776864726,
     "slots": {
       "P2": {
         "user_id": 2655203,
@@ -124322,7 +124322,7 @@
         "checkpoint_pass_rate": 66,
         "position": "Assassin",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -125382,9 +125382,9 @@
   },
   "1541711": {
     "name": "No Reserve",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1776864606,
-    "executed_at": null,
+    "executed_at": 1776864667,
     "slots": {
       "P3": {
         "user_id": 3805208,
@@ -126179,7 +126179,7 @@
   "1552917": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1776947971,
+    "ready_at": 1777034371,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -126187,6 +126187,14 @@
         "user_name": "SassyMcSlacker",
         "checkpoint_pass_rate": 78,
         "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 64,
+        "position": "Cleaner",
         "position_number": 1,
         "item_available": true
       }
@@ -126202,6 +126210,17 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1776865228,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 64,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -126215,6 +126234,14 @@
   },
   "1552919": {
     "name": "Counter Offer",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1554041": {
+    "name": "Bidding War",
     "status": "Recruiting",
     "ready_at": null,
     "executed_at": null,
