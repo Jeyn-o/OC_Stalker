@@ -125817,8 +125817,8 @@
   },
   "1547321": {
     "name": "Blast from the Past",
-    "status": "Recruiting",
-    "ready_at": 1777199662,
+    "status": "Planning",
+    "ready_at": 1777286062,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -125856,6 +125856,14 @@
         "user_name": "Khana",
         "checkpoint_pass_rate": 71,
         "position": "Bomber",
+        "position_number": 1,
+        "item_available": false
+      },
+      "P3": {
+        "user_id": 2349157,
+        "user_name": "NyanMango",
+        "checkpoint_pass_rate": 70,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": false
       }
@@ -125911,6 +125919,17 @@
         "user_name": "Khana",
         "checkpoint_pass_rate": 71,
         "position": "Bomber",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1776840634,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2349157,
+        "user_name": "NyanMango",
+        "checkpoint_pass_rate": 70,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": false
       }
@@ -126027,10 +126046,31 @@
   "1551766": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1776926434,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 2914279,
+        "user_name": "emp0p",
+        "checkpoint_pass_rate": 75,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1776840634,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2914279,
+        "user_name": "emp0p",
+        "checkpoint_pass_rate": 75,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1551767": {
     "name": "Clinical Precision",
