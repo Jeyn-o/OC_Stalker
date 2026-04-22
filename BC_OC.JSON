@@ -124590,18 +124590,10 @@
   },
   "1535176": {
     "name": "Blast from the Past",
-    "status": "Planning",
-    "ready_at": 1777023550,
+    "status": "Recruiting",
+    "ready_at": 1776948675,
     "executed_at": null,
     "slots": {
-      "P2": {
-        "user_id": 517163,
-        "user_name": "Spoon",
-        "checkpoint_pass_rate": 63,
-        "position": "Hacker",
-        "position_number": 1,
-        "item_available": true
-      },
       "P4": {
         "user_id": 2085973,
         "user_name": "Zefiris",
@@ -124703,6 +124695,17 @@
         "user_name": "BBCliff",
         "checkpoint_pass_rate": 63,
         "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1776862229,
+        "action": "left",
+        "slot": "P2",
+        "user_id": 517163,
+        "user_name": "Spoon",
+        "checkpoint_pass_rate": 63,
+        "position": "Hacker",
         "position_number": 1,
         "item_available": true
       }
@@ -124920,8 +124923,8 @@
   },
   "1539281": {
     "name": "Market Forces",
-    "status": "Recruiting",
-    "ready_at": 1776936110,
+    "status": "Planning",
+    "ready_at": 1777022510,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -124951,6 +124954,13 @@
         "user_name": "Special-Needs",
         "checkpoint_pass_rate": 86,
         "position": "Negotiator",
+        "position_number": 1
+      },
+      "P1": {
+        "user_id": 517163,
+        "user_name": "Spoon",
+        "checkpoint_pass_rate": 88,
+        "position": "Enforcer",
         "position_number": 1
       }
     },
@@ -124994,6 +125004,16 @@
         "user_name": "Special-Needs",
         "checkpoint_pass_rate": 86,
         "position": "Negotiator",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1776862229,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 517163,
+        "user_name": "Spoon",
+        "checkpoint_pass_rate": 88,
+        "position": "Enforcer",
         "position_number": 1
       }
     ]
