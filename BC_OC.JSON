@@ -126149,7 +126149,7 @@
         "checkpoint_pass_rate": 74,
         "position": "Imitator",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -126217,7 +126217,7 @@
   "1551766": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": 1777099234,
+    "ready_at": 1777185634,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -126243,6 +126243,14 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      "P5": {
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 66,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
       }
     },
     "action_log": [
@@ -126278,6 +126286,17 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1776907231,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 66,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
       }
     ]
   },
