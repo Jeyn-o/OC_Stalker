@@ -19155,5 +19155,59 @@
       }
     },
     "delay_time": 528
+  },
+  "1777024856": {
+    "crime_id": 1529183,
+    "crime_name": "Clinical Precision",
+    "created_at": null,
+    "planning_at": null,
+    "ready_at": 1777024230,
+    "executed_at": 1777024856,
+    "crime_participants": {
+      "P2": {
+        "user_id": 2736671,
+        "user_name": "Twitt3y",
+        "checkpoint_pass_rate": 68,
+        "position": "Cat Burglar",
+        "position_number": 1
+      },
+      "P1": {
+        "user_id": 2315415,
+        "user_name": "Litri",
+        "checkpoint_pass_rate": 74,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 914683,
+        "user_name": "Droq",
+        "checkpoint_pass_rate": 68,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 2250222,
+        "user_name": "Ronskip",
+        "checkpoint_pass_rate": 68,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "slackers": {
+      "2250222": {
+        "status": "pending",
+        "handled_by": null,
+        "notes": []
+      },
+      "2736671": {
+        "status": "pending",
+        "handled_by": null,
+        "notes": []
+      }
+    },
+    "delay_time": 626
   }
 }
