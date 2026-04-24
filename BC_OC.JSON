@@ -126857,7 +126857,7 @@
   "1556806": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1777237217,
+    "ready_at": 1777323617,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -126874,6 +126874,14 @@
         "checkpoint_pass_rate": 67,
         "position": "Thief",
         "position_number": 1,
+        "item_available": true
+      },
+      "P6": {
+        "user_id": 2408196,
+        "user_name": "iam3vaj",
+        "checkpoint_pass_rate": 69,
+        "position": "Thief",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -126898,6 +126906,17 @@
         "checkpoint_pass_rate": 67,
         "position": "Thief",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1777068048,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 2408196,
+        "user_name": "iam3vaj",
+        "checkpoint_pass_rate": 69,
+        "position": "Thief",
+        "position_number": 2,
         "item_available": true
       }
     ]
@@ -127117,9 +127136,28 @@
   "1563398": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1777153920,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 68,
+        "position": "Pickpocket",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1777068048,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 68,
+        "position": "Pickpocket",
+        "position_number": 1
+      }
+    ]
   }
 }
