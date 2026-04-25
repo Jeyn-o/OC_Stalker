@@ -124855,7 +124855,7 @@
   "1537942": {
     "name": "Smoke and Wing Mirrors",
     "status": "Recruiting",
-    "ready_at": 1777247964,
+    "ready_at": 1777161564,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -124865,13 +124865,6 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
-      },
-      "P3": {
-        "user_id": 3838831,
-        "user_name": "Lev_Bron",
-        "checkpoint_pass_rate": 91,
-        "position": "Hustler",
-        "position_number": 1
       },
       "P4": {
         "user_id": 3942701,
@@ -124934,6 +124927,16 @@
         "position": "Car Thief",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1777108227,
+        "action": "left",
+        "slot": "P3",
+        "user_id": 3838831,
+        "user_name": "Lev_Bron",
+        "checkpoint_pass_rate": 91,
+        "position": "Hustler",
+        "position_number": 1
       }
     ]
   },
@@ -127355,15 +127358,34 @@
   "1563397": {
     "name": "Guardian Ángels",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1777194350,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3575675,
+        "user_name": "highfishM",
+        "checkpoint_pass_rate": 86,
+        "position": "Hustler",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1777108227,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3575675,
+        "user_name": "highfishM",
+        "checkpoint_pass_rate": 86,
+        "position": "Hustler",
+        "position_number": 1
+      }
+    ]
   },
   "1563398": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": 1777153920,
+    "ready_at": 1777240320,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -127371,6 +127393,13 @@
         "user_name": "RubyFalls",
         "checkpoint_pass_rate": 68,
         "position": "Pickpocket",
+        "position_number": 1
+      },
+      "P1": {
+        "user_id": 3838831,
+        "user_name": "Lev_Bron",
+        "checkpoint_pass_rate": 67,
+        "position": "Imitator",
         "position_number": 1
       }
     },
@@ -127383,6 +127412,16 @@
         "user_name": "RubyFalls",
         "checkpoint_pass_rate": 68,
         "position": "Pickpocket",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1777108227,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3838831,
+        "user_name": "Lev_Bron",
+        "checkpoint_pass_rate": 67,
+        "position": "Imitator",
         "position_number": 1
       }
     ]
