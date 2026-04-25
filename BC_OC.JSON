@@ -124590,9 +124590,9 @@
   },
   "1535176": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1777035075,
-    "executed_at": null,
+    "executed_at": 1777136107,
     "slots": {
       "P4": {
         "user_id": 2085973,
@@ -126498,7 +126498,7 @@
   "1551765": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": 1777186136,
+    "ready_at": 1777272536,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -126506,6 +126506,14 @@
         "user_name": "Ronskip",
         "checkpoint_pass_rate": 79,
         "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 442690,
+        "user_name": "BeardedBenny",
+        "checkpoint_pass_rate": 72,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
@@ -126521,6 +126529,17 @@
         "position": "Muscle",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1777136448,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 442690,
+        "user_name": "BeardedBenny",
+        "checkpoint_pass_rate": 72,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
