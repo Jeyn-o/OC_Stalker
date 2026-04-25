@@ -126395,10 +126395,31 @@
   "1551765": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1777186136,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 2250222,
+        "user_name": "Ronskip",
+        "checkpoint_pass_rate": 79,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": false
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1777099830,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2250222,
+        "user_name": "Ronskip",
+        "checkpoint_pass_rate": 79,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": false
+      }
+    ]
   },
   "1551766": {
     "name": "Window of Opportunity",
@@ -126950,7 +126971,7 @@
   "1556806": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1777410017,
+    "ready_at": 1777496417,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -126983,6 +127004,14 @@
         "checkpoint_pass_rate": 71,
         "position": "Muscle",
         "position_number": 3,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 2736671,
+        "user_name": "Twitt3y",
+        "checkpoint_pass_rate": 63,
+        "position": "Robber",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -127029,6 +127058,17 @@
         "checkpoint_pass_rate": 71,
         "position": "Muscle",
         "position_number": 3,
+        "item_available": true
+      },
+      {
+        "timestamp": 1777099830,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2736671,
+        "user_name": "Twitt3y",
+        "checkpoint_pass_rate": 63,
+        "position": "Robber",
+        "position_number": 1,
         "item_available": true
       }
     ]
