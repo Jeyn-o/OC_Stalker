@@ -128068,9 +128068,49 @@
   "1569498": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1777388535,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 63,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1777216228,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2184227,
+        "user_name": "SassyMcSlacker",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1777216228,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2080816,
+        "user_name": "Weasel",
+        "checkpoint_pass_rate": 63,
+        "position": "Muscle",
+        "position_number": 2,
+        "item_available": false
+      }
+    ]
   }
 }
