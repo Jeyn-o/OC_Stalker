@@ -127767,7 +127767,7 @@
   "1567151": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1777356872,
+    "ready_at": 1777270472,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -127776,14 +127776,6 @@
         "checkpoint_pass_rate": 80,
         "position": "Picklock",
         "position_number": 2
-      },
-      "P2": {
-        "user_id": 3026725,
-        "user_name": "Neodork",
-        "checkpoint_pass_rate": 78,
-        "position": "Hacker",
-        "position_number": 1,
-        "item_available": false
       }
     },
     "action_log": [
@@ -127800,6 +127792,17 @@
       {
         "timestamp": 1777189231,
         "action": "joined",
+        "slot": "P2",
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 78,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1777192240,
+        "action": "left",
         "slot": "P2",
         "user_id": 3026725,
         "user_name": "Neodork",
@@ -127929,6 +127932,43 @@
         "user_name": "Jeyno",
         "checkpoint_pass_rate": 72,
         "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
+  },
+  "1568772": {
+    "name": "Blast from the Past",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1568773": {
+    "name": "Clinical Precision",
+    "status": "Recruiting",
+    "ready_at": 1777278344,
+    "executed_at": null,
+    "slots": {
+      "P1": {
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 69,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1777192240,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 69,
+        "position": "Imitator",
         "position_number": 1,
         "item_available": true
       }
