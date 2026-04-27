@@ -126564,8 +126564,8 @@
   },
   "1551764": {
     "name": "Window of Opportunity",
-    "status": "Recruiting",
-    "ready_at": 1777620983,
+    "status": "Planning",
+    "ready_at": 1777707383,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -126598,6 +126598,14 @@
         "checkpoint_pass_rate": 65,
         "position": "Muscle",
         "position_number": 1,
+        "item_available": true
+      },
+      "P5": {
+        "user_id": 2414438,
+        "user_name": "Caross",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -126644,6 +126652,17 @@
         "checkpoint_pass_rate": 65,
         "position": "Muscle",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1777289448,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2414438,
+        "user_name": "Caross",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 2,
         "item_available": true
       }
     ]
@@ -127675,10 +127694,31 @@
   "1563144": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1777375382,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P1": {
+        "user_id": 3178876,
+        "user_name": "Khallie",
+        "checkpoint_pass_rate": 84,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1777289448,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3178876,
+        "user_name": "Khallie",
+        "checkpoint_pass_rate": 84,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1563145": {
     "name": "Stage Fright",
