@@ -128680,7 +128680,7 @@
   "1570555": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1777507535,
+    "ready_at": 1777593935,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -128697,6 +128697,14 @@
         "checkpoint_pass_rate": 71,
         "position": "Cat Burglar",
         "position_number": 1
+      },
+      "P4": {
+        "user_id": 1946159,
+        "user_name": "smyles",
+        "checkpoint_pass_rate": 67,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -128720,6 +128728,17 @@
         "checkpoint_pass_rate": 71,
         "position": "Cat Burglar",
         "position_number": 1
+      },
+      {
+        "timestamp": 1777349433,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 1946159,
+        "user_name": "smyles",
+        "checkpoint_pass_rate": 67,
+        "position": "Cleaner",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
