@@ -129285,14 +129285,6 @@
         "position": "Imitator",
         "position_number": 1
       },
-      "P4": {
-        "user_id": 3139132,
-        "user_name": "JuanPaulo",
-        "checkpoint_pass_rate": 77,
-        "position": "Techie",
-        "position_number": 1,
-        "item_available": true
-      },
       "P3": {
         "user_id": 3348136,
         "user_name": "shrigma",
@@ -129300,6 +129292,13 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": false
+      },
+      "P2": {
+        "user_id": 3139132,
+        "user_name": "JuanPaulo",
+        "checkpoint_pass_rate": 77,
+        "position": "Pickpocket",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -129334,6 +129333,27 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1777500637,
+        "action": "left",
+        "slot": "P4",
+        "user_id": 3139132,
+        "user_name": "JuanPaulo",
+        "checkpoint_pass_rate": 77,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1777500637,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3139132,
+        "user_name": "JuanPaulo",
+        "checkpoint_pass_rate": 77,
+        "position": "Pickpocket",
+        "position_number": 1
       }
     ]
   },
