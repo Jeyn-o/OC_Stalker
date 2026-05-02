@@ -126586,9 +126586,9 @@
   },
   "1551764": {
     "name": "Window of Opportunity",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1777707383,
-    "executed_at": null,
+    "executed_at": 1777707426,
     "slots": {
       "P3": {
         "user_id": 3343429,
@@ -129916,7 +129916,7 @@
   "1587138": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": 1777894199,
+    "ready_at": 1777980599,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -129941,6 +129941,14 @@
         "checkpoint_pass_rate": 76,
         "position": "Looter",
         "position_number": 1,
+        "item_available": true
+      },
+      "P3": {
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 76,
+        "position": "Looter",
+        "position_number": 2,
         "item_available": true
       }
     },
@@ -129976,6 +129984,17 @@
         "checkpoint_pass_rate": 76,
         "position": "Looter",
         "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1777707630,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 76,
+        "position": "Looter",
+        "position_number": 2,
         "item_available": true
       }
     ]
