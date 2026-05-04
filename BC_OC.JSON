@@ -129769,7 +129769,7 @@
   "1584522": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": 1777946723,
+    "ready_at": 1778033123,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -129785,6 +129785,14 @@
         "user_name": "jonasgrind",
         "checkpoint_pass_rate": 63,
         "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 73,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
@@ -129809,6 +129817,17 @@
         "user_name": "jonasgrind",
         "checkpoint_pass_rate": 63,
         "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1777858829,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 73,
+        "position": "Engineer",
         "position_number": 1,
         "item_available": true
       }
@@ -131134,17 +131153,10 @@
   },
   "1594986": {
     "name": "Sneaky Git Grab",
-    "status": "Planning",
-    "ready_at": 1778148707,
+    "status": "Recruiting",
+    "ready_at": 1778062307,
     "executed_at": null,
     "slots": {
-      "P1": {
-        "user_id": 3679190,
-        "user_name": "RubyFalls",
-        "checkpoint_pass_rate": 67,
-        "position": "Imitator",
-        "position_number": 1
-      },
       "P3": {
         "user_id": 3348136,
         "user_name": "shrigma",
@@ -131211,6 +131223,16 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1777858829,
+        "action": "left",
+        "slot": "P1",
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 67,
+        "position": "Imitator",
+        "position_number": 1
       }
     ]
   },
