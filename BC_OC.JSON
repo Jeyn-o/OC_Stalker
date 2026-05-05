@@ -130666,9 +130666,9 @@
   },
   "1591041": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1778014276,
-    "executed_at": null,
+    "executed_at": 1778017448,
     "slots": {
       "P1": {
         "user_id": 2419133,
@@ -130691,7 +130691,7 @@
         "checkpoint_pass_rate": 75,
         "position": "Assassin",
         "position_number": 1,
-        "item_available": false
+        "item_available": true
       },
       "P4": {
         "user_id": 1946159,
@@ -132020,5 +132020,53 @@
     "executed_at": null,
     "slots": {},
     "action_log": []
+  },
+  "1607275": {
+    "name": "Break the Bank",
+    "status": "Recruiting",
+    "ready_at": 1778190274,
+    "executed_at": null,
+    "slots": {
+      "P5": {
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 3,
+        "item_available": true
+      },
+      "P6": {
+        "user_id": 2418838,
+        "user_name": "Meeip",
+        "checkpoint_pass_rate": 72,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1778017824,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "position_number": 3,
+        "item_available": true
+      },
+      {
+        "timestamp": 1778017824,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 2418838,
+        "user_name": "Meeip",
+        "checkpoint_pass_rate": 72,
+        "position": "Thief",
+        "position_number": 2,
+        "item_available": true
+      }
+    ]
   }
 }
