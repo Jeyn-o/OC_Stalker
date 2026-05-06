@@ -130817,9 +130817,9 @@
   },
   "1592332": {
     "name": "Sneaky Git Grab",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1778074378,
-    "executed_at": null,
+    "executed_at": 1778074389,
     "slots": {
       "P3": {
         "user_id": 3680760,
@@ -131019,9 +131019,9 @@
   },
   "1593528": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1778074377,
-    "executed_at": null,
+    "executed_at": 1778074389,
     "slots": {
       "P4": {
         "user_id": 2240841,
@@ -131323,8 +131323,8 @@
   },
   "1594984": {
     "name": "Leave No Trace",
-    "status": "Recruiting",
-    "ready_at": 1778153420,
+    "status": "Planning",
+    "ready_at": 1778326220,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -131332,6 +131332,21 @@
         "user_name": "Znowhite",
         "checkpoint_pass_rate": 82,
         "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 3730896,
+        "user_name": "Frengesp",
+        "checkpoint_pass_rate": 65,
+        "position": "Techie",
+        "position_number": 1
+      },
+      "P2": {
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 80,
+        "position": "Negotiator",
         "position_number": 1,
         "item_available": true
       }
@@ -131345,6 +131360,27 @@
         "user_name": "Znowhite",
         "checkpoint_pass_rate": 82,
         "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1778074842,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3730896,
+        "user_name": "Frengesp",
+        "checkpoint_pass_rate": 65,
+        "position": "Techie",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1778074842,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 80,
+        "position": "Negotiator",
         "position_number": 1,
         "item_available": true
       }
@@ -132020,8 +132056,8 @@
   },
   "1600584": {
     "name": "Stage Fright",
-    "status": "Recruiting",
-    "ready_at": 1778366099,
+    "status": "Planning",
+    "ready_at": 1778452499,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -132059,6 +132095,13 @@
         "checkpoint_pass_rate": 80,
         "position": "Muscle",
         "position_number": 3
+      },
+      "P6": {
+        "user_id": 3028402,
+        "user_name": "Benji_beanz",
+        "checkpoint_pass_rate": 86,
+        "position": "Sniper",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -132112,6 +132155,16 @@
         "checkpoint_pass_rate": 80,
         "position": "Muscle",
         "position_number": 3
+      },
+      {
+        "timestamp": 1778074842,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3028402,
+        "user_name": "Benji_beanz",
+        "checkpoint_pass_rate": 86,
+        "position": "Sniper",
+        "position_number": 1
       }
     ]
   },
@@ -132155,7 +132208,7 @@
   "1607275": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1778363074,
+    "ready_at": 1778449474,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -132187,6 +132240,14 @@
         "user_name": "Neodork",
         "checkpoint_pass_rate": 64,
         "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 63,
+        "position": "Robber",
         "position_number": 1,
         "item_available": true
       }
@@ -132233,6 +132294,17 @@
         "user_name": "Neodork",
         "checkpoint_pass_rate": 64,
         "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1778074842,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 63,
+        "position": "Robber",
         "position_number": 1,
         "item_available": true
       }
