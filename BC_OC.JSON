@@ -132284,8 +132284,8 @@
   },
   "1600585": {
     "name": "Smoke and Wing Mirrors",
-    "status": "Planning",
-    "ready_at": 1778334376,
+    "status": "Recruiting",
+    "ready_at": 1778247976,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -132310,13 +132310,6 @@
         "checkpoint_pass_rate": 85,
         "position": "Hustler",
         "position_number": 2
-      },
-      "P3": {
-        "user_id": 3838831,
-        "user_name": "Lev_Bron",
-        "checkpoint_pass_rate": 91,
-        "position": "Hustler",
-        "position_number": 1
       }
     },
     "action_log": [
@@ -132355,6 +132348,16 @@
       {
         "timestamp": 1778102436,
         "action": "joined",
+        "slot": "P3",
+        "user_id": 3838831,
+        "user_name": "Lev_Bron",
+        "checkpoint_pass_rate": 91,
+        "position": "Hustler",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1778133029,
+        "action": "left",
         "slot": "P3",
         "user_id": 3838831,
         "user_name": "Lev_Bron",
@@ -132789,7 +132792,7 @@
   "1611315": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1778279293,
+    "ready_at": 1778365693,
     "executed_at": null,
     "slots": {
       "P5": {
@@ -132805,6 +132808,14 @@
         "user_name": "AuntGoo",
         "checkpoint_pass_rate": 78,
         "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 3838831,
+        "user_name": "Lev_Bron",
+        "checkpoint_pass_rate": 82,
+        "position": "Picklock",
         "position_number": 1,
         "item_available": true
       }
@@ -132829,6 +132840,17 @@
         "user_name": "AuntGoo",
         "checkpoint_pass_rate": 78,
         "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1778133029,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3838831,
+        "user_name": "Lev_Bron",
+        "checkpoint_pass_rate": 82,
+        "position": "Picklock",
         "position_number": 1,
         "item_available": true
       }
