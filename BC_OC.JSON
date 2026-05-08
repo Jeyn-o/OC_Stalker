@@ -129768,9 +129768,9 @@
   },
   "1584522": {
     "name": "Window of Opportunity",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1778205923,
-    "executed_at": null,
+    "executed_at": 1778205965,
     "slots": {
       "P3": {
         "user_id": 1300665,
@@ -132905,7 +132905,7 @@
   "1611311": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1778286351,
+    "ready_at": 1778372751,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -132922,6 +132922,14 @@
         "checkpoint_pass_rate": 85,
         "position": "Looter",
         "position_number": 2
+      },
+      "P5": {
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 93,
+        "position": "Imitator",
+        "position_number": 3,
+        "item_available": true
       }
     },
     "action_log": [
@@ -132945,6 +132953,17 @@
         "checkpoint_pass_rate": 85,
         "position": "Looter",
         "position_number": 2
+      },
+      {
+        "timestamp": 1778206228,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 93,
+        "position": "Imitator",
+        "position_number": 3,
+        "item_available": true
       }
     ]
   },
