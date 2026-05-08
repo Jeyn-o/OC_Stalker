@@ -130038,8 +130038,8 @@
   },
   "1587137": {
     "name": "Blast from the Past",
-    "status": "Recruiting",
-    "ready_at": 1778522754,
+    "status": "Planning",
+    "ready_at": 1778609154,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -130079,6 +130079,14 @@
         "checkpoint_pass_rate": 73,
         "position": "Picklock",
         "position_number": 2
+      },
+      "P5": {
+        "user_id": 2349157,
+        "user_name": "NyanMango",
+        "checkpoint_pass_rate": 69,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -130154,6 +130162,17 @@
         "checkpoint_pass_rate": 73,
         "position": "Picklock",
         "position_number": 2
+      },
+      {
+        "timestamp": 1778221845,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 2349157,
+        "user_name": "NyanMango",
+        "checkpoint_pass_rate": 69,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -132773,7 +132792,7 @@
   "1610815": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": 1778274540,
+    "ready_at": 1778360940,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -132782,6 +132801,14 @@
         "checkpoint_pass_rate": 67,
         "position": "Looter",
         "position_number": 2,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 3656242,
+        "user_name": "jonasgrind",
+        "checkpoint_pass_rate": 63,
+        "position": "Looter",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -132796,6 +132823,17 @@
         "position": "Looter",
         "position_number": 2,
         "item_available": false
+      },
+      {
+        "timestamp": 1778221845,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3656242,
+        "user_name": "jonasgrind",
+        "checkpoint_pass_rate": 63,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -133275,9 +133313,30 @@
   "1616745": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1778308087,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3161450,
+        "user_name": "Rubadubb",
+        "checkpoint_pass_rate": 77,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1778221845,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3161450,
+        "user_name": "Rubadubb",
+        "checkpoint_pass_rate": 77,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   }
 }
