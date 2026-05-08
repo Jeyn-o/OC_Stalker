@@ -133484,7 +133484,7 @@
   "1616745": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1778308087,
+    "ready_at": 1778394487,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -133492,6 +133492,14 @@
         "user_name": "Rubadubb",
         "checkpoint_pass_rate": 77,
         "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 3977638,
+        "user_name": "Vasavi_shakti",
+        "checkpoint_pass_rate": 72,
+        "position": "Picklock",
         "position_number": 1,
         "item_available": true
       }
@@ -133505,6 +133513,17 @@
         "user_name": "Rubadubb",
         "checkpoint_pass_rate": 77,
         "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1778271639,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3977638,
+        "user_name": "Vasavi_shakti",
+        "checkpoint_pass_rate": 72,
+        "position": "Picklock",
         "position_number": 1,
         "item_available": true
       }
@@ -133521,9 +133540,30 @@
   "1618374": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1778357967,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P4": {
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 68,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1778271639,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 68,
+        "position": "Thief",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   }
 }
