@@ -132085,9 +132085,9 @@
   },
   "1600582": {
     "name": "Plucking the Lotus Petal",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1778287152,
-    "executed_at": null,
+    "executed_at": 1778289133,
     "slots": {
       "P4": {
         "user_id": 3973984,
@@ -133479,7 +133479,7 @@
   "1616737": {
     "name": "Snow Blind",
     "status": "Recruiting",
-    "ready_at": 1778365589,
+    "ready_at": 1778451989,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -133488,6 +133488,13 @@
         "checkpoint_pass_rate": 76,
         "position": "Hustler",
         "position_number": 1
+      },
+      "P4": {
+        "user_id": 3976308,
+        "user_name": "Bellarin",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
+        "position_number": 2
       }
     },
     "action_log": [
@@ -133500,6 +133507,16 @@
         "checkpoint_pass_rate": 76,
         "position": "Hustler",
         "position_number": 1
+      },
+      {
+        "timestamp": 1778289638,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3976308,
+        "user_name": "Bellarin",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
+        "position_number": 2
       }
     ]
   },
@@ -133522,7 +133539,7 @@
   "1616745": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1778480887,
+    "ready_at": 1778567287,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -133548,6 +133565,14 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 73,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -133581,6 +133606,17 @@
         "user_name": "Downtowndave20",
         "checkpoint_pass_rate": 72,
         "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1778289638,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 73,
+        "position": "Robber",
         "position_number": 1,
         "item_available": false
       }
