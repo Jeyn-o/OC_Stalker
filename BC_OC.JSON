@@ -131031,9 +131031,9 @@
   },
   "1593527": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1778373665,
-    "executed_at": null,
+    "executed_at": 1778375108,
     "slots": {
       "P5": {
         "user_id": 2414438,
@@ -133523,8 +133523,8 @@
   },
   "1615476": {
     "name": "Blast from the Past",
-    "status": "Recruiting",
-    "ready_at": 1778669100,
+    "status": "Planning",
+    "ready_at": 1778755500,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -133564,6 +133564,14 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": false
+      },
+      "P5": {
+        "user_id": 14922,
+        "user_name": "Charbon",
+        "checkpoint_pass_rate": 70,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -133619,6 +133627,17 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1778375428,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 14922,
+        "user_name": "Charbon",
+        "checkpoint_pass_rate": 70,
+        "position": "Muscle",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
