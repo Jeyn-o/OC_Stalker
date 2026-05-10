@@ -131439,8 +131439,8 @@
   },
   "1594974": {
     "name": "Leave No Trace",
-    "status": "Planning",
-    "ready_at": 1778555679,
+    "status": "Recruiting",
+    "ready_at": 1778469279,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -131457,14 +131457,6 @@
         "checkpoint_pass_rate": 65,
         "position": "Techie",
         "position_number": 1
-      },
-      "P2": {
-        "user_id": 3193353,
-        "user_name": "xyicah",
-        "checkpoint_pass_rate": 85,
-        "position": "Negotiator",
-        "position_number": 1,
-        "item_available": false
       }
     },
     "action_log": [
@@ -131492,6 +131484,17 @@
       {
         "timestamp": 1778376022,
         "action": "joined",
+        "slot": "P2",
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 85,
+        "position": "Negotiator",
+        "position_number": 1,
+        "item_available": false
+      },
+      {
+        "timestamp": 1778381435,
+        "action": "left",
         "slot": "P2",
         "user_id": 3193353,
         "user_name": "xyicah",
@@ -134105,9 +134108,28 @@
   "1622525": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1778467713,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 69,
+        "position": "Cat Burglar",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1778381435,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 69,
+        "position": "Cat Burglar",
+        "position_number": 1
+      }
+    ]
   }
 }
