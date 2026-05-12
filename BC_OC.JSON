@@ -134457,8 +134457,8 @@
   },
   "1626560": {
     "name": "Leave No Trace",
-    "status": "Recruiting",
-    "ready_at": 1778707930,
+    "status": "Planning",
+    "ready_at": 1778794330,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -134473,6 +134473,14 @@
         "user_name": "Frengesp",
         "checkpoint_pass_rate": 67,
         "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 2680449,
+        "user_name": "BattlePrincess",
+        "checkpoint_pass_rate": 69,
+        "position": "Negotiator",
         "position_number": 1,
         "item_available": true
       }
@@ -134498,13 +134506,24 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1778565035,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 2680449,
+        "user_name": "BattlePrincess",
+        "checkpoint_pass_rate": 69,
+        "position": "Negotiator",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
   "1626709": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1778717385,
+    "ready_at": 1778803785,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -134530,6 +134549,14 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": false
+      },
+      "P1": {
+        "user_id": 3838831,
+        "user_name": "Lev_Bron",
+        "checkpoint_pass_rate": 82,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -134565,6 +134592,17 @@
         "position": "Hacker",
         "position_number": 1,
         "item_available": false
+      },
+      {
+        "timestamp": 1778565035,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3838831,
+        "user_name": "Lev_Bron",
+        "checkpoint_pass_rate": 82,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
