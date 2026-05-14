@@ -133182,7 +133182,7 @@
   "1611310": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1778977795,
+    "ready_at": 1778891395,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -133191,14 +133191,6 @@
         "checkpoint_pass_rate": 80,
         "position": "Looter",
         "position_number": 1
-      },
-      "P1": {
-        "user_id": 3943448,
-        "user_name": "Maddog1997",
-        "checkpoint_pass_rate": 87,
-        "position": "Imitator",
-        "position_number": 1,
-        "item_available": true
       },
       "P4": {
         "user_id": 3932437,
@@ -133256,6 +133248,17 @@
         "checkpoint_pass_rate": 85,
         "position": "Looter",
         "position_number": 3
+      },
+      {
+        "timestamp": 1778763036,
+        "action": "left",
+        "slot": "P1",
+        "user_id": 3943448,
+        "user_name": "Maddog1997",
+        "checkpoint_pass_rate": 87,
+        "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -135980,9 +135983,28 @@
   "1642262": {
     "name": "Snow Blind",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1778849374,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 3943448,
+        "user_name": "Maddog1997",
+        "checkpoint_pass_rate": 80,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1778763036,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3943448,
+        "user_name": "Maddog1997",
+        "checkpoint_pass_rate": 80,
+        "position": "Muscle",
+        "position_number": 1
+      }
+    ]
   }
 }
