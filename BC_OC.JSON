@@ -135975,7 +135975,7 @@
   "1642243": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": 1778943984,
+    "ready_at": 1779030384,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -135993,6 +135993,14 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 2163292,
+        "user_name": "Mihawk",
+        "checkpoint_pass_rate": 67,
+        "position": "Looter",
+        "position_number": 2,
+        "item_available": false
       }
     },
     "action_log": [
@@ -136017,13 +136025,24 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1778785830,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2163292,
+        "user_name": "Mihawk",
+        "checkpoint_pass_rate": 67,
+        "position": "Looter",
+        "position_number": 2,
+        "item_available": false
       }
     ]
   },
   "1642262": {
     "name": "Snow Blind",
     "status": "Recruiting",
-    "ready_at": 1779022174,
+    "ready_at": 1778935774,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -136031,13 +136050,6 @@
         "user_name": "Maddog1997",
         "checkpoint_pass_rate": 80,
         "position": "Muscle",
-        "position_number": 1
-      },
-      "P1": {
-        "user_id": 2163292,
-        "user_name": "Mihawk",
-        "checkpoint_pass_rate": 87,
-        "position": "Hustler",
         "position_number": 1
       },
       "P4": {
@@ -136078,6 +136090,16 @@
         "checkpoint_pass_rate": 78,
         "position": "Muscle",
         "position_number": 2
+      },
+      {
+        "timestamp": 1778785830,
+        "action": "left",
+        "slot": "P1",
+        "user_id": 2163292,
+        "user_name": "Mihawk",
+        "checkpoint_pass_rate": 87,
+        "position": "Hustler",
+        "position_number": 1
       }
     ]
   },
