@@ -134521,9 +134521,9 @@
   },
   "1622524": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1778894830,
-    "executed_at": null,
+    "executed_at": 1778894887,
     "slots": {
       "P5": {
         "user_id": 2414438,
@@ -135785,9 +135785,9 @@
   },
   "1635064": {
     "name": "Guardian Ángels",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1778894654,
-    "executed_at": null,
+    "executed_at": 1778894709,
     "slots": {
       "P3": {
         "user_id": 3976308,
@@ -135983,8 +135983,8 @@
   },
   "1637656": {
     "name": "No Reserve",
-    "status": "Recruiting",
-    "ready_at": 1778993550,
+    "status": "Planning",
+    "ready_at": 1779079950,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -136002,6 +136002,14 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 70,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -136026,6 +136034,17 @@
         "position": "Techie",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1778895031,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 70,
+        "position": "Engineer",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -136611,10 +136630,31 @@
   "1647992": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1778981377,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 77,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1778895031,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3160215,
+        "user_name": "Anri_of_Astora",
+        "checkpoint_pass_rate": 77,
+        "position": "Looter",
+        "position_number": 1,
+        "item_available": true
+      }
+    ]
   },
   "1647993": {
     "name": "Break the Bank",
