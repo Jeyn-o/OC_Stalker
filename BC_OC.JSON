@@ -137264,7 +137264,7 @@
   "1651272": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1779130642,
+    "ready_at": 1779217042,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -137281,6 +137281,14 @@
         "position": "Bomber",
         "position_number": 1,
         "item_available": true
+      },
+      "P2": {
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 70,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -137304,6 +137312,17 @@
         "position": "Bomber",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1779019247,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 70,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -137333,5 +137352,21 @@
         "position_number": 1
       }
     ]
+  },
+  "1654461": {
+    "name": "Leave No Trace",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1654463": {
+    "name": "Counter Offer",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
   }
 }
