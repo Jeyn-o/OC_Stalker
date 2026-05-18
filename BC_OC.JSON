@@ -136631,9 +136631,9 @@
   },
   "1642262": {
     "name": "Snow Blind",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1779108574,
-    "executed_at": null,
+    "executed_at": 1779108611,
     "slots": {
       "P3": {
         "user_id": 3943448,
@@ -137803,16 +137803,7 @@
     "status": "Recruiting",
     "ready_at": 1779166643,
     "executed_at": null,
-    "slots": {
-      "P1": {
-        "user_id": 3973984,
-        "user_name": "ssodon",
-        "checkpoint_pass_rate": 56,
-        "position": "Robber",
-        "position_number": 1,
-        "item_available": true
-      }
-    },
+    "slots": {},
     "action_log": [
       {
         "timestamp": 1779080447,
@@ -137839,6 +137830,17 @@
       {
         "timestamp": 1779081028,
         "action": "joined",
+        "slot": "P1",
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 56,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1779108633,
+        "action": "left",
         "slot": "P1",
         "user_id": 3973984,
         "user_name": "ssodon",
