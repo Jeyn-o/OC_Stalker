@@ -138321,7 +138321,7 @@
   "1656689": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": 1779422225,
+    "ready_at": 1779508625,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -138354,6 +138354,14 @@
         "checkpoint_pass_rate": 80,
         "position": "Driver",
         "position_number": 1
+      },
+      "P1": {
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 66,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -138443,6 +138451,17 @@
         "checkpoint_pass_rate": 80,
         "position": "Driver",
         "position_number": 1
+      },
+      {
+        "timestamp": 1779278448,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 66,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
@@ -138451,16 +138470,7 @@
     "status": "Recruiting",
     "ready_at": 1779237769,
     "executed_at": null,
-    "slots": {
-      "P1": {
-        "user_id": 3679190,
-        "user_name": "RubyFalls",
-        "checkpoint_pass_rate": 66,
-        "position": "Robber",
-        "position_number": 1,
-        "item_available": true
-      }
-    },
+    "slots": {},
     "action_log": [
       {
         "timestamp": 1779080447,
@@ -138509,6 +138519,17 @@
       {
         "timestamp": 1779151830,
         "action": "joined",
+        "slot": "P1",
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 66,
+        "position": "Robber",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1779278448,
+        "action": "left",
         "slot": "P1",
         "user_id": 3679190,
         "user_name": "RubyFalls",
@@ -138601,9 +138622,28 @@
   "1666172": {
     "name": "Guardian Ángels",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1779364397,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P2": {
+        "user_id": 3780352,
+        "user_name": "kipper01",
+        "checkpoint_pass_rate": 69,
+        "position": "Hustler",
+        "position_number": 1
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1779278448,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3780352,
+        "user_name": "kipper01",
+        "checkpoint_pass_rate": 69,
+        "position": "Hustler",
+        "position_number": 1
+      }
+    ]
   }
 }
