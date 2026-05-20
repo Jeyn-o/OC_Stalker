@@ -138705,7 +138705,7 @@
   "1666171": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": 1779389638,
+    "ready_at": 1779476038,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -138715,6 +138715,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 517163,
+        "user_name": "Spoon",
+        "checkpoint_pass_rate": 70,
+        "position": "Techie",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -138728,6 +138735,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1779304835,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 517163,
+        "user_name": "Spoon",
+        "checkpoint_pass_rate": 70,
+        "position": "Techie",
+        "position_number": 1
       }
     ]
   },
