@@ -136061,9 +136061,9 @@
   },
   "1637655": {
     "name": "Counter Offer",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1779322474,
-    "executed_at": null,
+    "executed_at": 1779322506,
     "slots": {
       "P4": {
         "user_id": 3877112,
@@ -138924,8 +138924,8 @@
   },
   "1667806": {
     "name": "Plucking the Lotus Petal",
-    "status": "Recruiting",
-    "ready_at": 1779552077,
+    "status": "Planning",
+    "ready_at": 1779638477,
     "executed_at": null,
     "slots": {
       "P4": {
@@ -138948,6 +138948,14 @@
         "checkpoint_pass_rate": 74,
         "position": "Robber",
         "position_number": 2
+      },
+      "P2": {
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 82,
+        "position": "Hustler",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -138980,6 +138988,17 @@
         "checkpoint_pass_rate": 74,
         "position": "Robber",
         "position_number": 2
+      },
+      {
+        "timestamp": 1779322826,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 82,
+        "position": "Hustler",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   },
