@@ -138579,9 +138579,9 @@
   },
   "1656689": {
     "name": "Bidding War",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1779595025,
-    "executed_at": null,
+    "executed_at": 1779595089,
     "slots": {
       "P3": {
         "user_id": 3447443,
@@ -140099,7 +140099,7 @@
   "1678467": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": 1779658772,
+    "ready_at": 1779745172,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -140107,6 +140107,14 @@
         "user_name": "Shimmer12",
         "checkpoint_pass_rate": 72,
         "position": "Car Thief",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 3946187,
+        "user_name": "RichardCheese",
+        "checkpoint_pass_rate": 75,
+        "position": "Techie",
         "position_number": 1,
         "item_available": true
       }
@@ -140120,6 +140128,17 @@
         "user_name": "Shimmer12",
         "checkpoint_pass_rate": 72,
         "position": "Car Thief",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1779595240,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3946187,
+        "user_name": "RichardCheese",
+        "checkpoint_pass_rate": 75,
+        "position": "Techie",
         "position_number": 1,
         "item_available": true
       }
