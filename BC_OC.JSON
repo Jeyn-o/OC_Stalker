@@ -139235,9 +139235,9 @@
   },
   "1667146": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1779626303,
-    "executed_at": null,
+    "executed_at": 1779628270,
     "slots": {
       "P1": {
         "user_id": 2740246,
@@ -140636,7 +140636,7 @@
   "1682860": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1779781556,
+    "ready_at": 1779867956,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -140653,6 +140653,14 @@
         "checkpoint_pass_rate": 78,
         "position": "Cat Burglar",
         "position_number": 1
+      },
+      "P3": {
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 69,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": true
       }
     },
     "action_log": [
@@ -140676,6 +140684,17 @@
         "checkpoint_pass_rate": 78,
         "position": "Cat Burglar",
         "position_number": 1
+      },
+      {
+        "timestamp": 1779628831,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 69,
+        "position": "Assassin",
+        "position_number": 1,
+        "item_available": true
       }
     ]
   }
