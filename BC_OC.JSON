@@ -139098,7 +139098,7 @@
   "1664139": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": 1779834697,
+    "ready_at": 1779921097,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -139131,6 +139131,14 @@
         "checkpoint_pass_rate": 76,
         "position": "Robber",
         "position_number": 3,
+        "item_available": true
+      },
+      "P5": {
+        "user_id": 3625719,
+        "user_name": "Raie",
+        "checkpoint_pass_rate": 68,
+        "position": "Bomber",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -139177,6 +139185,17 @@
         "checkpoint_pass_rate": 76,
         "position": "Robber",
         "position_number": 3,
+        "item_available": true
+      },
+      {
+        "timestamp": 1779799840,
+        "action": "joined",
+        "slot": "P5",
+        "user_id": 3625719,
+        "user_name": "Raie",
+        "checkpoint_pass_rate": 68,
+        "position": "Bomber",
+        "position_number": 1,
         "item_available": true
       }
     ]
@@ -140263,20 +140282,22 @@
     "status": "Recruiting",
     "ready_at": 1779682441,
     "executed_at": null,
-    "slots": {
-      "P3": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1779596431,
+        "action": "joined",
+        "slot": "P3",
         "user_id": 3625719,
         "user_name": "Raie",
         "checkpoint_pass_rate": 70,
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1779596431,
-        "action": "joined",
+        "timestamp": 1779799840,
+        "action": "left",
         "slot": "P3",
         "user_id": 3625719,
         "user_name": "Raie",
