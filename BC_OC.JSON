@@ -140946,9 +140946,9 @@
   },
   "1681343": {
     "name": "Snow Blind",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1779963642,
-    "executed_at": null,
+    "executed_at": 1779963667,
     "slots": {
       "P1": {
         "user_id": 3838831,
@@ -141374,8 +141374,8 @@
   },
   "1688921": {
     "name": "Blast from the Past",
-    "status": "Recruiting",
-    "ready_at": 1780256712,
+    "status": "Planning",
+    "ready_at": 1780343112,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -141415,6 +141415,14 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      "P4": {
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 78,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": false
       }
     },
     "action_log": [
@@ -141470,6 +141478,17 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1779964248,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 78,
+        "position": "Bomber",
+        "position_number": 1,
+        "item_available": false
       }
     ]
   },
@@ -142190,7 +142209,7 @@
   "1697335": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": 1779989756,
+    "ready_at": 1780076156,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -142198,6 +142217,14 @@
         "user_name": "ssodon",
         "checkpoint_pass_rate": 71,
         "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 63,
+        "position": "Techie",
         "position_number": 1,
         "item_available": true
       }
@@ -142211,6 +142238,17 @@
         "user_name": "ssodon",
         "checkpoint_pass_rate": 71,
         "position": "Engineer",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1779964248,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 63,
+        "position": "Techie",
         "position_number": 1,
         "item_available": true
       }
