@@ -21642,5 +21642,58 @@
       }
     },
     "delay_time": 871
+  },
+  "1780177839": {
+    "crime_id": 1692773,
+    "crime_name": "Sneaky Git Grab",
+    "created_at": null,
+    "planning_at": null,
+    "ready_at": 1780177038,
+    "executed_at": 1780177839,
+    "crime_participants": {
+      "P2": {
+        "user_id": 541960,
+        "user_name": "Davie_Corleone",
+        "checkpoint_pass_rate": 76,
+        "position": "Pickpocket",
+        "position_number": 1
+      },
+      "P1": {
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 69,
+        "position": "Imitator",
+        "position_number": 1
+      },
+      "P3": {
+        "user_id": 3946187,
+        "user_name": "RichardCheese",
+        "checkpoint_pass_rate": 65,
+        "position": "Hacker",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 71,
+        "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      }
+    },
+    "slackers": {
+      "541960": {
+        "status": "pending",
+        "handled_by": null,
+        "notes": []
+      },
+      "3679190": {
+        "status": "pending",
+        "handled_by": null,
+        "notes": []
+      }
+    },
+    "delay_time": 801
   }
 }
