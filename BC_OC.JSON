@@ -141793,9 +141793,9 @@
   },
   "1692773": {
     "name": "Sneaky Git Grab",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1780177038,
-    "executed_at": null,
+    "executed_at": 1780187830,
     "slots": {
       "P2": {
         "user_id": 541960,
@@ -142829,10 +142829,31 @@
   "1699733": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1780274285,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "P3": {
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 69,
+        "position": "Looter",
+        "position_number": 2,
+        "item_available": false
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1780188033,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 69,
+        "position": "Looter",
+        "position_number": 2,
+        "item_available": false
+      }
+    ]
   },
   "1699734": {
     "name": "Window of Opportunity",
@@ -143170,8 +143191,8 @@
   },
   "1708667": {
     "name": "Guardian Ángels",
-    "status": "Recruiting",
-    "ready_at": 1780339440,
+    "status": "Planning",
+    "ready_at": 1780425840,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -143188,6 +143209,13 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      "P1": {
+        "user_id": 541960,
+        "user_name": "Davie_Corleone",
+        "checkpoint_pass_rate": 84,
+        "position": "Enforcer",
+        "position_number": 1
       }
     },
     "action_log": [
@@ -143211,6 +143239,16 @@
         "position": "Engineer",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1780188033,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 541960,
+        "user_name": "Davie_Corleone",
+        "checkpoint_pass_rate": 84,
+        "position": "Enforcer",
+        "position_number": 1
       }
     ]
   }
