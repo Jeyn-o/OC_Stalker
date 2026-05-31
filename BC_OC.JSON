@@ -141326,8 +141326,8 @@
   },
   "1687139": {
     "name": "Gaslight the Way",
-    "status": "Recruiting",
-    "ready_at": 1780367997,
+    "status": "Planning",
+    "ready_at": 1780454397,
     "executed_at": null,
     "slots": {
       "P6": {
@@ -141366,6 +141366,14 @@
         "checkpoint_pass_rate": 89,
         "position": "Looter",
         "position_number": 2
+      },
+      "P3": {
+        "user_id": 3629199,
+        "user_name": "Tomk99",
+        "checkpoint_pass_rate": 81,
+        "position": "Imitator",
+        "position_number": 2,
+        "item_available": true
       }
     },
     "action_log": [
@@ -141420,6 +141428,17 @@
         "checkpoint_pass_rate": 89,
         "position": "Looter",
         "position_number": 2
+      },
+      {
+        "timestamp": 1780228231,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 3629199,
+        "user_name": "Tomk99",
+        "checkpoint_pass_rate": 81,
+        "position": "Imitator",
+        "position_number": 2,
+        "item_available": true
       }
     ]
   },
@@ -141558,19 +141577,21 @@
     "status": "Recruiting",
     "ready_at": 1780313737,
     "executed_at": null,
-    "slots": {
-      "P1": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1780227637,
+        "action": "joined",
+        "slot": "P1",
         "user_id": 3679190,
         "user_name": "RubyFalls",
         "checkpoint_pass_rate": 69,
         "position": "Imitator",
         "position_number": 1
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1780227637,
-        "action": "joined",
+        "timestamp": 1780228231,
+        "action": "left",
         "slot": "P1",
         "user_id": 3679190,
         "user_name": "RubyFalls",
@@ -143389,8 +143410,8 @@
   },
   "1711613": {
     "name": "No Reserve",
-    "status": "Recruiting",
-    "ready_at": 1780379482,
+    "status": "Planning",
+    "ready_at": 1780465882,
     "executed_at": null,
     "slots": {
       "P3": {
@@ -143406,6 +143427,14 @@
         "user_name": "Psyden",
         "checkpoint_pass_rate": 69,
         "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P1": {
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 72,
+        "position": "Car Thief",
         "position_number": 1,
         "item_available": true
       }
@@ -143430,6 +143459,17 @@
         "user_name": "Psyden",
         "checkpoint_pass_rate": 69,
         "position": "Techie",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1780228231,
+        "action": "joined",
+        "slot": "P1",
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 72,
+        "position": "Car Thief",
         "position_number": 1,
         "item_available": true
       }
