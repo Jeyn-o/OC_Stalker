@@ -141726,9 +141726,9 @@
   },
   "1688922": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1780248332,
-    "executed_at": null,
+    "executed_at": 1780248369,
     "slots": {
       "P5": {
         "user_id": 2671530,
@@ -143556,7 +143556,7 @@
   "1712272": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1780309668,
+    "ready_at": 1780482468,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -143564,6 +143564,21 @@
         "user_name": "Hstains",
         "checkpoint_pass_rate": 77,
         "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      "P2": {
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 70,
+        "position": "Cat Burglar",
+        "position_number": 1
+      },
+      "P4": {
+        "user_id": 1946159,
+        "user_name": "smyles",
+        "checkpoint_pass_rate": 68,
+        "position": "Cleaner",
         "position_number": 1,
         "item_available": true
       }
@@ -143577,6 +143592,27 @@
         "user_name": "Hstains",
         "checkpoint_pass_rate": 77,
         "position": "Imitator",
+        "position_number": 1,
+        "item_available": true
+      },
+      {
+        "timestamp": 1780248639,
+        "action": "joined",
+        "slot": "P2",
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 70,
+        "position": "Cat Burglar",
+        "position_number": 1
+      },
+      {
+        "timestamp": 1780248639,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 1946159,
+        "user_name": "smyles",
+        "checkpoint_pass_rate": 68,
+        "position": "Cleaner",
         "position_number": 1,
         "item_available": true
       }
