@@ -143007,17 +143007,9 @@
   "1699733": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": 1780360685,
+    "ready_at": 1780351116,
     "executed_at": null,
     "slots": {
-      "P3": {
-        "user_id": 2677851,
-        "user_name": "Morot",
-        "checkpoint_pass_rate": 69,
-        "position": "Looter",
-        "position_number": 2,
-        "item_available": true
-      },
       "P2": {
         "user_id": 1897963,
         "user_name": "gypo",
@@ -143049,13 +143041,24 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1780264843,
+        "action": "left",
+        "slot": "P3",
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 69,
+        "position": "Looter",
+        "position_number": 2,
+        "item_available": true
       }
     ]
   },
   "1699734": {
     "name": "Window of Opportunity",
-    "status": "Recruiting",
-    "ready_at": 1780452397,
+    "status": "Planning",
+    "ready_at": 1780538797,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -143088,6 +143091,14 @@
         "checkpoint_pass_rate": 54,
         "position": "Muscle",
         "position_number": 2,
+        "item_available": true
+      },
+      "P4": {
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 67,
+        "position": "Muscle",
+        "position_number": 1,
         "item_available": true
       }
     },
@@ -143134,6 +143145,17 @@
         "checkpoint_pass_rate": 54,
         "position": "Muscle",
         "position_number": 2,
+        "item_available": true
+      },
+      {
+        "timestamp": 1780264843,
+        "action": "joined",
+        "slot": "P4",
+        "user_id": 2677851,
+        "user_name": "Morot",
+        "checkpoint_pass_rate": 67,
+        "position": "Muscle",
+        "position_number": 1,
         "item_available": true
       }
     ]
