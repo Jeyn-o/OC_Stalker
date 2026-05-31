@@ -142858,7 +142858,7 @@
   "1699734": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": 1780182279,
+    "ready_at": 1780279597,
     "executed_at": null,
     "slots": {
       "P2": {
@@ -142868,6 +142868,14 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": true
+      },
+      "P3": {
+        "user_id": 2289809,
+        "user_name": "Murder_Hobo",
+        "checkpoint_pass_rate": 75,
+        "position": "Looter",
+        "position_number": 2,
+        "item_available": false
       }
     },
     "action_log": [
@@ -142881,6 +142889,17 @@
         "position": "Looter",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1780193429,
+        "action": "joined",
+        "slot": "P3",
+        "user_id": 2289809,
+        "user_name": "Murder_Hobo",
+        "checkpoint_pass_rate": 75,
+        "position": "Looter",
+        "position_number": 2,
+        "item_available": false
       }
     ]
   },
