@@ -141222,9 +141222,9 @@
   },
   "1687138": {
     "name": "Smoke and Wing Mirrors",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1780304536,
-    "executed_at": null,
+    "executed_at": 1780305009,
     "slots": {
       "P3": {
         "user_id": 3806146,
@@ -143699,7 +143699,7 @@
   "1712270": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1780336020,
+    "ready_at": 1780422420,
     "executed_at": null,
     "slots": {
       "P1": {
@@ -143709,6 +143709,13 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      "P6": {
+        "user_id": 3937363,
+        "user_name": "jGafito",
+        "checkpoint_pass_rate": 88,
+        "position": "Looter",
+        "position_number": 3
       }
     },
     "action_log": [
@@ -143722,6 +143729,16 @@
         "position": "Imitator",
         "position_number": 1,
         "item_available": true
+      },
+      {
+        "timestamp": 1780306249,
+        "action": "joined",
+        "slot": "P6",
+        "user_id": 3937363,
+        "user_name": "jGafito",
+        "checkpoint_pass_rate": 88,
+        "position": "Looter",
+        "position_number": 3
       }
     ]
   },
