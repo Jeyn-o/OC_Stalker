@@ -145634,7 +145634,7 @@
   "1729344": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": 1781133366,
+    "ready_at": 1781219766,
     "executed_at": null,
     "slots": {
       "undefined": {
@@ -145909,19 +145909,21 @@
     "status": "Recruiting",
     "ready_at": 1781026885,
     "executed_at": null,
-    "slots": {
-      "undefined": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1780941036,
+        "action": "joined",
+        "slot": "undefined",
         "user_id": 2163292,
         "user_name": "Mihawk",
         "checkpoint_pass_rate": 68,
         "position": "Hacker",
         "item_available": false
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1780941036,
-        "action": "joined",
+        "timestamp": 1781001631,
+        "action": "left",
         "slot": "undefined",
         "user_id": 2163292,
         "user_name": "Mihawk",
@@ -146093,10 +146095,29 @@
   "1742606": {
     "name": "Dish It Out",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1781087806,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3838831,
+        "user_name": "Lev_Bron",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1781001631,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3838831,
+        "user_name": "Lev_Bron",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "item_available": true
+      }
+    ]
   },
   "1742607": {
     "name": "Leave No Trace",
