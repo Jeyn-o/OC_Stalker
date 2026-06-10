@@ -146199,9 +146199,9 @@
   },
   "1742607": {
     "name": "Leave No Trace",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1781124676,
-    "executed_at": null,
+    "executed_at": 1781124729,
     "slots": {
       "undefined": {
         "user_id": 2570952,
@@ -146226,16 +146226,16 @@
   },
   "1742608": {
     "name": "No Reserve",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1781118673,
-    "executed_at": null,
+    "executed_at": 1781124969,
     "slots": {
       "undefined": {
         "user_id": 3942148,
         "user_name": "TreyTheGay",
         "checkpoint_pass_rate": 69,
         "position": "Engineer",
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -146254,15 +146254,14 @@
   "1742609": {
     "name": "Smoke and Wing Mirrors",
     "status": "Recruiting",
-    "ready_at": 1781208323,
+    "ready_at": 1781294723,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 4188491,
-        "user_name": "Luxvite",
-        "checkpoint_pass_rate": 70,
-        "position": "Imitator",
-        "item_available": true
+        "user_id": 3932437,
+        "user_name": "Stealthination",
+        "checkpoint_pass_rate": 80,
+        "position": "Hustler"
       }
     },
     "action_log": [
@@ -146275,6 +146274,25 @@
         "checkpoint_pass_rate": 70,
         "position": "Imitator",
         "item_available": true
+      },
+      {
+        "timestamp": 1781125260,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 4188491,
+        "user_name": "Luxvite",
+        "checkpoint_pass_rate": 70,
+        "position": "Imitator",
+        "item_available": true
+      },
+      {
+        "timestamp": 1781125260,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3932437,
+        "user_name": "Stealthination",
+        "checkpoint_pass_rate": 80,
+        "position": "Hustler"
       }
     ]
   },
@@ -146619,6 +146637,14 @@
   },
   "1756047": {
     "name": "No Reserve",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1756489": {
+    "name": "Bidding War",
     "status": "Recruiting",
     "ready_at": null,
     "executed_at": null,
