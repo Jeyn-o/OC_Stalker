@@ -144457,14 +144457,7 @@
     "status": "Recruiting",
     "ready_at": 1780924044,
     "executed_at": null,
-    "slots": {
-      "undefined": {
-        "user_id": 4188491,
-        "user_name": "Luxvite",
-        "checkpoint_pass_rate": 80,
-        "position": "Looter"
-      }
-    },
+    "slots": {},
     "action_log": [
       {
         "timestamp": 1780249833,
@@ -144529,6 +144522,15 @@
       {
         "timestamp": 1780837833,
         "action": "joined",
+        "slot": "undefined",
+        "user_id": 4188491,
+        "user_name": "Luxvite",
+        "checkpoint_pass_rate": 80,
+        "position": "Looter"
+      },
+      {
+        "timestamp": 1781122235,
+        "action": "left",
         "slot": "undefined",
         "user_id": 4188491,
         "user_name": "Luxvite",
@@ -146252,10 +146254,29 @@
   "1742609": {
     "name": "Smoke and Wing Mirrors",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1781208323,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 4188491,
+        "user_name": "Luxvite",
+        "checkpoint_pass_rate": 70,
+        "position": "Imitator",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1781122235,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 4188491,
+        "user_name": "Luxvite",
+        "checkpoint_pass_rate": 70,
+        "position": "Imitator",
+        "item_available": true
+      }
+    ]
   },
   "1742610": {
     "name": "Gaslight the Way",
@@ -146536,14 +146557,14 @@
   "1756042": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": 1781205609,
+    "ready_at": 1781292009,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 2754369,
-        "user_name": "Nate__",
-        "checkpoint_pass_rate": 73,
-        "position": "Looter",
+        "user_id": 2414438,
+        "user_name": "Caross",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
         "item_available": true
       }
     },
@@ -146556,6 +146577,26 @@
         "user_name": "Nate__",
         "checkpoint_pass_rate": 73,
         "position": "Looter",
+        "item_available": true
+      },
+      {
+        "timestamp": 1781122235,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 2754369,
+        "user_name": "Nate__",
+        "checkpoint_pass_rate": 73,
+        "position": "Looter",
+        "item_available": true
+      },
+      {
+        "timestamp": 1781122235,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2414438,
+        "user_name": "Caross",
+        "checkpoint_pass_rate": 72,
+        "position": "Muscle",
         "item_available": true
       }
     ]
