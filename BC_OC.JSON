@@ -146467,9 +146467,9 @@
   },
   "1750634": {
     "name": "Dish It Out",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1781519361,
-    "executed_at": null,
+    "executed_at": 1781519411,
     "slots": {
       "undefined": {
         "user_id": 517163,
@@ -147526,14 +147526,15 @@
   "1774752": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": 1781604445,
+    "ready_at": 1781690845,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 3851236,
-        "user_name": "Psyden",
-        "checkpoint_pass_rate": 70,
-        "position": "Muscle"
+        "user_id": 541960,
+        "user_name": "Davie_Corleone",
+        "checkpoint_pass_rate": 83,
+        "position": "Muscle",
+        "item_available": true
       }
     },
     "action_log": [
@@ -147545,6 +147546,25 @@
         "user_name": "Psyden",
         "checkpoint_pass_rate": 70,
         "position": "Muscle"
+      },
+      {
+        "timestamp": 1781519453,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 3851236,
+        "user_name": "Psyden",
+        "checkpoint_pass_rate": 70,
+        "position": "Muscle"
+      },
+      {
+        "timestamp": 1781519453,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 541960,
+        "user_name": "Davie_Corleone",
+        "checkpoint_pass_rate": 83,
+        "position": "Muscle",
+        "item_available": true
       }
     ]
   },
