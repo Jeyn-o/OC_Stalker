@@ -147344,15 +147344,7 @@
     "status": "Recruiting",
     "ready_at": 1781791256,
     "executed_at": null,
-    "slots": {
-      "undefined": {
-        "user_id": 2802632,
-        "user_name": "Hoboblue",
-        "checkpoint_pass_rate": 85,
-        "position": "Robber",
-        "item_available": true
-      }
-    },
+    "slots": {},
     "action_log": [
       {
         "timestamp": 1781397632,
@@ -147377,6 +147369,16 @@
       {
         "timestamp": 1781704868,
         "action": "joined",
+        "slot": "undefined",
+        "user_id": 2802632,
+        "user_name": "Hoboblue",
+        "checkpoint_pass_rate": 85,
+        "position": "Robber",
+        "item_available": true
+      },
+      {
+        "timestamp": 1781705449,
+        "action": "left",
         "slot": "undefined",
         "user_id": 2802632,
         "user_name": "Hoboblue",
@@ -147831,7 +147833,7 @@
   "1778385": {
     "name": "Dish It Out",
     "status": "Recruiting",
-    "ready_at": 1781782166,
+    "ready_at": 1781868566,
     "executed_at": null,
     "slots": {
       "undefined": {
