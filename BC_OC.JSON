@@ -147186,9 +147186,9 @@
   },
   "1765782": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1781761265,
-    "executed_at": null,
+    "executed_at": 1781761327,
     "slots": {
       "undefined": {
         "user_id": 2162860,
@@ -148106,9 +148106,28 @@
   "1787388": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1781848090,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3575675,
+        "user_name": "highfishM",
+        "checkpoint_pass_rate": 70,
+        "position": "Imitator",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1781761833,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3575675,
+        "user_name": "highfishM",
+        "checkpoint_pass_rate": 70,
+        "position": "Imitator",
+        "item_available": true
+      }
+    ]
   }
 }
