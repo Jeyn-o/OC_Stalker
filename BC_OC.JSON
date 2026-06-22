@@ -147863,9 +147863,9 @@
   },
   "1774788": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1782135978,
-    "executed_at": null,
+    "executed_at": 1782136028,
     "slots": {
       "undefined": {
         "user_id": 2671608,
@@ -149143,5 +149143,40 @@
     "executed_at": null,
     "slots": {},
     "action_log": []
+  },
+  "1805952": {
+    "name": "Window of Opportunity",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "1805953": {
+    "name": "Break the Bank",
+    "status": "Recruiting",
+    "ready_at": 1782222564,
+    "executed_at": null,
+    "slots": {
+      "undefined": {
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 68,
+        "position": "Thief",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1782136246,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 68,
+        "position": "Thief",
+        "item_available": true
+      }
+    ]
   }
 }
