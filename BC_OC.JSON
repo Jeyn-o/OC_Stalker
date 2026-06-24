@@ -149142,8 +149142,8 @@
   },
   "1800280": {
     "name": "No Reserve",
-    "status": "Recruiting",
-    "ready_at": 1782405441,
+    "status": "Planning",
+    "ready_at": 1782491841,
     "executed_at": null,
     "slots": {
       "undefined": {
@@ -149393,19 +149393,21 @@
     "status": "Recruiting",
     "ready_at": 1782312636,
     "executed_at": null,
-    "slots": {
-      "undefined": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1782226866,
+        "action": "joined",
+        "slot": "undefined",
         "user_id": 3679190,
         "user_name": "RubyFalls",
         "checkpoint_pass_rate": 68,
         "position": "Robber",
         "item_available": true
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1782226866,
-        "action": "joined",
+        "timestamp": 1782306641,
+        "action": "left",
         "slot": "undefined",
         "user_id": 3679190,
         "user_name": "RubyFalls",
