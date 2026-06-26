@@ -150086,11 +150086,11 @@
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 3680760,
-        "user_name": "Friendly_Derek",
-        "checkpoint_pass_rate": 66,
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 68,
         "position": "Robber",
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -150103,6 +150103,26 @@
         "checkpoint_pass_rate": 66,
         "position": "Robber",
         "item_available": false
+      },
+      {
+        "timestamp": 1782504053,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 3680760,
+        "user_name": "Friendly_Derek",
+        "checkpoint_pass_rate": 66,
+        "position": "Robber",
+        "item_available": false
+      },
+      {
+        "timestamp": 1782504053,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 68,
+        "position": "Robber",
+        "item_available": true
       }
     ]
   },
@@ -150181,9 +150201,26 @@
   "1824360": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1782590124,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3932437,
+        "user_name": "Stealthination",
+        "checkpoint_pass_rate": 80,
+        "position": "Muscle"
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1782504053,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3932437,
+        "user_name": "Stealthination",
+        "checkpoint_pass_rate": 80,
+        "position": "Muscle"
+      }
+    ]
   }
 }
