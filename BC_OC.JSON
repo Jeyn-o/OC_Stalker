@@ -150804,19 +150804,21 @@
     "status": "Recruiting",
     "ready_at": 1782815453,
     "executed_at": null,
-    "slots": {
-      "undefined": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1782729569,
+        "action": "joined",
+        "slot": "undefined",
         "user_id": 2069227,
         "user_name": "GOTOYOURHOME",
         "checkpoint_pass_rate": 86,
         "position": "Muscle",
         "item_available": true
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1782729569,
-        "action": "joined",
+        "timestamp": 1782733835,
+        "action": "left",
         "slot": "undefined",
         "user_id": 2069227,
         "user_name": "GOTOYOURHOME",
@@ -150829,15 +150831,15 @@
   "1833678": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1782892193,
+    "ready_at": 1782978593,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 2335586,
-        "user_name": "Poundthatass",
-        "checkpoint_pass_rate": 72,
-        "position": "Assassin",
-        "item_available": true
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 79,
+        "position": "Cleaner",
+        "item_available": false
       }
     },
     "action_log": [
@@ -150868,6 +150870,26 @@
         "checkpoint_pass_rate": 72,
         "position": "Assassin",
         "item_available": true
+      },
+      {
+        "timestamp": 1782733835,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 2335586,
+        "user_name": "Poundthatass",
+        "checkpoint_pass_rate": 72,
+        "position": "Assassin",
+        "item_available": true
+      },
+      {
+        "timestamp": 1782733835,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 79,
+        "position": "Cleaner",
+        "item_available": false
       }
     ]
   }
