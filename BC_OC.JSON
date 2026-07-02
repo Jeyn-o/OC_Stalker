@@ -149997,9 +149997,9 @@
   },
   "1809107": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1782999335,
-    "executed_at": null,
+    "executed_at": 1782999367,
     "slots": {
       "undefined": {
         "user_id": 1300665,
@@ -150629,14 +150629,14 @@
   },
   "1829924": {
     "name": "Bidding War",
-    "status": "Recruiting",
-    "ready_at": 1783199863,
+    "status": "Planning",
+    "ready_at": 1783286263,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 3625719,
-        "user_name": "Raie",
-        "checkpoint_pass_rate": 69,
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 80,
         "position": "Bomber",
         "item_available": true
       }
@@ -150691,20 +150691,40 @@
         "checkpoint_pass_rate": 69,
         "position": "Bomber",
         "item_available": true
+      },
+      {
+        "timestamp": 1782999639,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 3625719,
+        "user_name": "Raie",
+        "checkpoint_pass_rate": 69,
+        "position": "Bomber",
+        "item_available": true
+      },
+      {
+        "timestamp": 1782999639,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 80,
+        "position": "Bomber",
+        "item_available": true
       }
     ]
   },
   "1833667": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": 1782984684,
+    "ready_at": 1783085812,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 517163,
-        "user_name": "Spoon",
-        "checkpoint_pass_rate": 65,
-        "position": "Engineer",
+        "user_id": 14922,
+        "user_name": "Charbon",
+        "checkpoint_pass_rate": 75,
+        "position": "Muscle",
         "item_available": true
       }
     },
@@ -150717,6 +150737,26 @@
         "user_name": "Spoon",
         "checkpoint_pass_rate": 65,
         "position": "Engineer",
+        "item_available": true
+      },
+      {
+        "timestamp": 1782999639,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 517163,
+        "user_name": "Spoon",
+        "checkpoint_pass_rate": 65,
+        "position": "Engineer",
+        "item_available": true
+      },
+      {
+        "timestamp": 1782999639,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 14922,
+        "user_name": "Charbon",
+        "checkpoint_pass_rate": 75,
+        "position": "Muscle",
         "item_available": true
       }
     ]
