@@ -150255,9 +150255,9 @@
   },
   "1815616": {
     "name": "Bidding War",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1782998483,
-    "executed_at": null,
+    "executed_at": 1782998527,
     "slots": {
       "undefined": {
         "user_id": 3730896,
@@ -151225,10 +151225,29 @@
   "1836282": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1783085188,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 68,
+        "position": "Robber",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1782999058,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 68,
+        "position": "Robber",
+        "item_available": true
+      }
+    ]
   },
   "1837117": {
     "name": "Snow Blind",
@@ -151330,8 +151349,8 @@
   },
   "1838149": {
     "name": "Guardian Ángels",
-    "status": "Recruiting",
-    "ready_at": 1782947808,
+    "status": "Planning",
+    "ready_at": 1783085042,
     "executed_at": null,
     "slots": {
       "undefined": {
@@ -151392,15 +151411,15 @@
   },
   "1845937": {
     "name": "Clinical Precision",
-    "status": "Recruiting",
-    "ready_at": 1783191509,
+    "status": "Planning",
+    "ready_at": 1783277909,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 2240841,
-        "user_name": "Timotheus",
-        "checkpoint_pass_rate": 72,
-        "position": "Assassin",
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 62,
+        "position": "Cleaner",
         "item_available": true
       }
     },
@@ -151433,6 +151452,26 @@
         "user_name": "Timotheus",
         "checkpoint_pass_rate": 72,
         "position": "Assassin",
+        "item_available": true
+      },
+      {
+        "timestamp": 1782999058,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 2240841,
+        "user_name": "Timotheus",
+        "checkpoint_pass_rate": 72,
+        "position": "Assassin",
+        "item_available": true
+      },
+      {
+        "timestamp": 1782999058,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 62,
+        "position": "Cleaner",
         "item_available": true
       }
     ]
