@@ -152044,9 +152044,9 @@
   },
   "1852437": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1783408604,
-    "executed_at": null,
+    "executed_at": 1783408630,
     "slots": {
       "undefined": {
         "user_id": 2675301,
@@ -152662,10 +152662,29 @@
   "1868254": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1783495135,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1783408855,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 71,
+        "position": "Muscle",
+        "item_available": true
+      }
+    ]
   },
   "1868255": {
     "name": "Sneaky Git Grab",
