@@ -153672,22 +153672,42 @@
   "1888501": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": null,
-    "executed_at": null,
-    "slots": {},
-    "action_log": []
-  },
-  "1888502": {
-    "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1783969594,
+    "ready_at": 1783897435,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 3973984,
-        "user_name": "ssodon",
-        "checkpoint_pass_rate": 75,
-        "position": "Muscle"
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 68,
+        "position": "Imitator",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1783811456,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 68,
+        "position": "Imitator",
+        "item_available": true
+      }
+    ]
+  },
+  "1888502": {
+    "name": "Honey Trap",
+    "status": "Planning",
+    "ready_at": 1784055994,
+    "executed_at": null,
+    "slots": {
+      "undefined": {
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 83,
+        "position": "Muscle",
+        "item_available": false
       }
     },
     "action_log": [
@@ -153699,6 +153719,25 @@
         "user_name": "ssodon",
         "checkpoint_pass_rate": 75,
         "position": "Muscle"
+      },
+      {
+        "timestamp": 1783811456,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 75,
+        "position": "Muscle"
+      },
+      {
+        "timestamp": 1783811456,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 83,
+        "position": "Muscle",
+        "item_available": false
       }
     ]
   }
