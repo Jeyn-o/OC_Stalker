@@ -154050,10 +154050,29 @@
   "1899731": {
     "name": "Dish It Out",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1784091690,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 69,
+        "position": "Engineer",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1784005858,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 69,
+        "position": "Engineer",
+        "item_available": true
+      }
+    ]
   },
   "1899732": {
     "name": "Dish It Out",
@@ -154084,19 +154103,21 @@
     "status": "Recruiting",
     "ready_at": 1784091649,
     "executed_at": null,
-    "slots": {
-      "undefined": {
+    "slots": {},
+    "action_log": [
+      {
+        "timestamp": 1784005271,
+        "action": "joined",
+        "slot": "undefined",
         "user_id": 3877112,
         "user_name": "McJoey",
         "checkpoint_pass_rate": 82,
         "position": "Robber",
         "item_available": true
-      }
-    },
-    "action_log": [
+      },
       {
-        "timestamp": 1784005271,
-        "action": "joined",
+        "timestamp": 1784005858,
+        "action": "left",
         "slot": "undefined",
         "user_id": 3877112,
         "user_name": "McJoey",
