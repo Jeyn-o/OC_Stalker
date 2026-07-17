@@ -154329,18 +154329,20 @@
     "status": "Recruiting",
     "ready_at": 1784188800,
     "executed_at": null,
-    "slots": {
-      "undefined": {
-        "user_id": 4095524,
-        "user_name": "Figuress",
-        "checkpoint_pass_rate": 83,
-        "position": "Looter"
-      }
-    },
+    "slots": {},
     "action_log": [
       {
         "timestamp": 1784102476,
         "action": "joined",
+        "slot": "undefined",
+        "user_id": 4095524,
+        "user_name": "Figuress",
+        "checkpoint_pass_rate": 83,
+        "position": "Looter"
+      },
+      {
+        "timestamp": 1784279440,
+        "action": "left",
         "slot": "undefined",
         "user_id": 4095524,
         "user_name": "Figuress",
@@ -154352,13 +154354,13 @@
   "1903928": {
     "name": "Gaslight the Way",
     "status": "Recruiting",
-    "ready_at": 1784447791,
+    "ready_at": 1784534191,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 4239514,
-        "user_name": "BabyChocolates1",
-        "checkpoint_pass_rate": 68,
+        "user_id": 4095524,
+        "user_name": "Figuress",
+        "checkpoint_pass_rate": 83,
         "position": "Looter"
       }
     },
@@ -154388,6 +154390,24 @@
         "user_id": 4239514,
         "user_name": "BabyChocolates1",
         "checkpoint_pass_rate": 68,
+        "position": "Looter"
+      },
+      {
+        "timestamp": 1784279440,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 4239514,
+        "user_name": "BabyChocolates1",
+        "checkpoint_pass_rate": 68,
+        "position": "Looter"
+      },
+      {
+        "timestamp": 1784279440,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 4095524,
+        "user_name": "Figuress",
+        "checkpoint_pass_rate": 83,
         "position": "Looter"
       }
     ]
