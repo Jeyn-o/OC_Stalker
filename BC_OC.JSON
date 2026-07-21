@@ -154989,9 +154989,9 @@
   },
   "1909627": {
     "name": "Dish It Out",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1784646835,
-    "executed_at": null,
+    "executed_at": 1784646849,
     "slots": {
       "undefined": {
         "user_id": 2730718,
@@ -155306,10 +155306,27 @@
   "1922829": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1784819831,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 76,
+        "position": "Pickpocket"
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1784647238,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3442152,
+        "user_name": "Lockets",
+        "checkpoint_pass_rate": 76,
+        "position": "Pickpocket"
+      }
+    ]
   },
   "1922831": {
     "name": "Sneaky Git Grab",
