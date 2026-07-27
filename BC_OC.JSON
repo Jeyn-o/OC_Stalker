@@ -156701,16 +156701,16 @@
   },
   "1945671": {
     "name": "No Reserve",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1785169168,
-    "executed_at": null,
+    "executed_at": 1785169212,
     "slots": {
       "undefined": {
         "user_id": 3967366,
         "user_name": "Icks-B",
         "checkpoint_pass_rate": 74,
         "position": "Engineer",
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -157139,15 +157139,15 @@
   },
   "1956573": {
     "name": "Counter Offer",
-    "status": "Recruiting",
-    "ready_at": 1785481257,
+    "status": "Planning",
+    "ready_at": 1785567657,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 3631840,
-        "user_name": "pablobora",
-        "checkpoint_pass_rate": 80,
-        "position": "Picklock",
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 78,
+        "position": "Engineer",
         "item_available": true
       }
     },
@@ -157180,6 +157180,26 @@
         "user_name": "pablobora",
         "checkpoint_pass_rate": 80,
         "position": "Picklock",
+        "item_available": true
+      },
+      {
+        "timestamp": 1785169241,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 3631840,
+        "user_name": "pablobora",
+        "checkpoint_pass_rate": 80,
+        "position": "Picklock",
+        "item_available": true
+      },
+      {
+        "timestamp": 1785169241,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 78,
+        "position": "Engineer",
         "item_available": true
       }
     ]
