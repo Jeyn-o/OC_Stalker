@@ -157187,9 +157187,17 @@
   "1956574": {
     "name": "Stage Fright",
     "status": "Recruiting",
-    "ready_at": 1785222024,
+    "ready_at": 1785246683,
     "executed_at": null,
-    "slots": {},
+    "slots": {
+      "undefined": {
+        "user_id": 4095524,
+        "user_name": "Figuress",
+        "checkpoint_pass_rate": 72,
+        "position": "Lookout",
+        "item_available": true
+      }
+    },
     "action_log": [
       {
         "timestamp": 1785135656,
@@ -157208,6 +157216,16 @@
         "user_name": "jGafito",
         "checkpoint_pass_rate": 84,
         "position": "Sniper"
+      },
+      {
+        "timestamp": 1785160862,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 4095524,
+        "user_name": "Figuress",
+        "checkpoint_pass_rate": 72,
+        "position": "Lookout",
+        "item_available": true
       }
     ]
   }
