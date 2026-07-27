@@ -157104,28 +157104,49 @@
   "1956573": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1785222057,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3937363,
+        "user_name": "jGafito",
+        "checkpoint_pass_rate": 72,
+        "position": "Looter",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1785136242,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3937363,
+        "user_name": "jGafito",
+        "checkpoint_pass_rate": 72,
+        "position": "Looter",
+        "item_available": true
+      }
+    ]
   },
   "1956574": {
     "name": "Stage Fright",
     "status": "Recruiting",
     "ready_at": 1785222024,
     "executed_at": null,
-    "slots": {
-      "undefined": {
-        "user_id": 3937363,
-        "user_name": "jGafito",
-        "checkpoint_pass_rate": 84,
-        "position": "Sniper"
-      }
-    },
+    "slots": {},
     "action_log": [
       {
         "timestamp": 1785135656,
         "action": "joined",
+        "slot": "undefined",
+        "user_id": 3937363,
+        "user_name": "jGafito",
+        "checkpoint_pass_rate": 84,
+        "position": "Sniper"
+      },
+      {
+        "timestamp": 1785136242,
+        "action": "left",
         "slot": "undefined",
         "user_id": 3937363,
         "user_name": "jGafito",
