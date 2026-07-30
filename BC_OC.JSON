@@ -157714,10 +157714,29 @@
   "1966089": {
     "name": "Dish It Out",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1785607457,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3805208,
+        "user_name": "AuntGoo",
+        "checkpoint_pass_rate": 71,
+        "position": "Engineer",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1785435046,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3805208,
+        "user_name": "AuntGoo",
+        "checkpoint_pass_rate": 71,
+        "position": "Engineer",
+        "item_available": true
+      }
+    ]
   },
   "1966090": {
     "name": "Counter Offer",
@@ -157870,14 +157889,15 @@
   "1969540": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1785582732,
+    "ready_at": 1785669132,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 3193353,
-        "user_name": "xyicah",
-        "checkpoint_pass_rate": 71,
-        "position": "Cat Burglar"
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 60,
+        "position": "Assassin",
+        "item_available": false
       }
     },
     "action_log": [
@@ -157889,6 +157909,25 @@
         "user_name": "xyicah",
         "checkpoint_pass_rate": 71,
         "position": "Cat Burglar"
+      },
+      {
+        "timestamp": 1785435046,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 3193353,
+        "user_name": "xyicah",
+        "checkpoint_pass_rate": 71,
+        "position": "Cat Burglar"
+      },
+      {
+        "timestamp": 1785435046,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 60,
+        "position": "Assassin",
+        "item_available": false
       }
     ]
   }
