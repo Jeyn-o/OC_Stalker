@@ -156765,9 +156765,9 @@
   },
   "1947104": {
     "name": "Blast from the Past",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1785566375,
-    "executed_at": null,
+    "executed_at": 1785581227,
     "slots": {
       "undefined": {
         "user_id": 3447443,
@@ -157686,9 +157686,9 @@
   },
   "1966088": {
     "name": "Guardian Ángels",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1785580944,
-    "executed_at": null,
+    "executed_at": 1785580990,
     "slots": {
       "undefined": {
         "user_id": 3969644,
@@ -158136,10 +158136,29 @@
   "1979130": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1785667721,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3656242,
+        "user_name": "jonasgrind",
+        "checkpoint_pass_rate": 68,
+        "position": "Looter",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1785581441,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3656242,
+        "user_name": "jonasgrind",
+        "checkpoint_pass_rate": 68,
+        "position": "Looter",
+        "item_available": true
+      }
+    ]
   },
   "1979133": {
     "name": "Break the Bank",
