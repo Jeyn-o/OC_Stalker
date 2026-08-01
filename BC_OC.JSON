@@ -157428,9 +157428,9 @@
   },
   "1962049": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1785574298,
-    "executed_at": null,
+    "executed_at": 1785574329,
     "slots": {
       "undefined": {
         "user_id": 2184227,
@@ -158127,9 +158127,28 @@
   "1979133": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1785660953,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 61,
+        "position": "Thief",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1785574852,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 61,
+        "position": "Thief",
+        "item_available": true
+      }
+    ]
   }
 }
