@@ -157731,9 +157731,9 @@
   },
   "1966089": {
     "name": "Dish It Out",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1785866657,
-    "executed_at": null,
+    "executed_at": 1785866709,
     "slots": {
       "undefined": {
         "user_id": 3805208,
@@ -158594,10 +158594,29 @@
   "1980403": {
     "name": "Sneaky Git Grab",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1786039850,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 68,
+        "position": "Techie",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1785867644,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 68,
+        "position": "Techie",
+        "item_available": true
+      }
+    ]
   },
   "1980404": {
     "name": "Guardian Ángels",
@@ -158900,14 +158919,14 @@
   "1994964": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": 1785951598,
+    "ready_at": 1786210798,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 2679269,
-        "user_name": "TsanMan",
-        "checkpoint_pass_rate": 66,
-        "position": "Robber",
+        "user_id": 2408196,
+        "user_name": "iam3vaj",
+        "checkpoint_pass_rate": 71,
+        "position": "Thief",
         "item_available": true
       }
     },
@@ -158920,6 +158939,26 @@
         "user_name": "TsanMan",
         "checkpoint_pass_rate": 66,
         "position": "Robber",
+        "item_available": true
+      },
+      {
+        "timestamp": 1785867644,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 2679269,
+        "user_name": "TsanMan",
+        "checkpoint_pass_rate": 66,
+        "position": "Robber",
+        "item_available": true
+      },
+      {
+        "timestamp": 1785867644,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2408196,
+        "user_name": "iam3vaj",
+        "checkpoint_pass_rate": 71,
+        "position": "Thief",
         "item_available": true
       }
     ]
