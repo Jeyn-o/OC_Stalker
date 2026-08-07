@@ -158937,18 +158937,20 @@
     "status": "Recruiting",
     "ready_at": 1786208882,
     "executed_at": null,
-    "slots": {
-      "undefined": {
-        "user_id": 446596,
-        "user_name": "Bucki",
-        "checkpoint_pass_rate": 83,
-        "position": "Picklock"
-      }
-    },
+    "slots": {},
     "action_log": [
       {
         "timestamp": 1786122655,
         "action": "joined",
+        "slot": "undefined",
+        "user_id": 446596,
+        "user_name": "Bucki",
+        "checkpoint_pass_rate": 83,
+        "position": "Picklock"
+      },
+      {
+        "timestamp": 1786125662,
+        "action": "left",
         "slot": "undefined",
         "user_id": 446596,
         "user_name": "Bucki",
@@ -159125,15 +159127,15 @@
   },
   "1997448": {
     "name": "Counter Offer",
-    "status": "Recruiting",
-    "ready_at": 1786350840,
+    "status": "Planning",
+    "ready_at": 1786437240,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 3976308,
-        "user_name": "Bellarin",
-        "checkpoint_pass_rate": 76,
-        "position": "Picklock",
+        "user_id": 3851236,
+        "user_name": "Psyden",
+        "checkpoint_pass_rate": 79,
+        "position": "Engineer",
         "item_available": true
       }
     },
@@ -159146,6 +159148,26 @@
         "user_name": "Bellarin",
         "checkpoint_pass_rate": 76,
         "position": "Picklock",
+        "item_available": true
+      },
+      {
+        "timestamp": 1786125662,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 3976308,
+        "user_name": "Bellarin",
+        "checkpoint_pass_rate": 76,
+        "position": "Picklock",
+        "item_available": true
+      },
+      {
+        "timestamp": 1786125662,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3851236,
+        "user_name": "Psyden",
+        "checkpoint_pass_rate": 79,
+        "position": "Engineer",
         "item_available": true
       }
     ]
@@ -159200,7 +159222,7 @@
   "2002103": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": 1786126964,
+    "ready_at": 1786213364,
     "executed_at": null,
     "slots": {
       "undefined": {
@@ -159394,6 +159416,31 @@
         "checkpoint_pass_rate": 72,
         "position": "Thief",
         "item_available": true
+      }
+    ]
+  },
+  "2008856": {
+    "name": "Clinical Precision",
+    "status": "Recruiting",
+    "ready_at": 1786298162,
+    "executed_at": null,
+    "slots": {
+      "undefined": {
+        "user_id": 446596,
+        "user_name": "Bucki",
+        "checkpoint_pass_rate": 75,
+        "position": "Cat Burglar"
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1786125662,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 446596,
+        "user_name": "Bucki",
+        "checkpoint_pass_rate": 75,
+        "position": "Cat Burglar"
       }
     ]
   }
