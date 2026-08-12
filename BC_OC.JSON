@@ -160225,9 +160225,9 @@
   },
   "2012852": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1786554071,
-    "executed_at": null,
+    "executed_at": 1786554128,
     "slots": {
       "undefined": {
         "user_id": 2583853,
@@ -160717,9 +160717,9 @@
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 1300665,
-        "user_name": "Savoie",
-        "checkpoint_pass_rate": 61,
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 65,
         "position": "Thief",
         "item_available": true
       }
@@ -160754,16 +160754,55 @@
         "checkpoint_pass_rate": 61,
         "position": "Thief",
         "item_available": true
+      },
+      {
+        "timestamp": 1786554637,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 1300665,
+        "user_name": "Savoie",
+        "checkpoint_pass_rate": 61,
+        "position": "Thief",
+        "item_available": true
+      },
+      {
+        "timestamp": 1786554637,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 65,
+        "position": "Thief",
+        "item_available": true
       }
     ]
   },
   "2030574": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1786640874,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 1300665,
+        "user_name": "Savoie",
+        "checkpoint_pass_rate": 75,
+        "position": "Engineer",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1786554637,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 1300665,
+        "user_name": "Savoie",
+        "checkpoint_pass_rate": 75,
+        "position": "Engineer",
+        "item_available": true
+      }
+    ]
   },
   "2030576": {
     "name": "No Reserve",
@@ -160783,6 +160822,22 @@
   },
   "2030578": {
     "name": "Leave No Trace",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "2031322": {
+    "name": "Window of Opportunity",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "2031323": {
+    "name": "Clinical Precision",
     "status": "Recruiting",
     "ready_at": null,
     "executed_at": null,
