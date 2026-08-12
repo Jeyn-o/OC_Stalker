@@ -160973,14 +160973,15 @@
   "2031323": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1786732111,
+    "ready_at": 1786818511,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 1300665,
-        "user_name": "Savoie",
+        "user_id": 14922,
+        "user_name": "Charbon",
         "checkpoint_pass_rate": 65,
-        "position": "Cat Burglar"
+        "position": "Cleaner",
+        "item_available": false
       }
     },
     "action_log": [
@@ -161012,6 +161013,25 @@
         "user_name": "Savoie",
         "checkpoint_pass_rate": 65,
         "position": "Cat Burglar"
+      },
+      {
+        "timestamp": 1786578034,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 1300665,
+        "user_name": "Savoie",
+        "checkpoint_pass_rate": 65,
+        "position": "Cat Burglar"
+      },
+      {
+        "timestamp": 1786578034,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 14922,
+        "user_name": "Charbon",
+        "checkpoint_pass_rate": 65,
+        "position": "Cleaner",
+        "item_available": false
       }
     ]
   }
