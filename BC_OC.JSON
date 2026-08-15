@@ -160671,9 +160671,9 @@
   },
   "2028064": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1786820203,
-    "executed_at": null,
+    "executed_at": 1786820234,
     "slots": {
       "undefined": {
         "user_id": 3877112,
@@ -161405,15 +161405,15 @@
   "2043498": {
     "name": "Counter Offer",
     "status": "Recruiting",
-    "ready_at": 1786973688,
+    "ready_at": 1787060088,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 3904499,
-        "user_name": "mmaple",
-        "checkpoint_pass_rate": 75,
-        "position": "Hacker",
-        "item_available": false
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 82,
+        "position": "Engineer",
+        "item_available": true
       }
     },
     "action_log": [
@@ -161446,6 +161446,26 @@
         "checkpoint_pass_rate": 75,
         "position": "Hacker",
         "item_available": false
+      },
+      {
+        "timestamp": 1786820457,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 3904499,
+        "user_name": "mmaple",
+        "checkpoint_pass_rate": 75,
+        "position": "Hacker",
+        "item_available": false
+      },
+      {
+        "timestamp": 1786820457,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3877112,
+        "user_name": "McJoey",
+        "checkpoint_pass_rate": 82,
+        "position": "Engineer",
+        "item_available": true
       }
     ]
   },
