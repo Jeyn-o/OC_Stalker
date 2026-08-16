@@ -161210,9 +161210,16 @@
   "2033953": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": 1786841955,
+    "ready_at": 1787006035,
     "executed_at": null,
-    "slots": {},
+    "slots": {
+      "undefined": {
+        "user_id": 1946159,
+        "user_name": "smyles",
+        "checkpoint_pass_rate": 79,
+        "position": "Picklock"
+      }
+    },
     "action_log": [
       {
         "timestamp": 1786755655,
@@ -161233,6 +161240,15 @@
         "checkpoint_pass_rate": 66,
         "position": "Hacker",
         "item_available": true
+      },
+      {
+        "timestamp": 1786920037,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 1946159,
+        "user_name": "smyles",
+        "checkpoint_pass_rate": 79,
+        "position": "Picklock"
       }
     ]
   },
