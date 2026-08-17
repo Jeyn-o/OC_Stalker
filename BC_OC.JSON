@@ -160960,9 +160960,9 @@
   },
   "2030576": {
     "name": "No Reserve",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1786953854,
-    "executed_at": null,
+    "executed_at": 1786953912,
     "slots": {
       "undefined": {
         "user_id": 3730896,
@@ -161761,10 +161761,29 @@
   "2047103": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1787040534,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 68,
+        "position": "Imitator",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1786954234,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 68,
+        "position": "Imitator",
+        "item_available": true
+      }
+    ]
   },
   "2047108": {
     "name": "Sneaky Git Grab",
@@ -161957,5 +161976,13 @@
         "item_available": true
       }
     ]
+  },
+  "2051958": {
+    "name": "Bidding War",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
   }
 }
