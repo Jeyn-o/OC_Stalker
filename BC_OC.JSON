@@ -161548,8 +161548,8 @@
   },
   "2041403": {
     "name": "Bidding War",
-    "status": "Planning",
-    "ready_at": 1787863738,
+    "status": "Recruiting",
+    "ready_at": 1787777338,
     "executed_at": null,
     "slots": {
       "undefined": {
@@ -162457,9 +162457,17 @@
   "2051958": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": 1787611806,
+    "ready_at": 1787687274,
     "executed_at": null,
-    "slots": {},
+    "slots": {
+      "undefined": {
+        "user_id": 2754369,
+        "user_name": "Nate__",
+        "checkpoint_pass_rate": 81,
+        "position": "Robber",
+        "item_available": false
+      }
+    },
     "action_log": [
       {
         "timestamp": 1787525438,
@@ -162480,6 +162488,16 @@
         "checkpoint_pass_rate": 81,
         "position": "Bomber",
         "item_available": true
+      },
+      {
+        "timestamp": 1787601037,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2754369,
+        "user_name": "Nate__",
+        "checkpoint_pass_rate": 81,
+        "position": "Robber",
+        "item_available": false
       }
     ]
   },
