@@ -161548,9 +161548,9 @@
   },
   "2041403": {
     "name": "Bidding War",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1787863738,
-    "executed_at": null,
+    "executed_at": 1787863745,
     "slots": {
       "undefined": {
         "user_id": 182040,
@@ -163435,10 +163435,29 @@
   "2079303": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1787950202,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 182040,
+        "user_name": "Excaliber_13",
+        "checkpoint_pass_rate": 71,
+        "position": "Looter",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1787863843,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 182040,
+        "user_name": "Excaliber_13",
+        "checkpoint_pass_rate": 71,
+        "position": "Looter",
+        "item_available": true
+      }
+    ]
   },
   "2079304": {
     "name": "Window of Opportunity",
