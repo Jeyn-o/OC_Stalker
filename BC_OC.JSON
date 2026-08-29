@@ -163678,10 +163678,29 @@
   "2079524": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1788133569,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 73,
+        "position": "Robber",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1788047437,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3679190,
+        "user_name": "RubyFalls",
+        "checkpoint_pass_rate": 73,
+        "position": "Robber",
+        "item_available": true
+      }
+    ]
   },
   "2082846": {
     "name": "Blast from the Past",
@@ -164528,14 +164547,15 @@
   "2106742": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1788160612,
+    "ready_at": 1788247012,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 2801440,
-        "user_name": "joschlumpf",
-        "checkpoint_pass_rate": 75,
-        "position": "Cat Burglar"
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 70,
+        "position": "Assassin",
+        "item_available": true
       }
     },
     "action_log": [
@@ -164547,6 +164567,25 @@
         "user_name": "joschlumpf",
         "checkpoint_pass_rate": 75,
         "position": "Cat Burglar"
+      },
+      {
+        "timestamp": 1788047437,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 75,
+        "position": "Cat Burglar"
+      },
+      {
+        "timestamp": 1788047437,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 70,
+        "position": "Assassin",
+        "item_available": true
       }
     ]
   }
