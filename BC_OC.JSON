@@ -163789,9 +163789,9 @@
   },
   "2082847": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1788112655,
-    "executed_at": null,
+    "executed_at": 1788112690,
     "slots": {
       "undefined": {
         "user_id": 2675301,
@@ -164604,16 +164604,16 @@
   },
   "2106742": {
     "name": "Clinical Precision",
-    "status": "Recruiting",
-    "ready_at": 1788247012,
+    "status": "Planning",
+    "ready_at": 1788333412,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 2937449,
-        "user_name": "Piraterer",
-        "checkpoint_pass_rate": 70,
-        "position": "Assassin",
-        "item_available": true
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 79,
+        "position": "Cleaner",
+        "item_available": false
       }
     },
     "action_log": [
@@ -164644,6 +164644,26 @@
         "checkpoint_pass_rate": 70,
         "position": "Assassin",
         "item_available": true
+      },
+      {
+        "timestamp": 1788112848,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 70,
+        "position": "Assassin",
+        "item_available": true
+      },
+      {
+        "timestamp": 1788112848,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2069227,
+        "user_name": "GOTOYOURHOME",
+        "checkpoint_pass_rate": 79,
+        "position": "Cleaner",
+        "item_available": false
       }
     ]
   },
