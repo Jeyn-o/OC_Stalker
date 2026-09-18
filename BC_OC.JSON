@@ -168525,15 +168525,15 @@
   "2196798": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": 1789974271,
+    "ready_at": 1789887871,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 2754369,
-        "user_name": "Nate__",
-        "checkpoint_pass_rate": 76,
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 72,
         "position": "Looter",
-        "item_available": false
+        "item_available": true
       }
     },
     "action_log": [
@@ -168586,6 +168586,26 @@
         "checkpoint_pass_rate": 76,
         "position": "Looter",
         "item_available": false
+      },
+      {
+        "timestamp": 1789756843,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 2754369,
+        "user_name": "Nate__",
+        "checkpoint_pass_rate": 76,
+        "position": "Looter",
+        "item_available": false
+      },
+      {
+        "timestamp": 1789756843,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 1897963,
+        "user_name": "gypo",
+        "checkpoint_pass_rate": 72,
+        "position": "Looter",
+        "item_available": true
       }
     ]
   },
@@ -168696,15 +168716,16 @@
   },
   "2199786": {
     "name": "Honey Trap",
-    "status": "Recruiting",
-    "ready_at": 1789909700,
+    "status": "Planning",
+    "ready_at": 1789996100,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 3969644,
-        "user_name": "DungeonCrawler",
-        "checkpoint_pass_rate": 66,
-        "position": "Muscle"
+        "user_id": 2754369,
+        "user_name": "Nate__",
+        "checkpoint_pass_rate": 86,
+        "position": "Muscle",
+        "item_available": true
       }
     },
     "action_log": [
@@ -168716,6 +168737,25 @@
         "user_name": "DungeonCrawler",
         "checkpoint_pass_rate": 66,
         "position": "Muscle"
+      },
+      {
+        "timestamp": 1789756843,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 3969644,
+        "user_name": "DungeonCrawler",
+        "checkpoint_pass_rate": 66,
+        "position": "Muscle"
+      },
+      {
+        "timestamp": 1789756843,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2754369,
+        "user_name": "Nate__",
+        "checkpoint_pass_rate": 86,
+        "position": "Muscle",
+        "item_available": true
       }
     ]
   }
