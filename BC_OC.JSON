@@ -168815,9 +168815,9 @@
   },
   "2199786": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1789996100,
-    "executed_at": null,
+    "executed_at": 1789996151,
     "slots": {
       "undefined": {
         "user_id": 2754369,
@@ -169238,15 +169238,15 @@
   "2207933": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": 1790158870,
+    "ready_at": 1790245270,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 3447443,
-        "user_name": "Jordanw1",
-        "checkpoint_pass_rate": 70,
-        "position": "Looter",
-        "item_available": false
+        "user_id": 2754369,
+        "user_name": "Nate__",
+        "checkpoint_pass_rate": 75,
+        "position": "Muscle",
+        "item_available": true
       }
     },
     "action_log": [
@@ -169259,6 +169259,26 @@
         "checkpoint_pass_rate": 70,
         "position": "Looter",
         "item_available": false
+      },
+      {
+        "timestamp": 1789996241,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 3447443,
+        "user_name": "Jordanw1",
+        "checkpoint_pass_rate": 70,
+        "position": "Looter",
+        "item_available": false
+      },
+      {
+        "timestamp": 1789996241,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2754369,
+        "user_name": "Nate__",
+        "checkpoint_pass_rate": 75,
+        "position": "Muscle",
+        "item_available": true
       }
     ]
   },
@@ -169479,6 +169499,49 @@
         "user_name": "Charbon",
         "checkpoint_pass_rate": 66,
         "position": "Cleaner",
+        "item_available": true
+      }
+    ]
+  },
+  "2213833": {
+    "name": "Honey Trap",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "2213834": {
+    "name": "Dish It Out",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "2213837": {
+    "name": "Counter Offer",
+    "status": "Recruiting",
+    "ready_at": 1790082481,
+    "executed_at": null,
+    "slots": {
+      "undefined": {
+        "user_id": 3915266,
+        "user_name": "Lucifixion",
+        "checkpoint_pass_rate": 79,
+        "position": "Picklock",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1789996241,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3915266,
+        "user_name": "Lucifixion",
+        "checkpoint_pass_rate": 79,
+        "position": "Picklock",
         "item_available": true
       }
     ]
