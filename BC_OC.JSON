@@ -169722,23 +169722,41 @@
   "2220094": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1790235230,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 70,
+        "position": "Imitator",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1790149247,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 70,
+        "position": "Imitator",
+        "item_available": true
+      }
+    ]
   },
   "2220095": {
     "name": "Cleared for Takeoff",
     "status": "Recruiting",
-    "ready_at": 1790194279,
+    "ready_at": 1790280679,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 3348136,
-        "user_name": "shrigma",
-        "checkpoint_pass_rate": 72,
-        "position": "Pickpocket",
-        "item_available": true
+        "user_id": 2325329,
+        "user_name": "Crispyfoot",
+        "checkpoint_pass_rate": 70,
+        "position": "Assassin"
       }
     },
     "action_log": [
@@ -169751,6 +169769,25 @@
         "checkpoint_pass_rate": 72,
         "position": "Pickpocket",
         "item_available": true
+      },
+      {
+        "timestamp": 1790149247,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 3348136,
+        "user_name": "shrigma",
+        "checkpoint_pass_rate": 72,
+        "position": "Pickpocket",
+        "item_available": true
+      },
+      {
+        "timestamp": 1790149247,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2325329,
+        "user_name": "Crispyfoot",
+        "checkpoint_pass_rate": 70,
+        "position": "Assassin"
       }
     ]
   },
