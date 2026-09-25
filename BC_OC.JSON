@@ -169498,9 +169498,9 @@
   },
   "2212483": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1790322811,
-    "executed_at": null,
+    "executed_at": 1790322849,
     "slots": {
       "undefined": {
         "user_id": 14922,
@@ -170082,10 +170082,29 @@
   "2228151": {
     "name": "Cleared for Takeoff",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1790409440,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 72,
+        "position": "Pickpocket",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1790323257,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3449771,
+        "user_name": "Driccy",
+        "checkpoint_pass_rate": 72,
+        "position": "Pickpocket",
+        "item_available": true
+      }
+    ]
   },
   "2229653": {
     "name": "Dish It Out",
