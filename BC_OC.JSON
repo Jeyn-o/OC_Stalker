@@ -168716,9 +168716,9 @@
   },
   "2198373": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1790340738,
-    "executed_at": null,
+    "executed_at": 1790351588,
     "slots": {
       "undefined": {
         "user_id": 2802800,
@@ -170086,10 +170086,29 @@
   "2228144": {
     "name": "Break the Bank",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1790610922,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 68,
+        "position": "Muscle",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1790352068,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2675301,
+        "user_name": "ExiledAstronaut",
+        "checkpoint_pass_rate": 68,
+        "position": "Muscle",
+        "item_available": true
+      }
+    ]
   },
   "2228145": {
     "name": "Clinical Precision",
