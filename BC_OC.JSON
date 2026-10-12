@@ -173788,10 +173788,29 @@
   "2304344": {
     "name": "Dish It Out",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1791897556,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3139132,
+        "user_name": "JuanPaulo",
+        "checkpoint_pass_rate": 82,
+        "position": "Assassin",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1791811245,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3139132,
+        "user_name": "JuanPaulo",
+        "checkpoint_pass_rate": 82,
+        "position": "Assassin",
+        "item_available": true
+      }
+    ]
   },
   "2304345": {
     "name": "Counter Offer",
@@ -173909,16 +173928,15 @@
   },
   "2307479": {
     "name": "Cleared for Takeoff",
-    "status": "Planning",
-    "ready_at": 1792277137,
+    "status": "Recruiting",
+    "ready_at": 1792190737,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 3139132,
-        "user_name": "JuanPaulo",
-        "checkpoint_pass_rate": 65,
-        "position": "Interrogator",
-        "item_available": true
+        "user_id": 2325329,
+        "user_name": "Crispyfoot",
+        "checkpoint_pass_rate": 70,
+        "position": "Assassin"
       }
     },
     "action_log": [
@@ -173969,6 +173987,25 @@
         "checkpoint_pass_rate": 65,
         "position": "Interrogator",
         "item_available": true
+      },
+      {
+        "timestamp": 1791811245,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 3139132,
+        "user_name": "JuanPaulo",
+        "checkpoint_pass_rate": 65,
+        "position": "Interrogator",
+        "item_available": true
+      },
+      {
+        "timestamp": 1791811245,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2325329,
+        "user_name": "Crispyfoot",
+        "checkpoint_pass_rate": 70,
+        "position": "Assassin"
       }
     ]
   },
