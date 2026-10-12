@@ -173665,9 +173665,9 @@
   },
   "2300568": {
     "name": "Honey Trap",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1791842693,
-    "executed_at": null,
+    "executed_at": 1791842713,
     "slots": {
       "undefined": {
         "user_id": 3945957,
@@ -174195,10 +174195,27 @@
   "2314477": {
     "name": "Blast from the Past",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1791928857,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3946187,
+        "user_name": "RichardCheese",
+        "checkpoint_pass_rate": 67,
+        "position": "Picklock"
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1791843043,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3946187,
+        "user_name": "RichardCheese",
+        "checkpoint_pass_rate": 67,
+        "position": "Picklock"
+      }
+    ]
   },
   "2314478": {
     "name": "Clinical Precision",
