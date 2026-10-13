@@ -173319,9 +173319,9 @@
   },
   "2287676": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1791880328,
-    "executed_at": null,
+    "executed_at": 1791880389,
     "slots": {
       "undefined": {
         "user_id": 2937449,
@@ -174296,10 +174296,29 @@
   "2314478": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1791966927,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 2671608,
+        "user_name": "AlfieG",
+        "checkpoint_pass_rate": 73,
+        "position": "Cleaner",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1791880841,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2671608,
+        "user_name": "AlfieG",
+        "checkpoint_pass_rate": 73,
+        "position": "Cleaner",
+        "item_available": true
+      }
+    ]
   },
   "2316203": {
     "name": "Leave No Trace",
