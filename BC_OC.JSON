@@ -173889,9 +173889,9 @@
   },
   "2304345": {
     "name": "Counter Offer",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1792101161,
-    "executed_at": null,
+    "executed_at": 1792102329,
     "slots": {
       "undefined": {
         "user_id": 3932437,
@@ -174574,14 +174574,15 @@
   "2329009": {
     "name": "Guardian Ángels",
     "status": "Recruiting",
-    "ready_at": 1792187899,
+    "ready_at": 1792274299,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 541960,
-        "user_name": "Davie_Corleone",
-        "checkpoint_pass_rate": 89,
-        "position": "Hustler"
+        "user_id": 3932437,
+        "user_name": "Stealthination",
+        "checkpoint_pass_rate": 70,
+        "position": "Engineer",
+        "item_available": true
       }
     },
     "action_log": [
@@ -174593,16 +174594,54 @@
         "user_name": "Davie_Corleone",
         "checkpoint_pass_rate": 89,
         "position": "Hustler"
+      },
+      {
+        "timestamp": 1792102841,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 541960,
+        "user_name": "Davie_Corleone",
+        "checkpoint_pass_rate": 89,
+        "position": "Hustler"
+      },
+      {
+        "timestamp": 1792102841,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3932437,
+        "user_name": "Stealthination",
+        "checkpoint_pass_rate": 70,
+        "position": "Engineer",
+        "item_available": true
       }
     ]
   },
   "2329010": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1792188796,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3976308,
+        "user_name": "Bellarin",
+        "checkpoint_pass_rate": 73,
+        "position": "Engineer",
+        "item_available": false
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1792102841,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3976308,
+        "user_name": "Bellarin",
+        "checkpoint_pass_rate": 73,
+        "position": "Engineer",
+        "item_available": false
+      }
+    ]
   },
   "2329011": {
     "name": "Dish It Out",
