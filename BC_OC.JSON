@@ -174003,9 +174003,9 @@
   },
   "2307479": {
     "name": "Cleared for Takeoff",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1792277137,
-    "executed_at": null,
+    "executed_at": 1792277170,
     "slots": {
       "undefined": {
         "user_id": 1552953,
@@ -174291,9 +174291,9 @@
   },
   "2314474": {
     "name": "Dish It Out",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1792277382,
-    "executed_at": null,
+    "executed_at": 1792277412,
     "slots": {
       "undefined": {
         "user_id": 3942148,
@@ -175067,15 +175067,14 @@
   "2338422": {
     "name": "Ship Happens",
     "status": "Recruiting",
-    "ready_at": 1792529332,
+    "ready_at": 1792615732,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 2736671,
-        "user_name": "Twitt3y",
-        "checkpoint_pass_rate": 67,
-        "position": "Hustler",
-        "item_available": true
+        "user_id": 2621654,
+        "user_name": "Hstains",
+        "checkpoint_pass_rate": 75,
+        "position": "Interrogator"
       }
     },
     "action_log": [
@@ -175088,6 +175087,25 @@
         "checkpoint_pass_rate": 67,
         "position": "Hustler",
         "item_available": true
+      },
+      {
+        "timestamp": 1792277439,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 2736671,
+        "user_name": "Twitt3y",
+        "checkpoint_pass_rate": 67,
+        "position": "Hustler",
+        "item_available": true
+      },
+      {
+        "timestamp": 1792277439,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2621654,
+        "user_name": "Hstains",
+        "checkpoint_pass_rate": 75,
+        "position": "Interrogator"
       }
     ]
   },
