@@ -175525,9 +175525,9 @@
   },
   "2343419": {
     "name": "Leave No Trace",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1792737922,
-    "executed_at": null,
+    "executed_at": 1792737968,
     "slots": {
       "undefined": {
         "user_id": 3973984,
@@ -176174,10 +176174,29 @@
   "2358672": {
     "name": "Bidding War",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1792824458,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 70,
+        "position": "Robber",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1792738241,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 70,
+        "position": "Robber",
+        "item_available": true
+      }
+    ]
   },
   "2360051": {
     "name": "Ship Happens",
