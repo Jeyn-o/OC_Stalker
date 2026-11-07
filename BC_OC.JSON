@@ -179005,9 +179005,9 @@
   },
   "2422313": {
     "name": "No Reserve",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1794073549,
-    "executed_at": null,
+    "executed_at": 1794073572,
     "slots": {
       "undefined": {
         "user_id": 4035224,
@@ -179352,5 +179352,30 @@
     "executed_at": null,
     "slots": {},
     "action_log": []
+  },
+  "2436715": {
+    "name": "Honey Trap",
+    "status": "Recruiting",
+    "ready_at": 1794160082,
+    "executed_at": null,
+    "slots": {
+      "undefined": {
+        "user_id": 3969644,
+        "user_name": "DungeonCrawler",
+        "checkpoint_pass_rate": 70,
+        "position": "Muscle"
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1794073839,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3969644,
+        "user_name": "DungeonCrawler",
+        "checkpoint_pass_rate": 70,
+        "position": "Muscle"
+      }
+    ]
   }
 }
