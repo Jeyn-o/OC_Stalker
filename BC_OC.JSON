@@ -179485,10 +179485,29 @@
   "2438062": {
     "name": "Honey Trap",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1794249680,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3806146,
+        "user_name": "ARTHUR_CRICKET",
+        "checkpoint_pass_rate": 78,
+        "position": "Enforcer",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1794163846,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3806146,
+        "user_name": "ARTHUR_CRICKET",
+        "checkpoint_pass_rate": 78,
+        "position": "Enforcer",
+        "item_available": true
+      }
+    ]
   },
   "2438064": {
     "name": "Clinical Precision",
@@ -179568,14 +179587,15 @@
   "2439644": {
     "name": "Leave No Trace",
     "status": "Recruiting",
-    "ready_at": 1794232984,
+    "ready_at": 1794319384,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 3805208,
-        "user_name": "AuntGoo",
-        "checkpoint_pass_rate": 70,
-        "position": "Techie"
+        "user_id": 1176628,
+        "user_name": "LDOC",
+        "checkpoint_pass_rate": 75,
+        "position": "Imitator",
+        "item_available": true
       }
     },
     "action_log": [
@@ -179587,6 +179607,25 @@
         "user_name": "AuntGoo",
         "checkpoint_pass_rate": 70,
         "position": "Techie"
+      },
+      {
+        "timestamp": 1794163846,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 3805208,
+        "user_name": "AuntGoo",
+        "checkpoint_pass_rate": 70,
+        "position": "Techie"
+      },
+      {
+        "timestamp": 1794163846,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 1176628,
+        "user_name": "LDOC",
+        "checkpoint_pass_rate": 75,
+        "position": "Imitator",
+        "item_available": true
       }
     ]
   },
