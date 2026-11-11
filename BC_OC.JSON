@@ -178705,9 +178705,9 @@
   },
   "2419329": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1794354776,
-    "executed_at": null,
+    "executed_at": 1794355511,
     "slots": {
       "undefined": {
         "user_id": 2408196,
@@ -179784,15 +179784,14 @@
   "2440479": {
     "name": "Ship Happens",
     "status": "Recruiting",
-    "ready_at": 1794411106,
+    "ready_at": 1794583906,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 3343429,
-        "user_name": "Znowhite",
-        "checkpoint_pass_rate": 67,
-        "position": "Hustler",
-        "item_available": true
+        "user_id": 2621654,
+        "user_name": "Hstains",
+        "checkpoint_pass_rate": 76,
+        "position": "Interrogator"
       }
     },
     "action_log": [
@@ -179805,6 +179804,25 @@
         "checkpoint_pass_rate": 67,
         "position": "Hustler",
         "item_available": true
+      },
+      {
+        "timestamp": 1794355843,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 3343429,
+        "user_name": "Znowhite",
+        "checkpoint_pass_rate": 67,
+        "position": "Hustler",
+        "item_available": true
+      },
+      {
+        "timestamp": 1794355843,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2621654,
+        "user_name": "Hstains",
+        "checkpoint_pass_rate": 76,
+        "position": "Interrogator"
       }
     ]
   },
