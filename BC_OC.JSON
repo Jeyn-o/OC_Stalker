@@ -181719,23 +181719,40 @@
   "2481262": {
     "name": "Ship Happens",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1795105557,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 77,
+        "position": "Interrogator"
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1795019454,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2419133,
+        "user_name": "Jeyno",
+        "checkpoint_pass_rate": 77,
+        "position": "Interrogator"
+      }
+    ]
   },
   "2486938": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1795098637,
+    "ready_at": 1795185037,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 2154655,
-        "user_name": "Khana",
-        "checkpoint_pass_rate": 69,
-        "position": "Imitator",
-        "item_available": true
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 77,
+        "position": "Assassin",
+        "item_available": false
       }
     },
     "action_log": [
@@ -181748,6 +181765,26 @@
         "checkpoint_pass_rate": 69,
         "position": "Imitator",
         "item_available": true
+      },
+      {
+        "timestamp": 1795019454,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 2154655,
+        "user_name": "Khana",
+        "checkpoint_pass_rate": 69,
+        "position": "Imitator",
+        "item_available": true
+      },
+      {
+        "timestamp": 1795019454,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2801440,
+        "user_name": "joschlumpf",
+        "checkpoint_pass_rate": 77,
+        "position": "Assassin",
+        "item_available": false
       }
     ]
   },
