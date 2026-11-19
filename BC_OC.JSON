@@ -181275,9 +181275,9 @@
   },
   "2473254": {
     "name": "No Reserve",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1795067175,
-    "executed_at": null,
+    "executed_at": 1795067228,
     "slots": {
       "undefined": {
         "user_id": 4035224,
@@ -181963,14 +181963,15 @@
   "2489182": {
     "name": "Guardian Ángels",
     "status": "Recruiting",
-    "ready_at": 1795124046,
+    "ready_at": 1795210446,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 3967366,
-        "user_name": "Icks-B",
-        "checkpoint_pass_rate": 86,
-        "position": "Enforcer"
+        "user_id": 4035224,
+        "user_name": "Fahrudy",
+        "checkpoint_pass_rate": 75,
+        "position": "Engineer",
+        "item_available": true
       }
     },
     "action_log": [
@@ -181982,6 +181983,25 @@
         "user_name": "Icks-B",
         "checkpoint_pass_rate": 86,
         "position": "Enforcer"
+      },
+      {
+        "timestamp": 1795067442,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 3967366,
+        "user_name": "Icks-B",
+        "checkpoint_pass_rate": 86,
+        "position": "Enforcer"
+      },
+      {
+        "timestamp": 1795067442,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 4035224,
+        "user_name": "Fahrudy",
+        "checkpoint_pass_rate": 75,
+        "position": "Engineer",
+        "item_available": true
       }
     ]
   }
