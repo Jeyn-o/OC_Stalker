@@ -181682,9 +181682,9 @@
   },
   "2480992": {
     "name": "No Reserve",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1795216381,
-    "executed_at": null,
+    "executed_at": 1795216391,
     "slots": {
       "undefined": {
         "user_id": 3942701,
@@ -182216,10 +182216,29 @@
   "2496758": {
     "name": "No Reserve",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1795303125,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 80,
+        "position": "Techie",
+        "item_available": true
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1795216849,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3973984,
+        "user_name": "ssodon",
+        "checkpoint_pass_rate": 80,
+        "position": "Techie",
+        "item_available": true
+      }
+    ]
   },
   "2496759": {
     "name": "Counter Offer",
@@ -182255,6 +182274,14 @@
   },
   "2499491": {
     "name": "Dish It Out",
+    "status": "Recruiting",
+    "ready_at": null,
+    "executed_at": null,
+    "slots": {},
+    "action_log": []
+  },
+  "2499791": {
+    "name": "Bidding War",
     "status": "Recruiting",
     "ready_at": null,
     "executed_at": null,
