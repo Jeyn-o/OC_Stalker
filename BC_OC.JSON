@@ -181817,9 +181817,9 @@
   },
   "2486938": {
     "name": "Clinical Precision",
-    "status": "Planning",
+    "status": "Failure",
     "ready_at": 1795365890,
-    "executed_at": null,
+    "executed_at": 1795365915,
     "slots": {
       "undefined": {
         "user_id": 2679269,
@@ -182527,15 +182527,34 @@
   "2504578": {
     "name": "Ship Happens",
     "status": "Recruiting",
-    "ready_at": null,
+    "ready_at": 1795452632,
     "executed_at": null,
-    "slots": {},
-    "action_log": []
+    "slots": {
+      "undefined": {
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 70,
+        "position": "Hustler",
+        "item_available": false
+      }
+    },
+    "action_log": [
+      {
+        "timestamp": 1795366250,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 3026725,
+        "user_name": "Neodork",
+        "checkpoint_pass_rate": 70,
+        "position": "Hustler",
+        "item_available": false
+      }
+    ]
   },
   "2504579": {
     "name": "Window of Opportunity",
     "status": "Recruiting",
-    "ready_at": 1795449726,
+    "ready_at": 1795536126,
     "executed_at": null,
     "slots": {
       "undefined": {
