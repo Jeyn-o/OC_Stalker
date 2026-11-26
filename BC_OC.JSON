@@ -182227,9 +182227,9 @@
   },
   "2496757": {
     "name": "Break the Bank",
-    "status": "Planning",
+    "status": "Successful",
     "ready_at": 1795702541,
-    "executed_at": null,
+    "executed_at": 1795702568,
     "slots": {
       "undefined": {
         "user_id": 2671608,
@@ -183236,14 +183236,15 @@
   "2519067": {
     "name": "Clinical Precision",
     "status": "Recruiting",
-    "ready_at": 1795741637,
+    "ready_at": 1795828037,
     "executed_at": null,
     "slots": {
       "undefined": {
-        "user_id": 3116621,
-        "user_name": "BBCliff",
-        "checkpoint_pass_rate": 63,
-        "position": "Cat Burglar"
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 71,
+        "position": "Assassin",
+        "item_available": false
       }
     },
     "action_log": [
@@ -183255,6 +183256,25 @@
         "user_name": "BBCliff",
         "checkpoint_pass_rate": 63,
         "position": "Cat Burglar"
+      },
+      {
+        "timestamp": 1795702850,
+        "action": "left",
+        "slot": "undefined",
+        "user_id": 3116621,
+        "user_name": "BBCliff",
+        "checkpoint_pass_rate": 63,
+        "position": "Cat Burglar"
+      },
+      {
+        "timestamp": 1795702850,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 2937449,
+        "user_name": "Piraterer",
+        "checkpoint_pass_rate": 71,
+        "position": "Assassin",
+        "item_available": false
       }
     ]
   },
