@@ -183525,9 +183525,17 @@
   "2527437": {
     "name": "Dish It Out",
     "status": "Recruiting",
-    "ready_at": 1795825666,
+    "ready_at": 1795960535,
     "executed_at": null,
-    "slots": {},
+    "slots": {
+      "undefined": {
+        "user_id": 517163,
+        "user_name": "Spoon",
+        "checkpoint_pass_rate": 81,
+        "position": "Saboteur",
+        "item_available": true
+      }
+    },
     "action_log": [
       {
         "timestamp": 1795739461,
@@ -183547,6 +183555,16 @@
         "user_name": "TreyTheGay",
         "checkpoint_pass_rate": 73,
         "position": "Engineer",
+        "item_available": true
+      },
+      {
+        "timestamp": 1795874467,
+        "action": "joined",
+        "slot": "undefined",
+        "user_id": 517163,
+        "user_name": "Spoon",
+        "checkpoint_pass_rate": 81,
+        "position": "Saboteur",
         "item_available": true
       }
     ]
